@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">index
 
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CapaBench: Modular Attribution Benchmark</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CapaBench: Modular Attribution Benchmark</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet"/>
+<style>
     :root {
       --primary-color: #4b6cb7;
       --secondary-color: #182848;
@@ -197,52 +197,309 @@
       }
     }
   </style>
-</head>
+<style>
+        :root {
+            --primary-color: #4b6cb7;
+            --secondary-color: #182848;
+            --accent-color: #8e44ad;
+            --text-color: #2c3e50;
+            --light-bg: #f8f9fa;
+        }
 
-<body>
-  <!-- Header -->
-  <header class="text-center">
-    <div class="container">
-      <h1 data-aos="fade-down">CapaBench</h1>
-      <p class="subtitle" data-aos="fade-up">A Game-Theoretic Evaluation Benchmark for Modular Attribution in LLM Agents
+        /* 新增：平滑滚动效果 */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* 升级：导航栏样式 */
+        .navbar {
+            background: rgba(24, 40, 72, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .navbar.scrolled {
+            padding: 5px 0;
+            background: rgba(24, 40, 72, 0.95);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .navbar-brand {
+            font-weight: 600;
+            background: linear-gradient(135deg, #fff, #e0e0e0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            position: relative;
+        }
+
+        .navbar-brand::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+            transition: width 0.3s ease;
+        }
+
+        .navbar-brand:hover::after {
+            width: 100%;
+        }
+
+        .nav-link {
+            position: relative;
+            padding: 0.5rem 1rem !important;
+            margin: 0 0.2rem;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 2px;
+            background: var(--accent-color);
+            transition: width 0.3s ease;
+        }
+
+        .nav-link:hover::before {
+            width: 80%;
+        }
+
+        .nav-link.active::before {
+            width: 80%;
+        }
+
+        /* 升级：进度条 */
+        .scroll-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 4px;
+            background: linear-gradient(90deg, 
+                var(--primary-color), 
+                var(--accent-color), 
+                var(--primary-color));
+            background-size: 200% 100%;
+            animation: gradientMove 3s linear infinite;
+            z-index: 1000;
+            transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 0 10px rgba(75, 108, 183, 0.5);
+        }
+
+        @keyframes gradientMove {
+            0% { background-position: 100% 0; }
+            100% { background-position: -100% 0; }
+        }
+
+        /* 新增：导航项悬停动画 */
+        @keyframes navItemGlow {
+            0% { box-shadow: 0 0 5px rgba(142, 68, 173, 0); }
+            50% { box-shadow: 0 0 10px rgba(142, 68, 173, 0.3); }
+            100% { box-shadow: 0 0 5px rgba(142, 68, 173, 0); }
+        }
+
+        .nav-item:hover .nav-link {
+            animation: navItemGlow 2s infinite;
+        }
+        
+        /* 新增：滚动指示器 */
+        .scroll-indicator {
+            position: fixed;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .scroll-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.3);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .scroll-dot.active {
+            background: var(--accent-color);
+            transform: scale(1.5);
+            box-shadow: 0 0 10px var(--accent-color);
+        }
+
+        /* 新增：文字渐变效果 */
+        .gradient-text {
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* 新增：卡片悬停效果 */
+        .feature-card {
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(75, 108, 183, 0.1), rgba(142, 68, 173, 0.1));
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .feature-card:hover::before {
+            opacity: 1;
+        }
+
+        /* 新增：表格动画效果 */
+        .dataset-table tr {
+            transition: all 0.3s ease;
+        }
+
+        .dataset-table tr:hover {
+            background: rgba(75, 108, 183, 0.05);
+            transform: scale(1.01);
+        }
+
+        /* 新增：返回顶部按钮 */
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 40px;
+            height: 40px;
+            background: var(--primary-color);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            opacity: 0;
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+
+        .back-to-top.visible {
+            opacity: 1;
+        }
+
+        /* 新增：响应式调整 */
+        @media (max-width: 768px) {
+            .feature-card {
+                margin-bottom: 20px;
+            }
+            
+            header h1 {
+                font-size: 2.5rem;
+            }
+        }
+    </style></head>
+<body><div class="scroll-progress"></div><nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+<div class="container">
+<a class="navbar-brand" href="#">
+<i class="fas fa-cube me-2"></i>CapaBench
+            </a>
+<button class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item">
+<a class="nav-link" href="#intro">
+<i class="fas fa-info-circle me-1"></i>Introduction
+                        </a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#framework">
+<i class="fas fa-project-diagram me-1"></i>Framework
+                        </a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#dataset">
+<i class="fas fa-database me-1"></i>Dataset
+                        </a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#results">
+<i class="fas fa-chart-bar me-1"></i>Results
+                        </a>
+</li>
+</ul>
+</div>
+</div>
+</nav><div class="scroll-indicator">
+<div class="scroll-dot" data-section="intro"></div>
+<div class="scroll-dot" data-section="framework"></div>
+<div class="scroll-dot" data-section="dataset"></div>
+<div class="scroll-dot" data-section="results"></div>
+</div>
+<!-- Header -->
+<header class="text-center" style="padding-top: 80px;; padding-top: 120px;">
+<div class="container">
+<h1 data-aos="fade-down">CapaBench</h1>
+<p class="subtitle" data-aos="fade-up">A Game-Theoretic Evaluation Benchmark for Modular Attribution in LLM Agents
       </p>
-      <div class="authors" data-aos="fade-up" data-aos-delay="100">
+<div class="authors" data-aos="fade-up" data-aos-delay="100">
         Yingxuan Yang<sup>1</sup>, Bo Huang<sup>1</sup>, Siyuan Qi<sup>1</sup>, Chao Feng<sup>1</sup>,
         Haoyi Hu<sup>1</sup>, Yuxuan Zhu<sup>2</sup>, Jinbo Hu<sup>1</sup>, Haoran Zhao<sup>1</sup>,
         Ziyi He<sup>3</sup>, Xiao Liu<sup>4</sup>, Zongyu Wang<sup>4</sup>, Lin Qiu<sup>4</sup>,
         Xuezhi Cao<sup>4</sup>, Xunliang Cai<sup>4</sup>, Yong Yu<sup>1</sup>, Weinan Zhang<sup>1</sup>
-      </div>
-      <div class="institutions" data-aos="fade-up" data-aos-delay="200">
-        <sup>1</sup>Shanghai Jiao Tong University,
+</div>
+<div class="institutions" data-aos="fade-up" data-aos-delay="200">
+<sup>1</sup>Shanghai Jiao Tong University,
         <sup>2</sup>University of Chicago,
         <sup>3</sup>University of Toronto,
         <sup>4</sup>Meituan
       </div>
-      <p class="mt-4" data-aos="fade-up" data-aos-delay="300">
+<p class="mt-4" data-aos="fade-up" data-aos-delay="300">
         Contact:
-        <a href="mailto:zoeyyx@sjtu.edu.cn" class="text-light">zoeyyx@sjtu.edu.cn</a>,
-        <a href="mailto:wnzhang@sjtu.edu.cn" class="text-light">wnzhang@sjtu.edu.cn</a>
-      </p>
-      <div class="mt-4" data-aos="fade-up" data-aos-delay="400">
-        <a href="CapaBench.pdf" class="btn btn-primary mx-2 mb-2">Download Paper</a>
-        <a href="https://github.com/your-repo" class="btn btn-secondary mx-2 mb-2">View on GitHub</a>
-      </div>
-    </div>
-  </header>
-
-  <!-- Main Content -->
-  <main>
-    <!-- Introduction -->
-    <section id="intro">
-      <div class="container">
-        <h2 class="section-title" data-aos="fade-right">Introduction</h2>
-        <div class="text-center mb-5" data-aos="zoom-in">
-          <img src="images/rader_chart.png" alt="Agent Workflow" style="width: 75%;">
-        </div>
-        <div class="row">
-          <div class="col-lg-12" data-aos="fade-up">
-            <div class="card p-4">
-              <p>
+        <a class="text-light" href="mailto:zoeyyx@sjtu.edu.cn">zoeyyx@sjtu.edu.cn</a>,
+        <a class="text-light" href="mailto:wnzhang@sjtu.edu.cn">wnzhang@sjtu.edu.cn</a>
+</p>
+<div class="mt-4" data-aos="fade-up" data-aos-delay="400">
+<a class="btn btn-primary mx-2 mb-2" href="CapaBench.pdf">Download Paper</a>
+<a class="btn btn-secondary mx-2 mb-2" href="https://github.com/your-repo">View on GitHub</a>
+</div>
+</div>
+</header>
+<!-- Main Content -->
+<main>
+<!-- Introduction -->
+<section id="intro">
+<div class="container">
+<h2 class="section-title" data-aos="fade-right">Introduction</h2>
+<div class="text-center mb-5" data-aos="zoom-in">
+<img alt="Agent Workflow" src="images/rader_chart.png" style="width: 75%;"/>
+</div>
+<div class="row">
+<div class="col-lg-12" data-aos="fade-up">
+<div class="card p-4">
+<p>
                 CapaBench is a novel evaluation framework leveraging Shapley Value from cooperative game theory to
                 measure
                 the contributions of individual modules within modular Large Language Models (LLMs). By quantifying
@@ -250,287 +507,274 @@
                 contributions, CapaBench facilitates systematic optimization and enhances the interpretability of agent
                 architectures.
               </p>
-              <p class="mb-0">
+<p class="mb-0">
                 The framework evaluates Planning, Reasoning, Action, and Reflection capabilities by analyzing their
                 individual and synergistic impacts on task performance. With a comprehensive dataset of over 1,500
                 multi-round,
                 practical task scenarios, CapaBench enables robust and generalizable assessments tailored to real-world
                 applications.
               </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Framework Overview -->
-    <section id="framework">
-      <div class="container">
-        <h2 class="section-title" data-aos="fade-right">Framework Overview</h2>
-        <h3 class="mb-4" data-aos="fade-up">Agent Workflow</h3>
-        <div class="text-center mb-5" data-aos="zoom-in">
-          <img src="images/Agent workfolw.png" alt="Agent Workflow" style="width: 85%;">
-        </div>
-        <div class="row">
-          <div class="col-lg-12" data-aos="fade-up">
-            <div class="card p-4">
-              <h4 class="mb-3">Key Components</h4>
-              <div class="row">
-                <div class="col-md-6 mb-4">
-                  <div class="h-100 p-4" style="background: rgba(75,108,183,0.1); border-radius: 10px;">
-                    <h5 class="text-primary">Planning</h5>
-                    <p class="mb-0">Decomposes complex tasks into structured subtasks, enabling efficient resource
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Framework Overview -->
+<section id="framework">
+<div class="container">
+<h2 class="section-title" data-aos="fade-right">Framework Overview</h2>
+<h3 class="mb-4" data-aos="fade-up">Agent Workflow</h3>
+<div class="text-center mb-5" data-aos="zoom-in">
+<img alt="Agent Workflow" src="images/Agent workfolw.png" style="width: 85%;"/>
+</div>
+<div class="row">
+<div class="col-lg-12" data-aos="fade-up">
+<div class="card p-4">
+<h4 class="mb-3">Key Components</h4>
+<div class="row">
+<div class="col-md-6 mb-4">
+<div class="h-100 p-4" style="background: rgba(75,108,183,0.1); border-radius: 10px;">
+<h5 class="text-primary">Planning</h5>
+<p class="mb-0">Decomposes complex tasks into structured subtasks, enabling efficient resource
                       allocation.</p>
-                  </div>
-                </div>
-                <div class="col-md-6 mb-4">
-                  <div class="h-100 p-4" style="background: rgba(75,108,183,0.1); border-radius: 10px;">
-                    <h5 class="text-primary">Reasoning</h5>
-                    <p class="mb-0">Uses logical inference and contextual understanding to determine appropriate
+</div>
+</div>
+<div class="col-md-6 mb-4">
+<div class="h-100 p-4" style="background: rgba(75,108,183,0.1); border-radius: 10px;">
+<h5 class="text-primary">Reasoning</h5>
+<p class="mb-0">Uses logical inference and contextual understanding to determine appropriate
                       actions.</p>
-                  </div>
-                </div>
-                <div class="col-md-6 mb-4">
-                  <div class="h-100 p-4" style="background: rgba(75,108,183,0.1); border-radius: 10px;">
-                    <h5 class="text-primary">Action</h5>
-                    <p class="mb-0">Translates cognitive processes into executable operations, ensuring effective task
+</div>
+</div>
+<div class="col-md-6 mb-4">
+<div class="h-100 p-4" style="background: rgba(75,108,183,0.1); border-radius: 10px;">
+<h5 class="text-primary">Action</h5>
+<p class="mb-0">Translates cognitive processes into executable operations, ensuring effective task
                       execution.</p>
-                  </div>
-                </div>
-                <div class="col-md-6 mb-4">
-                  <div class="h-100 p-4" style="background: rgba(75,108,183,0.1); border-radius: 10px;">
-                    <h5 class="text-primary">Reflection</h5>
-                    <p class="mb-0">Analyzes outcomes to iteratively improve performance through feedback and
+</div>
+</div>
+<div class="col-md-6 mb-4">
+<div class="h-100 p-4" style="background: rgba(75,108,183,0.1); border-radius: 10px;">
+<h5 class="text-primary">Reflection</h5>
+<p class="mb-0">Analyzes outcomes to iteratively improve performance through feedback and
                       adjustments.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!DOCTYPE html>
 
-    <!DOCTYPE html>
-    <!-- 前面的内容保持不变，直到 Dataset Construction 部分 -->
-    
-        <!-- Dataset Construction -->
-        <section id="dataset">
-          <div class="container">
-            <h2 class="section-title" data-aos="fade-right">Dataset Construction</h2>
-            <div class="row">
-              <div class="col-lg-12" data-aos="fade-up">
-                <div class="table-responsive">
-                  <table class="table dataset-table">
-                    <thead>
-                      <tr>
-                        <th></th>
-                        <th></th>
-                        <th colspan="2">Daily Activities</th>
-                        <th colspan="3">Computation</th>
-                        <th colspan="2">Role Control</th>
-                      </tr>
-                      <tr>
-                        <th></th>
-                        <th></th>
-                        <th>Shopping</th>
-                        <th>Navigation</th>
-                        <th>Math</th>
-                        <th>Theorem Proving</th>
-                        <th>OS</th>
-                        <th>Robot</th>
-                        <th>Game</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td rowspan="2">Planning</td>
-                        <td>Task Steps</td>
-                        <td><span class="checkmark">✔</span></td>
-                        <td></td>
-                        <td><span class="checkmark">✔</span></td>
-                        <td><span class="checkmark">✔</span></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <td>Resource Constraints</td>
-                        <td></td>
-                        <td><span class="checkmark">✔</span></td>
-                        <td></td>
-                        <td></td>
-                        <td><span class="checkmark">✔</span></td>
-                        <td><span class="checkmark">✔</span></td>
-                        <td><span class="checkmark">✔</span></td>
-                      </tr>
-                      <tr>
-                        <td rowspan="3">Reasoning</td>
-                        <td>Logical Validation</td>
-                        <td></td>
-                        <td></td>
-                        <td><span class="checkmark">✔</span></td>
-                        <td><span class="checkmark">✔</span></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <td>Knowledge Inference</td>
-                        <td><span class="checkmark">✔</span></td>
-                        <td><span class="checkmark">✔</span></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td><span class="checkmark">✔</span></td>
-                      </tr>
-                      <tr>
-                        <td>Text Understanding</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td><span class="checkmark">✔</span></td>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <td>Action</td>
-                        <td>Environment Interaction</td>
-                        <td><span class="checkmark">✔</span></td>
-                        <td><span class="checkmark">✔</span></td>
-                        <td><span class="checkmark">✔</span></td>
-                        <td><span class="checkmark">✔</span></td>
-                        <td><span class="checkmark">✔</span></td>
-                        <td><span class="checkmark">✔</span></td>
-                        <td><span class="checkmark">✔</span></td>
-                      </tr>
-                      <tr>
-                        <td>Reflection</td>
-                        <td>Failure Analysis</td>
-                        <td><span class="checkmark">✔</span></td>
-                        <td><span class="checkmark">✔</span></td>
-                        <td><span class="checkmark">✔</span></td>
-                        <td><span class="checkmark">✔</span></td>
-                        <td><span class="checkmark">✔</span></td>
-                        <td><span class="checkmark">✔</span></td>
-                        <td><span class="checkmark">✔</span></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-    
-        <!-- Shapley Value Illustration -->
-        <section id="shapley">
-          <div class="container">
-            <h2 class="section-title" data-aos="fade-right">Shapley Value Illustration</h2>
-            <div class="row">
-              <div class="col-lg-12" data-aos="fade-up">
-                <div class="card p-4">
-                  <div class="text-center mb-4">
-                    <img src="images/shapley-value-illustration.png" alt="Shapley Value Illustration" style="width: 85%;">
-                  </div>
-                  <p>
+<!-- 前面的内容保持不变，直到 Dataset Construction 部分 -->
+<!-- Dataset Construction -->
+<section id="dataset">
+<div class="container">
+<h2 class="section-title" data-aos="fade-right">Dataset Construction</h2>
+<div class="row">
+<div class="col-lg-12" data-aos="fade-up">
+<div class="table-responsive">
+<table class="table dataset-table">
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th colspan="2">Daily Activities</th>
+<th colspan="3">Computation</th>
+<th colspan="2">Role Control</th>
+</tr>
+<tr>
+<th></th>
+<th></th>
+<th>Shopping</th>
+<th>Navigation</th>
+<th>Math</th>
+<th>Theorem Proving</th>
+<th>OS</th>
+<th>Robot</th>
+<th>Game</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="2">Planning</td>
+<td>Task Steps</td>
+<td><span class="checkmark">✔</span></td>
+<td></td>
+<td><span class="checkmark">✔</span></td>
+<td><span class="checkmark">✔</span></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Resource Constraints</td>
+<td></td>
+<td><span class="checkmark">✔</span></td>
+<td></td>
+<td></td>
+<td><span class="checkmark">✔</span></td>
+<td><span class="checkmark">✔</span></td>
+<td><span class="checkmark">✔</span></td>
+</tr>
+<tr>
+<td rowspan="3">Reasoning</td>
+<td>Logical Validation</td>
+<td></td>
+<td></td>
+<td><span class="checkmark">✔</span></td>
+<td><span class="checkmark">✔</span></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Knowledge Inference</td>
+<td><span class="checkmark">✔</span></td>
+<td><span class="checkmark">✔</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><span class="checkmark">✔</span></td>
+</tr>
+<tr>
+<td>Text Understanding</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><span class="checkmark">✔</span></td>
+<td></td>
+</tr>
+<tr>
+<td>Action</td>
+<td>Environment Interaction</td>
+<td><span class="checkmark">✔</span></td>
+<td><span class="checkmark">✔</span></td>
+<td><span class="checkmark">✔</span></td>
+<td><span class="checkmark">✔</span></td>
+<td><span class="checkmark">✔</span></td>
+<td><span class="checkmark">✔</span></td>
+<td><span class="checkmark">✔</span></td>
+</tr>
+<tr>
+<td>Reflection</td>
+<td>Failure Analysis</td>
+<td><span class="checkmark">✔</span></td>
+<td><span class="checkmark">✔</span></td>
+<td><span class="checkmark">✔</span></td>
+<td><span class="checkmark">✔</span></td>
+<td><span class="checkmark">✔</span></td>
+<td><span class="checkmark">✔</span></td>
+<td><span class="checkmark">✔</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Shapley Value Illustration -->
+<section id="shapley">
+<div class="container">
+<h2 class="section-title" data-aos="fade-right">Shapley Value Illustration</h2>
+<div class="row">
+<div class="col-lg-12" data-aos="fade-up">
+<div class="card p-4">
+<div class="text-center mb-4">
+<img alt="Shapley Value Illustration" src="images/shapley-value-illustration.png" style="width: 85%;"/>
+</div>
+<p>
                     The Shapley Value, a cornerstone of cooperative game theory, provides a mathematically rigorous method for
                     quantifying the marginal contributions of individual modules in an agent's architecture. This ensures fair
                     attribution of credit based on all possible permutations of module combinations.
                   </p>
-                  <p class="mb-0">
+<p class="mb-0">
                     For example, in a task requiring Planning, Reasoning, and Action, the Shapley Value captures the unique
                     contribution of each module and their interactions. This enables a deeper understanding of how modules work
                     together to drive performance.
                   </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-    
-        <!-- Experiment Results -->
-        <section id="results">
-          <div class="container">
-            <h2 class="section-title" data-aos="fade-right">Experiment Results</h2>
-            <div class="row">
-              <div class="col-lg-12" data-aos="fade-up">
-                <div class="card p-4">
-                  <h3>Selected Results Across Datasets</h3>
-                  <div class="text-center mb-4">
-                    <img src="images/main_results.jpg" alt="Experimental Results Across Datasets" class="img-fluid">
-                  </div>
-                  <p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Experiment Results -->
+<section id="results">
+<div class="container">
+<h2 class="section-title" data-aos="fade-right">Experiment Results</h2>
+<div class="row">
+<div class="col-lg-12" data-aos="fade-up">
+<div class="card p-4">
+<h3>Selected Results Across Datasets</h3>
+<div class="text-center mb-4">
+<img alt="Experimental Results Across Datasets" class="img-fluid" src="images/main_results.jpg"/>
+</div>
+<p>
                     The image above highlights results for selected models and datasets. Blue cells represent baseline model
                     metrics, and bold entries indicate the best results achieved for each task. Additional analysis confirms that module
                     configurations with higher Shapley Value contributions consistently outperform others.
                   </p>
-    
-                  <div class="mt-4">
-                    <h3>Key Findings</h3>
-    
-                    <h4>Cross-Task Model Performance Comparison</h4>
-                    <p>
+<div class="mt-4">
+<h3>Key Findings</h3>
+<h4>Cross-Task Model Performance Comparison</h4>
+<p>
                       Models such as <strong>Claude-3.5</strong> excel in complex logical reasoning and collaborative tasks, including
                       formal verification (e.g., Coq, Lean 4, Isabelle) and robot cooperation. In contrast, open-source models like
                       <strong>Qwen-2.5</strong> and <strong>Mistral-8X7B</strong> demonstrate strong performance in simpler tasks but
                       underperform in cognitively demanding scenarios.
                     </p>
-    
-                    <h4>Module Contribution Patterns</h4>
-                    <p>Module contributions vary significantly by task:</p>
-                    <ul>
-                      <li><strong>Online Shopping Tasks:</strong> The Planning (P) and Reasoning (R) modules dominate</li>
-                      <li><strong>Math Solver Tasks:</strong> The Action (A) module is critical, especially in geometry</li>
-                      <li><strong>Formal Verification Tasks:</strong> The Action (A) module is dominant</li>
-                      <li><strong>Robot Cooperation Tasks:</strong> The Reasoning (R) module plays the largest role</li>
-                      <li><strong>Operating System Tasks:</strong> The Reasoning (R) module is crucial</li>
-                    </ul>
-    
-                    <h4>Ability Transfer Patterns</h4>
-                    <p>
+<h4>Module Contribution Patterns</h4>
+<p>Module contributions vary significantly by task:</p>
+<ul>
+<li><strong>Online Shopping Tasks:</strong> The Planning (P) and Reasoning (R) modules dominate</li>
+<li><strong>Math Solver Tasks:</strong> The Action (A) module is critical, especially in geometry</li>
+<li><strong>Formal Verification Tasks:</strong> The Action (A) module is dominant</li>
+<li><strong>Robot Cooperation Tasks:</strong> The Reasoning (R) module plays the largest role</li>
+<li><strong>Operating System Tasks:</strong> The Reasoning (R) module is crucial</li>
+</ul>
+<h4>Ability Transfer Patterns</h4>
+<p>
                       Foundational skills like planning, reasoning, and execution generalize across related tasks. Notable transfer patterns include Action (A) module proficiency from Formal Verification to math problem-solving, and Planning (P) abilities from Shopping to Robot Cooperation tasks.
                     </p>
-    
-                    <h4>Impact of Model Architecture</h4>
-                    <p>
+<h4>Impact of Model Architecture</h4>
+<p>
                       Model architecture and training strategies often outweigh raw parameter size in determining performance, as demonstrated by <strong>Qwen-2.5</strong>'s superior performance in specific tasks despite having fewer parameters.
                     </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-    
-
-    <!-- Citation -->
-    <section id="citation">
-      <div class="container">
-        <h2 class="section-title" data-aos="fade-right">Citation</h2>
-        <div class="card p-4" data-aos="fade-up">
-          <pre class="citation mb-0">@article{capabench2025,
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Citation -->
+<section id="citation">
+<div class="container">
+<h2 class="section-title" data-aos="fade-right">Citation</h2>
+<div class="card p-4" data-aos="fade-up">
+<pre class="citation mb-0">@article{capabench2025,
   title={CapaBench: A Game-Theoretic Evaluation Benchmark for Modular Attribution in LLM Agents},
   author={Yingxuan Yang and others},
   journal={Conference Name},
   year={2025},
 }</pre>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-      <div class="container">
-        <p class="mb-0">© 2025 CapaBench Team. All Rights Reserved.</p>
-      </div>
-    </footer>
-  </main>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-  <script>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer>
+<div class="container">
+<p class="mb-0">© 2025 CapaBench Team. All Rights Reserved.</p>
+</div>
+</footer>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
     document.addEventListener('DOMContentLoaded', function () {
       AOS.init({
         duration: 800,
@@ -538,6 +782,85 @@
       });
     });
   </script>
-</body>
+<div class="back-to-top">
+<i class="fas fa-arrow-up"></i>
+</div><script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script><script>
+        // 初始化 AOS
+        AOS.init({
+            duration: 800,
+            once: true
+        });
 
+        // 处理导航栏和滚动效果
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            const scrollProgress = document.querySelector('.scroll-progress');
+            const backToTop = document.querySelector('.back-to-top');
+            const scrollDots = document.querySelectorAll('.scroll-dot');
+            
+            // 更新导航栏样式
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+            
+            // 更新进度条
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (winScroll / height) * 100;
+            scrollProgress.style.width = scrolled + '%';
+            
+            // 显示/隐藏返回顶部按钮
+            if (window.scrollY > 300) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+
+            // 更新导航项激活状态
+            document.querySelectorAll('section').forEach((section, index) => {
+                const rect = section.getBoundingClientRect();
+                if (rect.top <= 100 && rect.bottom >= 100) {
+                    document.querySelectorAll('.nav-link').forEach(link => link.classList.remove('active'));
+                    document.querySelector(`a[href="#${section.id}"]`)?.classList.add('active');
+                    
+                    // 更新滚动指示器
+                    scrollDots.forEach(dot => dot.classList.remove('active'));
+                    scrollDots[index]?.classList.add('active');
+                }
+            });
+        });
+
+        // 滚动指示器点击事件
+        document.querySelectorAll('.scroll-dot').forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                const sections = document.querySelectorAll('section');
+                if (sections[index]) {
+                    sections[index].scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // 返回顶部功能
+        document.querySelector('.back-to-top').addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // 平滑滚动到锚点
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script></body>
 </html>
