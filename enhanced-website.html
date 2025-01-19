@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CapaBench: Modular Attribution Benchmark</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <style>
+    :root {
+      --primary-color: #4b6cb7;
+      --secondary-color: #182848;
+      --accent-color: #8e44ad;
+      --text-color: #2c3e50;
+      --light-bg: #f8f9fa;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.8;
+      color: var(--text-color);
+      overflow-x: hidden;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+      color: white;
+      padding: 60px 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    header::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><path fill="%23ffffff10" d="M45,-52.9C57.5,-39.3,66.1,-23.1,69.9,-4.8C73.7,13.5,72.8,33.9,62.1,47.2C51.4,60.5,31.1,66.7,11.4,67.5C-8.2,68.3,-27.2,63.7,-43.5,52.9C-59.8,42,-73.3,25,-76.3,5.7C-79.3,-13.6,-71.7,-35.2,-57.3,-49.4C-42.9,-63.5,-21.4,-70.2,-2.2,-68.3C17,-66.4,34,-66.4,45,-52.9Z" transform="translate(100 100)"/></svg>') no-repeat center center;
+      opacity: 0.1;
+      transform: scale(5);
+    }
+
+    header h1 {
+      font-size: 4rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    .subtitle {
+      font-size: 1.8rem;
+      font-weight: 300;
+      max-width: 800px;
+      margin: 0 auto 30px;
+    }
+
+    .authors,
+    .institutions {
+      font-size: 1.1rem;
+      opacity: 0.9;
+      max-width: 1000px;
+      margin: 15px auto;
+      line-height: 1.6;
+    }
+
+    section {
+      padding: 60px 0;
+      position: relative;
+    }
+
+    section:nth-child(even) {
+      background-color: var(--light-bg);
+    }
+
+    .section-title {
+      font-size: 2.5rem;
+      color: var(--secondary-color);
+      margin-bottom: 40px;
+      position: relative;
+      display: inline-block;
+    }
+
+    .section-title::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      width: 60%;
+      height: 4px;
+      background: var(--primary-color);
+      border-radius: 2px;
+    }
+
+    .card {
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+      height: 100%;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    table {
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    table th {
+      background: var(--secondary-color);
+      color: white;
+      font-weight: 500;
+      padding: 15px;
+    }
+
+    table td {
+      padding: 12px;
+      transition: background-color 0.3s ease;
+    }
+
+    tr:hover td {
+      background-color: rgba(75, 108, 183, 0.1);
+    }
+
+    .checkmark {
+      color: var(--accent-color);
+      font-size: 1.5rem;
+    }
+
+    .btn-primary {
+      background: var(--primary-color);
+      border: none;
+      padding: 10px 25px;
+      border-radius: 25px;
+      transition: all 0.3s ease;
+    }
+
+    .btn-primary:hover {
+      background: var(--secondary-color);
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      border: 2px solid white;
+      padding: 10px 25px;
+      border-radius: 25px;
+      transition: all 0.3s ease;
+    }
+
+    .btn-secondary:hover {
+      background: white;
+      color: var(--primary-color);
+    }
+
+    img {
+      border-radius: 10px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    pre {
+      background: #f8f9fa;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background: var(--secondary-color);
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.5rem;
+      }
+
+      .subtitle {
+        font-size: 1.4rem;
+      }
+
+      .section-title {
+        font-size: 2rem;
+      }
+
+      table {
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="text-center">
+    <div class="container">
+      <h1 data-aos="fade-down">CapaBench</h1>
+      <p class="subtitle" data-aos="fade-up">A Game-Theoretic Evaluation Benchmark for Modular Attribution in LLM Agents
+      </p>
+      <div class="authors" data-aos="fade-up" data-aos-delay="100">
+        Yingxuan Yang<sup>1</sup>, Bo Huang<sup>1</sup>, Siyuan Qi<sup>1</sup>, Chao Feng<sup>1</sup>,
+        Haoyi Hu<sup>1</sup>, Yuxuan Zhu<sup>2</sup>, Jinbo Hu<sup>1</sup>, Haoran Zhao<sup>1</sup>,
+        Ziyi He<sup>3</sup>, Xiao Liu<sup>4</sup>, Zongyu Wang<sup>4</sup>, Lin Qiu<sup>4</sup>,
+        Xuezhi Cao<sup>4</sup>, Xunliang Cai<sup>4</sup>, Yong Yu<sup>1</sup>, Weinan Zhang<sup>1</sup>
+      </div>
+      <div class="institutions" data-aos="fade-up" data-aos-delay="200">
+        <sup>1</sup>Shanghai Jiao Tong University,
+        <sup>2</sup>University of Chicago,
+        <sup>3</sup>University of Toronto,
+        <sup>4</sup>Meituan
+      </div>
+      <p class="mt-4" data-aos="fade-up" data-aos-delay="300">
+        Contact:
+        <a href="mailto:zoeyyx@sjtu.edu.cn" class="text-light">zoeyyx@sjtu.edu.cn</a>,
+        <a href="mailto:wnzhang@sjtu.edu.cn" class="text-light">wnzhang@sjtu.edu.cn</a>
+      </p>
+      <div class="mt-4" data-aos="fade-up" data-aos-delay="400">
+        <a href="CapaBench.pdf" class="btn btn-primary mx-2 mb-2">Download Paper</a>
+        <a href="https://github.com/your-repo" class="btn btn-secondary mx-2 mb-2">View on GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Introduction -->
+    <section id="intro">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-right">Introduction</h2>
+        <div class="row">
+          <div class="col-lg-12" data-aos="fade-up">
+            <div class="card p-4">
+              <p>
+                CapaBench is a novel evaluation framework leveraging Shapley Value from cooperative game theory to
+                measure
+                the contributions of individual modules within modular Large Language Models (LLMs). By quantifying
+                these
+                contributions, CapaBench facilitates systematic optimization and enhances the interpretability of agent
+                architectures.
+              </p>
+              <p class="mb-0">
+                The framework evaluates Planning, Reasoning, Action, and Reflection capabilities by analyzing their
+                individual and synergistic impacts on task performance. With a comprehensive dataset of over 1,500
+                multi-round,
+                practical task scenarios, CapaBench enables robust and generalizable assessments tailored to real-world
+                applications.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Framework Overview -->
+    <section id="framework">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-right">Framework Overview</h2>
+        <h3 class="mb-4" data-aos="fade-up">Agent Workflow</h3>
+        <div class="text-center mb-5" data-aos="zoom-in">
+          <img src="images/Agent workfolw.png" alt="Agent Workflow" class="img-fluid">
+        </div>
+        <div class="row">
+          <div class="col-lg-12" data-aos="fade-up">
+            <div class="card p-4">
+              <h4 class="mb-3">Key Components</h4>
+              <div class="row">
+                <div class="col-md-6 mb-4">
+                  <div class="h-100 p-4" style="background: rgba(75,108,183,0.1); border-radius: 10px;">
+                    <h5 class="text-primary">Planning</h5>
+                    <p class="mb-0">Decomposes complex tasks into structured subtasks, enabling efficient resource
+                      allocation.</p>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <div class="h-100 p-4" style="background: rgba(75,108,183,0.1); border-radius: 10px;">
+                    <h5 class="text-primary">Reasoning</h5>
+                    <p class="mb-0">Uses logical inference and contextual understanding to determine appropriate
+                      actions.</p>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <div class="h-100 p-4" style="background: rgba(75,108,183,0.1); border-radius: 10px;">
+                    <h5 class="text-primary">Action</h5>
+                    <p class="mb-0">Translates cognitive processes into executable operations, ensuring effective task
+                      execution.</p>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <div class="h-100 p-4" style="background: rgba(75,108,183,0.1); border-radius: 10px;">
+                    <h5 class="text-primary">Reflection</h5>
+                    <p class="mb-0">Analyzes outcomes to iteratively improve performance through feedback and
+                      adjustments.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!DOCTYPE html>
+    <!-- 前面的内容保持不变，直到 Dataset Construction 部分 -->
+    
+        <!-- Dataset Construction -->
+        <section id="dataset">
+          <div class="container">
+            <h2 class="section-title" data-aos="fade-right">Dataset Construction</h2>
+            <div class="row">
+              <div class="col-lg-12" data-aos="fade-up">
+                <div class="table-responsive">
+                  <table class="table dataset-table">
+                    <thead>
+                      <tr>
+                        <th></th>
+                        <th></th>
+                        <th colspan="2">Daily Activities</th>
+                        <th colspan="3">Computation</th>
+                        <th colspan="2">Role Control</th>
+                      </tr>
+                      <tr>
+                        <th></th>
+                        <th></th>
+                        <th>Shopping</th>
+                        <th>Navigation</th>
+                        <th>Math</th>
+                        <th>Theorem Proving</th>
+                        <th>OS</th>
+                        <th>Robot</th>
+                        <th>Game</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td rowspan="2">Planning</td>
+                        <td>Task Steps</td>
+                        <td><span class="checkmark">✔</span></td>
+                        <td></td>
+                        <td><span class="checkmark">✔</span></td>
+                        <td><span class="checkmark">✔</span></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>Resource Constraints</td>
+                        <td></td>
+                        <td><span class="checkmark">✔</span></td>
+                        <td></td>
+                        <td></td>
+                        <td><span class="checkmark">✔</span></td>
+                        <td><span class="checkmark">✔</span></td>
+                        <td><span class="checkmark">✔</span></td>
+                      </tr>
+                      <tr>
+                        <td rowspan="3">Reasoning</td>
+                        <td>Logical Validation</td>
+                        <td></td>
+                        <td></td>
+                        <td><span class="checkmark">✔</span></td>
+                        <td><span class="checkmark">✔</span></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>Knowledge Inference</td>
+                        <td><span class="checkmark">✔</span></td>
+                        <td><span class="checkmark">✔</span></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><span class="checkmark">✔</span></td>
+                      </tr>
+                      <tr>
+                        <td>Text Understanding</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><span class="checkmark">✔</span></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>Action</td>
+                        <td>Environment Interaction</td>
+                        <td><span class="checkmark">✔</span></td>
+                        <td><span class="checkmark">✔</span></td>
+                        <td><span class="checkmark">✔</span></td>
+                        <td><span class="checkmark">✔</span></td>
+                        <td><span class="checkmark">✔</span></td>
+                        <td><span class="checkmark">✔</span></td>
+                        <td><span class="checkmark">✔</span></td>
+                      </tr>
+                      <tr>
+                        <td>Reflection</td>
+                        <td>Failure Analysis</td>
+                        <td><span class="checkmark">✔</span></td>
+                        <td><span class="checkmark">✔</span></td>
+                        <td><span class="checkmark">✔</span></td>
+                        <td><span class="checkmark">✔</span></td>
+                        <td><span class="checkmark">✔</span></td>
+                        <td><span class="checkmark">✔</span></td>
+                        <td><span class="checkmark">✔</span></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+        <!-- Shapley Value Illustration -->
+        <section id="shapley">
+          <div class="container">
+            <h2 class="section-title" data-aos="fade-right">Shapley Value Illustration</h2>
+            <div class="row">
+              <div class="col-lg-12" data-aos="fade-up">
+                <div class="card p-4">
+                  <div class="text-center mb-4">
+                    <img src="images/shapley-value-illustration.png" alt="Shapley Value Illustration" class="img-fluid">
+                  </div>
+                  <p>
+                    The Shapley Value, a cornerstone of cooperative game theory, provides a mathematically rigorous method for
+                    quantifying the marginal contributions of individual modules in an agent's architecture. This ensures fair
+                    attribution of credit based on all possible permutations of module combinations.
+                  </p>
+                  <p class="mb-0">
+                    For example, in a task requiring Planning, Reasoning, and Action, the Shapley Value captures the unique
+                    contribution of each module and their interactions. This enables a deeper understanding of how modules work
+                    together to drive performance.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+        <!-- Experiment Results -->
+        <section id="results">
+          <div class="container">
+            <h2 class="section-title" data-aos="fade-right">Experiment Results</h2>
+            <div class="row">
+              <div class="col-lg-12" data-aos="fade-up">
+                <div class="card p-4">
+                  <h3>Selected Results Across Datasets</h3>
+                  <div class="text-center mb-4">
+                    <img src="images/main_results.jpg" alt="Experimental Results Across Datasets" class="img-fluid">
+                  </div>
+                  <p>
+                    The image above highlights results for selected models and datasets. Blue cells represent baseline model
+                    metrics, and bold entries indicate the best results achieved for each task. Additional analysis confirms that module
+                    configurations with higher Shapley Value contributions consistently outperform others.
+                  </p>
+    
+                  <div class="mt-4">
+                    <h3>Key Findings</h3>
+    
+                    <h4>Cross-Task Model Performance Comparison</h4>
+                    <p>
+                      Models such as <strong>Claude-3.5</strong> excel in complex logical reasoning and collaborative tasks, including
+                      formal verification (e.g., Coq, Lean 4, Isabelle) and robot cooperation. In contrast, open-source models like
+                      <strong>Qwen-2.5</strong> and <strong>Mistral-8X7B</strong> demonstrate strong performance in simpler tasks but
+                      underperform in cognitively demanding scenarios.
+                    </p>
+    
+                    <h4>Module Contribution Patterns</h4>
+                    <p>Module contributions vary significantly by task:</p>
+                    <ul>
+                      <li><strong>Online Shopping Tasks:</strong> The Planning ($P_t$) and Reasoning ($R_t$) modules dominate</li>
+                      <li><strong>Math Solver Tasks:</strong> The Action ($A_t$) module is critical, especially in geometry</li>
+                      <li><strong>Formal Verification Tasks:</strong> The Action ($A_t$) module is dominant</li>
+                      <li><strong>Robot Cooperation Tasks:</strong> The Reasoning ($R_t$) module plays the largest role</li>
+                      <li><strong>Operating System Tasks:</strong> The Reasoning ($R_t$) module is crucial</li>
+                    </ul>
+    
+                    <h4>Ability Transfer Patterns</h4>
+                    <p>
+                      Foundational skills like planning, reasoning, and execution generalize across related tasks. Notable transfer patterns include Action ($A_t$) module proficiency from Formal Verification to math problem-solving, and Planning ($P_t$) abilities from Shopping to Robot Cooperation tasks.
+                    </p>
+    
+                    <h4>Impact of Model Architecture</h4>
+                    <p>
+                      Model architecture and training strategies often outweigh raw parameter size in determining performance, as demonstrated by <strong>Qwen-2.5</strong>'s superior performance in specific tasks despite having fewer parameters.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+
+    <!-- Citation -->
+    <section id="citation">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-right">Citation</h2>
+        <div class="card p-4" data-aos="fade-up">
+          <pre class="citation mb-0">@article{capabench2025,
+  title={CapaBench: A Game-Theoretic Evaluation Benchmark for Modular Attribution in LLM Agents},
+  author={Yingxuan Yang and others},
+  journal={Conference Name},
+  year={2025},
+}</pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p class="mb-0">© 2025 CapaBench Team. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      AOS.init({
+        duration: 800,
+        once: true
+      });
+    });
+  </script>
+</body>
+
+</html>
