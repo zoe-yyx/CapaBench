@@ -29,7 +29,7 @@ def check_file_update(host, port, username, password, file_mode, interval):
                     First = False
                 print("该文件已经更新")
                 prev_mod_time = current_mod_time
-                sftp_download('jumper.sankuai.com', "qisiyuan02", "12345678qwe!", f"tmp_{file_mode}.thy", f"./{file_mode}/tmp_{file_mode}.thy")
+                sftp_download('jumper.sankuai.com', "qisiyuan02", "********", f"tmp_{file_mode}.thy", f"./{file_mode}/tmp_{file_mode}.thy")
                 # shutil.move(f"tmp_{file_mode}.thy", f'./{file_mode}')
                 coq_result = run_isabelle_commands(file_mode)
                 # 检查文件是否存在，避免引发异常  
@@ -41,7 +41,7 @@ def check_file_update(host, port, username, password, file_mode, interval):
 
                 with open(f"tmp_{file_mode}_isabelle.json", 'w') as f:
                     json.dump(coq_result, f, indent=4)
-                sftp_upload('jumper.sankuai.com', "qisiyuan02", "12345678qwe!", f"tmp_{file_mode}_isabelle.json", f"tmp_{file_mode}_isabelle.json")
+                sftp_upload('jumper.sankuai.com', "qisiyuan02", "********", f"tmp_{file_mode}_isabelle.json", f"tmp_{file_mode}_isabelle.json")
 
             else:
                 pass
@@ -69,7 +69,7 @@ if __name__ == "__main__":
     # 使用示例
     while True:
         try:
-            check_file_update('jumper.sankuai.com', 22, 'qisiyuan02', '12345678qwe!', args.file_mode, 2)
+            check_file_update('jumper.sankuai.com', 22, 'qisiyuan02', '********', args.file_mode, 2)
         except Exception as e:
             time.sleep(5)
             print(f"error: {e}")

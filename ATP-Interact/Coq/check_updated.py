@@ -27,11 +27,11 @@ def check_file_update(host, port, username, password, file_path, interval):
                     First = False
                 print("该文件已经更新")
                 prev_mod_time = current_mod_time
-                sftp_download('jumper.sankuai.com', "qisiyuan02", "12345678qwe!", f"tmp_{file_path}.v", f"tmp_{file_path}.v")
+                sftp_download('jumper.sankuai.com', "qisiyuan02", "********", f"tmp_{file_path}.v", f"tmp_{file_path}.v")
                 coq_result = run_coq_commands(f"tmp_{file_path}.v")
                 with open(f"tmp_{file_path}.json", 'w') as f:
                     json.dump(coq_result, f)
-                sftp_upload('jumper.sankuai.com', "qisiyuan02", "12345678qwe!", f"tmp_{file_path}.json", f"tmp_{file_path}.json")
+                sftp_upload('jumper.sankuai.com', "qisiyuan02", "********", f"tmp_{file_path}.json", f"tmp_{file_path}.json")
 
             else:
                 pass
@@ -59,7 +59,7 @@ if __name__ == "__main__":
     # 使用示例
     while True:
         try:
-            check_file_update('jumper.sankuai.com', 22, 'qisiyuan02', '12345678qwe!', args.file_mode, 2)
+            check_file_update('jumper.sankuai.com', 22, 'qisiyuan02', '********', args.file_mode, 2)
         except:
             time.sleep(5)
             print("error")

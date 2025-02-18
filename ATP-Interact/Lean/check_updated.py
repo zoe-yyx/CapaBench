@@ -28,12 +28,12 @@ def check_file_update(host, port, username, password, file_path, interval):
                     First = False
                 print("该文件已经更新")
                 prev_mod_time = current_mod_time
-                sftp_download('jumper.sankuai.com', "qisiyuan02", "12345678qwe!", f"tmp_{file_path}.lean", f"tmp_{file_path}.lean")
+                sftp_download('jumper.sankuai.com', "qisiyuan02", "********", f"tmp_{file_path}.lean", f"tmp_{file_path}.lean")
                 add_trace_state_after_theorem(f"tmp_{file_path}.lean")
                 coq_result = run_lean_commands(f"tmp_{file_path}.lean")
                 with open(f"tmp_{file_path}_lean.json", 'w') as f:
                     json.dump(coq_result, f, indent=4)
-                sftp_upload('jumper.sankuai.com', "qisiyuan02", "12345678qwe!", f"tmp_{file_path}_lean.json", f"tmp_{file_path}_lean.json")
+                sftp_upload('jumper.sankuai.com', "qisiyuan02", "********", f"tmp_{file_path}_lean.json", f"tmp_{file_path}_lean.json")
 
             else:
                 pass
@@ -61,7 +61,7 @@ if __name__ == "__main__":
     # 使用示例
     while True:
         try:
-            check_file_update('jumper.sankuai.com', 22, 'qisiyuan02', '12345678qwe!', args.file_mode, 2)
+            check_file_update('jumper.sankuai.com', 22, 'qisiyuan02', '********', args.file_mode, 2)
         except Exception as e:
             time.sleep(5)
             print(f"error: {e}")
