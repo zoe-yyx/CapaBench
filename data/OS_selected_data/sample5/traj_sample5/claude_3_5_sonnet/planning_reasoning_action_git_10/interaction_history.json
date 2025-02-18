@@ -1,0 +1,5 @@
+[
+    "git tag v0 C1",
+    "git tag v1 C2",
+    "git checkout C2"
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "sender": "Feedback",
+        "message": "None"
+    },
+    {
+        "sender": "Action",
+        "message": "Chad: WAIT\nBob: WAIT\nAlice: PICK blue_square PLACE panel2"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "sender": "Feedback",
+        "message": "None"
+    },
+    {
+        "sender": "Action",
+        "message": "Alice: MOVE blue_cube\nBob: MOVE blue_cube"
+    }
+]

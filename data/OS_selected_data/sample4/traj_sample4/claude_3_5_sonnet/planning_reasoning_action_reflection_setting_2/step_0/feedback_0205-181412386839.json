@@ -1,0 +1,14 @@
+[
+    {
+        "sender": "Terminal Input",
+        "message": "cd ~\nuname -r > kernel_version.txt\ncat kernel_version.txt"
+    },
+    {
+        "sender": "Terminal Output",
+        "message": "3.10.0-862.mt20190308.130.el7.x86_64"
+    },
+    {
+        "sender": "execute success Output",
+        "message": 1
+    }
+]

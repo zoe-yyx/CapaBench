@@ -1,0 +1,24 @@
+{
+    "description": "Remove the group 'devgroup' and check that it no longer exists on the system.",
+    "create": {
+        "local": "default",
+        "init": [
+            {
+                "code": "groupadd devgroup"
+            }
+        ]
+    },
+    "evaluation": {
+        "check": [
+            {
+                "code": "getent group devgroup >/dev/null 2>&1 && echo 1 || echo 0"
+            }
+        ],
+        "example": {
+            "code": "groupdel devgroup"
+        }
+    },
+    "labels": [
+        "user configuration"
+    ]
+}

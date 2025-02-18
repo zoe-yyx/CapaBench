@@ -1,0 +1,14 @@
+[
+    {
+        "sender": "Terminal Input",
+        "message": "renice 10 -p 43 && ps -o pid,nice,cmd -p 43"
+    },
+    {
+        "sender": "Terminal Output",
+        "message": "43 (process ID) old priority 0, new priority 10\r\n  PID  NI CMD\r\n   43  10 sleep 300"
+    },
+    {
+        "sender": "execute success Output",
+        "message": 1
+    }
+]

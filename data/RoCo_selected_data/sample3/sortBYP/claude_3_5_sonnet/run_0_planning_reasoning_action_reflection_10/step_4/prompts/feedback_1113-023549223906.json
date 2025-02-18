@@ -1,0 +1,10 @@
+[
+    {
+        "sender": "Feedback",
+        "message": "[Environment Feedback]:\n- Previous Plan:\nNAME: Alice ACTION: WAIT\nNAME: Bob ACTION: WAIT\nNAME: Chad ACTION: PICK pink_polygon PLACE panel6\n- Goal Step Alice (-0.20, 1.18, 0.44); Bob (0.56, -0.04, 0.60); Chad (1.01, 0.14, 0.18):\n   - IK failed: on Chad (1.01, 0.14, 0.18); \n  "
+    },
+    {
+        "sender": "Action",
+        "message": "Alice: WAIT\nBob: WAIT\nChad: PICK pink_polygon PLACE panel6"
+    }
+]

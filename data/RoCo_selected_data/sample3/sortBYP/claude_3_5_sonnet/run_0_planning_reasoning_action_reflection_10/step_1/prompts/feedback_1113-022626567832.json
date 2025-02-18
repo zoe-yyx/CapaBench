@@ -1,0 +1,10 @@
+[
+    {
+        "sender": "Feedback",
+        "message": "[Environment Feedback]:\n- Previous Plan:\nNAME: Alice ACTION: PICK pink_polygon PLACE panel3\nNAME: Bob ACTION: PICK yellow_trapezoid PLACE panel4\nNAME: Chad ACTION: WAIT\n- Goal Step Alice (-0.28, 0.60, 0.50); Bob (0.00, 0.50, 0.50); Chad (1.38, 1.18, 0.43):\n   - Collision detected: collided object pairs: Alice-Bob\n  "
+    },
+    {
+        "sender": "Action",
+        "message": "Alice: PICK pink_polygon PLACE panel3\nBob: PICK yellow_trapezoid PLACE panel4\nChad: WAIT"
+    }
+]

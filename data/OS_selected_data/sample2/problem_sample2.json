@@ -1,0 +1,24 @@
+{
+    "description": "Create a zip file named 'archive_document.zip' that includes all .doc files in the 'documents' directory.",
+    "create": {
+        "local": "default",
+        "init": [
+            {
+                "code": "mkdir documents && echo 'Document content' > documents/report.doc && echo 'Another document content' > documents/summary.doc"
+            }
+        ]
+    },
+    "evaluation": {
+        "check": [
+            {
+                "code": "test -f archive_document.zip && unzip -l archive_document.zip | grep '.doc' > /dev/null && echo 0 || echo 1"
+            }
+        ],
+        "example": {
+            "code": "zip archive_document.zip documents/*.doc"
+        }
+    },
+    "labels": [
+        "compression"
+    ]
+}

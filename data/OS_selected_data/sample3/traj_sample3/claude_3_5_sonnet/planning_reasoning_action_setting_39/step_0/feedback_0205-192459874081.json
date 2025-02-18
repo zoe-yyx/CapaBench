@@ -1,0 +1,14 @@
+[
+    {
+        "sender": "Terminal Input",
+        "message": "# Check if 'devgroup' exists\ngetent group devgroup\n\n# Remove the group\nsudo groupdel devgroup\n\n# Verify removal\ngetent group devgroup\ngrep devgroup /etc/group"
+    },
+    {
+        "sender": "Terminal Output",
+        "message": "devgroup:x:1001:\r\n-bash: sudo: command not found\r\ndevgroup:x:1001:\r\ndevgroup:x:1001:"
+    },
+    {
+        "sender": "execute success Output",
+        "message": 1
+    }
+]

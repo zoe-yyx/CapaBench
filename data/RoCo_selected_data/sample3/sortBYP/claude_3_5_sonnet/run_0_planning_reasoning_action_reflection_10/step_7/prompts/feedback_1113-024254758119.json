@@ -1,0 +1,10 @@
+[
+    {
+        "sender": "Feedback",
+        "message": "[Environment Feedback]:\n- Previous Plan:\nNAME: Alice ACTION: PICK blue_square PLACE panel2\nNAME: Bob ACTION: WAIT\nNAME: Chad ACTION: PICK pink_polygon PLACE panel5\n- Goal Step Alice (-0.51, 0.40, 0.29); Bob (0.55, -0.05, 0.61); Chad (0.87, 0.10, 0.18):\n   - Reachability failed: Out of reach: Chad (0.87, 0.10, 0.18); \n  "
+    },
+    {
+        "sender": "Action",
+        "message": "Alice: PICK blue_square PLACE panel2\nBob: WAIT\nChad: PICK pink_polygon PLACE panel5"
+    }
+]

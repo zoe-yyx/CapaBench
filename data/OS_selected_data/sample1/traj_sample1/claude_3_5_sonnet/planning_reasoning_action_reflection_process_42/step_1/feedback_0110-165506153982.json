@@ -1,0 +1,14 @@
+[
+    {
+        "sender": "Terminal Input",
+        "message": "# Verify if the process exists\nps -p 43\n\n# Change the priority of the process\nsudo renice 10 -p 43\n\n# Verify the change in priority\nps -o pid,nice,cmd -p 43"
+    },
+    {
+        "sender": "Terminal Output",
+        "message": "PID TTY          TIME CMD\r\n   43 pts/2    00:00:00 sleep\r\n-bash: sudo: command not found\r\n  PID  NI CMD\r\n   43   0 sleep 300"
+    },
+    {
+        "sender": "execute success Output",
+        "message": 1
+    }
+]

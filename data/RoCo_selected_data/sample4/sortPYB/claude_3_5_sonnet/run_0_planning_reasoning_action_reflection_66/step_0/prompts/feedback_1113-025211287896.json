@@ -1,0 +1,10 @@
+[
+    {
+        "sender": "Feedback",
+        "message": "[Environment Feedback]:\n- Previous Plan:\nNAME: Alice ACTION: WAIT\nNAME: Bob ACTION: WAIT\nNAME: Chad ACTION: WAIT\nTask Constraints:\n faild, You can't all WAIT. The task is not complete, at least one robot should be acting.\n"
+    },
+    {
+        "sender": "Action",
+        "message": "Alice: WAIT\nBob: WAIT\nChad: WAIT"
+    }
+]
