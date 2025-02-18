@@ -1,0 +1,5 @@
+{
+    "StdOut": "*** Failed to refine any pending goal\n*** At command \"qed\" (line 15 of \"NotExists.thy\")",
+    "StdError": "",
+    "ReturnCode": 1
+}

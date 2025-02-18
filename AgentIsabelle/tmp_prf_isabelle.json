@@ -1,0 +1,5 @@
+{
+    "StdOut": "*** Undefined fact: \"tree.cases\" (line 13 of \"LeafNodeConflict.thy\")\n*** At command \"proof\" (line 13 of \"LeafNodeConflict.thy\")",
+    "StdError": "",
+    "ReturnCode": 1
+}

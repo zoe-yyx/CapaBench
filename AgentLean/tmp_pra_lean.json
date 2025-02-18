@@ -1,0 +1,5 @@
+{
+    "StdOut": "tmp_pra.lean:6:3: error: unknown tactic\ntmp_pra.lean:3:48: error: unsolved goals\nn m : Int\n\u22a2 n < m \u2228 \u00acn < m\nInit State:\nn m : Int\n\u22a2 n < m \u2228 \u00acn < m\n",
+    "StdError": "",
+    "ReturnCode": 1
+}

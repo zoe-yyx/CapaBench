@@ -1,0 +1,5 @@
+{
+    "StdOut": "*** Failed to finish proof (line 16 of \"TreeExample0TreeReverse.thy\"):\n*** goal (1 subgoal):\n***  1. Node Leaf 1 Leaf = Node Leaf 1 Leaf\n*** At command \"by\" (line 16 of \"TreeExample0TreeReverse.thy\")",
+    "StdError": "",
+    "ReturnCode": 1
+}

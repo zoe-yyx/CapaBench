@@ -1,0 +1,5 @@
+{
+    "StdOut": "*** Illegal application of proof command in \"prove\" mode\n*** At command \"end\" (line 12 of \"ConstMono.thy\")",
+    "StdError": "*** Consumer thread failure: \"Isabelle.export\"\n*** [SQLITE_READONLY_DBMOVED] The database file has been moved since it was opened (attempt to write a readonly database)\n*** Consumer thread failure: \"Isabelle.export\"\n*** [SQLITE_READONLY_DBMOVED] The database file has been moved since it was opened (attempt to write a readonly database)\n*** Consumer thread failure: \"Isabelle.export\"\n*** [SQLITE_READONLY_DBMOVED] The database file has been moved since it was opened (attempt to write a readonly database)\n",
+    "ReturnCode": 1
+}

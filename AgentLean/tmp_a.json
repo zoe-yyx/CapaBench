@@ -1,0 +1,5 @@
+{
+    "StdOut": "Init State:\nAfter executing statement:   intro n m hnm\nAfter executing statement:   specialize hf n m hnm\nAfter executing statement:   specialize hg n m hnm\ntmp_a.lean:23:8: error: unknown identifier 'le_add_of_le_of_le'\nf g : \u2124 \u2192 \u2124\nhf : mono f\nhg : mono g\n\u22a2 mono (func_plus f g)\nf g : \u2124 \u2192 \u2124\nhf : mono f\nhg : mono g\nn m : \u2124\nhnm : n \u2264 m\n\u22a2 func_plus f g n \u2264 func_plus f g m\nf g : \u2124 \u2192 \u2124\nhg : mono g\nn m : \u2124\nhnm : n \u2264 m\nhf : f n \u2264 f m\n\u22a2 func_plus f g n \u2264 func_plus f g m\nf g : \u2124 \u2192 \u2124\nn m : \u2124\nhnm : n \u2264 m\nhf : f n \u2264 f m\nhg : g n \u2264 g m\n\u22a2 func_plus f g n \u2264 func_plus f g m\n",
+    "StdError": "",
+    "ReturnCode": 1
+}

@@ -1,0 +1,2 @@
+{
+    "StdOut": "Init State:\nAfter executing statement:   intro n m\nAfter executing statement:   intro h\ntmp_paf.lean:19:2: error: linarith failed to find a contradiction\ncase a\nn m : \u2124\nh : n \u2264 

@@ -1,0 +1,5 @@
+{
+    "StdOut": "*** Inner lexical error (line 6 of \"ConstMono.thy\")\n*** at \"\u21d2 int) \u21d2 bool\"\n*** Failed to parse type\n*** At command \"definition\" (line 6 of \"ConstMono.thy\")",
+    "StdError": "*** Consumer thread failure: \"Isabelle.export\"\n*** [SQLITE_READONLY_DBMOVED] The database file has been moved since it was opened (attempt to write a readonly database)\n*** Consumer thread failure: \"Isabelle.export\"\n*** [SQLITE_READONLY_DBMOVED] The database file has been moved since it was opened (attempt to write a readonly database)\n*** Consumer thread failure: \"Isabelle.export\"\n*** [SQLITE_READONLY_DBMOVED] The database file has been moved since it was opened (attempt to write a readonly database)\n",
+    "ReturnCode": 1
+}

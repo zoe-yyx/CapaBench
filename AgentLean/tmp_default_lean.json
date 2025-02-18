@@ -1,0 +1,5 @@
+{
+    "StdOut": "tmp_default.lean:10:3: error: unknown tactic\ntmp_default.lean:1:29: error: failed to synthesize\n  HMul \u2124 \u2124 ?m.102\nAdditional diagnostic information may be available using the `set_option diagnostics true` command.\ntmp_default.lean:4:6: error: failed to synthesize\n  HMul \u2124 \u2124 ?m.322\nAdditional diagnostic information may be available using the `set_option diagnostics true` command.\nInit State:\n\u2124 : Type u_1\nx y : \u2124\n\u22a2 sorryAx (Sort u_2) true\n",
+    "StdError": "",
+    "ReturnCode": 1
+}

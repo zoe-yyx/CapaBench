@@ -1,0 +1,5 @@
+{
+    "StdOut": "tmp_pr.lean:2:0: error: unexpected token '('; expected command\ntmp_pr.lean:3:0: error: invalid 'import' command, it must be used in the beginning of the file\n",
+    "StdError": "",
+    "ReturnCode": 1
+}

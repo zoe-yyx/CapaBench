@@ -1,0 +1,4 @@
+session MyProofs = HOL +
+  options [document = true]
+  theories
+    tmp_pr

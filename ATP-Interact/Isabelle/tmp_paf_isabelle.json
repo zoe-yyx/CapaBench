@@ -1,0 +1,5 @@
+{
+    "StdOut": "",
+    "StdError": "*** Bad theory name \"OrIntror\" for file \"name.thy\" (line 3 of \"name.thy\")\n*** The error(s) above occurred for theory \"MyProofs.name\" (line 4 of \"ROOT\")\n*** The error(s) above occurred in session \"MyProofs\" (line 1 of \"ROOT\")\n",
+    "ReturnCode": 2
+}

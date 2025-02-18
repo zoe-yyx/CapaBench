@@ -1,0 +1,5 @@
+{
+    "StdOut": "tmp_paf.lean:8:8: warning: declaration uses 'sorry'\ntmp_paf.lean:11:8: warning: declaration uses 'sorry'\ntmp_paf.lean:28:8: error: tactic 'rewrite' failed, did not find instance of the pattern in the target expression\n  add n m.succ\ncase succ\nm n : Nat\nih : add n m = add m n\n\u22a2 add (n + 1) m = add m (n + 1)\nInit State:\nn m : Nat\n\u22a2 add n m = add m n\nAfter executing statement:   | zero =>\ncase zero\nm : Nat\n\u22a2 add 0 m = add m 0\nAfter executing statement:     rw [addZeroR m]\ncase zero\nm : Nat\n\u22a2 add 0 m = m\nAfter executing statement:   | succ n ih =>\ncase succ\nm n : Nat\nih : add n m = add m n\n\u22a2 add (n + 1) m = add m (n + 1)\n",
+    "StdError": "",
+    "ReturnCode": 1
+}

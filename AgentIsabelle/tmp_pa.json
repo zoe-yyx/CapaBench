@@ -1,0 +1,5 @@
+{
+    "StdOut": "*** Failed to finish proof (line 11 of \"~/Desktop/agent_isabelle/tmp_pa.thy\"):\n*** goal (1 subgoal):\n***  1. x * y = xy\n*** At command \"by\" (line 11 of \"~/Desktop/agent_isabelle/tmp_pa.thy\")",
+    "StdError": "",
+    "ReturnCode": 1
+}

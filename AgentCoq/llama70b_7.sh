@@ -1,0 +1,3 @@
+
+# CUDA_VISIBLE_DEVICES=2 nohup torchrun --master_port 52124 run_agent.py --test_model_name Mistral-8X7B-instruct-v0.1 --mode planning reasoning reflection  --start_index 0 --original_correct 0 --ip http://10.166.180.57:8080 > ./log/coq/Mistral-8X7B-instruct-v0.1/no/prf_new.out 2>&1 
+CUDA_VISIBLE_DEVICES=2 nohup torchrun --master_port 52124 run_agent.py --test_model_name Mistral-8X7B-instruct-v0.1 --mode reasoning action reflection  --start_index 30 --original_correct 11 --ip http://10.166.131.59:8080 > ./log/coq/Mistral-8X7B-instruct-v0.1/no/raf_new_30.out 2>&1 

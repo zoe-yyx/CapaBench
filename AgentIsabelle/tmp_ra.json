@@ -1,0 +1,5 @@
+{
+    "StdOut": "*** Failed to finish proof (line 17 of \"~/Desktop/agent_isabelle/tmp_ra.thy\"):\n*** goal (1 subgoal):\n***  1. C = 35 - R \u27f9 R = 12\n*** At command \"by\" (line 17 of \"~/Desktop/agent_isabelle/tmp_ra.thy\")",
+    "StdError": "",
+    "ReturnCode": 1
+}

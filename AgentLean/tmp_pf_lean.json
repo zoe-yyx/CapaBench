@@ -1,0 +1,5 @@
+{
+    "StdOut": "tmp_pf.lean:1:0: error: unexpected token '('; expected command\n",
+    "StdError": "",
+    "ReturnCode": 1
+}

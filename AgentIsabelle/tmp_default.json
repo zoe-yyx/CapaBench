@@ -1,0 +1,5 @@
+{
+    "StdOut": "",
+    "StdError": "*** [line 3 of \"/Users/qisiyuan/Desktop/agent_isabelle/tmp_default.thy\"] error: command \"theory\" expected,\n*** but identifier was found:\n*** assume\n*** \n*** \n*** ^\n*** The error(s) above occurred for theory \"MyProofs.tmp_default\" (line 4 of \"/Users/qisiyuan/Desktop/agent_isabelle/ROOT\")\n*** The error(s) above occurred in session \"MyProofs\" (line 1 of \"/Users/qisiyuan/Desktop/agent_isabelle/ROOT\")\n",
+    "ReturnCode": 2
+}

@@ -1,0 +1,5 @@
+{
+    "StdOut": "tmp_pa.lean:14:19: error: unknown identifier 'iterate'\ntmp_pa.lean:14:19: error: tactic 'rewrite' failed, equality or iff proof expected\n  ?m.471\ncase succ\nA : Type\nf : A \u2192 A\nx : A\nn : Nat\nih : Function.iterate f n (f x) = Function.iterate f (n + 1) x\n\u22a2 Function.iterate f (n + 1 + 1) x = Function.iterate f (n + 1 + 1) x\nInit State:\nA : Type\nn : Nat\nf : A \u2192 A\nx : A\n\u22a2 Function.iterate f n (f x) = Function.iterate f (n + 1) x\nAfter executing statement:   | succ n ih =>\ncase succ\nA : Type\nf : A \u2192 A\nx : A\nn : Nat\nih : Function.iterate f n (f x) = Function.iterate f (n + 1) x\n\u22a2 Function.iterate f (n + 1) (f x) = Function.iterate f (n + 1 + 1) x\n",
+    "StdError": "",
+    "ReturnCode": 1
+}

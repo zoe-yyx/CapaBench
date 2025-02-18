@@ -1,0 +1,5 @@
+{
+    "StdOut": "*** Failed to refine any pending goal\n*** At command \"by\" (line 18 of \"ConstMono.thy\")",
+    "StdError": "",
+    "ReturnCode": 1
+}

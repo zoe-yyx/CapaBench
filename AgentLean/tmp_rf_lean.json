@@ -1,0 +1,5 @@
+{
+    "StdOut": "tmp_rf.lean:10:45: error: unexpected token ','; expected '|'\ntmp_rf.lean:2:2: error: unknown identifier 'Function.iterate'\ntmp_rf.lean:2:31: error: unknown identifier 'Function.iterate'\ntmp_rf.lean:10:13: error: unknown identifier 'Function.iterate'\ntmp_rf.lean:10:4: error: missing cases:\ntmp_rf.lean:7:14: error: unsolved goals\ncase succ\nA : Type\nf : A \u2192 A\nx : A\nn : Nat\nIH : sorryAx (?m.18 n f x) true = sorryAx (?m.18 n f x) true\nh : sorryAx A true = f x\n\u22a2 sorryAx (?m.18 (n + 1) f x) true = sorryAx (?m.18 (n + 1) f x) true\nInit State:\nA : Type\nn : Nat\nf : A \u2192 A\nx : A\n\u22a2 sorryAx (?m.18 n f x) true = sorryAx (?m.18 n f x) true\nAfter executing statement:   | succ n IH =>\ncase succ\nA : Type\nf : A \u2192 A\nx : A\nn : Nat\nIH : sorryAx (?m.18 n f x) true = sorryAx (?m.18 n f x) true\n\u22a2 sorryAx (?m.18 (n + 1) f x) true = sorryAx (?m.18 (n + 1) f x) true\n",
+    "StdError": "",
+    "ReturnCode": 1
+}

@@ -1,0 +1,5 @@
+{
+    "StdOut": "*** Failed to apply initial proof method:\n*** goal (1 subgoal):\n***  1. tmp_p.mono (\u03bbx. a)\n*** At command \"proof\" (line 14 of \"ConstMono.thy\")",
+    "StdError": "",
+    "ReturnCode": 1
+}

@@ -1,0 +1,5 @@
+{
+    "StdOut": "*** Inner lexical error (line 8 of \"NotOrIff.thy\")\n*** at \"\u00ac(P \u2228 Q) = (\u00acP \u2227 \u00acQ)\"\n*** Failed to parse prop\n*** At command \"have\" (line 8 of \"NotOrIff.thy\")",
+    "StdError": "",
+    "ReturnCode": 1
+}

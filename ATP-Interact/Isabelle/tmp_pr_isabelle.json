@@ -1,0 +1,5 @@
+{
+    "StdOut": "*** Type unification failed\n*** \n*** Type error in application: incompatible operand type\n*** \n*** Operator:  assoc :: (int \u21d2 int \u21d2 int) \u21d2 bool\n*** Operand:   f :: 'a \u21d2 'a \u21d2 'a\n*** \n*** At command \"have\" (line 13 of \"MultAssoc.thy\")",
+    "StdError": "*** Consumer thread failure: \"Isabelle.export\"\n*** [SQLITE_READONLY_DBMOVED] The database file has been moved since it was opened (attempt to write a readonly database)\n*** Consumer thread failure: \"Isabelle.export\"\n*** [SQLITE_READONLY_DBMOVED] The database file has been moved since it was opened (attempt to write a readonly database)\n*** Consumer thread failure: \"Isabelle.export\"\n*** [SQLITE_READONLY_DBMOVED] The database file has been moved since it was opened (attempt to write a readonly database)\n*** Consumer thread failure: \"Isabelle.export\"\n*** [SQLITE_READONLY_DBMOVED] The database file has been moved since it was opened (attempt to write a readonly database)\n",
+    "ReturnCode": 1
+}

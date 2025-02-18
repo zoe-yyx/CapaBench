@@ -1,0 +1,5 @@
+{
+    "StdOut": "*** Failed to finish proof (line 11 of \"ForallEx1.thy\"):\n*** goal (1 subgoal):\n***  1. Q x\n*** At command \"by\" (line 11 of \"ForallEx1.thy\")",
+    "StdError": "",
+    "ReturnCode": 1
+}

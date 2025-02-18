@@ -1,0 +1,5 @@
+{
+    "StdOut": "",
+    "StdError": "*** [SQLITE_CONSTRAINT_PRIMARYKEY] A PRIMARY KEY constraint failed (UNIQUE constraint failed: isabelle_session_info.session_name)\n",
+    "ReturnCode": 2
+}

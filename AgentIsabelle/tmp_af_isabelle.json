@@ -1,0 +1,5 @@
+{
+    "StdOut": "*** Undefined fact: \"iff_def\" (line 11 of \"IffImply.thy\")\n*** At command \"by\" (line 11 of \"IffImply.thy\")",
+    "StdError": "",
+    "ReturnCode": 1
+}

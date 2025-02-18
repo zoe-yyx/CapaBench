@@ -1,0 +1,5 @@
+{
+    "StdOut": "*** Outer syntax error (line 8 of \"ConstMono.thy\"): keyword \"where\" expected,\n*** but keyword => (line 8 of \"ConstMono.thy\") was found\n*** At command \"<malformed>\" (line 8 of \"ConstMono.thy\")",
+    "StdError": "",
+    "ReturnCode": 1
+}

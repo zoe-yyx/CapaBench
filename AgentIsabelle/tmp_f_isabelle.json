@@ -1,0 +1,5 @@
+{
+    "StdOut": "*** Failed to apply initial proof method (line 18 of \"TeachersAndChildren.thy\"):\n*** goal (1 subgoal):\n***  1. MT + FT + MC + FC = 16\n*** At command \"by\" (line 18 of \"TeachersAndChildren.thy\")",
+    "StdError": "",
+    "ReturnCode": 1
+}

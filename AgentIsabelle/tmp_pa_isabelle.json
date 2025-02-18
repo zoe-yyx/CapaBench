@@ -1,0 +1,5 @@
+{
+    "StdOut": "*** Inner lexical error (line 5 of \"SixIsNotPrime.thy\")\n*** at \"\u2203n q. 2 \u2264 n \u2227 n < 6 \u2227 n * q = 6\"\n*** Failed to parse prop\n*** At command \"lemma\" (line 5 of \"SixIsNotPrime.thy\")",
+    "StdError": "*** Consumer thread failure: \"Isabelle.export\"\n*** [SQLITE_READONLY_DBMOVED] The database file has been moved since it was opened (attempt to write a readonly database)\n*** Consumer thread failure: \"Isabelle.export\"\n*** [SQLITE_READONLY_DBMOVED] The database file has been moved since it was opened (attempt to write a readonly database)\n*** Consumer thread failure: \"Isabelle.export\"\n*** [SQLITE_READONLY_DBMOVED] The database file has been moved since it was opened (attempt to write a readonly database)\n",
+    "ReturnCode": 1
+}

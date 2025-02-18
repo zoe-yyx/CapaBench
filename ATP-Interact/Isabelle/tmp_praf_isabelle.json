@@ -1,0 +1,5 @@
+{
+    "StdOut": "*** Illegal schematic variable(s) in case \"True\" (line 10 of \"OrImply.thy\")\n*** At command \"case\" (line 10 of \"OrImply.thy\")",
+    "StdError": "",
+    "ReturnCode": 1
+}

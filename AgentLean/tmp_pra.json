@@ -1,0 +1,5 @@
+{
+    "StdOut": "tmp_pra.lean:20:17: error: unexpected identifier; expected ':='\n\n\nInit State:\nA : Type\nn : Nat\nf : A \u2192 A\nx : A\n\u22a2 Function.iterate f n (f x) = Function.iterate f (n + 1) x\nAfter executing statement:   | zero =>\ncase zero\nA : Type\nf : A \u2192 A\nx : A\n\u22a2 Function.iterate f 0 (f x) = Function.iterate f (0 + 1) x\nAfter executing statement:   | succ n =>\ncase succ\nA : Type\nf : A \u2192 A\nx : A\nn : Nat\n\u22a2 Function.iterate f (n + 1) (f x) = Function.iterate f (n + 1 + 1) x\n",
+    "StdError": "",
+    "ReturnCode": 1
+}

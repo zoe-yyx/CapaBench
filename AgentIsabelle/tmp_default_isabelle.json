@@ -1,0 +1,5 @@
+{
+    "StdOut": "*** Bad context for command \"lemma\" (line 36 of \"NotForallImply.thy\")\n*** At command \"lemma\" (line 36 of \"NotForallImply.thy\")",
+    "StdError": "",
+    "ReturnCode": 1
+}

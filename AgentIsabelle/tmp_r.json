@@ -1,0 +1,5 @@
+{
+    "StdOut": "tmp_r.lean:2:32: error: failed to synthesize\n  HMul \u2124 \u2124 ?m.46\nAdditional diagnostic information may be available using the `set_option diagnostics true` command.\ntmp_r.lean:3:0: error: unknown identifier 'begin'\ntmp_r.lean:5:0: error: invalid 'end', insufficient scopes\n",
+    "StdError": "",
+    "ReturnCode": 1
+}

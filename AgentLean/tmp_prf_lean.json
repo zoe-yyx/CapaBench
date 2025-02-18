@@ -1,0 +1,5 @@
+{
+    "StdOut": "tmp_prf.lean:4:3: error: unknown tactic\ntmp_prf.lean:1:39: error: unsolved goals\n\u22a2 \u2203 n, 4 = n + n\nInit State:\n\u22a2 \u2203 n, 4 = n + n\n",
+    "StdError": "",
+    "ReturnCode": 1
+}

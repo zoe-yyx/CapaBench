@@ -1,0 +1,5 @@
+{
+    "StdOut": "*** Outer syntax error (line 9 of \"ConstMono.thy\"): command expected,\n*** but keyword begin (line 9 of \"ConstMono.thy\") was found\n*** At command \"<malformed>\" (line 8 of \"ConstMono.thy\")",
+    "StdError": "",
+    "ReturnCode": 1
+}

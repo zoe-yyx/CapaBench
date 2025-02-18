@@ -1,0 +1,5 @@
+{
+    "StdOut": "",
+    "StdError": "*** [line 3 of \".thy\"] error: command \"theory\" expected,\n*** but identifier was found:\n*** lemma\n*** \n*** \n*** ^\n*** The error(s) above occurred for theory \"MyProofs.\" (line 4 of \"ROOT\")\n*** The error(s) above occurred in session \"MyProofs\" (line 1 of \"ROOT\")\n",
+    "ReturnCode": 2
+}

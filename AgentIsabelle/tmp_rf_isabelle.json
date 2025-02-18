@@ -1,0 +1,5 @@
+{
+    "StdOut": "*** Failed to apply initial proof method (line 23 of \"AddCancelL.thy\"):\n*** using this:\n***   (myadd k n = myadd k m) = (n = m)\n*** goal (1 subgoal):\n***  1. myadd (MySuc k) n = myadd (MySuc k) m\n*** At command \"by\" (line 23 of \"AddCancelL.thy\")",
+    "StdError": "",
+    "ReturnCode": 1
+}

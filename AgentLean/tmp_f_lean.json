@@ -1,0 +1,5 @@
+{
+    "StdOut": "tmp_f.lean:2:2: error: unknown identifier 'Function.iterate'\ntmp_f.lean:2:31: error: unknown identifier 'Function.iterate'\ntmp_f.lean:7:23: error: unknown identifier 'Function.iterate'\ntmp_f.lean:10:2: error: no goals to be solved\nInit State:\nA : Type\nn : Nat\nf : A \u2192 A\nx : A\n\u22a2 sorryAx (?m.18 n f x) true = sorryAx (?m.18 n f x) true\nAfter executing statement:   | succ n IH => simp [Function.iterate, IH]\n\n",
+    "StdError": "",
+    "ReturnCode": 1
+}

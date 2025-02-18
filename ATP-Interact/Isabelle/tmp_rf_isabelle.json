@@ -1,0 +1,5 @@
+{
+    "StdOut": "*** Inner syntax error (line 11 of \"LogicEx6.thy\")\n*** at \"> Q a0\"\n*** Failed to parse prop\n*** At command \"have\" (line 11 of \"LogicEx6.thy\")\n*** Malformed theory (line 14 of \"LogicEx6.thy\")",
+    "StdError": "",
+    "ReturnCode": 1
+}

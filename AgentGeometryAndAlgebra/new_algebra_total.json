@@ -1,0 +1,2002 @@
+[
+    {
+        "problem": "Simplify $(3 + 2i) + (1 + 4i)$.",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "$(3 + 2i) + (1 + 4i) = (3 + 1) + (2i + 4i) = \\boxed{4 + 6i}.$",
+        "knowledge_point": "Complex Numbers",
+        "id": 1
+    },
+    {
+        "problem": "Find the conjugate of the complex number $5 - 7i$.",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "The conjugate of $5 - 7i$ is $5 + 7i$. Thus, the answer is $\\boxed{5 + 7i}.$",
+        "knowledge_point": "Complex Numbers",
+        "id": 2
+    },
+    {
+        "problem": "Calculate $i^3$.",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "$i^3 = i^2 \\cdot i = (-1) \\cdot i = \\boxed{-i}.$",
+        "knowledge_point": "Complex Numbers",
+        "id": 3
+    },
+    {
+        "problem": "Simplify $(6 - 2i) - (4 + 3i)$.",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "$(6 - 2i) - (4 + 3i) = 6 - 4 - 2i - 3i = \\boxed{2 - 5i}.$",
+        "knowledge_point": "Complex Numbers",
+        "id": 4
+    },
+    {
+        "problem": "Calculate $( -1 + i) + (2 - i)$.",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "$(-1 + i) + (2 - i) = (-1 + 2) + (i - i) = \\boxed{1}.$",
+        "knowledge_point": "Complex Numbers",
+        "id": 5
+    },
+    {
+        "problem": "Find the sum of the coordinates of the midpoint of a line segment with endpoints at $(-3, 2)$ and $(5, 8)$.",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "The midpoint of a segment with endpoints $(-3, 2)$ and $(5, 8)$ is calculated as follows: $\\left(\\frac{-3+5}{2}, \\frac{2+8}{2}\\right) = (1, 5)$. Therefore, the sum of the coordinates of the midpoint is $1+5=\\boxed{6}$.",
+        "knowledge_point": "Algebra in Coordinate Geometry",
+        "id": 6
+    },
+    {
+        "problem": "A can of soda contains 150 calories in 350 ml. How many calories are in 500 ml of the same soda? Express your answer in decimal form and round to 2 decimal places.",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "Given that there are 150 calories in 350 ml, we can establish the proportion $\\frac{150}{350} = \\frac{x}{500}$, where $x$ is the number of calories in 500 ml. Solving for $x$ gives $x = \\left(\\frac{150}{350}\\right)\\times 500 = \\boxed{214.29}$ calories.",
+        "knowledge_point": "Algebra in Coordinate Geometry",
+        "id": 7
+    },
+    {
+        "problem": "Given the point $(x, y) = (5, 7)$, calculate the value of $2y^2 - 5xy + 6$.",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "Using the point $(5, 7)$, substitute into the expression: $2y^2 - 5xy + 6 = 2(7)^2 - 5(5)(7) + 6 = 98 - 175 + 6 = \\boxed{-71}$.",
+        "knowledge_point": "Algebra in Coordinate Geometry",
+        "id": 8
+    },
+    {
+        "problem": "During a race, Bob started sprinting from the point $(5, 0)$ on the x-axis at a speed of $8\\ \\text{m/s}$ for $10$ seconds. Calculate his x-coordinate when he stops.",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "To find Bob's final position, use the formula $x = v \\cdot t$, where $v$ is the speed and $t$ is the time. Given that $v = 8\\ \\text{m/s}$ and $t = 10\\ \\text{s}$, the distance he covered is $x = 8 \\cdot 10 = 80\\ \\text{m}$. Starting from $(5, 0)$ on the x-axis, his final x-coordinate is $5 + 80 = \\boxed{85}$.",
+        "knowledge_point": "Algebra in Coordinate Geometry",
+        "id": 9
+    },
+    {
+        "problem": "A track field is 300 meters in circumference. If Alex usually jogs 15 laps around his usual 450 meter track for his workout, how many laps should he jog around the 300 meter track to cover the same distance?",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "Since Alex's total jogging distance is consistent, the number of laps and the lap length are inversely proportional. If his new track is 300 meters long, each lap is $\\frac{300}{450} = \\frac{2}{3}$ the length of his usual laps. Therefore, he needs to run $\\frac{3}{2}$ times as many laps. So, for his usual 15 laps, he should run $\\frac{3}{2} \\times 15 = \\boxed{\\frac{45}{2}}$ laps around the new track.",
+        "knowledge_point": "Algebra in Coordinate Geometry",
+        "id": 10
+    },
+    {
+        "problem": "If $(8^3) = 2^x$, what is the value of $x$?",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "First, express $8^3$ in terms of base 2: $8^3 = (2^3)^3 = 2^9$. Thus, $2^9 = 2^x$ implies $x = \\boxed{9}$.",
+        "knowledge_point": "Exponents and Logarithms",
+        "id": 11
+    },
+    {
+        "problem": "If $a = 2^{3}$ and $b = a^{4}$, what is the value of $b$ in terms of $2^n$?",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "Since $a = 2^{3}$, we have $b = a^{4} = (2^3)^4 = 2^{3\\cdot4} = 2^{12}$. Therefore, $b = 2^{12}$ and $n = \\boxed{12}$.",
+        "knowledge_point": "Exponents and Logarithms",
+        "id": 12
+    },
+    {
+        "problem": "If $8^x = 64$ and $9^x = y$, what is the value of $y$?",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "We can rewrite the first equation as $(2^3)^x=2^{3x}=64=2^6 \\Rightarrow 3x=6 \\Rightarrow x=2$. Plugging in the value of $x$, we get $9^2=y$. So, $y=\\boxed{81}$.",
+        "knowledge_point": "Exponents and Logarithms",
+        "id": 13
+    },
+    {
+        "problem": "Calculate $(3^2)^{(3^2)}$ and express it in the form of $3^M$. What is the value of $M$?",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "We can simplify $(3^2)^{(3^2)} = (3^2)^9 = 3^{(2\\cdot 9)} = 3^{18}$, thus $M = \\boxed{18}$.",
+        "knowledge_point": "Exponents and Logarithms",
+        "id": 14
+    },
+    {
+        "problem": "If $x=5$ and $y=3$, compute the value of $(x+y)^y$ and $x^{y+2}$, then add the two results.",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "First calculate $(x+y)^y = (5+3)^3 = 8^3 = 512. Next, calculate $x^{y+2} = 5^{3+2} = 5^5 = 3125. Adding the two results, we have 512 + 3125 = \\boxed{3637}.",
+        "knowledge_point": "Exponents and Logarithms",
+        "id": 15
+    },
+    {
+        "problem": "If $f(x, y) = 3x - 4y + xy$, what is the value of $f(5, -2)$?",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "By substituting the values into the function, we get $f(5, -2) = 3(5) - 4(-2) + (5)(-2) = 15 + 8 - 10 = \\boxed{13}$.",
+        "knowledge_point": "Function Composition and Inverses",
+        "id": 16
+    },
+    {
+        "problem": "If $h(x) = 3x - 4$ and $k(x) = x + 2$, what is the value of $h(k(x))$?",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "First compute $k(x) = x + 2$. Then substitute this into $h(x)$ to get $h(k(x)) = h(x+2) = 3(x+2) - 4 = 3x + 6 - 4 = \\boxed{3x + 2}$.",
+        "knowledge_point": "Function Composition and Inverses",
+        "id": 17
+    },
+    {
+        "problem": "Let the function $g(x) = 3x - 2$. Calculate $g(-3)$.",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "Substitute $x = -3$ into the function $g(x) = 3x - 2$. Therefore, $g(-3) = 3(-3) - 2 = -9 - 2 = \\boxed{-11}$.",
+        "knowledge_point": "Function Composition and Inverses",
+        "id": 18
+    },
+    {
+        "problem": "If $x \\bigstar y$ is defined as $x \\bigstar y = x - y - 3$, what is the value of $x$ for which $x \\bigstar 5 = 7$?",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "From the definition of $x \\bigstar y$, we can rewrite $x \\bigstar 5$ as $x \\bigstar 5 = x - 5 - 3$. So, now the equation $x \\bigstar 5 = 7$ becomes $x - 5 - 3 = 7$, from which we find $x = \\boxed{15}$.",
+        "knowledge_point": "Function Composition and Inverses",
+        "id": 19
+    },
+    {
+        "problem": "Given the functions $f(x) = 5x + 3$ and $h(x) = x^2 - 1$, calculate $f(h(-2))$.",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "First, compute $h(-2) = (-2)^2 - 1 = 4 - 1 = 3$. Then, find $f(h(-2)) = f(3) = 5\\times 3 + 3 = 15 + 3 = \\boxed{18}$.",
+        "knowledge_point": "Function Composition and Inverses",
+        "id": 20
+    },
+    {
+        "problem": "Solve for $x$: $|x + 4| = 8$. Return the bigger one solution",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "We can split the absolute value equation $|x + 4| = 8$ into two cases. In the first case, $x + 4 = 8 \\Rightarrow x = 4$. In the second case, $x + 4 = -8 \\Rightarrow x = -12$. Therefore, the solution is $x = \\boxed{4}$.",
+        "knowledge_point": "Inequalities and Absolute Values",
+        "id": 21
+    },
+    {
+        "problem": "Determine $x$ such that $3|x - 2| = 15$. Return the smaller one solution",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "First, divide both sides of the equation by 3 to get $|x - 2| = 5$. This splits into two cases: $x - 2 = 5 \\Rightarrow x = 7$ and $x - 2 = -5 \\Rightarrow x = -3$. Thus, the solution is $x = \\boxed{-3}$.",
+        "knowledge_point": "Inequalities and Absolute Values",
+        "id": 22
+    },
+    {
+        "problem": "Find the bigger value of $x$ that satisfy $|2x + 3| = 11$.",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "From $|2x + 3| = 11$, we have two cases: $2x + 3 = 11 \\Rightarrow 2x = 8 \\Rightarrow x = 4$ and $2x + 3 = -11 \\Rightarrow 2x = -14 \\Rightarrow x = -7$. Hence, the possible bigger value for $x$ is $x = \\boxed{4}$ .",
+        "knowledge_point": "Inequalities and Absolute Values",
+        "id": 23
+    },
+    {
+        "problem": "Consider the inequality $|x - 5| \\geq 9$. What is the larger endpoint value in the solution set?",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "The inequality $|x - 5| \\geq 9$ splits into two cases: $x - 5 \\geq 9 \\Rightarrow x \\geq 14$ and $x - 5 \\leq -9 \\Rightarrow x \\leq -4$. Therefore, the solution is \\boxed{14}.",
+        "knowledge_point": "Inequalities and Absolute Values",
+        "id": 24
+    },
+    {
+        "problem": "Find the smallest value of $x$ that satisfies the equation $|3x - 2| = 4$.",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "For $|3x - 2| = 4$, we solve two equations: $3x - 2 = 4 \\Rightarrow 3x = 6 \\Rightarrow x = 2$ and $3x - 2 = -4 \\Rightarrow 3x = -2 \\Rightarrow x = -\\frac{2}{3}$. Among these, the smallest value is $x = \\boxed{-\\frac{2}{3}}$.",
+        "knowledge_point": "Inequalities and Absolute Values",
+        "id": 25
+    },
+    {
+        "problem": "Calculate $25\\%$ of 60 and add it to the product of $30\\%$ of 50. What is the result?",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "Twenty-five percent of 60 is $25\\cdot60\\cdot\\frac{1}{100}=15$, and $30\\%$ of 50 is $30\\cdot50\\cdot\\frac{1}{100}=15$. Adding these gives $15 + 15 = \\boxed{30}$.",
+        "knowledge_point": "Polynomials and Polynomial Operations",
+        "id": 26
+    },
+    {
+        "problem": "Simplify the expression $(5x - 3) + (2x + 7) - (4x - 1)$. What is the simplified expression?",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "First, distribute the negative sign through the last parenthesis: $(5x - 3) + (2x + 7) - (4x - 1) = 5x - 3 + 2x + 7 - 4x + 1. Next, combine like terms: (5x + 2x - 4x) + (-3 + 7 + 1) = 3x + 5. So, the simplified expression is $\\boxed{3x + 5}$.",
+        "knowledge_point": "Polynomials and Polynomial Operations",
+        "id": 27
+    },
+    {
+        "problem": "If $x=5$ and $y=3$, what is the value of $2x^2 + 3y^2$?",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "Substituting $x=5$ and $y=3$, we get $2x^2 + 3y^2 = 2(5)^2 + 3(3)^2 = 2(25) + 3(9) = 50 + 27 = \\boxed{77}$.",
+        "knowledge_point": "Polynomials and Polynomial Operations",
+        "id": 28
+    },
+    {
+        "problem": "If $x \\diamond y = 3x - 2y$ for all $x$ and $y$, then what is the value of $5 \\diamond 4$?",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "We have $5 \\diamond 4 = 3(5) - 2(4) = 15 - 8 = \\boxed{7}$.",
+        "knowledge_point": "Polynomials and Polynomial Operations",
+        "id": 29
+    },
+    {
+        "problem": "Simplify the expression $\\frac{(2z)^4}{z^2}$ where $z=3$. What is the result?",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "First, apply the power of a product rule: $(2z)^4 = 16z^4. Then, divide by $z^2$: \\[\\frac{16z^4}{z^2} = 16z^{4-2} = 16z^2.\\] Substitute $z = 3$: \\[16(3)^2 = 16(9) = \\boxed{144}.\\]",
+        "knowledge_point": "Polynomials and Polynomial Operations",
+        "id": 30
+    },
+    {
+        "problem": "Assume $x$ and $y$ satisfy that $xy=10$ and $x+y=9$. What is $|x-y|$?",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "Given equations are $xy=10$ and $x+y=9$. By squaring the second equation, we get $(x+y)^2 = x^2 + 2xy + y^2 = 81$. Since $xy = 10$, we replace it in the equation: $x^2 + 2*10 + y^2 = 81$ which simplifies to $x^2 + y^2 = 61$. Now, consider $(x-y)^2 = x^2 - 2xy + y^2 = x^2 + y^2 - 2*10 = 61 - 20 = 41$. Thus, $x-y = \\pm\\sqrt{41}$. Therefore, $|x-y| = \\boxed{\\sqrt{41}}$, which is the absolute difference between $x$ and $y$.",
+        "knowledge_point": "Quadratic Equations and Functions",
+        "id": 31
+    },
+    {
+        "problem": "What is the result of $24^2 - 4(24) + 4$?",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "This is the square of a binomial: $24^2 - 4(24) + 4 = (24 - 2)^2 = 22^2 = \\boxed{484}$.",
+        "knowledge_point": "Quadratic Equations and Functions",
+        "id": 32
+    },
+    {
+        "problem": "The product of two numbers is 56 and their sum is 15. Find the smaller one of the two numbers.",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "Let the two numbers be x and y. Then, we have the equations: \nx + y = 15 \nxy = 56 \nSolving the first equation for y gives y = 15 - x. Substituting this into the second equation gives x(15 - x) = 56. Expanding and rearranging gives x^2 - 15x + 56 = 0. Factoring this equation yields (x - 7)(x - 8) = 0, so x = 7 or x = 8. Therefore, the two numbers are 7 and 8. So the smaller one is \\boxed{7}.",
+        "knowledge_point": "Quadratic Equations and Functions",
+        "id": 33
+    },
+    {
+        "problem": "Solve for $x$ if $\\sqrt{225} = 5 + \\sqrt{x}$.",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "First, note that $\\sqrt{225} = 15$. This simplifies the equation to $15 = 5 + \\sqrt{x}$. Subtract 5 from both sides to get $\\sqrt{x} = 10$. Squaring both sides, we find $x = \\boxed{100}$.",
+        "knowledge_point": "Quadratic Equations and Functions",
+        "id": 34
+    },
+    {
+        "problem": "What is the value of $700^2 - 300^2$?",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "This expression is a difference of squares, so $700^2 - 300^2 = (700+300)(700-300) = (1000)(400) = \\boxed{400000}$.",
+        "knowledge_point": "Quadratic Equations and Functions",
+        "id": 35
+    },
+    {
+        "problem": "If a car consumes $\\frac{1}{6}$ gallons of gasoline per mile, how many gallons will it consume over a distance of 18 miles?",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "The car will consume $\\frac{1}{6} \\times 18 = 3$ gallons of gasoline over 18 miles. So, the answer is $\\boxed{3}$ gallons.",
+        "knowledge_point": "Rational Functions and Expressions",
+        "id": 36
+    },
+    {
+        "problem": "If $\\frac{3}{8} = \\frac{x}{24} = \\frac{72}{y}$, what is $x + y$?",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "From the equations, we can solve for $x$ and $y$. For $x$, $x = 24 \\left(\\frac{3}{8}\\right) = 9$. For $y$, $y = \\frac{72}{\\frac{3}{8}} = 192$. Therefore, $x + y = 9 + 192 = \\boxed{201}$.",
+        "knowledge_point": "Rational Functions and Expressions",
+        "id": 37
+    },
+    {
+        "problem": "Simplify the expression \\[ \\frac{\\frac{2}{3} + \\frac{4}{3}}{\\frac{6}{7}} \\] and express it as a simplified fraction.",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "First, add the fractions in the numerator: \\[ \\frac{2}{3} + \\frac{4}{3} = \\frac{6}{3} = 2 \\]. Then, divide by the fraction in the denominator: \\[ 2 \\div \\frac{6}{7} = 2 \\cdot \\frac{7}{6} = \\frac{14}{6} = \\frac{7}{3} \\]. Thus, the simplified expression is \\[ \\boxed{\\frac{7}{3}} \\].",
+        "knowledge_point": "Rational Functions and Expressions",
+        "id": 38
+    },
+    {
+        "problem": "Evaluate the expression. $$\\frac{5+6+7}{3+2+1} \\div \\frac{12+9+6}{6+5+4}$$",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "First, simplify the numerator and the denominator. In the first fraction, $5+6+7 = 18$ and $3+2+1 = 6$, so the fraction simplifies to $\\frac{18}{6} = 3$. For the second fraction, $12+9+6 = 27$ and $6+5+4 = 15$, which simplifies to $\\frac{27}{15}$. To divide the two fractions, multiply by the reciprocal of the second fraction: $3 \\cdot \\frac{15}{27} = 3 \\cdot \\frac{5}{9} = \\frac{15}{9} = \\boxed{\\frac{5}{3}}$.",
+        "knowledge_point": "Rational Functions and Expressions",
+        "id": 39
+    },
+    {
+        "problem": "Simplify the following expression: \\[\\frac{5 - 10 + 15 - 20 + 25}{4 - 8 + 12 - 16 + 20}\\]",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "We can factor out the common factor in the numerator and the denominator: \\[\\frac{5(1 - 2 + 3 - 4 + 5)}{4(1 - 2 + 3 - 4 + 5)} = \\boxed{\\frac{5}{4}}\\]",
+        "knowledge_point": "Rational Functions and Expressions",
+        "id": 40
+    },
+    {
+        "problem": "A geometric sequence starts with the number 625 and each successive term is obtained by multiplying the previous term by a constant. If the third term in the sequence is 25, what is the value of the fifth term?",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "The sequence starts with 625 and the third term is 25. The common ratio $r$ can be found by taking the cube root of the ratio between the third term and the first term, which is $(\\frac{25}{625})^{1/2} = \\frac{1}{5}$. Therefore, the fifth term is $625 \\times (\\frac{1}{5})^4 = 625 \\times \\frac{1}{625} = \\boxed{1}$.",
+        "knowledge_point": "Sequences and Series",
+        "id": 41
+    },
+    {
+        "problem": "In a certain sequence, the first term is 45, and each subsequent term increases by 45. If the sum of the first 5 terms represents the total time a group spends playing games in a day, how much total time do they spend?",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "This is an arithmetic sequence where the first term is 45, and the common difference is also 45. We need to calculate the sum of the first 5 terms. The sum of the first n terms in an arithmetic sequence is given by the formula $S_n = \\frac{n}{2}(2a + (n-1)d)$, where $a = 45$, $d = 45$, and $n = 5$. Thus, $S_5 = \\frac{5}{2}(2 \\times 45 + 4 \\times 45) = \\frac{5}{2} \\times 270 = \\boxed{675}$ minutes.",
+        "knowledge_point": "Sequences and Series",
+        "id": 42
+    },
+    {
+        "problem": "A toy factory produces an increasing number of toys each day according to an arithmetic sequence. On the first day, the factory produces 10 toys, and on the third day, it produces 18 toys. How many toys will the factory produce on the tenth day?",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "This is an arithmetic sequence where the first term $a_1 = 10$ and the third term $a_3 = 18$. We can use the formula for the nth term of an arithmetic sequence: $a_n = a_1 + (n-1) \\cdot d$, where $d$ is the common difference. Substituting $n = 3$ into the formula, we get $18 = 10 + 2 \\cdot d$. Solving for $d$, we find that $d = 4$. Now, to find the number of toys produced on the tenth day, we use the formula again: $a_{10} = 10 + (10-1) \\cdot 4 = 10 + 36 = \\boxed{46}$ toys.",
+        "knowledge_point": "Sequences and Series",
+        "id": 43
+    },
+    {
+        "problem": "In an arithmetic sequence, the first term is 3, and the sum of the first 10 terms is 145. What is the common difference of the sequence?",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "The sum of the first n terms of an arithmetic sequence is given by the formula $S_n = \\frac{n}{2} (2a + (n-1)d)$, where $S_n$ is the sum, $a$ is the first term, and $d$ is the common difference. We know $S_{10} = 145$, $a = 3$, and $n = 10$. Substituting into the formula, we get: $145 = \\frac{10}{2} (2 \\cdot 3 + 9d)$. Simplifying: $145 = 5 (6 + 9d)$, which gives $145 = 30 + 45d$. Solving for $d$: $115 = 45d$, so $d = \\boxed{\\frac{23}{9}}$.",
+        "knowledge_point": "Sequences and Series",
+        "id": 44
+    },
+    {
+        "problem": "Tom eats 2 apples on the first day and increases his consumption by 1 apple each subsequent day. How many apples does he eat in the first 7 days?",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "Tom eats an increasing number of apples each day following the sequence: 2, 3, 4, 5, 6, 7, 8. The sum of these numbers is $2 + 3 + 4 + 5 + 6 + 7 + 8 = \\boxed{35}$ apples in the first 7 days.",
+        "knowledge_point": "Sequences and Series",
+        "id": 45
+    },
+    {
+        "problem": "David and Sarah have 30 marbles together. David has twice as many marbles as Sarah. How many marbles does David have more than Sarah?",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "Let the number of marbles David has be $d$ and the number Sarah has be $s$. The equations can be set as follows: \\begin{align*}\nd + s &= 30 \\\\\nd &= 2s \\\\\n\\end{align*}Substituting for $d$ into the first equation gives $2s + s = 30$. Solving for $s$ gives $s = 10$. Thus $d = 20$. Therefore, David has $20 - 10 = \\boxed{10}$ more marbles than Sarah.",
+        "knowledge_point": "Systems of Linear Equations",
+        "id": 46
+    },
+    {
+        "problem": "A school sells tickets for a play at $5 for adults and $3 for students. If they sold 120 tickets in total and collected $450, how many adult tickets were sold?",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "Let $x$ be the number of adult tickets and $y$ be the number of student tickets sold. The equations are:\n\n\\begin{align*}\nx + y &= 120, \\\\\n5x + 3y &= 450.\n\\end{align*}\n\nFirst, multiply the first equation by 3:\n\n\\begin{align*}\n3x + 3y &= 360.\n\\end{align*}\n\nNow subtract this from the second equation:\n\n\\begin{align*}\n2x &= 90 \\\\\nx &= 45.\n\\end{align*}\n\nSubstitute $x = 45$ back into the first equation:\n\n\\begin{align*}\n45 + y &= 120 \\\\\ny &= 75.\n\\end{align*}\n\nTherefore, they sold \\boxed{45} adult tickets and 75 student tickets.",
+        "knowledge_point": "Systems of Linear Equations",
+        "id": 47
+    },
+    {
+        "problem": "Paula bought an equal number of apples and bananas for $12. If each apple costs $0.50 and each banana costs $0.25, how many bananas did she buy?",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "Let the number of apples Paula bought be 'a' and the number of bananas be 'b'. We know that a = b and the total cost is 12 dollars. Therefore, we can set up the equations: 0.50a + 0.25b = 12 and a = b. By substituting a for b in the first equation we get 0.50a + 0.25a = 12, or 0.75a = 12. Solving for a gives a = 12 / 0.75 = 16. Thus, Paula bought 16 apples and since a = b, she also bought \\boxed{16} bananas.",
+        "knowledge_point": "Systems of Linear Equations",
+        "id": 48
+    },
+    {
+        "problem": "A cookie tin has 30 calories and represents 1.5% of a person's daily caloric requirement. What is the total daily caloric requirement?",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "If 30 calories is 1.5%, then it can be represented as $1.5\\% = \\frac{1.5}{100} = \\frac{3}{200}$ of a person's daily requirement. Therefore, a person's daily caloric requirement is: $$30 \\cdot \\frac{200}{3} = \\boxed{2000}$$ calories.",
+        "knowledge_point": "Systems of Linear Equations",
+        "id": 49
+    },
+    {
+        "problem": "If $30 + 4m - 2n = 50$ and $m - 2n = 5$, what is the value of $m$?",
+        "level": "Level 1",
+        "type": "Algebra",
+        "solution": "Substituting $m - 2n = 5$ into the first equation gives $30 + 4(5) - 2n = 50$. This simplifies to $50 - 2n = 50$. Subtracting $50$ from both sides results in $-2n = 0$, so $n = 0$. Plugging $n = 0$ back into $m - 2n = 5$ gives $m = 5$. Thus, the value of $m$ is $\\boxed{5}$.",
+        "knowledge_point": "Systems of Linear Equations",
+        "id": 50
+    },
+    {
+        "problem": "Simplify $(2 + 3i) + (5 - 2i)$.",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "$(2 + 3i) + (5 - 2i) = (2 + 5) + (3i - 2i) = \\boxed{7 + i}.$",
+        "knowledge_point": "Complex Numbers",
+        "id": 51
+    },
+    {
+        "problem": "Calculate the product $(1 + 2i)(3 - i)$.",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "$(1 + 2i)(3 - i) = 1*3 + 1*(-i) + 2i*3 + 2i*(-i) = 3 - i + 6i + 2 = \\boxed{5 + 5i}.$",
+        "knowledge_point": "Complex Numbers",
+        "id": 52
+    },
+    {
+        "problem": "Find the result of $(4 - 3i) - (2 + 5i)$.",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "$(4 - 3i) - (2 + 5i) = 4 - 3i - 2 - 5i = (4 - 2) + (-3i - 5i) = \\boxed{2 - 8i}.$",
+        "knowledge_point": "Complex Numbers",
+        "id": 53
+    },
+    {
+        "problem": "What is the conjugate of $7 - 4i$?",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "The conjugate of $7 - 4i$ is $7 + 4i$. Thus, the answer is $\\boxed{7 + 4i}.$",
+        "knowledge_point": "Complex Numbers",
+        "id": 54
+    },
+    {
+        "problem": "Evaluate $(i)^4$.",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "Since $(i)^2 = -1$, then $(i)^4 = (i)^2 * (i)^2 = (-1)*(-1) = \\boxed{1}.$",
+        "knowledge_point": "Complex Numbers",
+        "id": 55
+    },
+    {
+        "problem": "Determine the coordinates of the point that is the midpoint between the points (2, -5) and (-4, 9).",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "The midpoint M of points (x1, y1) and (x2, y2) is given by M = ((x1 + x2)/2, (y1 + y2)/2). For the points (2, -5) and (-4, 9), the midpoint is ((2 + (-4))/2, (-5 + 9)/2) = (-2/2, 4/2) = \\boxed{(-1, 2)}.",
+        "knowledge_point": "Algebra in Coordinate Geometry",
+        "id": 56
+    },
+    {
+        "problem": "If a bike travels along a circular track of radius 50 meters and makes 15 revolutions, how many revolutions would a bike need to make to travel the same distance on a circular track of radius 25 meters?",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "The radius of the smaller circular track is $\\frac{1}{2}$ that of the larger track. Since circumference is proportional to the radius, the circumference of the smaller track is $\\frac{1}{2}$ that of the larger track. To travel the same distance, twice as many revolutions are needed on the smaller track. Therefore, the number of revolutions needed is $15 \\times 2 = \\boxed{30}$ revolutions.",
+        "knowledge_point": "Algebra in Coordinate Geometry",
+        "id": 57
+    },
+    {
+        "problem": "What is the distance between the points $(2, -3)$ and $(-3, 4)$ on the Cartesian coordinate plane?",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "To find the distance between the points $(2, -3)$ and $(-3, 4)$, use the distance formula: $\\sqrt{(2 - (-3))^2 + (-3 - 4)^2} = \\sqrt{(5)^2 + (-7)^2} = \\sqrt{25 + 49} = \\sqrt{74} = \\boxed{\\sqrt{74}}$ units.",
+        "knowledge_point": "Algebra in Coordinate Geometry",
+        "id": 58
+    },
+    {
+        "problem": "A signpost that is 12 feet high casts a shadow that is 15 feet long. Nearby, a streetlamp casts a shadow that is 45 feet long. If the ratio of the height of the streetlamp to its shadow is the same as the ratio of the height of the signpost to its shadow, how tall is the streetlamp, in feet?",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "The signpost's height is $\\dfrac{12}{15}$ times its shadow's length. Therefore, the streetlamp's height should be $\\dfrac{12}{15}$ times its shadow's length as well. So, the height of the streetlamp is $45 \\times \\dfrac{12}{15} = 45 \\times 0.8 = \\boxed{36} \\text{ feet}$ .",
+        "knowledge_point": "Algebra in Coordinate Geometry",
+        "id": 59
+    },
+    {
+        "problem": "Determine which of the following points is closest to the point (3, -2): (2, 0), (5, -4), (-1, 2), (0, -3)",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "To find the closest point to (3, -2), we calculate the distance from each point to (3, -2):\nFor (2, 0): \\(\\sqrt{(2-3)^2 + (0+2)^2} = \\sqrt{5}\\)\nFor (5, -4): \\(\\sqrt{(5-3)^2 + (-4+2)^2} = \\sqrt{8}\\)\nFor (-1, 2): \\(\\sqrt{(-1-3)^2 + (2+2)^2} = \\sqrt{25}\\)\nFor (0, -3): \\(\\sqrt{(0-3)^2 + (-3+2)^2} = \\sqrt{10}\\)\nThe closest point is therefore \\(\\boxed{(2, 0)}\\).",
+        "knowledge_point": "Algebra in Coordinate Geometry",
+        "id": 60
+    },
+    {
+        "problem": "Simplify the expression $(3^4 \\cdot 3^{-1}) \\div 3^2$ and express the result in terms of $3^x$. Give the value of $x$.",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "First, combine the exponents in the numerator: $3^4 \\cdot 3^{-1} = 3^{4-1} = 3^3$. Then divide by $3^2$: $(3^3) \\div (3^2) = 3^{3-2} = 3^1 = 3$. Hence, $x=\\boxed{1}$.",
+        "knowledge_point": "Exponents and Logarithms",
+        "id": 61
+    },
+    {
+        "problem": "Calculate $\\sqrt[4]{81^{3} + 81^{3} + 81^{3}}$. Express your answer in decimal form and round to 2 decimal places.",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "First, combine the terms under the fourth root: $81^3 + 81^3 + 81^3 = 3 \\times 81^3 = 3 \\times (3^4)^3 = 3 \\times 3^{12} = 3^{13}$. Then take the fourth root: $\\sqrt[4]{3^{13}} = 3^{13/4} = 3^{3.25}$. Finding a decimal approximation, $3^{3.25} \\approx \\boxed{35.53}$.",
+        "knowledge_point": "Exponents and Logarithms",
+        "id": 62
+    },
+    {
+        "problem": "Determine the value of $y$ if $9^{y-1} = 81^2$.",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "First, express 81 as a power of 9: $81 = 9^2$. So, $81^2 = (9^2)^2 = 9^4$. Now set up the equation $9^{y-1} = 9^4$. Therefore, $y-1 = 4$, leading to $y = \\boxed{5}$.",
+        "knowledge_point": "Exponents and Logarithms",
+        "id": 63
+    },
+    {
+        "problem": "If $4^{x+2} = 64$, what is the value of $x$?",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "First, express 64 as a power of 4: $64 = 4^3$. Thus, $4^{x+2} = 4^3$. Since the bases are equal, the exponents must be equal too, so $x+2 = 3$. Solving for $x$ gives $x = \\boxed{1}$.",
+        "knowledge_point": "Exponents and Logarithms",
+        "id": 64
+    },
+    {
+        "problem": "Evaluate $2^{\\log_4 64}$.",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "First, express 64 in terms of base 4, we get $4^3 = 64$. Therefore, $\\log_4 64 = 3$. Now, replacing this back in the expression we have $2^{\\log_4 64} = 2^3 = \\boxed{8}$.",
+        "knowledge_point": "Exponents and Logarithms",
+        "id": 65
+    },
+    {
+        "problem": "Given the functions \\( f(x) = x^2 + 1 \\) if \\( x \\leq 5 \\) and \\( f(x) = 2x + 3 \\) if \\( x > 5 \\). Calculate \\( f(6) \\).",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "Since \\( 3 \\leq 5 \\), we use the first case: \\( f(3) = 3^2 + 1 = 10 \\). Since \\( 6 > 5 \\), we use the second case: \\( f(6) = 2 \\times 6 + 3 = 15 \\). Thus, \\( f(6) = \\boxed{15} \\).",
+        "knowledge_point": "Function Composition and Inverses",
+        "id": 66
+    },
+    {
+        "problem": "Given the functions $h(x) = 2x + 3$ and $j(x) = x^3 - 1$, find the value of $h(j(-2))$.",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "First, calculate $j(-2)$ by substituting $-2$ into the function $j$: $j(-2) = (-2)^3 - 1 = -8 - 1 = -9$. Next, substitute $-9$ into the function $h$: $h(-9) = 2(-9) + 3 = -18 + 3 = -15$. Thus, $h(j(-2)) = \\boxed{-15}$.",
+        "knowledge_point": "Function Composition and Inverses",
+        "id": 67
+    },
+    {
+        "problem": "Define two operations on $x$: $\\oplus x = x - 3$ and $\\otimes x = x^3$. Calculate $\\otimes(\\oplus 5)$.",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "First apply the $\\oplus$ operation: $\\oplus 5 = 5 - 3 = 2$. Then apply the $\\otimes$ operation to the result: $\\otimes 2 = 2^3 = 8$. Thus, $\\otimes(\\oplus 5) = \\boxed{8}.$",
+        "knowledge_point": "Function Composition and Inverses",
+        "id": 68
+    },
+    {
+        "problem": "Define $\\oplus$ as an operation such that for any real numbers $a$ and $b$, $a \\oplus b = a^2 + b^2$. Calculate the result of $(2 \\oplus 3) \\oplus 4$.",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "First, calculate $2 \\oplus 3 = 2^2 + 3^2 = 4 + 9 = 13$. Then, calculate $13 \\oplus 4 = 13^2 + 4^2 = 169 + 16 = 185$. Hence, the result is $\\boxed{185}$.",
+        "knowledge_point": "Function Composition and Inverses",
+        "id": 69
+    },
+    {
+        "problem": "Given $f(x) = 3x^2 + 2x - 1$ and $g(x) = x - 3$, find $f(g(f(g(2))))$.",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "First calculate $g(2) = 2 - 3 = -1$. Then $f(g(2)) = f(-1) = 3(-1)^2 + 2(-1) - 1 = 0$. Next, compute $g(f(g(2))) = g(0) = 0 - 3 = -3$. Finally, evaluate $f(g(f(g(2)))) = f(-3) = 3(-3)^2 + 2(-3) - 1 = 20$. Hence, the result is $\\boxed{20}$.",
+        "knowledge_point": "Function Composition and Inverses",
+        "id": 70
+    },
+    {
+        "problem": "Find the sum of all values of $x$ that satisfy the equation $|2x+3| = 9$.",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "For the equation $|2x+3|=9$, we have two cases: either $2x+3=9$ or $2x+3=-9$. Solving $2x+3=9$ gives $2x=6$, so $x=3$. Solving $2x+3=-9$ gives $2x=-12$, so $x=-6$. The sum of the values is $3 + (-6) = \\boxed{-3}$.",
+        "knowledge_point": "Inequalities and Absolute Values",
+        "id": 71
+    },
+    {
+        "problem": "Determine the value of $\\left\\lfloor\\sqrt{50}\\right\\rfloor - \\left\\lceil\\sqrt{49}\\right\\rceil$.",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "Since $\\sqrt{49}=7$ and $\\sqrt{64}>\\sqrt{50}>\\sqrt{49}$, we find that $\\left\\lfloor\\sqrt{50}\\right\\rfloor=7$ and $\\left\\lceil\\sqrt{49}\\right\\rceil=7$. Therefore, the expression evaluates to $7 - 7 = \\boxed{0}$.",
+        "knowledge_point": "Inequalities and Absolute Values",
+        "id": 72
+    },
+    {
+        "problem": "Solve the inequality $|2x - 5| < 9$ and list the range of values for $x$ in the form of intervals.",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "The inequality $|2x - 5| < 9$ can be rewritten into two separate inequalities: $2x - 5 < 9$ and $2x - 5 > -9$. Solving the first inequality gives $2x < 14$ or $x < 7$. Solving the second inequality gives $2x > -4$ or $x > -2$. Therefore, the range of values for $x$ is $-2 < x < 7$, which can also be expressed as $x \\in \\boxed{(-2, 7)}$.",
+        "knowledge_point": "Inequalities and Absolute Values",
+        "id": 73
+    },
+    {
+        "problem": "Solve the inequality $|3x + 1| < 5$ and find the range of x in the form of intervals.",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "To solve the inequality $|3x + 1| < 5$, we consider two cases: Case 1: $3x + 1 < 5$ and Case 2: $3x + 1 > -5$. Simplifying Case 1: $3x < 4$ or $x < \\frac{4}{3}$. Simplifying Case 2: $3x > -6$ or $x > -2$. Combining these two inequalities, we have $-2 < x < \\frac{4}{3}$. Therefore, the range of x that satisfies the inequality is $\\boxed{(-2, \\frac{4}{3})}$.",
+        "knowledge_point": "Inequalities and Absolute Values",
+        "id": 74
+    },
+    {
+        "problem": "Solve the inequality $|3x - 6| \\leq 9$. Provide the range of $x$ that satisfies this condition in the form of intervals.",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "The absolute value condition $|3x - 6| \\leq 9$ implies two inequalities: $3x - 6 \\leq 9$ and $3x - 6 \\geq -9$. Solving these separately, we get $3x \\leq 15$ and $3x \\geq -3$. Dividing all parts by 3, we get $x \\leq 5$ and $x \\geq -1$. Thus, the solution is $\\boxed{[-1, 5]}$.",
+        "knowledge_point": "Inequalities and Absolute Values",
+        "id": 75
+    },
+    {
+        "problem": "Simplify $\\frac{12x^6}{3x^2} + \\frac{8x^4}{2x} - 10x^3$.",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "First simplify each term: \\[\\frac{12x^6}{3x^2} = 4x^{6-2} = 4x^4, \\quad \\frac{8x^4}{2x} = 4x^{4-1} = 4x^3, \\quad -10x^3 = -10x^3\\]. Combining like terms gives: \\[4x^4 + 4x^3 - 10x^3 = 4x^4 - 6x^3\\]. So the simplified expression is \\[\\boxed{4x^4 - 6x^3}\\].",
+        "knowledge_point": "Polynomials and Polynomial Operations",
+        "id": 76
+    },
+    {
+        "problem": "If $(x+2y)^2 = x^2 + 4xy + 4y^2$, find the value of $(x+2y)^2$ when $x = 4$ and $y = 3$.",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "By substituting $x = 4$ and $y = 3$ into the equation $(x+2y)^2 = x^2 + 4xy + 4y^2$, we get $(4 + 2 \\times 3)^2 = 4^2 + 4 \\times 4 \\times 3 + 4 \\times 3^2$. This simplifies to $10^2 = 16 + 48 + 36$, which equals $100$. Therefore, the value is $\\boxed{100}$.",
+        "knowledge_point": "Polynomials and Polynomial Operations",
+        "id": 77
+    },
+    {
+        "problem": "Simplify the expression $(2x + 6)(x - 4) - (x + 3)(2x - 6)$.",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "Expanding the expressions, we have $(2x + 6)(x - 4) = 2x^2 - 8x + 6x - 24 = 2x^2 - 2x - 24$ and $(x + 3)(2x - 6) = 2x^2 - 6x + 6x - 18 = 2x^2 - 18$. Now, subtract the second expression from the first: $(2x^2 - 2x - 24) - (2x^2 - 18) = -2x - 6 = \\boxed{-2x - 6}$.",
+        "knowledge_point": "Polynomials and Polynomial Operations",
+        "id": 78
+    },
+    {
+        "problem": "Simplify the expression and rationalize the denominator: $\\frac{8}{\\sqrt{2}} \\cdot \\frac{\\sqrt{4}}{12} \\cdot \\frac{18}{\\sqrt{9}}$.",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "First, simplify each term individually: $\\frac{8}{\\sqrt{2}} = 8 \\cdot \\frac{\\sqrt{2}}{2} = 4\\sqrt{2}$, $\\frac{\\sqrt{4}}{12} = \\frac{2}{12} = \\frac{1}{6}$, $\\frac{18}{\\sqrt{9}} = 18 \\cdot \\frac{\\sqrt{9}}{9} = 6$. Now multiply the simplified terms: $4\\sqrt{2} \\cdot \\frac{1}{6} \\cdot 6 = \\boxed{4\\sqrt{2}}$.",
+        "knowledge_point": "Polynomials and Polynomial Operations",
+        "id": 79
+    },
+    {
+        "problem": "Given $5xy = 20$, find the value of $25x^2y^2$.",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "Since $5xy = 20$, we know that $xy = 4$. Thus, $x^2y^2 = 4^2 = 16$. Therefore, $25x^2y^2 = 25 \\times 16 = \\boxed{400}$.",
+        "knowledge_point": "Polynomials and Polynomial Operations",
+        "id": 80
+    },
+    {
+        "problem": "Given the quadratic function $g(x) = 2x^2 - 4x + 3$, calculate $g(3) - g(2)$.",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "First, calculate $g(3) = 2(3)^2 - 4(3) + 3 = 18 - 12 + 3 = 9$. Next, calculate $g(2) = 2(2)^2 - 4(2) + 3 = 8 - 8 + 3 = 3$. Then, $g(3) - g(2) = 9 - 3 = \\boxed{6}$.",
+        "knowledge_point": "Quadratic Equations and Functions",
+        "id": 81
+    },
+    {
+        "problem": "Calculate the product of all solutions to the equation: $(x-4)^2 = 36$.",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "First, simplify the equation to $x^2 - 8x + 16 = 36$, which further simplifies to $x^2 - 8x - 20 = 0$. Factoring the quadratic equation, we get $(x - 10)(x + 2) = 0$. The solutions are $x = 10$ and $x = -2$. The product of the solutions is $10 \\times (-2) = \\boxed{-20}$.",
+        "knowledge_point": "Quadratic Equations and Functions",
+        "id": 82
+    },
+    {
+        "problem": "Find the product of the roots of the equation $x^2 - 6x + 8 = 0$.",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "To find the sum of the roots, use the formula $-b/a$, which in this case is $-(-6)/1 = 6$. For the product of the roots, use the formula $c/a$, which is $8/1 = 8$. Therefore, the product of the roots is $\\boxed{8}$.",
+        "knowledge_point": "Quadratic Equations and Functions",
+        "id": 83
+    },
+    {
+        "problem": "Solve for $x$ if $\\sqrt{5x + 7} = 3$.",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "To find the value of $x$, start by squaring both sides of the equation:\n\\begin{align*} (\\sqrt{5x + 7})^2& =(3)^2\\\\ \\Rightarrow\\qquad 5x + 7& =9\\\\\\Rightarrow\\qquad 5x& =2\\\\\\Rightarrow\\qquad x& =\\boxed{\\frac{2}{5}}.\n\\end{align*}Testing $x = 0.4$ in the original equation shows that it satisfies the equation.",
+        "knowledge_point": "Quadratic Equations and Functions",
+        "id": 84
+    },
+    {
+        "problem": "Find the bigger root of the equation $x^2 + 6x + 5 = 0$.",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "Factoring the quadratic equation, we get:\n$$x^2 + 6x + 5 = (x + 1)(x + 5) = 0.$$ The roots are the solutions to each factor being zero, thus $x = -1$ and $x = -5$. Therefore, the bigger root is $\\boxed{-1}$.",
+        "knowledge_point": "Quadratic Equations and Functions",
+        "id": 85
+    },
+    {
+        "problem": "If $m$ and $n$ are directly proportional and $m = 18$ when $n = 4$, what is the value of $m$ when $n = 16$?",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "By the definition of direct proportion, $m = kn$ for some constant $k$. Substituting the given values, we find $k$ as $k = \\frac{m}{n} = \\frac{18}{4} = 4.5$. Using this $k$ value, we can solve for $m$ when $n=16$: \\[m = 4.5 \\cdot 16 = \\boxed{72}.\\]",
+        "knowledge_point": "Rational Functions and Expressions",
+        "id": 86
+    },
+    {
+        "problem": "Rationalize the denominator: $\\frac{5}{\\sqrt{3}}$.",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "Multiply both numerator and denominator by $\\sqrt{3}$ to rationalize the denominator: \\[\\frac{5}{\\sqrt{3}} = \\frac{5}{\\sqrt{3}} \\cdot \\frac{\\sqrt{3}}{\\sqrt{3}} = \\frac{5\\sqrt{3}}{3}.\\] Thus, the rationalized form is $\\boxed{\\frac{5\\sqrt{3}}{3}}$.",
+        "knowledge_point": "Rational Functions and Expressions",
+        "id": 87
+    },
+    {
+        "problem": "Solve for $b$: $\\dfrac{5^{-1}}{25^{-1}} - b^{-1} = 2$.",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "First, simplify the left side using the exponent rule $x^{-1} = \\frac{1}{x}$. We have \\[\\frac{5^{-1}}{25^{-1}} - b^{-1} = \\frac{1/5}{1/25} - \\frac{1}{b} = \\frac{1}{5} \\cdot \\frac{25}{1} - \\frac{1}{b} = 5 - \\frac{1}{b},\\] so we can rewrite the original equation as $5 - \\frac{1}{b} = 2$. Subtracting 5 from both sides gives $-\\frac{1}{b} = -3$, and taking the reciprocal of both sides gives $-b = -\\frac{1}{3}$. Therefore, we have $b = \\boxed{\\frac{1}{3}}$.",
+        "knowledge_point": "Rational Functions and Expressions",
+        "id": 88
+    },
+    {
+        "problem": "Determine the number of values of $y$ where the expression $\\frac{y-8}{y^2-16}$ is undefined.",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "The expression is undefined when the denominator equals zero. We solve $y^2-16=0$ for $y$: \\[y^2-16=0 \\Rightarrow y^2=16 \\Rightarrow y=\\pm4.\\] Therefore, there are $\\boxed{2}$ different values of $y$ that make the given expression undefined.",
+        "knowledge_point": "Rational Functions and Expressions",
+        "id": 89
+    },
+    {
+        "problem": "Solve the equation \\(\\frac{4}{x-2} = \\frac{3}{2x+1}\\) for \\(x\\).",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "Cross multiplying gives \\(4(2x+1) = 3(x-2)\\). Expanding and simplifying, \\(8x + 4 = 3x - 6\\). Thus, \\(5x = -10\\) and \\(x = \\boxed{-2}\\).",
+        "knowledge_point": "Rational Functions and Expressions",
+        "id": 90
+    },
+    {
+        "problem": "Consider an arithmetic sequence where the first term is 3 and each subsequent term increases by 7. What is the value of the 50th term?",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "The common difference of the sequence is 7. The formula for the nth term of an arithmetic sequence is given by a_n = a_1 + (n-1)*d. Substituting in the values, the 50th term is 3 + (50-1)*7 = 3 + 49*7 = 3 + 343 = \\boxed{346}.",
+        "knowledge_point": "Sequences and Series",
+        "id": 91
+    },
+    {
+        "problem": "A person is walking along a path and covers 2 miles in the first hour. If the person increases their speed by 0.5 miles every hour, how many total miles will they have covered by the end of the fourth hour?",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "The distances covered in each hour form an arithmetic series. The first hour, 2 miles are covered. The second hour, $2 + 0.5 = 2.5$ miles are covered, the third hour $2.5 + 0.5 = 3$ miles, and the fourth hour $3 + 0.5 = 3.5$ miles. The total distance is the sum of these, $2 + 2.5 + 3 + 3.5 = \\boxed{11}$ miles.",
+        "knowledge_point": "Sequences and Series",
+        "id": 92
+    },
+    {
+        "problem": "A class plans a series of debates, where every student must debate with every other student exactly once. If there are 15 debates in total, how many students are in the class?",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "To find the number of students $n$ where each debates with every other one, we use the formula for combinations, which counts the number of ways to select pairs from $n$ students. The number of debates is equal to $\\binom{n}{2} = 15$. This simplifies to the equation $\\frac{n(n-1)}{2} = 15$. Multiplying both sides by 2, we get $n^2 - n = 30$. Solving this quadratic equation by factoring, we have $n = 6$ or $n = -5$. Since the number of students can't be negative, there are $\\boxed{6}$ students in the class.",
+        "knowledge_point": "Sequences and Series",
+        "id": 93
+    },
+    {
+        "problem": "A geometric sequence starts with a term of 24 and has a common ratio of 0.5. What is the 5th term in this sequence?",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "The 5th term of a geometric sequence can be found by using the formula $a_n = a_1 \\cdot r^{(n-1)}$ where $a_1$ is the first term, $r$ is the common ratio, and $n$ is the term number. Substituting the given values, we get $a_5 = 24 \\cdot (0.5)^{4} = 24 \\cdot 0.0625 = \\boxed{\\frac{3}{2}}$.",
+        "knowledge_point": "Sequences and Series",
+        "id": 94
+    },
+    {
+        "problem": "Calculate the sum of the series 4, 8, 12, ..., 100.",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "This is an arithmetic sequence where the first term a = 4 and the common difference d = 4. The last term l = 100. To find the number of terms, use the formula for the nth term of an arithmetic sequence, l = a + (n-1) * d. Solving 100 = 4 + (n-1) * 4 gives n = 25. The sum S of an arithmetic series is given by S = n/2 * (a + l). Substituting the values, S = 25/2 * (4 + 100) = 25/2 * 104 = \\boxed{1300}.",
+        "knowledge_point": "Sequences and Series",
+        "id": 95
+    },
+    {
+        "problem": "Lisa is three times as old as Jane. Four years ago, the sum of their ages was 24. How old is Jane now?",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "Let $j$ represent Jane's age today and $l$ represent Lisa's age. Then we know: $l = 3j$, and four years ago, their ages were $(j-4)$ and $(l-4)$, respectively. The equation for their ages four years ago is $(j-4) + (l-4) = 24$. Substituting $l = 3j$ into this equation, we get $(j-4) + (3j-4) = 24$, which simplifies to $4j - 8 = 24$. Solving for $j$, we have $4j = 32$, so $j = \\boxed{8}$. Thus, Jane is currently $8$ years old.",
+        "knowledge_point": "Systems of Linear Equations",
+        "id": 96
+    },
+    {
+        "problem": "A school has 450 students and the ratio of boys to girls is 4 to 5. If each boy has 3 books and each girl has 5 books, how many books are there in total?",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "First, let's determine the number of boys and girls based on the given ratio. The total parts of the ratio is 4 (boys) + 5 (girls) = 9 parts. Therefore, each part corresponds to 450 / 9 = 50 students. Thus, there are 4 parts * 50 = 200 boys and 5 parts * 50 = 250 girls. Now, calculating the number of books: boys have 3 books each, so they have 3 * 200 = 600 books; girls have 5 books each, so they have 5 * 250 = 1250 books. Adding these together, there are a total of 600 + 1250 = \\boxed{1850} books.",
+        "knowledge_point": "Systems of Linear Equations",
+        "id": 97
+    },
+    {
+        "problem": "Emily and her brother Mark receive a total of $200 as a gift. Emily decides to save $50 and Mark decides to save twice as much as Emily. How much does Mark save?",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "Let $m$ represent the amount Mark saves. Since Emily saves $50, Mark saves twice that amount, so $m = 2 \\times 50 = 100$. Thus, Mark saves $\\boxed{100}$ dollars.",
+        "knowledge_point": "Systems of Linear Equations",
+        "id": 98
+    },
+    {
+        "problem": "A store sold 15 notebooks and 10 pens for a total of $170. The next day, they sold 25 notebooks and 30 pens for a total of $410. If the prices of the notebook and pen remain constant, what is the price of one notebook?",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "Let $n$ be the price of one notebook and $p$ be the price of one pen. We have the equations: \\begin{align*}\n15n + 10p &= 170, \\\\\n25n + 30p &= 410.\n\\end{align*} Multiplying the first equation by 3 and the second by 1, we get: \\begin{align*}\n45n + 30p &= 510, \\\\\n25n + 30p &= 410.\n\\end{align*} Subtracting these gives $20n = 100$, so $n = 5$. Therefore, one notebook costs $\\boxed{5}$ dollars.",
+        "knowledge_point": "Systems of Linear Equations",
+        "id": 99
+    },
+    {
+        "problem": "In a football team, the number of defenders is twice the number of goalkeepers and the number of midfielders is 5 less than three times the number of goalkeepers. If the total number of defenders, goalkeepers, and midfielders is 25, how many midfielders are there in the team?",
+        "level": "Level 2",
+        "type": "Algebra",
+        "solution": "Let the number of goalkeepers be $g$, the number of defenders be $d$, and the number of midfielders be $m$. From the problem, we have the following system of equations:\n\n\\begin{align*}\nd &= 2g, \\\\\nm &= 3g - 5, \\\\\nd + g + m &= 25.\n\\end{align*}\n\nSubstituting the expressions for $d$ and $m$ in terms of $g$ into the third equation, we get $2g + g + (3g - 5) = 28$ or $6g - 5 = 25$. Solving for $g$, we find $g = 5$. Thus, there are $m = 3g - 5 = \\boxed{10}$ midfielders in the team.",
+        "knowledge_point": "Systems of Linear Equations",
+        "id": 100
+    },
+    {
+        "problem": "If $x$ and $y$ are integers such that $(x+yi)(3-4i) = 18 + i$, find the value of $x+y$.",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "Expanding and equating real and imaginary parts, we have $(x+yi)(3-4i) = 3x + 4y + (3y - 4x)i = 18 + i$. From this, equate the real parts: $3x + 4y = 18$ and the imaginary parts: $3y - 4x = 1$. Solving these simultaneously, $x = 2$, $y = 3$. Thus, $x + y = 2 + 3 = \\boxed{5}$.",
+        "knowledge_point": "Complex Numbers",
+        "id": 101
+    },
+    {
+        "problem": "Find the product of $(4 + 3i)$ and $(2 - 5i)$, where $i^2 = -1.$",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "$(4 + 3i)(2 - 5i) = 4(2) + 4(-5i) + 3i(2) + 3i(-5i) = 8 - 20i + 6i + 15 = \\boxed{23 - 14i}$.",
+        "knowledge_point": "Complex Numbers",
+        "id": 102
+    },
+    {
+        "problem": "Calculate the product and simplify $(2+i)(3-2i)$.",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "$(2+i)(3-2i) = 2(3) + 2(-2i) + i(3) + i(-2i) = 6 - 4i + 3i - 2i^2 = 6 - i + 2 = \\boxed{8 - i}$.",
+        "knowledge_point": "Complex Numbers",
+        "id": 103
+    },
+    {
+        "problem": "Find sum of all values of $z$ such that $z^2 + 4z + 13 = 0$.",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "Using the quadratic formula, $z = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$ where $a = 1, b = 4, c = 13$. So, $z = \\frac{-4 \\pm \\sqrt{16 - 52}}{2} = \\frac{-4 \\pm \\sqrt{-36}}{2} = \\frac{-4 \\pm 6i}{2} = -2 \\pm 3i$. Thus, $z = -2 + 3i$ and $z = -2 - 3i$. Therefore, the sum is $\\boxed{-4}$",
+        "knowledge_point": "Complex Numbers",
+        "id": 104
+    },
+    {
+        "problem": "Calculate and simplify the expression $\\left(\\frac{3-2i}{4}\\right)^2 + (5+6i)(2-i)$.",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "First, calculate $\\left(\\frac{3-2i}{4}\\right)^2 = \\frac{(3-2i)^2}{16} = \\frac{9 - 12i + 4i^2}{16} = \\frac{9 - 12i -4}{16} = \\frac{5 - 12i}{16}$. For the second part, $(5+6i)(2-i) = 10 - 5i + 12i - 6i^2 = 10 + 7i + 6 = 16 + 7i$. Adding these results, $\\frac{5 - 12i}{16} + (16 + 7i) = \\frac{5 - 12i}{16} + \\frac{256 + 112i}{16} = \\frac{261 + 100i}{16} = \\boxed{\\frac{261}{16} + \\frac{25i}{4}}$.",
+        "knowledge_point": "Complex Numbers",
+        "id": 105
+    },
+    {
+        "problem": "Hexagon $ABCDEF$ is inscribed in a circle centered at $O (0,0)$ with radius 10 units. The coordinates of points $A$, $B$, $C$, $D$, $E$, and $F$ are $A(10,0)$, $B(5, 8.66)$, $C(-5, 8.66)$, $D(-10, 0)$, $E(-5, -8.66)$, and $F(5, -8.66)$ respectively. Compute the area of hexagon $ABCDEF$.",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "To find the area of the regular hexagon, we can divide it into 6 equilateral triangles. The side length of each triangle, using the distance formula for $AB$, is $\\sqrt{(5-10)^2 + (8.66-0)^2} = 10$. The area of one equilateral triangle with side length $s$ is $\\frac{\\sqrt{3}}{4}s^2$. So, the area of one triangle is $\\frac{\\sqrt{3}}{4} \\times 100 = 25\\sqrt{3}$. The total area of the hexagon is $6 \\times 25\\sqrt{3} = 150\\sqrt{3}$. Thus, the area of hexagon $ABCDEF$ is $\\boxed{150\\sqrt{3}}$.",
+        "knowledge_point": "Algebra in Coordinate Geometry",
+        "id": 106
+    },
+    {
+        "problem": "Find the coordinates of the point which divides the line segment connecting the points (4, -2) and (12, 6) in the ratio 2:3.",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "The x coordinate is given by $4 + (12 - 4) \\times \\frac{2}{5} = \\frac{36}{5}$, and the y coordinate is given by $-2 + (6 - (-2)) \\times \\frac{2}{5} = \\frac{6}{5}$. Thus, the answer is $\\boxed{(\\frac{36}{5}, \\frac{6}{5})}$",
+        "knowledge_point": "Algebra in Coordinate Geometry",
+        "id": 107
+    },
+    {
+        "problem": "Given a line segment with endpoints $(2, -3)$ and $(8, 5)$. What is the midpoint of this segment?",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "The midpoint $(M)$ of a line segment with endpoints $(x_1, y_1)$ and $(x_2, y_2)$ is given by $\\left(\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2}\\right)$. For the endpoints $(2, -3)$ and $(8, 5)$, the midpoint is $\\left(\\frac{2+8}{2}, \\frac{-3+5}{2}\\right) = \\boxed{(5, 1)}$.",
+        "knowledge_point": "Algebra in Coordinate Geometry",
+        "id": 108
+    },
+    {
+        "problem": "Given a rectangle with vertices at coordinates $(2, 3)$, $(2, 7)$, $(6, 3)$, and $(6, 7)$. What is the area of this rectangle?",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "First, we calculate the length of the sides of the rectangle. The horizontal side between $(2, 3)$ and $(6, 3)$ has a length of $6 - 2 = 4$, and the vertical side between $(2, 3)$ and $(2, 7)$ has a length of $7 - 3 = 4$. The area of the rectangle is therefore $4 \\times 4 = 16$. Next, to find the midpoint of the diagonal, we use the midpoint formula: $\\left(\\frac{2+6}{2}, \\frac{3+7}{2}\\right) = (4, 5)$. Therefore, the area of the rectangle is $\\boxed{16}$.",
+        "knowledge_point": "Algebra in Coordinate Geometry",
+        "id": 109
+    },
+    {
+        "problem": "In a coordinate system, the line $y = 2x - 3$ intersects the line $3x - y = 4$ at point $B$. What is the sum of the coordinates of point $B$?",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "If the coordinates of point $B$ are $(x,y)$ then $x$ and $y$ must satisfy the equations of both lines (as $B$ is on both lines). Substituting the first equation into the second gives: \\begin{align*}\n3x - (2x - 3) &= 4\\\\\nx + 3 &= 4\\\\\nx &= 1.\n\\end{align*} So now $y = 2x - 3 = 2*1 - 3 = -1$, and so the coordinates of point $B$ are $(1, -1)$. The sum of these is $1 + (-1) = \\boxed{0}$.",
+        "knowledge_point": "Algebra in Coordinate Geometry",
+        "id": 110
+    },
+    {
+        "problem": "Solve for $x$ if $4^{2x+1} = 64^x$.",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "First, express 64 as a power of 4: $64 = 4^3$. Then the equation becomes $4^{2x+1} = (4^3)^x = 4^{3x}$. Setting the exponents equal gives $2x+1 = 3x$. Solving for $x$, we find $x = 1$. Therefore, $x = \\boxed{1}$.",
+        "knowledge_point": "Exponents and Logarithms",
+        "id": 111
+    },
+    {
+        "problem": "Simplify and solve for $x$ if $(8^{x+2})^2 \\cdot 16^{2x-1} = 2^{36}$.",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "First, express everything as powers of 2: $(8^{x+2})^2 \\cdot 16^{2x-1} = (2^3)^{x+2} \\cdot (2^4)^{2x-1} = 2^{3(x+2) \\cdot 2} \\cdot 2^{4(2x-1)} = 2^{6x+12} \\cdot 2^{8x-4} = 2^{14x+8}$. Set this equal to $2^{36}$. Thus, $14x+8 = 36$. Solving for $x$, $14x = 28$ and $x = \\boxed{2}$.",
+        "knowledge_point": "Exponents and Logarithms",
+        "id": 112
+    },
+    {
+        "problem": "What is the exponent of $x$ when $\\left(\\frac{x^{\\frac{1}{2}} \\cdot x^3}{x^{\\frac{3}{4}}}\right)^8$ is simplified?",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "First, simplify the expression inside the parentheses:\n\\begin{align*}\n\\frac{x^{\\frac{1}{2}} \\cdot x^3}{x^{\\frac{3}{4}}} &= x^{\\frac{1}{2} + 3 - \\frac{3}{4}} \\\\ &= x^{\\frac{2}{4} + \\frac{12}{4} - \\frac{3}{4}} \\\\ &= x^{\\frac{11}{4}}.\n\\end{align*}\nThen, apply the exponent outside the parentheses:\n\\begin{align*}\n\\left(x^{\\frac{11}{4}}\\right)^8 &= x^{\\frac{11}{4} \\cdot 8} \\\\ &= x^{22}.\n\\end{align*}\nSo, the simplified expression is $x^{22}$, and hence the exponent is $\\boxed{22}$ when the expression is simplified.",
+        "knowledge_point": "Exponents and Logarithms",
+        "id": 113
+    },
+    {
+        "problem": "Given the expressions $$\\frac{16^{-3/4}}{2^{-1}}, \\frac{32^{-5/5}}{4^{-1}}, \\frac{64^{-1/6}}{8^{-1/3}}, \\frac{128^{-7/7}}{16^{-1}}$$, determine how many unique values they represent.",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "First, simplify each expression to have the same base, which is 2. \\n$$\\frac{16^{-3/4}}{2^{-1}} = \\frac{(2^4)^{-3/4}}{2^{-1}} = 2^{-3} \\cdot 2 = 2^{-2}$$ \\n$$\\frac{32^{-5/5}}{4^{-1}} = \\frac{(2^5)^{-1}}{2^{-2}} = 2^{-5} \\cdot 2^2 = 2^{-3}$$ \\n$$\\frac{64^{-1/6}}{8^{-1/3}} = \\frac{(2^6)^{-1/6}}{2^{-3/3}} = 2^0$$ \\n$$\\frac{128^{-7/7}}{16^{-1}} = \\frac{(2^7)^{-1}}{2^{-4}} = 2^{-7} \\cdot 2^4 = 2^{-3}$$ \\nAfter simplification, we have two expressions that simplify to $2^{-3}$ and one that simplifies to $2^{-2}$ and the other simplifies to $2^0$. Therefore, there are three unique values, $2^{-2}$ and $2^{-3}$ and $2^0$. So, our answer is $\\boxed{3}$.",
+        "knowledge_point": "Exponents and Logarithms",
+        "id": 114
+    },
+    {
+        "problem": "Evaluate $\\log_{\\sqrt[4]{16}} 256$.",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "First, express $\\sqrt[4]{16}$ as a power of 2: $\\sqrt[4]{16} = 2$. Next, express 256 as a power of 2: $256 = 2^8$. Now, solve $\\log_{2} 2^8 = 8$. Thus, $\\boxed{8}$ is the answer.",
+        "knowledge_point": "Exponents and Logarithms",
+        "id": 115
+    },
+    {
+        "problem": "Given functions $f(x) = x + 1$ and $g(x) = 2x$, find the value of $(f \\circ g^{-1})(4)$, where $g^{-1}(x)$ is the inverse of $g(x)$.",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "First, we find the inverse of $g(x)$, which is $g^{-1}(x) = \\frac{x}{2}$. So, $g^{-1}(4) = \\frac{4}{2} = 2$. Next, we compute $f(g^{-1}(4)) = f(2) = 2 + 1 = 3$. Hence, $(f \\circ g^{-1})(4) = \\boxed{3}$.",
+        "knowledge_point": "Function Composition and Inverses",
+        "id": 116
+    },
+    {
+        "problem": "Let $h(x) = 2x + 1$ and $k(x) = x - 3$. Evaluate $h(k(h(1)))$.",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "First, we compute $h(1) = 2(1) + 1 = 3$. Then, we find $k(h(1)) = k(3) = 3 - 3 = 0$. Finally, we calculate $h(k(h(1))) = h(0) = 2(0) + 1 = 1$. Thus, $h(k(h(1))) = \\boxed{1}$.",
+        "knowledge_point": "Function Composition and Inverses",
+        "id": 117
+    },
+    {
+        "problem": "Consider the functions $p(x) = x - 2$ and $q(x) = 3x + 1$. Find the value of $p(q^{-1}(p^{-1}(q(p(4)))))$.",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "First, find $p(4) = 4 - 2 = 2$. Then, $q(p(4)) = q(2) = 3*2 + 1 = 7$. Next, find the inverse of $p$, which is $p^{-1}(x) = x + 2$, so $p^{-1}(7) = 7 + 2 = 9$. Now, find the inverse of $q$, which is $q^{-1}(x) = (x - 1)/3$, so $q^{-1}(9) = (9 - 1)/3 = 8/3$. Finally, calculate $p(q^{-1}(9)) = p(8/3) = 8/3 - 2 = 2/3$, so $p(q^{-1}(p^{-1}(q(p(4))))) = \\boxed{\\frac{2}{3}}$.",
+        "knowledge_point": "Function Composition and Inverses",
+        "id": 118
+    },
+    {
+        "problem": "Consider the piecewise function \\[ h(x) = \\begin{cases} \\sqrt{x} & \\text{if } x \\geq 4, \\\\ x^3 & \\text{if } x < 4. \\end{cases} \\] Evaluate $h(h(h(8)))$.",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "\\begin{align*} h(h(h(8))) &= h(h(\\sqrt{8})) \\\\ &= h(h(2\\sqrt{2})) \\\\ &= h((2\\sqrt{2})^3) \\\\ &= h(8\\sqrt{8}) \\\\ &= \\sqrt{8\\sqrt{8}} \\\\ &= \\boxed{4 \\times 2^{\\frac{1}{4}}}. \\end{align*}",
+        "knowledge_point": "Function Composition and Inverses",
+        "id": 119
+    },
+    {
+        "problem": "If $h(x) = 3x + 2$ and $k(x) = x^3 - 5x,$ evaluate $h(k(2)) + k(h(3))$.",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "We start by substituting into our function definitions:\\begin{align*} h(k(2)) + k(h(3)) &= h(2^3 - 5\\cdot2) + k(3\\cdot3 + 2) \\\\ &= h(-2) + k(11) = (3\\cdot(-2) + 2) + (11^3 - 5\\cdot11) \\\\ &= -4 + (1331 - 55) \\\\ &= -4 + 1276 = \\boxed{1272}. \\end{align*}",
+        "knowledge_point": "Function Composition and Inverses",
+        "id": 120
+    },
+    {
+        "problem": "What is the minimum value of possible values for $x$ if $|3x + 1| \\leq 8$?",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "First, solve the inequality $|3x + 1| \\leq 8$. This expands to $-8 \\leq 3x + 1 \\leq 8$. Subtracting 1 from all parts gives $-9 \\leq 3x \\leq 7$. Dividing everything by 3 results in $-3 \\leq x \\leq \\frac{7}{3}$. Thus, the minimum value of $x$ is $\\boxed{-3}$.",
+        "knowledge_point": "Inequalities and Absolute Values",
+        "id": 121
+    },
+    {
+        "problem": "Determine the sum of all integer solutions for the inequality $|2x - 5| \\leq 9$.",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "First, solve the absolute value inequality $|2x - 5| \\leq 9$. This can be written as two separate inequalities: $2x - 5 \\leq 9$ and $2x - 5 \\geq -9$. Solving these, we get $2x \\leq 14$ and $2x \\geq -4$, simplifying further gives $x \\leq 7$ and $x \\geq -2$. Therefore, the integer solutions are $x = -2, -1, 0, 1, 2, 3, 4, 5, 6, 7$. The sum of these integer solutions is $(-2) + (-1) + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 = \\boxed{25}$.",
+        "knowledge_point": "Inequalities and Absolute Values",
+        "id": 122
+    },
+    {
+        "problem": "If $C = -\\frac{1}{3}$ and $D = \\frac{2}{3}$, what is the absolute value of the sum of $24C$ and $24D$? ",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "We are looking for $|24C + 24D|$, which simplifies to $|24(C + D)| = 24|C + D|$. Since $C + D = -\\frac{1}{3} + \\frac{2}{3} = \\frac{1}{3}$, we find $24|C + D| = 24\\cdot\\frac{1}{3} = 8$. Thus, the absolute value is $\\boxed{8}$.",
+        "knowledge_point": "Inequalities and Absolute Values",
+        "id": 123
+    },
+    {
+        "problem": "Evaluate $\\lfloor 2.5 \\rfloor + 3 \\cdot \\lfloor 0.8 \\cdot 2.5 \\rfloor$.",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "Since $2 < 2.5 < 3$ we have $\\lfloor 2.5 \\rfloor = 2$. Next, $3 \\cdot \\lfloor 0.8 \\cdot 2.5 \\rfloor = 3 \\lfloor 2 \\rfloor = 3 \\cdot 2 = 6$. Therefore, $\\lfloor 2.5 \\rfloor + 3 \\cdot \\lfloor 0.8 \\cdot 2.5 \\rfloor = \\boxed{8}.$",
+        "knowledge_point": "Inequalities and Absolute Values",
+        "id": 124
+    },
+    {
+        "problem": "Find the smallest integer that satisfies the inequality: \\[(x-3)(x+7)<0.\\]",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "For the product of two factors to be negative, one of the factors must be positive and one of the factors must be negative. Since $x-3<x+7$ for all $x$, we know that $x$ satisfies $(x-3)(x+7)<0$ if and only if $x-3 < 0 < x+7$. The first inequality, $x-3<0$, tells us that $x<3$. The second inequality, $0<x+7$, tells us that $x>-7$. Thus the solutions to the original inequality are given by $-7<x<3$. The smallest integer in this interval is $x=\\boxed{-6}$.",
+        "knowledge_point": "Inequalities and Absolute Values",
+        "id": 125
+    },
+    {
+        "problem": "Given the polynomials $h(x) = 2x^4 + 5x^3 - 4x^2 + x - 7$ and $j(x) = -x^4 + 3x^3 + 6x^2 - 2x + 4$, compute $h(x) - j(x)$. Write your answer as a polynomial in terms of $x$ with coefficients in descending powers of $x$.",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "We see that $h(x) - j(x) = 2x^4 + 5x^3 - 4x^2 + x - 7 - (-x^4 + 3x^3 + 6x^2 - 2x + 4).$ Simplifying, we get $\\boxed{3x^4 + 2x^3 - 10x^2 + 3x - 11}$.",
+        "knowledge_point": "Polynomials and Polynomial Operations",
+        "id": 126
+    },
+    {
+        "problem": "Given two polynomials $f(x) = x^4 - 5x^3 + 6x - 2$ and $g(x) = 2x^3 + 3x^2 - x + 5$, find the leading coefficient of their product.",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "The degree of $f(x)$ is 4 and the leading coefficient is 1. The degree of $g(x)$ is 3 and the leading coefficient is 2. The product $f(x) \\cdot g(x)$ will have a degree of $4+3=7$, and the leading coefficient will be $1 \\cdot 2 = 2$. Therefore, the leading coefficient is $\\boxed{2}$.",
+        "knowledge_point": "Polynomials and Polynomial Operations",
+        "id": 127
+    },
+    {
+        "problem": "Given the polynomial equation $(5x-3)(4x+7) - 3(3x+2)(5x-1) + 2 = -25x^2 + bx + c$, find the values of and $c$.",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "First expand the expressions. For $(5x-3)(4x+7) = 20x^2 + 35x - 12x - 21 = 20x^2 + 23x - 21$. For $3(3x+2)(5x-1) = 3(15x^2 - 3x + 10x - 2) = 3(15x^2 + 7x - 2) = 45x^2 + 21x - 6$. Subtract and add the constant, we get $(20x^2 + 23x - 21) - (45x^2 + 21x - 6) + 2 = -25x^2 + 2x - 13$. Therefore, $b = 2$ and $c = \\boxed{-13}$.",
+        "knowledge_point": "Polynomials and Polynomial Operations",
+        "id": 128
+    },
+    {
+        "problem": "Evaluate the polynomial expression $(2x^3 - 3x^2 + x - 5) - (x^3 - 2x^2 + 4x - 1)$ and determine the resulting polynomial.",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "Subtracting the polynomials gives: \n$(2x^3 - 3x^2 + x - 5) - (x^3 - 2x^2 + 4x - 1) = 2x^3 - 3x^2 + x - 5 - x^3 + 2x^2 - 4x + 1 = (2x^3 - x^3) + (-3x^2 + 2x^2) + (x - 4x) + (-5 + 1) = x^3 - x^2 - 3x - 4$. \nThus, the resulting polynomial is $\\boxed{x^3 - x^2 - 3x - 4}$.",
+        "knowledge_point": "Polynomials and Polynomial Operations",
+        "id": 129
+    },
+    {
+        "problem": "Simplify the expression $\\left(\\frac{5x^4}{2x^3} - \\frac{9x^2}{6x}\\right) \\cdot \\left(\\frac{4x^3}{3x^2} \\cdot \\frac{9x^2}{8x}\\right)$.",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "First, simplify the fractions inside the parentheses: $\\frac{5x^4}{2x^3} = \\frac{5}{2}x$ and $\\frac{9x^2}{6x} = \\frac{3}{2}x$. The expression inside the first set of parentheses simplifies to $\\frac{5}{2}x - \\frac{3}{2}x = x$. Next, simplify the fractions in the second set of parentheses: $\\frac{4x^3}{3x^2} = \\frac{4}{3}x$ and $\\frac{9x^2}{8x} = \\frac{9}{8}x$. The product of these fractions is $\\frac{4}{3}x \\cdot \\frac{9}{8}x = \\frac{3}{2}x^2$. Multiplying the results of both parentheses: $x \\cdot \\frac{3}{2}x^2 = \\boxed{\\frac{3}{2}x^3}$.",
+        "knowledge_point": "Polynomials and Polynomial Operations",
+        "id": 130
+    },
+    {
+        "problem": "If the quadratic equation $3x^2 + px + 9 = 0$ has one of its roots equal to $2$, what is the value of $p$?",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "Since $2$ is a root of the equation, substituting $x = 2$ in $3x^2 + px + 9 = 0$ gives $3(2)^2 + 2p + 9 = 0$. Simplifying, we have $12 + 2p + 9 = 0$ which reduces to $21 + 2p = 0$. Solving for $p$, we find $2p = -21$, so $p = -\\frac{21}{2}$. Thus, $p = \\boxed{-\\frac{21}{2}}$.",
+        "knowledge_point": "Quadratic Equations and Functions",
+        "id": 131
+    },
+    {
+        "problem": "Consider the quadratic equation $3x^2 - 18x + k = 0$, where $k$ is a constant. If the sum of the squares of the roots of the equation is 40, what is the value of $k$?",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "Let the roots of the equation be $r$ and $s$. By Vieta's formulas, we have $r+s = \\frac{18}{3} = 6$ and $rs = \\frac{k}{3}$. The sum of the squares of the roots can be written as $r^2 + s^2 = (r+s)^2 - 2rs = 36 - 2rs$. Since $r^2 + s^2 = 40$, we have $36 - 2rs = 40$. Solving for $rs$ gives $rs = -2$. Substituting back, we find $k = 3(-2) = \\boxed{-6}$.",
+        "knowledge_point": "Quadratic Equations and Functions",
+        "id": 132
+    },
+    {
+        "problem": "A garden is being designed such that its length is 14 feet more than twice its width, and the area is 240 square feet. What are the larger dimension of the garden?",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "Let the width of the garden be w feet. Then the length would be 2w + 14 feet. The area of the garden is given by the product of its length and width, which equals 240 square feet. Thus, we have the equation: w(2w + 14) = 240. Expanding and rearranging gives: 2w^2 + 14w - 240 = 0. Dividing through by 2 simplifies this to: w^2 + 7w - 120 = 0. Factoring this quadratic equation yields: (w - 8)(w + 15) = 0. Since width cannot be negative, w = 8 feet. Substituting back, the length is 2(8) + 14 = 30 feet. Therefore, the dimensions of the garden are 8 feet by \\boxed{30} feet.",
+        "knowledge_point": "Quadratic Equations and Functions",
+        "id": 133
+    },
+    {
+        "problem": "Given that $x^2 + bx + 36 = 0$ has roots $p$ and $q$, and the expression $(x-p)^2 + (x-q)^2$ simplifies to $2x^2 + 40x + 328$, find the value of $b$.",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "Expanding the expression $(x-p)^2 + (x-q)^2$ results in $2x^2 - 2(p+q)x + (p^2 + q^2)$. We know from the quadratic equation that $p+q = -b$ and $pq = 36$. From the given expression $2x^2 + 40x + 328$, we equate coefficients and find $2b = 40$, thus $b = 20$. This is consistent with the known values, confirming $b = \\boxed{20}$.",
+        "knowledge_point": "Quadratic Equations and Functions",
+        "id": 134
+    },
+    {
+        "problem": "Consider the quadratic equation $9m^2 - 24m + k = 0$. Determine the value of $k$ such that the equation has exactly one solution.",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "For a quadratic equation to have exactly one solution, its discriminant must be zero. The discriminant for the equation $9m^2 - 24m + k = 0$ is given by $b^2 - 4ac = (-24)^2 - 4(9)(k) = 576 - 36k$. Setting the discriminant to zero gives $576 - 36k = 0$. Solving for $k$, we find $k = \\frac{576}{36} = \\boxed{16}$.",
+        "knowledge_point": "Quadratic Equations and Functions",
+        "id": 135
+    },
+    {
+        "problem": "Find the sum of x-values for the vertical asymptotes of the function $y=\\frac{5}{x^2 - 7x + 10}$.",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "First, factorize the denominator: $x^2 - 7x + 10 = (x-2)(x-5)$. Vertical asymptotes occur where the denominator equals zero. Setting $(x-2)(x-5) = 0$, we find $x = 2$ and $x = 5$. Therefore, there are vertical asymptotes at $x = 2$ and $x = 5$, hence the function has 2 vertical asymptotes and the sum of all x-values is $2 + 5 = \\boxed{7}$.",
+        "knowledge_point": "Rational Functions and Expressions",
+        "id": 136
+    },
+    {
+        "problem": "Simplify the expression $\\frac{\\sqrt{45}}{\\sqrt{5}}$ and express your answer with an integer denominator.",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "We have: $$\\frac{\\sqrt{45}}{\\sqrt{5}} = \\frac{\\sqrt{45} \\cdot \\sqrt{5}}{\\sqrt{5} \\cdot \\sqrt{5}} = \\frac{\\sqrt{225}}{5} = \\frac{15}{5} = \\boxed{3}.$$",
+        "knowledge_point": "Rational Functions and Expressions",
+        "id": 137
+    },
+    {
+        "problem": "Given $g(x) = \\frac{x^2}{x-3}$, for which integer $x$ is $g(x)$ undefined?",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "The function $g(x)$ is undefined where the denominator is zero. Setting the denominator equal to zero gives us: $$x - 3 = 0 \\Rightarrow x = \\boxed{3}.$$",
+        "knowledge_point": "Rational Functions and Expressions",
+        "id": 138
+    },
+    {
+        "problem": "Simplify and find the value of $\\left\\lceil\\left(\\frac{5}{3}\\right)^3\\right\\rceil$.",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "First, we compute the cube of the fraction: $$\\left(\\frac{5}{3}\\right)^3 = \\frac{125}{27} = 4 + \\frac{17}{27}.$$ Because $0 \\leq \\frac{17}{27} < 1$, we apply the ceiling function: $$\\left\\lceil\\left(\\frac{5}{3}\\right)^3\\right\\rceil = \\left\\lceil 4 + \\frac{17}{27} \\right\\rceil = \\boxed{5}.$$",
+        "knowledge_point": "Rational Functions and Expressions",
+        "id": 139
+    },
+    {
+        "problem": "Determine the smallest positive integer value of $x$ such that the expression $\\frac{x+5}{x^2-5x+6}$ is defined and non-zero.",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "First, we need the denominator to be non-zero. Factoring the quadratic gives $x^2-5x+6=(x-2)(x-3)$. Thus, the denominator is zero when $x=2$ or $x=3$. Additionally, $x$ must be such that the numerator $x+5 \\neq 0$, which simplifies to $x \\neq -5$. Combining these restrictions, the smallest positive integer value for $x$ where the expression is defined and non-zero is $x=\\boxed{1}$.",
+        "knowledge_point": "Rational Functions and Expressions",
+        "id": 140
+    },
+    {
+        "problem": "For the geometric sequence $729, 243, 81, 27, \\ldots,$ what is the 7th term in the sequence?",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "The common ratio in this geometric sequence is $243 / 729 = 1/3$, so the $n^{\\text{th}}$ term in this sequence is $729 \\cdot (1/3)^{n-1}$. For the 7th term, we have $729 \\cdot (1/3)^6 = 729 \\cdot (1/729) = \\boxed{1}$.",
+        "knowledge_point": "Sequences and Series",
+        "id": 141
+    },
+    {
+        "problem": "Leona invested $\\$8000$ in a savings account that compounds annually at a rate of $8\\%$. How much total money will she have after 8 years? Give the answer in decimal and round to 2 decimal places",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "With compound interest, the total amount after 8 years can be calculated using the formula $A = P(1 + r)^t$, where $P = 8000$, $r = 0.08$, and $t = 8$. Thus, $A = 8000(1 + 0.08)^8 \\approx 8000 \\times 1.85093 \\approx 14807.44$. Therefore, the total amount Leona has after 8 years is approximately $\\$\\boxed{14807.44}$.",
+        "knowledge_point": "Sequences and Series",
+        "id": 142
+    },
+    {
+        "problem": "Find the smallest of 6 consecutive odd numbers if the sum of these numbers is 32 less than four times the largest number.",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "Let the smallest odd number be $a$. The six consecutive odd numbers are $a, a+2, a+4, a+6, a+8, a+10$. Their sum is $6a + 30$. The largest number is $a+10$, and four times this number is $4(a+10) = 4a + 40$. The sum of the numbers is given to be 32 less than this, so $6a + 30 = 4a + 8$. Solving, $2a = -22$ and $a = -11$. Thus, the smallest number is \\$\\boxed{-11}$.",
+        "knowledge_point": "Sequences and Series",
+        "id": 143
+    },
+    {
+        "problem": "Jasmine has a booklet with $100$ pages. She plans to read $2$ pages on the first day and double the number of pages each subsequent day until she finishes. On which day will Jasmine complete reading the booklet?",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "Jasmine reads $2$ pages on day 1, $4$ pages on day 2, and continues doubling each day. The total number of pages read by day $n$ forms a geometric sequence with the $n$-th term being $2^n$. The sum of pages read up to day $n$ is given by $S_n = 2 + 4 + \\dots + 2^n$. We need $S_n \\geq 100$. The sum $S_n = 2(2^n - 1)$. Solving $2(2^n - 1) \\geq 100$ gives $2^n - 1 \\geq 50$, so $2^n \\geq 51$. Therefore, $n \\geq 6$. Checking the actual page count for $n=6$ gives a total of $126$ pages, indicating Jasmine finishes on day \\$\\boxed{6}$.",
+        "knowledge_point": "Sequences and Series",
+        "id": 144
+    },
+    {
+        "problem": "In an arithmetic sequence, the sum of the first 10 terms equals the sum of the first 20 terms. If the first term of the sequence is 5, what is the common difference?",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "Given the first term $a = 5$, the sum of the first $n$ terms of an arithmetic sequence is $S_n = n/2(2a + (n-1)d)$. For the first 10 terms, $S_{10} = 10/2(2 \\times 5 + 9d) = 5(10 + 9d) = 50 + 45d$. For the first 20 terms, $S_{20} = 20/2(2 \\times 5 + 19d) = 10(10 + 19d) = 100 + 190d$. Since the sum of the first 10 terms equals the sum of the first 20 terms, we have $50 + 45d = 100 + 190d$. Solving for $d$ gives $-145d = 50$ and $d = -\\frac{10}{29}$. Thus, the common difference is $\\boxed{-\\frac{10}{29}}$.",
+        "knowledge_point": "Sequences and Series",
+        "id": 145
+    },
+    {
+        "problem": "A factory uses machines X, Y, and Z to produce two types of gadgets, A and B. Machine X can produce 5 gadgets of type A and 3 gadgets of type B per hour. Machine Y can produce 4 gadgets of type A and 7 gadgets of type B per hour. Machine Z can produce 2 gadgets of type A and 4 gadgets of type B per hour. If the factory has a total of 6 hours for all machines to operate and needs to produce 19 gadgets of type A and 29 gadgets of type B, how many hours should machine X operate?",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "Let $x, y, z$ be the hours machine X, Y, and Z should operate, respectively. We have the system of equations: \\n5x + 4y + 2z = 19 \\quad \\text{(Type A gadgets)}\\n3x + 7y + 4z = 29 \\quad \\text{(Type B gadgets)}\\n\\text{and } x + y + z = 6 \\quad \\text{(Total hours)}.\\nWe need to solve this system to find the values of $x, y,$ and $z$. Using methods of substitution or elimination to solve these equations will yield the required hours of operation for each machine. \\boxed{1}",
+        "knowledge_point": "Systems of Linear Equations",
+        "id": 146
+    },
+    {
+        "problem": "If four painters can paint four walls in four hours, how long would it take six painters to paint six walls, assuming all painters work at the same rate?",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "Let's define the rate of painting for each painter as the number of walls they can paint per hour. Since four painters can paint four walls in four hours, each painter paints one wall in four hours. The rate for each painter is 1/4 wall per hour. Now, for six painters working together, their combined rate is 6*(1/4) = 1.5 walls per hour. To paint six walls, the time needed is the number of walls divided by the rate, which is 6 / 1.5 = 4 hours. Therefore, it would take six painters \\boxed{4} hours to paint six walls.",
+        "knowledge_point": "Systems of Linear Equations",
+        "id": 147
+    },
+    {
+        "problem": "Determine the value of the constant $c$ for which the system of equations has solution.\\begin{align*} 2x - 3y &= c, \\\\ 4x - 6y &= 5 + c \\end{align*}",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "First, we notice that the second equation can be seen as a multiple of the first if we ignore the constants on the right. Multiplying the first equation by 2 gives us $4x - 6y = 2c$. For the system to have solutions, these two equations must be not contradictory. Therefore, we equate $2c$ from the modified first equation to $5 + c$ from the second equation, giving $2c = 5 + c$. Solving for $c$ gives $c = \\boxed{5}$.",
+        "knowledge_point": "Systems of Linear Equations",
+        "id": 148
+    },
+    {
+        "problem": "At a bakery, there are three types of pastries: croissants, muffins, and scones. On a particular day, the total number of pastries is 400. If the number of muffins and scones together is three times the number of croissants, and there are 20 more muffins than scones, find the number of croissants.",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "Let $c$, $m$, and $s$ be the number of croissants, muffins, and scones respectively. The system of equations based on the problem statement is:\n\\begin{align*}\nc + m + s &= 400,\\\\\n3c &= m + s,\\\\\nm &= s + 20.\n\\end{align*}Substituting $m = s + 20$ into the second equation gives $3c = (s + 20) + s = 2s + 20$. From the first equation, $c + (s + 20) + s = 400$, or $c + 2s + 20 = 400$. Solving these equations, we find $c = 100$, $m = 160$, and $s = 140$. So, there are $\\boxed{100}$ croissants, $160$ muffins, and $140$ scones.",
+        "knowledge_point": "Systems of Linear Equations",
+        "id": 149
+    },
+    {
+        "problem": "Consider three piles of coins. The first pile has 2 more coins than twice the number in the second pile. The third pile has 5 fewer than three times the number in the second pile. If the total number of coins in all three piles is 63, how many coins are in the second pile?",
+        "level": "Level 3",
+        "type": "Algebra",
+        "solution": "Let the number of coins in the second pile be $y$. Then the first pile has $2y + 2$ coins, and the third pile has $3y - 5$ coins. The equation for the total coins is $2y + 2 + y + 3y - 5 = 63$. Simplifying, we get $6y - 3 = 63$. Solving for $y$, we add 3 to both sides to get $6y = 66$, and then divide by 6 to find $y = \\boxed{11}$. Therefore, there are approximately 11 coins in the second pile.",
+        "knowledge_point": "Systems of Linear Equations",
+        "id": 150
+    },
+    {
+        "problem": "If $z = 3 + 4i$, find the magnitude $|z|$ of the complex number.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "The magnitude of a complex number $z = a + bi$ is given by $|z| = \\sqrt{a^2 + b^2}$. For $z = 3 + 4i$, we have $|z| = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = \\boxed{5}$.",
+        "knowledge_point": "Complex Numbers",
+        "id": 151
+    },
+    {
+        "problem": "Calculate the square of the conjugate of the complex number $z = 7 - 3i$.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "The conjugate of $z = 7 - 3i$ is $\\overline{z} = 7 + 3i$. The square of the conjugate is $\\overline{z}^2 = (7 + 3i)^2 = 49 + 42i - 9 = 40 + 42i. Thus, \\boxed{40 + 42i}$.",
+        "knowledge_point": "Complex Numbers",
+        "id": 152
+    },
+    {
+        "problem": "Given $z = 2 - i$ and $w = -1 + 2i$, compute the product $zw$ and represent it in the form of a complex number $a+bi$.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "The product of $z = 2 - i$ and $w = -1 + 2i$ is $zw = (2 - i)(-1 + 2i) = -2 + 4i + i - 2i^2 = -2 + 5i + 2 = \\boxed{5i}$.",
+        "knowledge_point": "Complex Numbers",
+        "id": 153
+    },
+    {
+        "problem": "If $z = 1 + i$, compute $z^4$ and express it in standard form.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "First, calculate $z^2 = (1 + i)^2 = 1 + 2i - 1 = 2i. Then, $z^4 = (z^2)^2 = (2i)^2 = -4. Hence, z^4 = \\boxed{-4}$.",
+        "knowledge_point": "Complex Numbers",
+        "id": 154
+    },
+    {
+        "problem": "Evaluate the expression $(1+i)^6$ and simplify your answer.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "First, calculate $(1+i)^2 = (1 + i)^2 = 1 + 2i - 1 = 2i. Then, $(1+i)^6 = (2i)^3 = (2i)^2 * 2i = -8i. Hence, (1+i)^6 = \\boxed{-8i}$.",
+        "knowledge_point": "Complex Numbers",
+        "id": 155
+    },
+    {
+        "problem": "The graph of function $f(x)$ is given by the line segment from $(0, 0)$ to $(10, 20)$ and for the function $g(x)$ by the line segment from $(0, 20)$ to $(10, 0)$. Find the value of $f(x) - g(x)$ at $x = 5$.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "Both functions $f(x)$ and $g(x)$ are linear. The function $f(x)$ increases from $(0,0)$ to $(10,20)$, which means the slope is $2$ and the equation is $y = 2x$. The function $g(x)$ decreases from $(0,20)$ to $(10,0)$, which means the slope is $-2$ and the equation is $y = -2x + 20$. Setting $2x = -2x + 20$ gives $4x = 20$ hence $x = 5$, so $f(x) = g(x)$ at $x = 5$. At $x = 5$, $f(5) = 2*5 = 10$ and $g(5) = -2*5 + 20 = 10$, so $f(x) - g(x) = \\boxed{0}$.",
+        "knowledge_point": "Algebra in Coordinate Geometry",
+        "id": 156
+    },
+    {
+        "problem": "Given the equation of a circle $x^2 + y^2 - 4x + 6y + 9 = 0$, find the radius of the circle.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "First, we complete the square for both $x$ and $y$. Rewriting, we have $x^2 - 4x + y^2 + 6y = -9$. Completing the square gives $(x-2)^2 - 4 + (y+3)^2 - 9 = -9$. Simplifying, we find $(x-2)^2 + (y+3)^2 = 4$, which is a circle with center $(2, -3)$ and radius $\\boxed{2}$.",
+        "knowledge_point": "Algebra in Coordinate Geometry",
+        "id": 157
+    },
+    {
+        "problem": "A line in the coordinate plane passes through the points (2, -2) and (10, 6). What is the $x$-intercept of this line?",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "First, find the slope of the line using the two points. The slope $m$ is given by $m = \\frac{6 - (-2)}{10 - 2} = 1$. Using the point-slope form of a line equation, $(y - y_1) = m(x - x_1)$, substitute point $(2, -2)$ and slope $1$ to get $y + 2 = x - 2$. Simplifying, we get $y = x - 4$. To find the $x$-intercept, set $y = 0$ and solve $0 = x - 4$, giving $x = 4$. Hence, the $x$-intercept is $\\boxed{4}$.",
+        "knowledge_point": "Algebra in Coordinate Geometry",
+        "id": 158
+    },
+    {
+        "problem": "Laura starts at point $A$ and moves to point $B$ in a straight line at a speed of $6$ m/s for $300$ meters, then continues to point $C$ at a speed of $3$ m/s for another $600$ meters, and finally proceeds to point $D$ at a speed of $9$ m/s for $300$ meters. What is Laura's average speed, in meters per second, over the entire distance from $A$ to $D$? Give the answer in decimal and round to 2 decimal places",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "To find the average speed, first calculate the total distance and total time. The distance from $A$ to $D$ is $300 + 600 + 300 = 1200$ meters. The time taken to travel from $A$ to $B$ is $\\frac{300}{6} = 50$ seconds, from $B$ to $C$ is $\\frac{600}{3} = 200$ seconds, and from $C$ to $D$ is $\\frac{300}{9} = 33.33$ seconds. The total time is $50 + 200 + 33.33 = 283.33$ seconds. Thus, the average speed is $\\frac{1200}{283.33} = \\boxed{4.24}$ m/s.",
+        "knowledge_point": "Algebra in Coordinate Geometry",
+        "id": 159
+    },
+    {
+        "problem": "A line passes through the point (-2, 7) and has a y-intercept of 3. Another line intersects it at point P and passes through the points (3, -5) and (5, -8). Compute the x-coordinate of point P.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "First, determine the equation of the first line. Given that it passes through (-2, 7) and has a y-intercept of 3, the slope can be calculated as (7 - 3) / (-2 - 0) = 4 / -2 = -2. Therefore, the equation of the first line is y = -2x + 3.\n\nNext, find the equation of the second line passing through points (3, -5) and (5, -8). The slope of this line is (-8 + 5) / (5 - 3) = -3 / 2 = -1.5. Using the point (3, -5) to find the y-intercept, we have -5 = -1.5*3 + b => b = -0.5. So, the equation of the second line is y = -1.5x - 0.5.\n\nSet the equations equal to find the intersection point P:\n\n-2x + 3 = -1.5x - 0.5.\n\nSolve for x:\n\n-2x + 1.5x = -0.5 - 3\n\n-0.5x = -3.5\n\nx = 7.\n\nTherefore, the x-coordinate of point P is \\boxed{7}.",
+        "knowledge_point": "Algebra in Coordinate Geometry",
+        "id": 160
+    },
+    {
+        "problem": "Mrs. Smith invests 2000 dollars in an account that compounds annually at a constant interest rate. After five years, her investment has grown to 3220 dollars. What is the annual interest rate, as a percentage? (Round your answer to the nearest integer.)",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "Let $r$ be the annual interest rate. Then after five years, Mrs. Smith's investment is $2000 \\cdot \\left( 1 + \\frac{r}{100} \\right)^5$, so \\[2000 \\cdot \\left( 1 + \\frac{r}{100} \\right)^5 = 3220.\\] Then \\[\\left( 1 + \\frac{r}{100} \\right)^5 = 1.61,\\] so \\[1 + \\frac{r}{100} = \\sqrt[5]{1.61} = 1.09854,\\] which means $r = \\boxed{10}$, to the nearest integer.",
+        "knowledge_point": "Exponents and Logarithms",
+        "id": 161
+    },
+    {
+        "problem": "Simplify $\\root 4 \\of {x \\root 4 \\of {x \\root 4 \\of {x \\root 4 \\of {x}}}}$. Express your answer in simplest radical form in terms of $x$.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "We have \\begin{align*} \\root 4 \\of {x \\root 4 \\of {x \\root 4 \\of {x \\root 4 \\of {x}}}} &= (x(x(x(x)^{\\frac{1}{4}})^{\\frac{1}{4}})^{\\frac{1}{4}})^{\\frac{1}{4}} \\\\ &= (x(x(x^{\\frac{5}{4}})^{\\frac{1}{4}})^{\\frac{1}{4}})^{\\frac{1}{4}} \\\\ &= (x(x^{\\frac{21}{16}})^{\\frac{1}{4}})^{\\frac{1}{4}} \\\\ &= (x^{\\frac{85}{64}})^{\\frac{1}{4}} = \\boxed{x^{\\frac{85}{256}}}. \\end{align*}",
+        "knowledge_point": "Exponents and Logarithms",
+        "id": 162
+    },
+    {
+        "problem": "Solve for $x$ given that $3^{x+1} + 3^x = 30$. Give the answer in decimal and round to 2 decimal places",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "First, express $3^{x+1}$ as $3 \\cdot 3^x$. The equation becomes $3 \\cdot 3^x + 3^x = 30$. Combining like terms gives $(3 + 1) \\cdot 3^x = 30$, or $4 \\cdot 3^x = 30$. Dividing both sides by $4$, we find $3^x = \\frac{30}{4} = 7.5$. Taking the logarithm base 3, we have $x = \\log_3(7.5)$. Using the change of base formula, $x = \\frac{\\log_{10}(7.5)}{\\log_{10}(3)}$. The approximate solution is $x \\approx 1.834$. Therefore, the solution is $\\boxed{1.83}$.",
+        "knowledge_point": "Exponents and Logarithms",
+        "id": 163
+    },
+    {
+        "problem": "A student wants to save $\\$50000$ in a savings account by the end of 10 years. The account offers a compound interest rate of 5% per year. How much should the student deposit initially to meet her goal? (Give the answer in decimal and round to 2 decimal places)",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "Let $P$ be the initial amount the student deposits. After 10 years, with a compound interest rate of 5% per year, the total amount will be $P \\cdot 1.05^{10}$. To reach her goal of $50000, $P$ must satisfy \\[P = \\frac{50000}{1.05^{10}} = \\boxed{30695.66},\\] rounded to the nearest dollar.",
+        "knowledge_point": "Exponents and Logarithms",
+        "id": 164
+    },
+    {
+        "problem": "Given the equations $3^{3x} = 9^{x-3}$ and $27^{2y} = 81^{y+2}$, find the sum $x + y$.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "First, convert all bases to the lowest form, $3^{3x} = 3^{2(x-3)}$ which simplifies to $3x = 2x - 6$. Solving this gives $x = -6$. For the second equation, $27^{2y} = 81^{y+2}$ can be rewritten as $3^{3(2y)} = 3^{4(y+2)}$, simplifying to $6y = 4y + 8$. Solving for $y$ gives $y = 4$. Adding both results, $x + y = -6 + 4 = \\boxed{-2}$.",
+        "knowledge_point": "Exponents and Logarithms",
+        "id": 165
+    },
+    {
+        "problem": "Given the functions $f(x) = 2x - 3$ and $g(x) = x^2 + 1$. Define a new function $h(x) = g(f(x)), x > 1.5$. Calculate $h^{-1}(10)$.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "First calculate $h(x) = g(f(x)) = (2x - 3)^2 + 1 = 4x^2 - 12x + 10.$ To find the inverse, we set $y = h(x)$ and solve for $x: y = 4x^2 - 12x + 10.$ Rearranging gives $4x^2 - 12x + (10 - y) = 0.$ Using the quadratic formula, $x = \\frac{-(-12) \\pm \\sqrt{144 - 4 \\cdot 4 \\cdot (10 - y)}}{2 \\cdot 4} = \\frac{12 \\pm \\sqrt{16y - 16}}{8}.$ Simplifying, we get $x = \\frac{12 \\pm \\sqrt{16y - 16}}{8}.$ Since $x > 1.5$, we know $h^{-1}(y) = \\frac{12 + \\sqrt{16y - 16}}{8}.$ Substituting $y = 10$ gives $h^{-1}(10) = \\frac{12 + \\sqrt{144}}{8} = \\boxed{3}.$",
+        "knowledge_point": "Function Composition and Inverses",
+        "id": 166
+    },
+    {
+        "problem": "Let \\( f(x) = 3x - 4 \\) and \\( g(x) = \\frac{x}{2} + 1 \\). Evaluate \\( f(g(f(g(2)))) \\).",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "First, evaluate \\( g(2) \\): \\( g(2) = \\frac{2}{2} + 1 = 2 \\). Next, evaluate \\( f(g(2)) \\): \\( f(2) = 3(2) - 4 = 2 \\). Then, evaluate \\( g(f(g(2))) \\): \\( g(2) = 2 \\). Finally, evaluate \\( f(g(f(g(2)))) \\): \\( f(2) = 2 \\). Therefore, \\( f(g(f(g(2)))) = \\boxed{2} \\).",
+        "knowledge_point": "Function Composition and Inverses",
+        "id": 167
+    },
+    {
+        "problem": "Given the function $f(x) = \\frac{5x + 3}{2}$, determine the value of $\\left[f^{-1}(2)\\right]^{-1}$.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "First, solve for $f^{-1}(x)$ by setting $y = f(x) = \\frac{5x+3}{2}$, then $x = f^{-1}(y)$. Rearrange to find $x$: $$2y = 5x + 3,\\quad 5x = 2y - 3,\\quad x = \\frac{2y - 3}{5}.$$ Thus, $f^{-1}(x) = \\frac{2x - 3}{5}$. Evaluating $f^{-1}(2)$ gives $f^{-1}(2) = \\frac{2 \\times 2 - 3}{5} = \\frac{1}{5}$. The value of $\\left[f^{-1}(2)\\right]^{-1}$ is the reciprocal of $\\frac{1}{5}$, which is $\\boxed{5}$.",
+        "knowledge_point": "Function Composition and Inverses",
+        "id": 168
+    },
+    {
+        "problem": "Given the functions \\(f(x) = 3x + 1\\) and \\(g(x) = x^2 - 2\\), compute the value of \\(f(g(f(2)))\\).",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "First, compute \\(f(2)\\) which is \\(3(2) + 1 = 7\\). Next, compute \\(g(7)\\) which is \\(7^2 - 2 = 47\\). Finally, compute \\(f(47)\\) which is \\(3(47) + 1 = 142\\). So, the value of \\(f(g(f(2)))\\) is \\(\\boxed{142}\\).",
+        "knowledge_point": "Function Composition and Inverses",
+        "id": 169
+    },
+    {
+        "problem": "Given two functions $f(x) = 3x - 5$ and $h(x) = f(f(x)) + 1$, determine $h^{-1}(h(2))$.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "First calculate $f(2) = 3(2) - 5 = 1$. Then $f(f(2)) = f(1) = 3(1) - 5 = -2$. Therefore, $h(2) = f(f(2)) + 1 = -2 + 1 = -1$. \n\nSince $h(x)$ is calculated based on $f(f(x)) + 1$, and $f(f(x))$ is a composition of linear functions, it is also linear. To find $h^{-1}(h(2))$, we look for $x$ such that $h(x) = -1$. Given the calculation, $h(x) = -1$ when $x = 2$. Thus, $h^{-1}(h(2)) = h^{-1}(-1) = 2$. Therefore, the solution is $\\boxed{2}$.",
+        "knowledge_point": "Function Composition and Inverses",
+        "id": 170
+    },
+    {
+        "problem": "Determine the range of values for $x$ such that $2|x - 3| - |x + 2| > 0$. Give the answer in term of intervals.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "To solve $2|x - 3| - |x + 2| > 0$, we consider the absolute values separately. Split into cases based on $x$: \n1. When $x > 3$, $|x - 3| = x - 3$ and $|x + 2| = x + 2$. Thus, the inequality becomes $2(x - 3) - (x + 2) > 0$ simplifying to $x > 8$.\n2. When $-2 \\leq x \\leq 3$, $|x - 3| = 3 - x$ and $|x + 2| = x + 2$. The inequality simplifies to $2(3 - x) - (x + 2) > 0$, which further simplifies to $x < \\frac{4}{3}$. Considering $x$ is also between $-2$ and $3$, the valid range here is $-2 \\leq x < \\frac{4}{3}$.\n3. When $x < -2$, $|x - 3| = 3 - x$ and $|x + 2| = -(x + 2)$. The inequality becomes $2(3 - x) - (-(x + 2)) > 0$, simplifying to $x < 8$, so $x < -2$. \nCombining valid ranges, we get $x \\in (-\\infty, \\frac{4}{3}) \\cup (8, \\infty)$, so the solution is $\\boxed{(-\\infty, \\frac{4}{3}) \\cup (8, \\infty)}$.",
+        "knowledge_point": "Inequalities and Absolute Values",
+        "id": 171
+    },
+    {
+        "problem": "Find the range of values for $x$ where the sum of $|x + 2| + |x - 3|$ is less than 8. Give the answer in term of intervals.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "First, consider different cases based on the value of $x$ compared to -2 and 3, the points where the absolute value expressions change.\n\nCase 1: $x < -2$. In this case, both expressions are negative inside the absolute value, so $|x + 2| + |x - 3| = -x-2 - x + 3 = -2x + 1$.\n\nCase 2: $-2 \\leq x < 3$. Here, $|x + 2| = x + 2$ and $|x - 3| = 3 - x$. Therefore, $|x + 2| + |x - 3| = x + 2 + 3 - x = 5$.\n\nCase 3: $x \\geq 3$. In this scenario, both expressions are positive, so $|x + 2| + |x - 3| = x + 2 + x - 3 = 2x - 1$.\n\nNow, solving inequalities for when each expression is less than 8:\nCase 1: $-2x + 1 < 8 \\Rightarrow -2x < 7 \\Rightarrow x > -3.5$\nCase 2: $5 < 8$ always holds.\nCase 3: $2x - 1 < 8 \\Rightarrow 2x < 9 \\Rightarrow x < 4.5$\n\nCombining the results, the values of $x$ satisfying the inequality in all cases are $-3.5 < x < 4.5$, or in interval notation, $\\boxed{(-3.5, 4.5)}$.",
+        "knowledge_point": "Inequalities and Absolute Values",
+        "id": 172
+    },
+    {
+        "problem": "Determine how many integers satisfy the inequality $|2x - 3| \\leq 15$.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "To solve the inequality $|2x - 3| \\leq 15$, we consider two cases: \n\n1. $2x - 3 \\leq 15$, solving this gives $2x \\leq 18$, hence $x \\leq 9$.\n2. $-(2x - 3) \\leq 15$, which simplifies to $2x - 3 \\geq -15$, and then $2x \\geq -12$, so $x \\geq -6$.\n\nCombining these inequalities, we get $-6 \\leq x \\leq 9$. The integers satisfying this inequality range from $-6$ to $9$, inclusive. Thus, there are $9 - (-6) + 1 = 16$ integers in total. Therefore, the number of integer solutions is $\\boxed{16}$.",
+        "knowledge_point": "Inequalities and Absolute Values",
+        "id": 173
+    },
+    {
+        "problem": "Solve for the sum of all real values of $x$ such that $\\left|{3x - 6}\\right| - \\left|{x + 2}\\right| = 12$.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "We need to consider cases based on the values of $3x - 6$ and $x + 2$. Case 1: $3x - 6 \\geq 0$ and $x + 2 \\geq 0$, then $x \\geq 2$ and $x \\geq -2$ respectively, thus $x \\geq 2$. The equation simplifies to $3x - 6 - (x + 2) = 12 \\Rightarrow 2x - 8 = 12 \\Rightarrow 2x = 20 \\Rightarrow x = 10$. Case 2: $3x - 6 \\leq 0$ and $x + 2 \\leq 0$, then $x \\leq -2$, the equation is $-2x + 8 = 12$, so $x = -2$. Case 3: $3x - 6 < 0$ and $x + 2 > 0$, then $-2 < x < 2$. The equation simplifies to $-(3x - 6) - (x + 2) = 12 \\Rightarrow -4x + 4 = 12 \\Rightarrow -4x = 8 \\Rightarrow x = -2$. Summing the valid $x$ values, $10 + (-2) = \\boxed{8}$.",
+        "knowledge_point": "Inequalities and Absolute Values",
+        "id": 174
+    },
+    {
+        "problem": "Solve the inequality $|2x - 3| - |x + 1| > 2$. List all the intervals that contain solutions.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "To solve this inequality, we consider different cases based on the signs of the expressions within the absolute values.\\n\\n**Case 1:** $x + 1 \\geq 0$ and $2x - 3 \\geq 0$ i.e., $x \\geq 1.5$. In this case, $|2x-3| = 2x-3$ and $|x+1| = x+1$. Thus, the inequality becomes $2x - 3 - (x+1) > 2$, simplifying to $x - 4 > 2$, or $x > 6$.\\n\\n**Case 2:** $x + 1 < 0$ and $2x - 3 < 0$ i.e., $x < -1$. In this case, $|2x-3| = -(2x-3)$ and $|x+1| = -(x+1)$. Thus, the inequality becomes $-(2x-3) + (x+1) > 2$, simplifying to $-x + 4 > 2$, or $x < 2$. However, this must satisfy $x < -1$, so we consider $x < -1$.\\n\\n**Case 3:** $x + 1 \\geq 0$ and $2x - 3 < 0$ i.e., $-1 \\leq x < 1.5$. Here, $|2x-3| = -(2x-3)$ and $|x+1| = x+1$. The inequality becomes $-(2x-3) - (x+1) > 2$, or $-3x + 2 > 2$, simplifying to $x < 0$. We combine this with the range $-1 \\leq x < 1.5$ to get $-1 \\leq x < 0$.\\n\\nCombining all cases, the solution intervals are $x < -1$ and $-1 \\leq x < 0$ and $x > 6$. In interval notation, this is $\\boxed{(-\\infty, 0) \\cup (6, \\infty)}$.",
+        "knowledge_point": "Inequalities and Absolute Values",
+        "id": 175
+    },
+    {
+        "problem": "Find the product and simplify the expression: $(2x^3 - x + 4)(3x^2 - 2x - 5)$.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "Using the distributive property (also known as the FOIL method for binomials), we calculate each term: \n\\begin{align*}\n&(2x^3 - x + 4)(3x^2 - 2x - 5) \\\\\n&= 2x^3(3x^2 - 2x - 5) - x(3x^2 - 2x - 5) + 4(3x^2 - 2x - 5) \\\\\n&= 6x^5 - 4x^4 - 10x^3 - 3x^3 + 2x^2 + 5x + 12x^2 - 8x - 20 \\\\\n&= 6x^5 - 4x^4 - 13x^3 + 14x^2 - 3x - 20 \\\\\n&= \\boxed{6x^5 - 4x^4 - 13x^3 + 14x^2 - 3x - 20}.\n\\end{align*}",
+        "knowledge_point": "Polynomials and Polynomial Operations",
+        "id": 176
+    },
+    {
+        "problem": "Solve for the integer $k$ such that the function $$f(x) = (x^2 - 3x + k)(x - 4) + (x^2 + 5x - 2)(x - k) = 0$$ has no square term of x.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "Expanding both terms and collecting like terms, we have $$f(x) = (x^3 - 4x^2 - 3x^2 + 12x + kx - 4k) + (x^3 - kx^2 + 5x^2 - 5kx - 2x + 2k).$$ Simplifying, we get $$f(x) = 2x^3 - (k+2)x^2 + (10 - 4k)x - 2k.$$ Solving $-k - 2 = 0$, we find $k = -2$. Thus, $k = \\boxed{-2}$.",
+        "knowledge_point": "Polynomials and Polynomial Operations",
+        "id": 177
+    },
+    {
+        "problem": "Given the polynomial $f(x) = x^3 - 4x^2 + 7x - 5$, find the result of $f(x) \\cdot (2x^2 - 3x + 4)$.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "To find the result, we need to multiply each term in $f(x)$ by each term in $(2x^2 - 3x + 4)$:\n\\begin{align*}\n&x^3(2x^2 - 3x + 4) + (-4x^2)(2x^2 - 3x + 4) + 7x(2x^2 - 3x + 4) + (-5)(2x^2 - 3x + 4) \\\\\n&= 2x^5 - 3x^4 + 4x^3 - 8x^4 + 12x^3 - 16x^2 + 14x^3 - 21x^2 + 28x - 10x^2 + 15x - 20 \\\\\n&= \\boxed{2x^5 - 11x^4 + 30x^3 - 47x^2 + 43x - 20}.\n\\end{align*}",
+        "knowledge_point": "Polynomials and Polynomial Operations",
+        "id": 178
+    },
+    {
+        "problem": "Determine the value of $c$ so that the polynomial $p(x) = (2x^3 + 3x^2 - cx + 7) + (cx^2 - 2x^3 + 5x - 3)$ has a degree of 1.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "Combining like terms, the polynomial $p(x)$ simplifies to $(2x^3 - 2x^3) + (3x^2 + cx^2) - cx + (5x) + (7 - 3)$. Simplifying further, we get $(3+c)x^2 + (5-c)x + 4$. For $p(x)$ to have a degree of 1, the $x^2$ term must cancel out, meaning $3+c=0$. Thus, $c = -3$. Therefore, $p(x) = 2x + 4$, confirming that the degree is indeed 1. The correct value of $c$ is $\\boxed{-3}$.",
+        "knowledge_point": "Polynomials and Polynomial Operations",
+        "id": 179
+    },
+    {
+        "problem": "Given the polynomials $$p(x) = 2x^3 - 5x^2 + 3x - 7$$ and $$q(x) = x^4 - 2x^3 + 4x - 5,$$ determine the coefficient of the $x^3$ term in $p(x) \\times q(x)$.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "First, expand the product of the two polynomials: $$p(x) \\times q(x) = (2x^3 - 5x^2 + 3x - 7)(x^4 - 2x^3 + 4x - 5).$$ By distributing and combining like terms, we find the terms that will contribute to the $x^3$ term in the expansion. These come from multiplying terms from $p(x)$ and $q(x)$ that result in $x^3$ when combined: $$(2x^3)(-5) + (-5x^2)(4x) + (-7)(-2x^3).$$ Simplifying, we get: $$-10x^3 - 20x^3 + 14x^3 = -16x^3.$$ Thus, the coefficient of the $x^3$ term is $\\boxed{-16}$.",
+        "knowledge_point": "Polynomials and Polynomial Operations",
+        "id": 180
+    },
+    {
+        "problem": "Given the equation $(x-4)(2x+3) = 6$, find the product of the possible values of $x$.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "Expanding the left side of the given equation, we obtain $2x^2 - 5x - 12 = 6 \\Rightarrow 2x^2 - 5x - 18 = 0$. In a quadratic equation of the form $ax^2+bx+c=0$, the product of the roots is $c/a$. Thus, the product of the roots for the given equation is $-18/2 = \\boxed{-9}$.",
+        "knowledge_point": "Quadratic Equations and Functions",
+        "id": 181
+    },
+    {
+        "problem": "Given the equation $x^2 - px + 36 = 0$, the sum of the roots is twice the product of the roots. Find the value of $p$.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "By Vieta's formulas, the sum of the roots is $p$, and the product of the roots is $36$. According to the given condition, $p = 2 \\times 36 = 72$. Therefore, the value of $p$ is $\\boxed{72}$.",
+        "knowledge_point": "Quadratic Equations and Functions",
+        "id": 182
+    },
+    {
+        "problem": "Consider the quadratic equation $ax^2 + bx + c = 0$ with $a = 2$, $b = 5$ and $c = k$. If the discriminant of this equation is 1, find the value of $k$.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "The discriminant of a quadratic equation $ax^2 + bx + c = 0$ is given by $\\Delta = b^2 - 4ac$. Substituting $a = 2$, $b = 5$, and $c = k$ into this formula gives $\\Delta = 5^2 - 4 \\times 2 \\times k = 25 - 8k$. Setting $\\Delta = 1$ for a discriminant of 1, we have $25 - 8k = 1$. Solving for $k$ gives $8k = 24$, thus $k = \\boxed{3}$.",
+        "knowledge_point": "Quadratic Equations and Functions",
+        "id": 183
+    },
+    {
+        "problem": "Find the range of $k$ such that the quadratic equation $kx^2 - (k+6)x - \\frac{3}{4} = 0$ doesn't has real roots. Give the answer in the form of interval",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "For the quadratic equation to have no real roots, its discriminant must be negative. The discriminant is given by $b^2 - 4ac$. For this equation, $a = k$, $b = -(k+6)$, and $c = -\\frac{3}{4}$. Plugging in these values, the discriminant becomes $$(-(k+6))^2 - 4(k)(\\frac{3}{4}) = (k+6)^2 + 3k.$$ Expanding and simplifying, we get $$k^2 + 12k + 36 + 3k = k^2 + 15k + 36.$$ For no real roots, we require this to be less than 0: $$k^2 + 15k + 36 < 0.$$ Solve this inequality, we can get the solution is $\\boxed{(-12, -3)}$.",
+        "knowledge_point": "Quadratic Equations and Functions",
+        "id": 184
+    },
+    {
+        "problem": "The parabola described by the equation $y = ax^2 + bx + c$ passes through three distinct points $(1, 8)$, $(2, 13)$, and $(3, 20)$. Determine the value of $a+b+c$.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "By substituting the points into the equation, we obtain three equations: \n1. $a + b + c = 8$\n2. $4a + 2b + c = 13$\n3. $9a + 3b + c = 20$\nSolving these three equations simultaneously, we find that $a = 1$, $b = 2$, and $c = 5$. Therefore, $a+b+c = 1+2+5 = \\boxed{8}$.",
+        "knowledge_point": "Quadratic Equations and Functions",
+        "id": 185
+    },
+    {
+        "problem": "If we write $\\sqrt{5}+\\frac{1}{\\sqrt{5}} + \\sqrt{7} + \\frac{1}{\\sqrt{7}}$ in the form $\\dfrac{p\\sqrt{5} + q\\sqrt{7}}{r}$ such that $p$, $q$, and $r$ are positive integers and $r$ is as small as possible, then what is $p+q+r$?",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "The common denominator desired is $\\sqrt{5}\\cdot\\sqrt{7} = \\sqrt{35}$. Thus, this expression can be rewritten as $\\frac{\\sqrt{5}\\cdot(\\sqrt{5}\\cdot\\sqrt{7})+1\\cdot\\sqrt{7}+\\sqrt{7}\\cdot(\\sqrt{5}\\cdot\\sqrt{7})+1\\cdot\\sqrt{5}}{\\sqrt{35}}$. Simplifying this gives $\\frac{5\\sqrt{7}+\\sqrt{7}+7\\sqrt{5}+\\sqrt{5}}{\\sqrt{35}} = \\frac{8\\sqrt{5}+6\\sqrt{7}}{\\sqrt{35}}$. To rationalize, multiply numerator and denominator by $\\sqrt{35}$ to get $\\frac{8\\sqrt{5}\\sqrt{35}+6\\sqrt{7}\\sqrt{35}}{35}$. Simplifying yields $\\frac{42\\sqrt{5}+40\\sqrt{7}}{35}$, so the desired sum is $42+40+35=\\boxed{117}$.",
+        "knowledge_point": "Rational Functions and Expressions",
+        "id": 186
+    },
+    {
+        "problem": "Determine the minimum integer value of $C$ such that the rational function $$f(x) = \\frac{3x-9}{x^2 - 3x + C}$$ has no vertical asymptotes. ",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "The function $f(x)$ has no vertical asymptotes if the denominator has no real roots. Therefore, the quadratic $x^2 - 3x + C$ should have a discriminant less than zero. The discriminant of this quadratic is $(-3)^2 - 4 \\cdot 1 \\cdot C = 9 - 4C$. For no real roots, $9 - 4C < 0$ which simplifies to $C > \\frac{9}{4}$. The possible integer values of $C$ are all integers greater than $\\frac{9}{4}$, starting from $3$. Summing these, we find an infinite series, but the smallest integer value satisfying this condition is $C = \\boxed{3}$.",
+        "knowledge_point": "Rational Functions and Expressions",
+        "id": 187
+    },
+    {
+        "problem": "Simplify and express in the simplest form: $$\\frac{5 + 3\\sqrt{7}}{2 + 4\\sqrt{3}}$$. Find the sum of the coefficients of the reduced terms (integer part and radical part).",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "Multiply the numerator and the denominator by the conjugate of the denominator, $2 - 4\\sqrt{3}$. This gives us: $$\\frac{(5 + 3\\sqrt{7})(2 - 4\\sqrt{3})}{(2 + 4\\sqrt{3})(2 - 4\\sqrt{3})} = \\frac{10 - 20\\sqrt{3} + 6\\sqrt{7} - 12\\sqrt{21}}{4 - 48} = \\frac{10 - 20\\sqrt{3} + 6\\sqrt{7} - 12\\sqrt{21}}{-44}.$$ Simplifying further, we find: $$\\frac{-5 + 10\\sqrt{3} - 3\\sqrt{7} + 6\\sqrt{21}}{22} = -\\frac{5}{22} + \\frac{10\\sqrt{3}}{22} - \\frac{3\\sqrt{7}}{22} + \\frac{6\\sqrt{21}}{22}.$$ Thus, the expression simplifies to $-\\frac{5}{22} + \\frac{5\\sqrt{3}}{11} - \\frac{3\\sqrt{7}}{22} + \\frac{3\\sqrt{21}}{11}$. Therefore, the sum is $-\\frac{5}{22} + \\frac{5}{11} - \\frac{3}{22} + \\frac{3}{11} = \\boxed{\\frac{3}{11}}$.",
+        "knowledge_point": "Rational Functions and Expressions",
+        "id": 188
+    },
+    {
+        "problem": "$1.4\\overline{5}$ can be expressed as a common fraction, determine the numerator of this common fraction.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "Let $x = 1.4\\overline{5}$; 10x-x=14.\\overline{5} - 1.4\\overline{5} simplifies to 9x=13.1, thus x=13.1/9 or 131/90 as a fraction. Therefore the answer is $\\boxed{131}$.",
+        "knowledge_point": "Rational Functions and Expressions",
+        "id": 189
+    },
+    {
+        "problem": "Evaluate the sum of all real numbers that make the function $$f(x) = \\frac{1}{x-7} + \\frac{1}{x^2-49} + \\frac{1}{x^3-343}$$ undefined.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "The function $f(x)$ is undefined for values of $x$ that make the denominators zero, namely $x-7=0$, $x^2-49=0$, and $x^3-343=0$. Solving each, we get $x = 7$ from $x-7=0$, $x = 7$ or $x = -7$ from $x^2-49=0$, and $x = 7$ from $x^3-343=0$. Hence, the sum of all distinct real numbers making $f(x)$ undefined is $7 + (-7) = \\boxed{0}$, since $7$ is repeated and $-7$ is the only other distinct real number.",
+        "knowledge_point": "Rational Functions and Expressions",
+        "id": 190
+    },
+    {
+        "problem": "An arithmetic sequence starts with the term 7, and the common difference is 3. What is the sum of the first 50 terms of this sequence?",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "The $n^{\\text{th}}$ term of an arithmetic sequence can be found using the formula $a_n = a + (n-1) \\cdot d$, where $a$ is the first term and $d$ is the common difference. For this sequence, the first term $a=7$ and the common difference $d=3$. Therefore, the 50th term $a_{50} = 7 + (50-1) \\cdot 3 = 154$. The sum $S_n$ of the first $n$ terms of an arithmetic sequence can be calculated as $S_n = \\frac{n}{2} \\cdot (a + a_n)$. Plugging in the values, we get $S_{50} = \\frac{50}{2} \\cdot (7 + 154) = 25 \\cdot 161 = 4025$. Hence, the sum of the first 50 terms is $\\boxed{4025}$.",
+        "knowledge_point": "Sequences and Series",
+        "id": 191
+    },
+    {
+        "problem": "Consider the sequence formed by the floors of square roots starting from 1 to 64, i.e., $\\lfloor\\sqrt{1}\\rfloor, \\lfloor\\sqrt{2}\\rfloor, ..., \\lfloor\\sqrt{64}\\rfloor$. Calculate the sum of the terms of this sequence.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "We observe that for integers $n$ where $a^2 \\leq n < (a+1)^2$, it holds that $\\lfloor\\sqrt{n}\\rfloor = a$. We calculate the sum by grouping terms into ranges defined by consecutive perfect squares:\\\\For $1 \\leq n \\leq 3$, $\\lfloor\\sqrt{n}\\rfloor = 1$. There are $3$ values of $n$ in this range.\\\\For $4 \\leq n \\leq 8$, $\\lfloor\\sqrt{n}\\rfloor = 2$. There are $5$ values of $n$ in this range.\\\\For $9 \\leq n \\leq 15$, $\\lfloor\\sqrt{n}\\rfloor = 3$. There are $7$ values of $n$ in this range.\\\\For $16 \\leq n \\leq 24$, $\\lfloor\\sqrt{n}\\rfloor = 4$. There are $9$ values of $n$ in this range.\\\\For $25 \\leq n \\leq 35$, $\\lfloor\\sqrt{n}\\rfloor = 5$. There are $11$ values of $n$ in this range.\\\\For $36 \\leq n \\leq 48$, $\\lfloor\\sqrt{n}\\rfloor = 6$. There are $13$ values of $n$ in this range.\\\\For $49 \\leq n \\leq 63$, $\\lfloor\\sqrt{n}\\rfloor = 7$. There are $15$ values of $n$ in this range.\\\\For $n = 64$, $\\lfloor\\sqrt{n}\\rfloor = 8$. There is $1$ value of $n$ in this range.\\\\Adding these, we get $3\\times1 + 5\\times2 + 7\\times3 + 9\\times4 + 11\\times5 + 13\\times6 + 15\\times7 + 1\\times8 = 3 + 10 + 21 + 36 + 55 + 78 + 105 + 8 = \\boxed{316}$.",
+        "knowledge_point": "Sequences and Series",
+        "id": 192
+    },
+    {
+        "problem": "Consider an arithmetic sequence where the first term is 100 and the common difference is 3. Find the sum of the first 40 terms of this sequence.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "The first term is 100, and the common difference is 3. The nth term is given by the formula $a_n = 100 + (n - 1) \\times 3$. For the 40th term: $a_{40} = 100 + (40 - 1) \\times 3 = 217$. The sum of the first n terms of an arithmetic sequence is given by $S_n = \\frac{n}{2} \\times (a_1 + a_n)$. Plugging in the values we have $S_{40} = \\frac{40}{2} \\times (100 + 217) = 20 \\times 317 = 6340$. Thus, the sum of the first 40 terms is $\\boxed{6340}$.",
+        "knowledge_point": "Sequences and Series",
+        "id": 193
+    },
+    {
+        "problem": "Consider a geometric sequence where the third term is 32 and the sixth term is 4. Find the sum of the first 8 terms of this sequence.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "Let the first term be $a$ and the common ratio be $r$. Then the third term is $ar^2 = 32$ and the sixth term is $ar^5 = 4$. Dividing the sixth term by the third term, we get $\\frac{ar^5}{ar^2} = r^3 = \\frac{4}{32} = \\frac{1}{8}$. Hence, $r = \\frac{1}{2}$. Using $ar^2 = 32$, we find $a = 128$. The sum of the first 8 terms of a geometric series is given by $S_n = a \\frac{1-r^n}{1-r}$, so $S_8 = 128 \\frac{1-(\\frac{1}{2})^8}{1-\\frac{1}{2}} = \\boxed{255}$.",
+        "knowledge_point": "Sequences and Series",
+        "id": 194
+    },
+    {
+        "problem": "An arithmetic sequence has its 3rd term as 15 and its 8th term as 40. Find the sum of the first 10 terms.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "Let $a$ be the first term and $d$ be the common difference of the arithmetic sequence. From the 3rd term, $a + 2d = 15$, and from the 8th term, $a + 7d = 40$. Solving these equations, subtracting the first from the second gives $5d = 25$, so $d = 5$. Substituting back, $a = 15 - 2\\times5 = 5$. The first 10 terms are from $a$ to $a + 9d = 5$ to $50$. The sum of an arithmetic series is given by $\\frac{n}{2}\\times(first\\ term + last\\ term)$. Thus, the sum of the first 10 terms is $\\frac{10}{2}\\times(5 + 50) = 5\\times55 = \\boxed{275}$.",
+        "knowledge_point": "Sequences and Series",
+        "id": 195
+    },
+    {
+        "problem": "In a magical forest, there are animals that can speak human languages. A wizard hears from a rabbit, a deer, and a fox. The rabbit says that the sum of the ages of the deer and the fox is twice his age. The deer claims that the sum of the ages of the rabbit and the fox is three times his age. If the total age of the rabbit, deer, and fox is 60 years, how old is the fox?",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "Let $r$, $d$, and $f$ represent the ages of the rabbit, deer, and fox, respectively. The system of equations based on their statements is: \\begin{align*} d + f &= 2r, \\\\ r + f &= 3d, \\\\ r + d + f &= 60. \\end{align*} Solving this system, we find $r = 20$, $d = 15$, and $f = 25$. Thus, the rabbit is 20 years old, the deer is 15 years old, and the fox is \\boxed{25} years old.",
+        "knowledge_point": "Systems of Linear Equations",
+        "id": 196
+    },
+    {
+        "problem": "Solve the system of linear equations given by $2x - 3y = 4$ and $5x + ky = 7$. If $k$ is a constant such that the system has no solutions, what is the value of $k$?",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "For the system to have no solutions, the two lines represented by the equations $2x - 3y = 4$ and $5x + ky = 7$ must be parallel but not identical. This means their slopes must be equal but their constant terms must not allow for a common intersection point. \n\nRewriting the first equation as $x - \\frac{3}{2}y = 2$, we see that the slope of this line is $-\\frac{3}{2}$. For the second equation $5x + ky = 7$, dividing by 5 gives $x + \\frac{k}{5}y = \\frac{7}{5}$, so the slope of this line is $\\frac{k}{5}$. \n\nFor the lines to be parallel, we set the slopes equal: $-\\frac{3}{2} = \\frac{k}{5}$. Solving this equation gives $k = -\\frac{15}{2}$. \n\nHowever, to ensure the lines do not coincide, we need to check that the constant terms do not allow for a solution. In this case, since the constant terms are 2 and $\\frac{7}{5}$, which are not equal, the lines cannot coincide. Therefore, the value of $k$ that makes the system have no solutions is $k = \\boxed{-\\frac{15}{2}}$.",
+        "knowledge_point": "Systems of Linear Equations",
+        "id": 197
+    },
+    {
+        "problem": "Three positive integers $a$, $b$, and $c$ satisfy the equations $ab + bc + ca = 48$, $a + b + c = 12$, and $abc = 64$. Find the value of $c$.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "From the given equations, we can form a system: $$ab + bc + ca = 48,\\, a + b + c = 12,\\, abc = 64.$$ Consider the polynomial $$p(x) = (x-a)(x-b)(x-c) = x^3 - (a+b+c)x^2 + (ab+bc+ca)x - abc.$$ Substitute the known values to get $$p(x) = x^3 - 12x^2 + 48x - 64.$$ We can try to factor or use the rational root theorem to find roots. It turns out the polynomial factors as $$(x-4)(x-4)(x-4),$$ hence $a = 4, b = 4, c = 4$. Therefore, the value of $c$ is $\\boxed{4}$.",
+        "knowledge_point": "Systems of Linear Equations",
+        "id": 198
+    },
+    {
+        "problem": "Three team members are planning to equally distribute a $140$-page report for proofreading. However, due to the expertise required, Member 1 takes twice as many pages as Member 2, and Member 3 takes five pages less than Member 1. How many pages does Member 3 proofread?",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "Let the number of pages that Member 2 takes be $x$. Then, Member 1 takes $2x$ pages, and Member 3 takes $2x - 5$ pages. Then we have $140 = (x + 2x + (2x - 5))$. Then we get $x = 29$. Therefore, Member 3 proofreads $2 * 29 - 5 = \\boxed{53}$ pages.",
+        "knowledge_point": "Systems of Linear Equations",
+        "id": 199
+    },
+    {
+        "problem": "Given the system of equations:\n\n\\begin{align*}\n4a + 3b + 2c &= 23, \\\\\n3a - b + 5c &= 10, \\\\\n2a + 2b - c &= 5\n\\end{align*}\n\nWhat is the value of $a + b + c$?",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "Solving the system, we can get that $a = \\frac{-52}{19}, b = \\frac{149}{19}, c = \\frac{99}{19}$. Then we get $a + b + c = \\frac{149 + 99 - 52}{19} = \\boxed{\\frac{196}{19}}$",
+        "knowledge_point": "Systems of Linear Equations",
+        "id": 200
+    },
+    {
+        "problem": "Calculate the value of $(i^{13} + i^{-13} + i^{101})$.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "First, simplify the exponents by reducing them modulo 4: $i^{13} = i^{4*3+1} = i^{12}i = 1\\cdot i = i$. Next, $i^{-13} = 1/i^{13} = 1/i = -i$ (since $i^{-1} = -i$ by multiplying numerator and denominator by $i$ to get $-i$). For $i^{101} = i^{4*25+1} = i^{100}i = 1\\cdot i = i$. Adding these gives $i^{13} + i^{-13} + i^{101} = i - i + i = \\boxed{i}$.",
+        "knowledge_point": "Complex Numbers",
+        "id": 201
+    },
+    {
+        "problem": "Olivia calculated the expression $\\frac{2-3i}{2+i}$ but made a mistake by forgetting to handle the imaginary unit correctly, resulting in an incorrect answer of $\\frac{1}{5} + \\frac{7}{5}i$. What should the correct result be?",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "To correctly compute the division of complex numbers, one must multiply both the numerator and the denominator by the conjugate of the denominator. Here, the conjugate of $2+i$ is $2-i$. The multiplication follows as: \\begin{align*}\n\\frac{2-3i}{2+i} &= \\frac{(2-3i)(2-i)}{(2+i)(2-i)}\\\\\n&= \\frac{4 - 2i - 6i + 3i^2}{4 - i^2}\\\\\n&= \\frac{4 - 8i - 3}{4 + 1}\\\\\n&= \\frac{1 - 8i}{5}\\\\\n&= \\boxed{\\frac{1}{5} - \\frac{8}{5}i}\n\\end{align*}",
+        "knowledge_point": "Complex Numbers",
+        "id": 202
+    },
+    {
+        "problem": "Evaluate the sum $i^{100} + i^{101} + i^{102} + \\cdots + i^{204}$.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "We start by recognizing that the powers of $i$ repeat every 4 cycles: $i, -1, -i, 1$. Every set of four consecutive powers sums to 0: \\[i + i^2 + i^3 + i^4 = i - 1 - i + 1 = 0.\\] The series $i^{100} + i^{101} + i^{102} + \\cdots + i^{204}$ has $105$ terms (from 100 to 204 inclusive). The number 100 modulo 4 is 0, so $i^{100} = (i^4)^{25} = 1^{25} = 1$. We can group the terms in sets of four from $i^{100}$, and we'll find there are 26 complete groups of four terms, each summing to 0, and 1 remaining term: $i^{204}$. Since $204$ modulo 4 is 0, $i^{204} = (i^4)^{51} = 1^{51} = 1$. Thus, \\[i^{100} + i^{101} + i^{102} + \\cdots + i^{204} = 26(0) + 1 = 1.\\] Therefore, the sum of the series is \\boxed{1}.",
+        "knowledge_point": "Complex Numbers",
+        "id": 203
+    },
+    {
+        "problem": "An electrical engineering student is analyzing a circuit where the total impedance $Z$ in the circuit is given by $Z = 3 + 4i$. If the voltage across the circuit $V$ is given by $V = 7 + 24i$, find the current $I$ flowing through the circuit using the formula $I = \\frac{V}{Z}$.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "First, express the current $I$ in terms of $V$ and $Z$: $$\nI = \\frac{V}{Z} = \\frac{7+24i}{3+4i}.\n$$ To simplify, multiply the numerator and denominator by the conjugate of the denominator: $$\nI = \\frac{7+24i}{3+4i} \\cdot \\frac{3-4i}{3-4i} = \\frac{(7+24i)(3-4i)}{3^2 + 4^2}.\n$$ Expanding the numerator and simplifying the denominator, we get $$\nI = \\frac{21 - 28i + 72i - 96i^2}{9 + 16} = \\frac{21 - 28i + 72i + 96}{25} = \\frac{117 + 44i}{25} = \\boxed{\\frac{117}{25} + \\frac{44}{25}i}.\n$$",
+        "knowledge_point": "Complex Numbers",
+        "id": 204
+    },
+    {
+        "problem": "Given the equation $\\frac{z-2}{z+2} = -i$, solve for the complex number $z$.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "From the equation: $\\frac{z-2}{z+2} = -i \\Rightarrow z-2 = -i(z+2) \\Rightarrow z-2 = -iz - 2i \\Rightarrow z + iz = 2 - 2i \\Rightarrow z(1+i) = 2 - 2i. $ Then we get $z = \\frac{2 - 2i}{1 + i} = \\frac{(2 - 2i)(1 - i)}{(1 + i)(1 - i)} = \\frac{2 - 2i - 2i - 2}{2} = \\boxed{-2i}$.",
+        "knowledge_point": "Complex Numbers",
+        "id": 205
+    },
+    {
+        "problem": "Find the equation of the line passing through the points (2, 3) and (p, 17), where p > 2. If another point on this line is (10, q), determine the minimum value of p + q.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "To solve this problem, we'll follow these steps:\n\n1. **Find the Slope of the Line**:\n   The slope $m$ of the line passing through points $(2, 3)$ and $(p, 17)$ is given by the formula:\n   $$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{17 - 3}{p - 2} = \\frac{14}{p - 2}$$\n\n2. **Write the Point-Slope Form of the Line**:\n   Using the point $(2, 3)$ and the slope $m$, the equation of the line can be written as:\n   $$y - 3 = \\frac{14}{p - 2}(x - 2)$$\n\n3. **Substitute the Point (10, q) into the Equation**:\n   To find $q$, substitute $x = 10$ and $y = q$ into the equation:\n   $$q - 3 = \\frac{14}{p - 2}(10 - 2)$$\n   $$q - 3 = \\frac{14}{p - 2} \\cdot 8$$\n   $$q = \\frac{112}{p - 2} + 3$$\n\n4. **Find the Expression for p + q**:\n   Now, we have $q$ in terms of $p$:\n   $$p + q = p + \\left(\\frac{112}{p - 2} + 3\\right)$$\n   $$p + q = p + \\frac{112}{p - 2} + 3$$\n   $$p + q = \\frac{p(p - 2) + 112 + 3(p - 2)}{p - 2}$$\n   $$p + q = \\frac{p^2 - 2p + 112 + 3p - 6}{p - 2}$$\n   $$p + q = \\frac{p^2 + p + 106}{p - 2}$$\n\n5. **Minimize p + q Using AM-GM Inequality**:\n   To find the minimum value of $p + q$, we use the Arithmetic-Geometric Mean Inequality (AM-GM Inequality). For non-negative numbers $a$ and $b$:\n   $$\\frac{a + b}{2} \\geq \\sqrt{ab}$$\n   Here, let $a = p - 2$ and $b = \\frac{112}{p - 2}$:\n   $$\\frac{(p - 2) + \\frac{112}{p - 2}}{2} \\geq \\sqrt{(p - 2) \\cdot \\frac{112}{p - 2}}$$\n   $$p - 2 + \\frac{112}{p - 2} \\geq 2\\sqrt{112}$$\n   Adding 5 (since $p + q = \\frac{(p - 2) + \\frac{112}{p - 2} + 5(p - 2)}{p - 2}$):\n   $$p + q \\geq 2\\sqrt{112} + 5$$\n   $$p + q \\geq 2 \\cdot 4\\sqrt{7} + 5$$\n   $$p + q \\geq 8\\sqrt{7} + 5$$\n\n   Equality holds when $a = b$, i.e., $p - 2 = \\frac{112}{p - 2}$:\n   Solving this equation gives us the value of $p$ that minimizes $p + q$:\n   $$(p - 2)^2 = 112$$\n   $$p^2 - 4p + 4 = 112$$\n   $$p^2 - 4p - 108 = 0$$\n   Solving this quadratic equation, we get two values for $p$ (one positive and one negative). Since $p > 2$, we take the positive value.\n\n   Let's denote the positive root as $p_{min}$. Substitute $p_{min}$ back into the expression for $q$ to find $q_{min}$.\n\n6. **Calculate the Final Answer**:\n   The minimum value of $p + q$ is then $p_{min} + q_{min}$.\n\n   **Note**: Without solving the quadratic equation explicitly, we can't give an exact decimal value for $p_{min} + q_{min}$. However, we know it's approximately:\n   $$p_{min} + q_{min} \\approx \\boxed{8\\sqrt{7} + 5} \\approx 28.29$$\n   (This approximation is based on the fact that $\\sqrt{7} \\approx 2.646$ and $8 \\cdot 2.646 + 5 \\approx 28.29$)",
+        "knowledge_point": "Algebra in Coordinate Geometry",
+        "id": 206
+    },
+    {
+        "problem": "A circle has a center at $(h, -1)$ and passes through the points $(0, 2)$ and $(4, 0)$. Find the radius of the circle.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "The equation of the circle can be written as $(x - h)^2 + (y + 1)^2 = r^2$. Consider the two points, we have $h^2 + 9 = r^2, (4 - h)^2 + 1 = r^2$. Then we can compute that $r = \\boxed{\\sqrt{10}}$",
+        "knowledge_point": "Algebra in Coordinate Geometry",
+        "id": 207
+    },
+    {
+        "problem": "Consider the graph where the x-axis and y-axis are labeled, and each grid line represents one unit. A line in the graph has a slope of 3/5 and passes through the point $(2002, m)$. Determine the value of $m$ if the y-intercept of the line is 6. Give the answer in decimal and round to 2 decimal places",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "The slope of the line is given as $\\frac{3}{5}$, and it has a y-intercept of 6. The equation of the line, therefore, can be written in slope-intercept form as $y = \\frac{3}{5}x + 6$. Substituting $x = 2002$ into the equation to find $m$, we have $m = \\frac{3}{5} \\cdot 2002 + 6$. Calculating the value, $m = \\frac{3}{5} \\cdot 2002 + 6 = 1201.2 + 6 = 1207.2$. Thus, the value of $m$ is $\\boxed{1207.20}$.",
+        "knowledge_point": "Algebra in Coordinate Geometry",
+        "id": 208
+    },
+    {
+        "problem": "Given the ellipse defined by the equation $\\frac{x^2}{16} + \\frac{y^2}{9} = 1$ and the line defined by $y = 2x + 3$, then the straight line and the ellipse have two intersection points. Use these points to find the area of the triangle formed by these intersection points and the origin.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "First, substitute $y = 2x + 3$ into the ellipse equation: $$\\frac{x^2}{16} + \\frac{(2x + 3)^2}{9} = 1.$$ Simplify and solve the quadratic equation to find $x$ values. Substituting back, find $y$ values for the intersection points. Using these points, calculate the area of the triangle formed with the origin using the formula $Area = \\frac{1}{2} |x1(y2-y3) + x2(y3-y1) + x3(y1-y2)|$. The solution will involve calculating this determinant for the points found and the origin (0,0). Found intersection points $(0, 3)$ and $\\left(-\\frac{192}{73}, -\\frac{165}{73}\\right)$. Used the triangle area formula with vertices $(0,0)$, $(0,3)$, and $\\left(-\\frac{192}{73}, -\\frac{165}{73}\\right)$. The area of the triangle formed by the intersection points and the origin is $\\boxed{\\frac{288}{73}}$.",
+        "knowledge_point": "Algebra in Coordinate Geometry",
+        "id": 209
+    },
+    {
+        "problem": "Given two circles centered at (3, 0) and (-3, 0) with radius 2, how many circles are tangent to both of these circles and also pass through the point (0, 6)?",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "Let the center of the new circle be (a, b) and its radius r. The distance between the centers of the new circle and each of the original circles is r + 2 for external tangency.\n\nFrom the center at (3, 0), we have:\n(a - 3)^2 + b^2 = (r + 2)^2\nFrom the center at (-3, 0), we have:\n(a + 3)^2 + b^2 = (r + 2)^2\n\nSubtracting these two equations gives 12a = 0, so a = 0. Then, substituting a = 0:\n9 + b^2 = (r + 2)^2\nAs the circle passes through (0, 6), we also have b^2 + (6 - b)^2 = r^2.\n\nSubstituting r = 6 - b into the earlier equation:\n9 + b^2 = (6 - b + 2)^2\n9 + b^2 = (8 - b)^2\n9 + b^2 = 64 - 16b + b^2\n16b = 55\nb = 55/16\n\nUsing b = 55/16, calculate r:\nr = 6 - 55/16 = 11/16\n\nNow, substituting a = 0, b = 55/16, and r = 11/16 into the circle equation, verify if any other circle configurations exist. However, given the constraints, there is only one circle satisfying all conditions. Thus, there is \\boxed{1} circle that is tangent to both given circles and passes through (0, 6).",
+        "knowledge_point": "Algebra in Coordinate Geometry",
+        "id": 210
+    },
+    {
+        "problem": "If $3^x + 3^x + 3^x = 27^{(x-1)}$, find the value of $x$. Express your answer as a simplified fraction.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "First, we rewrite the sum $3^x + 3^x + 3^x$ as $3 \\cdot 3^x = 3^{x+1}$. Since $27 = 3^3$, we can express $27^{(x-1)}$ as $(3^3)^{(x-1)} = 3^{3(x-1)} = 3^{3x-3}$. Equating the exponents, we get $3^{x+1} = 3^{3x-3}$. Setting the exponents equal gives $x+1 = 3x-3$. Solving for $x$, we have $4 = 2x$, which simplifies to $x = 2$. Therefore, $x = \\frac{4}{2} = \\boxed{2}$.",
+        "knowledge_point": "Exponents and Logarithms",
+        "id": 211
+    },
+    {
+        "problem": "Assume the equation $\\frac{a^{2m-3}\\cdot b^{n+5}\\cdot c^{4p-1}}{a^{m+1}\\cdot b^{2n}\\cdot c^{3p+2}}=abc$ holds true for all non-zero $a$, $b$, and $c$. Find the value of $m^n \\cdot p$ as a fraction.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "First, simplify the expression for each variable. From the equation, we get: $\\frac{a^{2m-3}}{a^{m+1}}=a$, $\\frac{b^{n+5}}{b^{2n}}=b$, and $\\frac{c^{4p-1}}{c^{3p+2}}=c$. Solving for $m$, $n$, and $p$, we have: \\begin{align*}\n2m-3=m+1+1\\Rightarrow m=5\\\\\nn+5=2n+1\\Rightarrow n=4\\\\\n4p-1=3p+2+1\\Rightarrow p=4\\\\\n\\end{align*}For $m^n \\cdot p$, calculate $(5)^{4} \\cdot (4) = 625 \\cdot (4) = \\boxed{2500}$.",
+        "knowledge_point": "Exponents and Logarithms",
+        "id": 212
+    },
+    {
+        "problem": "If $2^{x+2} = 16$ and $16^{2y-1} = 2$, what is the value of $y^x$?",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "Since $16 = 2^4$, the equation $2^{x+2} = 16$ can be rewritten as $2^{x+2} = 2^4$. Equating the exponents, we find $x + 2 = 4$, so $x = 2$. For the second equation, $16^{2y-1} = 2$, we substitute $16 = 2^4$ to get $(2^4)^{2y-1} = 2$, which simplifies to $2^{8y-4} = 2^1$. Equating the exponents here, we have $8y - 4 = 1$. Solving for $y$, we get $8y = 5$, so $y = 5/8$. Therefore, we get $y^x = (5/8)^2 = \\boxed{\\frac{25}{64}}$.",
+        "knowledge_point": "Exponents and Logarithms",
+        "id": 213
+    },
+    {
+        "problem": "Evaluate $\\sqrt{125x} \\cdot \\sqrt{20x} \\cdot \\sqrt{45x}$. Express your answer in simplest radical form in terms of $x$.\n\nNote: When entering a square root with more than one character, you must use parentheses or brackets. For example, you should enter $\\sqrt{14}$ as \"sqrt(14)\" or \"sqrt(14)\".",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "Breaking down each term into prime factors, the expression becomes:  \\begin{align*}\n&\\sqrt{5^3 \\cdot x \\cdot 2^2 \\cdot 5 \\cdot x \\cdot 3^2 \\cdot 5 \\cdot x} \\\\\n&\\qquad = \\sqrt{(5^5 \\cdot 2^2 \\cdot 3^2 \\cdot x^3)} \\\\\n&\\qquad = \\boxed{150x \\sqrt{5x}}.\n\\end{align*}",
+        "knowledge_point": "Exponents and Logarithms",
+        "id": 214
+    },
+    {
+        "problem": "If $3^{x}=4$, $4^{y}=5$, $5^{z}=6$, and $6^{w}=7$, find the value of $x \\cdot y \\cdot z \\cdot w$.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "To find $x \\cdot y \\cdot z \\cdot w$, we consider the chain of exponentiations: \\[ 3^{x \\cdot y \\cdot z \\cdot w} = \\left(\\left(\\left(3^x\\right)^y\\right)^z\\right)^w = \\left(\\left(4^y\\right)^z\\right)^w = \\left(5^z\\right)^w = 6^w = 7 = 3^{\\log_3 7}, \\] so $x \\cdot y \\cdot z \\cdot w = \\log_3 7$. Thus, $x \\cdot y \\cdot z \\cdot w = \\boxed{\\log_3 7}$.",
+        "knowledge_point": "Exponents and Logarithms",
+        "id": 215
+    },
+    {
+        "problem": "Given the function $f(x) = \\frac{5}{x-2}$ and the point $(4,a)$ is on the graph of $y = \\frac{1}{2}f(2x+1)$, find the value of $a$.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "Firstly we have $y = \\frac{1}{2}f(2x+1) = \\frac{5}{2(2x-1)}$. Then we have $a = \\frac{5}{2 \\times (2 * 4 - 1)} = \\boxed{\\frac{5}{14}}$",
+        "knowledge_point": "Function Composition and Inverses",
+        "id": 216
+    },
+    {
+        "problem": "Consider a piecewise function $g(x)$ defined as follows:\n\n$$\ng(x) = \n\\begin{cases} \n4x - 5 & \\text{if } x < 2, \\\\\n\\frac{1}{2-x} & \\text{if } x \\geq 2.\n\\end{cases}\n$$\n\n What is the value of $g(g(10))$?",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "Firstly we have $g(10) = \\frac{1}{2 - 10} = \\frac{-1}{8}$. Then we have $g(g(10)) = g(\\frac{-1}{8}) = \\boxed{\\frac{-11}{2}}$",
+        "knowledge_point": "Function Composition and Inverses",
+        "id": 217
+    },
+    {
+        "problem": "Let $f(x) = 2x + 3$. You are given that $g(f(x)) = 3x - 4$ for all $x$. Determine the value of $g(7)$.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "Firstly let $f(x) = 7$, then we have $x = 2$. Since $g(f(x)) = 3x - 4$ and $f(2) = 7$, then we know $g(7) = 3 \\times 2 - 4 = \\boxed{2}$.",
+        "knowledge_point": "Function Composition and Inverses",
+        "id": 218
+    },
+    {
+        "problem": "Let \\( f(x) = \\sqrt{3 - x} \\) and \\( g(x) = \frac{x}{x-2} \\). Calculate \\( f^{-1}(g^{-1}(4)) \\).",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "To solve for $f^{-1}(g^{-1}(4))$, we first find $g^{-1}(4)$: Set $g(x) = 4$ which gives $x/(x - 2) = 4$. Cross-multiply to get $x = 4(x - 2)$, leading to $-3x = -8$, so $x = 8/3$. Thus, $g^{-1}(4) = 8/3$. Next, find $f^{-1}(8/3)$: Start with $f(x) = \\sqrt{3 - x}$, set $y = \\sqrt{3 - x}$, square to get $y^2 = 3 - x$, so $x = 3 - y^2$. Thus, $f^{-1}(y) = 3 - y^2$. Now calculate $f^{-1}(8/3) = 3 - (8/3)^2 = 3 - 64/9 = 27/9 - 64/9 = -37/9$. Final result: $\\boxed{-\\frac{37}{9}}$.",
+        "knowledge_point": "Function Composition and Inverses",
+        "id": 219
+    },
+    {
+        "problem": "Let \\( f(x) = 3x - 7 \\) and \\( g(x) = \\frac{1}{x+2} \\). Compute \\( f^{-1}(g^{-1}(f(g(f^{-1}(g^{-1}(3)))))) \\).",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "First, find the inverses of \\( f \\) and \\( g \\). For \\( f^{-1}(x) \\), solving \\( y = 3x - 7 \\) gives \\( x = \\frac{y+7}{3} \\), so \\( f^{-1}(x) = \\frac{x+7}{3} \\). For \\( g^{-1}(x) \\), solving \\( y = \\frac{1}{x+2} \\) gives \\( x = \\frac{1}{y} - 2 \\), so \\( g^{-1}(x) = \\frac{1}{x} - 2 \\).\n\nStarting with 3, we calculate each step:\n1. \\( g^{-1}(3) = \\frac{1}{3} - 2 = -\\frac{5}{3} \\)\n2. \\( f^{-1}(g^{-1}(3)) = \\frac{-\\frac{5}{3} + 7}{3} = \\frac{16}{9} \\)\n3. \\( g(f^{-1}(g^{-1}(3))) = \\frac{1}{\\frac{16}{9} + 2} = \\frac{9}{34} \\)\n4. \\( f(g(f^{-1}(g^{-1}(3)))) = 3 \\times \\frac{9}{34} - 7 = -\\frac{211}{34} \\)\n5. \\( g^{-1}(f(g(f^{-1}(g^{-1}(3))))) = \\frac{1}{-\\frac{211}{34}} - 2 = -\\frac{34}{211} - 2 = -\\frac{456}{211} \\)\n6. \\( f^{-1}(g^{-1}(f(g(f^{-1}(g^{-1}(3)))))) = \\frac{-\\frac{456}{211} + 7}{3} = \\frac{1021}{633} \\)\n\nThus, the answer is \\( \\boxed{\\frac{1021}{633}} \\).",
+        "knowledge_point": "Function Composition and Inverses",
+        "id": 220
+    },
+    {
+        "problem": "Determine all values of $x$ such that the expression $\\sqrt{|x-4|-|x+3|}$ is defined. Give the answer in the form of intervals.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "For the square root function to be defined, the expression inside the square root, $|x-4|-|x+3|$, must be non-negative. This can be rewritten as $|x-4| \\geq |x+3|$. We consider the absolute values and their critical points at $x = 4$ and $x = -3$. For $x \\geq 4$, $x-4 \\geq 0$ and $x+3 \\geq 0$, so $|x-4| = x-4$ and $|x+3| = x+3$. The inequality $x-4 \\geq x+3$ simplifies to $-4 \\geq 3$, which is false. For $x < -3$, $x-4 < 0$ and $x+3 < 0$, so $|x-4| = -(x-4)$ and $|x+3| = -(x+3)$. The inequality $-(x-4) \\geq -(x+3)$ simplifies to $4 \\geq -3$, then $x < -3$ holds. For $-3 \\leq x < 4$, $x-4 < 0$ and $x+3 \\geq 0$, so $|x-4| = -(x-4)$ and $|x+3| = x+3$. The inequality $-(x-4) \\geq x+3$ simplifies to $1 \\geq 2x$, or $x \\leq \\frac{1}{2}$, since $-3 \\leq x < 4$ and $x \\leq \\frac{1}{2}$, the values of $x$ in this case are $x \\in [-3, \\frac{7}{2}]$. Therefore, the values of $x$ for which the expression is defined are $\\boxed{(-\\infty, \\frac{1}{2}]}$.",
+        "knowledge_point": "Inequalities and Absolute Values",
+        "id": 221
+    },
+    {
+        "problem": "If $x$, $y$, and $z$ are non-negative real numbers such that $x < y < z$ and $x + z = 3$, what is the minimum possible value of $|x - y| + |y - z| + |z - x|$?",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "First, observe that $|x - y| + |y - z| + |z - x| = 2(z - x)$ because $x < y < z$. To minimize $2(z - x)$, we need to minimize $(z - x)$ while maintaining $x + z = 3, x \\geq 0, z \\geq 0$. Combining numbers and shapes, it can be seen $z = 0, x = 3$. So the answer is $2(0 - 3) = \\boxed{-6}$.",
+        "knowledge_point": "Inequalities and Absolute Values",
+        "id": 222
+    },
+    {
+        "problem": "Determine the domain of the function \\[ g(x) = \\sqrt{3x^2 - 8x + 5} \\] and express the endpoints of the domain as common fractions.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "We need the expression under the square root to be non-negative, so we solve \\[3x^2 - 8x + 5 \\geq 0\\]. Factoring the quadratic, we find \\[(3x-5)(x-1) \\ge 0\\]. The roots are \\[x=\\frac{5}{3}\\] and \\[x=1\\]. Analyzing the signs of the intervals, we find the function is nonnegative outside the roots. Therefore, the domain is \\boxed{(-\\infty, 1] \\cup [\\frac{5}{3}, \\infty)   }.",
+        "knowledge_point": "Inequalities and Absolute Values",
+        "id": 223
+    },
+    {
+        "problem": "Find the range of values of $x$ for which the expression $\\sqrt{9 - (x-3)^2}$ is defined. Express your answer in interval notation.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "For $\\sqrt{9 - (x-3)^2}$ to be defined, the expression inside the square root must be non-negative. Hence, we need: \\begin{align*} 9 - (x-3)^2 &\\ge 0\\\\ (x-3)^2 &\\le 9\\end{align*} This implies $(x-3)^2 = 9$, so $x-3 = \\pm3$. Solving for $x$, we get $x = 3 \\pm 3$. Thus, $x = 0$ or $x = 6$. Therefore, the interval of $x$ for which the expression is defined is $\\boxed{[0, 6]}$.",
+        "knowledge_point": "Inequalities and Absolute Values",
+        "id": 224
+    },
+    {
+        "problem": "Find the product of integer solutions for $z$(-5 < z < 5) such that $|z^2 - 9|$ equals a prime number.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "Testing the integer values within the range one by one, you can find that the integer value that satisfies the condition is $-4, -2, 2, 4$. So the answer is $\\boxed{64}$",
+        "knowledge_point": "Inequalities and Absolute Values",
+        "id": 225
+    },
+    {
+        "problem": "Consider the polynomial $p(x) = x^3 - ax^2 + bx - 105$, where $a$ and $b$ are integers and the roots of $p(x)$ are consecutive odd prime numbers. If the sum of the roots is less than 30, determine the value of $b$.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "Let the roots of the polynomial be $p$, $q$, and $r$, which are consecutive odd prime numbers. From Vieta's formulas, we know $p+q+r = a$ and $pqr = 105$. The sum of the roots $p+q+r < 30$.\\n\\nThe consecutive odd primes whose product is 30 and sum less than 30 are $3$, $5$, and $7$. So, $a = 3+5+7 = 15$.\\n\\nNow, again using Vieta's formulas, we have $b = pq + qr + rp = 3*5 + 5*7 + 7*3 = 15 + 35 + 21 = 71$. Thus, the value of $b$ is $\\boxed{71}$.",
+        "knowledge_point": "Polynomials and Polynomial Operations",
+        "id": 226
+    },
+    {
+        "problem": "Factor the expression $x^4 - 16x^2 + 64$ completely.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "First, note that $x^4 - 16x^2 + 64$ can be rewritten as a quadratic in terms of $y = x^2$, that is, $y^2 - 16y + 64$. This factors as $(y-8)^2$. Substituting back $y = x^2$, we have $(x^2-8)^2$. This can be further factored using difference of squares to $(x-2\\sqrt{2})(x+2\\sqrt{2})(x-2\\sqrt{2})(x+2\\sqrt{2}) = \\boxed{(x-2\\sqrt{2})^2(x+2\\sqrt{2})^2}$.",
+        "knowledge_point": "Polynomials and Polynomial Operations",
+        "id": 227
+    },
+    {
+        "problem": "Consider three polynomials: $f(x) = x^2 + 2x + 1$, $g(x) = x^3 + 3x^2 + 3x + 1$, and $h(x) = 2x + 1$. Compute the value of $(f(x))^2 - (g(x))^2 + h(x)$ at $x=1$.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "First, compute each polynomial at $x = 1$. We get $f(1) = 1^2 + 2*1 + 1 = 4$, $g(1) = 1^3 + 3*1^2 + 3*1 + 1 = 8$, and $h(1) = 2*1 + 1 = 3$. Next, compute $(f(1))^2 - (g(1))^2 + h(1)$. This equals $4^2 - 8^2 + 3 = 16 - 64 + 3 = -45$. Thus, the value is $\\boxed{-45}$.",
+        "knowledge_point": "Polynomials and Polynomial Operations",
+        "id": 228
+    },
+    {
+        "problem": "Give the factorization result of expression $(x + \\sqrt{3})^3 + (y - \\sqrt{3})^3$",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "Factorization of (x + sqrt(3))^3 + (y - sqrt(3))^3 using sum of cubes: (x + y)((x + sqrt(3))^2 - (x + sqrt(3))(y - sqrt(3)) + (y - sqrt(3))^2) = \\boxed{(x + y)(x^2 + y^2 - xy + 3\\sqrt{3}(x - y) + 9)}",
+        "knowledge_point": "Polynomials and Polynomial Operations",
+        "id": 229
+    },
+    {
+        "problem": "Consider the polynomial equation $(x^2 - 5x + 6)(x^2 - 4x + 4) = 0$. Find the sum of all distinct real roots of this equation.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "First, factor the given equation: $(x^2 - 5x + 6) = (x-2)(x-3)$ and $(x^2 - 4x + 4) = (x-2)^2$. Therefore, the equation becomes $(x-2)(x-3)(x-2)^2 = 0$. This simplifies to $(x-2)^3(x-3) = 0$, indicating that the roots are $x=2$ (with multiplicity 3) and $x=3$. The sum of all distinct real roots is $2 + 3 = \\boxed{5}$.",
+        "knowledge_point": "Polynomials and Polynomial Operations",
+        "id": 230
+    },
+    {
+        "problem": "A function is given by $f(x) = ax^2 + bx + c$. If the vertex of this parabola is at the point $(h, k)$ and it passes through the point $(p, q)$, express $a$ in terms of $h$, $k$, $p$, and $q$.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "Since the vertex of the parabola is at $(h, k)$, the vertex form of the function is $f(x) = a(x - h)^2 + k$. Substituting $(p, q)$ into the vertex form, we get $q = a(p - h)^2 + k$, which implies $a = \\boxed{\\frac{q - k}{(p - h)^2}}$.",
+        "knowledge_point": "Quadratic Equations and Functions",
+        "id": 231
+    },
+    {
+        "problem": "A projectile is launched from the ground with an initial velocity of $v$ feet per second at an angle of $45^\\circ$ with the horizontal. The height $h$ of the projectile in feet after $t$ seconds is given by the equation $h = -16t^2 + vt + 0$. Find the maximum height reached by the projectile.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "The maximum height can be found by determining the vertex of the parabolic equation given. We complete the square for $h = -16t^2 + vt$. Factor out -16 from the first two terms: $h = -16(t^2 - \\frac{v}{16}t)$. To complete the square, add and subtract $(\\frac{v}{32})^2$ inside the parenthesis. Thus, $h = -16(t^2 - \\frac{v}{16}t + (\\frac{v}{32})^2 - (\\frac{v}{32})^2) = -16((t - \\frac{v}{32})^2 - (\\frac{v}{32})^2)$. Simplifying, we get $h = -16(t - \\frac{v}{32})^2 + \\frac{v^2}{64}$. The maximum height, $\\frac{v^2}{64}$, is reached when $t = \\frac{v}{32}$. Thus, the maximum height of the projectile is $\\boxed{\\frac{v^2}{64}}$ feet.",
+        "knowledge_point": "Quadratic Equations and Functions",
+        "id": 232
+    },
+    {
+        "problem": "The quadratic function $f(x) = ax^2 + bx + c$ has a vertex at $(3, -2)$ and passes through the point $(1, 8)$. Find the value of $f(5)$.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "Since the vertex of the parabola is at $(3, -2)$, the equation can be written in the vertex form as $f(x) = a(x - 3)^2 - 2$. Plugging in the point $(1, 8)$ into the vertex form gives $8 = a(1 - 3)^2 - 2$. Solving for $a$ gives $8 = 4a - 2$, so $a = \\frac{5}{2}$. Substituting $a$ back into the vertex form, the equation becomes $f(x) = \\frac{5}{2}(x - 3)^2 - 2$. To find $f(5)$, substitute $x = 5$: $f(5) = \\frac{5}{2}(5 - 3)^2 - 2 = \\frac{5}{2}(4) - 2 = 10 - 2 = \\boxed{8}$.",
+        "knowledge_point": "Quadratic Equations and Functions",
+        "id": 233
+    },
+    {
+        "problem": "Determine the sum of all integer values of $b$ for which the quadratic equation $x^2 + bx + b = 0$ has integer solutions.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "To find the integer values of $b$ that yield integer solutions for the quadratic equation $x^2 + bx + b = 0$, we use the discriminant method. The discriminant $\\Delta = b^2 - 4b$ must be a perfect square. Setting $\\Delta = k^2$ for some integer $k$, we solve $b^2 - 4b = k^2$. Rewriting this, we get $b = 2 \\pm \\sqrt{4 + k^2}$. For $b$ to be an integer, $4 + k^2$ must also be a perfect square. Further analysis shows that the only valid $k$ is $0$, leading to $b = 0$ or $b = 4$. Both these values of $b$ are verified to give integer solutions: $b = 0$ yields $x = 0$, and $b = 4$ yields $x = -2$. Therefore, the sum of all possible values is $0 + 4 = \\boxed{4}$",
+        "knowledge_point": "Quadratic Equations and Functions",
+        "id": 234
+    },
+    {
+        "problem": "Given the quadratic equation $x^2 + px + q = 0$ where $p$ and $q$ are integers, and one root is twice the other. If the sum of the roots taken three times is equal to 27, find the equation by determining values of $p$ and $q$.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "Let the roots be $r$ and $2r$. From the quadratic equations roots relations, we know the sum of the roots $r + 2r = 3r$ and the product of the roots $r \\times 2r = 2r^2$. It's given that $3(3r) = 27$, leading to $r = 3$. Then we have $x_1 + x_2 = -p = 9, x_1 x_2 = q = 18$. So the equation is $\\boxed{x^2 - 9x + 18 = 0}$.",
+        "knowledge_point": "Quadratic Equations and Functions",
+        "id": 235
+    },
+    {
+        "problem": "Given the equation \\[\\frac{3x-6}{x^2-7x+12} = \\frac{C}{x-3} + \\frac{D}{x-4}\\] for all $x$ except 3 and 4. Find $C$ and $D$ and express your answer as an ordered pair $(C, D)$.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "Factor the denominator on the left side to get \\[\\frac{3x-6}{(x-4)(x-3)} = \\frac{C}{x-3} + \\frac{D}{x-4}\\]. Next, multiply both sides of the equation by $(x - 3)(x - 4)$ to eliminate the denominators: \\[3x-6 = C(x-4) + D(x-3)\\]. Then we have $C + D = 3, 4C + 3D = 6$. Solve the two equation, we get $C = -3, D = 6$ Hence, the ordered pair is $(C, D) = \\boxed{(-3, 6)}$.",
+        "knowledge_point": "Rational Functions and Expressions",
+        "id": 236
+    },
+    {
+        "problem": "Given the function $f(x) = \\frac{2x - 5}{3x^2 - x - 14}$, find all values of $x$ that would make $f(x)$ undefined. Express your answer in set notation.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "To find the values that make $f(x)$ undefined, we need to determine where the denominator equals zero. Setting the denominator equal to zero, we have $3x^2 - x - 14 = 0$. Using the quadratic formula, $x = \\frac{-(-1) \\pm \\sqrt{(-1)^2 - 4 \\cdot 3 \\cdot (-14)}}{2 \\cdot 3} = \\frac{1 \\pm \\sqrt{169}}{6} = \\frac{1 \\pm 13}{6}$. Thus, $x = \\frac{14}{6} = \\frac{7}{3}$ or $x = \\frac{-12}{6} = -2$. Therefore, the function is undefined at $x = -2$ and $x = \\frac{7}{3}$. The solution is $\\boxed{\\{-2, \\frac{7}{3}\\}}$.",
+        "knowledge_point": "Rational Functions and Expressions",
+        "id": 237
+    },
+    {
+        "problem": "Rationalize the denominator and simplify the expression $$\\frac{\\sqrt[4]{128}}{\\sqrt[4]{16} + \\sqrt[4]{256}}$$. Assume the answer in the simplest form where the result can be written as $\\frac{C\\sqrt[4]{A}}{B}$, where $A$, $B$ and $C$ are integers. Find the value of $A+B+C$.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "Begin by simplifying the terms in the denominator: $$\\frac{\\sqrt[4]{128}}{\\sqrt[4]{16} + \\sqrt[4]{256}} = \\frac{\\sqrt[4]{128}}{\\sqrt[4]{16} + 2\\sqrt[4]{16}} = \\frac{\\sqrt[4]{128}}{3\\sqrt[4]{16}} = \\frac{\\sqrt[4]{128}}{3 \\times 2} = \\frac{\\sqrt[4]{128}}{6}.$$ Since $\\sqrt[4]{128} = 2\\sqrt[4]{2}$, the expression becomes $$\\frac{2\\sqrt[4]{2}}{6} = \\frac{\\sqrt[4]{2}}{3}.$$ Thus, $A = 2$ and $B = 3$ and $C=1$, giving $A+B+C = 2+3+1 = \\boxed{6}$.",
+        "knowledge_point": "Rational Functions and Expressions",
+        "id": 238
+    },
+    {
+        "problem": "Assume the function $f(x) = \\frac{x^2 + 3x + \\alpha}{x^2 + x - 12}$ can be simplified so that the numerator and denominator are both linear expressions of x. Provide the sum of all such $\\alpha$ values.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "The function $f(x)$ can be written as $f(x) = \\frac{x^2 + 3x + \\alpha}{(x + 4)(x - 3)}$. If $f(x)$ can be simplified so that the numerator and denominator are both linear expressions of x, then the denominator and numerator should have common zero points about x. If it is $x = 3$, then $3^2 + 3 \\times 3 + \\alpha = 0$, which implies $\\alpha = -18$; If it is $x = -4$, then $(-4)^2 + 3 \\times (-4) + \\alpha = 0$, which implies $\\alpha = -4$. So sum of all possible values for $\\alpha$ is $-18 - 4 = \\boxed{-22}$.",
+        "knowledge_point": "Rational Functions and Expressions",
+        "id": 239
+    },
+    {
+        "problem": "Determine the domain of the function $$g(x) = \\frac{3x-7}{x^2 - 4x + 3}.$$ Express your domain in interval notation.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "First, factorize the denominator of the rational function: $$x^2 - 4x + 3 = (x-3)(x-1).$$ The domain of the rational function is all real numbers except where the denominator is zero. The denominator is zero at $x=3$ and $x=1$. Thus, the domain of $g(x)$ is $$x \\in \\boxed{(-\\infty, 1) \\cup (1, 3) \\cup (3, \\infty)}.$$",
+        "knowledge_point": "Rational Functions and Expressions",
+        "id": 240
+    },
+    {
+        "problem": "A mathematician considers an infinite geometric series with the first term $a$ and common ratio $r$(0 < r < 1). The limit of sum of this series is $1000$. A new series is created by taking the reciprocal of the first term and keeping the common ratio unchanged. The limit of sum of this new series is known to be $24$ times the sum of the original series. Determine the values of $r$.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "Given that the limit of sum of the original series is $S = 1000$ and the first term $a$, the sum is represented by $S = a/(1 - r)$. The new series formed has a sum of $24S = 24000$. This series' sum is also represented by $1/a(1 - r)$. Setting up the equation $24000 = 1/a(1 - r)$ and knowing that $1000 = a/(1 - r)$. Solving this system, we find $r = \\boxed{1 - \\frac{\\sqrt{6}}{12000}}$.",
+        "knowledge_point": "Sequences and Series",
+        "id": 241
+    },
+    {
+        "problem": "A rumor starts with one person and spreads such that each person who hears it tells three more people the next day, and this pattern continues for 10 days. If the first day is considered day 1, how many people in total will have heard the rumor by the end of day 10, including the first person?",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "On day 1, 1 person knows the rumor. On each subsequent day, each person from the previous day tells the rumor to 3 new people. Thus, the number of people who hear the rumor each day forms a geometric sequence where each term is 3 times the previous term starting from 1. The number of people who know the rumor by the end of day 10 is the sum of the first 10 terms of this sequence.\n\nUsing the formula for the sum of the first n terms of a geometric sequence, $$S_n = a \\frac{r^n - 1}{r - 1}$$ where $a = 1$, $r = 3$, and $n = 10$, we find: $$S_{10} = 1 \\times \\frac{3^{10} - 1}{3 - 1} = \\frac{59049 - 1}{2} = 29524.$$ Therefore, by the end of day 10, $\\boxed{29524}$ people have heard the rumor, including the first person.",
+        "knowledge_point": "Sequences and Series",
+        "id": 242
+    },
+    {
+        "problem": "You have two sequences: one arithmetic and one geometric. The first term of the arithmetic sequence is $3$ and the common difference is $2$. Define the geometric sequence such that the first two terms is the product of the corresponding term from the arithmetic sequence and a constant $k$. If the third term of the geometric sequence is $60$, find the sum of the first four terms of the geometric sequence. Give the answer in decimal and round to 2 decimal places",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "The terms of the arithmetic sequence are $3, 5, 7, 9$. The terms of the geometric sequence are $3k, 5k, \\frac{25}{3}k, \\frac{125}{9}k$. Given the third term of the geometric sequence is $60$, we have $\\frac{25}{3}k = 60$, thus $k = \\frac{36}{5}$. The first four terms of the geometric sequence are $\\frac{108}{5}, 36, 60, 100$. The sum is $\\frac{108}{5} + 36 + 60 + 100 = \\boxed{217.60}$.",
+        "knowledge_point": "Sequences and Series",
+        "id": 243
+    },
+    {
+        "problem": "Two different geometric series, the first one is given by $a_n = 8 \\times 2^{n - 1}$ and the second one is given by $b_n = 3 \\times 3^{n - 1}$. At which index do the two series have the same sum?",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "The sum of first series is $S_{1n} = \\frac{8(1 - 2^n)}{1 - 2} = 8(2^n - 1)$, and the sum of second series is $S_{2n} = \\frac{3(1 - 3^n)}{1 - 3} = \\frac{3(3^n - 1)}{2}$. Then solving equation $S_{1n} = S_{2n}$, we can determine the answer is $n = \\boxed{4}$.",
+        "knowledge_point": "Sequences and Series",
+        "id": 244
+    },
+    {
+        "problem": "Consider the sequence defined recursively by $a_1 = 1000$ and $a_{n+1} = a_n - n$ for $n \\geq 1$. Determine the smallest positive integer $n$ for which $a_n < 0$.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "The sequence starts at 1000 and decreases by increasing integers starting from 1. We can express $a_n$ explicitly by $a_n = 1000 - \\frac{n(n-1)}{2}$. We set $a_n < 0$ leading to $1000 < \\frac{n(n-1)}{2}$. Solving $n(n-1) > 2000$, we find $n^2 - n - 2000 > 0$. Solving this quadratic inequality, $n > 45.36$. Since $n$ must be an integer, we test $n=46$ to verify: $a_{46} = 1000 - \\frac{46 \\times 45}{2} = -35$, which is indeed less than zero. Therefore, the smallest such $n$ is $\\boxed{46}$.",
+        "knowledge_point": "Sequences and Series",
+        "id": 245
+    },
+    {
+        "problem": "Assume $x$ and $y$ satisfy the system of equations: $3x^2 + 4y = 16$ and $2x - y = 3$. Compute sum of possible value of $4x + 3y$.",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "First solve $2x - y = 3$ for $x$, yielding $x = \\frac{y + 3}{2}$. Substitute $x$ in the first equation: $3(\\frac{y + 3}{3})^2 + 4y = 16$. Solving this will give us values for $x$ and $y$. That is $x = 2, y = 1$ or $x = -\\frac{14}{3}, y = -\\frac{37}{3}$. So $4x + 3y = 11$ or $4x + 3y = -\\frac{167}{3}$. Thus the answer is $11 - \\frac{167}{3} = \\boxed{-\\frac{134}{3}}$",
+        "knowledge_point": "Systems of Linear Equations",
+        "id": 246
+    },
+    {
+        "problem": "Suppose $a$ and $b$ are real numbers such that the following equations hold: \\begin{align*}\n14b - 7a^2 &= 3 \\\\\n14a - 7b^2 &= 11.\n\\end{align*} What is $\\dfrac{1}{a^3 + b^3}$?",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "The equations can be rewritten as: \\begin{align*}\n7a^2 - 14b + 7 &= 0, \\\\\n7b^2 - 14a + 7 &= 0.\n\\end{align*} Adding these equations gives: $$7a^2 - 14b + 3 + 7b^2 - 14a + 11 =0,$$ or $$(7a^2 - 14a + 7) + (7b^2 - 14b + 7) = 0.$$ Factoring each quadratic as a square gives $$(\\sqrt{7}(a - 1))^2 + (\\sqrt{7}(b - 1))^2 = 0.$$ Since squares are always non-negative, it follows that $$\\sqrt{7}(a - 1) = \\sqrt{7}(b - 1) = 0,$$ so $a = b = 1$. Then, $$a^3 + b^3 = 2. Thus the answer is $\\boxed{\\frac{1}{2}}$",
+        "knowledge_point": "Systems of Linear Equations",
+        "id": 247
+    },
+    {
+        "problem": "Determine the value of $x$, $y$, and $z$($x < y < z$) if the following system of equations is true: $x+y+z=12$, $xy+xz+yz=47$, and $xyz=60$. Give the answer in form of (x, y, z)",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "First, we observe the symmetric nature of the equations which resemble the elementary symmetric polynomials. We can express $x^2+y^2+z^2$ using the identity $x^2+y^2+z^2=(x+y+z)^2-2(xy+xz+yz)$. Substituting the given values, we get $x^2+y^2+z^2=12^2-2\\cdot47=144-94=50$. To find the values of $x$, $y$, and $z$, we solve the cubic equation formed by the given symmetric equations: $t^3 - (x+y+z)t^2 + (xy+xz+yz)t - xyz = 0$ or $t^3 - 12t^2 + 47t - 60 = 0$. Factoring or using the Rational Root Theorem, we find $t=4, 3, 5$. Thus, $x=3, y=4, z=5$ and the answer is $\\boxed{(3,4,5)}$.",
+        "knowledge_point": "Systems of Linear Equations",
+        "id": 248
+    },
+    {
+        "problem": "A school has three types of classrooms: small, medium, and large. There are a total of 62 classrooms. The ratio of small to medium classrooms is 3:2, and the ratio of medium to large classrooms is 5:3. If all types of classrooms are fully utilized and each small classroom holds 20 students, each medium classroom holds 30 students, and each large classroom holds 50 students, how many students can the school accommodate?",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "Let the number of small, medium, and large classrooms be s, m, and l, respectively. Given, s + m + l = 50 and the ratios s:m = 3:2 and m:l = 5:3. From the first ratio, s = 3/2 * m. From the second ratio, m = 5/3 * l. Substitute the value of s in terms of m into the total equation: 3/2 * m + m + l = 62, m = 5/3 * l. Substitute for m from the second ratio: 3/2 * (5/3 * l) + 5/3 * l + l = 62, solving gives l = 12, m = 20, s = 30. The total number of students is 30*20 + 20*30 + 12*50 = 600 + 600 + 600 = \\boxed{1800} students.",
+        "knowledge_point": "Systems of Linear Equations",
+        "id": 249
+    },
+    {
+        "problem": "In a small village, there are four types of fruits available in a market: apples, bananas, cherries, and dates. If the number of apples is twice the number of bananas, equal to three times the number of cherries, and four more than the number of dates, how many apples are there if the total number of fruits is 132?",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "Let the number of bananas be $b$, the number of cherries be $c$, and the number of dates be $d$. Let the number of apples be $a$. According to the problem, we have the following system of equations:\n\\begin{align*}\na &= 2b \\\\\na &= 3c \\\\\na &= d + 4 \\\\\na + b + c + d &= 132\n\\end{align*}\nFrom the first three equations, substitute the value of $a$ in terms of $b$, $c$, and $d$:\n\\begin{align*}\n2b &= 3c = d + 4\n\\end{align*}\nSolving these equations together with the total sum gives us:\n\\begin{align*}\n3c &= 2b \\\\\nd + 4 &= 2b \\\\\n3c + 2b + (2b - 4) + b &= 132 \\\\\n3c + 5b &= 168 \\\\\nc &= \\frac{2b}{3}, d = 2b - 4\n\\end{align*}\nPlugging $c$ and $d$ back, solve for $b$, then find $c$ and $d$. $a$ can be found directly from any of the first three equations. The final answer is $a = \\boxed{48}$",
+        "knowledge_point": "Systems of Linear Equations",
+        "id": 250
+    }
+]

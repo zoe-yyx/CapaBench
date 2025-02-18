@@ -1,0 +1,5 @@
+{
+    "StdOut": "tmp_pr.lean:8:3: error: unknown tactic\ntmp_pr.lean:5:13: error: unsolved goals\nP1 Q1 P2 Q2 : Prop\n\u22a2 P1 \u2227 Q1 \u2192 (P1 \u2192 P2) \u2192 (Q1 \u2192 Q2) \u2192 P2 \u2227 Q2\nInit State:\nP1 Q1 P2 Q2 : Prop\n\u22a2 P1 \u2227 Q1 \u2192 (P1 \u2192 P2) \u2192 (Q1 \u2192 Q2) \u2192 P2 \u2227 Q2\n",
+    "StdError": "",
+    "ReturnCode": 1
+}

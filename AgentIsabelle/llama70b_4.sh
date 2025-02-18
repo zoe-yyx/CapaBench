@@ -1,0 +1,5 @@
+CUDA_VISIBLE_DEVICES=3 nohup torchrun --master_port 5524 run_agent.py --test_model_name Claude-3.5-Sonnet --mode planning reflection  --start_index 41 --original_correct 11 --ip http://10.140.9.121:8080 > ./log/isabelle/Claude-3.5-Sonnet/no/pf_new_41.out 2>&1 
+CUDA_VISIBLE_DEVICES=3 nohup torchrun --master_port 5524 run_agent.py --test_model_name Claude-3.5-Sonnet --mode reasoning reflection  --start_index 102 --original_correct 33 --ip http://10.140.9.121:8080 > ./log/isabelle/Claude-3.5-Sonnet/no/rf_new_102.out 2>&1 
+
+CUDA_VISIBLE_DEVICES=3 nohup torchrun --master_port 5524 run_agent.py --test_model_name gpt-4-turbo-2024-04-09 --mode planning reflection  --start_index 0 --original_correct 0 --ip http://10.118.228.191:8080 > ./log/isabelle/gpt-4-turbo-2024-04-09/no/pf_new.out 2>&1 
+CUDA_VISIBLE_DEVICES=3 nohup torchrun --master_port 5524 run_agent.py --test_model_name gpt-4-turbo-2024-04-09 --mode reasoning reflection  --start_index 0 --original_correct 0 --ip http://10.118.228.191:8080 > ./log/isabelle/gpt-4-turbo-2024-04-09/no/rf_new.out 2>&1 

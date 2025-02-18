@@ -1,0 +1,4 @@
+{
+    "StdOut": "tmp_pra.lean:1:0: error: unexpected identifier; expected command\ntmp_pra.lean:6:3: error: unknown tactic\ntmp_pra.lean:3:51: error: unsolved goals\nX : Type\nP Q : X \u2192 Prop\n\u22a2 \u00ac\u2200 (x : X), P x \u2192 Q x \u2192 \u2203 x, P x \u2227 \u00acQ x\nInit State:\nX : Type\nP Q : X \u2192 Prop\n\u22a2 \u00ac\u2200 (x : X), P x \u2192 Q x \u2192 \u2203 x, P x \u2227 \u00acQ x\n",
+    "StdError": "",
+    "Ret
