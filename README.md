@@ -21,6 +21,14 @@
 Modular architectures in Large Language Model (LLM) agents integrate components like planning, reasoning, and reflection, yet quantifying their individual contributions remains challenging. We introduce **CapaBench**, a Shapley Value-based evaluation framework that systematically measures capability modules' marginal impacts. With 1,000+ multi-domain task scenarios, CapaBench enables combinatorial analysis through module substitution and interaction testing.
 
 
+## 📊 Data
+
+Some part of **CapaBench** is open-source, we also release the fully evaluated results of the models in the paper.
+
+The other part of **CapaBench** is not open-source, for each benchmark, we provide 5 problems and 1 traj per problem as examples.
+
+<!-- TODO: yyx, 数据占用空间可能过大, 可能不能全量上传到 github, 可能需要后续进行下载 -->
+
 <!-- 
 ## ⏬ Download
 
