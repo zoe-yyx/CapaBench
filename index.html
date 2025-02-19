@@ -648,25 +648,25 @@
                     border-collapse: collapse;
                     width: 100%;
                   }
-
+              
                   .table th,
                   .table td {
                     border: 1px solid #ddd;
                     padding: 8px;
                     text-align: center;
                   }
-
+              
                   .table thead tr {
                     border-top: 2px solid #000;
                     border-bottom: 2px solid #000;
                   }
-
+              
                   .table tbody tr:last-child {
                     border-bottom: 2px solid #000;
                   }
-
+              
                   .check {
-                    color: purple;
+                    color: red;
                   }
                 </style>
                 <table class="table dataset-table">
@@ -674,7 +674,7 @@
                     <tr>
                       <th></th>
                       <th></th>
-                      <th>Daily Activities</th>
+                      <th colspan="3">Daily Activities</th>
                       <th colspan="3">Computation</th>
                       <th>Role Control</th>
                     </tr>
@@ -682,10 +682,12 @@
                       <th></th>
                       <th></th>
                       <th>Shopping</th>
+                      <th>Navigation</th>
+                      <th>Ticket</th>
                       <th>Math</th>
-                      <th>Automatic Theorem Proving</th>
+                      <th>ATP</th>
                       <th>OS</th>
-                      <th>Robot Cooperation</th>
+                      <th>Robot</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -693,39 +695,39 @@
                       <td rowspan="2">Planning</td>
                       <td>Task Steps</td>
                       <td><span class="check">✔</span></td>
+                      <td></td>
+                      <td></td>
                       <td><span class="check">✔</span></td>
                       <td><span class="check">✔</span></td>
                       <td></td>
-                      <td><span class="check">✔</span></td>
+                      <td></td>
                     </tr>
                     <tr>
                       <td>Resource Constraints</td>
                       <td></td>
+                      <td><span class="check">✔</span></td>
+                      <td><span class="check">✔</span></td>
                       <td></td>
                       <td></td>
                       <td><span class="check">✔</span></td>
-                      <td></td>
+                      <td><span class="check">✔</span></td>
                     </tr>
                     <tr>
-                      <td rowspan="3">Reasoning</td>
+                      <td rowspan="2">Reasoning</td>
                       <td>Logical Validation</td>
                       <td></td>
-                      <td><span class="check">✔</span></td>
-                      <td><span class="check">✔</span></td>
                       <td></td>
+                      <td></td>
+                      <td><span class="check">✔</span></td>
+                      <td><span class="check">✔</span></td>
+                      <td><span class="check">✔</span></td>
                       <td></td>
                     </tr>
                     <tr>
                       <td>Knowledge Inference</td>
                       <td><span class="check">✔</span></td>
-                      <td></td>
-                      <td></td>
                       <td><span class="check">✔</span></td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <td>Text Understanding</td>
-                      <td></td>
+                      <td><span class="check">✔</span></td>
                       <td></td>
                       <td></td>
                       <td></td>
@@ -735,6 +737,8 @@
                       <td rowspan="2">Action</td>
                       <td>Environmental Actions</td>
                       <td></td>
+                      <td></td>
+                      <td></td>
                       <td><span class="check">✔</span></td>
                       <td><span class="check">✔</span></td>
                       <td><span class="check">✔</span></td>
@@ -742,6 +746,8 @@
                     </tr>
                     <tr>
                       <td>Interactive Actions</td>
+                      <td><span class="check">✔</span></td>
+                      <td><span class="check">✔</span></td>
                       <td><span class="check">✔</span></td>
                       <td></td>
                       <td></td>
@@ -751,6 +757,8 @@
                     <tr>
                       <td>Reflection</td>
                       <td>Failure Analysis</td>
+                      <td><span class="check">✔</span></td>
+                      <td><span class="check">✔</span></td>
                       <td><span class="check">✔</span></td>
                       <td><span class="check">✔</span></td>
                       <td><span class="check">✔</span></td>
@@ -828,8 +836,7 @@
                     theorems or constructing diagrams, outweighs strategic planning. Similarly, in formal verification
                     tasks (e.g., Coq or Lean), strict adherence to syntactic and semantic correctness is critical. Both
                     scenarios demand meticulous step-by-step actions to ensure reliability and prevent errors. </li>
-                  \paragraph{Low Reflection Contribution}
-
+                  
                 </ul>
                 <h4>Low Reflection Contribution</h4>
                 <p>
