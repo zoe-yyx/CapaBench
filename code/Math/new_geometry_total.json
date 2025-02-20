@@ -1,0 +1,2002 @@
+[
+    {
+        "problem": "In circle $P$, chord $AB$ is perpendicular to radius $PC$ at its midpoint $D$. If the radius of the circle is 10 units and $PD=5$, find the length of chord $AB$.",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "Since $PC$ is a radius and $AB$ is a chord perpendicular to $PC$ at its midpoint, triangle $PDB$ is a right triangle with hypotenuse $PB = 10$ units and leg $PD = 5$ units. By the Pythagorean theorem, $AB = 2 \\times AC = 2 \\times \\sqrt{10^2 - 5^2} = 2 \\times \\sqrt{75} = \\boxed{10\\sqrt{3}}$ units.",
+        "knowledge_point": "Circles and Their Properties",
+        "id": 1
+    },
+    {
+        "problem": "In a circle with center $O$, diameter $AB = 12$ cm, find the circumference of the circle.",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "The diameter of the circle is 12 cm, so the radius is half of the diameter, $r = 6$ cm. The circumference of a circle is given by $C = 2\\pi r$. Thus, the circumference is $C = 2 \\pi \\times 6 = \\boxed{12\\pi}$ cm.",
+        "knowledge_point": "Circles and Their Properties",
+        "id": 2
+    },
+    {
+        "problem": "In circle $Q$, $\\angle XYZ$ is an inscribed angle that intercepts arc $XZ$. If arc $XZ$ measures $80^\\circ$, find the measure of $\\angle XYZ$.",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "An inscribed angle is half the measure of its intercepted arc. Since arc $XZ$ measures $80^\\circ$, the measure of $\\angle XYZ = \\frac{1}{2} \\times 80^\\circ = \\boxed{40^\\circ}$.",
+        "knowledge_point": "Circles and Their Properties",
+        "id": 3
+    },
+    {
+        "problem": "A circle with center at $O$ has a radius of 7 units. If point $A, B$ lies on the circle and $AB$ passes through point $O$, what is the length of segment $AB$?",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "Since point $A, B$ lies on the circle and $AB$ passes through point $O$, segment $AB$ is a diameter of the circle. Therefore, the length of $AB$ is equal to twice the radius, which is $7 * 2 = \\boxed{14}$ units.",
+        "knowledge_point": "Circles and Their Properties",
+        "id": 4
+    },
+    {
+        "problem": "Two radii, $OA$ and $OB$, in a circle form an angle of $60^\\circ$. What is the measure of the arc $AB$ that these radii subtend?",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "The angle formed by two radii inside a circle corresponds directly to the arc they subtend. Therefore the answer is  $\\boxed{60^\\circ}$.",
+        "knowledge_point": "Circles and Their Properties",
+        "id": 5
+    },
+    {
+        "problem": "Compute $\\cos 90^\\circ$.",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "Rotating the point $(1,0)$ about the origin by $90^\\circ$ counterclockwise gives us the point $(0,1)$. Therefore, the cosine of $90^\\circ$, which is the x-coordinate, is $\\cos 90^\\circ = \\boxed{0}$.",
+        "knowledge_point": "Fundamentals of Trigonometry",
+        "id": 6
+    },
+    {
+        "problem": "Compute $\\sin 90^\\circ$.",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "Rotating the point $(1,0)$ about the origin by $90^\\circ$ counterclockwise gives us the point $(0,1)$. Therefore, the sine of $90^\\circ$, which is the y-coordinate, is $\\sin 90^\\circ = \\boxed{1}$.",
+        "knowledge_point": "Fundamentals of Trigonometry",
+        "id": 7
+    },
+    {
+        "problem": "Compute $\\tan 30^\\circ$.",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "In a 30-60-90 triangle, the ratio of the opposite side (half) to the adjacent side (sqrt(3)/2) of the 30-degree angle gives $\\tan 30^\\circ = \\frac{1/2}{\\sqrt{3}/2} = \\frac{1}{\\sqrt{3}} = \\frac{\\sqrt{3}}{3} = \\boxed{\\frac{\\sqrt{3}}{3}}$.",
+        "knowledge_point": "Fundamentals of Trigonometry",
+        "id": 8
+    },
+    {
+        "problem": "Compute $\\cos 45^\\circ$.",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "In a 45-45-90 triangle, both legs are equal, and the leg length over the hypotenuse (1) gives $\\cos 45^\\circ = \\frac{\\sqrt{2}}{2} = \\boxed{\\frac{\\sqrt{2}}{2}}$.",
+        "knowledge_point": "Fundamentals of Trigonometry",
+        "id": 9
+    },
+    {
+        "problem": "Compute $\\sin 45^\\circ$.",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "In a 45-45-90 triangle, both legs are equal, and the leg length over the hypotenuse (1) gives $\\sin 45^\\circ = \\frac{\\sqrt{2}}{2} = \\boxed{\\frac{\\sqrt{2}}{2}}$.",
+        "knowledge_point": "Fundamentals of Trigonometry",
+        "id": 10
+    },
+    {
+        "problem": "In a coordinate plane, points $P(3,4)$, $Q(3,10)$, and $R(9,4)$ form a triangle. What is the area of $\\triangle PQR$?",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "Since $P$ and $Q$ have the same $x$-coordinate, line $PQ$ is vertical and can serve as the height of the triangle, which is $10 - 4 = 6$ units. The base of the triangle $PR$ has a length of $9 - 3 = 6$ units as $P$ and $R$ share the same $y$-coordinate. The area of $\\triangle PQR$ is then $\\frac{1}{2} \\times 6 \\times 6 = \\boxed{18}$ square units.",
+        "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+        "id": 11
+    },
+    {
+        "problem": "Point $A(-3,2)$ and point $B(7,2)$ lie on the coordinate plane. If these points are the ends of the diameter of a circle, what is the radius of the circle?",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "The distance between points $A$ and $B$, which forms the diameter, is $7 - (-3) = 10$ units. Since the radius is half the diameter, the radius of the circle is $\\frac{10}{2} = \\boxed{5}$ units.",
+        "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+        "id": 12
+    },
+    {
+        "problem": "On the coordinate plane, rectangle $ABCD$ has vertices $A(1,3)$, $B(1,8)$, $C(6,8)$, and $D(6,3)$. Find the area of $ABCD$.",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "To find the area of the rectangle, calculate the length of sides $AB$ and $AD$. The length of $AB$, which is vertical, is $8 - 3 = 5$ units, and the length of $AD$, which is horizontal, is $6 - 1 = 5$ units. The area of rectangle $ABCD$ is $5 \\times 5 = \\boxed{25}$ square units.",
+        "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+        "id": 13
+    },
+    {
+        "problem": "Calculate the area of triangle $XYZ$ with vertices $X(1,1)$, $Y(4,5)$, and $Z(1,5)$ in the coordinate plane.",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "Since $X$ and $Z$ share the same $x$-coordinate, the line $XZ$ can be treated as the height of the triangle, which is $5 - 1 = 4$ units. The base of the triangle, $XY$, has a length of $4 - 1 = 3$ units as $Y$ and $X$ share the same $y$-coordinate. The area of $\\triangle XYZ$ is $\\frac{1}{2} \\times 3 \\times 4 = \\boxed{6}$ square units.",
+        "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+        "id": 14
+    },
+    {
+        "problem": "What is the distance between the points $K(4, 7)$ and $M(13, 7)$ on a coordinate plane?",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "The distance between $K$ and $M$ is $13 - 4 = \\boxed{9}$ units.",
+        "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+        "id": 15
+    },
+    {
+        "problem": "A triangle has two sides that are 7 cm and 12 cm and all the three sides are integers. What is the smallest possible perimeter of this triangle, in centimeters?",
+        "level": "Level 1",
+        "type": "Geometry",
+        "knowledge_point": "Geometric Inequalities and Optimization Problems",
+        "id": 16,
+        "solution": "The third side must be larger than the difference of the other two sides and smaller than their sum (triangle inequality). To minimize the perimeter, the third side should be as small as possible but still satisfy the triangle inequality. The minimum valid length for the third side is $12 - 7 + 1= 6$ cm. Thus, the smallest perimeter is $7 + 12 + 6 = \\boxed{25}$ cm."
+    },
+    {
+        "problem": "In a right triangle, the lengths of the two sides are 8 cm and 6 cm. What is the greatest possible length of the third side?",
+        "level": "Level 1",
+        "type": "Geometry",
+        "knowledge_point": "Geometric Inequalities and Optimization Problems",
+        "id": 17,
+        "solution": "The hypotenuse of a right triangle is always longer than either of the legs and is calculated using the Pythagorean theorem. Here, the possible greatest length of the third side is the square root of $(8^2 + 6^2) = \\sqrt{64 + 36} = \\sqrt{100} = 10$ cm. \\(\\boxed{10}\\)"
+    },
+    {
+        "problem": "An equilateral triangle has a side of 9 cm. What is the longest side of this triangle?",
+        "level": "Level 1",
+        "type": "Geometry",
+        "knowledge_point": "Geometric Inequalities and Optimization Problems",
+        "id": 18,
+        "solution": "Since all sides of an equilateral triangle are equal, the longest side is the same as any other side, which is 9 cm. \\(\\boxed{9}\\)"
+    },
+    {
+        "problem": "A rectangle has a length of 15 cm and a width of 10 cm. What is the greatest possible diagonal length of this rectangle?",
+        "level": "Level 1",
+        "type": "Geometry",
+        "knowledge_point": "Geometric Inequalities and Optimization Problems",
+        "id": 19,
+        "solution": "The diagonal of a rectangle can be calculated using the Pythagorean theorem. For this rectangle, the diagonal is the square root of $(15^2 + 10^2) = \\sqrt{225 + 100} = \\sqrt{325}$ cm. \\(\\boxed{5\\sqrt{13}}\\)"
+    },
+    {
+        "problem": "A square has a side length of 5 cm. What is the greatest possible length of a diagonal in this square? Give the answer in decimal and round to 2 decimal places",
+        "level": "Level 1",
+        "type": "Geometry",
+        "knowledge_point": "Geometric Inequalities and Optimization Problems",
+        "id": 20,
+        "solution": "The diagonal of a square is calculated as the side length multiplied by the square root of 2. Therefore, the diagonal length is $5 \\times \\sqrt{2} = 5 \\times 1.414 = 7.07$ cm. \\(\\boxed{7.07}\\)"
+    },
+    {
+        "problem": "Rectangle $ABCD$ has $AB = 8$ and $BC = 6$. What is the area of rectangle $ABCD$?",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "The area of a rectangle is given by the formula $length \\times width$. Here, $AB = 8$ and $BC = 6$. So the area of rectangle $ABCD$ is $8 \\times 6 = \\boxed{48}$ square units.",
+        "knowledge_point": "Polygons and Their Properties",
+        "id": 21
+    },
+    {
+        "problem": "Right triangle $XYZ$ has legs $XY = 3$ and $XZ = 4$. What is the length of the hypotenuse $YZ$?",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "Using the Pythagorean theorem, $YZ^2 = XY^2 + XZ^2 = 3^2 + 4^2 = 9 + 16 = 25$. Therefore, $YZ = \\sqrt{25} = \\boxed{5}$ units.",
+        "knowledge_point": "Polygons and Their Properties",
+        "id": 22
+    },
+    {
+        "problem": "In parallelogram $JKML$, if $\\angle J = 75^\\circ$, what is $\\angle M$?",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "In a parallelogram, opposite angles are equal and adjacent angles are supplementary. Since $\\angle J = 75^\\circ$, $\\angle M$ (which is opposite $\\angle J$) must also be $75^\\circ$. Therefore, $\\angle M = \\boxed{75^\\circ}$.",
+        "knowledge_point": "Polygons and Their Properties",
+        "id": 23
+    },
+    {
+        "problem": "Equilateral triangle $PQR$ has side length $7$. What is the perimeter of triangle $PQR$?",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "The perimeter of an equilateral triangle is three times the length of one side. Since each side of triangle $PQR$ is $7$, the perimeter is $3 \\times 7 = \\boxed{21}$ units.",
+        "knowledge_point": "Polygons and Their Properties",
+        "id": 24
+    },
+    {
+        "problem": "Isosceles trapezoid $WXYZ$ has bases $WX = 10$ and $YZ = 6$. What is the average length of the bases?",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "The average length of the bases of a trapezoid is given by the formula $\\frac{base1 + base2}{2}$. For trapezoid $WXYZ$, this is $\\frac{10 + 6}{2} = \\boxed{8}$ units.",
+        "knowledge_point": "Polygons and Their Properties",
+        "id": 25
+    },
+    {
+        "problem": "In right triangle $\\triangle PQR$, $PR = 9$, $QR = 40$, and $PQ$ is the hypotenuse. What is the length of $PQ$?",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "Using the Pythagorean theorem, $PR^2 + QR^2 = PQ^2$. Plugging in the values, $9^2 + 40^2 = 81 + 1600 = 1681$. Taking the square root gives $PQ = \\boxed{41}$.",
+        "knowledge_point": "Properties of Right Triangles",
+        "id": 26
+    },
+    {
+        "problem": "In $\\triangle DEF$, $DE = EF$ and $m\\angle DEF = 80^\\circ$. Calculate the measure of $m\\angle DFE$.",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "Since $\\triangle DEF$ is isosceles with $DE = EF$, the base angles $\\angle DFE$ and $\\angle EFD$ are equal. Using the triangle angle sum property, $m\\angle DFE + m\\angle EFD + m\\angle DEF = 180^\\circ$. Substituting the known values gives $2m\\angle DFE + 80^\\circ = 180^\\circ$ or $2m\\angle DFE = 100^\\circ$, so $m\\angle DFE = \\boxed{50^\\circ}$.",
+        "knowledge_point": "Properties of Right Triangles",
+        "id": 27
+    },
+    {
+        "problem": "The lengths of the two right-angled sides of a right triangle are 8 and 15 respectively. Determine the length of the hypotenuse",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "To determine the length of the hypotenuse, we apply the Pythagorean theorem. Since $8^2 + 15^2 = 17^2$, then, the answer is \\boxed{17}.",
+        "knowledge_point": "Properties of Right Triangles",
+        "id": 28
+    },
+    {
+        "problem": "In isosceles right triangle $\\triangle XYZ$, $XY = XZ$. If $XY = 7\\sqrt{2}$, what is the length of $YZ$?",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "In an isosceles right triangle, the hypotenuse $YZ$ is $\\sqrt{2}$ times the length of each leg. Therefore, $YZ = 7\\sqrt{2} \\times \\sqrt{2} = 7 \\times 2 = \\boxed{14}$.",
+        "knowledge_point": "Properties of Right Triangles",
+        "id": 29
+    },
+    {
+        "problem": "In right triangle $\\triangle ABC$, $\\angle ACB = 90^\\circ$ and $AB = 5$. If $AC = 3$, find the length of $BC$.",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "Using the Pythagorean theorem, $AC^2 + BC^2 = AB^2$. Plugging in the known values, $3^2 + BC^2 = 5^2$ or $9 + BC^2 = 25$. Solving for $BC$, we get $BC^2 = 16$, so $BC = \\boxed{4}$.",
+        "knowledge_point": "Properties of Right Triangles",
+        "id": 30
+    },
+    {
+        "problem": "In parallelogram $ABDC$, if $m\\angle BAC = 24^{\\circ}$, what is $m\\angle ACD$?",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "In a parallelogram, opposite angles are equal and adjacent angles are supplementary. Since $m\\angle BAC = 24^{\\circ}$, which is not a typical notation in a parallelogram, assuming a typo, we consider $m\\angle BAC = m\\angle BDC = 24^{\\circ}$. Thus, $m\\angle ACD = 180^{\\circ} - m\\angle BDC = 180^{\\circ} - 24^{\\circ} = \\boxed{156^{\\circ}}$.",
+        "knowledge_point": "Quadrilateral Features and Classifications",
+        "id": 31
+    },
+    {
+        "problem": "Square $ABCD$ is inscribed in circle $O$. What is the measure of $m\\angle AOB$ where $O$ is the center of the circle?",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "Since $ABCD$ is a square, all angles are $90^{\\circ}$. The diagonals of a square are equal and bisect the square's angles, thus forming four right triangles. Each angle at the center $O$ is half the total $360^{\\circ}$, hence $m\\angle AOB = \\frac{360^{\\circ}}{4} = \\boxed{90^{\\circ}}$.",
+        "knowledge_point": "Quadrilateral Features and Classifications",
+        "id": 32
+    },
+    {
+        "problem": "Rhombus $PQRS$ has an acute angle of $60^{\\circ}$. What is the measure of the obtuse angle of rhombus $PQRS$?",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "The angles in a rhombus are supplementary. Given the acute angle is $60^{\\circ}$, the obtuse angle is $180^{\\circ} - 60^{\\circ} = \\boxed{120^{\\circ}}$.",
+        "knowledge_point": "Quadrilateral Features and Classifications",
+        "id": 33
+    },
+    {
+        "problem": "Trapezoid $ABCD$ (with bases $AB$ and $CD$) has $m\\angle A = 75^{\\circ}$. Find $m\\angle C$.",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "In a trapezoid, the consecutive angles between a base and the legs are supplementary. Since $m\\angle A = 75^{\\circ}$, then $m\\angle C = m\\angle D = 180^{\\circ} - 75^{\\circ} = \\boxed{105^{\\circ}}$.",
+        "knowledge_point": "Quadrilateral Features and Classifications",
+        "id": 34
+    },
+    {
+        "problem": "In kite $WXZY$, $m\\angle W = 120^{\\circ}, m\\angle X = 20^{\\circ}$ and $WY = YZ$. What is $m\\angle Y$?",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "In a kite, the two sets of adjacent edges are equal. Since $WY = YZ$, angles $W$ and $Z$ are equal. Hence, $m\\angle Y = 360^{\\circ} - m\\angle W - m\\angle Z - m\\angle X  = 360^{\\circ} - 120^{\\circ} - 120^{\\circ} - 20^{\\circ} = \\boxed{100^{\\circ}}$.",
+        "knowledge_point": "Quadrilateral Features and Classifications",
+        "id": 35
+    },
+    {
+        "problem": "In rectangle $ABCD$, if $AD=4$ cm and $DC=8$ cm, a line is drawn from $A$ to $C$. What is the ratio of triangle $ABC$ to triangle $ADC$?",
+        "level": "Level 1",
+        "type": "Geometry",
+        "knowledge_point": "Similar Triangles and Proportions",
+        "id": 36,
+        "solution": "The triangles $ABC$ and $ADC$ share the diagonal $AC$ as their hypotenuse, and both are right triangles. The area of a triangle is $\\frac{1}{2} \\times \\text{base} \\times \\text{height}$. Thus, $\\text{Area of } \\triangle ABC = \\frac{1}{2} \\times 8 \\times 4 = 16$ cm$^2$ and $\\text{Area of } \\triangle ADC = \\frac{1}{2} \\times 4 \\times 8 = 16$ cm$^2$. Therefore, the ratio of $\\triangle ABC$ to $\\triangle ADC$ is $1:1$. \\(\\boxed{1}\\)"
+    },
+    {
+        "problem": "In triangle $DEF$, $\\angle D = \\angle E$. If side $DF = 10$ cm and side $DE = 8$ cm, find the length of side $EF$.",
+        "level": "Level 1",
+        "type": "Geometry",
+        "knowledge_point": "Similar Triangles and Proportions",
+        "id": 37,
+        "solution": "Since $\\angle D = \\angle E$, triangle $DEF$ is isosceles with sides $DF$ and $fE$ being equal. Therefore, $EF$ also equals $10$ cm. \\(\\boxed{10}\\)"
+    },
+    {
+        "problem": "In triangle $GHI$, side $GH = 9$ units and side $HI = 12$ units. Triangle $JKL$ is similar to triangle $GHI$ with side $JK = 18$ units. Find the length of side $KL$.",
+        "level": "Level 1",
+        "type": "Geometry",
+        "knowledge_point": "Similar Triangles and Proportions",
+        "id": 38,
+        "solution": "Since $\\triangle GHI \\sim \\triangle JKL$, the ratio of corresponding sides is constant. Thus, $\\frac{GH}{JK} = \\frac{HI}{KL}$. Plugging in the given values, we get $\\frac{9}{18} = \\frac{12}{KL}$. Solving for $KL$, we find $KL = 24$ units. \\(\\boxed{24}\\)"
+    },
+    {
+        "problem": "In parallelogram $LMON$, if $LM = 7$ cm, $MO = 10$ cm, and a line is drawn from $L$ to $O$. What is the ratio of triangle $LMO$ to triangle $LNO$?",
+        "level": "Level 1",
+        "type": "Geometry",
+        "knowledge_point": "Similar Triangles and Proportions",
+        "id": 39,
+        "solution": "Both triangles $LMO$ and $LNO$ share the diagonal $LO$ and have the same altitude from $L$ to line $MN$. Therefore, their areas are equal, making the ratio of $\\triangle LMO$ to $\\triangle LNO$ equal to $1:1$. \\(\\boxed{1}\\)"
+    },
+    {
+        "problem": "Triangle $PQR$ is similar to triangle $STU$. If side $PQ = 15$ cm, $QR = 20$ cm, and $ST = 45$ cm, find the length of side $TU$.",
+        "level": "Level 1",
+        "type": "Geometry",
+        "knowledge_point": "Similar Triangles and Proportions",
+        "id": 40,
+        "solution": "Since $\\triangle PQR \\sim \\triangle STU$, the sides are proportional. Thus, $\\frac{PQ}{ST} = \\frac{QR}{TU}$. Plugging in the known values gives $\\frac{15}{45} = \\frac{20}{TU}$. Solving for $TU$, we find $TU = 60$ cm. \\(\\boxed{60}\\)"
+    },
+    {
+        "problem": "How many faces does a pentagonal pyramid have?",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "A pentagonal pyramid has one pentagonal base and five triangular faces. So, the total number of faces is $1 + 5 = \\boxed{6}$.",
+        "knowledge_point": "Three-Dimensional Geometry",
+        "id": 41
+    },
+    {
+        "problem": "What is the volume of a cone with a radius of 3 inches and a height of 4 inches?",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "The volume of a cone is given by $V = \\frac{1}{3}\\pi r^2 h$. Substituting $r = 3$ inches and $h = 4$ inches, the volume is $V = \\frac{1}{3}\\pi (3)^2 (4) = 12\\pi = \\boxed{12\\pi}$ cubic inches.",
+        "knowledge_point": "Three-Dimensional Geometry",
+        "id": 42
+    },
+    {
+        "problem": "How many vertices does a triangular prism have?",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "A triangular prism has two triangular bases. Each triangle has 3 vertices, and there are two such bases, so there are $3 \\times 2 = \\boxed{6}$ vertices in total.",
+        "knowledge_point": "Three-Dimensional Geometry",
+        "id": 43
+    },
+    {
+        "problem": "If a sphere has a radius of 5 cm, what is its surface area?",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "The surface area of a sphere is given by $A = 4\\pi r^2$. For a radius of 5 cm, the surface area is $A = 4\\pi (5)^2 = 100\\pi = \\boxed{100\\pi}$ square centimeters.",
+        "knowledge_point": "Three-Dimensional Geometry",
+        "id": 44
+    },
+    {
+        "problem": "A cylinder has a height of 10 meters and a circular base with a radius of 3 meters. What is its surface area including the top and bottom?",
+        "level": "Level 1",
+        "type": "Geometry",
+        "solution": "The surface area of a cylinder includes the area of the two circular bases and the lateral surface area. The area of one base is $\\pi r^2 = \\pi (3)^2 = 9\\pi$ square meters. The lateral surface area is $2\\pi r h = 2\\pi (3) (10) = 60\\pi$ square meters. Total surface area is $2(9\\pi) + 60\\pi = 78\\pi = \\boxed{78\\pi}$ square meters.",
+        "knowledge_point": "Three-Dimensional Geometry",
+        "id": 45
+    },
+    {
+        "problem": "One side length is 1 pallet square paper folded along one of its diagonals. What is the maximum side length of the folded shape?",
+        "level": "Level 1",
+        "type": "Geometry",
+        "knowledge_point": "Transformative Geometry and Symmetry",
+        "id": 46,
+        "solution": "The folded shape exhibits reflectional symmetry, as the fold along the diagonal creates two congruent triangular halves that are mirror images of each other. Therefore the answer is $\\sqrt(1 + 1) = \\boxed{\\sqrt{2}}$"
+    },
+    {
+        "problem": "If a rectangle with length 4 and width 3 is rotated 90 degrees about its center, what is the diagonal length of the rotated rectangle?",
+        "level": "Level 1",
+        "type": "Geometry",
+        "knowledge_point": "Transformative Geometry and Symmetry",
+        "id": 47,
+        "solution": "After rotating it by 90 degrees around its center, it will result in a rectangle of the same shape. Therefore the answer is $\\sqrt(3*3 + 4*4) = \\boxed{5}$"
+    },
+    {
+        "problem": "What is the length of the shorter diagonal of a regular hexagon with side length 1?",
+        "level": "Level 1",
+        "type": "Geometry",
+        "knowledge_point": "Transformative Geometry and Symmetry",
+        "id": 48,
+        "solution": "The shorter diagonal of a regular hexagon with side length 1 is found by placing vertices on the coordinate plane and using the distance formula between two non-adjacent vertices, yielding $d = 2 * 1 * sin(60\\circ) = \\boxed{\\sqrt{3}}$."
+    },
+    {
+        "problem": "What is the minimum angle of rotation about its center that maps a regular pentagon onto itself?",
+        "level": "Level 1",
+        "type": "Geometry",
+        "knowledge_point": "Transformative Geometry and Symmetry",
+        "id": 49,
+        "solution": "The minimum angle of rotation that maps a regular pentagon onto itself is 72 degrees, as there are five segments, and rotating by 1/5 of 360 degrees (which is 72 degrees) will align the pentagon with its original position. \\(\\boxed{72^\\circ}\\)"
+    },
+    {
+        "problem": "A circle with radius 1 can be rotated by any angle around its center. What is the circumference of the rotated circle?",
+        "level": "Level 1",
+        "type": "Geometry",
+        "knowledge_point": "Transformative Geometry and Symmetry",
+        "id": 50,
+        "solution": "A circle rotated about its center by any angle will always look the same because every point on the circle maintains a constant distance from the center, thus preserving the shape and size. Therefore the answer is $\\boxed{2\\pi}$"
+    },
+    {
+        "problem": "A circle has a chord $AB$ that is 12 cm long. If the radius of the circle is 10 cm, what is the distance from the center of the circle to the chord $AB$?",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "Let $O$ be the center of the circle. Draw the radius $OA$ and $OB$. Since $OA = OB = 10$ cm, the triangle $OAB$ is isosceles. Drop a perpendicular $OM$ from $O$ to $AB$. The length of $AB$ is 12 cm, so $AM = MB = 6$ cm. By the Pythagorean theorem, $OM = \\sqrt{OA^2 - AM^2} = \\sqrt{10^2 - 6^2} = \\sqrt{64} = 8$ cm. Hence, the distance from the center of the circle to the chord $AB$ is $\\boxed{8}$ cm.",
+        "knowledge_point": "Circles and Their Properties",
+        "id": 51
+    },
+    {
+        "problem": "In circle $O$, chord $XY$ is parallel to the diameter $AB$. If $AB$ measures 16 cm, and the distance from $O$ to $XY$ is 6 cm, find the length of $XY$.",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "Since $XY$ is parallel to the diameter $AB$ and the radius of the circle is $8$ cm (half of diameter), using the Pythagorean theorem in triangle formed by radius, half of $AB$, and the distance from $O$ to $XY$ gives us the radius to the midpoint of $XY$ as $\\sqrt{8^2 - 6^2} = \\sqrt{28}$. Hence, $XY = 2\\sqrt{28}$, simplifying further, $XY = 4\\sqrt{7}$ cm. Therefore, the length of chord $XY$ is $\\boxed{4\\sqrt{7}}$ cm.",
+        "knowledge_point": "Circles and Their Properties",
+        "id": 52
+    },
+    {
+        "problem": "A circle is divided into two sectors with angles $150^\\circ$ and $210^\\circ$. If the radius of the circle is 7 cm, find the length of the arc corresponding to the $150^\\circ$ sector.",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "The length of the arc of a sector is given by the formula $L = \\theta \\cdot r$, where $\\theta$ is the angle in radians and $r$ is the radius. First convert $150^\\circ$ to radians: $150^\\circ = 150 \\cdot \\frac{\\pi}{180} = \\frac{5\\pi}{6}$ radians. Then the length of the arc is $\\frac{5\\pi}{6} \\cdot 7 = \\frac{35\\pi}{6}$ cm. Thus, the length of the arc is $\\boxed{\\frac{35\\pi}{6}}$ cm.",
+        "knowledge_point": "Circles and Their Properties",
+        "id": 53
+    },
+    {
+        "problem": "In a circle with radius 15 cm, a central angle measures $120^\\circ$. Find the area of the sector formed by this angle.",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "The area of a sector formed by a central angle $\\theta$ in a circle of radius $r$ is given by $A = \\frac{\\theta}{360^\\circ} \\cdot \\pi r^2$. Plugging in the given values, we have $A = \\frac{120^\\circ}{360^\\circ} \\cdot \\pi \\cdot (15^2) = \\frac{1}{3} \\cdot \\pi \\cdot 225 = 75\\pi$ square cm. Therefore, the area of the sector is $\\boxed{75\\pi}$ square cm.",
+        "knowledge_point": "Circles and Their Properties",
+        "id": 54
+    },
+    {
+        "problem": "In circle $O$, $\\overline{AB}$ and $\\overline{CD}$ are chords that intersect at point $P$ inside the circle. If $AP = 3$ cm, $PB = 9$ cm, $CP = 4$ cm, and $PD = 2$ cm, find the sum of lengths of $AB$ and $CD$.",
+        "level": "Level 2",
+        "type": "Geometry",
+        "knowledge_point": "Circles and Their Properties",
+        "id": 55,
+        "solution": "To find the lengths of the chords, add the segments created by point $P$. For chord $\\overline{AB}$: Since $AP = 3$ cm and $PB = 9$ cm, the length of $AB = AP + PB = 3 + 9 = 12$ cm. For chord $\\overline{CD}$: Since $CP = 4$ cm and $PD = 2$ cm, the length of $CD = CP + PD = 4 + 2 = 6$ cm. Therefore, the lengths of chords $AB$ and $CD$ are 12 cm and 6 cm respectively. So the sum of the two chords' length is $12 + 6 = \\boxed{18}$."
+    },
+    {
+        "problem": "Compute $\\cos 135^\\circ$.",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "Let $P$ be the point on the unit circle that is $135^\\circ$ counterclockwise from $(1,0)$. The angle $135^\\circ$ is in the second quadrant where cosine values are negative. $135^\\circ = 180^\\circ - 45^\\circ$, so $\\cos 135^\\circ = -\\cos 45^\\circ = -\\frac{\\sqrt{2}}{2}$. Thus, $\\cos 135^\\circ = \\boxed{-\\frac{\\sqrt{2}}{2}}$.",
+        "knowledge_point": "Fundamentals of Trigonometry",
+        "id": 56
+    },
+    {
+        "problem": "Compute $\\sin 150^\\circ$.",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "Let $P$ be the point on the unit circle that is $150^\\circ$ counterclockwise from $(1,0)$. The angle $150^\\circ$ is in the second quadrant where sine values are positive. $150^\\circ = 180^\\circ - 30^\\circ$, so $\\sin 150^\\circ = \\sin 30^\\circ = \\frac{1}{2}$. Thus, $\\sin 150^\\circ = \\boxed{\\frac{1}{2}}$.",
+        "knowledge_point": "Fundamentals of Trigonometry",
+        "id": 57
+    },
+    {
+        "problem": "Compute $\\tan 240^\\circ$.",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "Let $P$ be the point on the unit circle that is $240^\\circ$ counterclockwise from $(1,0)$. The angle $240^\\circ$ is in the third quadrant where tangent values are positive. $240^\\circ = 180^\\circ + 60^\\circ$, and since $\\tan (180^\\circ + \\theta) = \\tan \\theta$, we have $\\tan 240^\\circ = \\tan 60^\\circ = \\sqrt{3}$. Thus, $\\tan 240^\\circ = \\boxed{\\sqrt{3}}$.",
+        "knowledge_point": "Fundamentals of Trigonometry",
+        "id": 58
+    },
+    {
+        "problem": "Compute $\\sin 225^\\circ$.",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "Let $P$ be the point on the unit circle that is $225^\\circ$ counterclockwise from $(1,0)$. The angle $225^\\circ$ is in the third quadrant where sine values are negative. $225^\\circ = 180^\\circ + 45^\\circ$, so $\\sin 225^\\circ = -\\sin 45^\\circ = -\\frac{\\sqrt{2}}{2}$. Thus, $\\sin 225^\\circ = \\boxed{-\\frac{\\sqrt{2}}{2}}$.",
+        "knowledge_point": "Fundamentals of Trigonometry",
+        "id": 59
+    },
+    {
+        "problem": "Compute $\\cos 210^\\circ$.",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "Let $P$ be the point on the unit circle that is $210^\\circ$ counterclockwise from $(1,0)$. The angle $210^\\circ$ is in the third quadrant where cosine values are negative. $210^\\circ = 180^\\circ + 30^\\circ$, so $\\cos 210^\\circ = -\\cos 30^\\circ = -\\frac{\\sqrt{3}}{2}$. Thus, $\\cos 210^\\circ = \\boxed{-\\frac{\\sqrt{3}}{2}}$.",
+        "knowledge_point": "Fundamentals of Trigonometry",
+        "id": 60
+    },
+    {
+        "problem": "The vertices of the square are located at $A(1,1), B(4,1), C(4,4), D(1,4)$. If the square is rotated 90 degrees counterclockwise about the origin, what is the abscissa of the new position of point $C$?",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "When rotating a point $(x, y)$ 90 degrees counterclockwise about the origin, the new coordinates become $(-y, x)$. Thus, point $C(4, 4)$ becomes $C'(-4, 4)$. Therefore the answer is $\\boxed{-4}$.",
+        "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+        "id": 61
+    },
+    {
+        "problem": "The vertices of the rectangle are located at $P(1,3), Q(5,3), R(5,1), S(1,1)$. What is the ordinate of the midpoint of the diagonal $PR$?",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "The coordinates of $P$ are $(1,3)$ and $R$ are $(5,1)$. The midpoint of segment $PR$ can be found using the midpoint formula: $\\left(\\frac{1+5}{2}, \\frac{3+1}{2}\\right) = (3, 2)$. Therefore the answer is $\\boxed{2}$.",
+        "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+        "id": 62
+    },
+    {
+        "problem": "If point $K(6, 4)$ is reflected onto line $y=x$, what is the abscissa of the image of point $K$?",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "Reflecting a point $(x, y)$ over the line $y=x$ results in the point $(y, x)$. Thus, the reflection of point $K(6, 4)$ is at $K'(4, 6) = \\boxed{4}$.",
+        "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+        "id": 63
+    },
+    {
+        "problem": "Calculate the slope of the line passing through the points $(2, -1)$ and $(5, 2)$.",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "The slope $m$ of a line passing through the points $(x_1, y_1)$ and $(x_2, y_2)$ is given by $m = \\frac{y_2 - y_1}{x_2 - x_1}$. Substituting the given points, we get $m = \\frac{2 - (-1)}{5 - 2} = \\frac{3}{3} = \\boxed{1}$.",
+        "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+        "id": 64
+    },
+    {
+        "problem": "A hexagon is defined by the points $A(0,0), B(2,0), C(3,1), D(2,2), E(0,2), F(-1,1)$. Find the area of this hexagon.",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "The area of a polygon can be calculated using the shoelace theorem. For simplicity and due to space, the solution here uses a simplified method by breaking the hexagon into simpler shapes (triangles and trapezoids) whose areas are easier to calculate, then summing these areas. This results in an area of $\\boxed{6}$ square units.",
+        "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+        "id": 65
+    },
+    {
+        "problem": "The sides of a triangle measure 7 units, 10 units, and x units. What is the maximum possible integer value for x?",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "Using the triangle inequality, we have: 7 + 10 > x, 7 + x > 10, and 10 + x > 7. Simplifying, we find x < 17, x > 3, and x > -3, respectively. Combining these, the feasible range for x is 4 to 16. Therefore, the possible integer values for x are \\boxed{16}.",
+        "knowledge_point": "Geometric Inequalities and Optimization Problems",
+        "id": 66
+    },
+    {
+        "problem": "In a right triangle, one leg measures 5 units and the hypotenuse measures 13 units. What is the length of the other leg?",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "Let the length of the other leg be x units. By the Pythagorean theorem, 5^2 + x^2 = 13^2. Solving for x, we find x^2 = 169 - 25 = 144. Thus, x = \\sqrt{144} = \\boxed{12} units.",
+        "knowledge_point": "Geometric Inequalities and Optimization Problems",
+        "id": 67
+    },
+    {
+        "problem": "A rectangle has a length of 15 units and a width of w units. The diagonal is an integer number of units. What are the minimum possible integer value of w?",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "The diagonal d can be expressed by the equation d = \\sqrt{15^2 + w^2}. Since d is an integer, 15^2 + w^2 must be a perfect square. Testing values, we find possible values for w to be \\boxed{8} since these make 15^2 + w^2 equal to 289 and 306, which are perfect squares.",
+        "knowledge_point": "Geometric Inequalities and Optimization Problems",
+        "id": 68
+    },
+    {
+        "problem": "Two sides of a triangle are 4 units and 6 units. What is the maximum possible integer length for the third side?",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "According to the triangle inequality, the sum of any two sides must be greater than the third side. Therefore, 4 + 6 > x implies x < 10. Thus, the maximum possible integer length for the third side is \\boxed{9}.",
+        "knowledge_point": "Geometric Inequalities and Optimization Problems",
+        "id": 69
+    },
+    {
+        "problem": "Find the largest possible perimeter of a triangle with sides of lengths 5 units and 12 units, where the third side length is also an integer.",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "The triangle inequality states that the sum of the lengths of any two sides of a triangle must be greater than the length of the remaining side. So, 5 + 12 > x, 5 + x > 12, and 12 + x > 5. This simplifies to x < 17, x > 7, and x > -7. Thus, x can be a maximum of 16, and the largest possible perimeter is 5 + 12 + 16 = \\boxed{33} units.",
+        "knowledge_point": "Geometric Inequalities and Optimization Problems",
+        "id": 70
+    },
+    {
+        "problem": "A regular dodecagon has each of its exterior angles measuring $x$ degrees. Calculate the value of $x$.",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "The sum of exterior angles of any polygon is $360^\\circ$. Since all exterior angles of a regular dodecagon are equal, $12x = 360^\\circ$. Therefore, $x = \\boxed{30^\\circ}$.",
+        "knowledge_point": "Polygons and Their Properties",
+        "id": 71
+    },
+    {
+        "problem": "Find the sum of all interior angles of a 20-sided polygon.",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "The sum of the interior angles of a polygon with $n$ sides is given by $180(n-2)$. For a 20-sided polygon, this sum is $180(20-2) = 180 \\times 18 = \\boxed{3240^\\circ}$.",
+        "knowledge_point": "Polygons and Their Properties",
+        "id": 72
+    },
+    {
+        "problem": "A pentagon is divided into triangles by drawing diagonals from one vertex to all other non-adjacent vertices. How many triangles are formed?",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "From one vertex of the pentagon, diagonals can be drawn to three non-adjacent vertices, dividing the pentagon into three triangles. Therefore, the number of triangles formed is \\boxed{3}.",
+        "knowledge_point": "Polygons and Their Properties",
+        "id": 73
+    },
+    {
+        "problem": "What is the measure of each interior angle of a regular pentagon?",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "The sum of the interior angles of a pentagon is $180(5-2) = 540^\\circ$. Since it is a regular pentagon, each angle has the same measure, so each interior angle measures $\\frac{540^\\circ}{5} = \\boxed{108^\\circ}$.",
+        "knowledge_point": "Polygons and Their Properties",
+        "id": 74
+    },
+    {
+        "problem": "In a hexagon, two consecutive angles are right angles. If the other four angles are equal, what is the measure of each of these four angles?",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "The sum of interior angles of a hexagon is $180(6-2) = 720^\\circ$. With two right angles ($90^\\circ$ each), the sum of the remaining four angles is $720^\\circ - 180^\\circ = 540^\\circ$. Since these four angles are equal, each measures $\\frac{540^\\circ}{4} = \\boxed{135^\\circ}$.",
+        "knowledge_point": "Polygons and Their Properties",
+        "id": 75
+    },
+    {
+        "problem": "In right triangle $PQR$, if $\\angle Q = 90^\\circ$ and $\\sin R = \\frac{3}{5}$, what is the length of side $PR$ if side $QR = 5$ units?",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "Since $\\sin R = \\frac{3}{5}$ and $QR = 5$, $PR$ will be the hypotenuse. Since $\\sin R = 3/5$, then $\\cos R = 4/5$. From $\\cos R = = \\frac{QR}{PR}$, we have $\\frac{5}{PR} = \\frac{4}{5}$. Solving for $PR$, $PR = \\frac{5}{\\frac{4}{5}} = \\frac{5 \\times 5}{4} = \\frac{25}{4}$. Thus, $PR = \\boxed{\\frac{25}{4}}$ units.",
+        "knowledge_point": "Properties of Right Triangles",
+        "id": 76
+    },
+    {
+        "problem": "In a right triangle, the longer leg is 16 units and the hypotenuse is 20 units. What is the length of the shorter leg?",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "Let's denote the shorter leg as $x$. By the Pythagorean theorem, $x^2 + 16^2 = 20^2$. Therefore, $x^2 + 256 = 400$, leading to $x^2 = 400 - 256 = 144$. Thus, $x = \\sqrt{144} = \\boxed{12}$ units.",
+        "knowledge_point": "Properties of Right Triangles",
+        "id": 77
+    },
+    {
+        "problem": "Triangle $MNP$ is right-angled at $P$. If $MN = 15$ units and $MP = 9$ units, find the length of $NP$.",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "Since $\\triangle MNP$ is a right triangle with hypotenuse $MN = 15$ and one leg $MP = 9$, we apply the Pythagorean theorem: $MP^2 + NP^2 = MN^2$. Thus, $9^2 + NP^2 = 15^2$, leading to $81 + NP^2 = 225$. Solving for $NP$, $NP^2 = 225 - 81 = 144$, hence $NP = \\sqrt{144} = \\boxed{12}$ units.",
+        "knowledge_point": "Properties of Right Triangles",
+        "id": 78
+    },
+    {
+        "problem": "A right triangle has legs measuring $7$ units and $24$ units. What is the measure of the hypotenuse?",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "Using the Pythagorean theorem, we find the hypotenuse $h$ as follows: $h^2 = 7^2 + 24^2 = 49 + 576 = 625$. Therefore, $h = \\sqrt{625} = \\boxed{25}$ units.",
+        "knowledge_point": "Properties of Right Triangles",
+        "id": 79
+    },
+    {
+        "problem": "In right triangle $ABC$, $\\angle B = 90^\\circ$, and $AB = 8$ units. If $\\cos C = \\frac{1}{\\sqrt{5}}$, find $BC$.",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "Since $\\cos C = \\frac{1}{\\sqrt{5}}$, we can calculate that $\\tan C = \\frac{1}{2}$. Using the definition of tan, $\\tan C = \\frac{AB}{BC} = \\frac{8}{BC} = \\frac{1}{2}$. Solving for $BC$, $BC = 8 \\times 2 = 16$. Therefore, $BC = \\boxed{16}$ units.",
+        "knowledge_point": "Properties of Right Triangles",
+        "id": 80
+    },
+    {
+        "problem": "$ABCD$ is a parallelogram. If the measure of angle $A$ is $70^\\circ$, what is the measure of angle $B$?",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "In a parallelogram, opposite angles are equal and consecutive angles are supplementary. Therefore, the measure of angle $B$, which is consecutive to angle $A$, is $180^\\circ - 70^\\circ = \\boxed{110^\\circ}$.",
+        "knowledge_point": "Quadrilateral Features and Classifications",
+        "id": 81
+    },
+    {
+        "problem": "A rhombus has diagonals of lengths 10 and 24. What is the area of the rhombus?",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "The area of a rhombus is given by half the product of the lengths of its diagonals. Therefore, the area is $\\frac{1}{2} \\times 10 \\times 24 = \\boxed{120}$ square units.",
+        "knowledge_point": "Quadrilateral Features and Classifications",
+        "id": 82
+    },
+    {
+        "problem": "In rectangle $ABCD$, $AB=8$ cm and $BC=6$ cm. What is the length of diagonal $AC$?",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "The diagonal of a rectangle can be found using the Pythagorean theorem. So, $AC = \\sqrt{AB^2 + BC^2} = \\sqrt{8^2 + 6^2} = \\sqrt{64 + 36} = \\sqrt{100} = \\boxed{10}$ cm.",
+        "knowledge_point": "Quadrilateral Features and Classifications",
+        "id": 83
+    },
+    {
+        "problem": "If a kite has diagonals of lengths 15 cm and 20 cm, what is the area of the kite?",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "The area of a kite is half the product of the lengths of its diagonals. Therefore, the area is $\\frac{1}{2} \\times 15 \\times 20 = \\boxed{150}$ square centimeters.",
+        "knowledge_point": "Quadrilateral Features and Classifications",
+        "id": 84
+    },
+    {
+        "problem": "What is the perimeter of a square whose area is $64$ square meters?",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "The side length of the square can be found by taking the square root of the area, $s = \\sqrt{64} = 8$ meters. The perimeter of a square is $4$ times the side length, so the perimeter is $4 \\times 8 = \\boxed{32}$ meters.",
+        "knowledge_point": "Quadrilateral Features and Classifications",
+        "id": 85
+    },
+    {
+        "problem": "In right triangle ABC with the right angle at C , AC = 6 units, and BC = 8 units. Point D is a point on the hypotenuse AB such that CD is perpendicular to AB . Find the length of CD .",
+        "level": "Level 2",
+        "type": "Geometry",
+        "knowledge_point": "Similar Triangles and Proportions",
+        "id": 86,
+        "solution": "Since CD is perpendicular to AB, triangles ADC, CDB, and ABC are similar. Using the properties of similar triangles, we find that CD = \\boxed{\\frac{24}{5}}."
+    },
+    {
+        "problem": "In a rectangle ABCD, AB = 8 units and BC = 6 units. Point E is on AB such that AE = 2 units. Find the ratio of the area of triangle AEC to the area of rectangle ABCD.",
+        "level": "Level 2",
+        "type": "Geometry",
+        "knowledge_point": "Similar Triangles and Proportions",
+        "id": 87,
+        "solution": "Since E is on AB, triangle AEC and rectangle ABCD share the height from E to DC. The base of triangle AEC is EC = AB - AE = 8 - 2 = 6 units. The area of triangle AEC is $0.5 \\times 2 \\times 6 = 6$ sq units. The area of rectangle ABCD is $8 \\times 6 = 48$ sq units. The ratio of the areas is $6 / 48 = 1 / 8$. \\(\\boxed{\\frac{1}{8}}\\)"
+    },
+    {
+        "problem": "Two similar triangles have perimeters of 30 cm and 45 cm. If the longest side of the smaller triangle is 12 cm, find the length of the corresponding longest side of the larger triangle.",
+        "level": "Level 2",
+        "type": "Geometry",
+        "knowledge_point": "Similar Triangles and Proportions",
+        "id": 88,
+        "solution": "The ratio of the perimeters of the triangles is $45 / 30 = 1.5$. Since the triangles are similar, the sides are proportional. Thus, the longest side of the larger triangle is $1.5 \\times 12 = 18$ cm. \\(\\boxed{18}\\)"
+    },
+    {
+        "problem": "In triangle ABC, AB is twice as long as BC. If the length of BC is 7 cm, and triangle ABC is similar to triangle DEF with DE being the longest side and 28 cm long, find the length of EF.",
+        "level": "Level 2",
+        "type": "Geometry",
+        "knowledge_point": "Similar Triangles and Proportions",
+        "id": 89,
+        "solution": "Since triangle ABC is similar to triangle DEF, and AB is twice BC, then DE is twice EF. Given DE is 28 cm, EF must be half of 28 cm, which is 14 cm. \\(\\boxed{14}\\)"
+    },
+    {
+        "problem": "In the figure, triangle ABC is similar to triangle DEF. If the sides of triangle ABC are 3, 4, and 5, and the shortest side of triangle DEF is 9, find the length of the longest side of triangle DEF.",
+        "level": "Level 2",
+        "type": "Geometry",
+        "knowledge_point": "Similar Triangles and Proportions",
+        "id": 90,
+        "solution": "Since the triangles are similar and the sides of triangle ABC are in the ratio 3:4:5, the shortest side of DEF corresponds to the shortest side of ABC, which is 3. The ratio of similarity is $\\frac{9}{3} = 3$. Therefore, the longest side of DEF, corresponding to the longest side of ABC (which is 5), is $5 \\times 3 = 15$. \\(\\boxed{15}\\)"
+    },
+    {
+        "problem": "A right circular cone has a height of 9 cm and a base radius of 3 cm. Calculate the volume of the cone.",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "The volume $V$ of a right circular cone is given by the formula $V = \\frac{1}{3} \\pi r^2 h$ where $r$ is the radius and $h$ is the height. Plugging in the values, we get $V = \\frac{1}{3} \\pi (3)^2 (9) = 27\\pi$. Hence, the volume of the cone is $\\boxed{27\\pi}$ cubic cm.",
+        "knowledge_point": "Three-Dimensional Geometry",
+        "id": 91
+    },
+    {
+        "problem": "A prism has a triangular base with sides 3 cm, 4 cm, and 5 cm and a height of 10 cm. What is the volume of the prism?",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "First, calculate the area of the triangular base using Heron's formula. The semi-perimeter $s$ is $(3+4+5)/2 = 6$ cm. The area $A$ is $\\sqrt{6(6-3)(6-4)(6-5)} = 6$ square cm. The volume of the prism is the area of the base times the height: $6 \\times 10 = \\boxed{60}$ cubic cm.",
+        "knowledge_point": "Three-Dimensional Geometry",
+        "id": 92
+    },
+    {
+        "problem": "A sphere has a radius of 6 cm. Calculate the volume of the sphere.",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "The volume $V$ by $V = \\frac{4}{3}\\pi r^3$. For $r = 6$ cm, the volume is $\\frac{4}{3}\\pi(6^3) = 288\\pi$ cubic cm. Thus, the volume is $\\boxed{288\\pi}$ cubic cm.",
+        "knowledge_point": "Three-Dimensional Geometry",
+        "id": 93
+    },
+    {
+        "problem": "Calculate the volume of a rectangular prism with length 5 cm, width 3 cm, and height 7 cm.",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "The volume $V$ of a rectangular prism is given by $V = l \\times w \\times h$ where $l$, $w$, and $h$ are the length, width, and height respectively. Plugging in the given values, we have $V = 5 \\times 3 \\times 7 = \\boxed{105}$ cubic cm.",
+        "knowledge_point": "Three-Dimensional Geometry",
+        "id": 94
+    },
+    {
+        "problem": "A cylindrical drum has a diameter of 1.2 meters and holds $1692\\pi$ cubic meters of oil. What is the height of the drum?",
+        "level": "Level 2",
+        "type": "Geometry",
+        "solution": "Let the height of the drum be $h$ meters. The radius $r$ of the drum is half the diameter, so $r = 0.6$ meters. The volume $V$ of a cylinder is given by $V = \\pi r^2 h$. We have $1692\\pi = \\pi (0.6)^2 h$. Solving for $h$, we get $h = \\frac{1692}{0.36} = \\boxed{4700}$ meters.",
+        "knowledge_point": "Three-Dimensional Geometry",
+        "id": 95
+    },
+    {
+        "problem": "A shape formed by four vertices at (0,0), (-1,1), (0,2), and (1,1) (shaped like a bracket) is reflected over the line \\( y = x \\). After the reflection, what is the horizontal coordinate of the center of the shape?",
+        "level": "Level 2",
+        "type": "Geometry",
+        "knowledge_point": "Transformative Geometry and Symmetry",
+        "id": 96,
+        "solution": "Reflecting over the line \\( y = x \\) swaps the \\( x \\) and \\( y \\) coordinates of each point. Calculate the new coordinates and find the center's horizontal coordinate. Therefore the answer is $\\boxed{1}$"
+    },
+    {
+        "problem": "A rectangle with vertices at (0,0), (6,0), (6,4), and (0,4) is rotated 90 degrees counterclockwise about the origin. What is the abscissa of the center of the new rectangle?",
+        "level": "Level 2",
+        "type": "Geometry",
+        "knowledge_point": "Transformative Geometry and Symmetry",
+        "id": 97,
+        "solution": "After rotating 90 degrees counterclockwise, the vertex (0,0) remains at (0,0), (6,0) moves to (0,6), (6,4) moves to (-4,6), and (0,4) moves to (-4,0). So the new center is (-2, 3). Therefore the answer is \\(\\boxed{-2}\\)"
+    },
+    {
+        "problem": "Point (2,-5) is rotated 180 degrees around the origin. What is the ordinate of the new point?",
+        "level": "Level 2",
+        "type": "Geometry",
+        "knowledge_point": "Transformative Geometry and Symmetry",
+        "id": 98,
+        "solution": "Rotating the point (2, -5) 180 degrees around the origin, its coordinates change to $\\boxed{(-2, 5)}$."
+    },
+    {
+        "problem": "The triangle with vertices at (1,1), (4,1), and (1,3) is translated 3 units to the right and 2 units up. What is the abscissa of the vertex of the new triangle furthest from the origin?",
+        "level": "Level 2",
+        "type": "Geometry",
+        "knowledge_point": "Transformative Geometry and Symmetry",
+        "id": 99,
+        "solution": "After translating the vertices, (1,1) moves to (4,3), (4,1) moves to (7,3), and (1,3) moves to (4,5). So point (7, 3) is the furthest point from the origin. Therefore, the answer is $\\boxed{7}$."
+    },
+    {
+        "problem": "The shape formed by the points (0,0), (2,0), (2,2) and (0,2) is reflected on the line y=x. What is the abscissa of the point furthest from the origin of the reflected shape?",
+        "level": "Level 2",
+        "type": "Geometry",
+        "knowledge_point": "Transformative Geometry and Symmetry",
+        "id": 100,
+        "solution": "Reflecting the points over the line y=x, the coordinates transform as follows: (0,0) to (0,0), (2,0) to (0,2), (2,2) to (2,2), (0,2) to (2,0). So (2, 2) is the furthest point. So the answer is $\\boxed{2}$."
+    },
+    {
+        "problem": "A circle is centered at $O$ and has a radius of 10 units. Point $P, Q$ is on the circle. If $\\angle POQ = 120^\\circ$, what is the length of the arc $PQ$?",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "Since $\\angle POQ = 120^\\circ$, the arc $PQ$ is $120^\\circ$ out of the $360^\\circ$ of the full circle. The circumference of the circle is $2\\pi(10) = 20\\pi$. Therefore, the length of the arc $PQ$ is $\\frac{120}{360} \\times 20\\pi = \\boxed{\\frac{20\\pi}{3}}$.",
+        "knowledge_point": "Circles and Their Properties",
+        "id": 101
+    },
+    {
+        "problem": "In a circle centered at $O$ with radius 5, points $A$ and $B$ are on the circle such that $\\angle AOB = 90^\\circ$. What is the length of chord $\\overline{AB}$?",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "Since $\\angle AOB = 90^\\circ$, triangle $AOB$ is a right triangle. Using the Pythagorean theorem, $AB$ being the hypotenuse equals $\\sqrt{5^2 + 5^2} = \\sqrt{50} = 5\\sqrt{2}$. Thus, the length of chord $\\overline{AB}$ is $\\boxed{5\\sqrt{2}}$.",
+        "knowledge_point": "Circles and Their Properties",
+        "id": 102
+    },
+    {
+        "problem": "A circle has a radius of 6 units. A chord in the circle is 4 units away from the center of the circle. What is the length of the chord?",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "Let the radius of the circle be $r = 6$ units, and the perpendicular distance from the center to the chord be $d = 4$ units. By the Pythagorean theorem in the right triangle formed by the radius, the distance $d$, and half of the chord (say $x$), we have $x^2 + d^2 = r^2$. So, $x^2 = r^2 - d^2 = 6^2 - 4^2 = 36 - 16 = 20$. Thus, $x = \\sqrt{20} = 2\\sqrt{5}$. The length of the chord is $2x = 4\\sqrt{5}$, so the answer is $\\boxed{4\\sqrt{5}}$.",
+        "knowledge_point": "Circles and Their Properties",
+        "id": 103
+    },
+    {
+        "problem": "In a circle of radius 1 with center $O$, two radii $\\overline{OA}$ and $\\overline{OB}$ form an angle of $30^\\circ$. What is the area of the sector formed by $\\overline{OA}$ and $\\overline{OB}$?",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "The area of the sector formed by an angle of $30^\\circ$ in a circle of radius $r$ is given by $\\frac{30}{360} \\times \\pi r^2 = \\frac{1}{12} \\pi r^2$. Since no radius value is given, the area of the sector in terms of $r$ is $\\boxed{\\frac{1}{12} \\pi}$.",
+        "knowledge_point": "Circles and Their Properties",
+        "id": 104
+    },
+    {
+        "problem": "A circle is divided into three equal arcs by points $A$, $B$, and $C$. If the radius of the circle is 7 units, find the length of each arc.",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "Since the circle is divided into three equal parts, each arc subtends an angle of $120^\\circ$. The circumference of the circle is $2\\pi(7) = 14\\pi$. Therefore, each arc is $\\frac{120}{360} \\times 14\\pi = \\frac{1}{3} \\times 14\\pi = \\boxed{\\frac{14\\pi}{3}}$.",
+        "knowledge_point": "Circles and Their Properties",
+        "id": 105
+    },
+    {
+        "problem": "Compute $\\sin 270^\\circ$.",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "The point on the unit circle corresponding to $270^\\circ$ is directly downward along the negative y-axis. The coordinates of this point are $(0, -1)$. Therefore, $\\sin 270^\\circ = \\boxed{-1}$.",
+        "knowledge_point": "Fundamentals of Trigonometry",
+        "id": 106
+    },
+    {
+        "problem": "Compute $\\cos 150^\\circ$.",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "The angle $150^\\circ$ lies in the second quadrant where cosine is negative. It can be thought of as $180^\\circ - 30^\\circ$, making it the negative cosine of $30^\\circ$. Thus, $\\cos 150^\\circ = -\\cos 30^\\circ = -\\left(\\frac{\\sqrt{3}}{2}\\right) = \\boxed{-\\frac{\\sqrt{3}}{2}}$.",
+        "knowledge_point": "Fundamentals of Trigonometry",
+        "id": 107
+    },
+    {
+        "problem": "Compute $\\tan 210^\\circ$.",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "Angle $210^\\circ$ is equivalent to $180^\\circ + 30^\\circ$. The tangent of an angle in the third quadrant is positive, and $\\tan 210^\\circ = \\tan (180^\\circ + 30^\\circ) = \\tan 30^\\circ$. Thus, $\\tan 210^\\circ = \\frac{\\sin 30^\\circ}{\\cos 30^\\circ} = \\frac{1/2}{\\sqrt{3}/2} = \\boxed{\\frac{1}{\\sqrt{3}}} = \\frac{\\sqrt{3}}{3}$.",
+        "knowledge_point": "Fundamentals of Trigonometry",
+        "id": 108
+    },
+    {
+        "problem": "Compute $\\cos 480^\\circ$.",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "Rotating $480^\\circ$ on the unit circle is the same as rotating $480^\\circ - 360^\\circ = 120^\\circ$. The cosine of $120^\\circ$ is negative and is equivalent to the cosine of $180^\\circ - 60^\\circ$. Thus, $\\cos 480^\\circ = \\cos 120^\\circ = -\\cos 60^\\circ = -\\frac{1}{2} = \\boxed{-\\frac{1}{2}}$.",
+        "knowledge_point": "Fundamentals of Trigonometry",
+        "id": 109
+    },
+    {
+        "problem": "Find the angle $\\theta$ in degrees such that $\\tan \\theta = -\\sqrt{3}$ and $\\theta$ is between $270^\\circ$ and $360^\\circ$.",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "The tangent of $-\\sqrt{3}$ corresponds to an angle of $120^\\circ$. Since we are looking between $270^\\circ$ and $360^\\circ$, this must be the fourth quadrant reflection. Thus, $\\theta = 120^\\circ + 180^\\circ = \\boxed{300^\\circ}$.",
+        "knowledge_point": "Fundamentals of Trigonometry",
+        "id": 110
+    },
+    {
+        "problem": "In triangle ABC, point A is at (1, 2), point B is at (5, 5), and point C is at (7, 2). Find the abscissa coordinate of the center of mass of triangle ABC.",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "The formula for the abscissa of the center of gravity of a triangle is the average of the abscissa of the three points. Thus the coordinates of the centroid are $(1 + 5 + 7) / 3 = \\boxed{\\frac{13}{3}}$.",
+        "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+        "id": 111
+    },
+    {
+        "problem": "If the line segment from point (2, -1) to point (8, 3) is extended by four times its original length, what is the ordinate of the new endpoint?",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "Ordinate of new endpoint C is $y = y0 + 5*(y1 - y0) = -1 + 5*(3 - (-1))) = \\boxed{19}$",
+        "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+        "id": 112
+    },
+    {
+        "problem": "The coordinates of the two points P and Q are (1, 2) and (5, 6) respectively. If point R is the reflection of point Q on point P, what is the abscissa of point R?",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "To find the reflection of point Q(5, 6) over point P(1, 2), we use the midpoint formula \\( P_x = \\frac{Q_x + R_x}{2} \\); solving for \\( R_x \\) gives \\( R_x = 2P_x - Q_x = 2 \\times 1 - 5 = -3 \\). Therefore, the abscissa of point R is \\boxed{-3}.",
+        "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+        "id": 113
+    },
+    {
+        "problem": "Given triangle ABC with vertices A(-3, 2), B(4, 5), and C(1, -6), find the slope of the equation of the line that is the perpendicular bisector of side BC.",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "To find the slope of the perpendicular bisector of side BC with points B(4,5) and C(1,-6), calculate the slope of BC: \\( m_{BC} = \\frac{y_C - y_B}{x_C - x_B} = \\frac{-6 - 5}{1 - 4} = \\frac{-11}{-3} = \\frac{11}{3} \\); the perpendicular bisector's slope is the negative reciprocal, so \\( m = \\boxed{-\\frac{3}{11}} \\).",
+        "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+        "id": 114
+    },
+    {
+        "problem": "Calculate the area of triangle with vertices at points A(0, 0), B(4, 0), and C(0, 3) using the determinant method.",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "Using the determinant formula for the area of a triangle, A = 1/2 * |x1(y2-y3) + x2(y3-y1) + x3(y1-y2)| = 1/2 * |0(0-3) + 4(3-0) + 0(0-0)| = 1/2 * |0 + 12 + 0| = 1/2 * 12 = 6. Therefore, the area is $\\boxed{6}$ square units.",
+        "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+        "id": 115
+    },
+    {
+        "problem": "What is the smallest possible perimeter of a triangle with integer side lengths if one side is 7 units?",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "Let the sides of the triangle be 7, x, and y with x and y being integers. According to the triangle inequality, each side must be less than the sum of the other two. Therefore, 7 < x + y, x < 7 + y, and y < 7 + x. By minimizing x and y while satisfying these conditions, the smallest values we can choose for x and y are 7 and 1 respectively. This gives us the triangle with sides 7, 7, and 1. The perimeter is 7 + 7 + 1 = \\boxed{15}.",
+        "knowledge_point": "Geometric Inequalities and Optimization Problems",
+        "id": 116
+    },
+    {
+        "problem": "Find the maximum area of a rectangle that can be inscribed in a right triangle with legs of lengths 6 units and 8 units.",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "The maximum area of a rectangle inscribed in a right triangle is when the vertices of the rectangle touch the midpoints of the hypotenuse. The area of such a rectangle is half the area of the triangle. The area of the triangle is 1/2 * 6 * 8 = 24 square units. Therefore, the maximum area of the rectangle is 24/2 = \\boxed{12} square units.",
+        "knowledge_point": "Geometric Inequalities and Optimization Problems",
+        "id": 117
+    },
+    {
+        "problem": "In a triangle with sides of lengths 10, 24, and $x$, determine the minimum possible value for $x$ if $x$ is an integer.",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "Using the triangle inequality, the sum of any two sides must be greater than the third side. Therefore, we have 10 + 24 > x, 10 + x > 24, and 24 + x > 10. Solving these, we find x < 34, x > 14, and x > -14. Since x must be positive, the valid range for x is from 15 to 33. Thus, minimum value of x is \\boxed{15}.",
+        "knowledge_point": "Geometric Inequalities and Optimization Problems",
+        "id": 118
+    },
+    {
+        "problem": "Calculate the largest area of a triangle possible given one side is fixed at 5 units and the sum of the other two sides is fixed at 10 units. Give the answer in decimal and round to 2 decimal places",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "The area of a triangle is maximized when it is isosceles. Given one side is 5 units, and the sum of the other two sides is 10, the other two sides must each be 5 units to maximize the area. This forms an equilateral triangle with all sides 5. The area A of an equilateral triangle with side length s is given by A = (s^2 * sqrt(3))/4. Substituting s = 5, the area is (25 * sqrt(3))/4 = \\boxed{10.83} square units.",
+        "knowledge_point": "Geometric Inequalities and Optimization Problems",
+        "id": 119
+    },
+    {
+        "problem": "Find the maximum value of the side length of a square that can fit inside a circle of radius 10 units. Give the answer in decimal and round to 2 decimal places",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "The diagonal of the square is the diameter of the circle when the square is maximally inscribed. The diameter of the circle is 2 * radius = 20 units. Since the diagonal of the square equals the diameter of the circle, using the relation between the side length s and diagonal d of a square (d = s * sqrt(2)), we find s = d / sqrt(2) = 20 / sqrt(2) = 10 * sqrt(2) = \\boxed{14.14} units.",
+        "knowledge_point": "Geometric Inequalities and Optimization Problems",
+        "id": 120
+    },
+    {
+        "problem": "A rectangle is divided into four identical squares. If the area of each square is 16 square units, what is the perimeter of the original rectangle?",
+        "level": "Level 3",
+        "type": "Geometry",
+        "knowledge_point": "Polygons and Their Properties",
+        "id": 121,
+        "solution": "Each square has an area of 16, so each side length of the square is 4 units (since $4 \\times 4 = 16$). The rectangle is made up of two squares on each side, making the length 8 units and the width 4 units. The perimeter is $2 \\times (\\text{length} + \\text{width}) = 2 \\times (8+4) = 24$ units. \\(\\boxed{24}\\)"
+    },
+    {
+        "problem": "In a regular pentagon, each side is 10 units long. What is the length of the diagonal of the pentagon? Give the answer in decimal and round to 2 decimal places",
+        "level": "Level 3",
+        "type": "Geometry",
+        "knowledge_point": "Polygons and Their Properties",
+        "id": 122,
+        "solution": "Using the formula for the length of a diagonal in a regular pentagon, which is $d = s(1+\\sqrt{5})/2$, where $s$ is the side length. Substituting $s = 10$, we get $d = 10 \\times (1+\\sqrt{5})/2 = 10 \\times 1.618 = 16.18$ units. \\(\\boxed{16.18}\\)"
+    },
+    {
+        "problem": "A parallelogram has sides of lengths 15 units and 20 units, with one angle measuring 60 degrees. Calculate the area of the parallelogram. Give the answer in decimal and round to 2 decimal places",
+        "level": "Level 3",
+        "type": "Geometry",
+        "knowledge_point": "Polygons and Their Properties",
+        "id": 123,
+        "solution": "The area of the parallelogram is given by the formula: Area = $ab \\times \\sin(\\theta)$, where $a$ and $b$ are side lengths and $\\theta$ is the angle between them. Substituting the given values, Area = $15 \\times 20 \\times \\sin(60) = 300 \\times 0.866 = 259.81$ square units. \\(\\boxed{259.81}\\)"
+    },
+    {
+        "problem": "In an equilateral triangle, each side measures 12 units. A line segment is drawn parallel to one side, touching the midpoint of the other two sides. What is the length of this line segment?",
+        "level": "Level 3",
+        "type": "Geometry",
+        "knowledge_point": "Polygons and Their Properties",
+        "id": 124,
+        "solution": "The line segment divides the equilateral triangle into a smaller, similar triangle and a trapezoid. The smaller triangle's sides are half the length of the original triangle's sides, thus the segment is also half of 12 units, which is 6 units. \\(\\boxed{6}\\)"
+    },
+    {
+        "problem": "Calculate the area of a rhombus if its diagonals are 10 units and 24 units long.",
+        "level": "Level 3",
+        "type": "Geometry",
+        "knowledge_point": "Polygons and Their Properties",
+        "id": 125,
+        "solution": "The area of a rhombus can be calculated as half the product of its diagonals. Area = \\frac{1}{2} \\times 10 \\times 24 = 120 \\text{ square units}. \\(\\boxed{120}\\)"
+    },
+    {
+        "problem": "In triangle $\\triangle XYZ$, $\\angle X = 90^\\circ$, and $XZ = 5$. If $XY = 3XZ$, what is the length of $YZ$?",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "Since $XY = 3XZ$ and $XZ = 5$, then $XY = 15$. Then use the Pythagorean theorem. $YZ^2 = XZ^2 + XY^2$, so $YZ^2 = 5^2 + 15^2$. Solving for $YZ$, we get $YZ = \\sqrt{225 + 25} = \\sqrt{250} = 5\\sqrt{10}$. Therefore, $YZ = \\boxed{5\\sqrt{10}}$ units.",
+        "knowledge_point": "Properties of Right Triangles",
+        "id": 126
+    },
+    {
+        "problem": "Right triangle $\\triangle ABC$ has $AC$ as its hypotenuse and lengths $AB = 7$ and $BC = 24$. Find the radius of the circle circumscribing $\\triangle ABC$.",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "The hypotenuse $AC$ can be found using Pythagorean theorem: $AC = \\sqrt{AB^2 + BC^2} = \\sqrt{7^2 + 24^2} = \\sqrt{625} = 25$. The radius $R$ of the circumscribed circle around a right triangle is half the length of the hypotenuse, so $R = \\frac{AC}{2} = \\boxed{\\frac{25}{2}}$ units.",
+        "knowledge_point": "Properties of Right Triangles",
+        "id": 127
+    },
+    {
+        "problem": "In isosceles right triangle $\\triangle DEF$, $DE = DF$. If $EF = 8\\sqrt{2}$, what is the area of $\\triangle DEF$?",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "Since $\\triangle DEF$ is an isosceles right triangle, $DE = DF = EF/\\sqrt{2} = 8\\sqrt{2}/\\sqrt{2} = 8$. The area of $\\triangle DEF$ is $\\frac{1}{2} DE \\cdot DF = \\frac{1}{2} \\cdot 8 \\cdot 8 = 32$. Therefore, the area of $\\triangle DEF$ is $\\boxed{32}$ square units.",
+        "knowledge_point": "Properties of Right Triangles",
+        "id": 128
+    },
+    {
+        "problem": "The hypotenuse of a right triangle is 13 units long, and one of the legs is 12 units long. Find the length of the other leg.",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "Let the length of the other leg be $x$. By the Pythagorean theorem, $12^2 + x^2 = 13^2$. Solving for $x$, we get $144 + x^2 = 169$, so $x^2 = 25$. Hence, $x = 5$. The length of the other leg is $\\boxed{5}$ units.",
+        "knowledge_point": "Properties of Right Triangles",
+        "id": 129
+    },
+    {
+        "problem": "In a right triangle, the lengths of the legs are $a$ and $a + 4$. If the hypotenuse is $a + 5$, find the value of $a$.",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "Applying the Pythagorean theorem, we have $a^2 + (a+4)^2 = (a+5)^2$. Expanding and simplifying, $a^2 + a^2 + 8a + 16 = a^2 + 10a + 25$, thus $a^2 - 2a - 9 = 0$. Apply the root-finding formula, and since $a$ must be positive, $a = \\frac{2 + \\sqrt{40}}{2} = 1 + \\sqrt{10}$. Thus, the value of $a$ is $\\boxed{1 + \\sqrt{10}}$.",
+        "knowledge_point": "Properties of Right Triangles",
+        "id": 130
+    },
+    {
+        "problem": "A rhombus has a perimeter of 40 units and one of its diagonals measuring 12 units. What is the length of the other diagonal?",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "Let the sides of the rhombus be $s$, so $s=10$. Using the formula for the rhombus diagonals, where $d_1$ and $d_2$ are the diagonals: $4s^2 = d_1^2 + d_2^2$. Here $d_1 = 12$, so $400 = 144 + d_2^2$. Solving for $d_2$, we get $d_2 = \\sqrt{400 - 144} = \\sqrt{256} = 16$. Thus, the length of the other diagonal is $\\boxed{16}$ units.",
+        "knowledge_point": "Quadrilateral Features and Classifications",
+        "id": 131
+    },
+    {
+        "problem": "A square has a side length of 14 units. What is the length of the diagonal of the square?",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "The diagonal of a square can be calculated using the formula $d = s\\sqrt{2}$, where $s$ is the side length of the square. Substituting the given side length, $d = 14\\sqrt{2}$. Hence, the diagonal length is $\\boxed{14\\sqrt{2}}$ units.",
+        "knowledge_point": "Quadrilateral Features and Classifications",
+        "id": 132
+    },
+    {
+        "problem": "A kite has diagonals of lengths 18 cm and 24 cm. What is the area of the kite?",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "The area of a kite is given by the formula $A = \\frac{1}{2} d_1 d_2$, where $d_1$ and $d_2$ are the lengths of the diagonals. Substituting the given values, $A = \\frac{1}{2} \\times 18 \\times 24 = \\frac{1}{2} \\times 432 = 216$. Thus, the area of the kite is $\\boxed{216}$.",
+        "knowledge_point": "Quadrilateral Features and Classifications",
+        "id": 133
+    },
+    {
+        "problem": "A parallelogram has a base of 10 units and height of 7 units. If one of the angles is $60^\\circ$, find the length of the other side. Give the answer in decimal and round to 2 decimal places",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "In a parallelogram, the area can also be calculated as $A = ab\\sin(\\theta)$ where $a$ and $b$ are the sides and $\\theta$ is the included angle. Here, $A = 70$. Using the area formula $A = ab\\sin(60^\\circ) = ab \\times \\frac{\\sqrt{3}}{2} = 70$, we solve for $b$ to get $b = \\frac{140}{10\\sqrt{3}} = \\frac{14}{\\sqrt{3}} \\approx 8.08$. Hence, the other side is approximately $\\boxed{8.08}$ units.",
+        "knowledge_point": "Quadrilateral Features and Classifications",
+        "id": 134
+    },
+    {
+        "problem": "If a trapezoid has bases of 10 units and 14 units, and the height is 5 units, find the area of the trapezoid.",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "The area $A$ of a trapezoid can be found using the formula $A = \\frac{1}{2}(b_1 + b_2)h$ where $b_1$ and $b_2$ are the lengths of the bases, and $h$ is the height. Substituting the given values, $A = \\frac{1}{2} (10 + 14) \\times 5 = \\frac{1}{2} \\times 24 \\times 5 = 60$. Therefore, the area of the trapezoid is $\\boxed{60}$ square units.",
+        "knowledge_point": "Quadrilateral Features and Classifications",
+        "id": 135
+    },
+    {
+        "problem": "Triangle $ABC$ is similar to triangle $DEF$, where the lengths of sides $AB$ and $DE$ are 6 cm and 15 cm respectively. If the area of triangle $DEF$ is 45 cm^2, what is the area of triangle $ABC$? Express your answer as a decimal.",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "Since the triangles are similar, the ratio of the areas of the triangles is the square of the ratio of their corresponding sides. So, the ratio of the area of triangle $ABC$ to triangle $DEF$ is $(\\frac{6}{15})^2 = \\frac{36}{225} = \\frac{4}{25}. The area of triangle $ABC$ is $\\frac{4}{25} \\times 45 = \\boxed{7.2} \\text{ cm}^2$.",
+        "knowledge_point": "Similar Triangles and Proportions",
+        "id": 136
+    },
+    {
+        "problem": "In the figure, triangle $PQR$ is similar to triangle $STU$ with a scale factor of 3:5. If the perimeter of triangle $STU$ is 50 cm, what is the perimeter of triangle $PQR$?",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "The perimeter of triangle $PQR$ is to triangle $STU$ as 3 is to 5. Hence, the perimeter of $PQR = \\frac{3}{5} \\times 50 = \\boxed{30} \\text{ cm}.$",
+        "knowledge_point": "Similar Triangles and Proportions",
+        "id": 137
+    },
+    {
+        "problem": "Triangle $GHI$ is similar to triangle $JKL$, with the length of $GH$ being 8 cm and $JK$ being 12 cm. If the height from $J$ to $KL$ is 16 cm, what is the height from $G$ to $HI$? Give the answer in decimal and round to 2 decimal places",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "Since the triangles are similar, the ratio of corresponding heights is equal to the ratio of corresponding bases. Therefore, the height from $G$ to $HI$ is $\\frac{8}{12} \\times 16 = \\boxed{10.67} \\text{ cm}$.",
+        "knowledge_point": "Similar Triangles and Proportions",
+        "id": 138
+    },
+    {
+        "problem": "A large triangle is cut into two smaller triangles, $XYZ$ and $ABC$, by a line parallel to one of its sides. If the area of triangle $ABC$ is three times that of triangle $XYZ$, what is the ratio of the length of the side of $ABC$ parallel to the cut to the corresponding side of $XYZ$?",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "The areas of the triangles are proportional to the square of the ratio of corresponding sides. If the area of $ABC$ is three times that of $XYZ$, then $(\\text{ratio of sides})^2 = 3$. Thus, the ratio of the sides is $\\sqrt{3}:1 = \\boxed{\\sqrt{3}}.$",
+        "knowledge_point": "Similar Triangles and Proportions",
+        "id": 139
+    },
+    {
+        "problem": "In a right triangle $MNP$, with $\\angle M = 90^\\circ$, a line segment $MQ$ is drawn from $M$ to hypotenuse $NP$ such that $MQ$ is perpendicular to $NP$. If $MQ = 4$ cm and the area of triangle $MQP$ is 8 cm^2, what is the length of $NP$?",
+        "level": "Level 3",
+        "type": "Geometry",
+        "knowledge_point": "Similar Triangles and Proportions",
+        "id": 140,
+        "solution": "The area of triangle $MQP$ can be expressed as $\\frac{1}{2} \\times MQ \\times PQ = 8$. Thus, $PQ = \\frac{16}{4} = 4 \\text{ cm}$. Since $MQ$ is perpendicular to $NP$, triangles $MQP$ and $MNP$ are similar. The ratio of $MQ$ to $NP$ is $\\frac{4}{NP}$. Since the area of $MQP$ is one-half the area of $MNP$, it follows that $NP = 2 \\times PQ = 8 \\text{ cm}$. \\(\\boxed{8}\\)"
+    },
+    {
+        "problem": "A rectangular prism has a base area of 120 cm^2 and a height of 15 cm. If a smaller rectangular prism that is similar to the larger one has a height of 10 cm, what is the volume of the smaller prism? Give the answer in decimal and round to 2 decimal places.",
+        "level": "Level 3",
+        "type": "Geometry",
+        "knowledge_point": "Three-Dimensional Geometry",
+        "id": 141,
+        "solution": "Since the smaller prism is similar to the larger prism, the ratio of corresponding linear dimensions is 10:15 or 2:3. Thus, the base area of the smaller prism is \\left(\\frac{2}{3}\\right)^2 of the larger base area, which is \\left(\\frac{4}{9}\\right) \\times 120 \\text{ cm}^2 = 53.333 \\text{ cm}^2. The volume of the smaller prism is base area \\times height = 53.333 \\text{ cm}^2 \\times 10 \\text{ cm} = 533.33 \\text{ cm}^3. \\(\\boxed{533.33}\\)"
+    },
+    {
+        "problem": "A sphere is inscribed in a cube with an edge length of 8 inches. What is the volume of the space inside the cube but outside the sphere? Give the answer in decimal and round to 2 decimal places.",
+        "level": "Level 3",
+        "type": "Geometry",
+        "knowledge_point": "Three-Dimensional Geometry",
+        "id": 142,
+        "solution": "The diameter of the inscribed sphere equals the side length of the cube, so the radius of the sphere is 4 inches. The volume of the sphere is \\frac{4}{3} \\pi \\left(4^3\\right) = \\frac{256}{3} \\pi \\text{ cubic inches}. The volume of the cube is 8^3 = 512 \\text{ cubic inches}. The volume of the space inside the cube but outside the sphere is 512 - \\left(\\frac{256}{3} \\pi\\right) = 512 - \\left(\\text{approximately} 268.08\\right) = 243.92 \\text{ cubic inches}. \\(\\boxed{243.92}\\)"
+    },
+    {
+        "problem": "A cylindrical drum has a base radius of 5 meters and a height of 10 meters. A right circular cone with the same base radius and height is placed inside the drum. What is the volume of the space in the drum not occupied by the cone?",
+        "level": "Level 3",
+        "type": "Geometry",
+        "knowledge_point": "Three-Dimensional Geometry",
+        "id": 143,
+        "solution": "The volume of the cylinder is \\pi r^2 h = \\pi \\left(5^2\\right) \\times 10 = 250\\pi \\text{ cubic meters}. The volume of the cone is \\frac{1}{3} \\pi r^2 h = \\frac{1}{3} \\pi \\left(5^2\\right) \\times 10 = 83.33\\pi \\text{ cubic meters}. The volume of the space not occupied by the cone is 250\\pi - 83.33\\pi = 166.67\\pi \\text{ cubic meters}. \\(\\boxed{\\frac{500}{3}\\pi}\\)"
+    },
+    {
+        "problem": "A cube with side length 6 cm is completely filled with small cubes of side length 2 cm. How many small cubes are used to fill the larger cube?",
+        "level": "Level 3",
+        "type": "Geometry",
+        "knowledge_point": "Three-Dimensional Geometry",
+        "id": 144,
+        "solution": "The volume of the large cube is $6^3 = 216 \\text{ cm}^3$. The volume of each small cube is $2^3 = 8 \\text{ cm}^3$. The number of small cubes that can fill the large cube is $\\frac{216}{8} = 27$ small cubes. \\(\\boxed{27}\\)"
+    },
+    {
+        "problem": "A pyramid with a square base has a base side length of 10 cm and a height of 12 cm. Calculate the volume of the pyramid.",
+        "level": "Level 3",
+        "type": "Geometry",
+        "knowledge_point": "Three-Dimensional Geometry",
+        "id": 145,
+        "solution": "The area of the square base is $10^2 = 100 \\text{ cm}^2$. The volume of the pyramid is $\\frac{1}{3} \\times \\text{base area} \\times \\text{height} = \\frac{1}{3} \\times 100 \\times 12 = 400 \\text{ cm}^3$. \\(\\boxed{400}\\)"
+    },
+    {
+        "problem": "A rectangle $ABCD$ is divided into a grid of 3x2 smaller rectangles. If you want to color some of these smaller rectangles so that the diagonal is completely covered by the painted area, what is the minimum number of smaller rectangles you must color?",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "To cover the diagonal in a 3x2 grid, we analyze how it crosses 4 smaller rectangles (one in each row or column transition) and conclude that the minimum number of rectangles to color is \\boxed{4}.",
+        "knowledge_point": "Transformative Geometry and Symmetry",
+        "id": 146
+    },
+    {
+        "problem": "A hexagon is rotated clockwise around its center. What is the minimum number of degrees it must be rotated until it looks the same as its original position?",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "The hexagon has 6 sides, so each angle is $360/6 = 60$ degrees. Therefore, rotating it by $\\boxed{60}$ degrees will align it with its original position.",
+        "knowledge_point": "Transformative Geometry and Symmetry",
+        "id": 147
+    },
+    {
+        "problem": "Consider a square $ABCD$ divided into 16 smaller squares. How many of these smaller squares need to be colored black to ensure that the square has both horizontal and vertical lines of symmetry?",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "To ensure both horizontal and vertical lines of symmetry, each quadrant of the square must mirror the others. This requires coloring $\\boxed{4}$ smaller squares.",
+        "knowledge_point": "Transformative Geometry and Symmetry",
+        "id": 148
+    },
+    {
+        "problem": "You have an equilateral triangle and you perform a rotation about its centroid. What is the minimum degree of rotation needed for the triangle to coincide with its original position?",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "An equilateral triangle has rotational symmetry of $120$ degrees around its centroid. Thus, rotating it by $\\boxed{120}$ degrees will make it coincide with its original position.",
+        "knowledge_point": "Transformative Geometry and Symmetry",
+        "id": 149
+    },
+    {
+        "problem": "A regular octagon is to be rotated about its center. What is the minimum number of degrees it must be rotated to look identical to its original position?",
+        "level": "Level 3",
+        "type": "Geometry",
+        "solution": "Since an octagon has 8 sides, each internal angle divided for rotation is $360/8 = 45$ degrees. Therefore, a rotation of $\\boxed{45}$ degrees will make the octagon look identical to its original position.",
+        "knowledge_point": "Transformative Geometry and Symmetry",
+        "id": 150
+    },
+    {
+        "problem": "A circle with a radius of 10 cm has a chord that is 12 cm long. What is the distance from the center of the circle to the chord?",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Circles and Their Properties",
+        "id": 151,
+        "solution": "Let the radius be $r = 10$ cm and the chord length be $c = 12$ cm. The distance from the center of the circle to the chord is given by $d = \\sqrt{r^2 - (\\frac{c}{2})^2} = \\sqrt{10^2 - (\\frac{12}{2})^2} = \\sqrt{64} = 8$ cm. \\(\\boxed{8}\\)"
+    },
+    {
+        "problem": "In a circle of radius 15 cm, two radii form an angle of 120 degrees at the center. What is the length of the arc between these two radii?",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Circles and Their Properties",
+        "id": 152,
+        "solution": "The length of the arc formed by an angle $\\theta = 120^\\circ$ in a circle of radius $r = 15$ cm is given by $L = \\frac{\\theta}{360} \\cdot 2\\pi r = \\frac{120}{360} \\cdot 2\\pi \\cdot 15 = \\frac{1}{3} \\cdot 30\\pi = 10\\pi$ cm. \\(\\boxed{10\\pi}\\)"
+    },
+    {
+        "problem": "The radii of two externally tangent circles are 5 and 3, respectively. What is the distance between their centers?",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Circles and Their Properties",
+        "id": 153,
+        "solution": "The distance between the centers of the two externally tangent circles is $5 + 3 = \\boxed{8}$."
+    },
+    {
+        "problem": "A circle is inscribed in a square, and another circle is circumscribed about the same square. What is the ratio of the area of the larger circle to the area of the smaller circle?",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Circles and Their Properties",
+        "id": 154,
+        "solution": "Let the side length of the square be $s$. The diameter of the larger circle is $s$, so its radius is $\\frac{s}{2}$. The radius of the smaller circle is $\\frac{s}{2\\sqrt{2}}$. The ratio of the area of the larger circle to the smaller circle is $\\left(\\frac{\\pi (s/2)^2}{\\pi (s/2\\sqrt{2})^2}\\right) = \\frac{s^2/4}{s^2/8} = 2$. \\(\\boxed{2}\\)"
+    },
+    {
+        "problem": "A chord of length 8 cm is 6 cm away from the center of a circle. What is the radius of the circle?",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Circles and Their Properties",
+        "id": 155,
+        "solution": "Let the distance from the center to the chord be $d = 6$ cm and the chord length be $c = 8$ cm. The radius $r$ can be found using the Pythagorean theorem in the right triangle formed by the radius, half the chord, and the perpendicular distance from the center to the chord. $r = \\sqrt{\\left(\\frac{c}{2}\\right)^2 + d^2} = \\sqrt{\\left(\\frac{8}{2}\\right)^2 + 6^2} = \\sqrt{16 + 36} = \\sqrt{52} = 2\\sqrt{13}$ cm. \\(\\boxed{2\\sqrt{13}}\\)"
+    },
+    {
+        "problem": "Compute $\\cos 780^\\circ$.",
+        "level": "Level 4",
+        "type": "Geometry",
+        "solution": "Rotating $360^\\circ$ is equivalent to a complete rotation, so rotating $780^\\circ$ is the same as rotating $780^\\circ - 2\\cdot 360^\\circ = 60^\\circ$. Therefore, $\\cos 780^\\circ = \\cos (780^\\circ - 2\\cdot 360^\\circ) = \\cos 60^\\circ = \\boxed{\\frac{1}{2}}$.",
+        "knowledge_point": "Fundamentals of Trigonometry",
+        "id": 156
+    },
+    {
+        "problem": "Compute $\\sin (-405^\\circ)$.",
+        "level": "Level 4",
+        "type": "Geometry",
+        "solution": "Rotating $405^\\circ$ clockwise is the same as rotating $360^\\circ - 405^\\circ = -45^\\circ$ counterclockwise, so $\\sin(-405^\\circ) = \\sin (-45^\\circ)$. Since $\\sin(-45^\\circ) = -\\sin 45^\\circ = -\\frac{\\sqrt{2}}{2}$, we have $\\sin(-405^\\circ) = \\boxed{-\\frac{\\sqrt{2}}{2}}$.",
+        "knowledge_point": "Fundamentals of Trigonometry",
+        "id": 157
+    },
+    {
+        "problem": "Compute $\\tan 945^\\circ$.",
+        "level": "Level 4",
+        "type": "Geometry",
+        "solution": "Rotating $945^\\circ$ is equivalent to rotating $945^\\circ - 2\\cdot 360^\\circ = 225^\\circ$. Therefore, $\\tan 945^\\circ = \\tan (945^\\circ - 2\\cdot 360^\\circ) = \\tan 225^\\circ$. Since $\\tan 225^\\circ = \\tan (180^\\circ + 45^\\circ) = \\tan 45^\\circ = 1$, we have $\\tan 945^\\circ = \\boxed{1}$.",
+        "knowledge_point": "Fundamentals of Trigonometry",
+        "id": 158
+    },
+    {
+        "problem": "Compute $\\sin 1080^\\circ$.",
+        "level": "Level 4",
+        "type": "Geometry",
+        "solution": "Rotating $1080^\\circ$ is equivalent to three full rotations of $360^\\circ$, so $\\sin 1080^\\circ = \\sin (1080^\\circ - 3\\cdot 360^\\circ) = \\sin 0^\\circ = \\boxed{0}$.",
+        "knowledge_point": "Fundamentals of Trigonometry",
+        "id": 159
+    },
+    {
+        "problem": "Compute $\\cos 1110^\\circ$.",
+        "level": "Level 4",
+        "type": "Geometry",
+        "solution": "Rotating $1110^\\circ$ is equivalent to rotating $1110^\\circ - 3\\cdot 360^\\circ = 30^\\circ$. Therefore, $\\cos 1110^\\circ = \\cos (1110^\\circ - 3\\cdot 360^\\circ) = \\cos 30^\\circ = \\boxed{\\frac{\\sqrt{3}}{2}}$.",
+        "knowledge_point": "Fundamentals of Trigonometry",
+        "id": 160
+    },
+    {
+        "problem": "Given a triangle with vertices A(-3, 1), B(4, 5), and C(2, -4), determine the ordinate of the triangle's center of mass.",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+        "id": 161,
+        "solution": "The centroid of a triangle is the point where the medians intersect. It can be calculated by averaging the coordinates of the vertices. Thus, the centroid G has coordinates: \\[ G\\left(\\frac{-3+4+2}{3}, \\frac{1+5-4}{3}\\right) = G\\left(1, \\frac{2}{3}\\right) \\]. Therefore, the answer is $\\boxed{\\frac{2}{3}}$"
+    },
+    {
+        "problem": "Calculate the vertical intercept of the equation of the line perpendicular to the straight line y = 3x + 7 through the point (2, -1).",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+        "id": 162,
+        "solution": "The slope of the line y = 3x + 7 is 3. The slope of any line perpendicular to it is the negative reciprocal, which is -1/3. Using the point-slope form of a line equation, y - y1 = m(x - x1), where m is the slope and (x1, y1) is a point on the line, we get y - (-1) = -1/3(x - 2), which simplifies to y = -1/3x + 2/3 - 1, and finally y = -1/3x - 1/3. Therefore the answer is $\\boxed{\\frac{2}{3}}$"
+    },
+    {
+        "problem": "Find the abscissa of the point where the line y = -2x + 8 intersects the x-axis.",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+        "id": 163,
+        "solution": "To find the intersection with the x-axis, set y to 0 in the equation of the line and solve for x: 0 = -2x + 8, thus x = 4. The intersection point is (4, 0). Therefore the answer is \\boxed{4}."
+    },
+    {
+        "problem": "Determine the area, in square units, of a rhombus with vertices at (0,0), (5,0), (4,3), and (9,3).",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+        "id": 164,
+        "solution": "The area of a rhombus can be calculated using the formula for the area of a parallelogram, $A = \\text{base} \\times \\text{height}$. Here, the base is the distance between (0,0) and (5,0), which is 5 units. The height is the distance between any point on the base to the opposite side, from (5,0) to (4,3), which is 3 units (since the y-coordinate difference represents the height of the parallelogram formed). Therefore, the area is $5 \\times 3 = 15$ square units. \\(\\boxed{15}\\)"
+    },
+    {
+        "problem": "The line segment has endpoints (3, -4) and (-2, 5). Find the abscissa of the midpoint of the line segment.",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+        "id": 165,
+        "solution": "The midpoint M of a line segment with endpoints (x1, y1) and (x2, y2) is given by M = ((x1+x2)/2, (y1+y2)/2). Substituting the given points into the formula, M = ((3-2)/2, (-4+5)/2) = (1/2, 1/2). Therefore the answer is \\boxed{\\frac{1}{2}}"
+    },
+    {
+        "problem": "A rectangle is inscribed in a circle with radius 10 units. What is the maximum area of the rectangle?",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Geometric Inequalities and Optimization Problems",
+        "id": 166,
+        "solution": "The diagonal of the rectangle is the diameter of the circle, hence it is 20 units. Let the sides of the rectangle be $a$ and $b$. The diagonal's length gives us the equation $a^2 + b^2 = 400$. To maximize the area $ab$, we consider $ab = \\frac{(a+b)^2 - (a^2+b^2)}{2} = \\frac{(a+b)^2 - 400}{2}$. The maximum occurs when $a = b = \\sqrt{200}$, so the maximum area is $ab = 200$ square units. \\(\\boxed{200}\\)"
+    },
+    {
+        "problem": "In an equilateral triangle with side length 1, what is the diameter of a circle that can be inscribed?",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Geometric Inequalities and Optimization Problems",
+        "id": 167,
+        "solution": "For an equilateral triangle with side length $s$, the altitude divides it into two 30-60-90 right triangles. The altitude is $\\frac{\\sqrt{3}}{2}s$, and the inradius $r$ is $\\frac{1}{3}$ of the altitude, giving $r = \\frac{\\sqrt{3}}{6}s$. The diameter is twice the inradius, so the maximum diameter of the inscribed circle is $\\frac{\\sqrt{3}}{3}s$. Therefore, the answer is $\\boxed{\\frac{\\sqrt{3}}{3}}$"
+    },
+    {
+        "problem": "What is the maximum perimeter of a rectangle that can be inscribed in a circle with radius 7 units?",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Geometric Inequalities and Optimization Problems",
+        "id": 168,
+        "solution": "We are tasked with finding the maximum perimeter of a rectangle inscribed in a circle of radius 7 units. The diagonal of the rectangle is equal to the diameter of the circle, which is 14 units. The perimeter of a rectangle is P = 2(l + w), and using the Pythagorean theorem, we have l^2 + w^2 = 196. For maximum perimeter, the rectangle is a square, so l = w. Solving for l gives l = 7\u221a2, leading to a maximum perimeter of P = \\boxed{28\\sqrt{2}}."
+    },
+    {
+        "problem": "Determine the maximum area of an isosceles triangle that can be inscribed in a circle with a radius of 12 units.",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Geometric Inequalities and Optimization Problems",
+        "id": 169,
+        "solution": "The maximum area is when the triangle is equilateral. For an equilateral triangle inscribed in a circle, each side is $s = 12\\sqrt{3}$. Using Heron's formula for area, with semi-perimeter $s_p = 18\\sqrt{3}$ and area $A = \\sqrt{s_p(s_p-s)^3} = 108\\sqrt{3}$ square units. \\(\\boxed{108\\sqrt{3}}\\)"
+    },
+    {
+        "problem": "Find the largest possible volume of a cylinder that can be inscribed in a sphere with a diameter of 10 units.",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Geometric Inequalities and Optimization Problems",
+        "id": 170,
+        "solution": "Let the radius of the cylinder be $r$ and its height be $h$. The relation from the sphere's geometry gives $h^2 + 4r^2 = 100$. The volume $V = \\pi r^2h$ needs to be maximized. Substituting $h = \\sqrt{100 - 4r^2}$ into $V$ and differentiating with respect to $r$, we find the maximum occurs when $r = \\frac{5\\sqrt{6}}{3}$ and $h = \\frac{10\\sqrt{3}}{3}$, yielding a maximum volume of $\\boxed{\\frac{500\\sqrt{3}\\pi}{9}}$ cubic units."
+    },
+    {
+        "problem": "A regular hexagon and a regular triangle share a side. If the side length of each polygon is 6 units, find the area of the combined figure.",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Polygons and Their Properties",
+        "id": 171,
+        "solution": "The area of a regular hexagon with side length s is given by $(\\frac{3\\sqrt{3}}{2})s^2$ and for a regular triangle, it's $(\\frac{\\sqrt{3}}{4})s^2$. For $s = 6$, the hexagon's area is $(\\frac{3\\sqrt{3}}{2})(6)^2 = 54\\sqrt{3}$ and the triangle's area is $(\\frac{\\sqrt{3}}{4})(6)^2 = 9\\sqrt{3}$. The total area is $54\\sqrt{3} + 9\\sqrt{3} = 63\\sqrt{3}$ square units. \\(\\boxed{63\\sqrt{3}}\\)"
+    },
+    {
+        "problem": "A pentagon is inscribed in a circle with a radius of 10 units. If all sides of the pentagon are tangent to a smaller concentric circle, find the radius of the smaller circle. Give the answer in decimal and round to 2 decimal places",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Polygons and Their Properties",
+        "id": 172,
+        "solution": "Given a regular pentagon inscribed in a circle of radius 10, the radius of the smaller concentric circle tangent to its sides is approximately \\boxed{8.09} units, calculated using r = R * cos(pi / 5)."
+    },
+    {
+        "problem": "In a parallelogram ABCD, diagonals AC and BD intersect at point O, and AB = 10 units, BC = 15 units. If the area of triangle AOB is 30 square units, find the area of parallelogram ABCD.",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Polygons and Their Properties",
+        "id": 173,
+        "solution": "The area of triangle AOB is 25\\% the area of parallelogram ABCD, since diagonals in a parallelogram bisect each other. Therefore, the area of parallelogram ABCD is $4 \\times 30 = 120$ square units. \\(\\boxed{120}\\)"
+    },
+    {
+        "problem": "Given a rectangle ABCD, points E and F are taken on sides AB and BC respectively such that triangle AEF is isosceles with AE = EF and EAF = 30 degrees. If AB = 12 and BC = 8, find the length of CF.",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Polygons and Their Properties",
+        "id": 174,
+        "solution": "Placing the rectangle on a coordinate plane, let A = (0, 0), B = (12, 0), C = (12, 8), and F = (12, y2). Using the conditions AE = EF and angle EAF = 30 degrees, we derive y2 = 4\u221a3 and x1 = 8. The coordinates of F are thus (12, 4\u221a3) and C is (12, 8), so CF = $\\boxed{8 - 4\\sqrt{3}}$."
+    },
+    {
+        "problem": "A decagonal is divided into 10 triangles by it diagonally from one vertex. If the circumference of the decagonal is 40 units, find the area of the farthest triangle in it. Give the answer in decimal and round to 2 decimal places",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Polygons and Their Properties",
+        "id": 175,
+        "solution": "The sum of the internal angles of a regular decagonal is 180 * 8 = 1440 degrees, so each internal angle is 144 degrees. The triangle on the most side is an isosceles triangle, with a top angle of 144 degrees and both base angles of 18 degrees. From the circumference of the decagonal is 40, the side length is 4, so the base of the triangle is 2 * 4 * cos18 degrees, and the height is 4 * sin18 degrees, so the area is $0.5 * s * h = 8sin36^{\\circ} = \\boxed{4.70}$"
+    },
+    {
+        "problem": "A ladder 10 feet long leans against a vertical wall such that the bottom of the ladder is 6 feet from the base of the wall. What is the height from the top of the ladder to the ground?",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Properties of Right Triangles",
+        "id": 176,
+        "solution": "The ladder, wall, and ground form a right triangle with the ladder as the hypotenuse. Using the Pythagorean theorem, we find the height from the top of the ladder to the ground ($h$) by solving $h^2 + 6^2 = 10^2$. Therefore, $h^2 = 64$ and $h = 8$ feet. \\(\\boxed{8}\\)"
+    },
+    {
+        "problem": "In a right triangle, one leg measures 8 cm and the hypotenuse measures 17 cm. What is the length of the other leg?",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Properties of Right Triangles",
+        "id": 177,
+        "solution": "Let the length of the unknown leg be $x$. By the Pythagorean theorem, $8^2 + x^2 = 17^2$. Solving for $x$ gives $x^2 = 225$, hence $x = 15$ cm. \\(\\boxed{15}\\)"
+    },
+    {
+        "problem": "In a 30-60-90 triangle, the shorter leg measures 5 units. What are the lengths of the hypotenuse?",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Properties of Right Triangles",
+        "id": 178,
+        "solution": "In a 30-60-90 triangle, the ratios of the lengths of the sides are $1:\\sqrt{3}:2$. Therefore, the hypotenuse is \\boxed{10} units and the other leg is $5\\sqrt{3}$ units."
+    },
+    {
+        "problem": "In a right triangle, if one angle measures 45 degrees and one leg measures 7\u221a2 units, find the length of the hypotenuse.",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Properties of Right Triangles",
+        "id": 179,
+        "solution": "In a 45-45-90 triangle, the legs are congruent and the hypotenuse is $\\sqrt{2}$ times the length of each leg. Thus, the hypotenuse is $7\\sqrt{2} \\times \\sqrt{2} = 14$ units. \\(\\boxed{14}\\)"
+    },
+    {
+        "problem": "The lengths of the two sides of a right triangle are 6 units and 8 units respectively. Find the shortest possible length of the third side.",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Properties of Right Triangles",
+        "id": 180,
+        "solution": "Using the Pythagorean theorem: If the hypotenuse is 8 units and one leg is 6 units, the third side is \u221a(8^2 - 6^2) = $\\boxed{2\\sqrt{7}}$ units."
+    },
+    {
+        "problem": "A rhombus $ABCD$ has diagonals $AC$ and $BD$ that intersect at $O$. If $AC=10$ units and $BD=24$ units, calculate the area of the rhombus.",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Quadrilateral Features and Classifications",
+        "id": 181,
+        "solution": "The area of a rhombus can be found using the formula $\\frac{1}{2} \\times d_1 \\times d_2$ where $d_1$ and $d_2$ are the lengths of the diagonals. Plugging in the given values, we get $\\frac{1}{2} \\times 10 \\times 24 = 120$ square units. \\(\\boxed{120}\\)"
+    },
+    {
+        "problem": "In square $ABCD$, a point $P$ lies on side $CD$ such that $DP=3$ times $PC$. If $AB=12$ cm, find the area of triangle $APD$.",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Quadrilateral Features and Classifications",
+        "id": 182,
+        "solution": "Since $DP=3 \\times PC$, let $PC=x$. Then, $DP=3x$ and $CD=4x$. Since $CD=12$ cm, $x=3$ cm. Therefore, $DP=9$ cm. Triangle $APD$ is a right triangle (as all angles in a square are right angles) with legs $AP=12$ cm and $PD=9$ cm. Area of $APD = \\frac{1}{2} \\times AP \\times PD = \\frac{1}{2} \\times 12 \\times 9 = 54$ square cm. \\(\\boxed{54}\\)"
+    },
+    {
+        "problem": "In a trapezoid $ABCD$ with $AB \\parallel CD$ and $AB=10$ cm, $CD=20$ cm, and the height from $A$ to line $CD$ is $15$ cm. Calculate the area of the trapezoid.",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Quadrilateral Features and Classifications",
+        "id": 183,
+        "solution": "The area of a trapezoid is given by $\\frac{1}{2} (b_1+b_2)h$ where $b_1$ and $b_2$ are the lengths of the parallel sides and $h$ is the height. Plugging in the values, we have $\\frac{1}{2} (10+20) \\times 15 = \\frac{1}{2} \\times 30 \\times 15 = 225$ square cm. \\(\\boxed{225}\\)"
+    },
+    {
+        "problem": "In parallelogram $ABCD$, $\\angle A = 60^\\circ$ and the sides $AB=10$ units and $BC=15$ units. Calculate the area of the parallelogram.",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Quadrilateral Features and Classifications",
+        "id": 184,
+        "solution": "The area of a parallelogram can be found using the formula $\\text{base} \\times \\text{height}$. Given $AB$ as the base and using the sine of $\\angle A$ for the height (as the height forms a right triangle with $AB$ and an extended line from $C$ or $D$), we get $\\text{height} = 15 \\times \\sin(60^\\circ) = 15 \\times \\frac{\\sqrt{3}}{2} = \\frac{15\\sqrt{3}}{2}$. Thus, the area is $10 \\times \\frac{15\\sqrt{3}}{2} = 75\\sqrt{3}$ square units. \\(\\boxed{75\\sqrt{3}}\\)"
+    },
+    {
+        "problem": "If a kite $ABCD$ has diagonals $AC=18$ cm and $BD=12$ cm intersecting at right angles, what is the area of the kite?",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Quadrilateral Features and Classifications",
+        "id": 185,
+        "solution": "The area of a kite is given by $\\frac{1}{2} \\times d_1 \\times d_2$ where $d_1$ and $d_2$ are the lengths of the diagonals, which intersect at right angles. Therefore, the area is $\\frac{1}{2} \\times 18 \\times 12 = 108$ square cm. \\(\\boxed{108}\\)"
+    },
+    {
+        "problem": "In triangle $\\triangle PQR$, $PS$ is an altitude, and $QR = 12$ cm. If $PS = 5$ cm and $\\triangle PQR \\sim \\triangle STU$ with a similarity ratio of $1:2$, find the length of $TU$.",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Similar Triangles and Proportions",
+        "id": 186,
+        "solution": "Since $\\triangle PQR \\sim \\triangle STU$ with a ratio of $1:2$, all corresponding sides are in the ratio $1:2$. As $QR = 12$ cm in $\\triangle PQR$, the corresponding side $TU$ in $\\triangle STU$ will be $2 \\times 12 = 24$ cm. \\(\\boxed{24}\\)"
+    },
+    {
+        "problem": "Two similar triangles $\\triangle ABC$ and $\\triangle DEF$ have perimeters of 30 cm and 45 cm, respectively. If $AB = 9$ cm, find $DE$.",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Similar Triangles and Proportions",
+        "id": 187,
+        "solution": "The ratio of the perimeters of $\\triangle ABC$ and $\\triangle DEF$ is $30:45 = 2:3$. Since $\\triangle ABC \\sim \\triangle DEF$, $AB$ corresponds to $DE$, so $DE = \\frac{3}{2} \\times 9 = 13.5$ cm. \\(\\boxed{\\frac{27}{2}}\\)"
+    },
+    {
+        "problem": "In triangle $\\triangle XYZ$, $XZ = 18$ cm and $XY = 15$ cm. Point $W$ divides $XZ$ such that $XW:WZ = 2:1$. If $\\triangle XYZ \\sim \\triangle XWV$, find $XV$. Give the answer in decimal and round to 2 decimal places.",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Similar Triangles and Proportions",
+        "id": 188,
+        "solution": "Since $XW:WZ = 2:1$, $XW = \\frac{2}{3}XZ = 12$ cm, and $WZ = 6$ cm. Given $\\triangle XYZ \\sim \\triangle XWV$, and the ratio of similarity is $\\frac{XY}{XW} = \\frac{15}{12} = 1.25$. Thus, $XZ = 18$ cm corresponds to $XV$, which will be $\\frac{XZ}{1.25} = 14.4$ cm. \\(\\boxed{14.40}\\)"
+    },
+    {
+        "problem": "Two similar triangles $\\triangle GHI$ and $\\triangle JKL$ have areas in the ratio $4:9$. If the height of $\\triangle GHI$ from $G$ to $HI$ is 8 cm, find the corresponding height from $J$ to $KL$ in $\\triangle JKL$.",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Similar Triangles and Proportions",
+        "id": 189,
+        "solution": "Since the areas of $\\triangle GHI$ and $\\triangle JKL$ are in the ratio $4:9$, the ratio of their corresponding linear dimensions, including altitudes, is $\\sqrt{4}:\\sqrt{9} = 2:3$. Thus, the corresponding height from $J$ to $KL$ is $\\frac{3}{2} \\times 8 = 12$ cm. \\(\\boxed{12}\\)"
+    },
+    {
+        "problem": "A rectangle $ABCD$ has dimensions $6 \\text{ cm} \\times 9 \\text{ cm}$. A line through $B$ parallel to diagonal $AC$ intersects $DC$ at point $E$. Find the area of triangle $BDE$.",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Similar Triangles and Proportions",
+        "id": 190,
+        "solution": "The rectangle ABCD has dimensions 6cm\u00d79cm, a line through point B parallel to diagonal AC intersects DC at point E, and using geometric formulas, the area of triangle BDE is \\boxed{54} square cm."
+    },
+    {
+        "problem": "A regular tetrahedron has an edge length of 12 cm. What is the volume of the tetrahedron?",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Three-Dimensional Geometry",
+        "id": 191,
+        "solution": "The formula for the volume of a regular tetrahedron is $V = \\frac{\\sqrt{2}}{12}a^3$, where $a$ is the edge length. Substituting $a = 12$ cm, we get $V = \\frac{\\sqrt{2}}{12}(12)^3 = 144\\sqrt{2}$ cubic cm. \\(\\boxed{144\\sqrt{2}}\\)"
+    },
+    {
+        "problem": "A cylinder has a height of 10 cm and a base radius of 3 cm. A cone is inside the cylinder such that its vertex is at the center of the top of the cylinder and its base is the same as the base of the cylinder. What is the volume of the space between the cone and the cylinder?",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Three-Dimensional Geometry",
+        "id": 192,
+        "solution": "The volume of the cylinder is $V_c = \\pi r^2 h = \\pi (3)^2 (10) = 90\\pi$. The volume of the cone is $V_{cn} = \\frac{1}{3}\\pi r^2 h = \\frac{1}{3}\\pi (3)^2 (10) = 30\\pi$. The volume of the space between them is $V_c - V_{cn} = 90\\pi - 30\\pi = 60\\pi$ cubic cm. \\(\\boxed{60\\pi}\\)"
+    },
+    {
+        "problem": "A spherical balloon with a diameter of 10 meters is being filled with helium at a constant rate. If the volume of the balloon is increasing at a rate of 523.6 cubic meters per minute, what is the rate of increase of the surface area of the balloon at the instant when the balloon is fully inflated? Give the answer in decimal and round to 1 decimal places",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Three-Dimensional Geometry",
+        "id": 193,
+        "solution": "The radius of the balloon is $r = 5$ meters. The volume of a sphere is $V = \\frac{4}{3}\\pi r^3$ and the surface area is $S = 4\\pi r^2$. Differentiating both with respect to time, we have $\\frac{dV}{dt} = 4\\pi r^2 \\frac{dr}{dt}$ and $\\frac{dS}{dt} = 8\\pi r \\frac{dr}{dt}$. Solving for $\\frac{dr}{dt}$ from $\\frac{dV}{dt} = 523.6$ gives $\\frac{dr}{dt} = \\frac{523.6}{4\\pi (5)^2} = 1.67$. Substituting into $\\frac{dS}{dt}$ gives $\\frac{dS}{dt} = 8\\pi (5) (1.67) = 209.44 $ square meters per minute. \\(\\boxed{209.4}\\)"
+    },
+    {
+        "problem": "A right circular cone has a slant height of 13 cm and a radius of 5 cm. Calculate the volume of the cone.",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Three-Dimensional Geometry",
+        "id": 194,
+        "solution": "Using the Pythagorean theorem, the height of the cone $h$ is given by $h = \\sqrt{13^2 - 5^2} = 12$ cm. The volume of the cone is $V = \\frac{1}{3}\\pi r^2 h = \\frac{1}{3}\\pi (5)^2 (12) = 100\\pi$ cubic cm. \\(\\boxed{100\\pi}\\)"
+    },
+    {
+        "problem": "A cuboid has dimensions of 4 cm, 5 cm, and 6 cm. If the longest side is doubled in length, what is the new volume of the cuboid?",
+        "level": "Level 4",
+        "type": "Geometry",
+        "knowledge_point": "Three-Dimensional Geometry",
+        "id": 195,
+        "solution": "The original volume of the cuboid is $V = 4 \\times 5 \\times 6 = 120$ cubic cm. Doubling the longest side gives the new dimensions as 4 cm, 5 cm, and 12 cm. The new volume is $V_{new} = 4 \\times 5 \\times 12 = 240$ cubic cm. \\(\\boxed{240}\\)"
+    },
+    {
+        "problem": "The side length of square ABCD is 10. It is rotated 45 degrees around vertex A. What is the abscissa of point B after rotation? Assume that the lower left corner A is located at the origin (0,0) and the initial point B is located at (10,0).",
+        "level": "Level 4",
+        "type": "Geometry",
+        "solution": "Using rotation matrix, the coordinates of B after a 45 degrees rotation are given by: $(10\\cos(45^\\circ) - 0\\sin(45^\\circ), 10\\sin(45^\\circ) + 0\\cos(45^\\circ)) = (10\\frac{\\sqrt{2}}{2}, 10\\frac{\\sqrt{2}}{2}) = \\boxed{5\\sqrt{2}}$.",
+        "knowledge_point": "Transformative Geometry and Symmetry",
+        "id": 196
+    },
+    {
+        "problem": "In the word 'SYMMETRY', how many letters have axis of symmetry?",
+        "level": "Level 4",
+        "type": "Geometry",
+        "solution": "The letters Y, M, E, and T have axis of symmetry. Counting these, we find there are $\\boxed{6}$ letters with axis of symmetry (since 'M' and 'Y' appear more than once).",
+        "knowledge_point": "Transformative Geometry and Symmetry",
+        "id": 197
+    },
+    {
+        "problem": "Point P at (2,3) is reflected on the line y=-x. What is the ordinate of the reflection point?",
+        "level": "Level 4",
+        "type": "Geometry",
+        "solution": "Reflecting the point over the line y=-x swaps the coordinates and changes their signs, thus point P after reflection would be at $\\boxed{-2}$.",
+        "knowledge_point": "Transformative Geometry and Symmetry",
+        "id": 198
+    },
+    {
+        "problem": "Rectangle ABCD with vertices A(0, 0), B(0, 4), C(3, 4), and D(3, 0) is rotated 180 degrees about the point (1.5, 2). What is the abscissa of point A after rotation?",
+        "level": "Level 4",
+        "type": "Geometry",
+        "solution": "After rotating 180 degrees about (1.5, 2), point A, which was originally at (0,0), will be moved to (3,4), which are the original coordinates of point C. Hence, the new coordinates of point A are $\\boxed{3}$.",
+        "knowledge_point": "Transformative Geometry and Symmetry",
+        "id": 199
+    },
+    {
+        "problem": "The parallelogram is defined by points A(1,2), B(4,2), C(6,5) and D(3,5). If reflected on the line y = 2, what is the new ordinate of point C?",
+        "level": "Level 4",
+        "type": "Geometry",
+        "solution": "Reflecting over the line y = 2 involves changing the y-coordinate of each point to '2 - (original y - 2)'. For point C(6,5), the new y-coordinate is 2 - (5 - 2) = -1. So the new coordinates of point C are $\\boxed{-1}$.",
+        "knowledge_point": "Transformative Geometry and Symmetry",
+        "id": 200
+    },
+    {
+        "problem": "A circle is inscribed in a triangle with sides 13, 14, and 15. Calculate the radius of the circle.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Circles and Their Properties",
+        "id": 201,
+        "solution": "The radius of the inscribed circle is 4. First, we calculate the semi-perimeter s = (13 + 14 + 15) / 2 = 21. Then, we use Heron's formula to calculate the area: A = sqrt(21 * (21 - 13) * (21 - 14) * (21 - 15)) = 84. Finally, the radius is found using r = A / s = 84 / 21 = $\\boxed{4}$."
+    },
+    {
+        "problem": "Three circles of radius 4 are mutually tangent to each other and inscribed in a larger circle. Find the radius of the larger circle.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Circles and Their Properties",
+        "id": 202,
+        "solution": "The centers of the smaller circles form an equilateral triangle with side length 8. The circumradius of this triangle plus the radius of the small circle is the radius of the larger circle. Therefore the answer is $\\boxed{\\frac{8\\sqrt{3}}{3} + 4}$."
+    },
+    {
+        "problem": "A circle is inscribed in a right triangle with legs of lengths 6 and 8. Find the radius of the circle.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Circles and Their Properties",
+        "id": 203,
+        "solution": "The area of the triangle is 24. Using the formula for the radius $r$ of the inscribed circle, $r = \\frac{A}{s}$, where $s$ is the semi-perimeter $s = \\frac{6+8+\\sqrt{6^2+8^2}}{2} = 12$, we find the radius of the inscribed circle is $r = \\frac{24}{12} = \\boxed{2}$."
+    },
+    {
+        "problem": "In a circle, two chords of lengths 8 and 6 intersect such that the product of the segments of one chord is 12. Find the product of the segments of the other chord.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Circles and Their Properties",
+        "id": 204,
+        "solution": "Using the intersecting chord theorem, which states that the product of the segments of one chord is equal to the product of the segments of the other chord when they intersect, the product of the segments of the other chord is also 12. \\(\\boxed{12}\\)"
+    },
+    {
+        "problem": "Two circles of radius 5 are externally tangent to each other and to a line. A third circle is tangent to both the line and the two circles. Find the radius of the third circle.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Circles and Their Properties",
+        "id": 205,
+        "solution": "The radius of the third circle can be found using the Descartes Circle Theorem, which gives a radius of $\\boxed{5 - \\frac{5\\sqrt{2}}{2}}$."
+    },
+    {
+        "problem": "If $\\tan(\\theta) = 3/4$, find the value of $|\\sin(\\theta)|$.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "solution": "Using the identity $1 + \\tan^2(\\theta) = \\sec^2(\\theta)$, we can find $\\sec(\\theta)$ and thus $\\sin(\\theta)$. We have $1 + (3/4)^2 = 25/16$, so $\\sec(\\theta) = \\sqrt{25/16} = 5/4$. Since $\\sec(\\theta) = 1/\\cos(\\theta)$, $\\cos(\\theta) = 4/5$. Using $\\sin^2(\\theta) + \\cos^2(\\theta) = 1$, we get $|\\sin(\\theta)| = \\sqrt{1 - (4/5)^2} = \\sqrt{9/25} = 3/5$. Therefore, $|\\sin(\\theta)| = \\boxed{\\frac{3}{5}}$.",
+        "knowledge_point": "Fundamentals of Trigonometry",
+        "id": 206
+    },
+    {
+        "problem": "Given $\\cos(\\alpha) = 0.6$, find $\\tan(\\alpha)$ assuming $\\alpha$ is in the first quadrant.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "solution": "Using the identity $\\sin^2(\\alpha) + \\cos^2(\\alpha) = 1$, we find $\\sin(\\alpha)$: $\\sin(\\alpha) = \\sqrt{1 - 0.6^2} = \\sqrt{0.64} = 0.8$. Since $\\tan(\\alpha) = \\sin(\\alpha) / \\cos(\\alpha)$, $\\tan(\\alpha) = 0.8 / 0.6 = 4/3$. Therefore, $\\tan(\\alpha) = \\boxed{\\frac{4}{3}}$.",
+        "knowledge_point": "Fundamentals of Trigonometry",
+        "id": 207
+    },
+    {
+        "problem": "A triangle has angles $45^\\circ$, $45^\\circ$, and $90^\\circ$. If the hypotenuse is 10 units, find the $\\sin$ of the $45^\\circ$ angle.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "solution": "In a 45-45-90 triangle, the legs are equal, and each leg is $\\frac{\\text{hypotenuse}}{\\sqrt{2}}$. So, each leg is $\\frac{10}{\\sqrt{2}} = 5\\sqrt{2}$. Since $\\sin(45^\\circ) = \\cos(45^\\circ) = \\frac{\\text{leg}}{\\text{hypotenuse}} = \\frac{5\\sqrt{2}}{10} = \\frac{\\sqrt{2}}{2}$. Therefore, both $\\sin(45^\\circ)$ and $\\cos(45^\\circ) = \\boxed{\\frac{\\sqrt{2}}{2}}$.",
+        "knowledge_point": "Fundamentals of Trigonometry",
+        "id": 208
+    },
+    {
+        "problem": "Given $\\sin x = 0.5$ and $x$ is acute, calculate $\\tan x$. Give the answer in decimal and round to 2 decimal places",
+        "level": "Level 5",
+        "type": "Geometry",
+        "solution": "Using the identity $\\sin^2 x + \\cos^2 x = 1$, we can find $\\cos x$. $\\cos x = \\sqrt{1 - 0.5^2} = \\sqrt{0.75} = 0.8660254037844386$. Then, using $\\tan x = \\sin x / \\cos x$, $\\tan x = 0.5 / 0.8660254037844386 \\approx 0.5773502691896257$. Therefore, $\\tan x = \\boxed{0.58}$.",
+        "knowledge_point": "Fundamentals of Trigonometry",
+        "id": 209
+    },
+    {
+        "problem": "The angle $\\beta$ in a right triangle satisfies $\\cos(\\beta) = 12/13$. Find $\\sin(2\\beta)$.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "solution": "Using the identity $\\sin^2(\\beta) = 2\\sin(\\beta)\\cos(\\beta)$, we first find $\\sin(\\beta)$. Since $\\cos(\\beta) = 12/13$, using the Pythagorean identity $\\sin^2(\\beta) + \\cos^2(\\beta) = 1$, we find $\\sin(\\beta)$: $\\sin(\\beta) = \\sqrt{1 - (12/13)^2} = \\sqrt{1 - 144/169} = \\sqrt{25/169} = 5/13$. Plugging $\\sin(\beta)$ and $\\cos(\\beta)$ into the double angle identity for sine, $\\sin(2\\beta) = 2 \\times (5/13) \\times (12/13) = 120/169$. Therefore, $\\sin(2\\beta) = \\boxed{\\frac{120}{169}}$.",
+        "knowledge_point": "Fundamentals of Trigonometry",
+        "id": 210
+    },
+    {
+        "problem": "Triangle $PQR$ has vertices $P(1, 1)$, $Q(4, 5)$, and $R(7, 1)$. A circle is constructed to be tangent to side $\\overline{PQ}$ at point $Q$ and pass through points $R$. What is the coordinates of the center of the circle?",
+        "level": "Level 5",
+        "type": "Geometry",
+        "solution": "First, according to the coordinates of P and Q, the PQ equation can be calculated as y = 4/3x-1/3, so the equation of the straight line passing through P and perpendicular to PQ is y = -3/4x+8, and the center of the circle is on this straight line; and Because the circle passes through P and R at the same time, the center of the circle is also on the perpendicular bisector of PR y = 3/4x-9/8. Simultaneous equations of two straight lines, we can get the coordinates are $\\boxed{(\\frac{73}{12}, \\frac{55}{16})}$",
+        "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+        "id": 211
+    },
+    {
+        "problem": "Let $A(-2, -3)$ and $B(4, 5)$ define a line segment. Construct a square $ABCD$ such that $C$ and $D$ are in the fourth quadrant. What is the abscissa of the midpoint of $C$ and $D$?",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+        "id": 212,
+        "solution": "To find $C$ and $D$, rotate line segment $AB$ by 90 degrees clockwise about $B$ to find $D$, and then translate it along the vector $\\overrightarrow{AB}$. By performing these operations, the coordinates of $C$ and $D$ are found to be $C(12, -1)$ and $D(6, -9)$. Thus, $C = (12, -1)$ and $D = (6, -9)$. Therefore the answer is $(12 + 6) / 2 = \\boxed{9}$"
+    },
+    {
+        "problem": "Consider a circle with center $(5, 3)$ and radius $4$. The line through $(1, -1)$ is tangent to the circle. Determine the slope of the tangent equation.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+        "id": 213,
+        "solution": "Assume that the tangent equation is kx - y - k - 1 = 0, so the distance from the center of the circle to the straight line d = |4k-4|/sqrt(k^2+1) = 4, and the solution is $k = \\boxed{0}$"
+    },
+    {
+        "problem": "A rhombus $ABCD$ is situated in the coordinate plane with vertices $A(1, 2)$, $B(4, 6)$, and $C(7, 2)$. Determine the side length of the rhombus.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+        "id": 214,
+        "solution": "Vertex $D$ must be vertically aligned with $B$ and horizontally with $A$ and $C$ to maintain equal side lengths and 90-degree interior angles typical of a rhombus. By symmetry and the rhombus properties, $D$ is at $(4, -2)$. The side length, using the distance formula between $A$ and $B$, is $5$ units. \\(\\boxed{5}\\)"
+    },
+    {
+        "problem": "Find the area of the triangle formed by the x-axis and the lines $y = 2x + 3$ and $y = -\\frac{1}{2}x + 3$. Give the answer in decimal and round to 2 decimal places",
+        "level": "Level 5",
+        "type": "Geometry",
+        "solution": "First, find the points of intersection of the lines with each other and with the x-axis. Solving $2x + 3 = -\\frac{1}{2}x + 3$ gives $x = 0$, the y-intercept, which is $3$. The x-intercepts are found by setting $y = 0$ in each equation, giving $x = -\\frac{3}{2}$ and $x = 6$. The area of the triangle is calculated using the formula $\\frac{1}{2} \\times \\text{base} \\times \\text{height}$, where the base is the distance between the x-intercepts, $6 - (-\\frac{3}{2}) = 7.5$, and the height is the y-intercept, which is $3$. Thus, the area is $\\frac{1}{2} \\times 7.5 \\times 3 = 11.25$. Therefore, the area of the triangle is $\\boxed{11.25}$ square units.",
+        "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+        "id": 215
+    },
+    {
+        "problem": "Consider a rectangle with a perimeter of 100 units. Find the maximum area a rectangle can have if its length is at most 5 units more than twice its width and at least twice its width.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Geometric Inequalities and Optimization Problems",
+        "id": 216,
+        "solution": "To maximize the area of a rectangle with a perimeter of 100 units, given the length is between 2w and 2w+5, we express the length as \\( l = 50 - w \\) from the perimeter equation, substitute into the area formula \\( A = l \times w \\), and evaluate the area at the boundary values \\( w = 15 \\) and \\( w = \\frac{50}{3} \\), finding the maximum area to be approximately $\\boxed{\\frac{5000}{9}}$ square units."
+    },
+    {
+        "problem": "In a circle of radius 10 units, three points A, B, and C are placed such that triangle ABC is equilateral. What is the maximum possible area of triangle ABC?",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Geometric Inequalities and Optimization Problems",
+        "id": 217,
+        "solution": "The maximum area of an equilateral triangle inscribed in a circle occurs when each vertex touches the circle. The side length $s$ of the triangle can be found using the formula $s = \\sqrt{3} \\times r$, where $r$ is the radius of the circle. So, $s = \\sqrt{3} \\times 10$. The area $A$ of an equilateral triangle is $(\\sqrt{3}/4) \\times s^2$, substituting $s$ gives $A = (\\sqrt{3}/4) \\times (\\sqrt{3} \\times 10)^2 = 75 \\times \\sqrt{3}$ square units. \\(\\boxed{75\\sqrt{3} }\\)"
+    },
+    {
+        "problem": "Given a trapezoid with bases 10 units and 6 units, and one non-parallel side 4 units, find the maximum area of the trapezoid.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Geometric Inequalities and Optimization Problems",
+        "id": 218,
+        "solution": "When the height of the trapezoid is exactly 4, the area is the largest, which is $0.5 * (6 + 10) * 4 = \\boxed{32}$"
+    },
+    {
+        "problem": "A triangular park ABC has sides measuring 60, 80, and 100 meters. Now the park needs to be expanded. The expansion method is to add 50 meters to one of the sides. Find the maximum area after the expansion.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Geometric Inequalities and Optimization Problems",
+        "id": 219,
+        "solution": "The height on the 60-meter side is the largest, which is 80. Therefore, after the expansion on the 60-meter side, the park area will be the largest. The largest area is $0.5 \\times 80 \\times (60 + 50) = \\boxed{4400}$"
+    },
+    {
+        "problem": "If two vertices of a triangle are at (0,0) and (4,0), and the third vertex is on the line y = sin(x), what is the maximum area of the triangle?",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Geometric Inequalities and Optimization Problems",
+        "id": 220,
+        "solution": "Since the two fixed points are both on the x-axis, we only need to consider the distance from the third point to the x-axis. The maximum value of the sine function is 1, so the maximum distance to the x-axis is also 1. Therefore, the maximum area is $0.5 \\times 4 \\times 1 = \\boxed{2}$."
+    },
+    {
+        "problem": "A regular pentagon is inscribed in a circle with a radius of 10 cm. What is the perimeter of the pentagon? Give the answer in decimal and round to 1 decimal places",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Polygons and Their Properties",
+        "id": 221,
+        "solution": "The side length of a regular pentagon inscribed in a circle can be calculated using the formula: $s = 2r \\sin(\\pi/n)$, where $n$ is the number of sides. Here, $r = 10$ and $n = 5$. So, $s = 2 \\times 10 \\times \\sin(\\pi/5) = 20 \\times \\sin(36^\\circ)$. \\(\\sin(36^\\circ)\\) approximately equals 0.5878. Therefore, $s \\approx 20 \\times 0.5878 = 11.756$ cm. The perimeter of the pentagon is $5 \\times s = 5 \\times 11.756 = 58.78$ cm. \\(\\boxed{58.8}\\)"
+    },
+    {
+        "problem": "A nonagon (9-sided polygon) has sides of lengths 2, 3, 2, 3, 2, 3, 2, 3, and 2 units. If it is equiangular, find the sum of the internal angles of the polygon.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Polygons and Their Properties",
+        "id": 222,
+        "solution": "The sum of the internal angles of a polygon with $n$ sides is given by $180(n-2)$ degrees. For a nonagon, $n = 9$. Thus, the sum of the internal angles is $180(9-2) = 180 \\times 7 = 1260$ degrees. \\(\\boxed{1260^\\circ}\\)"
+    },
+    {
+        "problem": "Calculate the area of a regular dodecagon (12-sided polygon) with a circumradius (radius of the circumscribed circle) of 8 cm.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Polygons and Their Properties",
+        "id": 223,
+        "solution": "The area $A$ of a regular polygon with $n$ sides and circumradius $R$ can be calculated using the formula: $A = \\frac{1}{2} \\times n \\times R^2 \\times \\sin(2\\pi/n)$. For a dodecagon with $R = 8$, $n = 12$. Plugging in the values, $A = 0.5 \\times 12 \\times 64 \\times \\sin(2\\pi/12) = 384 \\times \\sin(30^\\circ) = 384 \\times 0.5 = 192$ square cm. \\(\\boxed{192}\\)"
+    },
+    {
+        "problem": "Given a regular heptagon (7-sided polygon) inscribed in a circle of diameter 14 cm, find the side length of the heptagon. Give the answer in decimal and round to 2 decimal places",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Polygons and Their Properties",
+        "id": 224,
+        "solution": "The side length $s$ of a regular polygon inscribed in a circle of radius $r$ can be calculated by $s = 2r \\sin(\\pi/n)$. Here, the diameter is 14 cm, so the radius $r = 7$ cm. For a heptagon, $n = 7$. Therefore, $s = 2 \\times 7 \\times \\sin(\\pi/7) = 14 \\times \\sin(\\pi/7)$. Using a calculator, $\\sin(\\pi/7) \\approx 0.4339$, thus $s \\approx 14 \\times 0.4339 = 6.0746$ cm. \\(\\boxed{6.07}\\)"
+    },
+    {
+        "problem": "A hexagon is formed by removing an equilateral triangle of length 1 from each corner of an equilateral triangle. If each side of the original equilateral triangle is 10 cm long, find the total length of all the sides of the hexagon.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Polygons and Their Properties",
+        "id": 225,
+        "solution": "The original equilateral triangle has sides of 10 cm, and after removing a smaller triangle with side length 1 cm from each corner, each side of the hexagon becomes 4.5 cm long, resulting in a total length of 6 * 4.5 = 27 cm, so the answer is \\boxed{27}."
+    },
+    {
+        "problem": "In right triangle $XYZ$, $\\angle YXZ = 90^\\circ$, and point $W$ is on $\\overline{YZ}$ such that $\\overline{XW}$ is an altitude. If $XY = 9$ and $YZ = 41$, find the length of $\\overline{YW}$.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Properties of Right Triangles",
+        "id": 226,
+        "solution": "To find the length of YW, we applied the Pythagorean theorem to determine XZ, then used the similar triangles relationship, giving the final answer as YW = $\\boxed{\\frac{81}{41}}$."
+    },
+    {
+        "problem": "In triangle $PQR$, $\\angle P = 90^\\circ$, and point $S$ lies on $\\overline{PR}$ such that $\\overline{QS}$ is an angle bisector. If $PQ = 24$ and $PS = 18$, find the length of $QR$.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Properties of Right Triangles",
+        "id": 227,
+        "solution": "According to the meaning of the question, we can calculate that the sine and cosine of angle PQR are 0.6 and 0.8 respectively, so the cosine of angle Q is 7/25, and because the cosine of angle Q can be written as PQ/QR, we can calculate $QR = 25 \\times 24 / 7 = \\boxed{\\frac{600}{7}}$"
+    },
+    {
+        "problem": "Right triangle $ABC$ with $\\angle BAC = 90^\\circ$ and $AC = 15$ has a point $D$ inside such that $DA = \\sqrt{5}$, $DB = 2\\sqrt{5}$, and $DC = \\sqrt{170}$. Calculate $BC$.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Properties of Right Triangles",
+        "id": 228,
+        "solution": "Assume AC is x-axis and AB is y-axis, then A(0, 0) and C(15, 0). Let B(0, b), D(x, y), then according the length of each side, we have $x^2 + y^2 = 5, x^2 + (y - b)^2 = 20, (x - 15)^2 + y^2 = 170$. Solving these equations, we can get $b = 5$. Therefore, we can calculate $BC = \\sqrt{5^2 + 15^2} = \\boxed{5\\sqrt{10}}$."
+    },
+    {
+        "problem": "In right triangle $MNO$, $\\angle MNO = 90^\\circ$, and $P$ lies on $\\overline{NO}$ such that $MP$ is a median. If $MO = 48$ and $MN = 20$, determine the length of $MP$.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Properties of Right Triangles",
+        "id": 229,
+        "solution": "Since $MP$ is a median, $P$ is the midpoint of $NO$. Using the Pythagorean theorem, $NO = \\sqrt{MN^2 - MO^2} = 4\\sqrt{119}$. As $P$ is the midpoint, $MP = 1/2 \\times NO = \\boxed{2\\sqrt{119}}$."
+    },
+    {
+        "problem": "In triangle $DEF$, $DE = EF = 13$ and $DF = 10$. Let $G$ be the foot of the altitude from $D$ to $\\overline{EF}$. Compute the area of triangle $DGF$.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Properties of Right Triangles",
+        "id": 230,
+        "solution": "Firstly we can calculate that $cos F = \\frac{5}{13}$ and $sin F = \\frac{12}{13}$. Then $DG = DF * sin F = \\frac{120}{13}, GF = DF * cos F = \\frac{50}{13}$. Then we know the area is $1/2 * DG * GF = \\boxed{\\frac{3000}{169}}$."
+    },
+    {
+        "problem": "A kite-shaped quadrilateral $ABCD$ has $AB = AD = 5$ and $BC = CD = 8$. If the diagonal $BD = 6$, find the area of $ABCD$.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "solution": "Suppose the intersection of two diagonals is O. Then we know $BO = DO = 1/2 * BD = 3$. Then $AO = \\sqrt{5^2 - 3^2} = 4$ and $CO = \\sqrt{8^2 - 3^2} = \\sqrt{55}$. Then the area is $1/2 * AC * BD = 1/2 * 6 * (4 + \\sqrt{55}) = \\boxed{12 + 3\\sqrt{55}}$",
+        "knowledge_point": "Quadrilateral Features and Classifications",
+        "id": 231
+    },
+    {
+        "problem": "In a convex quadrilateral $ABCD$, $angle A = angle C = 120^\\circ$, and $AB = BC = CD = DA = 10$,. Find the area of $ABCD$.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Quadrilateral Features and Classifications",
+        "id": 232,
+        "solution": "Divide $ABCD$ into triangles $ABC$ and $ACD$. For $\\triangle ABC$, since $AB = BC = CD = 10$, it's an isosceles triangle with a $120^\\circ$ angle at $A$. The area of $\\triangle ABC$ is $\\frac{1}{2} \\cdot AB \\cdot BC \\cdot \\sin(120^\\circ) = 50 \\cdot \\frac{\\sqrt{3}}{2} = 25\\sqrt{3}$. For $\\triangle ACD$, apply Heron's formula to find the area. Thus, area of $ABCD = 25\\sqrt{3} + \\text{area of } \\triangle ACD$. \\(\\boxed{50\\sqrt{3}}\\)"
+    },
+    {
+        "problem": "Rectangle $ABCD$ has $AB = 8$ and $BC = 3$. A line through $B$ parallel to $AC$ intersects $DC$ extended at point $E$. Find the length of $DE$.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Quadrilateral Features and Classifications",
+        "id": 233,
+        "solution": "According to the title, the quadrilateral ABCE is a parallelogram. Then CE = AB = 8. Therefore $DE = CD + CE = 8 + 8 = \\boxed{16}$"
+    },
+    {
+        "problem": "In trapezoid $ABCD$, $AB \\parallel CD$, if $AB = 3$, $CD = 7$, and $AD = 4$, find the length of the midsegment connecting the midpoints of $AD$ and $BC$.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Quadrilateral Features and Classifications",
+        "id": 234,
+        "solution": "The midsegment of a trapezoid is parallel to the bases and its length is the average of the lengths of the bases. Thus, the length of the midsegment $MN = \\frac{AB + CD}{2} = \\frac{3 + 7}{2} = 5$. \\(\\boxed{5}\\)"
+    },
+    {
+        "problem": "Quadrilateral $ABCD$ has $AB = 4$, $BC = 5$, $CD = 6$, $DA = 7$, and diagonal $AC = 8$. Find the area of $ABCD$.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Quadrilateral Features and Classifications",
+        "id": 235,
+        "solution": "First area of ABC is $\\sqrt{9 * (9 - 7) * (9 - 6) * (9 - 5)} = 6\\sqrt{6}$ and area of ACD is $\\sqrt{8.5 * 4.5 * 3.5 * 0.5} = \\frac{3\\sqrt{119}}{4}$. Thus the answer is $\\boxed{6\\sqrt{6} + \\frac{3\\sqrt{119}}{4}}$."
+    },
+    {
+        "problem": "In triangle $ABC$, point $D$ is on side $AC$ such that $AD:DC=3:2$. And $E$ is on side $BC$ such that $DE \\parallel AB$. If the area of triangle $CDE$ is 4, find the area of triangle $ABC$.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "solution": "Since $AD:DC=3:2$, by the properties of similar triangles, the area ratio of $\\triangle CDE$ to $\\triangle ABC$ should be $4:25$. Therefore, if the area of $\\triangle ABC$ is $\\boxed{25}$. ",
+        "knowledge_point": "Similar Triangles and Proportions",
+        "id": 236
+    },
+    {
+        "problem": "In triangle $PQR$, point $S$ is on side $PR$ such that $PS:SR=1:4$. If the area of triangle $PQS$ is 3, what is the area of triangle $QRS$?",
+        "level": "Level 5",
+        "type": "Geometry",
+        "solution": "Given the ratio $PS:SR=1:4$, the area of $\\triangle PQS$ to $\\triangle QRS$ is also $1:4$. If the area of $\\triangle PQS$ is 3, then the area of $\\triangle QRS$ is $3 \\cdot 4 = 12$. Thus, the area of $\\triangle QRS$ is $\\boxed{12}$.",
+        "knowledge_point": "Similar Triangles and Proportions",
+        "id": 237
+    },
+    {
+        "problem": "A line divides triangle $XYZ$ into two parts with equal area. If $XZ = 10$ and the segment of the line $PQ$ within the triangle is parallel to $XZ$. Find the length of $PQ$",
+        "level": "Level 5",
+        "type": "Geometry",
+        "solution": "Since PQ is parallel to XZ, the triangle YPQ is similar to the triangle YZX. And because PQ divides the triangle area into two parts with equal area, the area ratio of triangle YPQ and triangle YZX is 1:2, so the similarity ratio is 1:\\sqrt{2}. Thus $PQ:XZ = 1:\\sqrt{2}$, then $PQ = \\boxed{5\\sqrt{2}}$.",
+        "knowledge_point": "Similar Triangles and Proportions",
+        "id": 238
+    },
+    {
+        "problem": "In triangle $LMN$, the ratio of the length of altitude from $L$ to side $MN$ and the length of altitude from $M$ to side $LN$ is 4:3. If the area of triangle $LMN$ is 84, find the ratio of sides $LN$ and $MN$.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "solution": "Let $h_L$ and $h_M$ be the altitudes from $L$ and $M$, and let $LN$ and $MN$ be $a$ and $b$, respectively. The area of the triangle can be represented in two ways: $\\frac{1}{2}ah_L = 84$ and $\\frac{1}{2}bh_M = 84$. Given $h_L:h_M = 4:3$, and substituting the areas, we get $\\frac{a}{b} = \\frac{h_L}{h_M} = \\frac{4}{3}$. Therefore, the ratio $LN:MN = \\boxed{\\frac{4}{3}}$.",
+        "knowledge_point": "Similar Triangles and Proportions",
+        "id": 239
+    },
+    {
+        "problem": "In triangle $DEF$, point $G$ divides side $DF$ in the ratio $2:3$. If the area of triangle $DEG$ is 12, find the area of triangle $EFG$.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "solution": "Since point $G$ divides $DF$ in the ratio $2:3$, the areas of $\\triangle DEG$ and $\\triangle EFG$ will be in the same ratio. Therefore, the area of $\\triangle EFG$ is $12 \\cdot \\frac{3}{2} = 18$. So, the area of $\\triangle EFG$ is $\\boxed{18}$.",
+        "knowledge_point": "Similar Triangles and Proportions",
+        "id": 240
+    },
+    {
+        "problem": "A regular octahedron has edge length 10. What is the volume of the octahedron?",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Three-Dimensional Geometry",
+        "id": 241,
+        "solution": "The octahedron can be thought of as two identical square pyramids joined base to base. Using Pythagoras' Theorem in the triangle formed by the height, half the diagonal of the base, and the slant height, we get: $h^2 + (\\frac{s}{\\sqrt{2}})^2 = (\\frac{s\\sqrt{2}}{2})^2$. Solving this, we find $h = \\frac{s\\sqrt{2}}{2}$. The volume of one pyramid is $\\frac{1}{3}\\times s^2\\times h$. Substituting the values, we find the volume of the octahedron to be $2 * \\frac{500\\sqrt{2}}{3}$ cubic units. \\(\\boxed{\\frac{1000\\sqrt{2}}{3} }\\)"
+    },
+    {
+        "problem": "A right circular cylinder with radius 5 and height 10 is inscribed in a sphere. Find the radius of the sphere.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Three-Dimensional Geometry",
+        "id": 242,
+        "solution": "The diagonal of the cylinder, which passes through the center of the sphere, is the diameter of the sphere. This diagonal can be calculated using the Pythagorean theorem applied to the radius and the height of the cylinder: $d = \\sqrt{(2 \\times \\text{radius})^2 + \\text{height}^2} = \\sqrt{(2 \\times 5)^2 + 10^2} = \\sqrt{100 + 100} = \\sqrt{200}$. Thus, the radius of the sphere is half the diameter, which is $\\sqrt{50}$. \\(\\boxed{5\\sqrt{2}}\\)"
+    },
+    {
+        "problem": "A right rectangular pyramid with a square base of side 6 and a height of 8 is cut by a plane parallel to its base at a height of 4. Find the volume of the smaller pyramid formed at the top.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Three-Dimensional Geometry",
+        "id": 243,
+        "solution": "The smaller pyramid is similar to the original pyramid with a ratio of their heights, which is 1:2. Thus, the volume ratio is 1:8 (since volume scales with the cube of the linear dimensions). The volume of the original pyramid is $(1/3)\\times \\text{base area} \\times \\text{height} = (1/3)\\times 6^2\\times 8 = 96$. Therefore, the volume of the smaller pyramid is $96/8 = 12$ cubic units. \\(\\boxed{12}\\)"
+    },
+    {
+        "problem": "A regular icosahedron has each edge measuring 3. Calculate the volume of this icosahedron.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Three-Dimensional Geometry",
+        "id": 244,
+        "solution": "The volume $V$ of a regular icosahedron with edge length $s$ is given by $V = \\frac{15+7\\sqrt{5})s^3}{4}$. Substituting $s = 3$, we find $V = \\frac{15+7\\sqrt{5})3^3}{4} = \\boxed{\\frac{27(15+7\\sqrt{5})}{4}}$."
+    },
+    {
+        "problem": "A sphere with radius 7 is inscribed in a right circular cone. The cone's height is 24. Find the radius of the cone at its base.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Three-Dimensional Geometry",
+        "id": 245,
+        "solution": "Assume the radius is $r$. Consider the cross-sectional view, we have $r^2 + 24^2 = (x + \\sqrt{17^2 - 7^2})^2$. Solving this equation, we get the radius is $\\boxed{\\frac{14\\sqrt{15}}{5}}$."
+    },
+    {
+        "problem": "An equilateral triangle with side length 6 cm is rotated about its center by 120 degrees. Calculate the area of the region swept out by this rotation.",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Transformative Geometry and Symmetry",
+        "id": 246,
+        "solution": "The radius of the circumscribed circle of the equilateral triangle is $2\\sqrt{3}$. After rotating 120 degrees, the swept area is exactly the area of the circumscribed circle. Thus the answer is $\\pi \\times (2\\sqrt{3})^2 = \\boxed{12\\pi}$."
+    },
+    {
+        "problem": "A regular hexagon is reflected across one of its diagonals across opposite vertices. How many of the original vertices match with their reflected image?",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Transformative Geometry and Symmetry",
+        "id": 247,
+        "solution": "In a regular hexagon, a diagonal across opposite vertices divides the hexagon into two equal trapezoids and is a line of symmetry. When the hexagon is reflected across this diagonal, the vertices on the diagonal line (the ends of the diagonal) remain unchanged. Thus, 2 vertices out of the 6 vertices match with their reflected image. \\(\\boxed{2}\\)"
+    },
+    {
+        "problem": "A square ABCD is translated 3 units right and 1 unit up to form a new square A'B'C'D'. If the area of square ABCD is 16 square units, what is the area of the overlapping region between the original and the translated square?",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Transformative Geometry and Symmetry",
+        "id": 248,
+        "solution": "Since the area of square ABCD is 16 square units, each side of the square is 4 units (since area of a square = side^2). After translating the square right by 3 units and up by 1 unit, the new square A'B'C'D' overlaps with the original square along a strip that is 1 unit wide and 3 units high. Therefore, the area of the overlapping region is $1 * 3 = \\boxed{3}$ square units."
+    },
+    {
+        "problem": "A circle with radius 5 cm is rotated about its center by 180 degrees. What is the total area covered by the circle during the rotation?",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Transformative Geometry and Symmetry",
+        "id": 249,
+        "solution": "The area covered by the circle during the rotation is the same as the area of the circle, because a 180-degree rotation maps each point on the circle onto another point on the circle itself. The area of the circle is given by $A = \\pi \\times \\text{radius}^2$. Substituting the radius of 5 cm, we get $A = \\pi \\times 5^2 = 25\\pi$ cm$^2$. Therefore, the total area covered during the rotation is $25\\pi$ cm$^2$. \\(\\boxed{25\\pi}\\)"
+    },
+    {
+        "problem": "A rectangle is reflected across its longer side to form a new rectangle. What is the ratio between the area of the original rectangle and the new rectangle?",
+        "level": "Level 5",
+        "type": "Geometry",
+        "knowledge_point": "Transformative Geometry and Symmetry",
+        "id": 250,
+        "solution": "The reflection of a rectangle across its longer side results in a rectangle of the same dimensions as the original rectangle. Therefore, the area of the new rectangle is equal to the area of the original rectangle, as reflection is a rigid transformation that preserves area. \\(\\boxed{1}\\)"
+    }
+]
