@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Require Import Coq.Setoids.Setoid.\n Require Import Coq.Logic.Classical_Prop.\n Local Open Scope Z.\n  Theorem exists_exists : forall (X Y : Type) (P : X -> Y -> Prop),   (exists x y, P x y) <-> (exists y x, P x y). \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   intros X Y P.   split.   - intros [x [y Pxy]]. (* Handling the direction (exists x y, P x y) -> (exists y x, P x y) *)     exists y, x.       (* Simply reverse the order of x and y *)     exact Pxy.   - intros [y [x Pxy]]. (* Handling the direction (exists y x, P x y) -> (exists x y, P x y) *)     exists x, y.       (* Reverse the order back from y x to x y *)     exact Pxy. Qed. ",
+    "proposition": "exists_exists",
+    "id": "./data/95.v"
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.Setoids.Setoid.\n Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Local Open Scope Z.\n Definition plus_one (x: Z): Z := x + 1.\n  Definition mono (f: Z -> Z): Prop :=   forall n m, n <= m -> f n <= f m.\n  Example plus_one_mono: mono plus_one. \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   unfold mono, plus_one.   intros.   lia. Qed.",
+    "proposition": "plus_one_mono",
+    "id": "./data/19.v"
+}

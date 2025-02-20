@@ -1,0 +1,6 @@
+{
+    "problem": "inductive Tree : Type\n| leaf : Tree\n| node (l : Tree) (v : Int) (r : Tree) : Tree\n\nopen Tree\n\n-- 定义一个定理，用于证明节点的值在相等的节点中相等\ntheorem nodeInjValue (l1 r1 l2 r2 : Tree) (v1 v2 : Int) :\n  node l1 v1 r1 = node l2 v2 r2 → v1 = v2 := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

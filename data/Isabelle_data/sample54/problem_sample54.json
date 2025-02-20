@@ -1,0 +1,6 @@
+{
+    "problem": "theory ForallEx2\n  imports Main\nbegin\n\nlemma forall_ex2:\n  assumes \"\\<forall>x. P x \\<and> Q x \\<longrightarrow> R x\"\n  shows \"\\<forall>x. P x \\<longrightarrow> Q x \\<longrightarrow> R x\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "inductive Tree : Type\n| leaf : Tree\n| node (l : Tree) (v : Int) (r : Tree) : Tree\n\nopen Tree\n\n-- 定义 treeReverse 函数\ndef treeReverse : Tree → Tree\n| leaf => leaf\n| node l v r => node (treeReverse r) v (treeReverse l)\n\n-- 定义一个定理，证明 treeReverse 是单射的\ntheorem treeReverse_inj (t1 t2 : Tree) : treeReverse t1 = treeReverse t2 → t1 = t2 := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

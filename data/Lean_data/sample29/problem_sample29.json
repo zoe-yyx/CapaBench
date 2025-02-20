@@ -1,0 +1,6 @@
+{
+    "problem": "def Zcomp (f g : ℤ → ℤ) : ℤ → ℤ :=\n  fun x => f (g x)\n\ndef is_fixpoint (f : ℤ → ℤ) (x : ℤ) : Prop :=\n  f x = x\n\ntheorem fixpoint_self_comp23 (f : ℤ → ℤ) (x : ℤ) :\n  is_fixpoint (Zcomp f f) x →\n  is_fixpoint (Zcomp f (Zcomp f f)) x →\n  is_fixpoint f x := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "set_option linter.unusedVariables false\n\ninductive Tree : Type\n| leaf : Tree\n| node (l : Tree) (v : Int) (r : Tree) : Tree\n\nopen Tree\n\n-- 定义 treeReverse 函数\ndef treeReverse : Tree → Tree\n| leaf => leaf\n| node l v r => node (treeReverse r) v (treeReverse l)\n\n-- 定义 treeSize 函数\ndef treeSize : Tree → Int\n| leaf => 0\n| node l v r => treeSize l + treeSize r + 1\n\n-- 定义一个定理，用于证明翻转后的树和原树的大小相同\ntheorem reverseSize (t : Tree) : treeSize (treeReverse t) = treeSize t := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

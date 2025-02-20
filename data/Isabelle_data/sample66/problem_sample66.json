@@ -1,0 +1,6 @@
+{
+    "problem": "theory MonoFuncPlus\n  imports Main\nbegin\n\ndefinition mono :: \"(int \\<Rightarrow> int) \\<Rightarrow> bool\" where\n  \"mono f \\<equiv> \\<forall> n m. n \\<le> m \\<longrightarrow> f n \\<le> f m\"\n\ndefinition func_plus :: \"(int \\<Rightarrow> int) \\<Rightarrow> (int \\<Rightarrow> int) \\<Rightarrow> int \\<Rightarrow> int\" where\n  \"func_plus f g \\<equiv> \\<lambda> x. f x + g x\"\n\nlemma mono_func_plus:\n  assumes \"mono f\"\n      and \"mono g\"\n  shows \"mono (func_plus f g)\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

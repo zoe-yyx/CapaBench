@@ -1,0 +1,6 @@
+{
+    "problem": "theory SumOfSqrLt\n  imports Main\nbegin\n\nlemma sum_of_sqr_lt: \"x < y \\<Longrightarrow> x * x + x * y + y * y > 0\"\n  for x y :: int\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

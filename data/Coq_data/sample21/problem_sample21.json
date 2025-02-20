@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.Setoids.Setoid.\n Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Local Open Scope Z.\n Definition assoc (f: Z -> Z -> Z): Prop :=   forall x y z,     f x (f y z) = f (f x y) z.\n       Lemma plus_assoc: assoc (fun x y => x + y). \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof. unfold assoc. lia. Qed.",
+    "proposition": "plus_assoc",
+    "id": "./data/21.v"
+}

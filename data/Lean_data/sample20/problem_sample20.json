@@ -1,0 +1,6 @@
+{
+    "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef mono (f : ℤ → ℤ) : Prop :=\n  ∀ n m, n ≤ m → f n ≤ f m\n\ndef Zcomp (f g : ℤ → ℤ) : ℤ → ℤ :=\n  fun x => f (g x)\n\ntheorem mono_compose (f g : ℤ → ℤ) :\n  mono f → mono g → mono (Zcomp f g) := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

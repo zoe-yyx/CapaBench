@@ -1,0 +1,6 @@
+{
+    "problem": "theorem not_imply_iff (P Q : Prop) : ¬ (P → Q) ↔ P ∧ ¬ Q := by\n  constructor\n  · intro h\n    have p : P := by\n      byContradiction np\n      apply h\n      intro hp\n      contradiction\n    have nq : ¬ Q := by\n      intro q\n      apply h\n      intro _\n      exact q\n    exact ⟨p, nq⟩\n  · rintro ⟨p, nq⟩ hpq\n    apply nq\n    exact hpq p\n\ntheorem forall_iff {X : Type} {P Q : X → Prop} (h : ∀ x : X, P x ↔ Q x) :\n    (∀ x : X, P x) ↔ (∀ x : X, Q x) := by\n  constructor\n  · intro hp x\n    apply (h x).mp\n    exact hp x\n  · intro hq x\n    apply (h x).mpr\n    exact hq x\n\ntheorem not_exists {X : Type} {P : X → Prop} :\n    ¬ ∃ x : X, P x → ∀ x : X, ¬ P x := by\n  intro h x px\n  apply h\n  use x\n  exact px\n\ntheorem not_forall {X : Type} {P : X → Prop} :\n    ¬ ∀ x : X, P x → ∃ x : X, ¬ P x := by\n  intro h\n  byContradiction nh\n  apply h\n  intro x\n  byContradiction npx\n  apply nh\n  use x\n  exact npx\n\ntheorem not_forall_imply {X : Type} {P Q : X → Prop} :\n    ¬ ∀ x : X, P x → Q x → ∃ x : X, P x ∧ ¬ Q x := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

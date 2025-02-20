@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.Setoids.Setoid.\n Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Local Open Scope Z.\n Fact sum_of_sqr2: forall x y: Z,   x * x + y * y >= 2 * x * y. \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   intros.   pose proof sqr_pos (x - y).   nia. Qed.",
+    "proposition": "sum_of_sqr2",
+    "id": "./data/4.v"
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "theory TeachersAndChildren\n  imports Main\nbegin\n\nlemma teachers_and_children:\n  fixes MT FT MC FC :: int\n  assumes \"MT > 0\"\n    and \"FT > 0\"\n    and \"MC > 0\"\n    and \"FC > 0\"\n    and \"MT + FT + MC + FC = 16\"\n    and \"MC + FC > MT + FT\"\n    and \"FT > FC\"\n    and \"FC > MC\"\n    and \"MC > MT\"\n  shows \"MT = 1\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

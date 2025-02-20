@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.Setoids.Setoid.\n Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Local Open Scope Z.\n  Definition mono (f: Z -> Z): Prop :=   forall n m, n <= m -> f n <= f m.\n  Definition Zcomp (f g: Z -> Z): Z -> Z :=   fun x => f (g x).\n   Lemma mono_compose: forall f g,   mono f ->   mono g ->   mono (Zcomp f g). \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   unfold mono, Zcomp.   intros f g Hf Hg n m Hnm.   pose proof Hg n m Hnm as Hgnm.   pose proof Hf (g n) (g m) Hgnm.   lia. Qed.",
+    "proposition": "mono_compose",
+    "id": "./data/20.v"
+}

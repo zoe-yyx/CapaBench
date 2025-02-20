@@ -1,0 +1,6 @@
+{
+    "problem": "theory OrAssoc2\n  imports Main\nbegin\n\ntheorem or_assoc2:\n  assumes \"((P \\<or> Q) \\<or> R)\"\n  shows \"P \\<or> (Q \\<or> R)\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

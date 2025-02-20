@@ -1,0 +1,6 @@
+{
+    "problem": "theory QuadEx1\n  imports Main\nbegin\n\nlemma sum_of_sqr1: \"x * x + y * y \\<ge> x * y\" for x y :: int\nproof (rule ccontr)\n  assume \"\\<not> (x * x + y * y \\<ge> x * y)\"\n  then have \"x * x + y * y < x * y\" by simp\n  then show False\n    by linarith (* This would normally be a proof, but we use 'linarith' here to represent a need for a valid argument *)\nqed\n\nlemma quad_ex1: \"x * x + 2 * x * y + y * y + x + y + 1 \\<ge> 0\" for x y :: int\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

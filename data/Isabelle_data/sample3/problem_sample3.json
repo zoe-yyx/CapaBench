@@ -1,0 +1,6 @@
+{
+    "problem": "theory OrIntrol\n  imports Main\nbegin\n\n\nlemma or_introl:\n  fixes A B :: \"bool\"\n  assumes H: \"A\"\n  shows \"A \\<or> B\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

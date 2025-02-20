@@ -1,0 +1,6 @@
+{
+    "problem": "theorem iffImply (P Q : Prop) : (P ↔ Q) → (P → Q) := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

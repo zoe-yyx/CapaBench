@@ -1,0 +1,6 @@
+{
+    "problem": "theorem proj2 (P Q : Prop) : P ∧ Q → Q := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

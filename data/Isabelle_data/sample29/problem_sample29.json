@@ -1,0 +1,6 @@
+{
+    "problem": "theory MonoCompose\n  imports Main\nbegin\n\ndefinition mono :: \"(int \\<Rightarrow> int) \\<Rightarrow> bool\" where\n\"mono f = (\\<forall>n m. n \\<le> m \\<longrightarrow> f n \\<le> f m)\"\n\ndefinition Zcomp :: \"(int \\<Rightarrow> int) \\<Rightarrow> (int \\<Rightarrow> int) \\<Rightarrow> int \\<Rightarrow> int\" where\n\"Zcomp f g x = f (g x)\"\n\nlemma mono_compose: \n  assumes \"mono f\" and \"mono g\"\n  shows \"mono (Zcomp f g)\"\n  unfolding mono_def Zcomp_def\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

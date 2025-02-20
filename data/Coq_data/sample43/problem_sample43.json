@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Require Import Coq.Setoids.Setoid.\n Local Open Scope Z.\n   Inductive tree: Type := | Leaf: tree | Node (l: tree) (v: Z) (r: tree): tree.\n  Fixpoint tree_reverse (t: tree): tree :=   match t with   | Leaf => Leaf   | Node l v r => Node (tree_reverse r) v (tree_reverse l)   end.\n  Fixpoint tree_height (t: tree): Z :=   match t with   | Leaf => 0   | Node l v r => Z.max (tree_height l) (tree_height r) + 1   end.\n   Lemma reverse_height_attempt2: forall t,   tree_height (tree_reverse t) = tree_height t. \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   intros.   induction t; simpl.   + reflexivity.   + simpl.     lia. Qed.",
+    "proposition": "reverse_height_attempt2",
+    "id": "./data/43.v"
+}

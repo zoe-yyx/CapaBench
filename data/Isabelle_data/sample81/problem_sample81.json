@@ -1,0 +1,6 @@
+{
+    "problem": "theory IffRefl\n  imports Main\nbegin\n\ntheorem iff_refl: \"P \\<longleftrightarrow> P\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Require Import Coq.Setoids.Setoid.\n Local Open Scope Z.\n   Inductive tree: Type := | Leaf: tree | Node (l: tree) (v: Z) (r: tree): tree.\n  Fixpoint tree_reverse (t: tree): tree :=   match t with   | Leaf => Leaf   | Node l v r => Node (tree_reverse r) v (tree_reverse l)   end.\n  Fixpoint tree_size (t: tree): Z :=   match t with   | Leaf => 0   | Node l v r => tree_size l + tree_size r + 1   end.\n   Lemma reverse_size: forall t,   tree_size (tree_reverse t) = tree_size t. \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   intros.   induction t.   + simpl.     reflexivity.   + simpl.     rewrite IHt1.     rewrite IHt2.     lia. Qed.",
+    "proposition": "reverse_size",
+    "id": "./data/41.v"
+}

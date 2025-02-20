@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Require Import Coq.Setoids.Setoid.\n Local Open Scope Z.\n   Inductive tree: Type := | Leaf: tree | Node (l: tree) (v: Z) (r: tree): tree.\n  Definition tree_example2b: tree :=   Node (Node Leaf 9 Leaf) 100 (Node Leaf 8 Leaf).\n  Definition tree_example3b: tree :=   Node tree_example2b 5 (Node Leaf 3 Leaf).\n  Fixpoint tree_size (t: tree): Z :=   match t with   | Leaf => 0   | Node l v r => tree_size l + tree_size r + 1   end.\n   Example treeexample3b_size:   tree_size tree_example3b = 5. \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof. reflexivity. Qed.",
+    "proposition": "treeexample3b_size",
+    "id": "./data/32.v"
+}

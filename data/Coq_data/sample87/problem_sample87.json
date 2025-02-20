@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Require Import Coq.Setoids.Setoid.\n Require Import Coq.Logic.Classical_Prop.\n Local Open Scope Z.\n Theorem and_or_absorb: forall P Q: Prop,   P /\\ (P \\/ Q) <-> P. \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   intros P Q.   split.   - intros [HP _].     exact HP.   - intros HP.     split.     + assumption.     + left. assumption. Qed.",
+    "proposition": "and_or_absorb",
+    "id": "./data/87.v"
+}

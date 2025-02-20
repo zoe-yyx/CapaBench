@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.Setoids.Setoid.\n Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Local Open Scope Z.\n Fact sum_of_sqr_lt: forall x y: Z,   x < y ->   x * x + x * y + y * y > 0.  \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   intros.   pose proof sqr_pos (x + y).   nia. Qed. ",
+    "proposition": "sum_of_sqr_lt",
+    "id": "./data/6.v"
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Require Import Coq.Setoids.Setoid.\n Require Import Coq.Logic.Classical_Prop.\n Local Open Scope Z.\n  Theorem iff_refl: forall P: Prop, P <-> P. \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   intros.   unfold iff.   split.   + intros.     apply H.   + intros.     apply H. Qed.",
+    "proposition": "iff_refl",
+    "id": "./data/56.v"
+}

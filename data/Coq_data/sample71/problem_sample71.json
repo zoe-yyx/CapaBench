@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Require Import Coq.Setoids.Setoid.\n Require Import Coq.Logic.Classical_Prop.\n Local Open Scope Z.\n Theorem forall_iff : forall (X : Type) (P Q : X -> Prop),   (forall x : X, P x <-> Q x) ->   ((forall x : X, P x) <-> (forall x : X, Q x)). \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   intros X P Q H.   split.   - intros HP x.     specialize (H x).     apply H.     apply HP.   - intros HQ x.     specialize (H x).     apply H.     apply HQ. Qed.",
+    "proposition": "forall_iff",
+    "id": "./data/71.v"
+}

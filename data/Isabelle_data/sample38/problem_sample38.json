@@ -1,0 +1,6 @@
+{
+    "problem": "theory TreeReverseInj\n  imports Main\nbegin\n\ndatatype tree = Leaf | Node tree int tree\n\nfun tree_reverse :: \"tree \\<Rightarrow> tree\" where\n  \"tree_reverse Leaf = Leaf\"\n| \"tree_reverse (Node l v r) = Node (tree_reverse r) v (tree_reverse l)\"\n\nlemma tree_reverse_inj: \"tree_reverse t1 = tree_reverse t2 \\<Longrightarrow> t1 = t2\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Require Import Coq.Setoids.Setoid.\n Require Import Coq.Logic.Classical_Prop.\n Local Open Scope Z.\n  Lemma proj2: forall P Q: Prop,   P /\\ Q -> Q. \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   intros.   destruct H.   apply H0. Qed.",
+    "proposition": "proj2",
+    "id": "./data/51.v"
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "theory NotEx2\n  imports Main\nbegin\n\nlemma not_ex2: \"\\<forall>P Q. P \\<longrightarrow> (\\<not> P) \\<longrightarrow> Q\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

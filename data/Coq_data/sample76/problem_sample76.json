@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Require Import Coq.Setoids.Setoid.\n Require Import Coq.Logic.Classical_Prop.\n Local Open Scope Z.\n Fact logic_ex8: forall {A B: Type} (P Q: A -> B -> Prop),   (forall (a: A) (b: B), P a b -> Q a b) ->   (forall (a: A) (b: B), ~ P a b \\/ Q a b). \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   intros A B P Q Himp.   intros a b.   pose proof (classic (P a b)) as [HP | HnP].   - right. apply Himp. assumption.   - left. assumption. Qed. ",
+    "proposition": "logic_ex8",
+    "id": "./data/76.v"
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "theorem orExample (P Q R : Prop) : (P → R) → (Q → R) → (P ∨ Q → R) := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

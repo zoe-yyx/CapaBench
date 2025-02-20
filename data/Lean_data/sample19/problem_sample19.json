@@ -1,0 +1,6 @@
+{
+    "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef plus_one (x : ℤ) : ℤ := x + 1\n\ndef mono (f : ℤ → ℤ) : Prop :=\n  ∀ n m, n ≤ m → f n ≤ f m\n\ntheorem plus_one_mono : mono plus_one := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

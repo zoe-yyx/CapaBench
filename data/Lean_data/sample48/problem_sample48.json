@@ -1,0 +1,6 @@
+{
+    "problem": "theorem andIntro (A B : Prop) : A → B → A ∧ B := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

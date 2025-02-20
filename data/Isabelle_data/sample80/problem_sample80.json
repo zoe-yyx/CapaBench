@@ -1,0 +1,6 @@
+{
+    "problem": "theory ReverseHeight\n  imports Main\nbegin\n\ndatatype tree =\n  Leaf\n| Node tree int tree\n\nfun tree_reverse :: \"tree \\<Rightarrow> tree\" where\n  \"tree_reverse Leaf = Leaf\"\n| \"tree_reverse (Node l v r) = Node (tree_reverse r) v (tree_reverse l)\"\n\nfun tree_height :: \"tree \\<Rightarrow> int\" where\n  \"tree_height Leaf = 0\"\n| \"tree_height (Node l v r) = max (tree_height l) (tree_height r) + 1\"\n\nlemma reverse_height: \"tree_height (tree_reverse t) = tree_height t\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

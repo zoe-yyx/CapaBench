@@ -1,0 +1,6 @@
+{
+    "problem": "open Classical\n\ntheorem notExists {X : Type} (P : X → Prop) :\n  ¬ (∃ x : X, P x) → ∀ x : X, ¬ P x := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

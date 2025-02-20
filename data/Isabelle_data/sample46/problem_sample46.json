@@ -1,0 +1,6 @@
+{
+    "problem": "theory TreeExample0TreeReverse\n  imports Main\nbegin\n\ndatatype tree = Leaf | Node tree int tree\n\ndefinition tree_example0 :: tree where\n\"tree_example0 = Node Leaf 1 Leaf\"\n\nfun tree_reverse :: \"tree \\<Rightarrow> tree\" where\n\"tree_reverse Leaf = Leaf\" |\n\"tree_reverse (Node l v r) = Node (tree_reverse r) v (tree_reverse l)\"\n\nlemma tree_example0_tree_reverse: \"tree_reverse tree_example0 = tree_example0\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

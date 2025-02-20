@@ -1,0 +1,6 @@
+{
+    "problem": "open Nat\n\n-- 定义加法函数\ndef add : Nat → Nat → Nat\n  | zero, m => m\n  | succ n', m => succ (add n' m)\n\n-- 证明加法的结合律：add n (add m p) = add (add n m) p\ntheorem addAssoc (n m p : Nat) : add n (add m p) = add (add n m) p := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

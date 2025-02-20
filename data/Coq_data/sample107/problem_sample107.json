@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.Arith.PeanoNat.\n   Inductive nat := | O: nat | S (n: nat): nat.\n  Fixpoint add (n m: nat): nat :=   match n with   | O => m   | S n' => S (add n' m)   end.\n  Fixpoint mul (n m: nat): nat :=   match n with   | O => O   | S p => add m (mul p m)   end.\n  Theorem mul_comm:   forall n m, mul n m = mul m n.\n Proof.\n Admitted.\n  Theorem mul_add_distr_r:   forall n m p, mul (add n m) p = add (mul n p) (mul m p).\n Proof.\n Admitted.\n  Theorem mul_add_distr_l:   forall n m p, mul n (add m p) = add (mul n m) (mul n p). \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   intros n m p.   rewrite (mul_comm n (add m p)), (mul_comm n m), (mul_comm n p).   apply mul_add_distr_r. Qed.",
+    "proposition": "mul_add_distr_l",
+    "id": "./data/107.v"
+}

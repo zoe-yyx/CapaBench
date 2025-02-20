@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Require Import Coq.Setoids.Setoid.\n Require Import Coq.Logic.Classical_Prop.\n Local Open Scope Z.\n  Example not_ex1: forall n m: Z, n < m \\/ ~ n < m. \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   intros.   pose proof classic (n < m).   apply H. Qed.",
+    "proposition": "not_ex1",
+    "id": "./data/64.v"
+}

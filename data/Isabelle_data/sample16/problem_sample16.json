@@ -1,0 +1,6 @@
+{
+    "problem": "theory FixpointSelfComp23\n  imports Main\nbegin\n\ndefinition Zcomp :: \"(int \\<Rightarrow> int) \\<Rightarrow> (int \\<Rightarrow> int) \\<Rightarrow> int \\<Rightarrow> int\" where\n  \"Zcomp f g \\<equiv> \\<lambda> x. f (g x)\"\n\ndefinition is_fixpoint :: \"(int \\<Rightarrow> int) \\<Rightarrow> int \\<Rightarrow> bool\" where\n  \"is_fixpoint f x \\<equiv> f x = x\"\n\nlemma fixpoint_self_comp23:\n  assumes \"is_fixpoint (Zcomp f f) x\"\n      and \"is_fixpoint (Zcomp f (Zcomp f f)) x\"\n    shows \"is_fixpoint f x\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

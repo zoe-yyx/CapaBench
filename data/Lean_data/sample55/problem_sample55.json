@@ -1,0 +1,6 @@
+{
+    "problem": "theorem iffRefl (P : Prop) : P ↔ P := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

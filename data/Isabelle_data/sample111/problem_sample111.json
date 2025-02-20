@@ -1,0 +1,6 @@
+{
+    "problem": "theory ConstMono\n  imports Main\nbegin\n\n(* 定义单调性 *)\ndefinition mono :: \"(int \\<Rightarrow> int) \\<Rightarrow> bool\" where\n  \"mono f \\<equiv> \\<forall>n m. n \\<le> m \\<longrightarrow> f n \\<le> f m\"\n\n(* 证明常数函数是单调的 *)\nlemma const_mono: \"\\<forall>a. mono (\\<lambda>x. a)\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

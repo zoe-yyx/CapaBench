@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Require Import Coq.Setoids.Setoid.\n Require Import Coq.Logic.Classical_Prop.\n Local Open Scope Z.\n Theorem modus_ponens: forall P Q: Prop,   P /\\ (P -> Q) -> Q. \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   intros P Q H.   destruct H as [HP HPQ].   apply HPQ.   assumption. Qed.",
+    "proposition": "modus_ponens",
+    "id": "./data/84.v"
+}

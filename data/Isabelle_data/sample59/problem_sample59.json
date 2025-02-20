@@ -1,0 +1,6 @@
+{
+    "problem": "theory ReverseSize\n  imports Main\nbegin\n\ndatatype tree = Leaf | Node tree int tree\n\nfun tree_reverse :: \"tree \\<Rightarrow> tree\" where\n  \"tree_reverse Leaf = Leaf\"\n| \"tree_reverse (Node l v r) = Node (tree_reverse r) v (tree_reverse l)\"\n\nfun tree_size :: \"tree \\<Rightarrow> int\" where\n  \"tree_size Leaf = 0\"\n| \"tree_size (Node l v r) = tree_size l + tree_size r + 1\"\n\nlemma reverse_size: \"tree_size (tree_reverse t) = tree_size t\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

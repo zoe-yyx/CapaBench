@@ -1,0 +1,6 @@
+{
+    "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\nset_option linter.unusedVariables false\n\ntheorem sum_of_sqr_lt (x y : ℤ) (h : x < y) : x * x + x * y + y * y > 0 := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

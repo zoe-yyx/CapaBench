@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Require Import Coq.Setoids.Setoid.\n Local Open Scope Z.\n Definition Zcomp (f g: Z -> Z): Z -> Z :=   fun x => f (g x).\n  Definition is_fixpoint (f: Z -> Z) (x: Z): Prop :=   f x = x.\n   Theorem fixpoint_self_comp: forall f x,   is_fixpoint f x ->   is_fixpoint (Zcomp f f) x. \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   unfold is_fixpoint, Zcomp.   intros.   rewrite H.   rewrite H.   reflexivity. Qed.",
+    "proposition": "fixpoint_self_comp",
+    "id": "./data/28.v"
+}

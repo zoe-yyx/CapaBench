@@ -1,0 +1,6 @@
+{
+    "problem": "theorem dist_exists_and {X : Type} (P Q : X → Prop) :\n    (∃ x, P x ∧ Q x) → (∃ x, P x) ∧ (∃ x, Q x) := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

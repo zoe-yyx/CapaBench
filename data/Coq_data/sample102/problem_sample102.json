@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.Arith.PeanoNat.\n   Inductive nat := | O: nat | S (n: nat): nat.\n  Fixpoint add (n m: nat): nat :=   match n with   | O => m   | S n' => S (add n' m)   end.\n  Theorem add_comm: forall n m,   add n m = add m n.\n Proof.\n Admitted.\n   Theorem add_cancel_l:   forall n m p, add p n = add p m <-> n = m.\n Proof.\n Admitted.\n  Theorem add_cancel_r:   forall n m p, add n p = add m p <-> n = m. \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   intros n m p.   rewrite (add_comm n p), (add_comm m p).   apply add_cancel_l. Qed.",
+    "proposition": "add_cancel_r",
+    "id": "./data/102.v"
+}

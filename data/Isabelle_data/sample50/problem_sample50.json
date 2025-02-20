@@ -1,0 +1,6 @@
+{
+    "problem": "theory NodeInjLeft\n  imports Main\nbegin\n\ndatatype tree = Leaf | Node tree int tree\n\nlemma Node_inj_left: \n  assumes \"Node l1 v1 r1 = Node l2 v2 r2\"\n  shows \"l1 = l2\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

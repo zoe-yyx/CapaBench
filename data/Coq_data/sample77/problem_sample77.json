@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Require Import Coq.Setoids.Setoid.\n Require Import Coq.Logic.Classical_Prop.\n Local Open Scope Z.\n Fact logic_ex9: forall {A B: Type} (P Q: A -> B -> Prop),   (forall (a: A) (b: B), ~ P a b \\/ Q a b) ->   (forall (a: A) (b: B), P a b -> Q a b). \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   intros A B P Q H.   intros a b HP.   specialize (H a b).   destruct H as [HnP | HQ].   - contradiction.   - assumption. Qed.",
+    "proposition": "logic_ex9",
+    "id": "./data/77.v"
+}

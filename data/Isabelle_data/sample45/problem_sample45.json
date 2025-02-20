@@ -1,0 +1,6 @@
+{
+    "problem": "theory FourIsEven\n  imports Main\nbegin\n\nlemma four_is_even: \"\\<exists>n. 4 = n + n\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

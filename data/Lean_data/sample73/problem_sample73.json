@@ -1,0 +1,6 @@
+{
+    "problem": "theorem logicEx5 {A : Type} (P Q : A → Prop) :\n  (∀ a : A, P a → Q a) →\n  (∀ a : A, P a) →\n  (∀ a : A, Q a) := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

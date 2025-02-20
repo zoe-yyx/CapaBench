@@ -1,0 +1,6 @@
+{
+    "problem": "theory LogicEx9\n  imports Main\nbegin\n\nlemma logic_ex9:\n  fixes P Q :: \"'a \\<Rightarrow> 'b \\<Rightarrow> bool\"\n  assumes H: \"\\<forall>a b. \\<not> P a b \\<or> Q a b\"\n  shows \"\\<forall>a b. P a b \\<longrightarrow> Q a b\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

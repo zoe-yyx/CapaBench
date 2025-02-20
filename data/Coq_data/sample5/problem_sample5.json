@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.Setoids.Setoid.\n Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Local Open Scope Z.\n Fact sum_of_sqr1: forall x y: Z,   x * x + y * y >= x * y.\n Proof.\n nia.\n Qed.\n  Example quad_ex1: forall x y: Z,   x * x + 2 * x * y + y * y + x + y + 1 >= 0. \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   intros.   pose proof sum_of_sqr1 (x + y) (-1).   nia. Qed.",
+    "proposition": "quad_ex1",
+    "id": "./data/5.v"
+}

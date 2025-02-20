@@ -1,0 +1,6 @@
+{
+    "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\n\ntheorem sum_of_sqr2 (x y : ℤ) : x * x + y * y ≥ 2 * x * y := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

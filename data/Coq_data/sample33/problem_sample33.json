@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Require Import Coq.Setoids.Setoid.\n Local Open Scope Z.\n   Inductive tree: Type := | Leaf: tree | Node (l: tree) (v: Z) (r: tree): tree.\n    Fixpoint tree_reverse (t: tree): tree :=   match t with   | Leaf => Leaf   | Node l v r => Node (tree_reverse r) v (tree_reverse l)   end.\n  Example Leaf_tree_reverse:   tree_reverse Leaf = Leaf. \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof. reflexivity. Qed.",
+    "proposition": "Leaf_tree_reverse",
+    "id": "./data/33.v"
+}

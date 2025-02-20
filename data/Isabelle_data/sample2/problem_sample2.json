@@ -1,0 +1,6 @@
+{
+    "problem": "theory PlusAssoc\n  imports Main\nbegin\n\n\n(* 定义关联性（associativity） *)\ndefinition assoc :: \"(int \\<Rightarrow> int \\<Rightarrow> int) \\<Rightarrow> bool\" where\n  \"assoc f \\<longleftrightarrow> (\\<forall>x y z. f x (f y z) = f (f x y) z)\"\n\n(* 证明加法是关联的 *)\nlemma plus_assoc: \"assoc (\\<lambda>x y. x + y)\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

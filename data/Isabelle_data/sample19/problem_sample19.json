@@ -1,0 +1,6 @@
+{
+    "problem": "theory FixpointSelfComp\n  imports Main\nbegin\n\ndefinition Zcomp :: \"(int \\<Rightarrow> int) \\<Rightarrow> (int \\<Rightarrow> int) \\<Rightarrow> int \\<Rightarrow> int\" where\n\"Zcomp f g x = f (g x)\"\n\ndefinition is_fixpoint :: \"(int \\<Rightarrow> int) \\<Rightarrow> int \\<Rightarrow> bool\" where\n\"is_fixpoint f x = (f x = x)\"\n\ntheorem fixpoint_self_comp: \n  assumes \"is_fixpoint f x\"\n  shows \"is_fixpoint (Zcomp f f) x\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

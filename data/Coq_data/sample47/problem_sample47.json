@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Require Import Coq.Setoids.Setoid.\n Require Import Coq.Logic.Classical_Prop.\n Local Open Scope Z.\n    Fact logic_ex3: forall {A: Type} (P Q: A -> Prop),   (forall a: A, P a -> Q a) ->   (forall a: A, ~ Q a -> ~ P a). \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof. intros A P Q H a. pose proof H a. tauto. Qed.",
+    "proposition": "logic_ex3",
+    "id": "./data/47.v"
+}

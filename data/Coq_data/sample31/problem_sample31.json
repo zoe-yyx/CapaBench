@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Require Import Coq.Setoids.Setoid.\n Local Open Scope Z.\n   Inductive tree: Type := | Leaf: tree | Node (l: tree) (v: Z) (r: tree): tree.\n   Definition tree_example2a: tree :=   Node (Node Leaf 8 Leaf) 100 (Node Leaf 9 Leaf).\n  Fixpoint tree_height (t: tree): Z :=   match t with   | Leaf => 0   | Node l v r => Z.max (tree_height l) (tree_height r) + 1   end.\n    Example tree_example2a_height:   tree_height tree_example2a = 2. \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof. reflexivity. Qed.",
+    "proposition": "tree_example2a_height",
+    "id": "./data/31.v"
+}

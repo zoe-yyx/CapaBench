@@ -1,0 +1,6 @@
+{
+    "problem": "open Classical\n\ntheorem not_imply_iff (P Q : Prop) : ¬ (P → Q) ↔ P ∧ ¬ Q := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

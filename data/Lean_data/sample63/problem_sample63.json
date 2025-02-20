@@ -1,0 +1,6 @@
+{
+    "problem": "open Classical\n\ntheorem notEx1 (n m : Int) : n < m ∨ ¬ n < m := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

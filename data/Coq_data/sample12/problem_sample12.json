@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.Setoids.Setoid.\n Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Local Open Scope Z.\n  Definition square (x: Z): Z := x * x.\n Definition nonneg (x: Z): Prop := x >= 0.\n    Fact nonneg_square: forall x: Z,   nonneg (square x). \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.  unfold nonneg, square. nia. Qed.",
+    "proposition": "nonneg_square",
+    "id": "./data/12.v"
+}

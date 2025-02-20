@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.Setoids.Setoid.\n Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Local Open Scope Z.\n Fact chickens_and_rabbits: forall C R: Z,   C + R = 35 ->   2 * C + 4 * R = 94 ->   C = 23.  \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.  lia.  Qed.",
+    "proposition": "chickens_and_rabbits",
+    "id": "./data/1.v"
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "theory ModusPonens\n  imports Main\nbegin\n\nlemma modus_ponens: \"P \\<longrightarrow> Q \\<Longrightarrow> P \\<Longrightarrow> Q\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Require Import Coq.Setoids.Setoid.\n Require Import Coq.Logic.Classical_Prop.\n Local Open Scope Z.\n Theorem or_congr: forall P1 Q1 P2 Q2: Prop,   (P1 <-> P2) ->   (Q1 <-> Q2) ->   (P1 \\/ Q1 <-> P2 \\/ Q2). \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   intros P1 Q1 P2 Q2 HPQ HQR.   split.   - intros [HP1 | HQ1].     + left. apply HPQ. assumption.     + right. apply HQR. assumption.   - intros [HP2 | HQ2].     + left. apply HPQ. assumption.     + right. apply HQR. assumption. Qed. ",
+    "proposition": "or_congr",
+    "id": "./data/90.v"
+}

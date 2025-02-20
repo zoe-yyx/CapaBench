@@ -1,0 +1,6 @@
+{
+    "problem": "theory Square5\n  imports Main\nbegin\n\ndefinition square :: \"int \\<Rightarrow> int\" where\n\"square x = x * x\"\n\nlemma square_5: \"square 5 = 25\"\n\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

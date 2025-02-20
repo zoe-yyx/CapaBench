@@ -1,0 +1,6 @@
+{
+    "problem": "theory NotForallImply\n  imports Main\nbegin\n\n(* 对应 Coq 中的 not_imply_iff 定理 *)\ntheorem not_imply_iff: \n  assumes \"\\<not> (P \\<longrightarrow> Q)\"\n  shows \"P \\<and> \\<not> Q\"\n  using assms by auto\n\n(* 对应 Coq 中的 forall_iff 定理 *)\ntheorem forall_iff: \n  assumes \"\\<forall>x. (P x \\<longleftrightarrow> Q x)\"\n  shows \"(\\<forall>x. P x) \\<longleftrightarrow> (\\<forall>x. Q x)\"\n  using assms by blast\n\n(* 对应 Coq 中的 not_exists 定理 *)\ntheorem not_exists: \n  assumes \"\\<not> (\\<exists>x. P x)\"\n  shows \"\\<forall>x. \\<not> P x\"\n  using assms by auto\n\n(* 对应 Coq 中的 not_forall 定理 *)\ntheorem not_forall: \n  assumes \"\\<not> (\\<forall>x. P x)\"\n  shows \"\\<exists>x. \\<not> P x\"\n  using assms by auto\n\n(* 对应 Coq 中的 corollary not_forall_imply *)\ncorollary not_forall_imply: \n  assumes \"\\<not> (\\<forall>x. P x \\<longrightarrow> Q x)\"\n  shows \"\\<exists>x. P x \\<and> \\<not> Q x\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

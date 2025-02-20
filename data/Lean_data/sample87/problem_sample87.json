@@ -1,0 +1,6 @@
+{
+    "problem": "theorem andOrAbsorb (P Q : Prop) :\n  P ∧ (P ∨ Q) ↔ P := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

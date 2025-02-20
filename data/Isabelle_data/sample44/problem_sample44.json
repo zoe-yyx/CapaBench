@@ -1,0 +1,6 @@
+{
+    "problem": "theory OrImply\n  imports Main\nbegin\n\ntheorem or_imply: \"(P \\<or> Q \\<longrightarrow> R) \\<longleftrightarrow> (P \\<longrightarrow> R) \\<and> (Q \\<longrightarrow> R)\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.Setoids.Setoid.\n Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Local Open Scope Z.\n Definition shift_up1 (f: Z -> Z) (x: Z): Z :=   f x + 1.\n Definition func_plus (f g: Z -> Z): Z -> Z :=   fun x => f x + g x.\n  Fact shift_up1_eq: forall f,   shift_up1 f = func_plus f (fun x => 1). \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof. intros f. unfold shift_up1. unfold func_plus. reflexivity. Qed.",
+    "proposition": "shift_up1_eq",
+    "id": "./data/25.v"
+}

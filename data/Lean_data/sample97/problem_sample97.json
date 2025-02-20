@@ -1,0 +1,6 @@
+{
+    "problem": "-- 定义加法函数\ndef add (n m : Nat) : Nat :=\n  match n with\n  | Nat.zero => m\n  | Nat.succ n' => Nat.succ (add n' m)\n\n-- 证明加法右边加零等于自身\ntheorem add_zero_right (n : Nat) : add n Nat.zero = n := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

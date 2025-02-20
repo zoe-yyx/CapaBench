@@ -1,0 +1,6 @@
+{
+    "problem": "theorem forallIff {X : Type} (P Q : X → Prop) :\n  (∀ x : X, P x ↔ Q x) →\n  ((∀ x : X, P x) ↔ (∀ x : X, Q x)) := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.Setoids.Setoid.\n Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Local Open Scope Z.\n Fact teachers_and_children: forall MT FT MC FC: Z,   MT > 0 ->   FT > 0 ->   MC > 0 ->   FC > 0 ->   MT + FT + MC + FC = 16 ->   MC + FC > MT + FT ->   FT > FC ->   FC > MC ->   MC > MT ->   MT = 1.  \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.  lia.  Qed. ",
+    "proposition": "teachers_and_children",
+    "id": "./data/2.v"
+}

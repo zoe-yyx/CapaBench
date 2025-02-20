@@ -1,0 +1,6 @@
+{
+    "problem": "theory AndCongr\n  imports Main\nbegin\n\nlemma and_congr:\n  \"((P1 \\<longleftrightarrow> P2) \\<and> (Q1 \\<longleftrightarrow> Q2)) \\<longrightarrow> (P1 \\<and> Q1 \\<longleftrightarrow> P2 \\<and> Q2)\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

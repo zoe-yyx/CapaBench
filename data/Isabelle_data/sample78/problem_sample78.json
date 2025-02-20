@@ -1,0 +1,6 @@
+{
+    "problem": "theory AndOrAbsorb\n  imports Main\nbegin\n\nlemma and_or_absorb:\n  \"P \\<and> (P \\<or> Q) \\<longleftrightarrow> P\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

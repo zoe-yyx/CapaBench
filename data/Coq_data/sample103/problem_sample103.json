@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.Arith.PeanoNat.\n   Inductive nat := | O: nat | S (n: nat): nat.\n  Fixpoint add (n m: nat): nat :=   match n with   | O => m   | S n' => S (add n' m)   end.\n  Fixpoint mul (n m: nat): nat :=   match n with   | O => O   | S p => add m (mul p m)   end.\n  Lemma mul_0_r: forall n, mul n O = O. \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   intros.   induction n; simpl.   + reflexivity.   + apply IHn. Qed.",
+    "proposition": "mul_0_r",
+    "id": "./data/103.v"
+}

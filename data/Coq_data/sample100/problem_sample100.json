@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.Arith.PeanoNat.\n   Inductive nat := | O: nat | S (n: nat): nat.\n  Fixpoint add (n m: nat): nat :=   match n with   | O => m   | S n' => S (add n' m)   end.\n  Theorem add_assoc:   forall n m p, add n (add m p) = add (add n m) p. \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   intros n m p; induction n; simpl.   + reflexivity.   + simpl.     rewrite IHn.     reflexivity. Qed.",
+    "proposition": "add_assoc",
+    "id": "./data/100.v"
+}

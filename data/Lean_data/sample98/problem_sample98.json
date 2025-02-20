@@ -1,0 +1,6 @@
+{
+    "problem": "open Nat\n\n-- 定义加法函数\ndef add : Nat → Nat → Nat\n\n  | zero, m => m\n  | succ n', m => succ (add n' m)\n\n-- 证明 add n (succ m) = succ (add n m)\ntheorem addSuccR (n m : Nat) : add n (succ m) = succ (add n m) := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

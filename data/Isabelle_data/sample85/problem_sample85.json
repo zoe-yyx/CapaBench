@@ -1,0 +1,6 @@
+{
+    "problem": "theory NonnegSquare\n  imports Main\nbegin\n\ndefinition square :: \"int \\<Rightarrow> int\" where\n\"square x = x * x\"\n\ndefinition nonneg :: \"int \\<Rightarrow> bool\" where\n\"nonneg x = (x \\<ge> 0)\"\n\nlemma nonneg_square: \"nonneg (square x)\"\n\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

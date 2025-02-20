@@ -1,0 +1,6 @@
+{
+    "problem": "open Nat\n\n-- 定义加法函数\ndef add : Nat → Nat → Nat\n  | zero, m => m\n  | succ n', m => succ (add n' m)\n\n-- 定义乘法函数\ndef mul : Nat → Nat → Nat\n  | zero, _ => zero\n  | succ p, m => add m (mul p m)\n\n-- 证明加法结合律：add n (add m p) = add (add n m) p，使用 sorry 代替证明\ntheorem addAssoc (n m p : Nat) : add n (add m p) = add (add n m) p := by\n  sorry\n\n-- 证明乘法对加法的右分配律：mul (add n m) p = add (mul n p) (mul m p)\ntheorem mulAddDistrR (n m p : Nat) : mul (add n m) p = add (mul n p) (mul m p) := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

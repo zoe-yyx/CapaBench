@@ -1,0 +1,6 @@
+{
+    "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ntheorem sum_of_sqr1 (x y : ℤ) : x * x + y * y ≥ x * y := by\n  sorry\n\ntheorem quad_ex1 (x y : ℤ) : x * x + 2 * x * y + y * y + x + y + 1 ≥ 0 := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

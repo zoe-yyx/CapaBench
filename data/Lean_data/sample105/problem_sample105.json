@@ -1,0 +1,6 @@
+{
+    "problem": "open Nat\n\n-- 定义加法函数\ndef add : Nat → Nat → Nat\n  | zero, m => m\n  | succ n', m => succ (add n' m)\n\n-- 定义乘法函数\ndef mul : Nat → Nat → Nat\n  | zero, _ => zero\n  | succ p, m => add m (mul p m)\n\n-- 证明加法交换律：add n m = add m n，使用 sorry 代替证明\ntheorem addComm (n m : Nat) : add n m = add m n := by\n  sorry\n\n-- 证明 mul n 0 = 0，使用 sorry 代替证明\ntheorem mulZeroR (n : Nat) : mul n zero = zero := by\n  sorry\n\n-- 证明 mul n (succ m) = add (mul n m) n，使用 sorry 代替证明\ntheorem mulSuccR (n m : Nat) : mul n (succ m) = add (mul n m) n := by\n  sorry\n\n-- 证明乘法交换律：mul n m = mul m n\ntheorem mulComm (n m : Nat) : mul n m = mul m n := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "theory OrDup\n  imports Main\nbegin\n\nlemma or_dup: \"P \\<or> P \\<longleftrightarrow> P\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

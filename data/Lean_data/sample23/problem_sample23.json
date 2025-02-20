@@ -1,0 +1,6 @@
+{
+    "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef mono (f : ℤ → ℤ) : Prop :=\n  ∀ n m, n ≤ m → f n ≤ f m\n\ndef shift_up1 (f : ℤ → ℤ) (x : ℤ) : ℤ :=\n  f x + 1\n\ndef preserved_by_shifting_up (P : (ℤ → ℤ) → Prop) : Prop :=\n  ∀ f, P f → P (shift_up1 f)\n\ntheorem mono_pu : preserved_by_shifting_up mono := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

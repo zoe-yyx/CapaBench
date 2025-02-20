@@ -1,0 +1,6 @@
+{
+    "problem": "theory LogicEx5\n  imports Main\nbegin\n\n(* 对应 Coq 中的 logic_ex5 事实 *)\ntheorem logic_ex5:\n  assumes \"\\<forall>a. P a \\<longrightarrow> Q a\"\n  assumes \"\\<forall>a. P a\"\n  shows \"\\<forall>a. Q a\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

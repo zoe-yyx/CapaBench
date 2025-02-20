@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.Setoids.Setoid.\n Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Local Open Scope Z.\n Definition square (x: Z): Z := x * x.\n  Example square_5: square 5 = 25. \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.  unfold square. lia. Qed. ",
+    "proposition": "square_5",
+    "id": "./data/9.v"
+}

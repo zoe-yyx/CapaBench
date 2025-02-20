@@ -1,0 +1,6 @@
+{
+    "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef square (x : ℤ) : ℤ := x * x\n\ndef shift_up1 (f : ℤ → ℤ) (x : ℤ) : ℤ :=\n  f x + 1\n\ntheorem shift_up1_square (x : ℤ) : shift_up1 square x = x * x + 1 := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

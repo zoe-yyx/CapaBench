@@ -1,0 +1,6 @@
+{
+    "problem": "theory MulAddDistrL\n  imports Main\nbegin\n\ndatatype mynat = MyZero (\"0\") | MySuc mynat\n\nfun myadd :: \"mynat \\<Rightarrow> mynat \\<Rightarrow> mynat\" where\n  \"myadd MyZero m = m\" |\n  \"myadd (MySuc n) m = MySuc (myadd n m)\"\n\nfun mymul :: \"mynat \\<Rightarrow> mynat \\<Rightarrow> mynat\" where\n  \"mymul MyZero m = MyZero\" |\n  \"mymul (MySuc n) m = myadd m (mymul n m)\"\n\ntheorem myadd_assoc: \"myadd n (myadd m p) = myadd (myadd n m) p\"\n  by (induction n; simp)\n\ntheorem mymul_add_distr_r: \"mymul (myadd n m) p = myadd (mymul n p) (mymul m p)\"\n  by (induction n; simp add: myadd_assoc)\n\ntheorem mymul_comm: \"mymul n m = mymul m n\"\n  sorry\n\ntheorem mul_add_distr_l: \"mymul n (myadd m p) = myadd (mymul n m) (mymul n p)\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

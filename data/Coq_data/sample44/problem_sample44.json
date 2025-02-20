@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Require Import Coq.Setoids.Setoid.\n Local Open Scope Z.\n   Inductive tree: Type := | Leaf: tree | Node (l: tree) (v: Z) (r: tree): tree.\n  Fixpoint tree_reverse (t: tree): tree :=   match t with   | Leaf => Leaf   | Node l v r => Node (tree_reverse r) v (tree_reverse l)   end.\n    Lemma tree_reverse_inj: forall t1 t2,   tree_reverse t1 = tree_reverse t2 ->   t1 = t2. \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   intros t1.   induction t1; simpl; intros.   + destruct t2.     - reflexivity.     - discriminate H.   + destruct t2.     - discriminate H.     - injection H as ? ? ?.       rewrite (IHt1_1 _ H1).       rewrite (IHt1_2 _ H).       rewrite H0.       reflexivity. Qed.",
+    "proposition": "tree_reverse_inj",
+    "id": "./data/44.v"
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "theorem orComm (P Q : Prop) :\n  P ∨ Q → Q ∨ P := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

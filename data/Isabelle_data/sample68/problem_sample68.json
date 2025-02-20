@@ -1,0 +1,6 @@
+{
+    "problem": "theory NotForall\n  imports Main\nbegin\n\ntheorem forall_iff:\n  assumes \"\\<forall>x. (P x \\<longleftrightarrow> Q x)\"\n  shows \"(\\<forall>x. P x) \\<longleftrightarrow> (\\<forall>x. Q x)\"\n  using assms by blast\n\ntheorem not_exists:\n  assumes \"\\<not> (\\<exists>x. P x)\"\n  shows \"\\<forall>x. \\<not> P x\"\n  using assms by blast\n\ntheorem not_forall:\n  assumes \"\\<not> (\\<forall>x. P x)\"\n  shows \"\\<exists>x. \\<not> P x\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

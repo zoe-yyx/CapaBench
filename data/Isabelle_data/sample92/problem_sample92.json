@@ -1,0 +1,6 @@
+{
+    "problem": "theory NotOrIff\n  imports Main\nbegin\n\ntheorem not_or_iff: \n  \"\\<not> (P \\<or> Q) \\<longleftrightarrow> (\\<not> P \\<and> \\<not> Q)\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

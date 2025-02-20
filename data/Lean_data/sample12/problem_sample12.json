@@ -1,0 +1,6 @@
+{
+    "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef square (x : ℤ) : ℤ := x * x\ndef nonneg (x : ℤ) : Prop := x ≥ 0\n\ntheorem nonneg_square (x : ℤ) : nonneg (square x) := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

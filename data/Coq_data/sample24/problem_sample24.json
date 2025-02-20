@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.Setoids.Setoid.\n Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Local Open Scope Z.\n Definition mono (f: Z -> Z): Prop :=   forall n m, n <= m -> f n <= f m.\n  Definition shift_left1 (f: Z -> Z) (x: Z): Z :=   f (x + 1).\n    Definition preserved_by_shifting_left (P: (Z -> Z) -> Prop): Prop :=   forall f, P f -> P (shift_left1 f).\n  Lemma mono_pl: preserved_by_shifting_left mono. \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   unfold preserved_by_shifting_left, mono, shift_left1.   intros.   pose proof H (n + 1) (m + 1) ltac:(lia).   lia. Qed.",
+    "proposition": "mono_pl",
+    "id": "./data/24.v"
+}

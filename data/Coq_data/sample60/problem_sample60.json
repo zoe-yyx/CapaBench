@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Require Import Coq.Setoids.Setoid.\n Require Import Coq.Logic.Classical_Prop.\n Local Open Scope Z.\n  Theorem dist_exists_and : forall (X: Type) (P Q: X -> Prop),   (exists x, P x /\\ Q x) -> (exists x, P x) /\\ (exists x, Q x). \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   intros.   destruct H as [x [HP HQ]].   split.   + exists x.     apply HP.   + exists x.     apply HQ. Qed.",
+    "proposition": "dist_exists_and",
+    "id": "./data/60.v"
+}

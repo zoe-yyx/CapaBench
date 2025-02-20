@@ -1,0 +1,6 @@
+{
+    "problem": "open Nat\n\n-- 定义加法函数\ndef add : Nat → Nat → Nat\n  | zero, m => m\n  | succ n', m => succ (add n' m)\n\n-- 证明加法的交换律：add n m = add m n\ntheorem addComm (n m : Nat) : add n m = add m n := by\n  -- 由于该定理被承认，因此我们用 sorry\n  sorry\n\n-- 证明加法的左消去律：add p n = add p m ↔ n = m\ntheorem addCancelL (n m p : Nat) : add p n = add p m ↔ n = m := by\n  -- 由于该定理被承认，因此我们用 sorry\n  sorry\n\n-- 证明加法的右消去律：add n p = add m p ↔ n = m\ntheorem addCancelR (n m p : Nat) : add n p = add m p ↔ n = m := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

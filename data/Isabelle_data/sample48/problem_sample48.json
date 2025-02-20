@@ -1,0 +1,6 @@
+{
+    "problem": "theory OrComm\n  imports Main\nbegin\n\ntheorem or_comm:\n  assumes \"P \\<or> Q\"\n  shows \"Q \\<or> P\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

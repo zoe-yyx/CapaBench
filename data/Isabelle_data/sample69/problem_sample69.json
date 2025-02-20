@@ -1,0 +1,6 @@
+{
+    "problem": "theory SumOfSqr1\n  imports Main\nbegin\n\nlemma sum_of_sqr1:\n  fixes x y :: int\n  shows \"x * x + y * y \\<ge> x * y\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

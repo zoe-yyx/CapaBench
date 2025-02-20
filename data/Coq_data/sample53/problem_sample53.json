@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Require Import Coq.Setoids.Setoid.\n Require Import Coq.Logic.Classical_Prop.\n Local Open Scope Z.\n  Fact or_example:   forall P Q R: Prop, (P -> R) -> (Q -> R) -> (P \\/ Q -> R). \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   intros.   destruct H1 as [HP | HQ].   + pose proof H HP.     apply H1.   + pose proof H0 HQ.     apply H1. Qed.",
+    "proposition": "or_example",
+    "id": "./data/53.v"
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Require Import Coq.Setoids.Setoid.\n Require Import Coq.Logic.Classical_Prop.\n Local Open Scope Z.\n Theorem or_dup: forall P: Prop, P \\/ P <-> P. \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   intros P.   split.   - intros H.     destruct H as [HP | HP].     + assumption.     + assumption.   - intros HP.     left.  (* You could also use `right.` here, as both are valid. *)     assumption. Qed.",
+    "proposition": "or_dup",
+    "id": "./data/83.v"
+}

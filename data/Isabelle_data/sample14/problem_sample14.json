@@ -1,0 +1,6 @@
+{
+    "problem": "theory Proj1\n  imports Main\nbegin\n\nlemma proj1:\n  fixes P Q :: \"bool\"\n  assumes H: \"P \\<and> Q\"\n  shows \"P\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "set_option linter.unusedVariables false\n\ninductive Tree : Type\n| leaf : Tree\n| node (l : Tree) (v : Int) (r : Tree) : Tree\n\nopen Tree\n\n-- 定义 treeReverse 函数\ndef treeReverse : Tree → Tree\n| leaf => leaf\n| node l v r => node (treeReverse r) v (treeReverse l)\n\n-- 定义自定义的最大值函数\ndef myMax (a b : Int) : Int :=\n  if a ≥ b then a else b\n\n-- 定义 myMax 的交换律\ntheorem myMax_comm (a b : Int) : myMax a b = myMax b a := by\n  sorry\n\n-- 定义 treeHeight 函数\ndef treeHeight : Tree → Int\n| leaf => 0\n| node l v r => myMax (treeHeight l) (treeHeight r) + 1\n\n-- 定义一个定理，用于证明翻转后的树和原树的高度相同\ntheorem reverseHeight (t : Tree) : treeHeight (treeReverse t) = treeHeight t := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

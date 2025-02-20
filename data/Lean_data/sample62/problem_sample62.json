@@ -1,0 +1,6 @@
+{
+    "problem": "theorem forallAnd (A : Type) (P Q : A → Prop) :\n  (∀ a : A, P a ∧ Q a) ↔ (∀ a : A, P a) ∧ (∀ a : A, Q a) := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

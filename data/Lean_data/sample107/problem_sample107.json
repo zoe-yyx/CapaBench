@@ -1,0 +1,6 @@
+{
+    "problem": "open Nat\n\ndef add : Nat → Nat → Nat\n| zero, m => m\n| succ n', m => succ (add n' m)\n\ndef mul : Nat → Nat → Nat\n| zero, _ => zero\n| succ n', m => add m (mul n' m)\n\ntheorem mul_comm (n m : Nat) : mul n m = mul m n := sorry\n\ntheorem mul_add_distr_r (n m p : Nat) : mul (add n m) p = add (mul n p) (mul m p) := sorry\n\ntheorem mul_add_distr_l (n m p : Nat) : mul n (add m p) = add (mul n m) (mul n p) := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "theory NotExists\n  imports Main\nbegin\n\ntheorem not_exists: \"(\\<not> (\\<exists>x. P x)) \\<Longrightarrow> (\\<forall>x. \\<not> P x)\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Require Import Coq.Setoids.Setoid.\n Require Import Coq.Logic.Classical_Prop.\n Local Open Scope Z.\n  Theorem not_exists: forall (X: Type) (P: X -> Prop),   ~ (exists x: X, P x) -> (forall x: X, ~ P x). \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   intros.   pose proof classic (P x) as [? | ?].   + assert (exists x: X, P x). {       exists x.       apply H0.     }     tauto.   + apply H0. Qed.",
+    "proposition": "not_exists",
+    "id": "./data/70.v"
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Require Import Coq.Setoids.Setoid.\n Local Open Scope Z.\n   Inductive tree: Type := | Leaf: tree | Node (l: tree) (v: Z) (r: tree): tree.\n    Lemma Node_inj_right: forall l1 v1 r1 l2 v2 r2,   Node l1 v1 r1 = Node l2 v2 r2 ->   r1 = r2. \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   intros.   injection H as ? ? ?.   apply H1. Qed.",
+    "proposition": "Node_inj_right",
+    "id": "./data/37.v"
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.Setoids.Setoid.\n Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Local Open Scope Z.\n Definition plus_one (x: Z): Z := x + 1.\n Definition shift_left1 (f: Z -> Z) (x: Z): Z :=   f (x + 1).\n    Example shift_left1_plus_one: forall x,   shift_left1 plus_one x = x + 2. \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof. unfold shift_left1, plus_one. lia. Qed.",
+    "proposition": "shift_left1_plus_one",
+    "id": "./data/14.v"
+}

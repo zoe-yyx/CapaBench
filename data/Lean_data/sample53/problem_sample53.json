@@ -1,0 +1,6 @@
+{
+    "problem": "theorem orIntrol (A B : Prop) : A → A ∨ B := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

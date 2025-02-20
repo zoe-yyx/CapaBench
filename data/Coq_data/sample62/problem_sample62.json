@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Require Import Coq.Setoids.Setoid.\n Require Import Coq.Logic.Classical_Prop.\n Local Open Scope Z.\n  Example forall_ex2: forall (X: Type) (P Q R: X -> Prop),   (forall x: X, P x /\\ Q x -> R x) ->   (forall x: X, P x -> Q x -> R x). \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   intros.   specialize (H x ltac:(tauto)).   apply H. Qed.",
+    "proposition": "forall_ex2",
+    "id": "./data/62.v"
+}

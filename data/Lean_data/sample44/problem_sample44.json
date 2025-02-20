@@ -1,0 +1,6 @@
+{
+    "problem": "def convex (f : Int → Int) : Prop :=\n  ∀ x : Int, f (x - 1) + f (x + 1) ≥ 2 * f x\n\ndef mono (f : Int → Int) : Prop :=\n  ∀ n m : Int, n ≤ m → f n ≤ f m\n\ntheorem logicEx1 (T : (Int → Int) → (Int → Int)) :\n  (∀ f, mono f → mono (T f)) →\n  (∀ f, convex f → convex (T f)) →\n  (∀ f, mono f ∧ convex f → mono (T f) ∧ convex (T f)) := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

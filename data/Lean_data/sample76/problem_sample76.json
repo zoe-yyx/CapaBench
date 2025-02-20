@@ -1,0 +1,6 @@
+{
+    "problem": "open Classical\n\ntheorem logicEx8 {A B : Type} (P Q : A → B → Prop) :\n  (∀ (a : A) (b : B), P a b → Q a b) →\n  (∀ (a : A) (b : B), ¬ P a b ∨ Q a b) := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

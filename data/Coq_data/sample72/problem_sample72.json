@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Require Import Coq.Setoids.Setoid.\n Require Import Coq.Logic.Classical_Prop.\n Local Open Scope Z.\n Theorem forall_iff : forall (X : Type) (P Q : X -> Prop),   (forall x : X, P x <-> Q x) ->   ((forall x : X, P x) <-> (forall x : X, Q x)).\n Admitted.\n  Theorem not_exists: forall (X: Type) (P: X -> Prop),   ~ (exists x: X, P x) -> (forall x: X, ~ P x).\n Admitted.\n  Theorem not_forall: forall (X: Type) (P: X -> Prop),   ~ (forall x: X, P x) -> (exists x: X, ~ P x). \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   intros.   pose proof classic (exists x: X, ~ P x) as [? | ?].   + tauto.   + pose proof not_exists _ _ H0.     assert (forall x: X, P x <-> ~ ~ P x). {       intros.       tauto.     }     pose proof forall_iff _ P (fun x => ~ ~ P x) H2.     tauto. Qed.  ",
+    "proposition": "not_forall",
+    "id": "./data/72.v"
+}

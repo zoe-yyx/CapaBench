@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Require Import Coq.Setoids.Setoid.\n Require Import Coq.Logic.Classical_Prop.\n Local Open Scope Z.\n  Theorem or_imply: forall P Q R: Prop,   (P \\/ Q -> R) <-> (P -> R) /\\ (Q -> R). \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   intros P Q R.   split.   - intros H.     split.     + intro HP. apply H. left. assumption.     + intro HQ. apply H. right. assumption.   - intros [HP HR] H.     destruct H as [HPQ | HQ].     + apply HP. assumption.     + apply HR. assumption. Qed.",
+    "proposition": "or_imply",
+    "id": "./data/93.v"
+}

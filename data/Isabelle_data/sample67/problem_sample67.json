@@ -1,0 +1,6 @@
+{
+    "problem": "theory IffImply\n  imports Main\nbegin\n  \nlemma iff_imply: \"(P \\<longleftrightarrow> Q) \\<Longrightarrow> (P \\<longrightarrow> Q)\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

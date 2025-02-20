@@ -1,0 +1,6 @@
+{
+    "problem": "theory Mul1L\n  imports Main\nbegin\n\ndatatype mynat = MyZero (\"0\") | MySuc mynat\n\nfun myadd :: \"mynat \\<Rightarrow> mynat \\<Rightarrow> mynat\" where\n  \"myadd MyZero m = m\" |\n  \"myadd (MySuc n) m = MySuc (myadd n m)\"\n\nfun mymul :: \"mynat \\<Rightarrow> mynat \\<Rightarrow> mynat\" where\n  \"mymul MyZero m = MyZero\" |\n  \"mymul (MySuc n) m = myadd m (mymul n m)\"\n\nlemma myadd_0_r: \"myadd n MyZero = n\"\n  sorry\n\ntheorem mul_1_l: \"mymul (MySuc MyZero) n = n\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

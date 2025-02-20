@@ -1,0 +1,6 @@
+{
+    "problem": "theory NotEx1\n  imports Main\nbegin\n\nlemma not_ex1: \"\\<forall>n m::int. n < m \\<or> \\<not> (n < m)\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

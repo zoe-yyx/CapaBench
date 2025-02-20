@@ -1,0 +1,6 @@
+{
+    "problem": "theory ShiftLeft1PlusOne\n  imports Main\nbegin\n\ndefinition plus_one :: \"int \\<Rightarrow> int\" where\n\"plus_one x = x + 1\"\n\ndefinition shift_left1 :: \"(int \\<Rightarrow> int) \\<Rightarrow> int \\<Rightarrow> int\" where\n\"shift_left1 f x = f (x + 1)\"\n\nlemma shift_left1_plus_one: \"shift_left1 plus_one x = x + 2\"\n\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

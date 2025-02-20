@@ -1,0 +1,6 @@
+{
+    "problem": "theory LeafNodeConflict\n  imports Main\nbegin\n\ndatatype tree = Leaf | Node tree int tree\n\nlemma Leaf_Node_conflict:\n  assumes \"Leaf = Node l v r\"\n  shows \"1 = 2\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

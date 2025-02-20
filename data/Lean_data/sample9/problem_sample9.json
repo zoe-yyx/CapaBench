@@ -1,0 +1,6 @@
+{
+    "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef square (x : ℤ) : ℤ := x * x\n\ntheorem square_5 : square 5 = 25 := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

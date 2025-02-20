@@ -1,0 +1,6 @@
+{
+    "problem": "open Classical\n\ntheorem forall_iff {X : Type} {P Q : X → Prop} :\n  (∀ x, P x ↔ Q x) → ((∀ x, P x) ↔ (∀ x, Q x)) :=\nfun h => ⟨fun hp x => (h x).1 (hp x), fun hq x => (h x).2 (hq x)⟩\n\ntheorem not_exists {X : Type} {P : X → Prop} :\n  ¬ (∃ x, P x) → ∀ x, ¬ P x :=\nfun h x hp => h ⟨x, hp⟩\n\ntheorem not_forall {X : Type} {P : X → Prop} :\n  ¬ (∀ x, P x) → ∃ x, ¬ P x := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

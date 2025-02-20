@@ -1,0 +1,6 @@
+{
+    "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef shift_left1 (f : ℤ → ℤ) (x : ℤ) : ℤ :=\n  f (x + 1)\n\ndef shift_up1 (f : ℤ → ℤ) (x : ℤ) : ℤ :=\n  f x + 1\n\ntheorem shift_up1_shift_left1_comm (f : ℤ → ℤ) :\n  shift_up1 (shift_left1 f) = shift_left1 (shift_up1 f) := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

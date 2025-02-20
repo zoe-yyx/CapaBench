@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.Setoids.Setoid.\n Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Local Open Scope Z.\n Definition smul (x y: Z): Z := x * y + x + y.\n  Example smul_ex2: smul 2 3 = 11. \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.  unfold smul. lia. Qed.",
+    "proposition": "smul_ex2",
+    "id": "./data/11.v"
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.Setoids.Setoid.\n Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Local Open Scope Z.\n Definition func_plus (f g: Z -> Z): Z -> Z :=   fun x => f x + g x.\n     Definition shift_left1 (f: Z -> Z) (x: Z): Z :=   f (x + 1).\n  Lemma shift_left1_func_plus: forall f g,   shift_left1 (func_plus f g) =   func_plus (shift_left1 f) (shift_left1 g). \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   intros.   unfold shift_left1, func_plus.   reflexivity. Qed.",
+    "proposition": "shift_left1_func_plus",
+    "id": "./data/18.v"
+}

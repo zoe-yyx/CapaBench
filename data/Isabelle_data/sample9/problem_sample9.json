@@ -1,0 +1,6 @@
+{
+    "problem": "theory ForallIff\n  imports Main\nbegin\n\ntheorem forall_iff:\n  fixes P Q :: \"'a \\<Rightarrow> bool\"\n  assumes \"\\<forall>x. P x \\<longleftrightarrow> Q x\"\n  shows \"(\\<forall>x. P x) \\<longleftrightarrow> (\\<forall>x. Q x)\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

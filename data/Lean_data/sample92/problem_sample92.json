@@ -1,0 +1,6 @@
+{
+    "problem": "theorem andImply (P Q R : Prop) :\n  (P ∧ Q → R) ↔ (P → Q → R) := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

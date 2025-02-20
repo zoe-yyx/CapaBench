@@ -1,0 +1,6 @@
+{
+    "problem": "theory LogicEx8\n  imports Main\nbegin\n\n(* 对应 Coq 中的 logic_ex8 事实 *)\ntheorem logic_ex8:\n  assumes \"\\<forall>a b. P a b \\<longrightarrow> Q a b\"\n  shows \"\\<forall>a b. \\<not> P a b \\<or> Q a b\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

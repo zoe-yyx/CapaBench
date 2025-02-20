@@ -1,0 +1,6 @@
+{
+    "problem": "theory AndComm\n  imports Main\nbegin\n\n\ntheorem and_comm:\n  fixes P Q :: \"bool\"\n  assumes H: \"P \\<and> Q\"\n  shows \"Q \\<and> P\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "Theorem or_and_distr_l: forall P Q R: Prop,   P \\/ (Q /\\ R) <-> (P \\/ Q) /\\ (P \\/ R). \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   intros P Q R.   split.   - intros [HP | [HQ HR]].     + split; left; assumption.     + split; right; [apply HQ | apply HR].   - intros [[HP | HQ] [HP' | HR]].     + left; assumption.     + left; assumption.     + left; assumption.     + right; split; [apply HQ | apply HR]. Qed.",
+    "proposition": "or_and_distr_l",
+    "id": "./data/86.v"
+}

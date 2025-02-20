@@ -1,0 +1,6 @@
+{
+    "problem": "theory SumOfSqr2\n  imports Main\nbegin\n\nlemma sum_of_sqr2: \"x * x + y * y \\<ge> 2 * x * y\" for x y :: int\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

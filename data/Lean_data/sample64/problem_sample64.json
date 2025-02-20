@@ -1,0 +1,6 @@
+{
+    "problem": "theorem notEx2 (P Q : Prop) : P → ¬ P → Q := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

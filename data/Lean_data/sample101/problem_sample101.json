@@ -1,0 +1,6 @@
+{
+    "problem": "-- 使用 Lean 内置的自然数类型和加法\ntheorem add_cancel_left (n m p : Nat) : p + n = p + m ↔ n = m := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

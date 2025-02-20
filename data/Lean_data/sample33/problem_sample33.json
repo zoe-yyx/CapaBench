@@ -1,0 +1,6 @@
+{
+    "problem": "set_option linter.unusedVariables false\n\n-- 定义 Tree 数据类型\ninductive Tree : Type\n| leaf : Tree\n| node (l : Tree) (v : Int) (r : Tree) : Tree\n\nopen Tree\n\n-- 定义 tree_reverse 函数\ndef treeReverse : Tree → Tree\n| leaf => leaf\n| node l v r => node (treeReverse r) v (treeReverse l)\n\n-- 定义一个例子\ntheorem leafTreeReverse : treeReverse leaf = leaf := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

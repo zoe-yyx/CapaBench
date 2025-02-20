@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Require Import Coq.Setoids.Setoid.\n Require Import Coq.Logic.Classical_Prop.\n Local Open Scope Z.\n   Definition convex (f: Z -> Z): Prop :=   forall x: Z, f (x - 1) + f (x + 1) >= 2 * f x.\n  Definition mono (f: Z -> Z): Prop :=   forall n m, n <= m -> f n <= f m.\n  Fact logic_ex1: forall T: (Z -> Z) -> (Z -> Z),   (forall f, mono f -> mono (T f)) ->   (forall f, convex f -> convex (T f)) ->   (forall f, mono f /\\ convex f -> mono (T f) /\\ convex (T f)).   \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   intros.   pose proof H f.   pose proof H0 f.   tauto. Qed.",
+    "proposition": "logic_ex1",
+    "id": "./data/45.v"
+}

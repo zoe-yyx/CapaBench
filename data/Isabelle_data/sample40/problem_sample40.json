@@ -1,0 +1,6 @@
+{
+    "problem": "theory SmulEx1\n  imports Main\nbegin\n\ndefinition smul :: \"int \\<Rightarrow> int \\<Rightarrow> int\" where\n\"smul x y = x * y + x + y\"\n\nlemma smul_ex1: \"smul 1 1 = 3\"\n\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

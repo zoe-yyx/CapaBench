@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Require Import Coq.Setoids.Setoid.\n Require Import Coq.Logic.Classical_Prop.\n Local Open Scope Z.\n  Lemma four_is_even : exists n, 4 = n + n. \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   exists 2.   lia. Qed.",
+    "proposition": "four_is_even",
+    "id": "./data/59.v"
+}

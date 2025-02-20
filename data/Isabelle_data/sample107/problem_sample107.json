@@ -1,0 +1,6 @@
+{
+    "problem": "theory AndOrDistrL\n  imports Main\nbegin\n\nlemma and_or_distr_l:\n  \"P \\<and> (Q \\<or> R) \\<longleftrightarrow> (P \\<and> Q) \\<or> (P \\<and> R)\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "theory LogicEx7\n  imports Main\nbegin\n\n(* 对应 Coq 中的 logic_ex7 事实 *)\ntheorem logic_ex7:\n  assumes \"\\<forall>a. P a \\<longrightarrow> Q a \\<longrightarrow> False\"\n  assumes \"Q a0\"\n  shows \"\\<not> P a0\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

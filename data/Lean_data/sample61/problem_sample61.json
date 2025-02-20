@@ -1,0 +1,6 @@
+{
+    "problem": "theorem forallEx2 (X : Type) (P Q R : X → Prop) :\n  (∀ x : X, P x ∧ Q x → R x) →\n  (∀ x : X, P x → Q x → R x) := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

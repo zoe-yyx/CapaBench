@@ -1,0 +1,6 @@
+{
+    "problem": "theory DoubleNegationIff\n  imports Main\nbegin\n\ntheorem double_negation_iff: \"\\<not>\\<not>P \\<longleftrightarrow> P\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

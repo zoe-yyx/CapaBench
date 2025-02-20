@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Require Import Coq.Setoids.Setoid.\n Require Import Coq.Logic.Classical_Prop.\n Local Open Scope Z.\n  Theorem not_or_iff: forall P Q: Prop,   ~ (P \\/ Q) <-> ~ P /\\ ~ Q. \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof. intros. tauto. Qed.",
+    "proposition": "not_or_iff",
+    "id": "./data/67.v"
+}

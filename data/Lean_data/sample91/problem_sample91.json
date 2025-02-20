@@ -1,0 +1,6 @@
+{
+    "problem": "theorem implyCongr (P1 Q1 P2 Q2 : Prop) :\n  (P1 ↔ P2) →\n  (Q1 ↔ Q2) →\n  ((P1 → Q1) ↔ (P2 → Q2)) := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

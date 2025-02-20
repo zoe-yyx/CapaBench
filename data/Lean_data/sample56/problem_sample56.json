@@ -1,0 +1,6 @@
+{
+    "problem": "theorem andDup (P : Prop) : P ∧ P ↔ P := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

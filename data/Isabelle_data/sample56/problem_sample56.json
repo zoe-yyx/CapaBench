@@ -1,0 +1,6 @@
+{
+    "problem": "theory AndAssoc1\n  imports Main\nbegin\n\ntheorem and_assoc1: \n  assumes \"P \\<and> (Q \\<and> R)\"\n  shows \"(P \\<and> Q) \\<and> R\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

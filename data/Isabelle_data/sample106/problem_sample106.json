@@ -1,0 +1,6 @@
+{
+    "problem": "theory NotImplyIff\n  imports Main\nbegin\n\ntheorem not_imply_iff: \"\\<not>(P \\<longrightarrow> Q) \\<longleftrightarrow> (P \\<and> \\<not>Q)\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "theorem modusPonens (P Q : Prop) :\n  P ∧ (P → Q) → Q := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

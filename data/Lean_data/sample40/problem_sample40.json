@@ -1,0 +1,6 @@
+{
+    "problem": "inductive Tree : Type\n| leaf : Tree\n| node (l : Tree) (v : Int) (r : Tree) : Tree\n\nopen Tree\n\n-- 定义 treeReverse 函数\ndef treeReverse : Tree → Tree\n| leaf => leaf\n| node l v r => node (treeReverse r) v (treeReverse l)\n\n-- 定义一个定理，用于证明如果翻转后的树是 leaf，那原树也是 leaf\ntheorem reverseResultLeaf (t : Tree) :\n  treeReverse t = leaf → t = leaf := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

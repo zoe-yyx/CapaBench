@@ -1,0 +1,6 @@
+{
+    "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef shift_up1 (f : ℤ → ℤ) (x : ℤ) : ℤ :=\n  f x + 1\n\ndef func_plus (f g : ℤ → ℤ) : ℤ → ℤ :=\n  fun x => f x + g x\n\ntheorem shift_up1_eq (f : ℤ → ℤ) :\n  shift_up1 f = func_plus f (fun _ => 1) := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "theory AndImply\n  imports Main\nbegin\n\nlemma and_imply:\n  \"((P \\<and> Q \\<longrightarrow> R) \\<longleftrightarrow> (P \\<longrightarrow> Q \\<longrightarrow> R))\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

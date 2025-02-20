@@ -1,0 +1,6 @@
+{
+    "problem": "set_option linter.unusedVariables false\n\ninductive Tree : Type\n| leaf : Tree\n| node (l : Tree) (v : Int) (r : Tree) : Tree\n\nopen Tree\n\ndef myMax (a b : Int) : Int :=\n  if a ≥ b then a else b\n\ndef treeHeight : Tree → Int\n| leaf => 0\n| node l v r => myMax (treeHeight l) (treeHeight r) + 1\n\ntheorem leafHeight : treeHeight leaf = 0 := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.Setoids.Setoid.\n Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Local Open Scope Z.\n Definition mono (f: Z -> Z): Prop :=   forall n m, n <= m -> f n <= f m.\n  Definition func_plus (f g: Z -> Z): Z -> Z :=   fun x => f x + g x.\n  Lemma mono_func_plus: forall f g,   mono f ->   mono g ->   mono (func_plus f g). \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof. unfold mono, func_plus. intros f g Hf Hg n m Hnm. pose proof Hg n m Hnm as Hgnm. pose proof Hf n m Hnm as Hfnm. lia. Qed. ",
+    "proposition": "mono_func_plus",
+    "id": "./data/27.v"
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.Setoids.Setoid.\n Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Local Open Scope Z.\n  Definition square (x: Z): Z := x * x.\n  Definition shift_up1 (f: Z -> Z) (x: Z): Z :=   f x + 1.\n  Example shift_up1_square: forall x,   shift_up1 square x = x * x + 1. \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof. unfold shift_up1, square. lia. Qed.",
+    "proposition": "shift_up1_square",
+    "id": "./data/15.v"
+}

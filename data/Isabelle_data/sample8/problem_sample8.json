@@ -1,0 +1,6 @@
+{
+    "problem": "theory LogicEx2\n  imports Main\nbegin\n\nlemma logic_ex2:\n  assumes \"P1 \\<and> Q1\"\n  and \"P1 \\<Longrightarrow> P2\"\n  and \"Q1 \\<Longrightarrow> Q2\"\n  shows \"P2 \\<and> Q2\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

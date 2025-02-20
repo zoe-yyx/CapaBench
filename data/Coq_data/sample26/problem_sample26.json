@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.Setoids.Setoid.\n Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Local Open Scope Z.\n Definition mono (f: Z -> Z): Prop :=   forall n m, n <= m -> f n <= f m.\n  Lemma const_mono: forall a: Z,   mono (fun x => a). \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof. unfold mono. lia. Qed.",
+    "proposition": "const_mono",
+    "id": "./data/26.v"
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "Require Import Coq.ZArith.ZArith.\n Require Import Coq.micromega.Psatz.\n Require Import Coq.Setoids.Setoid.\n Require Import Coq.Logic.Classical_Prop.\n Local Open Scope Z.\n  Lemma six_is_not_prime: exists n, 2 <= n < 6 /\\ exists q, n * q = 6. \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   exists 2. (* Choose n = 2 *)   split.   - (* Show that 2 <= 2 < 6 *)     split.     + (* 2 <= 2 *)       auto with arith.       reflexivity.     + (* 2 < 6 *)       auto with arith.       reflexivity.   - (* Show that there exists q such that 2 * q = 6 *)     exists 3. (* Choose q = 3 *)     reflexivity. Qed. ",
+    "proposition": "six_is_not_prime",
+    "id": "./data/94.v"
+}

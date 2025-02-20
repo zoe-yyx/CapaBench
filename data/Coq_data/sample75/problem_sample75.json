@@ -1,0 +1,6 @@
+{
+    "problem": "Fact logic_ex7: forall {A: Type} (P Q: A -> Prop) (a0: A),   (forall a: A, P a -> Q a -> False) ->   Q a0 ->   ~ P a0. \n(**********)\n(** Fill in your proof here*)\n(**********)",
+    "proof": "Proof.   intros A P Q a0 Hcontradiction HQ.   unfold not.   intros HP.   apply Hcontradiction with a0.   - apply HP.   - apply HQ. Qed.",
+    "proposition": "logic_ex7",
+    "id": "./data/75.v"
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "theorem logicEx6 {A : Type} (P Q : A → Prop) (a0 : A) :\n  P a0 →\n  (∀ a : A, P a → Q a) →\n  Q a0 := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

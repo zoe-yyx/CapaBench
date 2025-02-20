@@ -1,0 +1,6 @@
+{
+    "problem": "theory DistExistsAnd\n  imports Main\nbegin\n\ntheorem dist_exists_and:\n  assumes \"\\<exists>x. P x \\<and> Q x\"\n  shows \"(\\<exists>x. P x) \\<and> (\\<exists>x. Q x)\"\n(* Fill Your Proof Here *)\nend",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}

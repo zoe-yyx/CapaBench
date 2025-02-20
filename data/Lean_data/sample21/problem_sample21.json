@@ -1,0 +1,6 @@
+{
+    "problem": "import Mathlib.Tactic.Ring\nset_option linter.unusedTactic false\n\ndef assoc (f : ℤ → ℤ → ℤ) : Prop :=\n  ∀ x y z, f x (f y z) = f (f x y) z\n\ntheorem plus_assoc : assoc (fun x y => x + y) := by\n  ",
+    "proof": null,
+    "proposition": null,
+    "id": null
+}
