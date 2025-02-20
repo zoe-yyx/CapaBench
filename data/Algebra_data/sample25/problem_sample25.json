@@ -1,0 +1,8 @@
+{
+    "problem": "Find the smallest value of $x$ that satisfies the equation $|3x - 2| = 4$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "For $|3x - 2| = 4$, we solve two equations: $3x - 2 = 4 \\Rightarrow 3x = 6 \\Rightarrow x = 2$ and $3x - 2 = -4 \\Rightarrow 3x = -2 \\Rightarrow x = -\\frac{2}{3}$. Among these, the smallest value is $x = \\boxed{-\\frac{2}{3}}$.",
+    "knowledge_point": "Inequalities and Absolute Values",
+    "id": 25
+}

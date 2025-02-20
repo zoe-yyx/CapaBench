@@ -1,0 +1,8 @@
+{
+    "problem": "If $x \\diamond y = 3x - 2y$ for all $x$ and $y$, then what is the value of $5 \\diamond 4$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We have $5 \\diamond 4 = 3(5) - 2(4) = 15 - 8 = \\boxed{7}$.",
+    "knowledge_point": "Polynomials and Polynomial Operations",
+    "id": 29
+}

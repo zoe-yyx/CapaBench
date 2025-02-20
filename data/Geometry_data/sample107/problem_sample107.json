@@ -1,0 +1,8 @@
+{
+    "problem": "Compute $\\cos 150^\\circ$.",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "The angle $150^\\circ$ lies in the second quadrant where cosine is negative. It can be thought of as $180^\\circ - 30^\\circ$, making it the negative cosine of $30^\\circ$. Thus, $\\cos 150^\\circ = -\\cos 30^\\circ = -\\left(\\frac{\\sqrt{3}}{2}\\right) = \\boxed{-\\frac{\\sqrt{3}}{2}}$.",
+    "knowledge_point": "Fundamentals of Trigonometry",
+    "id": 107
+}

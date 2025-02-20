@@ -1,0 +1,8 @@
+{
+    "problem": "Given two functions $f(x) = 3x - 5$ and $h(x) = f(f(x)) + 1$, determine $h^{-1}(h(2))$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "First calculate $f(2) = 3(2) - 5 = 1$. Then $f(f(2)) = f(1) = 3(1) - 5 = -2$. Therefore, $h(2) = f(f(2)) + 1 = -2 + 1 = -1$. \n\nSince $h(x)$ is calculated based on $f(f(x)) + 1$, and $f(f(x))$ is a composition of linear functions, it is also linear. To find $h^{-1}(h(2))$, we look for $x$ such that $h(x) = -1$. Given the calculation, $h(x) = -1$ when $x = 2$. Thus, $h^{-1}(h(2)) = h^{-1}(-1) = 2$. Therefore, the solution is $\\boxed{2}$.",
+    "knowledge_point": "Function Composition and Inverses",
+    "id": 170
+}

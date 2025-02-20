@@ -1,0 +1,8 @@
+{
+    "problem": "A function is given by $f(x) = ax^2 + bx + c$. If the vertex of this parabola is at the point $(h, k)$ and it passes through the point $(p, q)$, express $a$ in terms of $h$, $k$, $p$, and $q$.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "Since the vertex of the parabola is at $(h, k)$, the vertex form of the function is $f(x) = a(x - h)^2 + k$. Substituting $(p, q)$ into the vertex form, we get $q = a(p - h)^2 + k$, which implies $a = \\boxed{\\frac{q - k}{(p - h)^2}}$.",
+    "knowledge_point": "Quadratic Equations and Functions",
+    "id": 231
+}

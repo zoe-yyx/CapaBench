@@ -1,0 +1,8 @@
+{
+    "problem": "In square $ABCD$, a point $P$ lies on side $CD$ such that $DP=3$ times $PC$. If $AB=12$ cm, find the area of triangle $APD$.",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "Since $DP=3 \\times PC$, let $PC=x$. Then, $DP=3x$ and $CD=4x$. Since $CD=12$ cm, $x=3$ cm. Therefore, $DP=9$ cm. Triangle $APD$ is a right triangle (as all angles in a square are right angles) with legs $AP=12$ cm and $PD=9$ cm. Area of $APD = \\frac{1}{2} \\times AP \\times PD = \\frac{1}{2} \\times 12 \\times 9 = 54$ square cm. \\(\\boxed{54}\\)",
+    "knowledge_point": "Quadrilateral Features and Classifications",
+    "id": 182
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "If $3^{x}=4$, $4^{y}=5$, $5^{z}=6$, and $6^{w}=7$, find the value of $x \\cdot y \\cdot z \\cdot w$.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "To find $x \\cdot y \\cdot z \\cdot w$, we consider the chain of exponentiations: \\[ 3^{x \\cdot y \\cdot z \\cdot w} = \\left(\\left(\\left(3^x\\right)^y\\right)^z\\right)^w = \\left(\\left(4^y\\right)^z\\right)^w = \\left(5^z\\right)^w = 6^w = 7 = 3^{\\log_3 7}, \\] so $x \\cdot y \\cdot z \\cdot w = \\log_3 7$. Thus, $x \\cdot y \\cdot z \\cdot w = \\boxed{\\log_3 7}$.",
+    "knowledge_point": "Exponents and Logarithms",
+    "id": 215
+}

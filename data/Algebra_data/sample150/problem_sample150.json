@@ -1,0 +1,8 @@
+{
+    "problem": "Consider three piles of coins. The first pile has 2 more coins than twice the number in the second pile. The third pile has 5 fewer than three times the number in the second pile. If the total number of coins in all three piles is 63, how many coins are in the second pile?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Let the number of coins in the second pile be $y$. Then the first pile has $2y + 2$ coins, and the third pile has $3y - 5$ coins. The equation for the total coins is $2y + 2 + y + 3y - 5 = 63$. Simplifying, we get $6y - 3 = 63$. Solving for $y$, we add 3 to both sides to get $6y = 66$, and then divide by 6 to find $y = \\boxed{11}$. Therefore, there are approximately 11 coins in the second pile.",
+    "knowledge_point": "Systems of Linear Equations",
+    "id": 150
+}

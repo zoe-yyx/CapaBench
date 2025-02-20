@@ -1,0 +1,8 @@
+{
+    "problem": "Find the product of $(4 + 3i)$ and $(2 - 5i)$, where $i^2 = -1.$",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "$(4 + 3i)(2 - 5i) = 4(2) + 4(-5i) + 3i(2) + 3i(-5i) = 8 - 20i + 6i + 15 = \\boxed{23 - 14i}$.",
+    "knowledge_point": "Complex Numbers",
+    "id": 102
+}

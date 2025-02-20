@@ -1,0 +1,8 @@
+{
+    "problem": "In rectangle $ABCD$, $AB=8$ cm and $BC=6$ cm. What is the length of diagonal $AC$?",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "The diagonal of a rectangle can be found using the Pythagorean theorem. So, $AC = \\sqrt{AB^2 + BC^2} = \\sqrt{8^2 + 6^2} = \\sqrt{64 + 36} = \\sqrt{100} = \\boxed{10}$ cm.",
+    "knowledge_point": "Quadrilateral Features and Classifications",
+    "id": 83
+}

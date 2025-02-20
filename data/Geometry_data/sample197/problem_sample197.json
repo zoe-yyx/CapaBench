@@ -1,0 +1,8 @@
+{
+    "problem": "In the word 'SYMMETRY', how many letters have axis of symmetry?",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "The letters Y, M, E, and T have axis of symmetry. Counting these, we find there are $\\boxed{6}$ letters with axis of symmetry (since 'M' and 'Y' appear more than once).",
+    "knowledge_point": "Transformative Geometry and Symmetry",
+    "id": 197
+}

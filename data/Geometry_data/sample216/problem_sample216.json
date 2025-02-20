@@ -1,0 +1,8 @@
+{
+    "problem": "Consider a rectangle with a perimeter of 100 units. Find the maximum area a rectangle can have if its length is at most 5 units more than twice its width and at least twice its width.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "To maximize the area of a rectangle with a perimeter of 100 units, given the length is between 2w and 2w+5, we express the length as \\( l = 50 - w \\) from the perimeter equation, substitute into the area formula \\( A = l \times w \\), and evaluate the area at the boundary values \\( w = 15 \\) and \\( w = \\frac{50}{3} \\), finding the maximum area to be approximately $\\boxed{\\frac{5000}{9}}$ square units.",
+    "knowledge_point": "Geometric Inequalities and Optimization Problems",
+    "id": 216
+}

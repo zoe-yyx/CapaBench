@@ -1,0 +1,8 @@
+{
+    "problem": "A regular octagon is to be rotated about its center. What is the minimum number of degrees it must be rotated to look identical to its original position?",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "Since an octagon has 8 sides, each internal angle divided for rotation is $360/8 = 45$ degrees. Therefore, a rotation of $\\boxed{45}$ degrees will make the octagon look identical to its original position.",
+    "knowledge_point": "Transformative Geometry and Symmetry",
+    "id": 150
+}

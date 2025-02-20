@@ -1,0 +1,8 @@
+{
+    "problem": "Determine the value of $y$ if $9^{y-1} = 81^2$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "First, express 81 as a power of 9: $81 = 9^2$. So, $81^2 = (9^2)^2 = 9^4$. Now set up the equation $9^{y-1} = 9^4$. Therefore, $y-1 = 4$, leading to $y = \\boxed{5}$.",
+    "knowledge_point": "Exponents and Logarithms",
+    "id": 63
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "If two vertices of a triangle are at (0,0) and (4,0), and the third vertex is on the line y = sin(x), what is the maximum area of the triangle?",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "Since the two fixed points are both on the x-axis, we only need to consider the distance from the third point to the x-axis. The maximum value of the sine function is 1, so the maximum distance to the x-axis is also 1. Therefore, the maximum area is $0.5 \\times 4 \\times 1 = \\boxed{2}$.",
+    "knowledge_point": "Geometric Inequalities and Optimization Problems",
+    "id": 220
+}

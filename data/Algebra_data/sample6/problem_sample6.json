@@ -1,0 +1,8 @@
+{
+    "problem": "Find the sum of the coordinates of the midpoint of a line segment with endpoints at $(-3, 2)$ and $(5, 8)$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "The midpoint of a segment with endpoints $(-3, 2)$ and $(5, 8)$ is calculated as follows: $\\left(\\frac{-3+5}{2}, \\frac{2+8}{2}\\right) = (1, 5)$. Therefore, the sum of the coordinates of the midpoint is $1+5=\\boxed{6}$.",
+    "knowledge_point": "Algebra in Coordinate Geometry",
+    "id": 6
+}

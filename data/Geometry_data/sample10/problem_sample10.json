@@ -1,0 +1,8 @@
+{
+    "problem": "Compute $\\sin 45^\\circ$.",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "In a 45-45-90 triangle, both legs are equal, and the leg length over the hypotenuse (1) gives $\\sin 45^\\circ = \\frac{\\sqrt{2}}{2} = \\boxed{\\frac{\\sqrt{2}}{2}}$.",
+    "knowledge_point": "Fundamentals of Trigonometry",
+    "id": 10
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "Right triangle $XYZ$ has legs $XY = 3$ and $XZ = 4$. What is the length of the hypotenuse $YZ$?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "Using the Pythagorean theorem, $YZ^2 = XY^2 + XZ^2 = 3^2 + 4^2 = 9 + 16 = 25$. Therefore, $YZ = \\sqrt{25} = \\boxed{5}$ units.",
+    "knowledge_point": "Polygons and Their Properties",
+    "id": 22
+}

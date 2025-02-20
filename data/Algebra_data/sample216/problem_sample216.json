@@ -1,0 +1,8 @@
+{
+    "problem": "Given the function $f(x) = \\frac{5}{x-2}$ and the point $(4,a)$ is on the graph of $y = \\frac{1}{2}f(2x+1)$, find the value of $a$.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "Firstly we have $y = \\frac{1}{2}f(2x+1) = \\frac{5}{2(2x-1)}$. Then we have $a = \\frac{5}{2 \\times (2 * 4 - 1)} = \\boxed{\\frac{5}{14}}$",
+    "knowledge_point": "Function Composition and Inverses",
+    "id": 216
+}

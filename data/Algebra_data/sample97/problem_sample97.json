@@ -1,0 +1,8 @@
+{
+    "problem": "A school has 450 students and the ratio of boys to girls is 4 to 5. If each boy has 3 books and each girl has 5 books, how many books are there in total?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "First, let's determine the number of boys and girls based on the given ratio. The total parts of the ratio is 4 (boys) + 5 (girls) = 9 parts. Therefore, each part corresponds to 450 / 9 = 50 students. Thus, there are 4 parts * 50 = 200 boys and 5 parts * 50 = 250 girls. Now, calculating the number of books: boys have 3 books each, so they have 3 * 200 = 600 books; girls have 5 books each, so they have 5 * 250 = 1250 books. Adding these together, there are a total of 600 + 1250 = \\boxed{1850} books.",
+    "knowledge_point": "Systems of Linear Equations",
+    "id": 97
+}

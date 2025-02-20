@@ -1,0 +1,8 @@
+{
+    "problem": "The parallelogram is defined by points A(1,2), B(4,2), C(6,5) and D(3,5). If reflected on the line y = 2, what is the new ordinate of point C?",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "Reflecting over the line y = 2 involves changing the y-coordinate of each point to '2 - (original y - 2)'. For point C(6,5), the new y-coordinate is 2 - (5 - 2) = -1. So the new coordinates of point C are $\\boxed{-1}$.",
+    "knowledge_point": "Transformative Geometry and Symmetry",
+    "id": 200
+}

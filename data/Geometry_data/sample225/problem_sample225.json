@@ -1,0 +1,8 @@
+{
+    "problem": "A hexagon is formed by removing an equilateral triangle of length 1 from each corner of an equilateral triangle. If each side of the original equilateral triangle is 10 cm long, find the total length of all the sides of the hexagon.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "The original equilateral triangle has sides of 10 cm, and after removing a smaller triangle with side length 1 cm from each corner, each side of the hexagon becomes 4.5 cm long, resulting in a total length of 6 * 4.5 = 27 cm, so the answer is \\boxed{27}.",
+    "knowledge_point": "Polygons and Their Properties",
+    "id": 225
+}

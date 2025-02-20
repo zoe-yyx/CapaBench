@@ -1,0 +1,8 @@
+{
+    "problem": "An arithmetic sequence starts with the term 7, and the common difference is 3. What is the sum of the first 50 terms of this sequence?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "The $n^{\\text{th}}$ term of an arithmetic sequence can be found using the formula $a_n = a + (n-1) \\cdot d$, where $a$ is the first term and $d$ is the common difference. For this sequence, the first term $a=7$ and the common difference $d=3$. Therefore, the 50th term $a_{50} = 7 + (50-1) \\cdot 3 = 154$. The sum $S_n$ of the first $n$ terms of an arithmetic sequence can be calculated as $S_n = \\frac{n}{2} \\cdot (a + a_n)$. Plugging in the values, we get $S_{50} = \\frac{50}{2} \\cdot (7 + 154) = 25 \\cdot 161 = 4025$. Hence, the sum of the first 50 terms is $\\boxed{4025}$.",
+    "knowledge_point": "Sequences and Series",
+    "id": 191
+}

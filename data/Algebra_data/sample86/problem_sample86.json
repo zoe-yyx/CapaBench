@@ -1,0 +1,8 @@
+{
+    "problem": "If $m$ and $n$ are directly proportional and $m = 18$ when $n = 4$, what is the value of $m$ when $n = 16$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "By the definition of direct proportion, $m = kn$ for some constant $k$. Substituting the given values, we find $k$ as $k = \\frac{m}{n} = \\frac{18}{4} = 4.5$. Using this $k$ value, we can solve for $m$ when $n=16$: \\[m = 4.5 \\cdot 16 = \\boxed{72}.\\]",
+    "knowledge_point": "Rational Functions and Expressions",
+    "id": 86
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "Simplify the following expression: \\[\\frac{5 - 10 + 15 - 20 + 25}{4 - 8 + 12 - 16 + 20}\\]",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We can factor out the common factor in the numerator and the denominator: \\[\\frac{5(1 - 2 + 3 - 4 + 5)}{4(1 - 2 + 3 - 4 + 5)} = \\boxed{\\frac{5}{4}}\\]",
+    "knowledge_point": "Rational Functions and Expressions",
+    "id": 40
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "In a circle of radius 15 cm, two radii form an angle of 120 degrees at the center. What is the length of the arc between these two radii?",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "The length of the arc formed by an angle $\\theta = 120^\\circ$ in a circle of radius $r = 15$ cm is given by $L = \\frac{\\theta}{360} \\cdot 2\\pi r = \\frac{120}{360} \\cdot 2\\pi \\cdot 15 = \\frac{1}{3} \\cdot 30\\pi = 10\\pi$ cm. \\(\\boxed{10\\pi}\\)",
+    "knowledge_point": "Circles and Their Properties",
+    "id": 152
+}

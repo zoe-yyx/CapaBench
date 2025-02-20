@@ -1,0 +1,8 @@
+{
+    "problem": "If $(x+2y)^2 = x^2 + 4xy + 4y^2$, find the value of $(x+2y)^2$ when $x = 4$ and $y = 3$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "By substituting $x = 4$ and $y = 3$ into the equation $(x+2y)^2 = x^2 + 4xy + 4y^2$, we get $(4 + 2 \\times 3)^2 = 4^2 + 4 \\times 4 \\times 3 + 4 \\times 3^2$. This simplifies to $10^2 = 16 + 48 + 36$, which equals $100$. Therefore, the value is $\\boxed{100}$.",
+    "knowledge_point": "Polynomials and Polynomial Operations",
+    "id": 77
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "Find the largest possible volume of a cylinder that can be inscribed in a sphere with a diameter of 10 units.",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "Let the radius of the cylinder be $r$ and its height be $h$. The relation from the sphere's geometry gives $h^2 + 4r^2 = 100$. The volume $V = \\pi r^2h$ needs to be maximized. Substituting $h = \\sqrt{100 - 4r^2}$ into $V$ and differentiating with respect to $r$, we find the maximum occurs when $r = \\frac{5\\sqrt{6}}{3}$ and $h = \\frac{10\\sqrt{3}}{3}$, yielding a maximum volume of $\\boxed{\\frac{500\\sqrt{3}\\pi}{9}}$ cubic units.",
+    "knowledge_point": "Geometric Inequalities and Optimization Problems",
+    "id": 170
+}

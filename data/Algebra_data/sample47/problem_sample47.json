@@ -1,0 +1,8 @@
+{
+    "problem": "A school sells tickets for a play at $5 for adults and $3 for students. If they sold 120 tickets in total and collected $450, how many adult tickets were sold?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Let $x$ be the number of adult tickets and $y$ be the number of student tickets sold. The equations are:\n\n\\begin{align*}\nx + y &= 120, \\\\\n5x + 3y &= 450.\n\\end{align*}\n\nFirst, multiply the first equation by 3:\n\n\\begin{align*}\n3x + 3y &= 360.\n\\end{align*}\n\nNow subtract this from the second equation:\n\n\\begin{align*}\n2x &= 90 \\\\\nx &= 45.\n\\end{align*}\n\nSubstitute $x = 45$ back into the first equation:\n\n\\begin{align*}\n45 + y &= 120 \\\\\ny &= 75.\n\\end{align*}\n\nTherefore, they sold \\boxed{45} adult tickets and 75 student tickets.",
+    "knowledge_point": "Systems of Linear Equations",
+    "id": 47
+}

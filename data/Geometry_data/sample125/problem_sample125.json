@@ -1,0 +1,8 @@
+{
+    "problem": "Calculate the area of a rhombus if its diagonals are 10 units and 24 units long.",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "The area of a rhombus can be calculated as half the product of its diagonals. Area = \\frac{1}{2} \\times 10 \\times 24 = 120 \\text{ square units}. \\(\\boxed{120}\\)",
+    "knowledge_point": "Polygons and Their Properties",
+    "id": 125
+}

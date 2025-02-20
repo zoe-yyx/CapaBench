@@ -1,0 +1,8 @@
+{
+    "problem": "$1.4\\overline{5}$ can be expressed as a common fraction, determine the numerator of this common fraction.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Let $x = 1.4\\overline{5}$; 10x-x=14.\\overline{5} - 1.4\\overline{5} simplifies to 9x=13.1, thus x=13.1/9 or 131/90 as a fraction. Therefore the answer is $\\boxed{131}$.",
+    "knowledge_point": "Rational Functions and Expressions",
+    "id": 189
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "Consider a square $ABCD$ divided into 16 smaller squares. How many of these smaller squares need to be colored black to ensure that the square has both horizontal and vertical lines of symmetry?",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "To ensure both horizontal and vertical lines of symmetry, each quadrant of the square must mirror the others. This requires coloring $\\boxed{4}$ smaller squares.",
+    "knowledge_point": "Transformative Geometry and Symmetry",
+    "id": 148
+}

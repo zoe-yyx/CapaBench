@@ -1,0 +1,8 @@
+{
+    "problem": "In triangle $PQR$, $\\angle P = 90^\\circ$, and point $S$ lies on $\\overline{PR}$ such that $\\overline{QS}$ is an angle bisector. If $PQ = 24$ and $PS = 18$, find the length of $QR$.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "According to the meaning of the question, we can calculate that the sine and cosine of angle PQR are 0.6 and 0.8 respectively, so the cosine of angle Q is 7/25, and because the cosine of angle Q can be written as PQ/QR, we can calculate $QR = 25 \\times 24 / 7 = \\boxed{\\frac{600}{7}}$",
+    "knowledge_point": "Properties of Right Triangles",
+    "id": 227
+}

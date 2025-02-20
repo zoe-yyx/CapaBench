@@ -1,0 +1,8 @@
+{
+    "problem": "Point $A(-3,2)$ and point $B(7,2)$ lie on the coordinate plane. If these points are the ends of the diameter of a circle, what is the radius of the circle?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "The distance between points $A$ and $B$, which forms the diameter, is $7 - (-3) = 10$ units. Since the radius is half the diameter, the radius of the circle is $\\frac{10}{2} = \\boxed{5}$ units.",
+    "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+    "id": 12
+}

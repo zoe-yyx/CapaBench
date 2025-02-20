@@ -1,0 +1,8 @@
+{
+    "problem": "Given two circles centered at (3, 0) and (-3, 0) with radius 2, how many circles are tangent to both of these circles and also pass through the point (0, 6)?",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "Let the center of the new circle be (a, b) and its radius r. The distance between the centers of the new circle and each of the original circles is r + 2 for external tangency.\n\nFrom the center at (3, 0), we have:\n(a - 3)^2 + b^2 = (r + 2)^2\nFrom the center at (-3, 0), we have:\n(a + 3)^2 + b^2 = (r + 2)^2\n\nSubtracting these two equations gives 12a = 0, so a = 0. Then, substituting a = 0:\n9 + b^2 = (r + 2)^2\nAs the circle passes through (0, 6), we also have b^2 + (6 - b)^2 = r^2.\n\nSubstituting r = 6 - b into the earlier equation:\n9 + b^2 = (6 - b + 2)^2\n9 + b^2 = (8 - b)^2\n9 + b^2 = 64 - 16b + b^2\n16b = 55\nb = 55/16\n\nUsing b = 55/16, calculate r:\nr = 6 - 55/16 = 11/16\n\nNow, substituting a = 0, b = 55/16, and r = 11/16 into the circle equation, verify if any other circle configurations exist. However, given the constraints, there is only one circle satisfying all conditions. Thus, there is \\boxed{1} circle that is tangent to both given circles and passes through (0, 6).",
+    "knowledge_point": "Algebra in Coordinate Geometry",
+    "id": 210
+}

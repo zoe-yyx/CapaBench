@@ -1,0 +1,8 @@
+{
+    "problem": "Determine the value of the constant $c$ for which the system of equations has solution.\\begin{align*} 2x - 3y &= c, \\\\ 4x - 6y &= 5 + c \\end{align*}",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "First, we notice that the second equation can be seen as a multiple of the first if we ignore the constants on the right. Multiplying the first equation by 2 gives us $4x - 6y = 2c$. For the system to have solutions, these two equations must be not contradictory. Therefore, we equate $2c$ from the modified first equation to $5 + c$ from the second equation, giving $2c = 5 + c$. Solving for $c$ gives $c = \\boxed{5}$.",
+    "knowledge_point": "Systems of Linear Equations",
+    "id": 148
+}

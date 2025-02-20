@@ -1,0 +1,8 @@
+{
+    "problem": "If $\\tan(\\theta) = 3/4$, find the value of $|\\sin(\\theta)|$.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "Using the identity $1 + \\tan^2(\\theta) = \\sec^2(\\theta)$, we can find $\\sec(\\theta)$ and thus $\\sin(\\theta)$. We have $1 + (3/4)^2 = 25/16$, so $\\sec(\\theta) = \\sqrt{25/16} = 5/4$. Since $\\sec(\\theta) = 1/\\cos(\\theta)$, $\\cos(\\theta) = 4/5$. Using $\\sin^2(\\theta) + \\cos^2(\\theta) = 1$, we get $|\\sin(\\theta)| = \\sqrt{1 - (4/5)^2} = \\sqrt{9/25} = 3/5$. Therefore, $|\\sin(\\theta)| = \\boxed{\\frac{3}{5}}$.",
+    "knowledge_point": "Fundamentals of Trigonometry",
+    "id": 206
+}

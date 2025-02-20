@@ -1,0 +1,8 @@
+{
+    "problem": "If $h(x) = 3x - 4$ and $k(x) = x + 2$, what is the value of $h(k(x))$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "First compute $k(x) = x + 2$. Then substitute this into $h(x)$ to get $h(k(x)) = h(x+2) = 3(x+2) - 4 = 3x + 6 - 4 = \\boxed{3x + 2}$.",
+    "knowledge_point": "Function Composition and Inverses",
+    "id": 17
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "A decagonal is divided into 10 triangles by it diagonally from one vertex. If the circumference of the decagonal is 40 units, find the area of the farthest triangle in it. Give the answer in decimal and round to 2 decimal places",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "The sum of the internal angles of a regular decagonal is 180 * 8 = 1440 degrees, so each internal angle is 144 degrees. The triangle on the most side is an isosceles triangle, with a top angle of 144 degrees and both base angles of 18 degrees. From the circumference of the decagonal is 40, the side length is 4, so the base of the triangle is 2 * 4 * cos18 degrees, and the height is 4 * sin18 degrees, so the area is $0.5 * s * h = 8sin36^{\\circ} = \\boxed{4.70}$",
+    "knowledge_point": "Polygons and Their Properties",
+    "id": 175
+}

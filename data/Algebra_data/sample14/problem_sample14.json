@@ -1,0 +1,8 @@
+{
+    "problem": "Calculate $(3^2)^{(3^2)}$ and express it in the form of $3^M$. What is the value of $M$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We can simplify $(3^2)^{(3^2)} = (3^2)^9 = 3^{(2\\cdot 9)} = 3^{18}$, thus $M = \\boxed{18}$.",
+    "knowledge_point": "Exponents and Logarithms",
+    "id": 14
+}

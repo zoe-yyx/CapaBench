@@ -1,0 +1,8 @@
+{
+    "problem": "In a convex quadrilateral $ABCD$, $angle A = angle C = 120^\\circ$, and $AB = BC = CD = DA = 10$,. Find the area of $ABCD$.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "Divide $ABCD$ into triangles $ABC$ and $ACD$. For $\\triangle ABC$, since $AB = BC = CD = 10$, it's an isosceles triangle with a $120^\\circ$ angle at $A$. The area of $\\triangle ABC$ is $\\frac{1}{2} \\cdot AB \\cdot BC \\cdot \\sin(120^\\circ) = 50 \\cdot \\frac{\\sqrt{3}}{2} = 25\\sqrt{3}$. For $\\triangle ACD$, apply Heron's formula to find the area. Thus, area of $ABCD = 25\\sqrt{3} + \\text{area of } \\triangle ACD$. \\(\\boxed{50\\sqrt{3}}\\)",
+    "knowledge_point": "Quadrilateral Features and Classifications",
+    "id": 232
+}

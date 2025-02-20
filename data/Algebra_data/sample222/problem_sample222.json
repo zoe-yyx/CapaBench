@@ -1,0 +1,8 @@
+{
+    "problem": "If $x$, $y$, and $z$ are non-negative real numbers such that $x < y < z$ and $x + z = 3$, what is the minimum possible value of $|x - y| + |y - z| + |z - x|$?",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "First, observe that $|x - y| + |y - z| + |z - x| = 2(z - x)$ because $x < y < z$. To minimize $2(z - x)$, we need to minimize $(z - x)$ while maintaining $x + z = 3, x \\geq 0, z \\geq 0$. Combining numbers and shapes, it can be seen $z = 0, x = 3$. So the answer is $2(0 - 3) = \\boxed{-6}$.",
+    "knowledge_point": "Inequalities and Absolute Values",
+    "id": 222
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "A triangle has angles $45^\\circ$, $45^\\circ$, and $90^\\circ$. If the hypotenuse is 10 units, find the $\\sin$ of the $45^\\circ$ angle.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "In a 45-45-90 triangle, the legs are equal, and each leg is $\\frac{\\text{hypotenuse}}{\\sqrt{2}}$. So, each leg is $\\frac{10}{\\sqrt{2}} = 5\\sqrt{2}$. Since $\\sin(45^\\circ) = \\cos(45^\\circ) = \\frac{\\text{leg}}{\\text{hypotenuse}} = \\frac{5\\sqrt{2}}{10} = \\frac{\\sqrt{2}}{2}$. Therefore, both $\\sin(45^\\circ)$ and $\\cos(45^\\circ) = \\boxed{\\frac{\\sqrt{2}}{2}}$.",
+    "knowledge_point": "Fundamentals of Trigonometry",
+    "id": 208
+}

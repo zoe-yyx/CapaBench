@@ -1,0 +1,8 @@
+{
+    "problem": "If a sphere has a radius of 5 cm, what is its surface area?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "The surface area of a sphere is given by $A = 4\\pi r^2$. For a radius of 5 cm, the surface area is $A = 4\\pi (5)^2 = 100\\pi = \\boxed{100\\pi}$ square centimeters.",
+    "knowledge_point": "Three-Dimensional Geometry",
+    "id": 44
+}

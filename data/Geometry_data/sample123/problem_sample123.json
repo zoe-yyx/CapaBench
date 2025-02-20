@@ -1,0 +1,8 @@
+{
+    "problem": "A parallelogram has sides of lengths 15 units and 20 units, with one angle measuring 60 degrees. Calculate the area of the parallelogram. Give the answer in decimal and round to 2 decimal places",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "The area of the parallelogram is given by the formula: Area = $ab \\times \\sin(\\theta)$, where $a$ and $b$ are side lengths and $\\theta$ is the angle between them. Substituting the given values, Area = $15 \\times 20 \\times \\sin(60) = 300 \\times 0.866 = 259.81$ square units. \\(\\boxed{259.81}\\)",
+    "knowledge_point": "Polygons and Their Properties",
+    "id": 123
+}

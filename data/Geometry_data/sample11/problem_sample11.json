@@ -1,0 +1,8 @@
+{
+    "problem": "In a coordinate plane, points $P(3,4)$, $Q(3,10)$, and $R(9,4)$ form a triangle. What is the area of $\\triangle PQR$?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "Since $P$ and $Q$ have the same $x$-coordinate, line $PQ$ is vertical and can serve as the height of the triangle, which is $10 - 4 = 6$ units. The base of the triangle $PR$ has a length of $9 - 3 = 6$ units as $P$ and $R$ share the same $y$-coordinate. The area of $\\triangle PQR$ is then $\\frac{1}{2} \\times 6 \\times 6 = \\boxed{18}$ square units.",
+    "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+    "id": 11
+}

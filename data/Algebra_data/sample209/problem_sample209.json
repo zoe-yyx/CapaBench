@@ -1,0 +1,8 @@
+{
+    "problem": "Given the ellipse defined by the equation $\\frac{x^2}{16} + \\frac{y^2}{9} = 1$ and the line defined by $y = 2x + 3$, then the straight line and the ellipse have two intersection points. Use these points to find the area of the triangle formed by these intersection points and the origin.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "First, substitute $y = 2x + 3$ into the ellipse equation: $$\\frac{x^2}{16} + \\frac{(2x + 3)^2}{9} = 1.$$ Simplify and solve the quadratic equation to find $x$ values. Substituting back, find $y$ values for the intersection points. Using these points, calculate the area of the triangle formed with the origin using the formula $Area = \\frac{1}{2} |x1(y2-y3) + x2(y3-y1) + x3(y1-y2)|$. The solution will involve calculating this determinant for the points found and the origin (0,0). Found intersection points $(0, 3)$ and $\\left(-\\frac{192}{73}, -\\frac{165}{73}\\right)$. Used the triangle area formula with vertices $(0,0)$, $(0,3)$, and $\\left(-\\frac{192}{73}, -\\frac{165}{73}\\right)$. The area of the triangle formed by the intersection points and the origin is $\\boxed{\\frac{288}{73}}$.",
+    "knowledge_point": "Algebra in Coordinate Geometry",
+    "id": 209
+}

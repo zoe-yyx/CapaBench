@@ -1,0 +1,8 @@
+{
+    "problem": "Point P at (2,3) is reflected on the line y=-x. What is the ordinate of the reflection point?",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "Reflecting the point over the line y=-x swaps the coordinates and changes their signs, thus point P after reflection would be at $\\boxed{-2}$.",
+    "knowledge_point": "Transformative Geometry and Symmetry",
+    "id": 198
+}

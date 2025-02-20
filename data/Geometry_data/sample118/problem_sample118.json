@@ -1,0 +1,8 @@
+{
+    "problem": "In a triangle with sides of lengths 10, 24, and $x$, determine the minimum possible value for $x$ if $x$ is an integer.",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "Using the triangle inequality, the sum of any two sides must be greater than the third side. Therefore, we have 10 + 24 > x, 10 + x > 24, and 24 + x > 10. Solving these, we find x < 34, x > 14, and x > -14. Since x must be positive, the valid range for x is from 15 to 33. Thus, minimum value of x is \\boxed{15}.",
+    "knowledge_point": "Geometric Inequalities and Optimization Problems",
+    "id": 118
+}

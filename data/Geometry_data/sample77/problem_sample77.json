@@ -1,0 +1,8 @@
+{
+    "problem": "In a right triangle, the longer leg is 16 units and the hypotenuse is 20 units. What is the length of the shorter leg?",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "Let's denote the shorter leg as $x$. By the Pythagorean theorem, $x^2 + 16^2 = 20^2$. Therefore, $x^2 + 256 = 400$, leading to $x^2 = 400 - 256 = 144$. Thus, $x = \\sqrt{144} = \\boxed{12}$ units.",
+    "knowledge_point": "Properties of Right Triangles",
+    "id": 77
+}

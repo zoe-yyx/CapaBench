@@ -1,0 +1,8 @@
+{
+    "problem": "Solve for the integer $k$ such that the function $$f(x) = (x^2 - 3x + k)(x - 4) + (x^2 + 5x - 2)(x - k) = 0$$ has no square term of x.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Expanding both terms and collecting like terms, we have $$f(x) = (x^3 - 4x^2 - 3x^2 + 12x + kx - 4k) + (x^3 - kx^2 + 5x^2 - 5kx - 2x + 2k).$$ Simplifying, we get $$f(x) = 2x^3 - (k+2)x^2 + (10 - 4k)x - 2k.$$ Solving $-k - 2 = 0$, we find $k = -2$. Thus, $k = \\boxed{-2}$.",
+    "knowledge_point": "Polynomials and Polynomial Operations",
+    "id": 177
+}

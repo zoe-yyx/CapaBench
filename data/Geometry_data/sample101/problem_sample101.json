@@ -1,0 +1,8 @@
+{
+    "problem": "A circle is centered at $O$ and has a radius of 10 units. Point $P, Q$ is on the circle. If $\\angle POQ = 120^\\circ$, what is the length of the arc $PQ$?",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "Since $\\angle POQ = 120^\\circ$, the arc $PQ$ is $120^\\circ$ out of the $360^\\circ$ of the full circle. The circumference of the circle is $2\\pi(10) = 20\\pi$. Therefore, the length of the arc $PQ$ is $\\frac{120}{360} \\times 20\\pi = \\boxed{\\frac{20\\pi}{3}}$.",
+    "knowledge_point": "Circles and Their Properties",
+    "id": 101
+}

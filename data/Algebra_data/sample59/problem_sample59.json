@@ -1,0 +1,8 @@
+{
+    "problem": "A signpost that is 12 feet high casts a shadow that is 15 feet long. Nearby, a streetlamp casts a shadow that is 45 feet long. If the ratio of the height of the streetlamp to its shadow is the same as the ratio of the height of the signpost to its shadow, how tall is the streetlamp, in feet?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "The signpost's height is $\\dfrac{12}{15}$ times its shadow's length. Therefore, the streetlamp's height should be $\\dfrac{12}{15}$ times its shadow's length as well. So, the height of the streetlamp is $45 \\times \\dfrac{12}{15} = 45 \\times 0.8 = \\boxed{36} \\text{ feet}$ .",
+    "knowledge_point": "Algebra in Coordinate Geometry",
+    "id": 59
+}

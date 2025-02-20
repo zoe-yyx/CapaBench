@@ -1,0 +1,8 @@
+{
+    "problem": "Square $ABCD$ is inscribed in circle $O$. What is the measure of $m\\angle AOB$ where $O$ is the center of the circle?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "Since $ABCD$ is a square, all angles are $90^{\\circ}$. The diagonals of a square are equal and bisect the square's angles, thus forming four right triangles. Each angle at the center $O$ is half the total $360^{\\circ}$, hence $m\\angle AOB = \\frac{360^{\\circ}}{4} = \\boxed{90^{\\circ}}$.",
+    "knowledge_point": "Quadrilateral Features and Classifications",
+    "id": 32
+}

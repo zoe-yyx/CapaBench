@@ -1,0 +1,8 @@
+{
+    "problem": "Two similar triangles $\\triangle ABC$ and $\\triangle DEF$ have perimeters of 30 cm and 45 cm, respectively. If $AB = 9$ cm, find $DE$.",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "The ratio of the perimeters of $\\triangle ABC$ and $\\triangle DEF$ is $30:45 = 2:3$. Since $\\triangle ABC \\sim \\triangle DEF$, $AB$ corresponds to $DE$, so $DE = \\frac{3}{2} \\times 9 = 13.5$ cm. \\(\\boxed{\\frac{27}{2}}\\)",
+    "knowledge_point": "Similar Triangles and Proportions",
+    "id": 187
+}

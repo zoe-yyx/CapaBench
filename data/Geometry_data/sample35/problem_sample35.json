@@ -1,0 +1,8 @@
+{
+    "problem": "In kite $WXZY$, $m\\angle W = 120^{\\circ}, m\\angle X = 20^{\\circ}$ and $WY = YZ$. What is $m\\angle Y$?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "In a kite, the two sets of adjacent edges are equal. Since $WY = YZ$, angles $W$ and $Z$ are equal. Hence, $m\\angle Y = 360^{\\circ} - m\\angle W - m\\angle Z - m\\angle X  = 360^{\\circ} - 120^{\\circ} - 120^{\\circ} - 20^{\\circ} = \\boxed{100^{\\circ}}$.",
+    "knowledge_point": "Quadrilateral Features and Classifications",
+    "id": 35
+}

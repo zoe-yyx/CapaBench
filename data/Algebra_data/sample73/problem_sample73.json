@@ -1,0 +1,8 @@
+{
+    "problem": "Solve the inequality $|2x - 5| < 9$ and list the range of values for $x$ in the form of intervals.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "The inequality $|2x - 5| < 9$ can be rewritten into two separate inequalities: $2x - 5 < 9$ and $2x - 5 > -9$. Solving the first inequality gives $2x < 14$ or $x < 7$. Solving the second inequality gives $2x > -4$ or $x > -2$. Therefore, the range of values for $x$ is $-2 < x < 7$, which can also be expressed as $x \\in \\boxed{(-2, 7)}$.",
+    "knowledge_point": "Inequalities and Absolute Values",
+    "id": 73
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "A kite-shaped quadrilateral $ABCD$ has $AB = AD = 5$ and $BC = CD = 8$. If the diagonal $BD = 6$, find the area of $ABCD$.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "Suppose the intersection of two diagonals is O. Then we know $BO = DO = 1/2 * BD = 3$. Then $AO = \\sqrt{5^2 - 3^2} = 4$ and $CO = \\sqrt{8^2 - 3^2} = \\sqrt{55}$. Then the area is $1/2 * AC * BD = 1/2 * 6 * (4 + \\sqrt{55}) = \\boxed{12 + 3\\sqrt{55}}$",
+    "knowledge_point": "Quadrilateral Features and Classifications",
+    "id": 231
+}

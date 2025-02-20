@@ -1,0 +1,8 @@
+{
+    "problem": "The lengths of the two sides of a right triangle are 6 units and 8 units respectively. Find the shortest possible length of the third side.",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "Using the Pythagorean theorem: If the hypotenuse is 8 units and one leg is 6 units, the third side is \u221a(8^2 - 6^2) = $\\boxed{2\\sqrt{7}}$ units.",
+    "knowledge_point": "Properties of Right Triangles",
+    "id": 180
+}

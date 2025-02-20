@@ -1,0 +1,8 @@
+{
+    "problem": "What is the maximum perimeter of a rectangle that can be inscribed in a circle with radius 7 units?",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "We are tasked with finding the maximum perimeter of a rectangle inscribed in a circle of radius 7 units. The diagonal of the rectangle is equal to the diameter of the circle, which is 14 units. The perimeter of a rectangle is P = 2(l + w), and using the Pythagorean theorem, we have l^2 + w^2 = 196. For maximum perimeter, the rectangle is a square, so l = w. Solving for l gives l = 7\u221a2, leading to a maximum perimeter of P = \\boxed{28\\sqrt{2}}.",
+    "knowledge_point": "Geometric Inequalities and Optimization Problems",
+    "id": 168
+}

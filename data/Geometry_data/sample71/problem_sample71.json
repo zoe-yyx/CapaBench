@@ -1,0 +1,8 @@
+{
+    "problem": "A regular dodecagon has each of its exterior angles measuring $x$ degrees. Calculate the value of $x$.",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "The sum of exterior angles of any polygon is $360^\\circ$. Since all exterior angles of a regular dodecagon are equal, $12x = 360^\\circ$. Therefore, $x = \\boxed{30^\\circ}$.",
+    "knowledge_point": "Polygons and Their Properties",
+    "id": 71
+}

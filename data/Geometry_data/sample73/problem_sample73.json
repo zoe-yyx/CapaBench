@@ -1,0 +1,8 @@
+{
+    "problem": "A pentagon is divided into triangles by drawing diagonals from one vertex to all other non-adjacent vertices. How many triangles are formed?",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "From one vertex of the pentagon, diagonals can be drawn to three non-adjacent vertices, dividing the pentagon into three triangles. Therefore, the number of triangles formed is \\boxed{3}.",
+    "knowledge_point": "Polygons and Their Properties",
+    "id": 73
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "An equilateral triangle has a side of 9 cm. What is the longest side of this triangle?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "Since all sides of an equilateral triangle are equal, the longest side is the same as any other side, which is 9 cm. \\(\\boxed{9}\\)",
+    "knowledge_point": "Geometric Inequalities and Optimization Problems",
+    "id": 18
+}

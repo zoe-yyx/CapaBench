@@ -1,0 +1,8 @@
+{
+    "problem": "The angle $\\beta$ in a right triangle satisfies $\\cos(\\beta) = 12/13$. Find $\\sin(2\\beta)$.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "Using the identity $\\sin^2(\\beta) = 2\\sin(\\beta)\\cos(\\beta)$, we first find $\\sin(\\beta)$. Since $\\cos(\\beta) = 12/13$, using the Pythagorean identity $\\sin^2(\\beta) + \\cos^2(\\beta) = 1$, we find $\\sin(\\beta)$: $\\sin(\\beta) = \\sqrt{1 - (12/13)^2} = \\sqrt{1 - 144/169} = \\sqrt{25/169} = 5/13$. Plugging $\\sin(\beta)$ and $\\cos(\\beta)$ into the double angle identity for sine, $\\sin(2\\beta) = 2 \\times (5/13) \\times (12/13) = 120/169$. Therefore, $\\sin(2\\beta) = \\boxed{\\frac{120}{169}}$.",
+    "knowledge_point": "Fundamentals of Trigonometry",
+    "id": 210
+}

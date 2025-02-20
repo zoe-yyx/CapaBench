@@ -1,0 +1,8 @@
+{
+    "problem": "Calculate the product of all solutions to the equation: $(x-4)^2 = 36$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "First, simplify the equation to $x^2 - 8x + 16 = 36$, which further simplifies to $x^2 - 8x - 20 = 0$. Factoring the quadratic equation, we get $(x - 10)(x + 2) = 0$. The solutions are $x = 10$ and $x = -2$. The product of the solutions is $10 \\times (-2) = \\boxed{-20}$.",
+    "knowledge_point": "Quadratic Equations and Functions",
+    "id": 82
+}

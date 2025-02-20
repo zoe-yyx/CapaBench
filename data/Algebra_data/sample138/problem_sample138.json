@@ -1,0 +1,8 @@
+{
+    "problem": "Given $g(x) = \\frac{x^2}{x-3}$, for which integer $x$ is $g(x)$ undefined?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The function $g(x)$ is undefined where the denominator is zero. Setting the denominator equal to zero gives us: $$x - 3 = 0 \\Rightarrow x = \\boxed{3}.$$",
+    "knowledge_point": "Rational Functions and Expressions",
+    "id": 138
+}

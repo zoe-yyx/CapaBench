@@ -1,0 +1,8 @@
+{
+    "problem": "Solve the equation \\(\\frac{4}{x-2} = \\frac{3}{2x+1}\\) for \\(x\\).",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Cross multiplying gives \\(4(2x+1) = 3(x-2)\\). Expanding and simplifying, \\(8x + 4 = 3x - 6\\). Thus, \\(5x = -10\\) and \\(x = \\boxed{-2}\\).",
+    "knowledge_point": "Rational Functions and Expressions",
+    "id": 90
+}

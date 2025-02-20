@@ -1,0 +1,8 @@
+{
+    "problem": "Factor the expression $x^4 - 16x^2 + 64$ completely.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "First, note that $x^4 - 16x^2 + 64$ can be rewritten as a quadratic in terms of $y = x^2$, that is, $y^2 - 16y + 64$. This factors as $(y-8)^2$. Substituting back $y = x^2$, we have $(x^2-8)^2$. This can be further factored using difference of squares to $(x-2\\sqrt{2})(x+2\\sqrt{2})(x-2\\sqrt{2})(x+2\\sqrt{2}) = \\boxed{(x-2\\sqrt{2})^2(x+2\\sqrt{2})^2}$.",
+    "knowledge_point": "Polynomials and Polynomial Operations",
+    "id": 227
+}

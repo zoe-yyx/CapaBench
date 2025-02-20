@@ -1,0 +1,8 @@
+{
+    "problem": "Compute $\\cos 210^\\circ$.",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "Let $P$ be the point on the unit circle that is $210^\\circ$ counterclockwise from $(1,0)$. The angle $210^\\circ$ is in the third quadrant where cosine values are negative. $210^\\circ = 180^\\circ + 30^\\circ$, so $\\cos 210^\\circ = -\\cos 30^\\circ = -\\frac{\\sqrt{3}}{2}$. Thus, $\\cos 210^\\circ = \\boxed{-\\frac{\\sqrt{3}}{2}}$.",
+    "knowledge_point": "Fundamentals of Trigonometry",
+    "id": 60
+}

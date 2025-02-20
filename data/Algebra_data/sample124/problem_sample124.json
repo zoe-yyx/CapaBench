@@ -1,0 +1,8 @@
+{
+    "problem": "Evaluate $\\lfloor 2.5 \\rfloor + 3 \\cdot \\lfloor 0.8 \\cdot 2.5 \\rfloor$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Since $2 < 2.5 < 3$ we have $\\lfloor 2.5 \\rfloor = 2$. Next, $3 \\cdot \\lfloor 0.8 \\cdot 2.5 \\rfloor = 3 \\lfloor 2 \\rfloor = 3 \\cdot 2 = 6$. Therefore, $\\lfloor 2.5 \\rfloor + 3 \\cdot \\lfloor 0.8 \\cdot 2.5 \\rfloor = \\boxed{8}.$",
+    "knowledge_point": "Inequalities and Absolute Values",
+    "id": 124
+}

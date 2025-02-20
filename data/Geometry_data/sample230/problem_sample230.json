@@ -1,0 +1,8 @@
+{
+    "problem": "In triangle $DEF$, $DE = EF = 13$ and $DF = 10$. Let $G$ be the foot of the altitude from $D$ to $\\overline{EF}$. Compute the area of triangle $DGF$.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "Firstly we can calculate that $cos F = \\frac{5}{13}$ and $sin F = \\frac{12}{13}$. Then $DG = DF * sin F = \\frac{120}{13}, GF = DF * cos F = \\frac{50}{13}$. Then we know the area is $1/2 * DG * GF = \\boxed{\\frac{3000}{169}}$.",
+    "knowledge_point": "Properties of Right Triangles",
+    "id": 230
+}

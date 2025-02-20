@@ -1,0 +1,8 @@
+{
+    "problem": "Consider the quadratic equation $9m^2 - 24m + k = 0$. Determine the value of $k$ such that the equation has exactly one solution.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "For a quadratic equation to have exactly one solution, its discriminant must be zero. The discriminant for the equation $9m^2 - 24m + k = 0$ is given by $b^2 - 4ac = (-24)^2 - 4(9)(k) = 576 - 36k$. Setting the discriminant to zero gives $576 - 36k = 0$. Solving for $k$, we find $k = \\frac{576}{36} = \\boxed{16}$.",
+    "knowledge_point": "Quadratic Equations and Functions",
+    "id": 135
+}

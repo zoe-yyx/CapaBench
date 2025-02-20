@@ -1,0 +1,8 @@
+{
+    "problem": "Given the equation of a circle $x^2 + y^2 - 4x + 6y + 9 = 0$, find the radius of the circle.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "First, we complete the square for both $x$ and $y$. Rewriting, we have $x^2 - 4x + y^2 + 6y = -9$. Completing the square gives $(x-2)^2 - 4 + (y+3)^2 - 9 = -9$. Simplifying, we find $(x-2)^2 + (y+3)^2 = 4$, which is a circle with center $(2, -3)$ and radius $\\boxed{2}$.",
+    "knowledge_point": "Algebra in Coordinate Geometry",
+    "id": 157
+}

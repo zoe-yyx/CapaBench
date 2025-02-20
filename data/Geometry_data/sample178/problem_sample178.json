@@ -1,0 +1,8 @@
+{
+    "problem": "In a 30-60-90 triangle, the shorter leg measures 5 units. What are the lengths of the hypotenuse?",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "In a 30-60-90 triangle, the ratios of the lengths of the sides are $1:\\sqrt{3}:2$. Therefore, the hypotenuse is \\boxed{10} units and the other leg is $5\\sqrt{3}$ units.",
+    "knowledge_point": "Properties of Right Triangles",
+    "id": 178
+}

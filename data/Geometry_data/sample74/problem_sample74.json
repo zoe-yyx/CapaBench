@@ -1,0 +1,8 @@
+{
+    "problem": "What is the measure of each interior angle of a regular pentagon?",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "The sum of the interior angles of a pentagon is $180(5-2) = 540^\\circ$. Since it is a regular pentagon, each angle has the same measure, so each interior angle measures $\\frac{540^\\circ}{5} = \\boxed{108^\\circ}$.",
+    "knowledge_point": "Polygons and Their Properties",
+    "id": 74
+}

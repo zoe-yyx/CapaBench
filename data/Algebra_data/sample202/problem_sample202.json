@@ -1,0 +1,8 @@
+{
+    "problem": "Olivia calculated the expression $\\frac{2-3i}{2+i}$ but made a mistake by forgetting to handle the imaginary unit correctly, resulting in an incorrect answer of $\\frac{1}{5} + \\frac{7}{5}i$. What should the correct result be?",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "To correctly compute the division of complex numbers, one must multiply both the numerator and the denominator by the conjugate of the denominator. Here, the conjugate of $2+i$ is $2-i$. The multiplication follows as: \\begin{align*}\n\\frac{2-3i}{2+i} &= \\frac{(2-3i)(2-i)}{(2+i)(2-i)}\\\\\n&= \\frac{4 - 2i - 6i + 3i^2}{4 - i^2}\\\\\n&= \\frac{4 - 8i - 3}{4 + 1}\\\\\n&= \\frac{1 - 8i}{5}\\\\\n&= \\boxed{\\frac{1}{5} - \\frac{8}{5}i}\n\\end{align*}",
+    "knowledge_point": "Complex Numbers",
+    "id": 202
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "Evaluate the sum of all real numbers that make the function $$f(x) = \\frac{1}{x-7} + \\frac{1}{x^2-49} + \\frac{1}{x^3-343}$$ undefined.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "The function $f(x)$ is undefined for values of $x$ that make the denominators zero, namely $x-7=0$, $x^2-49=0$, and $x^3-343=0$. Solving each, we get $x = 7$ from $x-7=0$, $x = 7$ or $x = -7$ from $x^2-49=0$, and $x = 7$ from $x^3-343=0$. Hence, the sum of all distinct real numbers making $f(x)$ undefined is $7 + (-7) = \\boxed{0}$, since $7$ is repeated and $-7$ is the only other distinct real number.",
+    "knowledge_point": "Rational Functions and Expressions",
+    "id": 190
+}

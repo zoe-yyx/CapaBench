@@ -1,0 +1,8 @@
+{
+    "problem": "A square has a side length of 14 units. What is the length of the diagonal of the square?",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "The diagonal of a square can be calculated using the formula $d = s\\sqrt{2}$, where $s$ is the side length of the square. Substituting the given side length, $d = 14\\sqrt{2}$. Hence, the diagonal length is $\\boxed{14\\sqrt{2}}$ units.",
+    "knowledge_point": "Quadrilateral Features and Classifications",
+    "id": 132
+}

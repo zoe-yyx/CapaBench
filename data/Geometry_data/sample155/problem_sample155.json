@@ -1,0 +1,8 @@
+{
+    "problem": "A chord of length 8 cm is 6 cm away from the center of a circle. What is the radius of the circle?",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "Let the distance from the center to the chord be $d = 6$ cm and the chord length be $c = 8$ cm. The radius $r$ can be found using the Pythagorean theorem in the right triangle formed by the radius, half the chord, and the perpendicular distance from the center to the chord. $r = \\sqrt{\\left(\\frac{c}{2}\\right)^2 + d^2} = \\sqrt{\\left(\\frac{8}{2}\\right)^2 + 6^2} = \\sqrt{16 + 36} = \\sqrt{52} = 2\\sqrt{13}$ cm. \\(\\boxed{2\\sqrt{13}}\\)",
+    "knowledge_point": "Circles and Their Properties",
+    "id": 155
+}

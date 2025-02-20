@@ -1,0 +1,8 @@
+{
+    "problem": "A class plans a series of debates, where every student must debate with every other student exactly once. If there are 15 debates in total, how many students are in the class?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "To find the number of students $n$ where each debates with every other one, we use the formula for combinations, which counts the number of ways to select pairs from $n$ students. The number of debates is equal to $\\binom{n}{2} = 15$. This simplifies to the equation $\\frac{n(n-1)}{2} = 15$. Multiplying both sides by 2, we get $n^2 - n = 30$. Solving this quadratic equation by factoring, we have $n = 6$ or $n = -5$. Since the number of students can't be negative, there are $\\boxed{6}$ students in the class.",
+    "knowledge_point": "Sequences and Series",
+    "id": 93
+}

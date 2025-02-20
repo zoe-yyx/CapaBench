@@ -1,0 +1,8 @@
+{
+    "problem": "Consider the polynomial equation $(x^2 - 5x + 6)(x^2 - 4x + 4) = 0$. Find the sum of all distinct real roots of this equation.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "First, factor the given equation: $(x^2 - 5x + 6) = (x-2)(x-3)$ and $(x^2 - 4x + 4) = (x-2)^2$. Therefore, the equation becomes $(x-2)(x-3)(x-2)^2 = 0$. This simplifies to $(x-2)^3(x-3) = 0$, indicating that the roots are $x=2$ (with multiplicity 3) and $x=3$. The sum of all distinct real roots is $2 + 3 = \\boxed{5}$.",
+    "knowledge_point": "Polynomials and Polynomial Operations",
+    "id": 230
+}

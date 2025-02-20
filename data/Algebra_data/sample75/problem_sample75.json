@@ -1,0 +1,8 @@
+{
+    "problem": "Solve the inequality $|3x - 6| \\leq 9$. Provide the range of $x$ that satisfies this condition in the form of intervals.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "The absolute value condition $|3x - 6| \\leq 9$ implies two inequalities: $3x - 6 \\leq 9$ and $3x - 6 \\geq -9$. Solving these separately, we get $3x \\leq 15$ and $3x \\geq -3$. Dividing all parts by 3, we get $x \\leq 5$ and $x \\geq -1$. Thus, the solution is $\\boxed{[-1, 5]}$.",
+    "knowledge_point": "Inequalities and Absolute Values",
+    "id": 75
+}

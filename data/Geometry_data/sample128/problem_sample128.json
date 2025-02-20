@@ -1,0 +1,8 @@
+{
+    "problem": "In isosceles right triangle $\\triangle DEF$, $DE = DF$. If $EF = 8\\sqrt{2}$, what is the area of $\\triangle DEF$?",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "Since $\\triangle DEF$ is an isosceles right triangle, $DE = DF = EF/\\sqrt{2} = 8\\sqrt{2}/\\sqrt{2} = 8$. The area of $\\triangle DEF$ is $\\frac{1}{2} DE \\cdot DF = \\frac{1}{2} \\cdot 8 \\cdot 8 = 32$. Therefore, the area of $\\triangle DEF$ is $\\boxed{32}$ square units.",
+    "knowledge_point": "Properties of Right Triangles",
+    "id": 128
+}

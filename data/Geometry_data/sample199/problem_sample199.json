@@ -1,0 +1,8 @@
+{
+    "problem": "Rectangle ABCD with vertices A(0, 0), B(0, 4), C(3, 4), and D(3, 0) is rotated 180 degrees about the point (1.5, 2). What is the abscissa of point A after rotation?",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "After rotating 180 degrees about (1.5, 2), point A, which was originally at (0,0), will be moved to (3,4), which are the original coordinates of point C. Hence, the new coordinates of point A are $\\boxed{3}$.",
+    "knowledge_point": "Transformative Geometry and Symmetry",
+    "id": 199
+}

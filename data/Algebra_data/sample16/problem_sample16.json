@@ -1,0 +1,8 @@
+{
+    "problem": "If $f(x, y) = 3x - 4y + xy$, what is the value of $f(5, -2)$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "By substituting the values into the function, we get $f(5, -2) = 3(5) - 4(-2) + (5)(-2) = 15 + 8 - 10 = \\boxed{13}$.",
+    "knowledge_point": "Function Composition and Inverses",
+    "id": 16
+}

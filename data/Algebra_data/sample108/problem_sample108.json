@@ -1,0 +1,8 @@
+{
+    "problem": "Given a line segment with endpoints $(2, -3)$ and $(8, 5)$. What is the midpoint of this segment?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The midpoint $(M)$ of a line segment with endpoints $(x_1, y_1)$ and $(x_2, y_2)$ is given by $\\left(\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2}\\right)$. For the endpoints $(2, -3)$ and $(8, 5)$, the midpoint is $\\left(\\frac{2+8}{2}, \\frac{-3+5}{2}\\right) = \\boxed{(5, 1)}$.",
+    "knowledge_point": "Algebra in Coordinate Geometry",
+    "id": 108
+}

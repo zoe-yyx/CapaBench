@@ -1,0 +1,8 @@
+{
+    "problem": "A can of soda contains 150 calories in 350 ml. How many calories are in 500 ml of the same soda? Express your answer in decimal form and round to 2 decimal places.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Given that there are 150 calories in 350 ml, we can establish the proportion $\\frac{150}{350} = \\frac{x}{500}$, where $x$ is the number of calories in 500 ml. Solving for $x$ gives $x = \\left(\\frac{150}{350}\\right)\\times 500 = \\boxed{214.29}$ calories.",
+    "knowledge_point": "Algebra in Coordinate Geometry",
+    "id": 7
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "Consider the polynomial $p(x) = x^3 - ax^2 + bx - 105$, where $a$ and $b$ are integers and the roots of $p(x)$ are consecutive odd prime numbers. If the sum of the roots is less than 30, determine the value of $b$.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "Let the roots of the polynomial be $p$, $q$, and $r$, which are consecutive odd prime numbers. From Vieta's formulas, we know $p+q+r = a$ and $pqr = 105$. The sum of the roots $p+q+r < 30$.\\n\\nThe consecutive odd primes whose product is 30 and sum less than 30 are $3$, $5$, and $7$. So, $a = 3+5+7 = 15$.\\n\\nNow, again using Vieta's formulas, we have $b = pq + qr + rp = 3*5 + 5*7 + 7*3 = 15 + 35 + 21 = 71$. Thus, the value of $b$ is $\\boxed{71}$.",
+    "knowledge_point": "Polynomials and Polynomial Operations",
+    "id": 226
+}

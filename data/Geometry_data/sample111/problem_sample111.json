@@ -1,0 +1,8 @@
+{
+    "problem": "In triangle ABC, point A is at (1, 2), point B is at (5, 5), and point C is at (7, 2). Find the abscissa coordinate of the center of mass of triangle ABC.",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "The formula for the abscissa of the center of gravity of a triangle is the average of the abscissa of the three points. Thus the coordinates of the centroid are $(1 + 5 + 7) / 3 = \\boxed{\\frac{13}{3}}$.",
+    "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+    "id": 111
+}

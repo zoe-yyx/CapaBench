@@ -1,0 +1,8 @@
+{
+    "problem": "Compute $\\cos 135^\\circ$.",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "Let $P$ be the point on the unit circle that is $135^\\circ$ counterclockwise from $(1,0)$. The angle $135^\\circ$ is in the second quadrant where cosine values are negative. $135^\\circ = 180^\\circ - 45^\\circ$, so $\\cos 135^\\circ = -\\cos 45^\\circ = -\\frac{\\sqrt{2}}{2}$. Thus, $\\cos 135^\\circ = \\boxed{-\\frac{\\sqrt{2}}{2}}$.",
+    "knowledge_point": "Fundamentals of Trigonometry",
+    "id": 56
+}

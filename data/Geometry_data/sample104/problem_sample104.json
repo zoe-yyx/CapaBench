@@ -1,0 +1,8 @@
+{
+    "problem": "In a circle of radius 1 with center $O$, two radii $\\overline{OA}$ and $\\overline{OB}$ form an angle of $30^\\circ$. What is the area of the sector formed by $\\overline{OA}$ and $\\overline{OB}$?",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "The area of the sector formed by an angle of $30^\\circ$ in a circle of radius $r$ is given by $\\frac{30}{360} \\times \\pi r^2 = \\frac{1}{12} \\pi r^2$. Since no radius value is given, the area of the sector in terms of $r$ is $\\boxed{\\frac{1}{12} \\pi}$.",
+    "knowledge_point": "Circles and Their Properties",
+    "id": 104
+}

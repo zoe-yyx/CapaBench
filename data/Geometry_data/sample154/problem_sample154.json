@@ -1,0 +1,8 @@
+{
+    "problem": "A circle is inscribed in a square, and another circle is circumscribed about the same square. What is the ratio of the area of the larger circle to the area of the smaller circle?",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "Let the side length of the square be $s$. The diameter of the larger circle is $s$, so its radius is $\\frac{s}{2}$. The radius of the smaller circle is $\\frac{s}{2\\sqrt{2}}$. The ratio of the area of the larger circle to the smaller circle is $\\left(\\frac{\\pi (s/2)^2}{\\pi (s/2\\sqrt{2})^2}\\right) = \\frac{s^2/4}{s^2/8} = 2$. \\(\\boxed{2}\\)",
+    "knowledge_point": "Circles and Their Properties",
+    "id": 154
+}

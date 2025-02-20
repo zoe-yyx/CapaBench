@@ -1,0 +1,8 @@
+{
+    "problem": "A person is walking along a path and covers 2 miles in the first hour. If the person increases their speed by 0.5 miles every hour, how many total miles will they have covered by the end of the fourth hour?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "The distances covered in each hour form an arithmetic series. The first hour, 2 miles are covered. The second hour, $2 + 0.5 = 2.5$ miles are covered, the third hour $2.5 + 0.5 = 3$ miles, and the fourth hour $3 + 0.5 = 3.5$ miles. The total distance is the sum of these, $2 + 2.5 + 3 + 3.5 = \\boxed{11}$ miles.",
+    "knowledge_point": "Sequences and Series",
+    "id": 92
+}

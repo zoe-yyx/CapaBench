@@ -1,0 +1,8 @@
+{
+    "problem": "Let $f(x) = 2x + 3$. You are given that $g(f(x)) = 3x - 4$ for all $x$. Determine the value of $g(7)$.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "Firstly let $f(x) = 7$, then we have $x = 2$. Since $g(f(x)) = 3x - 4$ and $f(2) = 7$, then we know $g(7) = 3 \\times 2 - 4 = \\boxed{2}$.",
+    "knowledge_point": "Function Composition and Inverses",
+    "id": 218
+}

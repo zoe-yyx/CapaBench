@@ -1,0 +1,8 @@
+{
+    "problem": "Mrs. Smith invests 2000 dollars in an account that compounds annually at a constant interest rate. After five years, her investment has grown to 3220 dollars. What is the annual interest rate, as a percentage? (Round your answer to the nearest integer.)",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Let $r$ be the annual interest rate. Then after five years, Mrs. Smith's investment is $2000 \\cdot \\left( 1 + \\frac{r}{100} \\right)^5$, so \\[2000 \\cdot \\left( 1 + \\frac{r}{100} \\right)^5 = 3220.\\] Then \\[\\left( 1 + \\frac{r}{100} \\right)^5 = 1.61,\\] so \\[1 + \\frac{r}{100} = \\sqrt[5]{1.61} = 1.09854,\\] which means $r = \\boxed{10}$, to the nearest integer.",
+    "knowledge_point": "Exponents and Logarithms",
+    "id": 161
+}

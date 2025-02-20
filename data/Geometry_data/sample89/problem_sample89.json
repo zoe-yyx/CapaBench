@@ -1,0 +1,8 @@
+{
+    "problem": "In triangle ABC, AB is twice as long as BC. If the length of BC is 7 cm, and triangle ABC is similar to triangle DEF with DE being the longest side and 28 cm long, find the length of EF.",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "Since triangle ABC is similar to triangle DEF, and AB is twice BC, then DE is twice EF. Given DE is 28 cm, EF must be half of 28 cm, which is 14 cm. \\(\\boxed{14}\\)",
+    "knowledge_point": "Similar Triangles and Proportions",
+    "id": 89
+}

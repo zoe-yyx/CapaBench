@@ -1,0 +1,8 @@
+{
+    "problem": "A geometric sequence starts with the number 625 and each successive term is obtained by multiplying the previous term by a constant. If the third term in the sequence is 25, what is the value of the fifth term?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "The sequence starts with 625 and the third term is 25. The common ratio $r$ can be found by taking the cube root of the ratio between the third term and the first term, which is $(\\frac{25}{625})^{1/2} = \\frac{1}{5}$. Therefore, the fifth term is $625 \\times (\\frac{1}{5})^4 = 625 \\times \\frac{1}{625} = \\boxed{1}$.",
+    "knowledge_point": "Sequences and Series",
+    "id": 41
+}

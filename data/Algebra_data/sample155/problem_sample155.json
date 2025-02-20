@@ -1,0 +1,8 @@
+{
+    "problem": "Evaluate the expression $(1+i)^6$ and simplify your answer.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "First, calculate $(1+i)^2 = (1 + i)^2 = 1 + 2i - 1 = 2i. Then, $(1+i)^6 = (2i)^3 = (2i)^2 * 2i = -8i. Hence, (1+i)^6 = \\boxed{-8i}$.",
+    "knowledge_point": "Complex Numbers",
+    "id": 155
+}

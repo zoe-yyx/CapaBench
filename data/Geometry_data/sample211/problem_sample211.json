@@ -1,0 +1,8 @@
+{
+    "problem": "Triangle $PQR$ has vertices $P(1, 1)$, $Q(4, 5)$, and $R(7, 1)$. A circle is constructed to be tangent to side $\\overline{PQ}$ at point $Q$ and pass through points $R$. What is the coordinates of the center of the circle?",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "First, according to the coordinates of P and Q, the PQ equation can be calculated as y = 4/3x-1/3, so the equation of the straight line passing through P and perpendicular to PQ is y = -3/4x+8, and the center of the circle is on this straight line; and Because the circle passes through P and R at the same time, the center of the circle is also on the perpendicular bisector of PR y = 3/4x-9/8. Simultaneous equations of two straight lines, we can get the coordinates are $\\boxed{(\\frac{73}{12}, \\frac{55}{16})}$",
+    "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+    "id": 211
+}

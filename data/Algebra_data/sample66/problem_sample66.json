@@ -1,0 +1,8 @@
+{
+    "problem": "Given the functions \\( f(x) = x^2 + 1 \\) if \\( x \\leq 5 \\) and \\( f(x) = 2x + 3 \\) if \\( x > 5 \\). Calculate \\( f(6) \\).",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Since \\( 3 \\leq 5 \\), we use the first case: \\( f(3) = 3^2 + 1 = 10 \\). Since \\( 6 > 5 \\), we use the second case: \\( f(6) = 2 \\times 6 + 3 = 15 \\). Thus, \\( f(6) = \\boxed{15} \\).",
+    "knowledge_point": "Function Composition and Inverses",
+    "id": 66
+}

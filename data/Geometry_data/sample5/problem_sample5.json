@@ -1,0 +1,8 @@
+{
+    "problem": "Two radii, $OA$ and $OB$, in a circle form an angle of $60^\\circ$. What is the measure of the arc $AB$ that these radii subtend?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "The angle formed by two radii inside a circle corresponds directly to the arc they subtend. Therefore the answer is  $\\boxed{60^\\circ}$.",
+    "knowledge_point": "Circles and Their Properties",
+    "id": 5
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "At a bakery, there are three types of pastries: croissants, muffins, and scones. On a particular day, the total number of pastries is 400. If the number of muffins and scones together is three times the number of croissants, and there are 20 more muffins than scones, find the number of croissants.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Let $c$, $m$, and $s$ be the number of croissants, muffins, and scones respectively. The system of equations based on the problem statement is:\n\\begin{align*}\nc + m + s &= 400,\\\\\n3c &= m + s,\\\\\nm &= s + 20.\n\\end{align*}Substituting $m = s + 20$ into the second equation gives $3c = (s + 20) + s = 2s + 20$. From the first equation, $c + (s + 20) + s = 400$, or $c + 2s + 20 = 400$. Solving these equations, we find $c = 100$, $m = 160$, and $s = 140$. So, there are $\\boxed{100}$ croissants, $160$ muffins, and $140$ scones.",
+    "knowledge_point": "Systems of Linear Equations",
+    "id": 149
+}

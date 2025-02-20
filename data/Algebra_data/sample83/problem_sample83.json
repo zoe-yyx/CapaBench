@@ -1,0 +1,8 @@
+{
+    "problem": "Find the product of the roots of the equation $x^2 - 6x + 8 = 0$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "To find the sum of the roots, use the formula $-b/a$, which in this case is $-(-6)/1 = 6$. For the product of the roots, use the formula $c/a$, which is $8/1 = 8$. Therefore, the product of the roots is $\\boxed{8}$.",
+    "knowledge_point": "Quadratic Equations and Functions",
+    "id": 83
+}

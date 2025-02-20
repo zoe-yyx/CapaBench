@@ -1,0 +1,8 @@
+{
+    "problem": "If a kite has diagonals of lengths 15 cm and 20 cm, what is the area of the kite?",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "The area of a kite is half the product of the lengths of its diagonals. Therefore, the area is $\\frac{1}{2} \\times 15 \\times 20 = \\boxed{150}$ square centimeters.",
+    "knowledge_point": "Quadrilateral Features and Classifications",
+    "id": 84
+}

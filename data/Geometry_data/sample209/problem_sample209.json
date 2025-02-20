@@ -1,0 +1,8 @@
+{
+    "problem": "Given $\\sin x = 0.5$ and $x$ is acute, calculate $\\tan x$. Give the answer in decimal and round to 2 decimal places",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "Using the identity $\\sin^2 x + \\cos^2 x = 1$, we can find $\\cos x$. $\\cos x = \\sqrt{1 - 0.5^2} = \\sqrt{0.75} = 0.8660254037844386$. Then, using $\\tan x = \\sin x / \\cos x$, $\\tan x = 0.5 / 0.8660254037844386 \\approx 0.5773502691896257$. Therefore, $\\tan x = \\boxed{0.58}$.",
+    "knowledge_point": "Fundamentals of Trigonometry",
+    "id": 209
+}

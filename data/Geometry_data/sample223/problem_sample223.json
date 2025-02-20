@@ -1,0 +1,8 @@
+{
+    "problem": "Calculate the area of a regular dodecagon (12-sided polygon) with a circumradius (radius of the circumscribed circle) of 8 cm.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "The area $A$ of a regular polygon with $n$ sides and circumradius $R$ can be calculated using the formula: $A = \\frac{1}{2} \\times n \\times R^2 \\times \\sin(2\\pi/n)$. For a dodecagon with $R = 8$, $n = 12$. Plugging in the values, $A = 0.5 \\times 12 \\times 64 \\times \\sin(2\\pi/12) = 384 \\times \\sin(30^\\circ) = 384 \\times 0.5 = 192$ square cm. \\(\\boxed{192}\\)",
+    "knowledge_point": "Polygons and Their Properties",
+    "id": 223
+}

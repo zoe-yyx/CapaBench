@@ -1,0 +1,8 @@
+{
+    "problem": "Given that $x^2 + bx + 36 = 0$ has roots $p$ and $q$, and the expression $(x-p)^2 + (x-q)^2$ simplifies to $2x^2 + 40x + 328$, find the value of $b$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Expanding the expression $(x-p)^2 + (x-q)^2$ results in $2x^2 - 2(p+q)x + (p^2 + q^2)$. We know from the quadratic equation that $p+q = -b$ and $pq = 36$. From the given expression $2x^2 + 40x + 328$, we equate coefficients and find $2b = 40$, thus $b = 20$. This is consistent with the known values, confirming $b = \\boxed{20}$.",
+    "knowledge_point": "Quadratic Equations and Functions",
+    "id": 134
+}

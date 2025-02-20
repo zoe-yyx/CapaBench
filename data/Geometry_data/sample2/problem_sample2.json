@@ -1,0 +1,8 @@
+{
+    "problem": "In a circle with center $O$, diameter $AB = 12$ cm, find the circumference of the circle.",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "The diameter of the circle is 12 cm, so the radius is half of the diameter, $r = 6$ cm. The circumference of a circle is given by $C = 2\\pi r$. Thus, the circumference is $C = 2 \\pi \\times 6 = \\boxed{12\\pi}$ cm.",
+    "knowledge_point": "Circles and Their Properties",
+    "id": 2
+}

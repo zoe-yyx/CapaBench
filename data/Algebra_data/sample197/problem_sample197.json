@@ -1,0 +1,8 @@
+{
+    "problem": "Solve the system of linear equations given by $2x - 3y = 4$ and $5x + ky = 7$. If $k$ is a constant such that the system has no solutions, what is the value of $k$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "For the system to have no solutions, the two lines represented by the equations $2x - 3y = 4$ and $5x + ky = 7$ must be parallel but not identical. This means their slopes must be equal but their constant terms must not allow for a common intersection point. \n\nRewriting the first equation as $x - \\frac{3}{2}y = 2$, we see that the slope of this line is $-\\frac{3}{2}$. For the second equation $5x + ky = 7$, dividing by 5 gives $x + \\frac{k}{5}y = \\frac{7}{5}$, so the slope of this line is $\\frac{k}{5}$. \n\nFor the lines to be parallel, we set the slopes equal: $-\\frac{3}{2} = \\frac{k}{5}$. Solving this equation gives $k = -\\frac{15}{2}$. \n\nHowever, to ensure the lines do not coincide, we need to check that the constant terms do not allow for a solution. In this case, since the constant terms are 2 and $\\frac{7}{5}$, which are not equal, the lines cannot coincide. Therefore, the value of $k$ that makes the system have no solutions is $k = \\boxed{-\\frac{15}{2}}$.",
+    "knowledge_point": "Systems of Linear Equations",
+    "id": 197
+}

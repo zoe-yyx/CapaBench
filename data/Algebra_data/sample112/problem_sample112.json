@@ -1,0 +1,8 @@
+{
+    "problem": "Simplify and solve for $x$ if $(8^{x+2})^2 \\cdot 16^{2x-1} = 2^{36}$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "First, express everything as powers of 2: $(8^{x+2})^2 \\cdot 16^{2x-1} = (2^3)^{x+2} \\cdot (2^4)^{2x-1} = 2^{3(x+2) \\cdot 2} \\cdot 2^{4(2x-1)} = 2^{6x+12} \\cdot 2^{8x-4} = 2^{14x+8}$. Set this equal to $2^{36}$. Thus, $14x+8 = 36$. Solving for $x$, $14x = 28$ and $x = \\boxed{2}$.",
+    "knowledge_point": "Exponents and Logarithms",
+    "id": 112
+}

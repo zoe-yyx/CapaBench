@@ -1,0 +1,8 @@
+{
+    "problem": "A right rectangular pyramid with a square base of side 6 and a height of 8 is cut by a plane parallel to its base at a height of 4. Find the volume of the smaller pyramid formed at the top.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "The smaller pyramid is similar to the original pyramid with a ratio of their heights, which is 1:2. Thus, the volume ratio is 1:8 (since volume scales with the cube of the linear dimensions). The volume of the original pyramid is $(1/3)\\times \\text{base area} \\times \\text{height} = (1/3)\\times 6^2\\times 8 = 96$. Therefore, the volume of the smaller pyramid is $96/8 = 12$ cubic units. \\(\\boxed{12}\\)",
+    "knowledge_point": "Three-Dimensional Geometry",
+    "id": 243
+}

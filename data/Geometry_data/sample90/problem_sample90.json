@@ -1,0 +1,8 @@
+{
+    "problem": "In the figure, triangle ABC is similar to triangle DEF. If the sides of triangle ABC are 3, 4, and 5, and the shortest side of triangle DEF is 9, find the length of the longest side of triangle DEF.",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "Since the triangles are similar and the sides of triangle ABC are in the ratio 3:4:5, the shortest side of DEF corresponds to the shortest side of ABC, which is 3. The ratio of similarity is $\\frac{9}{3} = 3$. Therefore, the longest side of DEF, corresponding to the longest side of ABC (which is 5), is $5 \\times 3 = 15$. \\(\\boxed{15}\\)",
+    "knowledge_point": "Similar Triangles and Proportions",
+    "id": 90
+}

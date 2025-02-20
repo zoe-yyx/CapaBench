@@ -1,0 +1,8 @@
+{
+    "problem": "Consider a piecewise function $g(x)$ defined as follows:\n\n$$\ng(x) = \n\\begin{cases} \n4x - 5 & \\text{if } x < 2, \\\\\n\\frac{1}{2-x} & \\text{if } x \\geq 2.\n\\end{cases}\n$$\n\n What is the value of $g(g(10))$?",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "Firstly we have $g(10) = \\frac{1}{2 - 10} = \\frac{-1}{8}$. Then we have $g(g(10)) = g(\\frac{-1}{8}) = \\boxed{\\frac{-11}{2}}$",
+    "knowledge_point": "Function Composition and Inverses",
+    "id": 217
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "A circle with a radius of 10 cm has a chord that is 12 cm long. What is the distance from the center of the circle to the chord?",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "Let the radius be $r = 10$ cm and the chord length be $c = 12$ cm. The distance from the center of the circle to the chord is given by $d = \\sqrt{r^2 - (\\frac{c}{2})^2} = \\sqrt{10^2 - (\\frac{12}{2})^2} = \\sqrt{64} = 8$ cm. \\(\\boxed{8}\\)",
+    "knowledge_point": "Circles and Their Properties",
+    "id": 151
+}

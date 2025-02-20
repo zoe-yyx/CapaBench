@@ -1,0 +1,8 @@
+{
+    "problem": "Simplify and express in the simplest form: $$\\frac{5 + 3\\sqrt{7}}{2 + 4\\sqrt{3}}$$. Find the sum of the coefficients of the reduced terms (integer part and radical part).",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Multiply the numerator and the denominator by the conjugate of the denominator, $2 - 4\\sqrt{3}$. This gives us: $$\\frac{(5 + 3\\sqrt{7})(2 - 4\\sqrt{3})}{(2 + 4\\sqrt{3})(2 - 4\\sqrt{3})} = \\frac{10 - 20\\sqrt{3} + 6\\sqrt{7} - 12\\sqrt{21}}{4 - 48} = \\frac{10 - 20\\sqrt{3} + 6\\sqrt{7} - 12\\sqrt{21}}{-44}.$$ Simplifying further, we find: $$\\frac{-5 + 10\\sqrt{3} - 3\\sqrt{7} + 6\\sqrt{21}}{22} = -\\frac{5}{22} + \\frac{10\\sqrt{3}}{22} - \\frac{3\\sqrt{7}}{22} + \\frac{6\\sqrt{21}}{22}.$$ Thus, the expression simplifies to $-\\frac{5}{22} + \\frac{5\\sqrt{3}}{11} - \\frac{3\\sqrt{7}}{22} + \\frac{3\\sqrt{21}}{11}$. Therefore, the sum is $-\\frac{5}{22} + \\frac{5}{11} - \\frac{3}{22} + \\frac{3}{11} = \\boxed{\\frac{3}{11}}$.",
+    "knowledge_point": "Rational Functions and Expressions",
+    "id": 188
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "Determine $x$ such that $3|x - 2| = 15$. Return the smaller one solution",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "First, divide both sides of the equation by 3 to get $|x - 2| = 5$. This splits into two cases: $x - 2 = 5 \\Rightarrow x = 7$ and $x - 2 = -5 \\Rightarrow x = -3$. Thus, the solution is $x = \\boxed{-3}$.",
+    "knowledge_point": "Inequalities and Absolute Values",
+    "id": 22
+}

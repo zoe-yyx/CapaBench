@@ -1,0 +1,8 @@
+{
+    "problem": "In a right triangle, if one angle measures 45 degrees and one leg measures 7\u221a2 units, find the length of the hypotenuse.",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "In a 45-45-90 triangle, the legs are congruent and the hypotenuse is $\\sqrt{2}$ times the length of each leg. Thus, the hypotenuse is $7\\sqrt{2} \\times \\sqrt{2} = 14$ units. \\(\\boxed{14}\\)",
+    "knowledge_point": "Properties of Right Triangles",
+    "id": 179
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "A regular hexagon and a regular triangle share a side. If the side length of each polygon is 6 units, find the area of the combined figure.",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "The area of a regular hexagon with side length s is given by $(\\frac{3\\sqrt{3}}{2})s^2$ and for a regular triangle, it's $(\\frac{\\sqrt{3}}{4})s^2$. For $s = 6$, the hexagon's area is $(\\frac{3\\sqrt{3}}{2})(6)^2 = 54\\sqrt{3}$ and the triangle's area is $(\\frac{\\sqrt{3}}{4})(6)^2 = 9\\sqrt{3}$. The total area is $54\\sqrt{3} + 9\\sqrt{3} = 63\\sqrt{3}$ square units. \\(\\boxed{63\\sqrt{3}}\\)",
+    "knowledge_point": "Polygons and Their Properties",
+    "id": 171
+}

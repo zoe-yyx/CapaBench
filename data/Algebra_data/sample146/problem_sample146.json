@@ -1,0 +1,8 @@
+{
+    "problem": "A factory uses machines X, Y, and Z to produce two types of gadgets, A and B. Machine X can produce 5 gadgets of type A and 3 gadgets of type B per hour. Machine Y can produce 4 gadgets of type A and 7 gadgets of type B per hour. Machine Z can produce 2 gadgets of type A and 4 gadgets of type B per hour. If the factory has a total of 6 hours for all machines to operate and needs to produce 19 gadgets of type A and 29 gadgets of type B, how many hours should machine X operate?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Let $x, y, z$ be the hours machine X, Y, and Z should operate, respectively. We have the system of equations: \\n5x + 4y + 2z = 19 \\quad \\text{(Type A gadgets)}\\n3x + 7y + 4z = 29 \\quad \\text{(Type B gadgets)}\\n\\text{and } x + y + z = 6 \\quad \\text{(Total hours)}.\\nWe need to solve this system to find the values of $x, y,$ and $z$. Using methods of substitution or elimination to solve these equations will yield the required hours of operation for each machine. \\boxed{1}",
+    "knowledge_point": "Systems of Linear Equations",
+    "id": 146
+}

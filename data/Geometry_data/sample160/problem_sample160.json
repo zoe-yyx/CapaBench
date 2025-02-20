@@ -1,0 +1,8 @@
+{
+    "problem": "Compute $\\cos 1110^\\circ$.",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "Rotating $1110^\\circ$ is equivalent to rotating $1110^\\circ - 3\\cdot 360^\\circ = 30^\\circ$. Therefore, $\\cos 1110^\\circ = \\cos (1110^\\circ - 3\\cdot 360^\\circ) = \\cos 30^\\circ = \\boxed{\\frac{\\sqrt{3}}{2}}$.",
+    "knowledge_point": "Fundamentals of Trigonometry",
+    "id": 160
+}

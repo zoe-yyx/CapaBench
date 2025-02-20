@@ -1,0 +1,8 @@
+{
+    "problem": "If $x=5$ and $y=3$, what is the value of $2x^2 + 3y^2$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Substituting $x=5$ and $y=3$, we get $2x^2 + 3y^2 = 2(5)^2 + 3(3)^2 = 2(25) + 3(9) = 50 + 27 = \\boxed{77}$.",
+    "knowledge_point": "Polynomials and Polynomial Operations",
+    "id": 28
+}

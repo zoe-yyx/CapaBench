@@ -1,0 +1,8 @@
+{
+    "problem": "Given the equation $(x-4)(2x+3) = 6$, find the product of the possible values of $x$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Expanding the left side of the given equation, we obtain $2x^2 - 5x - 12 = 6 \\Rightarrow 2x^2 - 5x - 18 = 0$. In a quadratic equation of the form $ax^2+bx+c=0$, the product of the roots is $c/a$. Thus, the product of the roots for the given equation is $-18/2 = \\boxed{-9}$.",
+    "knowledge_point": "Quadratic Equations and Functions",
+    "id": 181
+}

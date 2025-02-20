@@ -1,0 +1,8 @@
+{
+    "problem": "You have an equilateral triangle and you perform a rotation about its centroid. What is the minimum degree of rotation needed for the triangle to coincide with its original position?",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "An equilateral triangle has rotational symmetry of $120$ degrees around its centroid. Thus, rotating it by $\\boxed{120}$ degrees will make it coincide with its original position.",
+    "knowledge_point": "Transformative Geometry and Symmetry",
+    "id": 149
+}

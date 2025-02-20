@@ -1,0 +1,8 @@
+{
+    "problem": "Compute $\\tan 240^\\circ$.",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "Let $P$ be the point on the unit circle that is $240^\\circ$ counterclockwise from $(1,0)$. The angle $240^\\circ$ is in the third quadrant where tangent values are positive. $240^\\circ = 180^\\circ + 60^\\circ$, and since $\\tan (180^\\circ + \\theta) = \\tan \\theta$, we have $\\tan 240^\\circ = \\tan 60^\\circ = \\sqrt{3}$. Thus, $\\tan 240^\\circ = \\boxed{\\sqrt{3}}$.",
+    "knowledge_point": "Fundamentals of Trigonometry",
+    "id": 58
+}

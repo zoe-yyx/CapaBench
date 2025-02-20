@@ -1,0 +1,8 @@
+{
+    "problem": "Determine the number of values of $y$ where the expression $\\frac{y-8}{y^2-16}$ is undefined.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "The expression is undefined when the denominator equals zero. We solve $y^2-16=0$ for $y$: \\[y^2-16=0 \\Rightarrow y^2=16 \\Rightarrow y=\\pm4.\\] Therefore, there are $\\boxed{2}$ different values of $y$ that make the given expression undefined.",
+    "knowledge_point": "Rational Functions and Expressions",
+    "id": 89
+}

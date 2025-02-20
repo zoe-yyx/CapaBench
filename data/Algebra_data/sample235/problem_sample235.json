@@ -1,0 +1,8 @@
+{
+    "problem": "Given the quadratic equation $x^2 + px + q = 0$ where $p$ and $q$ are integers, and one root is twice the other. If the sum of the roots taken three times is equal to 27, find the equation by determining values of $p$ and $q$.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "Let the roots be $r$ and $2r$. From the quadratic equations roots relations, we know the sum of the roots $r + 2r = 3r$ and the product of the roots $r \\times 2r = 2r^2$. It's given that $3(3r) = 27$, leading to $r = 3$. Then we have $x_1 + x_2 = -p = 9, x_1 x_2 = q = 18$. So the equation is $\\boxed{x^2 - 9x + 18 = 0}$.",
+    "knowledge_point": "Quadratic Equations and Functions",
+    "id": 235
+}

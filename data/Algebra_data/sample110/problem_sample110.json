@@ -1,0 +1,8 @@
+{
+    "problem": "In a coordinate system, the line $y = 2x - 3$ intersects the line $3x - y = 4$ at point $B$. What is the sum of the coordinates of point $B$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "If the coordinates of point $B$ are $(x,y)$ then $x$ and $y$ must satisfy the equations of both lines (as $B$ is on both lines). Substituting the first equation into the second gives: \\begin{align*}\n3x - (2x - 3) &= 4\\\\\nx + 3 &= 4\\\\\nx &= 1.\n\\end{align*} So now $y = 2x - 3 = 2*1 - 3 = -1$, and so the coordinates of point $B$ are $(1, -1)$. The sum of these is $1 + (-1) = \\boxed{0}$.",
+    "knowledge_point": "Algebra in Coordinate Geometry",
+    "id": 110
+}

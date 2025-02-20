@@ -1,0 +1,8 @@
+{
+    "problem": "What is the distance between the points $K(4, 7)$ and $M(13, 7)$ on a coordinate plane?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "The distance between $K$ and $M$ is $13 - 4 = \\boxed{9}$ units.",
+    "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+    "id": 15
+}

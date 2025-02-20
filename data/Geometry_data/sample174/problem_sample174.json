@@ -1,0 +1,8 @@
+{
+    "problem": "Given a rectangle ABCD, points E and F are taken on sides AB and BC respectively such that triangle AEF is isosceles with AE = EF and EAF = 30 degrees. If AB = 12 and BC = 8, find the length of CF.",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "Placing the rectangle on a coordinate plane, let A = (0, 0), B = (12, 0), C = (12, 8), and F = (12, y2). Using the conditions AE = EF and angle EAF = 30 degrees, we derive y2 = 4\u221a3 and x1 = 8. The coordinates of F are thus (12, 4\u221a3) and C is (12, 8), so CF = $\\boxed{8 - 4\\sqrt{3}}$.",
+    "knowledge_point": "Polygons and Their Properties",
+    "id": 174
+}

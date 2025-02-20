@@ -1,0 +1,8 @@
+{
+    "problem": "Find the bigger root of the equation $x^2 + 6x + 5 = 0$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Factoring the quadratic equation, we get:\n$$x^2 + 6x + 5 = (x + 1)(x + 5) = 0.$$ The roots are the solutions to each factor being zero, thus $x = -1$ and $x = -5$. Therefore, the bigger root is $\\boxed{-1}$.",
+    "knowledge_point": "Quadratic Equations and Functions",
+    "id": 85
+}

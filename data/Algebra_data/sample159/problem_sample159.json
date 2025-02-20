@@ -1,0 +1,8 @@
+{
+    "problem": "Laura starts at point $A$ and moves to point $B$ in a straight line at a speed of $6$ m/s for $300$ meters, then continues to point $C$ at a speed of $3$ m/s for another $600$ meters, and finally proceeds to point $D$ at a speed of $9$ m/s for $300$ meters. What is Laura's average speed, in meters per second, over the entire distance from $A$ to $D$? Give the answer in decimal and round to 2 decimal places",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "To find the average speed, first calculate the total distance and total time. The distance from $A$ to $D$ is $300 + 600 + 300 = 1200$ meters. The time taken to travel from $A$ to $B$ is $\\frac{300}{6} = 50$ seconds, from $B$ to $C$ is $\\frac{600}{3} = 200$ seconds, and from $C$ to $D$ is $\\frac{300}{9} = 33.33$ seconds. The total time is $50 + 200 + 33.33 = 283.33$ seconds. Thus, the average speed is $\\frac{1200}{283.33} = \\boxed{4.24}$ m/s.",
+    "knowledge_point": "Algebra in Coordinate Geometry",
+    "id": 159
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "Find the product of integer solutions for $z$(-5 < z < 5) such that $|z^2 - 9|$ equals a prime number.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "Testing the integer values within the range one by one, you can find that the integer value that satisfies the condition is $-4, -2, 2, 4$. So the answer is $\\boxed{64}$",
+    "knowledge_point": "Inequalities and Absolute Values",
+    "id": 225
+}

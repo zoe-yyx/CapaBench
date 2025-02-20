@@ -1,0 +1,8 @@
+{
+    "problem": "In a circle with radius 15 cm, a central angle measures $120^\\circ$. Find the area of the sector formed by this angle.",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "The area of a sector formed by a central angle $\\theta$ in a circle of radius $r$ is given by $A = \\frac{\\theta}{360^\\circ} \\cdot \\pi r^2$. Plugging in the given values, we have $A = \\frac{120^\\circ}{360^\\circ} \\cdot \\pi \\cdot (15^2) = \\frac{1}{3} \\cdot \\pi \\cdot 225 = 75\\pi$ square cm. Therefore, the area of the sector is $\\boxed{75\\pi}$ square cm.",
+    "knowledge_point": "Circles and Their Properties",
+    "id": 54
+}

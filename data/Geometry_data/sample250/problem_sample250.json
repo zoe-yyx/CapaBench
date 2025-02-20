@@ -1,0 +1,8 @@
+{
+    "problem": "A rectangle is reflected across its longer side to form a new rectangle. What is the ratio between the area of the original rectangle and the new rectangle?",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "The reflection of a rectangle across its longer side results in a rectangle of the same dimensions as the original rectangle. Therefore, the area of the new rectangle is equal to the area of the original rectangle, as reflection is a rigid transformation that preserves area. \\(\\boxed{1}\\)",
+    "knowledge_point": "Transformative Geometry and Symmetry",
+    "id": 250
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "The graph of function $f(x)$ is given by the line segment from $(0, 0)$ to $(10, 20)$ and for the function $g(x)$ by the line segment from $(0, 20)$ to $(10, 0)$. Find the value of $f(x) - g(x)$ at $x = 5$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Both functions $f(x)$ and $g(x)$ are linear. The function $f(x)$ increases from $(0,0)$ to $(10,20)$, which means the slope is $2$ and the equation is $y = 2x$. The function $g(x)$ decreases from $(0,20)$ to $(10,0)$, which means the slope is $-2$ and the equation is $y = -2x + 20$. Setting $2x = -2x + 20$ gives $4x = 20$ hence $x = 5$, so $f(x) = g(x)$ at $x = 5$. At $x = 5$, $f(5) = 2*5 = 10$ and $g(5) = -2*5 + 20 = 10$, so $f(x) - g(x) = \\boxed{0}$.",
+    "knowledge_point": "Algebra in Coordinate Geometry",
+    "id": 156
+}

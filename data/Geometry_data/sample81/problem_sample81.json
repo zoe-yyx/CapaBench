@@ -1,0 +1,8 @@
+{
+    "problem": "$ABCD$ is a parallelogram. If the measure of angle $A$ is $70^\\circ$, what is the measure of angle $B$?",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "In a parallelogram, opposite angles are equal and consecutive angles are supplementary. Therefore, the measure of angle $B$, which is consecutive to angle $A$, is $180^\\circ - 70^\\circ = \\boxed{110^\\circ}$.",
+    "knowledge_point": "Quadrilateral Features and Classifications",
+    "id": 81
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "Determine all values of $x$ such that the expression $\\sqrt{|x-4|-|x+3|}$ is defined. Give the answer in the form of intervals.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "For the square root function to be defined, the expression inside the square root, $|x-4|-|x+3|$, must be non-negative. This can be rewritten as $|x-4| \\geq |x+3|$. We consider the absolute values and their critical points at $x = 4$ and $x = -3$. For $x \\geq 4$, $x-4 \\geq 0$ and $x+3 \\geq 0$, so $|x-4| = x-4$ and $|x+3| = x+3$. The inequality $x-4 \\geq x+3$ simplifies to $-4 \\geq 3$, which is false. For $x < -3$, $x-4 < 0$ and $x+3 < 0$, so $|x-4| = -(x-4)$ and $|x+3| = -(x+3)$. The inequality $-(x-4) \\geq -(x+3)$ simplifies to $4 \\geq -3$, then $x < -3$ holds. For $-3 \\leq x < 4$, $x-4 < 0$ and $x+3 \\geq 0$, so $|x-4| = -(x-4)$ and $|x+3| = x+3$. The inequality $-(x-4) \\geq x+3$ simplifies to $1 \\geq 2x$, or $x \\leq \\frac{1}{2}$, since $-3 \\leq x < 4$ and $x \\leq \\frac{1}{2}$, the values of $x$ in this case are $x \\in [-3, \\frac{7}{2}]$. Therefore, the values of $x$ for which the expression is defined are $\\boxed{(-\\infty, \\frac{1}{2}]}$.",
+    "knowledge_point": "Inequalities and Absolute Values",
+    "id": 221
+}

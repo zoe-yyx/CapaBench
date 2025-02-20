@@ -1,0 +1,8 @@
+{
+    "problem": "In right triangle ABC with the right angle at C , AC = 6 units, and BC = 8 units. Point D is a point on the hypotenuse AB such that CD is perpendicular to AB . Find the length of CD .",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "Since CD is perpendicular to AB, triangles ADC, CDB, and ABC are similar. Using the properties of similar triangles, we find that CD = \\boxed{\\frac{24}{5}}.",
+    "knowledge_point": "Similar Triangles and Proportions",
+    "id": 86
+}

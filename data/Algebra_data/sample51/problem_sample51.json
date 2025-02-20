@@ -1,0 +1,8 @@
+{
+    "problem": "Simplify $(2 + 3i) + (5 - 2i)$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "$(2 + 3i) + (5 - 2i) = (2 + 5) + (3i - 2i) = \\boxed{7 + i}.$",
+    "knowledge_point": "Complex Numbers",
+    "id": 51
+}

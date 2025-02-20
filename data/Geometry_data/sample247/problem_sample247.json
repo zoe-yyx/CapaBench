@@ -1,0 +1,8 @@
+{
+    "problem": "A regular hexagon is reflected across one of its diagonals across opposite vertices. How many of the original vertices match with their reflected image?",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "In a regular hexagon, a diagonal across opposite vertices divides the hexagon into two equal trapezoids and is a line of symmetry. When the hexagon is reflected across this diagonal, the vertices on the diagonal line (the ends of the diagonal) remain unchanged. Thus, 2 vertices out of the 6 vertices match with their reflected image. \\(\\boxed{2}\\)",
+    "knowledge_point": "Transformative Geometry and Symmetry",
+    "id": 247
+}

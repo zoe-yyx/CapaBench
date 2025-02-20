@@ -1,0 +1,8 @@
+{
+    "problem": "If we write $\\sqrt{5}+\\frac{1}{\\sqrt{5}} + \\sqrt{7} + \\frac{1}{\\sqrt{7}}$ in the form $\\dfrac{p\\sqrt{5} + q\\sqrt{7}}{r}$ such that $p$, $q$, and $r$ are positive integers and $r$ is as small as possible, then what is $p+q+r$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "The common denominator desired is $\\sqrt{5}\\cdot\\sqrt{7} = \\sqrt{35}$. Thus, this expression can be rewritten as $\\frac{\\sqrt{5}\\cdot(\\sqrt{5}\\cdot\\sqrt{7})+1\\cdot\\sqrt{7}+\\sqrt{7}\\cdot(\\sqrt{5}\\cdot\\sqrt{7})+1\\cdot\\sqrt{5}}{\\sqrt{35}}$. Simplifying this gives $\\frac{5\\sqrt{7}+\\sqrt{7}+7\\sqrt{5}+\\sqrt{5}}{\\sqrt{35}} = \\frac{8\\sqrt{5}+6\\sqrt{7}}{\\sqrt{35}}$. To rationalize, multiply numerator and denominator by $\\sqrt{35}$ to get $\\frac{8\\sqrt{5}\\sqrt{35}+6\\sqrt{7}\\sqrt{35}}{35}$. Simplifying yields $\\frac{42\\sqrt{5}+40\\sqrt{7}}{35}$, so the desired sum is $42+40+35=\\boxed{117}$.",
+    "knowledge_point": "Rational Functions and Expressions",
+    "id": 186
+}

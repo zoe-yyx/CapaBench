@@ -1,0 +1,8 @@
+{
+    "problem": "If $a = 2^{3}$ and $b = a^{4}$, what is the value of $b$ in terms of $2^n$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Since $a = 2^{3}$, we have $b = a^{4} = (2^3)^4 = 2^{3\\cdot4} = 2^{12}$. Therefore, $b = 2^{12}$ and $n = \\boxed{12}$.",
+    "knowledge_point": "Exponents and Logarithms",
+    "id": 12
+}

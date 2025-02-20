@@ -1,0 +1,8 @@
+{
+    "problem": "Two similar triangles have perimeters of 30 cm and 45 cm. If the longest side of the smaller triangle is 12 cm, find the length of the corresponding longest side of the larger triangle.",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "The ratio of the perimeters of the triangles is $45 / 30 = 1.5$. Since the triangles are similar, the sides are proportional. Thus, the longest side of the larger triangle is $1.5 \\times 12 = 18$ cm. \\(\\boxed{18}\\)",
+    "knowledge_point": "Similar Triangles and Proportions",
+    "id": 88
+}

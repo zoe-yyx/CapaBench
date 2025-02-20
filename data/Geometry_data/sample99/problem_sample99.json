@@ -1,0 +1,8 @@
+{
+    "problem": "The triangle with vertices at (1,1), (4,1), and (1,3) is translated 3 units to the right and 2 units up. What is the abscissa of the vertex of the new triangle furthest from the origin?",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "After translating the vertices, (1,1) moves to (4,3), (4,1) moves to (7,3), and (1,3) moves to (4,5). So point (7, 3) is the furthest point from the origin. Therefore, the answer is $\\boxed{7}$.",
+    "knowledge_point": "Transformative Geometry and Symmetry",
+    "id": 99
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "A circle has a center at $(h, -1)$ and passes through the points $(0, 2)$ and $(4, 0)$. Find the radius of the circle.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "The equation of the circle can be written as $(x - h)^2 + (y + 1)^2 = r^2$. Consider the two points, we have $h^2 + 9 = r^2, (4 - h)^2 + 1 = r^2$. Then we can compute that $r = \\boxed{\\sqrt{10}}$",
+    "knowledge_point": "Algebra in Coordinate Geometry",
+    "id": 207
+}

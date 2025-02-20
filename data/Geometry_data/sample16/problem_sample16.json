@@ -1,0 +1,8 @@
+{
+    "problem": "A triangle has two sides that are 7 cm and 12 cm and all the three sides are integers. What is the smallest possible perimeter of this triangle, in centimeters?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "The third side must be larger than the difference of the other two sides and smaller than their sum (triangle inequality). To minimize the perimeter, the third side should be as small as possible but still satisfy the triangle inequality. The minimum valid length for the third side is $12 - 7 + 1= 6$ cm. Thus, the smallest perimeter is $7 + 12 + 6 = \\boxed{25}$ cm.",
+    "knowledge_point": "Geometric Inequalities and Optimization Problems",
+    "id": 16
+}

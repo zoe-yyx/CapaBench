@@ -1,0 +1,8 @@
+{
+    "problem": "Given $z = 2 - i$ and $w = -1 + 2i$, compute the product $zw$ and represent it in the form of a complex number $a+bi$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "The product of $z = 2 - i$ and $w = -1 + 2i$ is $zw = (2 - i)(-1 + 2i) = -2 + 4i + i - 2i^2 = -2 + 5i + 2 = \\boxed{5i}$.",
+    "knowledge_point": "Complex Numbers",
+    "id": 153
+}

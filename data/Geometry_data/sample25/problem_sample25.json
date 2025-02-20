@@ -1,0 +1,8 @@
+{
+    "problem": "Isosceles trapezoid $WXYZ$ has bases $WX = 10$ and $YZ = 6$. What is the average length of the bases?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "The average length of the bases of a trapezoid is given by the formula $\\frac{base1 + base2}{2}$. For trapezoid $WXYZ$, this is $\\frac{10 + 6}{2} = \\boxed{8}$ units.",
+    "knowledge_point": "Polygons and Their Properties",
+    "id": 25
+}

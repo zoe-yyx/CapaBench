@@ -1,0 +1,8 @@
+{
+    "problem": "Find sum of all values of $z$ such that $z^2 + 4z + 13 = 0$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Using the quadratic formula, $z = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$ where $a = 1, b = 4, c = 13$. So, $z = \\frac{-4 \\pm \\sqrt{16 - 52}}{2} = \\frac{-4 \\pm \\sqrt{-36}}{2} = \\frac{-4 \\pm 6i}{2} = -2 \\pm 3i$. Thus, $z = -2 + 3i$ and $z = -2 - 3i$. Therefore, the sum is $\\boxed{-4}$",
+    "knowledge_point": "Complex Numbers",
+    "id": 104
+}

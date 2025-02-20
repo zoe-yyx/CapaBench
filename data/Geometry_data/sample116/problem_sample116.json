@@ -1,0 +1,8 @@
+{
+    "problem": "What is the smallest possible perimeter of a triangle with integer side lengths if one side is 7 units?",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "Let the sides of the triangle be 7, x, and y with x and y being integers. According to the triangle inequality, each side must be less than the sum of the other two. Therefore, 7 < x + y, x < 7 + y, and y < 7 + x. By minimizing x and y while satisfying these conditions, the smallest values we can choose for x and y are 7 and 1 respectively. This gives us the triangle with sides 7, 7, and 1. The perimeter is 7 + 7 + 1 = \\boxed{15}.",
+    "knowledge_point": "Geometric Inequalities and Optimization Problems",
+    "id": 116
+}

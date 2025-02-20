@@ -1,0 +1,8 @@
+{
+    "problem": "The line segment has endpoints (3, -4) and (-2, 5). Find the abscissa of the midpoint of the line segment.",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "The midpoint M of a line segment with endpoints (x1, y1) and (x2, y2) is given by M = ((x1+x2)/2, (y1+y2)/2). Substituting the given points into the formula, M = ((3-2)/2, (-4+5)/2) = (1/2, 1/2). Therefore the answer is \\boxed{\\frac{1}{2}}",
+    "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+    "id": 165
+}

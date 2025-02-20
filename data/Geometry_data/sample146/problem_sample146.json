@@ -1,0 +1,8 @@
+{
+    "problem": "A rectangle $ABCD$ is divided into a grid of 3x2 smaller rectangles. If you want to color some of these smaller rectangles so that the diagonal is completely covered by the painted area, what is the minimum number of smaller rectangles you must color?",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "To cover the diagonal in a 3x2 grid, we analyze how it crosses 4 smaller rectangles (one in each row or column transition) and conclude that the minimum number of rectangles to color is \\boxed{4}.",
+    "knowledge_point": "Transformative Geometry and Symmetry",
+    "id": 146
+}

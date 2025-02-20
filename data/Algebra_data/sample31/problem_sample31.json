@@ -1,0 +1,8 @@
+{
+    "problem": "Assume $x$ and $y$ satisfy that $xy=10$ and $x+y=9$. What is $|x-y|$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Given equations are $xy=10$ and $x+y=9$. By squaring the second equation, we get $(x+y)^2 = x^2 + 2xy + y^2 = 81$. Since $xy = 10$, we replace it in the equation: $x^2 + 2*10 + y^2 = 81$ which simplifies to $x^2 + y^2 = 61$. Now, consider $(x-y)^2 = x^2 - 2xy + y^2 = x^2 + y^2 - 2*10 = 61 - 20 = 41$. Thus, $x-y = \\pm\\sqrt{41}$. Therefore, $|x-y| = \\boxed{\\sqrt{41}}$, which is the absolute difference between $x$ and $y$.",
+    "knowledge_point": "Quadratic Equations and Functions",
+    "id": 31
+}

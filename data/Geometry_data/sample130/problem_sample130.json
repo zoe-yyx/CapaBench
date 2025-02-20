@@ -1,0 +1,8 @@
+{
+    "problem": "In a right triangle, the lengths of the legs are $a$ and $a + 4$. If the hypotenuse is $a + 5$, find the value of $a$.",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "Applying the Pythagorean theorem, we have $a^2 + (a+4)^2 = (a+5)^2$. Expanding and simplifying, $a^2 + a^2 + 8a + 16 = a^2 + 10a + 25$, thus $a^2 - 2a - 9 = 0$. Apply the root-finding formula, and since $a$ must be positive, $a = \\frac{2 + \\sqrt{40}}{2} = 1 + \\sqrt{10}$. Thus, the value of $a$ is $\\boxed{1 + \\sqrt{10}}$.",
+    "knowledge_point": "Properties of Right Triangles",
+    "id": 130
+}

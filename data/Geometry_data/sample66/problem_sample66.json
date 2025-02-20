@@ -1,0 +1,8 @@
+{
+    "problem": "The sides of a triangle measure 7 units, 10 units, and x units. What is the maximum possible integer value for x?",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "Using the triangle inequality, we have: 7 + 10 > x, 7 + x > 10, and 10 + x > 7. Simplifying, we find x < 17, x > 3, and x > -3, respectively. Combining these, the feasible range for x is 4 to 16. Therefore, the possible integer values for x are \\boxed{16}.",
+    "knowledge_point": "Geometric Inequalities and Optimization Problems",
+    "id": 66
+}

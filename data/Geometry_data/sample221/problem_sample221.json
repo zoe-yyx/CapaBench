@@ -1,0 +1,8 @@
+{
+    "problem": "A regular pentagon is inscribed in a circle with a radius of 10 cm. What is the perimeter of the pentagon? Give the answer in decimal and round to 1 decimal places",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "The side length of a regular pentagon inscribed in a circle can be calculated using the formula: $s = 2r \\sin(\\pi/n)$, where $n$ is the number of sides. Here, $r = 10$ and $n = 5$. So, $s = 2 \\times 10 \\times \\sin(\\pi/5) = 20 \\times \\sin(36^\\circ)$. \\(\\sin(36^\\circ)\\) approximately equals 0.5878. Therefore, $s \\approx 20 \\times 0.5878 = 11.756$ cm. The perimeter of the pentagon is $5 \\times s = 5 \\times 11.756 = 58.78$ cm. \\(\\boxed{58.8}\\)",
+    "knowledge_point": "Polygons and Their Properties",
+    "id": 221
+}

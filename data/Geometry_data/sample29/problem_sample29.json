@@ -1,0 +1,8 @@
+{
+    "problem": "In isosceles right triangle $\\triangle XYZ$, $XY = XZ$. If $XY = 7\\sqrt{2}$, what is the length of $YZ$?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "In an isosceles right triangle, the hypotenuse $YZ$ is $\\sqrt{2}$ times the length of each leg. Therefore, $YZ = 7\\sqrt{2} \\times \\sqrt{2} = 7 \\times 2 = \\boxed{14}$.",
+    "knowledge_point": "Properties of Right Triangles",
+    "id": 29
+}

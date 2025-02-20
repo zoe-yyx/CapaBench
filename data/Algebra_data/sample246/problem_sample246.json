@@ -1,0 +1,8 @@
+{
+    "problem": "Assume $x$ and $y$ satisfy the system of equations: $3x^2 + 4y = 16$ and $2x - y = 3$. Compute sum of possible value of $4x + 3y$.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "First solve $2x - y = 3$ for $x$, yielding $x = \\frac{y + 3}{2}$. Substitute $x$ in the first equation: $3(\\frac{y + 3}{3})^2 + 4y = 16$. Solving this will give us values for $x$ and $y$. That is $x = 2, y = 1$ or $x = -\\frac{14}{3}, y = -\\frac{37}{3}$. So $4x + 3y = 11$ or $4x + 3y = -\\frac{167}{3}$. Thus the answer is $11 - \\frac{167}{3} = \\boxed{-\\frac{134}{3}}$",
+    "knowledge_point": "Systems of Linear Equations",
+    "id": 246
+}

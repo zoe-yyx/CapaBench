@@ -1,0 +1,8 @@
+{
+    "problem": "A circle is inscribed in a triangle with sides 13, 14, and 15. Calculate the radius of the circle.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "The radius of the inscribed circle is 4. First, we calculate the semi-perimeter s = (13 + 14 + 15) / 2 = 21. Then, we use Heron's formula to calculate the area: A = sqrt(21 * (21 - 13) * (21 - 14) * (21 - 15)) = 84. Finally, the radius is found using r = A / s = 84 / 21 = $\\boxed{4}$.",
+    "knowledge_point": "Circles and Their Properties",
+    "id": 201
+}

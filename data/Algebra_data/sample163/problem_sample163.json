@@ -1,0 +1,8 @@
+{
+    "problem": "Solve for $x$ given that $3^{x+1} + 3^x = 30$. Give the answer in decimal and round to 2 decimal places",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "First, express $3^{x+1}$ as $3 \\cdot 3^x$. The equation becomes $3 \\cdot 3^x + 3^x = 30$. Combining like terms gives $(3 + 1) \\cdot 3^x = 30$, or $4 \\cdot 3^x = 30$. Dividing both sides by $4$, we find $3^x = \\frac{30}{4} = 7.5$. Taking the logarithm base 3, we have $x = \\log_3(7.5)$. Using the change of base formula, $x = \\frac{\\log_{10}(7.5)}{\\log_{10}(3)}$. The approximate solution is $x \\approx 1.834$. Therefore, the solution is $\\boxed{1.83}$.",
+    "knowledge_point": "Exponents and Logarithms",
+    "id": 163
+}

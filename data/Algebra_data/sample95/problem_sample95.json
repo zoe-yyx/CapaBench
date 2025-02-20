@@ -1,0 +1,8 @@
+{
+    "problem": "Calculate the sum of the series 4, 8, 12, ..., 100.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "This is an arithmetic sequence where the first term a = 4 and the common difference d = 4. The last term l = 100. To find the number of terms, use the formula for the nth term of an arithmetic sequence, l = a + (n-1) * d. Solving 100 = 4 + (n-1) * 4 gives n = 25. The sum S of an arithmetic series is given by S = n/2 * (a + l). Substituting the values, S = 25/2 * (4 + 100) = 25/2 * 104 = \\boxed{1300}.",
+    "knowledge_point": "Sequences and Series",
+    "id": 95
+}

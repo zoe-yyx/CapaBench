@@ -1,0 +1,8 @@
+{
+    "problem": "If $x$ and $y$ are integers such that $(x+yi)(3-4i) = 18 + i$, find the value of $x+y$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Expanding and equating real and imaginary parts, we have $(x+yi)(3-4i) = 3x + 4y + (3y - 4x)i = 18 + i$. From this, equate the real parts: $3x + 4y = 18$ and the imaginary parts: $3y - 4x = 1$. Solving these simultaneously, $x = 2$, $y = 3$. Thus, $x + y = 2 + 3 = \\boxed{5}$.",
+    "knowledge_point": "Complex Numbers",
+    "id": 101
+}

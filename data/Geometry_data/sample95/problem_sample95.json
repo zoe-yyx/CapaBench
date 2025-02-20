@@ -1,0 +1,8 @@
+{
+    "problem": "A cylindrical drum has a diameter of 1.2 meters and holds $1692\\pi$ cubic meters of oil. What is the height of the drum?",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "Let the height of the drum be $h$ meters. The radius $r$ of the drum is half the diameter, so $r = 0.6$ meters. The volume $V$ of a cylinder is given by $V = \\pi r^2 h$. We have $1692\\pi = \\pi (0.6)^2 h$. Solving for $h$, we get $h = \\frac{1692}{0.36} = \\boxed{4700}$ meters.",
+    "knowledge_point": "Three-Dimensional Geometry",
+    "id": 95
+}

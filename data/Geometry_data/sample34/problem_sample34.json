@@ -1,0 +1,8 @@
+{
+    "problem": "Trapezoid $ABCD$ (with bases $AB$ and $CD$) has $m\\angle A = 75^{\\circ}$. Find $m\\angle C$.",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "In a trapezoid, the consecutive angles between a base and the legs are supplementary. Since $m\\angle A = 75^{\\circ}$, then $m\\angle C = m\\angle D = 180^{\\circ} - 75^{\\circ} = \\boxed{105^{\\circ}}$.",
+    "knowledge_point": "Quadrilateral Features and Classifications",
+    "id": 34
+}

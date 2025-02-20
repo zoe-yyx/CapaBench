@@ -1,0 +1,8 @@
+{
+    "problem": "Consider the piecewise function \\[ h(x) = \\begin{cases} \\sqrt{x} & \\text{if } x \\geq 4, \\\\ x^3 & \\text{if } x < 4. \\end{cases} \\] Evaluate $h(h(h(8)))$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "\\begin{align*} h(h(h(8))) &= h(h(\\sqrt{8})) \\\\ &= h(h(2\\sqrt{2})) \\\\ &= h((2\\sqrt{2})^3) \\\\ &= h(8\\sqrt{8}) \\\\ &= \\sqrt{8\\sqrt{8}} \\\\ &= \\boxed{4 \\times 2^{\\frac{1}{4}}}. \\end{align*}",
+    "knowledge_point": "Function Composition and Inverses",
+    "id": 119
+}

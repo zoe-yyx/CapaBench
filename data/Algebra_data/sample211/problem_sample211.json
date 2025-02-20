@@ -1,0 +1,8 @@
+{
+    "problem": "If $3^x + 3^x + 3^x = 27^{(x-1)}$, find the value of $x$. Express your answer as a simplified fraction.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "First, we rewrite the sum $3^x + 3^x + 3^x$ as $3 \\cdot 3^x = 3^{x+1}$. Since $27 = 3^3$, we can express $27^{(x-1)}$ as $(3^3)^{(x-1)} = 3^{3(x-1)} = 3^{3x-3}$. Equating the exponents, we get $3^{x+1} = 3^{3x-3}$. Setting the exponents equal gives $x+1 = 3x-3$. Solving for $x$, we have $4 = 2x$, which simplifies to $x = 2$. Therefore, $x = \\frac{4}{2} = \\boxed{2}$.",
+    "knowledge_point": "Exponents and Logarithms",
+    "id": 211
+}

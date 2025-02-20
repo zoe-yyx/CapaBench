@@ -1,0 +1,8 @@
+{
+    "problem": "In a right triangle, the lengths of the two sides are 8 cm and 6 cm. What is the greatest possible length of the third side?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "The hypotenuse of a right triangle is always longer than either of the legs and is calculated using the Pythagorean theorem. Here, the possible greatest length of the third side is the square root of $(8^2 + 6^2) = \\sqrt{64 + 36} = \\sqrt{100} = 10$ cm. \\(\\boxed{10}\\)",
+    "knowledge_point": "Geometric Inequalities and Optimization Problems",
+    "id": 17
+}

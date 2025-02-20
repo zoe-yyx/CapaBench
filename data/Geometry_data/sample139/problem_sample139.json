@@ -1,0 +1,8 @@
+{
+    "problem": "A large triangle is cut into two smaller triangles, $XYZ$ and $ABC$, by a line parallel to one of its sides. If the area of triangle $ABC$ is three times that of triangle $XYZ$, what is the ratio of the length of the side of $ABC$ parallel to the cut to the corresponding side of $XYZ$?",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "The areas of the triangles are proportional to the square of the ratio of corresponding sides. If the area of $ABC$ is three times that of $XYZ$, then $(\\text{ratio of sides})^2 = 3$. Thus, the ratio of the sides is $\\sqrt{3}:1 = \\boxed{\\sqrt{3}}.$",
+    "knowledge_point": "Similar Triangles and Proportions",
+    "id": 139
+}

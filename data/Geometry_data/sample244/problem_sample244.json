@@ -1,0 +1,8 @@
+{
+    "problem": "A regular icosahedron has each edge measuring 3. Calculate the volume of this icosahedron.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "The volume $V$ of a regular icosahedron with edge length $s$ is given by $V = \\frac{15+7\\sqrt{5})s^3}{4}$. Substituting $s = 3$, we find $V = \\frac{15+7\\sqrt{5})3^3}{4} = \\boxed{\\frac{27(15+7\\sqrt{5})}{4}}$.",
+    "knowledge_point": "Three-Dimensional Geometry",
+    "id": 244
+}

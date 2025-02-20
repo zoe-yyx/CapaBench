@@ -1,0 +1,8 @@
+{
+    "problem": "In triangle $DEF$, $\\angle D = \\angle E$. If side $DF = 10$ cm and side $DE = 8$ cm, find the length of side $EF$.",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "Since $\\angle D = \\angle E$, triangle $DEF$ is isosceles with sides $DF$ and $fE$ being equal. Therefore, $EF$ also equals $10$ cm. \\(\\boxed{10}\\)",
+    "knowledge_point": "Similar Triangles and Proportions",
+    "id": 37
+}

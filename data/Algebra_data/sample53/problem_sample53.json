@@ -1,0 +1,8 @@
+{
+    "problem": "Find the result of $(4 - 3i) - (2 + 5i)$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "$(4 - 3i) - (2 + 5i) = 4 - 3i - 2 - 5i = (4 - 2) + (-3i - 5i) = \\boxed{2 - 8i}.$",
+    "knowledge_point": "Complex Numbers",
+    "id": 53
+}

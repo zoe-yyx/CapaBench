@@ -1,0 +1,8 @@
+{
+    "problem": "In parallelogram $LMON$, if $LM = 7$ cm, $MO = 10$ cm, and a line is drawn from $L$ to $O$. What is the ratio of triangle $LMO$ to triangle $LNO$?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "Both triangles $LMO$ and $LNO$ share the diagonal $LO$ and have the same altitude from $L$ to line $MN$. Therefore, their areas are equal, making the ratio of $\\triangle LMO$ to $\\triangle LNO$ equal to $1:1$. \\(\\boxed{1}\\)",
+    "knowledge_point": "Similar Triangles and Proportions",
+    "id": 39
+}

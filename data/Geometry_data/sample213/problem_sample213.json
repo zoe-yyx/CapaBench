@@ -1,0 +1,8 @@
+{
+    "problem": "Consider a circle with center $(5, 3)$ and radius $4$. The line through $(1, -1)$ is tangent to the circle. Determine the slope of the tangent equation.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "Assume that the tangent equation is kx - y - k - 1 = 0, so the distance from the center of the circle to the straight line d = |4k-4|/sqrt(k^2+1) = 4, and the solution is $k = \\boxed{0}$",
+    "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+    "id": 213
+}

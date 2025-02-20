@@ -1,0 +1,8 @@
+{
+    "problem": "In an arithmetic sequence, the sum of the first 10 terms equals the sum of the first 20 terms. If the first term of the sequence is 5, what is the common difference?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Given the first term $a = 5$, the sum of the first $n$ terms of an arithmetic sequence is $S_n = n/2(2a + (n-1)d)$. For the first 10 terms, $S_{10} = 10/2(2 \\times 5 + 9d) = 5(10 + 9d) = 50 + 45d$. For the first 20 terms, $S_{20} = 20/2(2 \\times 5 + 19d) = 10(10 + 19d) = 100 + 190d$. Since the sum of the first 10 terms equals the sum of the first 20 terms, we have $50 + 45d = 100 + 190d$. Solving for $d$ gives $-145d = 50$ and $d = -\\frac{10}{29}$. Thus, the common difference is $\\boxed{-\\frac{10}{29}}$.",
+    "knowledge_point": "Sequences and Series",
+    "id": 145
+}

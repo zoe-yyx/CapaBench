@@ -1,0 +1,8 @@
+{
+    "problem": "Calculate the vertical intercept of the equation of the line perpendicular to the straight line y = 3x + 7 through the point (2, -1).",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "The slope of the line y = 3x + 7 is 3. The slope of any line perpendicular to it is the negative reciprocal, which is -1/3. Using the point-slope form of a line equation, y - y1 = m(x - x1), where m is the slope and (x1, y1) is a point on the line, we get y - (-1) = -1/3(x - 2), which simplifies to y = -1/3x + 2/3 - 1, and finally y = -1/3x - 1/3. Therefore the answer is $\\boxed{\\frac{2}{3}}$",
+    "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+    "id": 162
+}

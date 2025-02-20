@@ -1,0 +1,8 @@
+{
+    "problem": "Leona invested $\\$8000$ in a savings account that compounds annually at a rate of $8\\%$. How much total money will she have after 8 years? Give the answer in decimal and round to 2 decimal places",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "With compound interest, the total amount after 8 years can be calculated using the formula $A = P(1 + r)^t$, where $P = 8000$, $r = 0.08$, and $t = 8$. Thus, $A = 8000(1 + 0.08)^8 \\approx 8000 \\times 1.85093 \\approx 14807.44$. Therefore, the total amount Leona has after 8 years is approximately $\\$\\boxed{14807.44}$.",
+    "knowledge_point": "Sequences and Series",
+    "id": 142
+}

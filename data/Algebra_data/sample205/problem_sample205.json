@@ -1,0 +1,8 @@
+{
+    "problem": "Given the equation $\\frac{z-2}{z+2} = -i$, solve for the complex number $z$.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "From the equation: $\\frac{z-2}{z+2} = -i \\Rightarrow z-2 = -i(z+2) \\Rightarrow z-2 = -iz - 2i \\Rightarrow z + iz = 2 - 2i \\Rightarrow z(1+i) = 2 - 2i. $ Then we get $z = \\frac{2 - 2i}{1 + i} = \\frac{(2 - 2i)(1 - i)}{(1 + i)(1 - i)} = \\frac{2 - 2i - 2i - 2}{2} = \\boxed{-2i}$.",
+    "knowledge_point": "Complex Numbers",
+    "id": 205
+}

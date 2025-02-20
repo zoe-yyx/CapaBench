@@ -1,0 +1,8 @@
+{
+    "problem": "If $4^{x+2} = 64$, what is the value of $x$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "First, express 64 as a power of 4: $64 = 4^3$. Thus, $4^{x+2} = 4^3$. Since the bases are equal, the exponents must be equal too, so $x+2 = 3$. Solving for $x$ gives $x = \\boxed{1}$.",
+    "knowledge_point": "Exponents and Logarithms",
+    "id": 64
+}

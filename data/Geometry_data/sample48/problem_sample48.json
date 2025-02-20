@@ -1,0 +1,8 @@
+{
+    "problem": "What is the length of the shorter diagonal of a regular hexagon with side length 1?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "The shorter diagonal of a regular hexagon with side length 1 is found by placing vertices on the coordinate plane and using the distance formula between two non-adjacent vertices, yielding $d = 2 * 1 * sin(60\\circ) = \\boxed{\\sqrt{3}}$.",
+    "knowledge_point": "Transformative Geometry and Symmetry",
+    "id": 48
+}

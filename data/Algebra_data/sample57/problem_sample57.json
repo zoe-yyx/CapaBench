@@ -1,0 +1,8 @@
+{
+    "problem": "If a bike travels along a circular track of radius 50 meters and makes 15 revolutions, how many revolutions would a bike need to make to travel the same distance on a circular track of radius 25 meters?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "The radius of the smaller circular track is $\\frac{1}{2}$ that of the larger track. Since circumference is proportional to the radius, the circumference of the smaller track is $\\frac{1}{2}$ that of the larger track. To travel the same distance, twice as many revolutions are needed on the smaller track. Therefore, the number of revolutions needed is $15 \\times 2 = \\boxed{30}$ revolutions.",
+    "knowledge_point": "Algebra in Coordinate Geometry",
+    "id": 57
+}

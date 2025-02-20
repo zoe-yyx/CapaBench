@@ -1,0 +1,8 @@
+{
+    "problem": "Triangle $MNP$ is right-angled at $P$. If $MN = 15$ units and $MP = 9$ units, find the length of $NP$.",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "Since $\\triangle MNP$ is a right triangle with hypotenuse $MN = 15$ and one leg $MP = 9$, we apply the Pythagorean theorem: $MP^2 + NP^2 = MN^2$. Thus, $9^2 + NP^2 = 15^2$, leading to $81 + NP^2 = 225$. Solving for $NP$, $NP^2 = 225 - 81 = 144$, hence $NP = \\sqrt{144} = \\boxed{12}$ units.",
+    "knowledge_point": "Properties of Right Triangles",
+    "id": 78
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "A circle with radius 5 cm is rotated about its center by 180 degrees. What is the total area covered by the circle during the rotation?",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "The area covered by the circle during the rotation is the same as the area of the circle, because a 180-degree rotation maps each point on the circle onto another point on the circle itself. The area of the circle is given by $A = \\pi \\times \\text{radius}^2$. Substituting the radius of 5 cm, we get $A = \\pi \\times 5^2 = 25\\pi$ cm$^2$. Therefore, the total area covered during the rotation is $25\\pi$ cm$^2$. \\(\\boxed{25\\pi}\\)",
+    "knowledge_point": "Transformative Geometry and Symmetry",
+    "id": 249
+}

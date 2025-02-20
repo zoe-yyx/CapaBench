@@ -1,0 +1,8 @@
+{
+    "problem": "A line passes through the point (-2, 7) and has a y-intercept of 3. Another line intersects it at point P and passes through the points (3, -5) and (5, -8). Compute the x-coordinate of point P.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "First, determine the equation of the first line. Given that it passes through (-2, 7) and has a y-intercept of 3, the slope can be calculated as (7 - 3) / (-2 - 0) = 4 / -2 = -2. Therefore, the equation of the first line is y = -2x + 3.\n\nNext, find the equation of the second line passing through points (3, -5) and (5, -8). The slope of this line is (-8 + 5) / (5 - 3) = -3 / 2 = -1.5. Using the point (3, -5) to find the y-intercept, we have -5 = -1.5*3 + b => b = -0.5. So, the equation of the second line is y = -1.5x - 0.5.\n\nSet the equations equal to find the intersection point P:\n\n-2x + 3 = -1.5x - 0.5.\n\nSolve for x:\n\n-2x + 1.5x = -0.5 - 3\n\n-0.5x = -3.5\n\nx = 7.\n\nTherefore, the x-coordinate of point P is \\boxed{7}.",
+    "knowledge_point": "Algebra in Coordinate Geometry",
+    "id": 160
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "A circle has a chord $AB$ that is 12 cm long. If the radius of the circle is 10 cm, what is the distance from the center of the circle to the chord $AB$?",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "Let $O$ be the center of the circle. Draw the radius $OA$ and $OB$. Since $OA = OB = 10$ cm, the triangle $OAB$ is isosceles. Drop a perpendicular $OM$ from $O$ to $AB$. The length of $AB$ is 12 cm, so $AM = MB = 6$ cm. By the Pythagorean theorem, $OM = \\sqrt{OA^2 - AM^2} = \\sqrt{10^2 - 6^2} = \\sqrt{64} = 8$ cm. Hence, the distance from the center of the circle to the chord $AB$ is $\\boxed{8}$ cm.",
+    "knowledge_point": "Circles and Their Properties",
+    "id": 51
+}

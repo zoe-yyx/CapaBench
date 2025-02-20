@@ -1,0 +1,8 @@
+{
+    "problem": "If a trapezoid has bases of 10 units and 14 units, and the height is 5 units, find the area of the trapezoid.",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "The area $A$ of a trapezoid can be found using the formula $A = \\frac{1}{2}(b_1 + b_2)h$ where $b_1$ and $b_2$ are the lengths of the bases, and $h$ is the height. Substituting the given values, $A = \\frac{1}{2} (10 + 14) \\times 5 = \\frac{1}{2} \\times 24 \\times 5 = 60$. Therefore, the area of the trapezoid is $\\boxed{60}$ square units.",
+    "knowledge_point": "Quadrilateral Features and Classifications",
+    "id": 135
+}

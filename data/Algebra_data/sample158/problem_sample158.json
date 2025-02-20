@@ -1,0 +1,8 @@
+{
+    "problem": "A line in the coordinate plane passes through the points (2, -2) and (10, 6). What is the $x$-intercept of this line?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "First, find the slope of the line using the two points. The slope $m$ is given by $m = \\frac{6 - (-2)}{10 - 2} = 1$. Using the point-slope form of a line equation, $(y - y_1) = m(x - x_1)$, substitute point $(2, -2)$ and slope $1$ to get $y + 2 = x - 2$. Simplifying, we get $y = x - 4$. To find the $x$-intercept, set $y = 0$ and solve $0 = x - 4$, giving $x = 4$. Hence, the $x$-intercept is $\\boxed{4}$.",
+    "knowledge_point": "Algebra in Coordinate Geometry",
+    "id": 158
+}

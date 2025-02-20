@@ -1,0 +1,8 @@
+{
+    "problem": "In triangle $ABC$, point $D$ is on side $AC$ such that $AD:DC=3:2$. And $E$ is on side $BC$ such that $DE \\parallel AB$. If the area of triangle $CDE$ is 4, find the area of triangle $ABC$.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "Since $AD:DC=3:2$, by the properties of similar triangles, the area ratio of $\\triangle CDE$ to $\\triangle ABC$ should be $4:25$. Therefore, if the area of $\\triangle ABC$ is $\\boxed{25}$. ",
+    "knowledge_point": "Similar Triangles and Proportions",
+    "id": 236
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "Paula bought an equal number of apples and bananas for $12. If each apple costs $0.50 and each banana costs $0.25, how many bananas did she buy?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Let the number of apples Paula bought be 'a' and the number of bananas be 'b'. We know that a = b and the total cost is 12 dollars. Therefore, we can set up the equations: 0.50a + 0.25b = 12 and a = b. By substituting a for b in the first equation we get 0.50a + 0.25a = 12, or 0.75a = 12. Solving for a gives a = 12 / 0.75 = 16. Thus, Paula bought 16 apples and since a = b, she also bought \\boxed{16} bananas.",
+    "knowledge_point": "Systems of Linear Equations",
+    "id": 48
+}

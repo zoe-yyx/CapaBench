@@ -1,0 +1,8 @@
+{
+    "problem": "Given the functions \\(f(x) = 3x + 1\\) and \\(g(x) = x^2 - 2\\), compute the value of \\(f(g(f(2)))\\).",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "First, compute \\(f(2)\\) which is \\(3(2) + 1 = 7\\). Next, compute \\(g(7)\\) which is \\(7^2 - 2 = 47\\). Finally, compute \\(f(47)\\) which is \\(3(47) + 1 = 142\\). So, the value of \\(f(g(f(2)))\\) is \\(\\boxed{142}\\).",
+    "knowledge_point": "Function Composition and Inverses",
+    "id": 169
+}

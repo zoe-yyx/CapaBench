@@ -1,0 +1,8 @@
+{
+    "problem": "The coordinates of the two points P and Q are (1, 2) and (5, 6) respectively. If point R is the reflection of point Q on point P, what is the abscissa of point R?",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "To find the reflection of point Q(5, 6) over point P(1, 2), we use the midpoint formula \\( P_x = \\frac{Q_x + R_x}{2} \\); solving for \\( R_x \\) gives \\( R_x = 2P_x - Q_x = 2 \\times 1 - 5 = -3 \\). Therefore, the abscissa of point R is \\boxed{-3}.",
+    "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+    "id": 113
+}

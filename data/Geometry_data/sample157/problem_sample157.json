@@ -1,0 +1,8 @@
+{
+    "problem": "Compute $\\sin (-405^\\circ)$.",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "Rotating $405^\\circ$ clockwise is the same as rotating $360^\\circ - 405^\\circ = -45^\\circ$ counterclockwise, so $\\sin(-405^\\circ) = \\sin (-45^\\circ)$. Since $\\sin(-45^\\circ) = -\\sin 45^\\circ = -\\frac{\\sqrt{2}}{2}$, we have $\\sin(-405^\\circ) = \\boxed{-\\frac{\\sqrt{2}}{2}}$.",
+    "knowledge_point": "Fundamentals of Trigonometry",
+    "id": 157
+}

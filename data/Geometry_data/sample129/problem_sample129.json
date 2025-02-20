@@ -1,0 +1,8 @@
+{
+    "problem": "The hypotenuse of a right triangle is 13 units long, and one of the legs is 12 units long. Find the length of the other leg.",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "Let the length of the other leg be $x$. By the Pythagorean theorem, $12^2 + x^2 = 13^2$. Solving for $x$, we get $144 + x^2 = 169$, so $x^2 = 25$. Hence, $x = 5$. The length of the other leg is $\\boxed{5}$ units.",
+    "knowledge_point": "Properties of Right Triangles",
+    "id": 129
+}

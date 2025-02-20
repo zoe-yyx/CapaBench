@@ -1,0 +1,8 @@
+{
+    "problem": "A sphere is inscribed in a cube with an edge length of 8 inches. What is the volume of the space inside the cube but outside the sphere? Give the answer in decimal and round to 2 decimal places.",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "The diameter of the inscribed sphere equals the side length of the cube, so the radius of the sphere is 4 inches. The volume of the sphere is \\frac{4}{3} \\pi \\left(4^3\\right) = \\frac{256}{3} \\pi \\text{ cubic inches}. The volume of the cube is 8^3 = 512 \\text{ cubic inches}. The volume of the space inside the cube but outside the sphere is 512 - \\left(\\frac{256}{3} \\pi\\right) = 512 - \\left(\\text{approximately} 268.08\\right) = 243.92 \\text{ cubic inches}. \\(\\boxed{243.92}\\)",
+    "knowledge_point": "Three-Dimensional Geometry",
+    "id": 142
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "Given the functions $f(x) = 2x - 3$ and $g(x) = x^2 + 1$. Define a new function $h(x) = g(f(x)), x > 1.5$. Calculate $h^{-1}(10)$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "First calculate $h(x) = g(f(x)) = (2x - 3)^2 + 1 = 4x^2 - 12x + 10.$ To find the inverse, we set $y = h(x)$ and solve for $x: y = 4x^2 - 12x + 10.$ Rearranging gives $4x^2 - 12x + (10 - y) = 0.$ Using the quadratic formula, $x = \\frac{-(-12) \\pm \\sqrt{144 - 4 \\cdot 4 \\cdot (10 - y)}}{2 \\cdot 4} = \\frac{12 \\pm \\sqrt{16y - 16}}{8}.$ Simplifying, we get $x = \\frac{12 \\pm \\sqrt{16y - 16}}{8}.$ Since $x > 1.5$, we know $h^{-1}(y) = \\frac{12 + \\sqrt{16y - 16}}{8}.$ Substituting $y = 10$ gives $h^{-1}(10) = \\frac{12 + \\sqrt{144}}{8} = \\boxed{3}.$",
+    "knowledge_point": "Function Composition and Inverses",
+    "id": 166
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "Determine the maximum area of an isosceles triangle that can be inscribed in a circle with a radius of 12 units.",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "The maximum area is when the triangle is equilateral. For an equilateral triangle inscribed in a circle, each side is $s = 12\\sqrt{3}$. Using Heron's formula for area, with semi-perimeter $s_p = 18\\sqrt{3}$ and area $A = \\sqrt{s_p(s_p-s)^3} = 108\\sqrt{3}$ square units. \\(\\boxed{108\\sqrt{3}}\\)",
+    "knowledge_point": "Geometric Inequalities and Optimization Problems",
+    "id": 169
+}

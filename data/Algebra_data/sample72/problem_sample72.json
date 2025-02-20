@@ -1,0 +1,8 @@
+{
+    "problem": "Determine the value of $\\left\\lfloor\\sqrt{50}\\right\\rfloor - \\left\\lceil\\sqrt{49}\\right\\rceil$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Since $\\sqrt{49}=7$ and $\\sqrt{64}>\\sqrt{50}>\\sqrt{49}$, we find that $\\left\\lfloor\\sqrt{50}\\right\\rfloor=7$ and $\\left\\lceil\\sqrt{49}\\right\\rceil=7$. Therefore, the expression evaluates to $7 - 7 = \\boxed{0}$.",
+    "knowledge_point": "Inequalities and Absolute Values",
+    "id": 72
+}

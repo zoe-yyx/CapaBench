@@ -1,0 +1,8 @@
+{
+    "problem": "Find the sum of all interior angles of a 20-sided polygon.",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "The sum of the interior angles of a polygon with $n$ sides is given by $180(n-2)$. For a 20-sided polygon, this sum is $180(20-2) = 180 \\times 18 = \\boxed{3240^\\circ}$.",
+    "knowledge_point": "Polygons and Their Properties",
+    "id": 72
+}

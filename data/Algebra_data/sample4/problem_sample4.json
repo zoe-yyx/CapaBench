@@ -1,0 +1,8 @@
+{
+    "problem": "Simplify $(6 - 2i) - (4 + 3i)$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "$(6 - 2i) - (4 + 3i) = 6 - 4 - 2i - 3i = \\boxed{2 - 5i}.$",
+    "knowledge_point": "Complex Numbers",
+    "id": 4
+}

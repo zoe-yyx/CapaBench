@@ -1,0 +1,8 @@
+{
+    "problem": "Two similar triangles $\\triangle GHI$ and $\\triangle JKL$ have areas in the ratio $4:9$. If the height of $\\triangle GHI$ from $G$ to $HI$ is 8 cm, find the corresponding height from $J$ to $KL$ in $\\triangle JKL$.",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "Since the areas of $\\triangle GHI$ and $\\triangle JKL$ are in the ratio $4:9$, the ratio of their corresponding linear dimensions, including altitudes, is $\\sqrt{4}:\\sqrt{9} = 2:3$. Thus, the corresponding height from $J$ to $KL$ is $\\frac{3}{2} \\times 8 = 12$ cm. \\(\\boxed{12}\\)",
+    "knowledge_point": "Similar Triangles and Proportions",
+    "id": 189
+}

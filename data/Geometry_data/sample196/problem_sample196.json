@@ -1,0 +1,8 @@
+{
+    "problem": "The side length of square ABCD is 10. It is rotated 45 degrees around vertex A. What is the abscissa of point B after rotation? Assume that the lower left corner A is located at the origin (0,0) and the initial point B is located at (10,0).",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "Using rotation matrix, the coordinates of B after a 45 degrees rotation are given by: $(10\\cos(45^\\circ) - 0\\sin(45^\\circ), 10\\sin(45^\\circ) + 0\\cos(45^\\circ)) = (10\\frac{\\sqrt{2}}{2}, 10\\frac{\\sqrt{2}}{2}) = \\boxed{5\\sqrt{2}}$.",
+    "knowledge_point": "Transformative Geometry and Symmetry",
+    "id": 196
+}

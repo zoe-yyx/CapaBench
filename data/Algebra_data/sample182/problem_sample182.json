@@ -1,0 +1,8 @@
+{
+    "problem": "Given the equation $x^2 - px + 36 = 0$, the sum of the roots is twice the product of the roots. Find the value of $p$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "By Vieta's formulas, the sum of the roots is $p$, and the product of the roots is $36$. According to the given condition, $p = 2 \\times 36 = 72$. Therefore, the value of $p$ is $\\boxed{72}$.",
+    "knowledge_point": "Quadratic Equations and Functions",
+    "id": 182
+}

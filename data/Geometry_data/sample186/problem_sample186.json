@@ -1,0 +1,8 @@
+{
+    "problem": "In triangle $\\triangle PQR$, $PS$ is an altitude, and $QR = 12$ cm. If $PS = 5$ cm and $\\triangle PQR \\sim \\triangle STU$ with a similarity ratio of $1:2$, find the length of $TU$.",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "Since $\\triangle PQR \\sim \\triangle STU$ with a ratio of $1:2$, all corresponding sides are in the ratio $1:2$. As $QR = 12$ cm in $\\triangle PQR$, the corresponding side $TU$ in $\\triangle STU$ will be $2 \\times 12 = 24$ cm. \\(\\boxed{24}\\)",
+    "knowledge_point": "Similar Triangles and Proportions",
+    "id": 186
+}

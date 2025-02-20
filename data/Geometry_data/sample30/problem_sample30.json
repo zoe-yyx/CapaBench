@@ -1,0 +1,8 @@
+{
+    "problem": "In right triangle $\\triangle ABC$, $\\angle ACB = 90^\\circ$ and $AB = 5$. If $AC = 3$, find the length of $BC$.",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "Using the Pythagorean theorem, $AC^2 + BC^2 = AB^2$. Plugging in the known values, $3^2 + BC^2 = 5^2$ or $9 + BC^2 = 25$. Solving for $BC$, we get $BC^2 = 16$, so $BC = \\boxed{4}$.",
+    "knowledge_point": "Properties of Right Triangles",
+    "id": 30
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "Rationalize the denominator: $\\frac{5}{\\sqrt{3}}$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Multiply both numerator and denominator by $\\sqrt{3}$ to rationalize the denominator: \\[\\frac{5}{\\sqrt{3}} = \\frac{5}{\\sqrt{3}} \\cdot \\frac{\\sqrt{3}}{\\sqrt{3}} = \\frac{5\\sqrt{3}}{3}.\\] Thus, the rationalized form is $\\boxed{\\frac{5\\sqrt{3}}{3}}$.",
+    "knowledge_point": "Rational Functions and Expressions",
+    "id": 87
+}

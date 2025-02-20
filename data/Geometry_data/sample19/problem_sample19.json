@@ -1,0 +1,8 @@
+{
+    "problem": "A rectangle has a length of 15 cm and a width of 10 cm. What is the greatest possible diagonal length of this rectangle?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "The diagonal of a rectangle can be calculated using the Pythagorean theorem. For this rectangle, the diagonal is the square root of $(15^2 + 10^2) = \\sqrt{225 + 100} = \\sqrt{325}$ cm. \\(\\boxed{5\\sqrt{13}}\\)",
+    "knowledge_point": "Geometric Inequalities and Optimization Problems",
+    "id": 19
+}

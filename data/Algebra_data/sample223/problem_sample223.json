@@ -1,0 +1,8 @@
+{
+    "problem": "Determine the domain of the function \\[ g(x) = \\sqrt{3x^2 - 8x + 5} \\] and express the endpoints of the domain as common fractions.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "We need the expression under the square root to be non-negative, so we solve \\[3x^2 - 8x + 5 \\geq 0\\]. Factoring the quadratic, we find \\[(3x-5)(x-1) \\ge 0\\]. The roots are \\[x=\\frac{5}{3}\\] and \\[x=1\\]. Analyzing the signs of the intervals, we find the function is nonnegative outside the roots. Therefore, the domain is \\boxed{(-\\infty, 1] \\cup [\\frac{5}{3}, \\infty)   }.",
+    "knowledge_point": "Inequalities and Absolute Values",
+    "id": 223
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "A circle is inscribed in a right triangle with legs of lengths 6 and 8. Find the radius of the circle.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "The area of the triangle is 24. Using the formula for the radius $r$ of the inscribed circle, $r = \\frac{A}{s}$, where $s$ is the semi-perimeter $s = \\frac{6+8+\\sqrt{6^2+8^2}}{2} = 12$, we find the radius of the inscribed circle is $r = \\frac{24}{12} = \\boxed{2}$.",
+    "knowledge_point": "Circles and Their Properties",
+    "id": 203
+}

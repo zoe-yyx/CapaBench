@@ -1,0 +1,8 @@
+{
+    "problem": "In an arithmetic sequence, the first term is 3, and the sum of the first 10 terms is 145. What is the common difference of the sequence?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "The sum of the first n terms of an arithmetic sequence is given by the formula $S_n = \\frac{n}{2} (2a + (n-1)d)$, where $S_n$ is the sum, $a$ is the first term, and $d$ is the common difference. We know $S_{10} = 145$, $a = 3$, and $n = 10$. Substituting into the formula, we get: $145 = \\frac{10}{2} (2 \\cdot 3 + 9d)$. Simplifying: $145 = 5 (6 + 9d)$, which gives $145 = 30 + 45d$. Solving for $d$: $115 = 45d$, so $d = \\boxed{\\frac{23}{9}}$.",
+    "knowledge_point": "Sequences and Series",
+    "id": 44
+}

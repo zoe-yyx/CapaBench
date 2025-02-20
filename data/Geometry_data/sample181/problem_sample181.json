@@ -1,0 +1,8 @@
+{
+    "problem": "A rhombus $ABCD$ has diagonals $AC$ and $BD$ that intersect at $O$. If $AC=10$ units and $BD=24$ units, calculate the area of the rhombus.",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "The area of a rhombus can be found using the formula $\\frac{1}{2} \\times d_1 \\times d_2$ where $d_1$ and $d_2$ are the lengths of the diagonals. Plugging in the given values, we get $\\frac{1}{2} \\times 10 \\times 24 = 120$ square units. \\(\\boxed{120}\\)",
+    "knowledge_point": "Quadrilateral Features and Classifications",
+    "id": 181
+}

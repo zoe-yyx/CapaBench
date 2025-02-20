@@ -1,0 +1,8 @@
+{
+    "problem": "Compute $\\sin 150^\\circ$.",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "Let $P$ be the point on the unit circle that is $150^\\circ$ counterclockwise from $(1,0)$. The angle $150^\\circ$ is in the second quadrant where sine values are positive. $150^\\circ = 180^\\circ - 30^\\circ$, so $\\sin 150^\\circ = \\sin 30^\\circ = \\frac{1}{2}$. Thus, $\\sin 150^\\circ = \\boxed{\\frac{1}{2}}$.",
+    "knowledge_point": "Fundamentals of Trigonometry",
+    "id": 57
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "Let \\( f(x) = 3x - 4 \\) and \\( g(x) = \\frac{x}{2} + 1 \\). Evaluate \\( f(g(f(g(2)))) \\).",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "First, evaluate \\( g(2) \\): \\( g(2) = \\frac{2}{2} + 1 = 2 \\). Next, evaluate \\( f(g(2)) \\): \\( f(2) = 3(2) - 4 = 2 \\). Then, evaluate \\( g(f(g(2))) \\): \\( g(2) = 2 \\). Finally, evaluate \\( f(g(f(g(2)))) \\): \\( f(2) = 2 \\). Therefore, \\( f(g(f(g(2)))) = \\boxed{2} \\).",
+    "knowledge_point": "Function Composition and Inverses",
+    "id": 167
+}

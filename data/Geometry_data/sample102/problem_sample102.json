@@ -1,0 +1,8 @@
+{
+    "problem": "In a circle centered at $O$ with radius 5, points $A$ and $B$ are on the circle such that $\\angle AOB = 90^\\circ$. What is the length of chord $\\overline{AB}$?",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "Since $\\angle AOB = 90^\\circ$, triangle $AOB$ is a right triangle. Using the Pythagorean theorem, $AB$ being the hypotenuse equals $\\sqrt{5^2 + 5^2} = \\sqrt{50} = 5\\sqrt{2}$. Thus, the length of chord $\\overline{AB}$ is $\\boxed{5\\sqrt{2}}$.",
+    "knowledge_point": "Circles and Their Properties",
+    "id": 102
+}

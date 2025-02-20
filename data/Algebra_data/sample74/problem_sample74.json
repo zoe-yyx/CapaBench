@@ -1,0 +1,8 @@
+{
+    "problem": "Solve the inequality $|3x + 1| < 5$ and find the range of x in the form of intervals.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "To solve the inequality $|3x + 1| < 5$, we consider two cases: Case 1: $3x + 1 < 5$ and Case 2: $3x + 1 > -5$. Simplifying Case 1: $3x < 4$ or $x < \\frac{4}{3}$. Simplifying Case 2: $3x > -6$ or $x > -2$. Combining these two inequalities, we have $-2 < x < \\frac{4}{3}$. Therefore, the range of x that satisfies the inequality is $\\boxed{(-2, \\frac{4}{3})}$.",
+    "knowledge_point": "Inequalities and Absolute Values",
+    "id": 74
+}

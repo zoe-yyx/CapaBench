@@ -1,0 +1,8 @@
+{
+    "problem": "Find the range of values for $x$ where the sum of $|x + 2| + |x - 3|$ is less than 8. Give the answer in term of intervals.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "First, consider different cases based on the value of $x$ compared to -2 and 3, the points where the absolute value expressions change.\n\nCase 1: $x < -2$. In this case, both expressions are negative inside the absolute value, so $|x + 2| + |x - 3| = -x-2 - x + 3 = -2x + 1$.\n\nCase 2: $-2 \\leq x < 3$. Here, $|x + 2| = x + 2$ and $|x - 3| = 3 - x$. Therefore, $|x + 2| + |x - 3| = x + 2 + 3 - x = 5$.\n\nCase 3: $x \\geq 3$. In this scenario, both expressions are positive, so $|x + 2| + |x - 3| = x + 2 + x - 3 = 2x - 1$.\n\nNow, solving inequalities for when each expression is less than 8:\nCase 1: $-2x + 1 < 8 \\Rightarrow -2x < 7 \\Rightarrow x > -3.5$\nCase 2: $5 < 8$ always holds.\nCase 3: $2x - 1 < 8 \\Rightarrow 2x < 9 \\Rightarrow x < 4.5$\n\nCombining the results, the values of $x$ satisfying the inequality in all cases are $-3.5 < x < 4.5$, or in interval notation, $\\boxed{(-3.5, 4.5)}$.",
+    "knowledge_point": "Inequalities and Absolute Values",
+    "id": 172
+}

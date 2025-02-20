@@ -1,0 +1,8 @@
+{
+    "problem": "Simplify the expression \\[ \\frac{\\frac{2}{3} + \\frac{4}{3}}{\\frac{6}{7}} \\] and express it as a simplified fraction.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "First, add the fractions in the numerator: \\[ \\frac{2}{3} + \\frac{4}{3} = \\frac{6}{3} = 2 \\]. Then, divide by the fraction in the denominator: \\[ 2 \\div \\frac{6}{7} = 2 \\cdot \\frac{7}{6} = \\frac{14}{6} = \\frac{7}{3} \\]. Thus, the simplified expression is \\[ \\boxed{\\frac{7}{3}} \\].",
+    "knowledge_point": "Rational Functions and Expressions",
+    "id": 38
+}

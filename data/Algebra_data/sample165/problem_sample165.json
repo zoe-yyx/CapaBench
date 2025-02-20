@@ -1,0 +1,8 @@
+{
+    "problem": "Given the equations $3^{3x} = 9^{x-3}$ and $27^{2y} = 81^{y+2}$, find the sum $x + y$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "First, convert all bases to the lowest form, $3^{3x} = 3^{2(x-3)}$ which simplifies to $3x = 2x - 6$. Solving this gives $x = -6$. For the second equation, $27^{2y} = 81^{y+2}$ can be rewritten as $3^{3(2y)} = 3^{4(y+2)}$, simplifying to $6y = 4y + 8$. Solving for $y$ gives $y = 4$. Adding both results, $x + y = -6 + 4 = \\boxed{-2}$.",
+    "knowledge_point": "Exponents and Logarithms",
+    "id": 165
+}

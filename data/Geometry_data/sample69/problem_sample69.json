@@ -1,0 +1,8 @@
+{
+    "problem": "Two sides of a triangle are 4 units and 6 units. What is the maximum possible integer length for the third side?",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "According to the triangle inequality, the sum of any two sides must be greater than the third side. Therefore, 4 + 6 > x implies x < 10. Thus, the maximum possible integer length for the third side is \\boxed{9}.",
+    "knowledge_point": "Geometric Inequalities and Optimization Problems",
+    "id": 69
+}

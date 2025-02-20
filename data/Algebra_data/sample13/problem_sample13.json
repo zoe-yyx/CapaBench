@@ -1,0 +1,8 @@
+{
+    "problem": "If $8^x = 64$ and $9^x = y$, what is the value of $y$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We can rewrite the first equation as $(2^3)^x=2^{3x}=64=2^6 \\Rightarrow 3x=6 \\Rightarrow x=2$. Plugging in the value of $x$, we get $9^2=y$. So, $y=\\boxed{81}$.",
+    "knowledge_point": "Exponents and Logarithms",
+    "id": 13
+}

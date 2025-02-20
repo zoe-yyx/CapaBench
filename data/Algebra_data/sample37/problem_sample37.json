@@ -1,0 +1,8 @@
+{
+    "problem": "If $\\frac{3}{8} = \\frac{x}{24} = \\frac{72}{y}$, what is $x + y$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "From the equations, we can solve for $x$ and $y$. For $x$, $x = 24 \\left(\\frac{3}{8}\\right) = 9$. For $y$, $y = \\frac{72}{\\frac{3}{8}} = 192$. Therefore, $x + y = 9 + 192 = \\boxed{201}$.",
+    "knowledge_point": "Rational Functions and Expressions",
+    "id": 37
+}

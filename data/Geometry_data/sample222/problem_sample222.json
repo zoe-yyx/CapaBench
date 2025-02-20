@@ -1,0 +1,8 @@
+{
+    "problem": "A nonagon (9-sided polygon) has sides of lengths 2, 3, 2, 3, 2, 3, 2, 3, and 2 units. If it is equiangular, find the sum of the internal angles of the polygon.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "The sum of the internal angles of a polygon with $n$ sides is given by $180(n-2)$ degrees. For a nonagon, $n = 9$. Thus, the sum of the internal angles is $180(9-2) = 180 \\times 7 = 1260$ degrees. \\(\\boxed{1260^\\circ}\\)",
+    "knowledge_point": "Polygons and Their Properties",
+    "id": 222
+}

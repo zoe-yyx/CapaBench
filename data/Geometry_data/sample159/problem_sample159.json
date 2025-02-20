@@ -1,0 +1,8 @@
+{
+    "problem": "Compute $\\sin 1080^\\circ$.",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "Rotating $1080^\\circ$ is equivalent to three full rotations of $360^\\circ$, so $\\sin 1080^\\circ = \\sin (1080^\\circ - 3\\cdot 360^\\circ) = \\sin 0^\\circ = \\boxed{0}$.",
+    "knowledge_point": "Fundamentals of Trigonometry",
+    "id": 159
+}

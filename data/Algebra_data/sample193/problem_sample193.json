@@ -1,0 +1,8 @@
+{
+    "problem": "Consider an arithmetic sequence where the first term is 100 and the common difference is 3. Find the sum of the first 40 terms of this sequence.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "The first term is 100, and the common difference is 3. The nth term is given by the formula $a_n = 100 + (n - 1) \\times 3$. For the 40th term: $a_{40} = 100 + (40 - 1) \\times 3 = 217$. The sum of the first n terms of an arithmetic sequence is given by $S_n = \\frac{n}{2} \\times (a_1 + a_n)$. Plugging in the values we have $S_{40} = \\frac{40}{2} \\times (100 + 217) = 20 \\times 317 = 6340$. Thus, the sum of the first 40 terms is $\\boxed{6340}$.",
+    "knowledge_point": "Sequences and Series",
+    "id": 193
+}

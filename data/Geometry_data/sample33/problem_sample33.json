@@ -1,0 +1,8 @@
+{
+    "problem": "Rhombus $PQRS$ has an acute angle of $60^{\\circ}$. What is the measure of the obtuse angle of rhombus $PQRS$?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "The angles in a rhombus are supplementary. Given the acute angle is $60^{\\circ}$, the obtuse angle is $180^{\\circ} - 60^{\\circ} = \\boxed{120^{\\circ}}$.",
+    "knowledge_point": "Quadrilateral Features and Classifications",
+    "id": 33
+}

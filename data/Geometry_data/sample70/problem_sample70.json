@@ -1,0 +1,8 @@
+{
+    "problem": "Find the largest possible perimeter of a triangle with sides of lengths 5 units and 12 units, where the third side length is also an integer.",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "The triangle inequality states that the sum of the lengths of any two sides of a triangle must be greater than the length of the remaining side. So, 5 + 12 > x, 5 + x > 12, and 12 + x > 5. This simplifies to x < 17, x > 7, and x > -7. Thus, x can be a maximum of 16, and the largest possible perimeter is 5 + 12 + 16 = \\boxed{33} units.",
+    "knowledge_point": "Geometric Inequalities and Optimization Problems",
+    "id": 70
+}

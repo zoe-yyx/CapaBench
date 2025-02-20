@@ -1,0 +1,8 @@
+{
+    "problem": "Given $\\cos(\\alpha) = 0.6$, find $\\tan(\\alpha)$ assuming $\\alpha$ is in the first quadrant.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "Using the identity $\\sin^2(\\alpha) + \\cos^2(\\alpha) = 1$, we find $\\sin(\\alpha)$: $\\sin(\\alpha) = \\sqrt{1 - 0.6^2} = \\sqrt{0.64} = 0.8$. Since $\\tan(\\alpha) = \\sin(\\alpha) / \\cos(\\alpha)$, $\\tan(\\alpha) = 0.8 / 0.6 = 4/3$. Therefore, $\\tan(\\alpha) = \\boxed{\\frac{4}{3}}$.",
+    "knowledge_point": "Fundamentals of Trigonometry",
+    "id": 207
+}

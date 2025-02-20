@@ -1,0 +1,8 @@
+{
+    "problem": "In triangle $PQR$, point $S$ is on side $PR$ such that $PS:SR=1:4$. If the area of triangle $PQS$ is 3, what is the area of triangle $QRS$?",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "Given the ratio $PS:SR=1:4$, the area of $\\triangle PQS$ to $\\triangle QRS$ is also $1:4$. If the area of $\\triangle PQS$ is 3, then the area of $\\triangle QRS$ is $3 \\cdot 4 = 12$. Thus, the area of $\\triangle QRS$ is $\\boxed{12}$.",
+    "knowledge_point": "Similar Triangles and Proportions",
+    "id": 237
+}

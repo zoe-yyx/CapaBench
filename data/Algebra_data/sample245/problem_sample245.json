@@ -1,0 +1,8 @@
+{
+    "problem": "Consider the sequence defined recursively by $a_1 = 1000$ and $a_{n+1} = a_n - n$ for $n \\geq 1$. Determine the smallest positive integer $n$ for which $a_n < 0$.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "The sequence starts at 1000 and decreases by increasing integers starting from 1. We can express $a_n$ explicitly by $a_n = 1000 - \\frac{n(n-1)}{2}$. We set $a_n < 0$ leading to $1000 < \\frac{n(n-1)}{2}$. Solving $n(n-1) > 2000$, we find $n^2 - n - 2000 > 0$. Solving this quadratic inequality, $n > 45.36$. Since $n$ must be an integer, we test $n=46$ to verify: $a_{46} = 1000 - \\frac{46 \\times 45}{2} = -35$, which is indeed less than zero. Therefore, the smallest such $n$ is $\\boxed{46}$.",
+    "knowledge_point": "Sequences and Series",
+    "id": 245
+}

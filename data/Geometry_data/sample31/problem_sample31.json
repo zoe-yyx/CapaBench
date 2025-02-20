@@ -1,0 +1,8 @@
+{
+    "problem": "In parallelogram $ABDC$, if $m\\angle BAC = 24^{\\circ}$, what is $m\\angle ACD$?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "In a parallelogram, opposite angles are equal and adjacent angles are supplementary. Since $m\\angle BAC = 24^{\\circ}$, which is not a typical notation in a parallelogram, assuming a typo, we consider $m\\angle BAC = m\\angle BDC = 24^{\\circ}$. Thus, $m\\angle ACD = 180^{\\circ} - m\\angle BDC = 180^{\\circ} - 24^{\\circ} = \\boxed{156^{\\circ}}$.",
+    "knowledge_point": "Quadrilateral Features and Classifications",
+    "id": 31
+}

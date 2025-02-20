@@ -1,0 +1,8 @@
+{
+    "problem": "Calculate the value of $(i^{13} + i^{-13} + i^{101})$.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "First, simplify the exponents by reducing them modulo 4: $i^{13} = i^{4*3+1} = i^{12}i = 1\\cdot i = i$. Next, $i^{-13} = 1/i^{13} = 1/i = -i$ (since $i^{-1} = -i$ by multiplying numerator and denominator by $i$ to get $-i$). For $i^{101} = i^{4*25+1} = i^{100}i = 1\\cdot i = i$. Adding these gives $i^{13} + i^{-13} + i^{101} = i - i + i = \\boxed{i}$.",
+    "knowledge_point": "Complex Numbers",
+    "id": 201
+}

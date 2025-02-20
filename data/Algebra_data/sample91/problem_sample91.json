@@ -1,0 +1,8 @@
+{
+    "problem": "Consider an arithmetic sequence where the first term is 3 and each subsequent term increases by 7. What is the value of the 50th term?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "The common difference of the sequence is 7. The formula for the nth term of an arithmetic sequence is given by a_n = a_1 + (n-1)*d. Substituting in the values, the 50th term is 3 + (50-1)*7 = 3 + 49*7 = 3 + 343 = \\boxed{346}.",
+    "knowledge_point": "Sequences and Series",
+    "id": 91
+}

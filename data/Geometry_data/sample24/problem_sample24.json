@@ -1,0 +1,8 @@
+{
+    "problem": "Equilateral triangle $PQR$ has side length $7$. What is the perimeter of triangle $PQR$?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "The perimeter of an equilateral triangle is three times the length of one side. Since each side of triangle $PQR$ is $7$, the perimeter is $3 \\times 7 = \\boxed{21}$ units.",
+    "knowledge_point": "Polygons and Their Properties",
+    "id": 24
+}

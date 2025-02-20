@@ -1,0 +1,8 @@
+{
+    "problem": "A right circular cylinder with radius 5 and height 10 is inscribed in a sphere. Find the radius of the sphere.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "The diagonal of the cylinder, which passes through the center of the sphere, is the diameter of the sphere. This diagonal can be calculated using the Pythagorean theorem applied to the radius and the height of the cylinder: $d = \\sqrt{(2 \\times \\text{radius})^2 + \\text{height}^2} = \\sqrt{(2 \\times 5)^2 + 10^2} = \\sqrt{100 + 100} = \\sqrt{200}$. Thus, the radius of the sphere is half the diameter, which is $\\sqrt{50}$. \\(\\boxed{5\\sqrt{2}}\\)",
+    "knowledge_point": "Three-Dimensional Geometry",
+    "id": 242
+}

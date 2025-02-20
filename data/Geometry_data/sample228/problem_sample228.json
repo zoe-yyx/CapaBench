@@ -1,0 +1,8 @@
+{
+    "problem": "Right triangle $ABC$ with $\\angle BAC = 90^\\circ$ and $AC = 15$ has a point $D$ inside such that $DA = \\sqrt{5}$, $DB = 2\\sqrt{5}$, and $DC = \\sqrt{170}$. Calculate $BC$.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "Assume AC is x-axis and AB is y-axis, then A(0, 0) and C(15, 0). Let B(0, b), D(x, y), then according the length of each side, we have $x^2 + y^2 = 5, x^2 + (y - b)^2 = 20, (x - 15)^2 + y^2 = 170$. Solving these equations, we can get $b = 5$. Therefore, we can calculate $BC = \\sqrt{5^2 + 15^2} = \\boxed{5\\sqrt{10}}$.",
+    "knowledge_point": "Properties of Right Triangles",
+    "id": 228
+}

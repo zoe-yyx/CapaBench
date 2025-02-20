@@ -1,0 +1,8 @@
+{
+    "problem": "Find the area of the triangle formed by the x-axis and the lines $y = 2x + 3$ and $y = -\\frac{1}{2}x + 3$. Give the answer in decimal and round to 2 decimal places",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "First, find the points of intersection of the lines with each other and with the x-axis. Solving $2x + 3 = -\\frac{1}{2}x + 3$ gives $x = 0$, the y-intercept, which is $3$. The x-intercepts are found by setting $y = 0$ in each equation, giving $x = -\\frac{3}{2}$ and $x = 6$. The area of the triangle is calculated using the formula $\\frac{1}{2} \\times \\text{base} \\times \\text{height}$, where the base is the distance between the x-intercepts, $6 - (-\\frac{3}{2}) = 7.5$, and the height is the y-intercept, which is $3$. Thus, the area is $\\frac{1}{2} \\times 7.5 \\times 3 = 11.25$. Therefore, the area of the triangle is $\\boxed{11.25}$ square units.",
+    "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+    "id": 215
+}

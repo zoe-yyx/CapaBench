@@ -1,0 +1,8 @@
+{
+    "problem": "In circle $O$, chord $XY$ is parallel to the diameter $AB$. If $AB$ measures 16 cm, and the distance from $O$ to $XY$ is 6 cm, find the length of $XY$.",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "Since $XY$ is parallel to the diameter $AB$ and the radius of the circle is $8$ cm (half of diameter), using the Pythagorean theorem in triangle formed by radius, half of $AB$, and the distance from $O$ to $XY$ gives us the radius to the midpoint of $XY$ as $\\sqrt{8^2 - 6^2} = \\sqrt{28}$. Hence, $XY = 2\\sqrt{28}$, simplifying further, $XY = 4\\sqrt{7}$ cm. Therefore, the length of chord $XY$ is $\\boxed{4\\sqrt{7}}$ cm.",
+    "knowledge_point": "Circles and Their Properties",
+    "id": 52
+}

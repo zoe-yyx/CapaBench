@@ -1,0 +1,8 @@
+{
+    "problem": "The radii of two externally tangent circles are 5 and 3, respectively. What is the distance between their centers?",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "The distance between the centers of the two externally tangent circles is $5 + 3 = \\boxed{8}$.",
+    "knowledge_point": "Circles and Their Properties",
+    "id": 153
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "A rectangle $ABCD$ has dimensions $6 \\text{ cm} \\times 9 \\text{ cm}$. A line through $B$ parallel to diagonal $AC$ intersects $DC$ at point $E$. Find the area of triangle $BDE$.",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "The rectangle ABCD has dimensions 6cm\u00d79cm, a line through point B parallel to diagonal AC intersects DC at point E, and using geometric formulas, the area of triangle BDE is \\boxed{54} square cm.",
+    "knowledge_point": "Similar Triangles and Proportions",
+    "id": 190
+}

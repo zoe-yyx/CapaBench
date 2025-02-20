@@ -1,0 +1,8 @@
+{
+    "problem": "Assume the equation $\\frac{a^{2m-3}\\cdot b^{n+5}\\cdot c^{4p-1}}{a^{m+1}\\cdot b^{2n}\\cdot c^{3p+2}}=abc$ holds true for all non-zero $a$, $b$, and $c$. Find the value of $m^n \\cdot p$ as a fraction.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "First, simplify the expression for each variable. From the equation, we get: $\\frac{a^{2m-3}}{a^{m+1}}=a$, $\\frac{b^{n+5}}{b^{2n}}=b$, and $\\frac{c^{4p-1}}{c^{3p+2}}=c$. Solving for $m$, $n$, and $p$, we have: \\begin{align*}\n2m-3=m+1+1\\Rightarrow m=5\\\\\nn+5=2n+1\\Rightarrow n=4\\\\\n4p-1=3p+2+1\\Rightarrow p=4\\\\\n\\end{align*}For $m^n \\cdot p$, calculate $(5)^{4} \\cdot (4) = 625 \\cdot (4) = \\boxed{2500}$.",
+    "knowledge_point": "Exponents and Logarithms",
+    "id": 212
+}

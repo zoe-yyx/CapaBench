@@ -1,0 +1,8 @@
+{
+    "problem": "You have two sequences: one arithmetic and one geometric. The first term of the arithmetic sequence is $3$ and the common difference is $2$. Define the geometric sequence such that the first two terms is the product of the corresponding term from the arithmetic sequence and a constant $k$. If the third term of the geometric sequence is $60$, find the sum of the first four terms of the geometric sequence. Give the answer in decimal and round to 2 decimal places",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "The terms of the arithmetic sequence are $3, 5, 7, 9$. The terms of the geometric sequence are $3k, 5k, \\frac{25}{3}k, \\frac{125}{9}k$. Given the third term of the geometric sequence is $60$, we have $\\frac{25}{3}k = 60$, thus $k = \\frac{36}{5}$. The first four terms of the geometric sequence are $\\frac{108}{5}, 36, 60, 100$. The sum is $\\frac{108}{5} + 36 + 60 + 100 = \\boxed{217.60}$.",
+    "knowledge_point": "Sequences and Series",
+    "id": 243
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "If $2^{x+2} = 16$ and $16^{2y-1} = 2$, what is the value of $y^x$?",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "Since $16 = 2^4$, the equation $2^{x+2} = 16$ can be rewritten as $2^{x+2} = 2^4$. Equating the exponents, we find $x + 2 = 4$, so $x = 2$. For the second equation, $16^{2y-1} = 2$, we substitute $16 = 2^4$ to get $(2^4)^{2y-1} = 2$, which simplifies to $2^{8y-4} = 2^1$. Equating the exponents here, we have $8y - 4 = 1$. Solving for $y$, we get $8y = 5$, so $y = 5/8$. Therefore, we get $y^x = (5/8)^2 = \\boxed{\\frac{25}{64}}$.",
+    "knowledge_point": "Exponents and Logarithms",
+    "id": 213
+}

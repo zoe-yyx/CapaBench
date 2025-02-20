@@ -1,0 +1,8 @@
+{
+    "problem": "Consider the quadratic equation $ax^2 + bx + c = 0$ with $a = 2$, $b = 5$ and $c = k$. If the discriminant of this equation is 1, find the value of $k$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "The discriminant of a quadratic equation $ax^2 + bx + c = 0$ is given by $\\Delta = b^2 - 4ac$. Substituting $a = 2$, $b = 5$, and $c = k$ into this formula gives $\\Delta = 5^2 - 4 \\times 2 \\times k = 25 - 8k$. Setting $\\Delta = 1$ for a discriminant of 1, we have $25 - 8k = 1$. Solving for $k$ gives $8k = 24$, thus $k = \\boxed{3}$.",
+    "knowledge_point": "Quadratic Equations and Functions",
+    "id": 183
+}

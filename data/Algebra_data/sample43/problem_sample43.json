@@ -1,0 +1,8 @@
+{
+    "problem": "A toy factory produces an increasing number of toys each day according to an arithmetic sequence. On the first day, the factory produces 10 toys, and on the third day, it produces 18 toys. How many toys will the factory produce on the tenth day?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "This is an arithmetic sequence where the first term $a_1 = 10$ and the third term $a_3 = 18$. We can use the formula for the nth term of an arithmetic sequence: $a_n = a_1 + (n-1) \\cdot d$, where $d$ is the common difference. Substituting $n = 3$ into the formula, we get $18 = 10 + 2 \\cdot d$. Solving for $d$, we find that $d = 4$. Now, to find the number of toys produced on the tenth day, we use the formula again: $a_{10} = 10 + (10-1) \\cdot 4 = 10 + 36 = \\boxed{46}$ toys.",
+    "knowledge_point": "Sequences and Series",
+    "id": 43
+}

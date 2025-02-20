@@ -1,0 +1,8 @@
+{
+    "problem": "Compute $\\cos 780^\\circ$.",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "Rotating $360^\\circ$ is equivalent to a complete rotation, so rotating $780^\\circ$ is the same as rotating $780^\\circ - 2\\cdot 360^\\circ = 60^\\circ$. Therefore, $\\cos 780^\\circ = \\cos (780^\\circ - 2\\cdot 360^\\circ) = \\cos 60^\\circ = \\boxed{\\frac{1}{2}}$.",
+    "knowledge_point": "Fundamentals of Trigonometry",
+    "id": 156
+}

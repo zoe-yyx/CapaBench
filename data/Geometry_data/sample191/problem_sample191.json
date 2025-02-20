@@ -1,0 +1,8 @@
+{
+    "problem": "A regular tetrahedron has an edge length of 12 cm. What is the volume of the tetrahedron?",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "The formula for the volume of a regular tetrahedron is $V = \\frac{\\sqrt{2}}{12}a^3$, where $a$ is the edge length. Substituting $a = 12$ cm, we get $V = \\frac{\\sqrt{2}}{12}(12)^3 = 144\\sqrt{2}$ cubic cm. \\(\\boxed{144\\sqrt{2}}\\)",
+    "knowledge_point": "Three-Dimensional Geometry",
+    "id": 191
+}

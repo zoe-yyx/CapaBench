@@ -1,0 +1,8 @@
+{
+    "problem": "Calculate $\\sqrt[4]{81^{3} + 81^{3} + 81^{3}}$. Express your answer in decimal form and round to 2 decimal places.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "First, combine the terms under the fourth root: $81^3 + 81^3 + 81^3 = 3 \\times 81^3 = 3 \\times (3^4)^3 = 3 \\times 3^{12} = 3^{13}$. Then take the fourth root: $\\sqrt[4]{3^{13}} = 3^{13/4} = 3^{3.25}$. Finding a decimal approximation, $3^{3.25} \\approx \\boxed{35.53}$.",
+    "knowledge_point": "Exponents and Logarithms",
+    "id": 62
+}

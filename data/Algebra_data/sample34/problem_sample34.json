@@ -1,0 +1,8 @@
+{
+    "problem": "Solve for $x$ if $\\sqrt{225} = 5 + \\sqrt{x}$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "First, note that $\\sqrt{225} = 15$. This simplifies the equation to $15 = 5 + \\sqrt{x}$. Subtract 5 from both sides to get $\\sqrt{x} = 10$. Squaring both sides, we find $x = \\boxed{100}$.",
+    "knowledge_point": "Quadratic Equations and Functions",
+    "id": 34
+}

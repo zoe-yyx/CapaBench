@@ -1,0 +1,8 @@
+{
+    "problem": "Simplify the expression $\\frac{\\sqrt{45}}{\\sqrt{5}}$ and express your answer with an integer denominator.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We have: $$\\frac{\\sqrt{45}}{\\sqrt{5}} = \\frac{\\sqrt{45} \\cdot \\sqrt{5}}{\\sqrt{5} \\cdot \\sqrt{5}} = \\frac{\\sqrt{225}}{5} = \\frac{15}{5} = \\boxed{3}.$$",
+    "knowledge_point": "Rational Functions and Expressions",
+    "id": 137
+}

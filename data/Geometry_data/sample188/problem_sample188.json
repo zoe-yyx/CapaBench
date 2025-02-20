@@ -1,0 +1,8 @@
+{
+    "problem": "In triangle $\\triangle XYZ$, $XZ = 18$ cm and $XY = 15$ cm. Point $W$ divides $XZ$ such that $XW:WZ = 2:1$. If $\\triangle XYZ \\sim \\triangle XWV$, find $XV$. Give the answer in decimal and round to 2 decimal places.",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "Since $XW:WZ = 2:1$, $XW = \\frac{2}{3}XZ = 12$ cm, and $WZ = 6$ cm. Given $\\triangle XYZ \\sim \\triangle XWV$, and the ratio of similarity is $\\frac{XY}{XW} = \\frac{15}{12} = 1.25$. Thus, $XZ = 18$ cm corresponds to $XV$, which will be $\\frac{XZ}{1.25} = 14.4$ cm. \\(\\boxed{14.40}\\)",
+    "knowledge_point": "Similar Triangles and Proportions",
+    "id": 188
+}

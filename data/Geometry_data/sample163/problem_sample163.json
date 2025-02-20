@@ -1,0 +1,8 @@
+{
+    "problem": "Find the abscissa of the point where the line y = -2x + 8 intersects the x-axis.",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "To find the intersection with the x-axis, set y to 0 in the equation of the line and solve for x: 0 = -2x + 8, thus x = 4. The intersection point is (4, 0). Therefore the answer is \\boxed{4}.",
+    "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+    "id": 163
+}

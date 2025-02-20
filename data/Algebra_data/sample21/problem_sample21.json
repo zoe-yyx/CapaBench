@@ -1,0 +1,8 @@
+{
+    "problem": "Solve for $x$: $|x + 4| = 8$. Return the bigger one solution",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We can split the absolute value equation $|x + 4| = 8$ into two cases. In the first case, $x + 4 = 8 \\Rightarrow x = 4$. In the second case, $x + 4 = -8 \\Rightarrow x = -12$. Therefore, the solution is $x = \\boxed{4}$.",
+    "knowledge_point": "Inequalities and Absolute Values",
+    "id": 21
+}

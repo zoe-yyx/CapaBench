@@ -1,0 +1,8 @@
+{
+    "problem": "A school has three types of classrooms: small, medium, and large. There are a total of 62 classrooms. The ratio of small to medium classrooms is 3:2, and the ratio of medium to large classrooms is 5:3. If all types of classrooms are fully utilized and each small classroom holds 20 students, each medium classroom holds 30 students, and each large classroom holds 50 students, how many students can the school accommodate?",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "Let the number of small, medium, and large classrooms be s, m, and l, respectively. Given, s + m + l = 50 and the ratios s:m = 3:2 and m:l = 5:3. From the first ratio, s = 3/2 * m. From the second ratio, m = 5/3 * l. Substitute the value of s in terms of m into the total equation: 3/2 * m + m + l = 62, m = 5/3 * l. Substitute for m from the second ratio: 3/2 * (5/3 * l) + 5/3 * l + l = 62, solving gives l = 12, m = 20, s = 30. The total number of students is 30*20 + 20*30 + 12*50 = 600 + 600 + 600 = \\boxed{1800} students.",
+    "knowledge_point": "Systems of Linear Equations",
+    "id": 249
+}

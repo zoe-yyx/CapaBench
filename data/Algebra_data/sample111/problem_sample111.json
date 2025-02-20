@@ -1,0 +1,8 @@
+{
+    "problem": "Solve for $x$ if $4^{2x+1} = 64^x$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "First, express 64 as a power of 4: $64 = 4^3$. Then the equation becomes $4^{2x+1} = (4^3)^x = 4^{3x}$. Setting the exponents equal gives $2x+1 = 3x$. Solving for $x$, we find $x = 1$. Therefore, $x = \\boxed{1}$.",
+    "knowledge_point": "Exponents and Logarithms",
+    "id": 111
+}

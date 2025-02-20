@@ -1,0 +1,8 @@
+{
+    "problem": "Determine the coordinates of the point that is the midpoint between the points (2, -5) and (-4, 9).",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "The midpoint M of points (x1, y1) and (x2, y2) is given by M = ((x1 + x2)/2, (y1 + y2)/2). For the points (2, -5) and (-4, 9), the midpoint is ((2 + (-4))/2, (-5 + 9)/2) = (-2/2, 4/2) = \\boxed{(-1, 2)}.",
+    "knowledge_point": "Algebra in Coordinate Geometry",
+    "id": 56
+}

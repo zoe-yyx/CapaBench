@@ -1,0 +1,8 @@
+{
+    "problem": "Given the system of equations:\n\n\\begin{align*}\n4a + 3b + 2c &= 23, \\\\\n3a - b + 5c &= 10, \\\\\n2a + 2b - c &= 5\n\\end{align*}\n\nWhat is the value of $a + b + c$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Solving the system, we can get that $a = \\frac{-52}{19}, b = \\frac{149}{19}, c = \\frac{99}{19}$. Then we get $a + b + c = \\frac{149 + 99 - 52}{19} = \\boxed{\\frac{196}{19}}$",
+    "knowledge_point": "Systems of Linear Equations",
+    "id": 200
+}

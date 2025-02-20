@@ -1,0 +1,8 @@
+{
+    "problem": "Find the angle $\\theta$ in degrees such that $\\tan \\theta = -\\sqrt{3}$ and $\\theta$ is between $270^\\circ$ and $360^\\circ$.",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "The tangent of $-\\sqrt{3}$ corresponds to an angle of $120^\\circ$. Since we are looking between $270^\\circ$ and $360^\\circ$, this must be the fourth quadrant reflection. Thus, $\\theta = 120^\\circ + 180^\\circ = \\boxed{300^\\circ}$.",
+    "knowledge_point": "Fundamentals of Trigonometry",
+    "id": 110
+}

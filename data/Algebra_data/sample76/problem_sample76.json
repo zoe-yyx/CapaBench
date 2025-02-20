@@ -1,0 +1,8 @@
+{
+    "problem": "Simplify $\\frac{12x^6}{3x^2} + \\frac{8x^4}{2x} - 10x^3$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "First simplify each term: \\[\\frac{12x^6}{3x^2} = 4x^{6-2} = 4x^4, \\quad \\frac{8x^4}{2x} = 4x^{4-1} = 4x^3, \\quad -10x^3 = -10x^3\\]. Combining like terms gives: \\[4x^4 + 4x^3 - 10x^3 = 4x^4 - 6x^3\\]. So the simplified expression is \\[\\boxed{4x^4 - 6x^3}\\].",
+    "knowledge_point": "Polynomials and Polynomial Operations",
+    "id": 76
+}

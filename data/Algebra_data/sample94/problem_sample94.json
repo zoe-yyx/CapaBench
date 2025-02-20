@@ -1,0 +1,8 @@
+{
+    "problem": "A geometric sequence starts with a term of 24 and has a common ratio of 0.5. What is the 5th term in this sequence?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "The 5th term of a geometric sequence can be found by using the formula $a_n = a_1 \\cdot r^{(n-1)}$ where $a_1$ is the first term, $r$ is the common ratio, and $n$ is the term number. Substituting the given values, we get $a_5 = 24 \\cdot (0.5)^{4} = 24 \\cdot 0.0625 = \\boxed{\\frac{3}{2}}$.",
+    "knowledge_point": "Sequences and Series",
+    "id": 94
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "Consider the sequence formed by the floors of square roots starting from 1 to 64, i.e., $\\lfloor\\sqrt{1}\\rfloor, \\lfloor\\sqrt{2}\\rfloor, ..., \\lfloor\\sqrt{64}\\rfloor$. Calculate the sum of the terms of this sequence.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We observe that for integers $n$ where $a^2 \\leq n < (a+1)^2$, it holds that $\\lfloor\\sqrt{n}\\rfloor = a$. We calculate the sum by grouping terms into ranges defined by consecutive perfect squares:\\\\For $1 \\leq n \\leq 3$, $\\lfloor\\sqrt{n}\\rfloor = 1$. There are $3$ values of $n$ in this range.\\\\For $4 \\leq n \\leq 8$, $\\lfloor\\sqrt{n}\\rfloor = 2$. There are $5$ values of $n$ in this range.\\\\For $9 \\leq n \\leq 15$, $\\lfloor\\sqrt{n}\\rfloor = 3$. There are $7$ values of $n$ in this range.\\\\For $16 \\leq n \\leq 24$, $\\lfloor\\sqrt{n}\\rfloor = 4$. There are $9$ values of $n$ in this range.\\\\For $25 \\leq n \\leq 35$, $\\lfloor\\sqrt{n}\\rfloor = 5$. There are $11$ values of $n$ in this range.\\\\For $36 \\leq n \\leq 48$, $\\lfloor\\sqrt{n}\\rfloor = 6$. There are $13$ values of $n$ in this range.\\\\For $49 \\leq n \\leq 63$, $\\lfloor\\sqrt{n}\\rfloor = 7$. There are $15$ values of $n$ in this range.\\\\For $n = 64$, $\\lfloor\\sqrt{n}\\rfloor = 8$. There is $1$ value of $n$ in this range.\\\\Adding these, we get $3\\times1 + 5\\times2 + 7\\times3 + 9\\times4 + 11\\times5 + 13\\times6 + 15\\times7 + 1\\times8 = 3 + 10 + 21 + 36 + 55 + 78 + 105 + 8 = \\boxed{316}$.",
+    "knowledge_point": "Sequences and Series",
+    "id": 192
+}

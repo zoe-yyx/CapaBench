@@ -1,0 +1,8 @@
+{
+    "problem": "Given the quadratic function $g(x) = 2x^2 - 4x + 3$, calculate $g(3) - g(2)$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "First, calculate $g(3) = 2(3)^2 - 4(3) + 3 = 18 - 12 + 3 = 9$. Next, calculate $g(2) = 2(2)^2 - 4(2) + 3 = 8 - 8 + 3 = 3$. Then, $g(3) - g(2) = 9 - 3 = \\boxed{6}$.",
+    "knowledge_point": "Quadratic Equations and Functions",
+    "id": 81
+}

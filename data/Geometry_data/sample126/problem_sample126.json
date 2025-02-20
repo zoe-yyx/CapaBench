@@ -1,0 +1,8 @@
+{
+    "problem": "In triangle $\\triangle XYZ$, $\\angle X = 90^\\circ$, and $XZ = 5$. If $XY = 3XZ$, what is the length of $YZ$?",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "Since $XY = 3XZ$ and $XZ = 5$, then $XY = 15$. Then use the Pythagorean theorem. $YZ^2 = XZ^2 + XY^2$, so $YZ^2 = 5^2 + 15^2$. Solving for $YZ$, we get $YZ = \\sqrt{225 + 25} = \\sqrt{250} = 5\\sqrt{10}$. Therefore, $YZ = \\boxed{5\\sqrt{10}}$ units.",
+    "knowledge_point": "Properties of Right Triangles",
+    "id": 126
+}

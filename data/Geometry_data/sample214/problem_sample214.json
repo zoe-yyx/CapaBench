@@ -1,0 +1,8 @@
+{
+    "problem": "A rhombus $ABCD$ is situated in the coordinate plane with vertices $A(1, 2)$, $B(4, 6)$, and $C(7, 2)$. Determine the side length of the rhombus.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "Vertex $D$ must be vertically aligned with $B$ and horizontally with $A$ and $C$ to maintain equal side lengths and 90-degree interior angles typical of a rhombus. By symmetry and the rhombus properties, $D$ is at $(4, -2)$. The side length, using the distance formula between $A$ and $B$, is $5$ units. \\(\\boxed{5}\\)",
+    "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+    "id": 214
+}

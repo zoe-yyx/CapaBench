@@ -1,0 +1,8 @@
+{
+    "problem": "Calculate $i^3$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "$i^3 = i^2 \\cdot i = (-1) \\cdot i = \\boxed{-i}.$",
+    "knowledge_point": "Complex Numbers",
+    "id": 3
+}

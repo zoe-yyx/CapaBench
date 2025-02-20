@@ -1,0 +1,8 @@
+{
+    "problem": "In a circle of radius 10 units, three points A, B, and C are placed such that triangle ABC is equilateral. What is the maximum possible area of triangle ABC?",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "The maximum area of an equilateral triangle inscribed in a circle occurs when each vertex touches the circle. The side length $s$ of the triangle can be found using the formula $s = \\sqrt{3} \\times r$, where $r$ is the radius of the circle. So, $s = \\sqrt{3} \\times 10$. The area $A$ of an equilateral triangle is $(\\sqrt{3}/4) \\times s^2$, substituting $s$ gives $A = (\\sqrt{3}/4) \\times (\\sqrt{3} \\times 10)^2 = 75 \\times \\sqrt{3}$ square units. \\(\\boxed{75\\sqrt{3} }\\)",
+    "knowledge_point": "Geometric Inequalities and Optimization Problems",
+    "id": 217
+}

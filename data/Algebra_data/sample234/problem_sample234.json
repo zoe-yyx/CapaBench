@@ -1,0 +1,8 @@
+{
+    "problem": "Determine the sum of all integer values of $b$ for which the quadratic equation $x^2 + bx + b = 0$ has integer solutions.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "To find the integer values of $b$ that yield integer solutions for the quadratic equation $x^2 + bx + b = 0$, we use the discriminant method. The discriminant $\\Delta = b^2 - 4b$ must be a perfect square. Setting $\\Delta = k^2$ for some integer $k$, we solve $b^2 - 4b = k^2$. Rewriting this, we get $b = 2 \\pm \\sqrt{4 + k^2}$. For $b$ to be an integer, $4 + k^2$ must also be a perfect square. Further analysis shows that the only valid $k$ is $0$, leading to $b = 0$ or $b = 4$. Both these values of $b$ are verified to give integer solutions: $b = 0$ yields $x = 0$, and $b = 4$ yields $x = -2$. Therefore, the sum of all possible values is $0 + 4 = \\boxed{4}$",
+    "knowledge_point": "Quadratic Equations and Functions",
+    "id": 234
+}

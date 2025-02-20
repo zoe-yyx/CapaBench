@@ -1,0 +1,8 @@
+{
+    "problem": "Tom eats 2 apples on the first day and increases his consumption by 1 apple each subsequent day. How many apples does he eat in the first 7 days?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Tom eats an increasing number of apples each day following the sequence: 2, 3, 4, 5, 6, 7, 8. The sum of these numbers is $2 + 3 + 4 + 5 + 6 + 7 + 8 = \\boxed{35}$ apples in the first 7 days.",
+    "knowledge_point": "Sequences and Series",
+    "id": 45
+}

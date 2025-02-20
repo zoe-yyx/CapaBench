@@ -1,0 +1,8 @@
+{
+    "problem": "If a kite $ABCD$ has diagonals $AC=18$ cm and $BD=12$ cm intersecting at right angles, what is the area of the kite?",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "The area of a kite is given by $\\frac{1}{2} \\times d_1 \\times d_2$ where $d_1$ and $d_2$ are the lengths of the diagonals, which intersect at right angles. Therefore, the area is $\\frac{1}{2} \\times 18 \\times 12 = 108$ square cm. \\(\\boxed{108}\\)",
+    "knowledge_point": "Quadrilateral Features and Classifications",
+    "id": 185
+}

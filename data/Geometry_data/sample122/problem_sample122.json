@@ -1,0 +1,8 @@
+{
+    "problem": "In a regular pentagon, each side is 10 units long. What is the length of the diagonal of the pentagon? Give the answer in decimal and round to 2 decimal places",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "Using the formula for the length of a diagonal in a regular pentagon, which is $d = s(1+\\sqrt{5})/2$, where $s$ is the side length. Substituting $s = 10$, we get $d = 10 \\times (1+\\sqrt{5})/2 = 10 \\times 1.618 = 16.18$ units. \\(\\boxed{16.18}\\)",
+    "knowledge_point": "Polygons and Their Properties",
+    "id": 122
+}

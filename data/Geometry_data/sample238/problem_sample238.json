@@ -1,0 +1,8 @@
+{
+    "problem": "A line divides triangle $XYZ$ into two parts with equal area. If $XZ = 10$ and the segment of the line $PQ$ within the triangle is parallel to $XZ$. Find the length of $PQ$",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "Since PQ is parallel to XZ, the triangle YPQ is similar to the triangle YZX. And because PQ divides the triangle area into two parts with equal area, the area ratio of triangle YPQ and triangle YZX is 1:2, so the similarity ratio is 1:\\sqrt{2}. Thus $PQ:XZ = 1:\\sqrt{2}$, then $PQ = \\boxed{5\\sqrt{2}}$.",
+    "knowledge_point": "Similar Triangles and Proportions",
+    "id": 238
+}

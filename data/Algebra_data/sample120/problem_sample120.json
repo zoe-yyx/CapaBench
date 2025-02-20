@@ -1,0 +1,8 @@
+{
+    "problem": "If $h(x) = 3x + 2$ and $k(x) = x^3 - 5x,$ evaluate $h(k(2)) + k(h(3))$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We start by substituting into our function definitions:\\begin{align*} h(k(2)) + k(h(3)) &= h(2^3 - 5\\cdot2) + k(3\\cdot3 + 2) \\\\ &= h(-2) + k(11) = (3\\cdot(-2) + 2) + (11^3 - 5\\cdot11) \\\\ &= -4 + (1331 - 55) \\\\ &= -4 + 1276 = \\boxed{1272}. \\end{align*}",
+    "knowledge_point": "Function Composition and Inverses",
+    "id": 120
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "Consider the graph where the x-axis and y-axis are labeled, and each grid line represents one unit. A line in the graph has a slope of 3/5 and passes through the point $(2002, m)$. Determine the value of $m$ if the y-intercept of the line is 6. Give the answer in decimal and round to 2 decimal places",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "The slope of the line is given as $\\frac{3}{5}$, and it has a y-intercept of 6. The equation of the line, therefore, can be written in slope-intercept form as $y = \\frac{3}{5}x + 6$. Substituting $x = 2002$ into the equation to find $m$, we have $m = \\frac{3}{5} \\cdot 2002 + 6$. Calculating the value, $m = \\frac{3}{5} \\cdot 2002 + 6 = 1201.2 + 6 = 1207.2$. Thus, the value of $m$ is $\\boxed{1207.20}$.",
+    "knowledge_point": "Algebra in Coordinate Geometry",
+    "id": 208
+}

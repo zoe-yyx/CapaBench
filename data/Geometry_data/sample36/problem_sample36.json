@@ -1,0 +1,8 @@
+{
+    "problem": "In rectangle $ABCD$, if $AD=4$ cm and $DC=8$ cm, a line is drawn from $A$ to $C$. What is the ratio of triangle $ABC$ to triangle $ADC$?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "The triangles $ABC$ and $ADC$ share the diagonal $AC$ as their hypotenuse, and both are right triangles. The area of a triangle is $\\frac{1}{2} \\times \\text{base} \\times \\text{height}$. Thus, $\\text{Area of } \\triangle ABC = \\frac{1}{2} \\times 8 \\times 4 = 16$ cm$^2$ and $\\text{Area of } \\triangle ADC = \\frac{1}{2} \\times 4 \\times 8 = 16$ cm$^2$. Therefore, the ratio of $\\triangle ABC$ to $\\triangle ADC$ is $1:1$. \\(\\boxed{1}\\)",
+    "knowledge_point": "Similar Triangles and Proportions",
+    "id": 36
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "Suppose $a$ and $b$ are real numbers such that the following equations hold: \\begin{align*}\n14b - 7a^2 &= 3 \\\\\n14a - 7b^2 &= 11.\n\\end{align*} What is $\\dfrac{1}{a^3 + b^3}$?",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "The equations can be rewritten as: \\begin{align*}\n7a^2 - 14b + 7 &= 0, \\\\\n7b^2 - 14a + 7 &= 0.\n\\end{align*} Adding these equations gives: $$7a^2 - 14b + 3 + 7b^2 - 14a + 11 =0,$$ or $$(7a^2 - 14a + 7) + (7b^2 - 14b + 7) = 0.$$ Factoring each quadratic as a square gives $$(\\sqrt{7}(a - 1))^2 + (\\sqrt{7}(b - 1))^2 = 0.$$ Since squares are always non-negative, it follows that $$\\sqrt{7}(a - 1) = \\sqrt{7}(b - 1) = 0,$$ so $a = b = 1$. Then, $$a^3 + b^3 = 2. Thus the answer is $\\boxed{\\frac{1}{2}}$",
+    "knowledge_point": "Systems of Linear Equations",
+    "id": 247
+}

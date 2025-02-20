@@ -1,0 +1,8 @@
+{
+    "problem": "In a hexagon, two consecutive angles are right angles. If the other four angles are equal, what is the measure of each of these four angles?",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "The sum of interior angles of a hexagon is $180(6-2) = 720^\\circ$. With two right angles ($90^\\circ$ each), the sum of the remaining four angles is $720^\\circ - 180^\\circ = 540^\\circ$. Since these four angles are equal, each measures $\\frac{540^\\circ}{4} = \\boxed{135^\\circ}$.",
+    "knowledge_point": "Polygons and Their Properties",
+    "id": 75
+}

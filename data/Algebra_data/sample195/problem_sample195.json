@@ -1,0 +1,8 @@
+{
+    "problem": "An arithmetic sequence has its 3rd term as 15 and its 8th term as 40. Find the sum of the first 10 terms.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Let $a$ be the first term and $d$ be the common difference of the arithmetic sequence. From the 3rd term, $a + 2d = 15$, and from the 8th term, $a + 7d = 40$. Solving these equations, subtracting the first from the second gives $5d = 25$, so $d = 5$. Substituting back, $a = 15 - 2\\times5 = 5$. The first 10 terms are from $a$ to $a + 9d = 5$ to $50$. The sum of an arithmetic series is given by $\\frac{n}{2}\\times(first\\ term + last\\ term)$. Thus, the sum of the first 10 terms is $\\frac{10}{2}\\times(5 + 50) = 5\\times55 = \\boxed{275}$.",
+    "knowledge_point": "Sequences and Series",
+    "id": 195
+}

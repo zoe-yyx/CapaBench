@@ -1,0 +1,8 @@
+{
+    "problem": "Given a regular heptagon (7-sided polygon) inscribed in a circle of diameter 14 cm, find the side length of the heptagon. Give the answer in decimal and round to 2 decimal places",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "The side length $s$ of a regular polygon inscribed in a circle of radius $r$ can be calculated by $s = 2r \\sin(\\pi/n)$. Here, the diameter is 14 cm, so the radius $r = 7$ cm. For a heptagon, $n = 7$. Therefore, $s = 2 \\times 7 \\times \\sin(\\pi/7) = 14 \\times \\sin(\\pi/7)$. Using a calculator, $\\sin(\\pi/7) \\approx 0.4339$, thus $s \\approx 14 \\times 0.4339 = 6.0746$ cm. \\(\\boxed{6.07}\\)",
+    "knowledge_point": "Polygons and Their Properties",
+    "id": 224
+}

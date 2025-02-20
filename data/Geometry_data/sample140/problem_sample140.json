@@ -1,0 +1,8 @@
+{
+    "problem": "In a right triangle $MNP$, with $\\angle M = 90^\\circ$, a line segment $MQ$ is drawn from $M$ to hypotenuse $NP$ such that $MQ$ is perpendicular to $NP$. If $MQ = 4$ cm and the area of triangle $MQP$ is 8 cm^2, what is the length of $NP$?",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "The area of triangle $MQP$ can be expressed as $\\frac{1}{2} \\times MQ \\times PQ = 8$. Thus, $PQ = \\frac{16}{4} = 4 \\text{ cm}$. Since $MQ$ is perpendicular to $NP$, triangles $MQP$ and $MNP$ are similar. The ratio of $MQ$ to $NP$ is $\\frac{4}{NP}$. Since the area of $MQP$ is one-half the area of $MNP$, it follows that $NP = 2 \\times PQ = 8 \\text{ cm}$. \\(\\boxed{8}\\)",
+    "knowledge_point": "Similar Triangles and Proportions",
+    "id": 140
+}

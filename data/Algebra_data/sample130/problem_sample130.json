@@ -1,0 +1,8 @@
+{
+    "problem": "Simplify the expression $\\left(\\frac{5x^4}{2x^3} - \\frac{9x^2}{6x}\\right) \\cdot \\left(\\frac{4x^3}{3x^2} \\cdot \\frac{9x^2}{8x}\\right)$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "First, simplify the fractions inside the parentheses: $\\frac{5x^4}{2x^3} = \\frac{5}{2}x$ and $\\frac{9x^2}{6x} = \\frac{3}{2}x$. The expression inside the first set of parentheses simplifies to $\\frac{5}{2}x - \\frac{3}{2}x = x$. Next, simplify the fractions in the second set of parentheses: $\\frac{4x^3}{3x^2} = \\frac{4}{3}x$ and $\\frac{9x^2}{8x} = \\frac{9}{8}x$. The product of these fractions is $\\frac{4}{3}x \\cdot \\frac{9}{8}x = \\frac{3}{2}x^2$. Multiplying the results of both parentheses: $x \\cdot \\frac{3}{2}x^2 = \\boxed{\\frac{3}{2}x^3}$.",
+    "knowledge_point": "Polynomials and Polynomial Operations",
+    "id": 130
+}

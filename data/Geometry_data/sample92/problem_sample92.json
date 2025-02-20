@@ -1,0 +1,8 @@
+{
+    "problem": "A prism has a triangular base with sides 3 cm, 4 cm, and 5 cm and a height of 10 cm. What is the volume of the prism?",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "First, calculate the area of the triangular base using Heron's formula. The semi-perimeter $s$ is $(3+4+5)/2 = 6$ cm. The area $A$ is $\\sqrt{6(6-3)(6-4)(6-5)} = 6$ square cm. The volume of the prism is the area of the base times the height: $6 \\times 10 = \\boxed{60}$ cubic cm.",
+    "knowledge_point": "Three-Dimensional Geometry",
+    "id": 92
+}

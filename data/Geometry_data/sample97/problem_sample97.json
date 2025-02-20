@@ -1,0 +1,8 @@
+{
+    "problem": "A rectangle with vertices at (0,0), (6,0), (6,4), and (0,4) is rotated 90 degrees counterclockwise about the origin. What is the abscissa of the center of the new rectangle?",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "After rotating 90 degrees counterclockwise, the vertex (0,0) remains at (0,0), (6,0) moves to (0,6), (6,4) moves to (-4,6), and (0,4) moves to (-4,0). So the new center is (-2, 3). Therefore the answer is \\(\\boxed{-2}\\)",
+    "knowledge_point": "Transformative Geometry and Symmetry",
+    "id": 97
+}

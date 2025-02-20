@@ -1,0 +1,8 @@
+{
+    "problem": "In an equilateral triangle, each side measures 12 units. A line segment is drawn parallel to one side, touching the midpoint of the other two sides. What is the length of this line segment?",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "The line segment divides the equilateral triangle into a smaller, similar triangle and a trapezoid. The smaller triangle's sides are half the length of the original triangle's sides, thus the segment is also half of 12 units, which is 6 units. \\(\\boxed{6}\\)",
+    "knowledge_point": "Polygons and Their Properties",
+    "id": 124
+}

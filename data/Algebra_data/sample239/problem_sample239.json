@@ -1,0 +1,8 @@
+{
+    "problem": "Assume the function $f(x) = \\frac{x^2 + 3x + \\alpha}{x^2 + x - 12}$ can be simplified so that the numerator and denominator are both linear expressions of x. Provide the sum of all such $\\alpha$ values.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "The function $f(x)$ can be written as $f(x) = \\frac{x^2 + 3x + \\alpha}{(x + 4)(x - 3)}$. If $f(x)$ can be simplified so that the numerator and denominator are both linear expressions of x, then the denominator and numerator should have common zero points about x. If it is $x = 3$, then $3^2 + 3 \\times 3 + \\alpha = 0$, which implies $\\alpha = -18$; If it is $x = -4$, then $(-4)^2 + 3 \\times (-4) + \\alpha = 0$, which implies $\\alpha = -4$. So sum of all possible values for $\\alpha$ is $-18 - 4 = \\boxed{-22}$.",
+    "knowledge_point": "Rational Functions and Expressions",
+    "id": 239
+}

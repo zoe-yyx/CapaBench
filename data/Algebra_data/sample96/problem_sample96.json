@@ -1,0 +1,8 @@
+{
+    "problem": "Lisa is three times as old as Jane. Four years ago, the sum of their ages was 24. How old is Jane now?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Let $j$ represent Jane's age today and $l$ represent Lisa's age. Then we know: $l = 3j$, and four years ago, their ages were $(j-4)$ and $(l-4)$, respectively. The equation for their ages four years ago is $(j-4) + (l-4) = 24$. Substituting $l = 3j$ into this equation, we get $(j-4) + (3j-4) = 24$, which simplifies to $4j - 8 = 24$. Solving for $j$, we have $4j = 32$, so $j = \\boxed{8}$. Thus, Jane is currently $8$ years old.",
+    "knowledge_point": "Systems of Linear Equations",
+    "id": 96
+}

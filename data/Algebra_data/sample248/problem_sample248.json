@@ -1,0 +1,8 @@
+{
+    "problem": "Determine the value of $x$, $y$, and $z$($x < y < z$) if the following system of equations is true: $x+y+z=12$, $xy+xz+yz=47$, and $xyz=60$. Give the answer in form of (x, y, z)",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "First, we observe the symmetric nature of the equations which resemble the elementary symmetric polynomials. We can express $x^2+y^2+z^2$ using the identity $x^2+y^2+z^2=(x+y+z)^2-2(xy+xz+yz)$. Substituting the given values, we get $x^2+y^2+z^2=12^2-2\\cdot47=144-94=50$. To find the values of $x$, $y$, and $z$, we solve the cubic equation formed by the given symmetric equations: $t^3 - (x+y+z)t^2 + (xy+xz+yz)t - xyz = 0$ or $t^3 - 12t^2 + 47t - 60 = 0$. Factoring or using the Rational Root Theorem, we find $t=4, 3, 5$. Thus, $x=3, y=4, z=5$ and the answer is $\\boxed{(3,4,5)}$.",
+    "knowledge_point": "Systems of Linear Equations",
+    "id": 248
+}

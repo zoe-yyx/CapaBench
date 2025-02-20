@@ -1,0 +1,8 @@
+{
+    "problem": "If $x \\bigstar y$ is defined as $x \\bigstar y = x - y - 3$, what is the value of $x$ for which $x \\bigstar 5 = 7$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "From the definition of $x \\bigstar y$, we can rewrite $x \\bigstar 5$ as $x \\bigstar 5 = x - 5 - 3$. So, now the equation $x \\bigstar 5 = 7$ becomes $x - 5 - 3 = 7$, from which we find $x = \\boxed{15}$.",
+    "knowledge_point": "Function Composition and Inverses",
+    "id": 19
+}

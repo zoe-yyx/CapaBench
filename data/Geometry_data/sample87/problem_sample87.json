@@ -1,0 +1,8 @@
+{
+    "problem": "In a rectangle ABCD, AB = 8 units and BC = 6 units. Point E is on AB such that AE = 2 units. Find the ratio of the area of triangle AEC to the area of rectangle ABCD.",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "Since E is on AB, triangle AEC and rectangle ABCD share the height from E to DC. The base of triangle AEC is EC = AB - AE = 8 - 2 = 6 units. The area of triangle AEC is $0.5 \\times 2 \\times 6 = 6$ sq units. The area of rectangle ABCD is $8 \\times 6 = 48$ sq units. The ratio of the areas is $6 / 48 = 1 / 8$. \\(\\boxed{\\frac{1}{8}}\\)",
+    "knowledge_point": "Similar Triangles and Proportions",
+    "id": 87
+}

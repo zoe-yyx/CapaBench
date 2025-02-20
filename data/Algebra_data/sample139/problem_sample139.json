@@ -1,0 +1,8 @@
+{
+    "problem": "Simplify and find the value of $\\left\\lceil\\left(\\frac{5}{3}\\right)^3\\right\\rceil$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "First, we compute the cube of the fraction: $$\\left(\\frac{5}{3}\\right)^3 = \\frac{125}{27} = 4 + \\frac{17}{27}.$$ Because $0 \\leq \\frac{17}{27} < 1$, we apply the ceiling function: $$\\left\\lceil\\left(\\frac{5}{3}\\right)^3\\right\\rceil = \\left\\lceil 4 + \\frac{17}{27} \\right\\rceil = \\boxed{5}.$$",
+    "knowledge_point": "Rational Functions and Expressions",
+    "id": 139
+}

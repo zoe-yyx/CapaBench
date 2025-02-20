@@ -1,0 +1,8 @@
+{
+    "problem": "In a parallelogram ABCD, diagonals AC and BD intersect at point O, and AB = 10 units, BC = 15 units. If the area of triangle AOB is 30 square units, find the area of parallelogram ABCD.",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "The area of triangle AOB is 25\\% the area of parallelogram ABCD, since diagonals in a parallelogram bisect each other. Therefore, the area of parallelogram ABCD is $4 \\times 30 = 120$ square units. \\(\\boxed{120}\\)",
+    "knowledge_point": "Polygons and Their Properties",
+    "id": 173
+}

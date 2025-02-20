@@ -1,0 +1,8 @@
+{
+    "problem": "Simplify $(3 + 2i) + (1 + 4i)$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "$(3 + 2i) + (1 + 4i) = (3 + 1) + (2i + 4i) = \\boxed{4 + 6i}.$",
+    "knowledge_point": "Complex Numbers",
+    "id": 1
+}

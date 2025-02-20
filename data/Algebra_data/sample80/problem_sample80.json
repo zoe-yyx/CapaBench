@@ -1,0 +1,8 @@
+{
+    "problem": "Given $5xy = 20$, find the value of $25x^2y^2$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Since $5xy = 20$, we know that $xy = 4$. Thus, $x^2y^2 = 4^2 = 16$. Therefore, $25x^2y^2 = 25 \\times 16 = \\boxed{400}$.",
+    "knowledge_point": "Polynomials and Polynomial Operations",
+    "id": 80
+}

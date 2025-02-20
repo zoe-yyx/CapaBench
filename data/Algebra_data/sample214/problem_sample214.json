@@ -1,0 +1,8 @@
+{
+    "problem": "Evaluate $\\sqrt{125x} \\cdot \\sqrt{20x} \\cdot \\sqrt{45x}$. Express your answer in simplest radical form in terms of $x$.\n\nNote: When entering a square root with more than one character, you must use parentheses or brackets. For example, you should enter $\\sqrt{14}$ as \"sqrt(14)\" or \"sqrt(14)\".",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "Breaking down each term into prime factors, the expression becomes:  \\begin{align*}\n&\\sqrt{5^3 \\cdot x \\cdot 2^2 \\cdot 5 \\cdot x \\cdot 3^2 \\cdot 5 \\cdot x} \\\\\n&\\qquad = \\sqrt{(5^5 \\cdot 2^2 \\cdot 3^2 \\cdot x^3)} \\\\\n&\\qquad = \\boxed{150x \\sqrt{5x}}.\n\\end{align*}",
+    "knowledge_point": "Exponents and Logarithms",
+    "id": 214
+}

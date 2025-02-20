@@ -1,0 +1,8 @@
+{
+    "problem": "In a trapezoid $ABCD$ with $AB \\parallel CD$ and $AB=10$ cm, $CD=20$ cm, and the height from $A$ to line $CD$ is $15$ cm. Calculate the area of the trapezoid.",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "The area of a trapezoid is given by $\\frac{1}{2} (b_1+b_2)h$ where $b_1$ and $b_2$ are the lengths of the parallel sides and $h$ is the height. Plugging in the values, we have $\\frac{1}{2} (10+20) \\times 15 = \\frac{1}{2} \\times 30 \\times 15 = 225$ square cm. \\(\\boxed{225}\\)",
+    "knowledge_point": "Quadrilateral Features and Classifications",
+    "id": 183
+}

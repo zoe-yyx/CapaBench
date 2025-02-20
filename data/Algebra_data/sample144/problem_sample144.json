@@ -1,0 +1,8 @@
+{
+    "problem": "Jasmine has a booklet with $100$ pages. She plans to read $2$ pages on the first day and double the number of pages each subsequent day until she finishes. On which day will Jasmine complete reading the booklet?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Jasmine reads $2$ pages on day 1, $4$ pages on day 2, and continues doubling each day. The total number of pages read by day $n$ forms a geometric sequence with the $n$-th term being $2^n$. The sum of pages read up to day $n$ is given by $S_n = 2 + 4 + \\dots + 2^n$. We need $S_n \\geq 100$. The sum $S_n = 2(2^n - 1)$. Solving $2(2^n - 1) \\geq 100$ gives $2^n - 1 \\geq 50$, so $2^n \\geq 51$. Therefore, $n \\geq 6$. Checking the actual page count for $n=6$ gives a total of $126$ pages, indicating Jasmine finishes on day \\$\\boxed{6}$.",
+    "knowledge_point": "Sequences and Series",
+    "id": 144
+}

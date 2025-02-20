@@ -1,0 +1,8 @@
+{
+    "problem": "Given triangle ABC with vertices A(-3, 2), B(4, 5), and C(1, -6), find the slope of the equation of the line that is the perpendicular bisector of side BC.",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "To find the slope of the perpendicular bisector of side BC with points B(4,5) and C(1,-6), calculate the slope of BC: \\( m_{BC} = \\frac{y_C - y_B}{x_C - x_B} = \\frac{-6 - 5}{1 - 4} = \\frac{-11}{-3} = \\frac{11}{3} \\); the perpendicular bisector's slope is the negative reciprocal, so \\( m = \\boxed{-\\frac{3}{11}} \\).",
+    "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+    "id": 114
+}

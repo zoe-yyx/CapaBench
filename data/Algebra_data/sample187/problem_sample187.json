@@ -1,0 +1,8 @@
+{
+    "problem": "Determine the minimum integer value of $C$ such that the rational function $$f(x) = \\frac{3x-9}{x^2 - 3x + C}$$ has no vertical asymptotes. ",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "The function $f(x)$ has no vertical asymptotes if the denominator has no real roots. Therefore, the quadratic $x^2 - 3x + C$ should have a discriminant less than zero. The discriminant of this quadratic is $(-3)^2 - 4 \\cdot 1 \\cdot C = 9 - 4C$. For no real roots, $9 - 4C < 0$ which simplifies to $C > \\frac{9}{4}$. The possible integer values of $C$ are all integers greater than $\\frac{9}{4}$, starting from $3$. Summing these, we find an infinite series, but the smallest integer value satisfying this condition is $C = \\boxed{3}$.",
+    "knowledge_point": "Rational Functions and Expressions",
+    "id": 187
+}

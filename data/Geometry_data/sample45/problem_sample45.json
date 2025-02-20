@@ -1,0 +1,8 @@
+{
+    "problem": "A cylinder has a height of 10 meters and a circular base with a radius of 3 meters. What is its surface area including the top and bottom?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "The surface area of a cylinder includes the area of the two circular bases and the lateral surface area. The area of one base is $\\pi r^2 = \\pi (3)^2 = 9\\pi$ square meters. The lateral surface area is $2\\pi r h = 2\\pi (3) (10) = 60\\pi$ square meters. Total surface area is $2(9\\pi) + 60\\pi = 78\\pi = \\boxed{78\\pi}$ square meters.",
+    "knowledge_point": "Three-Dimensional Geometry",
+    "id": 45
+}

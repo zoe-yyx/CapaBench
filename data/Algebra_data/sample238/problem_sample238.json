@@ -1,0 +1,8 @@
+{
+    "problem": "Rationalize the denominator and simplify the expression $$\\frac{\\sqrt[4]{128}}{\\sqrt[4]{16} + \\sqrt[4]{256}}$$. Assume the answer in the simplest form where the result can be written as $\\frac{C\\sqrt[4]{A}}{B}$, where $A$, $B$ and $C$ are integers. Find the value of $A+B+C$.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "Begin by simplifying the terms in the denominator: $$\\frac{\\sqrt[4]{128}}{\\sqrt[4]{16} + \\sqrt[4]{256}} = \\frac{\\sqrt[4]{128}}{\\sqrt[4]{16} + 2\\sqrt[4]{16}} = \\frac{\\sqrt[4]{128}}{3\\sqrt[4]{16}} = \\frac{\\sqrt[4]{128}}{3 \\times 2} = \\frac{\\sqrt[4]{128}}{6}.$$ Since $\\sqrt[4]{128} = 2\\sqrt[4]{2}$, the expression becomes $$\\frac{2\\sqrt[4]{2}}{6} = \\frac{\\sqrt[4]{2}}{3}.$$ Thus, $A = 2$ and $B = 3$ and $C=1$, giving $A+B+C = 2+3+1 = \\boxed{6}$.",
+    "knowledge_point": "Rational Functions and Expressions",
+    "id": 238
+}

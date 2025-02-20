@@ -1,0 +1,8 @@
+{
+    "problem": "Find the maximum value of the side length of a square that can fit inside a circle of radius 10 units. Give the answer in decimal and round to 2 decimal places",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "The diagonal of the square is the diameter of the circle when the square is maximally inscribed. The diameter of the circle is 2 * radius = 20 units. Since the diagonal of the square equals the diameter of the circle, using the relation between the side length s and diagonal d of a square (d = s * sqrt(2)), we find s = d / sqrt(2) = 20 / sqrt(2) = 10 * sqrt(2) = \\boxed{14.14} units.",
+    "knowledge_point": "Geometric Inequalities and Optimization Problems",
+    "id": 120
+}

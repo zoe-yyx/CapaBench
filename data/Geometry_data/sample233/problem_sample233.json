@@ -1,0 +1,8 @@
+{
+    "problem": "Rectangle $ABCD$ has $AB = 8$ and $BC = 3$. A line through $B$ parallel to $AC$ intersects $DC$ extended at point $E$. Find the length of $DE$.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "According to the title, the quadrilateral ABCE is a parallelogram. Then CE = AB = 8. Therefore $DE = CD + CE = 8 + 8 = \\boxed{16}$",
+    "knowledge_point": "Quadrilateral Features and Classifications",
+    "id": 233
+}

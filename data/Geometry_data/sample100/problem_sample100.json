@@ -1,0 +1,8 @@
+{
+    "problem": "The shape formed by the points (0,0), (2,0), (2,2) and (0,2) is reflected on the line y=x. What is the abscissa of the point furthest from the origin of the reflected shape?",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "Reflecting the points over the line y=x, the coordinates transform as follows: (0,0) to (0,0), (2,0) to (0,2), (2,2) to (2,2), (0,2) to (2,0). So (2, 2) is the furthest point. So the answer is $\\boxed{2}$.",
+    "knowledge_point": "Transformative Geometry and Symmetry",
+    "id": 100
+}

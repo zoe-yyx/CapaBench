@@ -1,0 +1,8 @@
+{
+    "problem": "If the line segment from point (2, -1) to point (8, 3) is extended by four times its original length, what is the ordinate of the new endpoint?",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "Ordinate of new endpoint C is $y = y0 + 5*(y1 - y0) = -1 + 5*(3 - (-1))) = \\boxed{19}$",
+    "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+    "id": 112
+}

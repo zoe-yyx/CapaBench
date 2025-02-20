@@ -1,0 +1,8 @@
+{
+    "problem": "If $x=5$ and $y=3$, compute the value of $(x+y)^y$ and $x^{y+2}$, then add the two results.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "First calculate $(x+y)^y = (5+3)^3 = 8^3 = 512. Next, calculate $x^{y+2} = 5^{3+2} = 5^5 = 3125. Adding the two results, we have 512 + 3125 = \\boxed{3637}.",
+    "knowledge_point": "Exponents and Logarithms",
+    "id": 15
+}

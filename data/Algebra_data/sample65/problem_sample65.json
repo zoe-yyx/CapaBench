@@ -1,0 +1,8 @@
+{
+    "problem": "Evaluate $2^{\\log_4 64}$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "First, express 64 in terms of base 4, we get $4^3 = 64$. Therefore, $\\log_4 64 = 3$. Now, replacing this back in the expression we have $2^{\\log_4 64} = 2^3 = \\boxed{8}$.",
+    "knowledge_point": "Exponents and Logarithms",
+    "id": 65
+}

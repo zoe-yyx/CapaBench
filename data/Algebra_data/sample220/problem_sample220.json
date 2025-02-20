@@ -1,0 +1,8 @@
+{
+    "problem": "Let \\( f(x) = 3x - 7 \\) and \\( g(x) = \\frac{1}{x+2} \\). Compute \\( f^{-1}(g^{-1}(f(g(f^{-1}(g^{-1}(3)))))) \\).",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "First, find the inverses of \\( f \\) and \\( g \\). For \\( f^{-1}(x) \\), solving \\( y = 3x - 7 \\) gives \\( x = \\frac{y+7}{3} \\), so \\( f^{-1}(x) = \\frac{x+7}{3} \\). For \\( g^{-1}(x) \\), solving \\( y = \\frac{1}{x+2} \\) gives \\( x = \\frac{1}{y} - 2 \\), so \\( g^{-1}(x) = \\frac{1}{x} - 2 \\).\n\nStarting with 3, we calculate each step:\n1. \\( g^{-1}(3) = \\frac{1}{3} - 2 = -\\frac{5}{3} \\)\n2. \\( f^{-1}(g^{-1}(3)) = \\frac{-\\frac{5}{3} + 7}{3} = \\frac{16}{9} \\)\n3. \\( g(f^{-1}(g^{-1}(3))) = \\frac{1}{\\frac{16}{9} + 2} = \\frac{9}{34} \\)\n4. \\( f(g(f^{-1}(g^{-1}(3)))) = 3 \\times \\frac{9}{34} - 7 = -\\frac{211}{34} \\)\n5. \\( g^{-1}(f(g(f^{-1}(g^{-1}(3))))) = \\frac{1}{-\\frac{211}{34}} - 2 = -\\frac{34}{211} - 2 = -\\frac{456}{211} \\)\n6. \\( f^{-1}(g^{-1}(f(g(f^{-1}(g^{-1}(3)))))) = \\frac{-\\frac{456}{211} + 7}{3} = \\frac{1021}{633} \\)\n\nThus, the answer is \\( \\boxed{\\frac{1021}{633}} \\).",
+    "knowledge_point": "Function Composition and Inverses",
+    "id": 220
+}

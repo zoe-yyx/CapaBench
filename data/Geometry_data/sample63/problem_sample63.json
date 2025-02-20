@@ -1,0 +1,8 @@
+{
+    "problem": "If point $K(6, 4)$ is reflected onto line $y=x$, what is the abscissa of the image of point $K$?",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "Reflecting a point $(x, y)$ over the line $y=x$ results in the point $(y, x)$. Thus, the reflection of point $K(6, 4)$ is at $K'(4, 6) = \\boxed{4}$.",
+    "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+    "id": 63
+}

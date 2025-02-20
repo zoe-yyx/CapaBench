@@ -1,0 +1,8 @@
+{
+    "problem": "If $z = 3 + 4i$, find the magnitude $|z|$ of the complex number.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "The magnitude of a complex number $z = a + bi$ is given by $|z| = \\sqrt{a^2 + b^2}$. For $z = 3 + 4i$, we have $|z| = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = \\boxed{5}$.",
+    "knowledge_point": "Complex Numbers",
+    "id": 151
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "A spherical balloon with a diameter of 10 meters is being filled with helium at a constant rate. If the volume of the balloon is increasing at a rate of 523.6 cubic meters per minute, what is the rate of increase of the surface area of the balloon at the instant when the balloon is fully inflated? Give the answer in decimal and round to 1 decimal places",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "The radius of the balloon is $r = 5$ meters. The volume of a sphere is $V = \\frac{4}{3}\\pi r^3$ and the surface area is $S = 4\\pi r^2$. Differentiating both with respect to time, we have $\\frac{dV}{dt} = 4\\pi r^2 \\frac{dr}{dt}$ and $\\frac{dS}{dt} = 8\\pi r \\frac{dr}{dt}$. Solving for $\\frac{dr}{dt}$ from $\\frac{dV}{dt} = 523.6$ gives $\\frac{dr}{dt} = \\frac{523.6}{4\\pi (5)^2} = 1.67$. Substituting into $\\frac{dS}{dt}$ gives $\\frac{dS}{dt} = 8\\pi (5) (1.67) = 209.44 $ square meters per minute. \\(\\boxed{209.4}\\)",
+    "knowledge_point": "Three-Dimensional Geometry",
+    "id": 193
+}

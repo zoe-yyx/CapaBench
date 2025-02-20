@@ -1,0 +1,8 @@
+{
+    "problem": "Given the equation \\[\\frac{3x-6}{x^2-7x+12} = \\frac{C}{x-3} + \\frac{D}{x-4}\\] for all $x$ except 3 and 4. Find $C$ and $D$ and express your answer as an ordered pair $(C, D)$.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "Factor the denominator on the left side to get \\[\\frac{3x-6}{(x-4)(x-3)} = \\frac{C}{x-3} + \\frac{D}{x-4}\\]. Next, multiply both sides of the equation by $(x - 3)(x - 4)$ to eliminate the denominators: \\[3x-6 = C(x-4) + D(x-3)\\]. Then we have $C + D = 3, 4C + 3D = 6$. Solve the two equation, we get $C = -3, D = 6$ Hence, the ordered pair is $(C, D) = \\boxed{(-3, 6)}$.",
+    "knowledge_point": "Rational Functions and Expressions",
+    "id": 236
+}

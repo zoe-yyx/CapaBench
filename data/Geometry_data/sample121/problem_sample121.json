@@ -1,0 +1,8 @@
+{
+    "problem": "A rectangle is divided into four identical squares. If the area of each square is 16 square units, what is the perimeter of the original rectangle?",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "Each square has an area of 16, so each side length of the square is 4 units (since $4 \\times 4 = 16$). The rectangle is made up of two squares on each side, making the length 8 units and the width 4 units. The perimeter is $2 \\times (\\text{length} + \\text{width}) = 2 \\times (8+4) = 24$ units. \\(\\boxed{24}\\)",
+    "knowledge_point": "Polygons and Their Properties",
+    "id": 121
+}

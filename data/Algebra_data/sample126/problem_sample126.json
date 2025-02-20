@@ -1,0 +1,8 @@
+{
+    "problem": "Given the polynomials $h(x) = 2x^4 + 5x^3 - 4x^2 + x - 7$ and $j(x) = -x^4 + 3x^3 + 6x^2 - 2x + 4$, compute $h(x) - j(x)$. Write your answer as a polynomial in terms of $x$ with coefficients in descending powers of $x$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We see that $h(x) - j(x) = 2x^4 + 5x^3 - 4x^2 + x - 7 - (-x^4 + 3x^3 + 6x^2 - 2x + 4).$ Simplifying, we get $\\boxed{3x^4 + 2x^3 - 10x^2 + 3x - 11}$.",
+    "knowledge_point": "Polynomials and Polynomial Operations",
+    "id": 126
+}

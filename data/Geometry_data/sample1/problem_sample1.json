@@ -1,0 +1,8 @@
+{
+    "problem": "In circle $P$, chord $AB$ is perpendicular to radius $PC$ at its midpoint $D$. If the radius of the circle is 10 units and $PD=5$, find the length of chord $AB$.",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "Since $PC$ is a radius and $AB$ is a chord perpendicular to $PC$ at its midpoint, triangle $PDB$ is a right triangle with hypotenuse $PB = 10$ units and leg $PD = 5$ units. By the Pythagorean theorem, $AB = 2 \\times AC = 2 \\times \\sqrt{10^2 - 5^2} = 2 \\times \\sqrt{75} = \\boxed{10\\sqrt{3}}$ units.",
+    "knowledge_point": "Circles and Their Properties",
+    "id": 1
+}

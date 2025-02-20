@@ -1,0 +1,8 @@
+{
+    "problem": "Rectangle $ABCD$ has $AB = 8$ and $BC = 6$. What is the area of rectangle $ABCD$?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "The area of a rectangle is given by the formula $length \\times width$. Here, $AB = 8$ and $BC = 6$. So the area of rectangle $ABCD$ is $8 \\times 6 = \\boxed{48}$ square units.",
+    "knowledge_point": "Polygons and Their Properties",
+    "id": 21
+}

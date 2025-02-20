@@ -1,0 +1,8 @@
+{
+    "problem": "A cube with side length 6 cm is completely filled with small cubes of side length 2 cm. How many small cubes are used to fill the larger cube?",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "The volume of the large cube is $6^3 = 216 \\text{ cm}^3$. The volume of each small cube is $2^3 = 8 \\text{ cm}^3$. The number of small cubes that can fill the large cube is $\\frac{216}{8} = 27$ small cubes. \\(\\boxed{27}\\)",
+    "knowledge_point": "Three-Dimensional Geometry",
+    "id": 144
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "Find the smallest of 6 consecutive odd numbers if the sum of these numbers is 32 less than four times the largest number.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Let the smallest odd number be $a$. The six consecutive odd numbers are $a, a+2, a+4, a+6, a+8, a+10$. Their sum is $6a + 30$. The largest number is $a+10$, and four times this number is $4(a+10) = 4a + 40$. The sum of the numbers is given to be 32 less than this, so $6a + 30 = 4a + 8$. Solving, $2a = -22$ and $a = -11$. Thus, the smallest number is \\$\\boxed{-11}$.",
+    "knowledge_point": "Sequences and Series",
+    "id": 143
+}

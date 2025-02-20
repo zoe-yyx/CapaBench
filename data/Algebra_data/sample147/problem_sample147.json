@@ -1,0 +1,8 @@
+{
+    "problem": "If four painters can paint four walls in four hours, how long would it take six painters to paint six walls, assuming all painters work at the same rate?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Let's define the rate of painting for each painter as the number of walls they can paint per hour. Since four painters can paint four walls in four hours, each painter paints one wall in four hours. The rate for each painter is 1/4 wall per hour. Now, for six painters working together, their combined rate is 6*(1/4) = 1.5 walls per hour. To paint six walls, the time needed is the number of walls divided by the rate, which is 6 / 1.5 = 4 hours. Therefore, it would take six painters \\boxed{4} hours to paint six walls.",
+    "knowledge_point": "Systems of Linear Equations",
+    "id": 147
+}

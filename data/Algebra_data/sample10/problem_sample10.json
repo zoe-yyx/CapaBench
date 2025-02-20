@@ -1,0 +1,8 @@
+{
+    "problem": "A track field is 300 meters in circumference. If Alex usually jogs 15 laps around his usual 450 meter track for his workout, how many laps should he jog around the 300 meter track to cover the same distance?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Since Alex's total jogging distance is consistent, the number of laps and the lap length are inversely proportional. If his new track is 300 meters long, each lap is $\\frac{300}{450} = \\frac{2}{3}$ the length of his usual laps. Therefore, he needs to run $\\frac{3}{2}$ times as many laps. So, for his usual 15 laps, he should run $\\frac{3}{2} \\times 15 = \\boxed{\\frac{45}{2}}$ laps around the new track.",
+    "knowledge_point": "Algebra in Coordinate Geometry",
+    "id": 10
+}

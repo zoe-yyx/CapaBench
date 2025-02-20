@@ -1,0 +1,8 @@
+{
+    "problem": "Find the coordinates of the point which divides the line segment connecting the points (4, -2) and (12, 6) in the ratio 2:3.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The x coordinate is given by $4 + (12 - 4) \\times \\frac{2}{5} = \\frac{36}{5}$, and the y coordinate is given by $-2 + (6 - (-2)) \\times \\frac{2}{5} = \\frac{6}{5}$. Thus, the answer is $\\boxed{(\\frac{36}{5}, \\frac{6}{5})}$",
+    "knowledge_point": "Algebra in Coordinate Geometry",
+    "id": 107
+}

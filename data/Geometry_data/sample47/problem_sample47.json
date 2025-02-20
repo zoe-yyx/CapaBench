@@ -1,0 +1,8 @@
+{
+    "problem": "If a rectangle with length 4 and width 3 is rotated 90 degrees about its center, what is the diagonal length of the rotated rectangle?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "After rotating it by 90 degrees around its center, it will result in a rectangle of the same shape. Therefore the answer is $\\sqrt(3*3 + 4*4) = \\boxed{5}$",
+    "knowledge_point": "Transformative Geometry and Symmetry",
+    "id": 47
+}

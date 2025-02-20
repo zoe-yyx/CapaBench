@@ -1,0 +1,8 @@
+{
+    "problem": "A triangular park ABC has sides measuring 60, 80, and 100 meters. Now the park needs to be expanded. The expansion method is to add 50 meters to one of the sides. Find the maximum area after the expansion.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "The height on the 60-meter side is the largest, which is 80. Therefore, after the expansion on the 60-meter side, the park area will be the largest. The largest area is $0.5 \\times 80 \\times (60 + 50) = \\boxed{4400}$",
+    "knowledge_point": "Geometric Inequalities and Optimization Problems",
+    "id": 219
+}

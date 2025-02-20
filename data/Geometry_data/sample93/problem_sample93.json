@@ -1,0 +1,8 @@
+{
+    "problem": "A sphere has a radius of 6 cm. Calculate the volume of the sphere.",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "The volume $V$ by $V = \\frac{4}{3}\\pi r^3$. For $r = 6$ cm, the volume is $\\frac{4}{3}\\pi(6^3) = 288\\pi$ cubic cm. Thus, the volume is $\\boxed{288\\pi}$ cubic cm.",
+    "knowledge_point": "Three-Dimensional Geometry",
+    "id": 93
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "Find the maximum area of a rectangle that can be inscribed in a right triangle with legs of lengths 6 units and 8 units.",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "The maximum area of a rectangle inscribed in a right triangle is when the vertices of the rectangle touch the midpoints of the hypotenuse. The area of such a rectangle is half the area of the triangle. The area of the triangle is 1/2 * 6 * 8 = 24 square units. Therefore, the maximum area of the rectangle is 24/2 = \\boxed{12} square units.",
+    "knowledge_point": "Geometric Inequalities and Optimization Problems",
+    "id": 117
+}

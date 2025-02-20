@@ -1,0 +1,8 @@
+{
+    "problem": "Calculate the area of triangle $XYZ$ with vertices $X(1,1)$, $Y(4,5)$, and $Z(1,5)$ in the coordinate plane.",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "Since $X$ and $Z$ share the same $x$-coordinate, the line $XZ$ can be treated as the height of the triangle, which is $5 - 1 = 4$ units. The base of the triangle, $XY$, has a length of $4 - 1 = 3$ units as $Y$ and $X$ share the same $y$-coordinate. The area of $\\triangle XYZ$ is $\\frac{1}{2} \\times 3 \\times 4 = \\boxed{6}$ square units.",
+    "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+    "id": 14
+}

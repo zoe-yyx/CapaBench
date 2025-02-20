@@ -1,0 +1,8 @@
+{
+    "problem": "Determine the sum of all integer solutions for the inequality $|2x - 5| \\leq 9$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "First, solve the absolute value inequality $|2x - 5| \\leq 9$. This can be written as two separate inequalities: $2x - 5 \\leq 9$ and $2x - 5 \\geq -9$. Solving these, we get $2x \\leq 14$ and $2x \\geq -4$, simplifying further gives $x \\leq 7$ and $x \\geq -2$. Therefore, the integer solutions are $x = -2, -1, 0, 1, 2, 3, 4, 5, 6, 7$. The sum of these integer solutions is $(-2) + (-1) + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 = \\boxed{25}$.",
+    "knowledge_point": "Inequalities and Absolute Values",
+    "id": 122
+}

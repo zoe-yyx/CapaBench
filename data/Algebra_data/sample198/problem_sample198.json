@@ -1,0 +1,8 @@
+{
+    "problem": "Three positive integers $a$, $b$, and $c$ satisfy the equations $ab + bc + ca = 48$, $a + b + c = 12$, and $abc = 64$. Find the value of $c$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "From the given equations, we can form a system: $$ab + bc + ca = 48,\\, a + b + c = 12,\\, abc = 64.$$ Consider the polynomial $$p(x) = (x-a)(x-b)(x-c) = x^3 - (a+b+c)x^2 + (ab+bc+ca)x - abc.$$ Substitute the known values to get $$p(x) = x^3 - 12x^2 + 48x - 64.$$ We can try to factor or use the rational root theorem to find roots. It turns out the polynomial factors as $$(x-4)(x-4)(x-4),$$ hence $a = 4, b = 4, c = 4$. Therefore, the value of $c$ is $\\boxed{4}$.",
+    "knowledge_point": "Systems of Linear Equations",
+    "id": 198
+}

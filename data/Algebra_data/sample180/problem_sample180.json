@@ -1,0 +1,8 @@
+{
+    "problem": "Given the polynomials $$p(x) = 2x^3 - 5x^2 + 3x - 7$$ and $$q(x) = x^4 - 2x^3 + 4x - 5,$$ determine the coefficient of the $x^3$ term in $p(x) \\times q(x)$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "First, expand the product of the two polynomials: $$p(x) \\times q(x) = (2x^3 - 5x^2 + 3x - 7)(x^4 - 2x^3 + 4x - 5).$$ By distributing and combining like terms, we find the terms that will contribute to the $x^3$ term in the expansion. These come from multiplying terms from $p(x)$ and $q(x)$ that result in $x^3$ when combined: $$(2x^3)(-5) + (-5x^2)(4x) + (-7)(-2x^3).$$ Simplifying, we get: $$-10x^3 - 20x^3 + 14x^3 = -16x^3.$$ Thus, the coefficient of the $x^3$ term is $\\boxed{-16}$.",
+    "knowledge_point": "Polynomials and Polynomial Operations",
+    "id": 180
+}

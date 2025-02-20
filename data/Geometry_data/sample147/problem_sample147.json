@@ -1,0 +1,8 @@
+{
+    "problem": "A hexagon is rotated clockwise around its center. What is the minimum number of degrees it must be rotated until it looks the same as its original position?",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "The hexagon has 6 sides, so each angle is $360/6 = 60$ degrees. Therefore, rotating it by $\\boxed{60}$ degrees will align it with its original position.",
+    "knowledge_point": "Transformative Geometry and Symmetry",
+    "id": 147
+}

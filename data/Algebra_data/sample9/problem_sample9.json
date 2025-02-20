@@ -1,0 +1,8 @@
+{
+    "problem": "During a race, Bob started sprinting from the point $(5, 0)$ on the x-axis at a speed of $8\\ \\text{m/s}$ for $10$ seconds. Calculate his x-coordinate when he stops.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "To find Bob's final position, use the formula $x = v \\cdot t$, where $v$ is the speed and $t$ is the time. Given that $v = 8\\ \\text{m/s}$ and $t = 10\\ \\text{s}$, the distance he covered is $x = 8 \\cdot 10 = 80\\ \\text{m}$. Starting from $(5, 0)$ on the x-axis, his final x-coordinate is $5 + 80 = \\boxed{85}$.",
+    "knowledge_point": "Algebra in Coordinate Geometry",
+    "id": 9
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "In triangle $GHI$, side $GH = 9$ units and side $HI = 12$ units. Triangle $JKL$ is similar to triangle $GHI$ with side $JK = 18$ units. Find the length of side $KL$.",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "Since $\\triangle GHI \\sim \\triangle JKL$, the ratio of corresponding sides is constant. Thus, $\\frac{GH}{JK} = \\frac{HI}{KL}$. Plugging in the given values, we get $\\frac{9}{18} = \\frac{12}{KL}$. Solving for $KL$, we find $KL = 24$ units. \\(\\boxed{24}\\)",
+    "knowledge_point": "Similar Triangles and Proportions",
+    "id": 38
+}

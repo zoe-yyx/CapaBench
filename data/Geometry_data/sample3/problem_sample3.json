@@ -1,0 +1,8 @@
+{
+    "problem": "In circle $Q$, $\\angle XYZ$ is an inscribed angle that intercepts arc $XZ$. If arc $XZ$ measures $80^\\circ$, find the measure of $\\angle XYZ$.",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "An inscribed angle is half the measure of its intercepted arc. Since arc $XZ$ measures $80^\\circ$, the measure of $\\angle XYZ = \\frac{1}{2} \\times 80^\\circ = \\boxed{40^\\circ}$.",
+    "knowledge_point": "Circles and Their Properties",
+    "id": 3
+}

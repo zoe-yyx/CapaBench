@@ -1,0 +1,8 @@
+{
+    "problem": "Find the sum of all values of $x$ that satisfy the equation $|2x+3| = 9$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "For the equation $|2x+3|=9$, we have two cases: either $2x+3=9$ or $2x+3=-9$. Solving $2x+3=9$ gives $2x=6$, so $x=3$. Solving $2x+3=-9$ gives $2x=-12$, so $x=-6$. The sum of the values is $3 + (-6) = \\boxed{-3}$.",
+    "knowledge_point": "Inequalities and Absolute Values",
+    "id": 71
+}

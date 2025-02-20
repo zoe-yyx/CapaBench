@@ -1,0 +1,8 @@
+{
+    "problem": "Compute $\\sin 270^\\circ$.",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "The point on the unit circle corresponding to $270^\\circ$ is directly downward along the negative y-axis. The coordinates of this point are $(0, -1)$. Therefore, $\\sin 270^\\circ = \\boxed{-1}$.",
+    "knowledge_point": "Fundamentals of Trigonometry",
+    "id": 106
+}

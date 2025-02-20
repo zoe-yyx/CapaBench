@@ -1,0 +1,8 @@
+{
+    "problem": "For the geometric sequence $729, 243, 81, 27, \\ldots,$ what is the 7th term in the sequence?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The common ratio in this geometric sequence is $243 / 729 = 1/3$, so the $n^{\\text{th}}$ term in this sequence is $729 \\cdot (1/3)^{n-1}$. For the 7th term, we have $729 \\cdot (1/3)^6 = 729 \\cdot (1/729) = \\boxed{1}$.",
+    "knowledge_point": "Sequences and Series",
+    "id": 141
+}

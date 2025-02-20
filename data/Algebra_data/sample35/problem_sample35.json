@@ -1,0 +1,8 @@
+{
+    "problem": "What is the value of $700^2 - 300^2$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "This expression is a difference of squares, so $700^2 - 300^2 = (700+300)(700-300) = (1000)(400) = \\boxed{400000}$.",
+    "knowledge_point": "Quadratic Equations and Functions",
+    "id": 35
+}

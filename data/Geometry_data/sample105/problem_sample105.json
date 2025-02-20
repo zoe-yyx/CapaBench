@@ -1,0 +1,8 @@
+{
+    "problem": "A circle is divided into three equal arcs by points $A$, $B$, and $C$. If the radius of the circle is 7 units, find the length of each arc.",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "Since the circle is divided into three equal parts, each arc subtends an angle of $120^\\circ$. The circumference of the circle is $2\\pi(7) = 14\\pi$. Therefore, each arc is $\\frac{120}{360} \\times 14\\pi = \\frac{1}{3} \\times 14\\pi = \\boxed{\\frac{14\\pi}{3}}$.",
+    "knowledge_point": "Circles and Their Properties",
+    "id": 105
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "Find the smallest integer that satisfies the inequality: \\[(x-3)(x+7)<0.\\]",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "For the product of two factors to be negative, one of the factors must be positive and one of the factors must be negative. Since $x-3<x+7$ for all $x$, we know that $x$ satisfies $(x-3)(x+7)<0$ if and only if $x-3 < 0 < x+7$. The first inequality, $x-3<0$, tells us that $x<3$. The second inequality, $0<x+7$, tells us that $x>-7$. Thus the solutions to the original inequality are given by $-7<x<3$. The smallest integer in this interval is $x=\\boxed{-6}$.",
+    "knowledge_point": "Inequalities and Absolute Values",
+    "id": 125
+}

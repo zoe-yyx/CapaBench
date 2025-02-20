@@ -1,0 +1,8 @@
+{
+    "problem": "David and Sarah have 30 marbles together. David has twice as many marbles as Sarah. How many marbles does David have more than Sarah?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Let the number of marbles David has be $d$ and the number Sarah has be $s$. The equations can be set as follows: \\begin{align*}\nd + s &= 30 \\\\\nd &= 2s \\\\\n\\end{align*}Substituting for $d$ into the first equation gives $2s + s = 30$. Solving for $s$ gives $s = 10$. Thus $d = 20$. Therefore, David has $20 - 10 = \\boxed{10}$ more marbles than Sarah.",
+    "knowledge_point": "Systems of Linear Equations",
+    "id": 46
+}

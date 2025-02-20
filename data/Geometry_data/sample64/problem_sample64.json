@@ -1,0 +1,8 @@
+{
+    "problem": "Calculate the slope of the line passing through the points $(2, -1)$ and $(5, 2)$.",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "The slope $m$ of a line passing through the points $(x_1, y_1)$ and $(x_2, y_2)$ is given by $m = \\frac{y_2 - y_1}{x_2 - x_1}$. Substituting the given points, we get $m = \\frac{2 - (-1)}{5 - 2} = \\frac{3}{3} = \\boxed{1}$.",
+    "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+    "id": 64
+}

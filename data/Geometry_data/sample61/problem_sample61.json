@@ -1,0 +1,8 @@
+{
+    "problem": "The vertices of the square are located at $A(1,1), B(4,1), C(4,4), D(1,4)$. If the square is rotated 90 degrees counterclockwise about the origin, what is the abscissa of the new position of point $C$?",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "When rotating a point $(x, y)$ 90 degrees counterclockwise about the origin, the new coordinates become $(-y, x)$. Thus, point $C(4, 4)$ becomes $C'(-4, 4)$. Therefore the answer is $\\boxed{-4}$.",
+    "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+    "id": 61
+}

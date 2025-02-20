@@ -1,0 +1,8 @@
+{
+    "problem": "Compute $\\sin 225^\\circ$.",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "Let $P$ be the point on the unit circle that is $225^\\circ$ counterclockwise from $(1,0)$. The angle $225^\\circ$ is in the third quadrant where sine values are negative. $225^\\circ = 180^\\circ + 45^\\circ$, so $\\sin 225^\\circ = -\\sin 45^\\circ = -\\frac{\\sqrt{2}}{2}$. Thus, $\\sin 225^\\circ = \\boxed{-\\frac{\\sqrt{2}}{2}}$.",
+    "knowledge_point": "Fundamentals of Trigonometry",
+    "id": 59
+}

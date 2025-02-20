@@ -1,0 +1,8 @@
+{
+    "problem": "The product of two numbers is 56 and their sum is 15. Find the smaller one of the two numbers.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Let the two numbers be x and y. Then, we have the equations: \nx + y = 15 \nxy = 56 \nSolving the first equation for y gives y = 15 - x. Substituting this into the second equation gives x(15 - x) = 56. Expanding and rearranging gives x^2 - 15x + 56 = 0. Factoring this equation yields (x - 7)(x - 8) = 0, so x = 7 or x = 8. Therefore, the two numbers are 7 and 8. So the smaller one is \\boxed{7}.",
+    "knowledge_point": "Quadratic Equations and Functions",
+    "id": 33
+}

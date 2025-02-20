@@ -1,0 +1,8 @@
+{
+    "problem": "Compute $\\tan 945^\\circ$.",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "Rotating $945^\\circ$ is equivalent to rotating $945^\\circ - 2\\cdot 360^\\circ = 225^\\circ$. Therefore, $\\tan 945^\\circ = \\tan (945^\\circ - 2\\cdot 360^\\circ) = \\tan 225^\\circ$. Since $\\tan 225^\\circ = \\tan (180^\\circ + 45^\\circ) = \\tan 45^\\circ = 1$, we have $\\tan 945^\\circ = \\boxed{1}$.",
+    "knowledge_point": "Fundamentals of Trigonometry",
+    "id": 158
+}

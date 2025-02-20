@@ -1,0 +1,8 @@
+{
+    "problem": "Find the range of values of $x$ for which the expression $\\sqrt{9 - (x-3)^2}$ is defined. Express your answer in interval notation.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "For $\\sqrt{9 - (x-3)^2}$ to be defined, the expression inside the square root must be non-negative. Hence, we need: \\begin{align*} 9 - (x-3)^2 &\\ge 0\\\\ (x-3)^2 &\\le 9\\end{align*} This implies $(x-3)^2 = 9$, so $x-3 = \\pm3$. Solving for $x$, we get $x = 3 \\pm 3$. Thus, $x = 0$ or $x = 6$. Therefore, the interval of $x$ for which the expression is defined is $\\boxed{[0, 6]}$.",
+    "knowledge_point": "Inequalities and Absolute Values",
+    "id": 224
+}

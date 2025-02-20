@@ -1,0 +1,8 @@
+{
+    "problem": "Let \\( f(x) = \\sqrt{3 - x} \\) and \\( g(x) = \frac{x}{x-2} \\). Calculate \\( f^{-1}(g^{-1}(4)) \\).",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "To solve for $f^{-1}(g^{-1}(4))$, we first find $g^{-1}(4)$: Set $g(x) = 4$ which gives $x/(x - 2) = 4$. Cross-multiply to get $x = 4(x - 2)$, leading to $-3x = -8$, so $x = 8/3$. Thus, $g^{-1}(4) = 8/3$. Next, find $f^{-1}(8/3)$: Start with $f(x) = \\sqrt{3 - x}$, set $y = \\sqrt{3 - x}$, square to get $y^2 = 3 - x$, so $x = 3 - y^2$. Thus, $f^{-1}(y) = 3 - y^2$. Now calculate $f^{-1}(8/3) = 3 - (8/3)^2 = 3 - 64/9 = 27/9 - 64/9 = -37/9$. Final result: $\\boxed{-\\frac{37}{9}}$.",
+    "knowledge_point": "Function Composition and Inverses",
+    "id": 219
+}

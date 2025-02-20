@@ -1,0 +1,8 @@
+{
+    "problem": "In circle $O$, $\\overline{AB}$ and $\\overline{CD}$ are chords that intersect at point $P$ inside the circle. If $AP = 3$ cm, $PB = 9$ cm, $CP = 4$ cm, and $PD = 2$ cm, find the sum of lengths of $AB$ and $CD$.",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "To find the lengths of the chords, add the segments created by point $P$. For chord $\\overline{AB}$: Since $AP = 3$ cm and $PB = 9$ cm, the length of $AB = AP + PB = 3 + 9 = 12$ cm. For chord $\\overline{CD}$: Since $CP = 4$ cm and $PD = 2$ cm, the length of $CD = CP + PD = 4 + 2 = 6$ cm. Therefore, the lengths of chords $AB$ and $CD$ are 12 cm and 6 cm respectively. So the sum of the two chords' length is $12 + 6 = \\boxed{18}$.",
+    "knowledge_point": "Circles and Their Properties",
+    "id": 55
+}

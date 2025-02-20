@@ -1,0 +1,8 @@
+{
+    "problem": "Hexagon $ABCDEF$ is inscribed in a circle centered at $O (0,0)$ with radius 10 units. The coordinates of points $A$, $B$, $C$, $D$, $E$, and $F$ are $A(10,0)$, $B(5, 8.66)$, $C(-5, 8.66)$, $D(-10, 0)$, $E(-5, -8.66)$, and $F(5, -8.66)$ respectively. Compute the area of hexagon $ABCDEF$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "To find the area of the regular hexagon, we can divide it into 6 equilateral triangles. The side length of each triangle, using the distance formula for $AB$, is $\\sqrt{(5-10)^2 + (8.66-0)^2} = 10$. The area of one equilateral triangle with side length $s$ is $\\frac{\\sqrt{3}}{4}s^2$. So, the area of one triangle is $\\frac{\\sqrt{3}}{4} \\times 100 = 25\\sqrt{3}$. The total area of the hexagon is $6 \\times 25\\sqrt{3} = 150\\sqrt{3}$. Thus, the area of hexagon $ABCDEF$ is $\\boxed{150\\sqrt{3}}$.",
+    "knowledge_point": "Algebra in Coordinate Geometry",
+    "id": 106
+}

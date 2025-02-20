@@ -1,0 +1,8 @@
+{
+    "problem": "Compute $\\tan 30^\\circ$.",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "In a 30-60-90 triangle, the ratio of the opposite side (half) to the adjacent side (sqrt(3)/2) of the 30-degree angle gives $\\tan 30^\\circ = \\frac{1/2}{\\sqrt{3}/2} = \\frac{1}{\\sqrt{3}} = \\frac{\\sqrt{3}}{3} = \\boxed{\\frac{\\sqrt{3}}{3}}$.",
+    "knowledge_point": "Fundamentals of Trigonometry",
+    "id": 8
+}

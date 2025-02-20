@@ -1,0 +1,8 @@
+{
+    "problem": "What is the minimum angle of rotation about its center that maps a regular pentagon onto itself?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "The minimum angle of rotation that maps a regular pentagon onto itself is 72 degrees, as there are five segments, and rotating by 1/5 of 360 degrees (which is 72 degrees) will align the pentagon with its original position. \\(\\boxed{72^\\circ}\\)",
+    "knowledge_point": "Transformative Geometry and Symmetry",
+    "id": 49
+}

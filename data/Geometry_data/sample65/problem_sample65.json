@@ -1,0 +1,8 @@
+{
+    "problem": "A hexagon is defined by the points $A(0,0), B(2,0), C(3,1), D(2,2), E(0,2), F(-1,1)$. Find the area of this hexagon.",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "The area of a polygon can be calculated using the shoelace theorem. For simplicity and due to space, the solution here uses a simplified method by breaking the hexagon into simpler shapes (triangles and trapezoids) whose areas are easier to calculate, then summing these areas. This results in an area of $\\boxed{6}$ square units.",
+    "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+    "id": 65
+}

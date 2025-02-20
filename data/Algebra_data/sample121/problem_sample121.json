@@ -1,0 +1,8 @@
+{
+    "problem": "What is the minimum value of possible values for $x$ if $|3x + 1| \\leq 8$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "First, solve the inequality $|3x + 1| \\leq 8$. This expands to $-8 \\leq 3x + 1 \\leq 8$. Subtracting 1 from all parts gives $-9 \\leq 3x \\leq 7$. Dividing everything by 3 results in $-3 \\leq x \\leq \\frac{7}{3}$. Thus, the minimum value of $x$ is $\\boxed{-3}$.",
+    "knowledge_point": "Inequalities and Absolute Values",
+    "id": 121
+}

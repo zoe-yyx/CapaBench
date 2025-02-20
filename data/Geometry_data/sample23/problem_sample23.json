@@ -1,0 +1,8 @@
+{
+    "problem": "In parallelogram $JKML$, if $\\angle J = 75^\\circ$, what is $\\angle M$?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "In a parallelogram, opposite angles are equal and adjacent angles are supplementary. Since $\\angle J = 75^\\circ$, $\\angle M$ (which is opposite $\\angle J$) must also be $75^\\circ$. Therefore, $\\angle M = \\boxed{75^\\circ}$.",
+    "knowledge_point": "Polygons and Their Properties",
+    "id": 23
+}

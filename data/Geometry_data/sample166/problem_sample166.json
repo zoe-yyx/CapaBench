@@ -1,0 +1,8 @@
+{
+    "problem": "A rectangle is inscribed in a circle with radius 10 units. What is the maximum area of the rectangle?",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "The diagonal of the rectangle is the diameter of the circle, hence it is 20 units. Let the sides of the rectangle be $a$ and $b$. The diagonal's length gives us the equation $a^2 + b^2 = 400$. To maximize the area $ab$, we consider $ab = \\frac{(a+b)^2 - (a^2+b^2)}{2} = \\frac{(a+b)^2 - 400}{2}$. The maximum occurs when $a = b = \\sqrt{200}$, so the maximum area is $ab = 200$ square units. \\(\\boxed{200}\\)",
+    "knowledge_point": "Geometric Inequalities and Optimization Problems",
+    "id": 166
+}

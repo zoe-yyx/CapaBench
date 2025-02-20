@@ -1,0 +1,8 @@
+{
+    "problem": "Triangle $PQR$ is similar to triangle $STU$. If side $PQ = 15$ cm, $QR = 20$ cm, and $ST = 45$ cm, find the length of side $TU$.",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "Since $\\triangle PQR \\sim \\triangle STU$, the sides are proportional. Thus, $\\frac{PQ}{ST} = \\frac{QR}{TU}$. Plugging in the known values gives $\\frac{15}{45} = \\frac{20}{TU}$. Solving for $TU$, we find $TU = 60$ cm. \\(\\boxed{60}\\)",
+    "knowledge_point": "Similar Triangles and Proportions",
+    "id": 40
+}

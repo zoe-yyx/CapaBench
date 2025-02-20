@@ -1,0 +1,8 @@
+{
+    "problem": "A rumor starts with one person and spreads such that each person who hears it tells three more people the next day, and this pattern continues for 10 days. If the first day is considered day 1, how many people in total will have heard the rumor by the end of day 10, including the first person?",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "On day 1, 1 person knows the rumor. On each subsequent day, each person from the previous day tells the rumor to 3 new people. Thus, the number of people who hear the rumor each day forms a geometric sequence where each term is 3 times the previous term starting from 1. The number of people who know the rumor by the end of day 10 is the sum of the first 10 terms of this sequence.\n\nUsing the formula for the sum of the first n terms of a geometric sequence, $$S_n = a \\frac{r^n - 1}{r - 1}$$ where $a = 1$, $r = 3$, and $n = 10$, we find: $$S_{10} = 1 \\times \\frac{3^{10} - 1}{3 - 1} = \\frac{59049 - 1}{2} = 29524.$$ Therefore, by the end of day 10, $\\boxed{29524}$ people have heard the rumor, including the first person.",
+    "knowledge_point": "Sequences and Series",
+    "id": 242
+}

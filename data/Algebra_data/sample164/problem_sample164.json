@@ -1,0 +1,8 @@
+{
+    "problem": "A student wants to save $\\$50000$ in a savings account by the end of 10 years. The account offers a compound interest rate of 5% per year. How much should the student deposit initially to meet her goal? (Give the answer in decimal and round to 2 decimal places)",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Let $P$ be the initial amount the student deposits. After 10 years, with a compound interest rate of 5% per year, the total amount will be $P \\cdot 1.05^{10}$. To reach her goal of $50000, $P$ must satisfy \\[P = \\frac{50000}{1.05^{10}} = \\boxed{30695.66},\\] rounded to the nearest dollar.",
+    "knowledge_point": "Exponents and Logarithms",
+    "id": 164
+}

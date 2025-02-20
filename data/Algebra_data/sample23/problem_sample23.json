@@ -1,0 +1,8 @@
+{
+    "problem": "Find the bigger value of $x$ that satisfy $|2x + 3| = 11$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "From $|2x + 3| = 11$, we have two cases: $2x + 3 = 11 \\Rightarrow 2x = 8 \\Rightarrow x = 4$ and $2x + 3 = -11 \\Rightarrow 2x = -14 \\Rightarrow x = -7$. Hence, the possible bigger value for $x$ is $x = \\boxed{4}$ .",
+    "knowledge_point": "Inequalities and Absolute Values",
+    "id": 23
+}

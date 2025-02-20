@@ -1,0 +1,8 @@
+{
+    "problem": "What is the conjugate of $7 - 4i$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "The conjugate of $7 - 4i$ is $7 + 4i$. Thus, the answer is $\\boxed{7 + 4i}.$",
+    "knowledge_point": "Complex Numbers",
+    "id": 54
+}

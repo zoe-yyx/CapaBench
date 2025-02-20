@@ -1,0 +1,8 @@
+{
+    "problem": "In right triangle $\\triangle PQR$, $PR = 9$, $QR = 40$, and $PQ$ is the hypotenuse. What is the length of $PQ$?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "Using the Pythagorean theorem, $PR^2 + QR^2 = PQ^2$. Plugging in the values, $9^2 + 40^2 = 81 + 1600 = 1681$. Taking the square root gives $PQ = \\boxed{41}$.",
+    "knowledge_point": "Properties of Right Triangles",
+    "id": 26
+}

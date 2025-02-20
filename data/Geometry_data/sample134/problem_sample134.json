@@ -1,0 +1,8 @@
+{
+    "problem": "A parallelogram has a base of 10 units and height of 7 units. If one of the angles is $60^\\circ$, find the length of the other side. Give the answer in decimal and round to 2 decimal places",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "In a parallelogram, the area can also be calculated as $A = ab\\sin(\\theta)$ where $a$ and $b$ are the sides and $\\theta$ is the included angle. Here, $A = 70$. Using the area formula $A = ab\\sin(60^\\circ) = ab \\times \\frac{\\sqrt{3}}{2} = 70$, we solve for $b$ to get $b = \\frac{140}{10\\sqrt{3}} = \\frac{14}{\\sqrt{3}} \\approx 8.08$. Hence, the other side is approximately $\\boxed{8.08}$ units.",
+    "knowledge_point": "Quadrilateral Features and Classifications",
+    "id": 134
+}

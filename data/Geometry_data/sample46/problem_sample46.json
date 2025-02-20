@@ -1,0 +1,8 @@
+{
+    "problem": "One side length is 1 pallet square paper folded along one of its diagonals. What is the maximum side length of the folded shape?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "The folded shape exhibits reflectional symmetry, as the fold along the diagonal creates two congruent triangular halves that are mirror images of each other. Therefore the answer is $\\sqrt(1 + 1) = \\boxed{\\sqrt{2}}$",
+    "knowledge_point": "Transformative Geometry and Symmetry",
+    "id": 46
+}

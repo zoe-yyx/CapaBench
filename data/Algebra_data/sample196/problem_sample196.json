@@ -1,0 +1,8 @@
+{
+    "problem": "In a magical forest, there are animals that can speak human languages. A wizard hears from a rabbit, a deer, and a fox. The rabbit says that the sum of the ages of the deer and the fox is twice his age. The deer claims that the sum of the ages of the rabbit and the fox is three times his age. If the total age of the rabbit, deer, and fox is 60 years, how old is the fox?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Let $r$, $d$, and $f$ represent the ages of the rabbit, deer, and fox, respectively. The system of equations based on their statements is: \\begin{align*} d + f &= 2r, \\\\ r + f &= 3d, \\\\ r + d + f &= 60. \\end{align*} Solving this system, we find $r = 20$, $d = 15$, and $f = 25$. Thus, the rabbit is 20 years old, the deer is 15 years old, and the fox is \\boxed{25} years old.",
+    "knowledge_point": "Systems of Linear Equations",
+    "id": 196
+}

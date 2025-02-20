@@ -1,0 +1,8 @@
+{
+    "problem": "Find the conjugate of the complex number $5 - 7i$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "The conjugate of $5 - 7i$ is $5 + 7i$. Thus, the answer is $\\boxed{5 + 7i}.$",
+    "knowledge_point": "Complex Numbers",
+    "id": 2
+}

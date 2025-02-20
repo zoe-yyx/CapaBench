@@ -1,0 +1,8 @@
+{
+    "problem": "Simplify the expression $(2x + 6)(x - 4) - (x + 3)(2x - 6)$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Expanding the expressions, we have $(2x + 6)(x - 4) = 2x^2 - 8x + 6x - 24 = 2x^2 - 2x - 24$ and $(x + 3)(2x - 6) = 2x^2 - 6x + 6x - 18 = 2x^2 - 18$. Now, subtract the second expression from the first: $(2x^2 - 2x - 24) - (2x^2 - 18) = -2x - 6 = \\boxed{-2x - 6}$.",
+    "knowledge_point": "Polynomials and Polynomial Operations",
+    "id": 78
+}

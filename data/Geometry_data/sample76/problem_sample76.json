@@ -1,0 +1,8 @@
+{
+    "problem": "In right triangle $PQR$, if $\\angle Q = 90^\\circ$ and $\\sin R = \\frac{3}{5}$, what is the length of side $PR$ if side $QR = 5$ units?",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "Since $\\sin R = \\frac{3}{5}$ and $QR = 5$, $PR$ will be the hypotenuse. Since $\\sin R = 3/5$, then $\\cos R = 4/5$. From $\\cos R = = \\frac{QR}{PR}$, we have $\\frac{5}{PR} = \\frac{4}{5}$. Solving for $PR$, $PR = \\frac{5}{\\frac{4}{5}} = \\frac{5 \\times 5}{4} = \\frac{25}{4}$. Thus, $PR = \\boxed{\\frac{25}{4}}$ units.",
+    "knowledge_point": "Properties of Right Triangles",
+    "id": 76
+}

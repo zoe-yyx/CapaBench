@@ -1,0 +1,8 @@
+{
+    "problem": "Calculate $( -1 + i) + (2 - i)$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "$(-1 + i) + (2 - i) = (-1 + 2) + (i - i) = \\boxed{1}.$",
+    "knowledge_point": "Complex Numbers",
+    "id": 5
+}

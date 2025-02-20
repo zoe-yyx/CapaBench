@@ -1,0 +1,8 @@
+{
+    "problem": "Given the function $f(x) = \\frac{2x - 5}{3x^2 - x - 14}$, find all values of $x$ that would make $f(x)$ undefined. Express your answer in set notation.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "To find the values that make $f(x)$ undefined, we need to determine where the denominator equals zero. Setting the denominator equal to zero, we have $3x^2 - x - 14 = 0$. Using the quadratic formula, $x = \\frac{-(-1) \\pm \\sqrt{(-1)^2 - 4 \\cdot 3 \\cdot (-14)}}{2 \\cdot 3} = \\frac{1 \\pm \\sqrt{169}}{6} = \\frac{1 \\pm 13}{6}$. Thus, $x = \\frac{14}{6} = \\frac{7}{3}$ or $x = \\frac{-12}{6} = -2$. Therefore, the function is undefined at $x = -2$ and $x = \\frac{7}{3}$. The solution is $\\boxed{\\{-2, \\frac{7}{3}\\}}$.",
+    "knowledge_point": "Rational Functions and Expressions",
+    "id": 237
+}

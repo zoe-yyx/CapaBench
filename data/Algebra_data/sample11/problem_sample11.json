@@ -1,0 +1,8 @@
+{
+    "problem": "If $(8^3) = 2^x$, what is the value of $x$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "First, express $8^3$ in terms of base 2: $8^3 = (2^3)^3 = 2^9$. Thus, $2^9 = 2^x$ implies $x = \\boxed{9}$.",
+    "knowledge_point": "Exponents and Logarithms",
+    "id": 11
+}

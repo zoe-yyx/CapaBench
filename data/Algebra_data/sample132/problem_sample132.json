@@ -1,0 +1,8 @@
+{
+    "problem": "Consider the quadratic equation $3x^2 - 18x + k = 0$, where $k$ is a constant. If the sum of the squares of the roots of the equation is 40, what is the value of $k$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Let the roots of the equation be $r$ and $s$. By Vieta's formulas, we have $r+s = \\frac{18}{3} = 6$ and $rs = \\frac{k}{3}$. The sum of the squares of the roots can be written as $r^2 + s^2 = (r+s)^2 - 2rs = 36 - 2rs$. Since $r^2 + s^2 = 40$, we have $36 - 2rs = 40$. Solving for $rs$ gives $rs = -2$. Substituting back, we find $k = 3(-2) = \\boxed{-6}$.",
+    "knowledge_point": "Quadratic Equations and Functions",
+    "id": 132
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "A rectangular prism has a base area of 120 cm^2 and a height of 15 cm. If a smaller rectangular prism that is similar to the larger one has a height of 10 cm, what is the volume of the smaller prism? Give the answer in decimal and round to 2 decimal places.",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "Since the smaller prism is similar to the larger prism, the ratio of corresponding linear dimensions is 10:15 or 2:3. Thus, the base area of the smaller prism is \\left(\\frac{2}{3}\\right)^2 of the larger base area, which is \\left(\\frac{4}{9}\\right) \\times 120 \\text{ cm}^2 = 53.333 \\text{ cm}^2. The volume of the smaller prism is base area \\times height = 53.333 \\text{ cm}^2 \\times 10 \\text{ cm} = 533.33 \\text{ cm}^3. \\(\\boxed{533.33}\\)",
+    "knowledge_point": "Three-Dimensional Geometry",
+    "id": 141
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "Find the range of $k$ such that the quadratic equation $kx^2 - (k+6)x - \\frac{3}{4} = 0$ doesn't has real roots. Give the answer in the form of interval",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "For the quadratic equation to have no real roots, its discriminant must be negative. The discriminant is given by $b^2 - 4ac$. For this equation, $a = k$, $b = -(k+6)$, and $c = -\\frac{3}{4}$. Plugging in these values, the discriminant becomes $$(-(k+6))^2 - 4(k)(\\frac{3}{4}) = (k+6)^2 + 3k.$$ Expanding and simplifying, we get $$k^2 + 12k + 36 + 3k = k^2 + 15k + 36.$$ For no real roots, we require this to be less than 0: $$k^2 + 15k + 36 < 0.$$ Solve this inequality, we can get the solution is $\\boxed{(-12, -3)}$.",
+    "knowledge_point": "Quadratic Equations and Functions",
+    "id": 184
+}

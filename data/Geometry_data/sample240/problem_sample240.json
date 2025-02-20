@@ -1,0 +1,8 @@
+{
+    "problem": "In triangle $DEF$, point $G$ divides side $DF$ in the ratio $2:3$. If the area of triangle $DEG$ is 12, find the area of triangle $EFG$.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "Since point $G$ divides $DF$ in the ratio $2:3$, the areas of $\\triangle DEG$ and $\\triangle EFG$ will be in the same ratio. Therefore, the area of $\\triangle EFG$ is $12 \\cdot \\frac{3}{2} = 18$. So, the area of $\\triangle EFG$ is $\\boxed{18}$.",
+    "knowledge_point": "Similar Triangles and Proportions",
+    "id": 240
+}

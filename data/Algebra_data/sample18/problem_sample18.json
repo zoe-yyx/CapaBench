@@ -1,0 +1,8 @@
+{
+    "problem": "Let the function $g(x) = 3x - 2$. Calculate $g(-3)$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Substitute $x = -3$ into the function $g(x) = 3x - 2$. Therefore, $g(-3) = 3(-3) - 2 = -9 - 2 = \\boxed{-11}$.",
+    "knowledge_point": "Function Composition and Inverses",
+    "id": 18
+}

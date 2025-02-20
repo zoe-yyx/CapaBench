@@ -1,0 +1,8 @@
+{
+    "problem": "A circle has a radius of 6 units. A chord in the circle is 4 units away from the center of the circle. What is the length of the chord?",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "Let the radius of the circle be $r = 6$ units, and the perpendicular distance from the center to the chord be $d = 4$ units. By the Pythagorean theorem in the right triangle formed by the radius, the distance $d$, and half of the chord (say $x$), we have $x^2 + d^2 = r^2$. So, $x^2 = r^2 - d^2 = 6^2 - 4^2 = 36 - 16 = 20$. Thus, $x = \\sqrt{20} = 2\\sqrt{5}$. The length of the chord is $2x = 4\\sqrt{5}$, so the answer is $\\boxed{4\\sqrt{5}}$.",
+    "knowledge_point": "Circles and Their Properties",
+    "id": 103
+}

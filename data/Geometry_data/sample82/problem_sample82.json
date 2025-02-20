@@ -1,0 +1,8 @@
+{
+    "problem": "A rhombus has diagonals of lengths 10 and 24. What is the area of the rhombus?",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "The area of a rhombus is given by half the product of the lengths of its diagonals. Therefore, the area is $\\frac{1}{2} \\times 10 \\times 24 = \\boxed{120}$ square units.",
+    "knowledge_point": "Quadrilateral Features and Classifications",
+    "id": 82
+}

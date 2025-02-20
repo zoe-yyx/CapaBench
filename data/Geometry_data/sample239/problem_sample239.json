@@ -1,0 +1,8 @@
+{
+    "problem": "In triangle $LMN$, the ratio of the length of altitude from $L$ to side $MN$ and the length of altitude from $M$ to side $LN$ is 4:3. If the area of triangle $LMN$ is 84, find the ratio of sides $LN$ and $MN$.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "Let $h_L$ and $h_M$ be the altitudes from $L$ and $M$, and let $LN$ and $MN$ be $a$ and $b$, respectively. The area of the triangle can be represented in two ways: $\\frac{1}{2}ah_L = 84$ and $\\frac{1}{2}bh_M = 84$. Given $h_L:h_M = 4:3$, and substituting the areas, we get $\\frac{a}{b} = \\frac{h_L}{h_M} = \\frac{4}{3}$. Therefore, the ratio $LN:MN = \\boxed{\\frac{4}{3}}$.",
+    "knowledge_point": "Similar Triangles and Proportions",
+    "id": 239
+}

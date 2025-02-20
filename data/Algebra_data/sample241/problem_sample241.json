@@ -1,0 +1,8 @@
+{
+    "problem": "A mathematician considers an infinite geometric series with the first term $a$ and common ratio $r$(0 < r < 1). The limit of sum of this series is $1000$. A new series is created by taking the reciprocal of the first term and keeping the common ratio unchanged. The limit of sum of this new series is known to be $24$ times the sum of the original series. Determine the values of $r$.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "Given that the limit of sum of the original series is $S = 1000$ and the first term $a$, the sum is represented by $S = a/(1 - r)$. The new series formed has a sum of $24S = 24000$. This series' sum is also represented by $1/a(1 - r)$. Setting up the equation $24000 = 1/a(1 - r)$ and knowing that $1000 = a/(1 - r)$. Solving this system, we find $r = \\boxed{1 - \\frac{\\sqrt{6}}{12000}}$.",
+    "knowledge_point": "Sequences and Series",
+    "id": 241
+}

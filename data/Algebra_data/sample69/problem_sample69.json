@@ -1,0 +1,8 @@
+{
+    "problem": "Define $\\oplus$ as an operation such that for any real numbers $a$ and $b$, $a \\oplus b = a^2 + b^2$. Calculate the result of $(2 \\oplus 3) \\oplus 4$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "First, calculate $2 \\oplus 3 = 2^2 + 3^2 = 4 + 9 = 13$. Then, calculate $13 \\oplus 4 = 13^2 + 4^2 = 169 + 16 = 185$. Hence, the result is $\\boxed{185}$.",
+    "knowledge_point": "Function Composition and Inverses",
+    "id": 69
+}

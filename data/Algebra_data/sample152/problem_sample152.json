@@ -1,0 +1,8 @@
+{
+    "problem": "Calculate the square of the conjugate of the complex number $z = 7 - 3i$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "The conjugate of $z = 7 - 3i$ is $\\overline{z} = 7 + 3i$. The square of the conjugate is $\\overline{z}^2 = (7 + 3i)^2 = 49 + 42i - 9 = 40 + 42i. Thus, \\boxed{40 + 42i}$.",
+    "knowledge_point": "Complex Numbers",
+    "id": 152
+}

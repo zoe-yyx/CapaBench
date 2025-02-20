@@ -1,0 +1,8 @@
+{
+    "problem": "Given the point $(x, y) = (5, 7)$, calculate the value of $2y^2 - 5xy + 6$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Using the point $(5, 7)$, substitute into the expression: $2y^2 - 5xy + 6 = 2(7)^2 - 5(5)(7) + 6 = 98 - 175 + 6 = \\boxed{-71}$.",
+    "knowledge_point": "Algebra in Coordinate Geometry",
+    "id": 8
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "Solve the inequality $|2x - 3| - |x + 1| > 2$. List all the intervals that contain solutions.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "To solve this inequality, we consider different cases based on the signs of the expressions within the absolute values.\\n\\n**Case 1:** $x + 1 \\geq 0$ and $2x - 3 \\geq 0$ i.e., $x \\geq 1.5$. In this case, $|2x-3| = 2x-3$ and $|x+1| = x+1$. Thus, the inequality becomes $2x - 3 - (x+1) > 2$, simplifying to $x - 4 > 2$, or $x > 6$.\\n\\n**Case 2:** $x + 1 < 0$ and $2x - 3 < 0$ i.e., $x < -1$. In this case, $|2x-3| = -(2x-3)$ and $|x+1| = -(x+1)$. Thus, the inequality becomes $-(2x-3) + (x+1) > 2$, simplifying to $-x + 4 > 2$, or $x < 2$. However, this must satisfy $x < -1$, so we consider $x < -1$.\\n\\n**Case 3:** $x + 1 \\geq 0$ and $2x - 3 < 0$ i.e., $-1 \\leq x < 1.5$. Here, $|2x-3| = -(2x-3)$ and $|x+1| = x+1$. The inequality becomes $-(2x-3) - (x+1) > 2$, or $-3x + 2 > 2$, simplifying to $x < 0$. We combine this with the range $-1 \\leq x < 1.5$ to get $-1 \\leq x < 0$.\\n\\nCombining all cases, the solution intervals are $x < -1$ and $-1 \\leq x < 0$ and $x > 6$. In interval notation, this is $\\boxed{(-\\infty, 0) \\cup (6, \\infty)}$.",
+    "knowledge_point": "Inequalities and Absolute Values",
+    "id": 175
+}

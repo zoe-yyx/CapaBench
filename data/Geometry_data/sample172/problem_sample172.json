@@ -1,0 +1,8 @@
+{
+    "problem": "A pentagon is inscribed in a circle with a radius of 10 units. If all sides of the pentagon are tangent to a smaller concentric circle, find the radius of the smaller circle. Give the answer in decimal and round to 2 decimal places",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "Given a regular pentagon inscribed in a circle of radius 10, the radius of the smaller concentric circle tangent to its sides is approximately \\boxed{8.09} units, calculated using r = R * cos(pi / 5).",
+    "knowledge_point": "Polygons and Their Properties",
+    "id": 172
+}

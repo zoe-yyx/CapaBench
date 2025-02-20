@@ -1,0 +1,8 @@
+{
+    "problem": "An electrical engineering student is analyzing a circuit where the total impedance $Z$ in the circuit is given by $Z = 3 + 4i$. If the voltage across the circuit $V$ is given by $V = 7 + 24i$, find the current $I$ flowing through the circuit using the formula $I = \\frac{V}{Z}$.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "First, express the current $I$ in terms of $V$ and $Z$: $$\nI = \\frac{V}{Z} = \\frac{7+24i}{3+4i}.\n$$ To simplify, multiply the numerator and denominator by the conjugate of the denominator: $$\nI = \\frac{7+24i}{3+4i} \\cdot \\frac{3-4i}{3-4i} = \\frac{(7+24i)(3-4i)}{3^2 + 4^2}.\n$$ Expanding the numerator and simplifying the denominator, we get $$\nI = \\frac{21 - 28i + 72i - 96i^2}{9 + 16} = \\frac{21 - 28i + 72i + 96}{25} = \\frac{117 + 44i}{25} = \\boxed{\\frac{117}{25} + \\frac{44}{25}i}.\n$$",
+    "knowledge_point": "Complex Numbers",
+    "id": 204
+}

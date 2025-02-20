@@ -1,0 +1,8 @@
+{
+    "problem": "Consider a geometric sequence where the third term is 32 and the sixth term is 4. Find the sum of the first 8 terms of this sequence.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Let the first term be $a$ and the common ratio be $r$. Then the third term is $ar^2 = 32$ and the sixth term is $ar^5 = 4$. Dividing the sixth term by the third term, we get $\\frac{ar^5}{ar^2} = r^3 = \\frac{4}{32} = \\frac{1}{8}$. Hence, $r = \\frac{1}{2}$. Using $ar^2 = 32$, we find $a = 128$. The sum of the first 8 terms of a geometric series is given by $S_n = a \\frac{1-r^n}{1-r}$, so $S_8 = 128 \\frac{1-(\\frac{1}{2})^8}{1-\\frac{1}{2}} = \\boxed{255}$.",
+    "knowledge_point": "Sequences and Series",
+    "id": 194
+}

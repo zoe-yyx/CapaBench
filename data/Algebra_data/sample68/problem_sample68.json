@@ -1,0 +1,8 @@
+{
+    "problem": "Define two operations on $x$: $\\oplus x = x - 3$ and $\\otimes x = x^3$. Calculate $\\otimes(\\oplus 5)$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "First apply the $\\oplus$ operation: $\\oplus 5 = 5 - 3 = 2$. Then apply the $\\otimes$ operation to the result: $\\otimes 2 = 2^3 = 8$. Thus, $\\otimes(\\oplus 5) = \\boxed{8}.$",
+    "knowledge_point": "Function Composition and Inverses",
+    "id": 68
+}

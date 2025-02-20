@@ -1,0 +1,8 @@
+{
+    "problem": "A shape formed by four vertices at (0,0), (-1,1), (0,2), and (1,1) (shaped like a bracket) is reflected over the line \\( y = x \\). After the reflection, what is the horizontal coordinate of the center of the shape?",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "Reflecting over the line \\( y = x \\) swaps the \\( x \\) and \\( y \\) coordinates of each point. Calculate the new coordinates and find the center's horizontal coordinate. Therefore the answer is $\\boxed{1}$",
+    "knowledge_point": "Transformative Geometry and Symmetry",
+    "id": 96
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "In right triangle $XYZ$, $\\angle YXZ = 90^\\circ$, and point $W$ is on $\\overline{YZ}$ such that $\\overline{XW}$ is an altitude. If $XY = 9$ and $YZ = 41$, find the length of $\\overline{YW}$.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "To find the length of YW, we applied the Pythagorean theorem to determine XZ, then used the similar triangles relationship, giving the final answer as YW = $\\boxed{\\frac{81}{41}}$.",
+    "knowledge_point": "Properties of Right Triangles",
+    "id": 226
+}

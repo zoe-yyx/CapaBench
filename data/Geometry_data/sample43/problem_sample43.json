@@ -1,0 +1,8 @@
+{
+    "problem": "How many vertices does a triangular prism have?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "A triangular prism has two triangular bases. Each triangle has 3 vertices, and there are two such bases, so there are $3 \\times 2 = \\boxed{6}$ vertices in total.",
+    "knowledge_point": "Three-Dimensional Geometry",
+    "id": 43
+}

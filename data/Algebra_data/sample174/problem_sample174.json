@@ -1,0 +1,8 @@
+{
+    "problem": "Solve for the sum of all real values of $x$ such that $\\left|{3x - 6}\\right| - \\left|{x + 2}\\right| = 12$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We need to consider cases based on the values of $3x - 6$ and $x + 2$. Case 1: $3x - 6 \\geq 0$ and $x + 2 \\geq 0$, then $x \\geq 2$ and $x \\geq -2$ respectively, thus $x \\geq 2$. The equation simplifies to $3x - 6 - (x + 2) = 12 \\Rightarrow 2x - 8 = 12 \\Rightarrow 2x = 20 \\Rightarrow x = 10$. Case 2: $3x - 6 \\leq 0$ and $x + 2 \\leq 0$, then $x \\leq -2$, the equation is $-2x + 8 = 12$, so $x = -2$. Case 3: $3x - 6 < 0$ and $x + 2 > 0$, then $-2 < x < 2$. The equation simplifies to $-(3x - 6) - (x + 2) = 12 \\Rightarrow -4x + 4 = 12 \\Rightarrow -4x = 8 \\Rightarrow x = -2$. Summing the valid $x$ values, $10 + (-2) = \\boxed{8}$.",
+    "knowledge_point": "Inequalities and Absolute Values",
+    "id": 174
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "In parallelogram $ABCD$, $\\angle A = 60^\\circ$ and the sides $AB=10$ units and $BC=15$ units. Calculate the area of the parallelogram.",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "The area of a parallelogram can be found using the formula $\\text{base} \\times \\text{height}$. Given $AB$ as the base and using the sine of $\\angle A$ for the height (as the height forms a right triangle with $AB$ and an extended line from $C$ or $D$), we get $\\text{height} = 15 \\times \\sin(60^\\circ) = 15 \\times \\frac{\\sqrt{3}}{2} = \\frac{15\\sqrt{3}}{2}$. Thus, the area is $10 \\times \\frac{15\\sqrt{3}}{2} = 75\\sqrt{3}$ square units. \\(\\boxed{75\\sqrt{3}}\\)",
+    "knowledge_point": "Quadrilateral Features and Classifications",
+    "id": 184
+}

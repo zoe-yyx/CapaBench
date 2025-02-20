@@ -1,0 +1,8 @@
+{
+    "problem": "What is the result of $24^2 - 4(24) + 4$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "This is the square of a binomial: $24^2 - 4(24) + 4 = (24 - 2)^2 = 22^2 = \\boxed{484}$.",
+    "knowledge_point": "Quadratic Equations and Functions",
+    "id": 32
+}

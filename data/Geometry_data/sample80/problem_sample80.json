@@ -1,0 +1,8 @@
+{
+    "problem": "In right triangle $ABC$, $\\angle B = 90^\\circ$, and $AB = 8$ units. If $\\cos C = \\frac{1}{\\sqrt{5}}$, find $BC$.",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "Since $\\cos C = \\frac{1}{\\sqrt{5}}$, we can calculate that $\\tan C = \\frac{1}{2}$. Using the definition of tan, $\\tan C = \\frac{AB}{BC} = \\frac{8}{BC} = \\frac{1}{2}$. Solving for $BC$, $BC = 8 \\times 2 = 16$. Therefore, $BC = \\boxed{16}$ units.",
+    "knowledge_point": "Properties of Right Triangles",
+    "id": 80
+}

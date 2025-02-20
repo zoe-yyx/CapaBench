@@ -1,0 +1,8 @@
+{
+    "problem": "A ladder 10 feet long leans against a vertical wall such that the bottom of the ladder is 6 feet from the base of the wall. What is the height from the top of the ladder to the ground?",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "The ladder, wall, and ground form a right triangle with the ladder as the hypotenuse. Using the Pythagorean theorem, we find the height from the top of the ladder to the ground ($h$) by solving $h^2 + 6^2 = 10^2$. Therefore, $h^2 = 64$ and $h = 8$ feet. \\(\\boxed{8}\\)",
+    "knowledge_point": "Properties of Right Triangles",
+    "id": 176
+}

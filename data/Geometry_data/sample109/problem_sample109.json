@@ -1,0 +1,8 @@
+{
+    "problem": "Compute $\\cos 480^\\circ$.",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "Rotating $480^\\circ$ on the unit circle is the same as rotating $480^\\circ - 360^\\circ = 120^\\circ$. The cosine of $120^\\circ$ is negative and is equivalent to the cosine of $180^\\circ - 60^\\circ$. Thus, $\\cos 480^\\circ = \\cos 120^\\circ = -\\cos 60^\\circ = -\\frac{1}{2} = \\boxed{-\\frac{1}{2}}$.",
+    "knowledge_point": "Fundamentals of Trigonometry",
+    "id": 109
+}

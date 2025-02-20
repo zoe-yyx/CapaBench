@@ -1,0 +1,8 @@
+{
+    "problem": "Calculate $25\\%$ of 60 and add it to the product of $30\\%$ of 50. What is the result?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Twenty-five percent of 60 is $25\\cdot60\\cdot\\frac{1}{100}=15$, and $30\\%$ of 50 is $30\\cdot50\\cdot\\frac{1}{100}=15$. Adding these gives $15 + 15 = \\boxed{30}$.",
+    "knowledge_point": "Polynomials and Polynomial Operations",
+    "id": 26
+}

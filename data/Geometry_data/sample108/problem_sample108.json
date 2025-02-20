@@ -1,0 +1,8 @@
+{
+    "problem": "Compute $\\tan 210^\\circ$.",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "Angle $210^\\circ$ is equivalent to $180^\\circ + 30^\\circ$. The tangent of an angle in the third quadrant is positive, and $\\tan 210^\\circ = \\tan (180^\\circ + 30^\\circ) = \\tan 30^\\circ$. Thus, $\\tan 210^\\circ = \\frac{\\sin 30^\\circ}{\\cos 30^\\circ} = \\frac{1/2}{\\sqrt{3}/2} = \\boxed{\\frac{1}{\\sqrt{3}}} = \\frac{\\sqrt{3}}{3}$.",
+    "knowledge_point": "Fundamentals of Trigonometry",
+    "id": 108
+}

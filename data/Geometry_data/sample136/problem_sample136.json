@@ -1,0 +1,8 @@
+{
+    "problem": "Triangle $ABC$ is similar to triangle $DEF$, where the lengths of sides $AB$ and $DE$ are 6 cm and 15 cm respectively. If the area of triangle $DEF$ is 45 cm^2, what is the area of triangle $ABC$? Express your answer as a decimal.",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "Since the triangles are similar, the ratio of the areas of the triangles is the square of the ratio of their corresponding sides. So, the ratio of the area of triangle $ABC$ to triangle $DEF$ is $(\\frac{6}{15})^2 = \\frac{36}{225} = \\frac{4}{25}. The area of triangle $ABC$ is $\\frac{4}{25} \\times 45 = \\boxed{7.2} \\text{ cm}^2$.",
+    "knowledge_point": "Similar Triangles and Proportions",
+    "id": 136
+}

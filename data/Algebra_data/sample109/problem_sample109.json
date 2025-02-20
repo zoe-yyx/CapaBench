@@ -1,0 +1,8 @@
+{
+    "problem": "Given a rectangle with vertices at coordinates $(2, 3)$, $(2, 7)$, $(6, 3)$, and $(6, 7)$. What is the area of this rectangle?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "First, we calculate the length of the sides of the rectangle. The horizontal side between $(2, 3)$ and $(6, 3)$ has a length of $6 - 2 = 4$, and the vertical side between $(2, 3)$ and $(2, 7)$ has a length of $7 - 3 = 4$. The area of the rectangle is therefore $4 \\times 4 = 16$. Next, to find the midpoint of the diagonal, we use the midpoint formula: $\\left(\\frac{2+6}{2}, \\frac{3+7}{2}\\right) = (4, 5)$. Therefore, the area of the rectangle is $\\boxed{16}$.",
+    "knowledge_point": "Algebra in Coordinate Geometry",
+    "id": 109
+}

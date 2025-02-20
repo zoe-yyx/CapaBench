@@ -1,0 +1,8 @@
+{
+    "problem": "A square has a side length of 5 cm. What is the greatest possible length of a diagonal in this square? Give the answer in decimal and round to 2 decimal places",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "The diagonal of a square is calculated as the side length multiplied by the square root of 2. Therefore, the diagonal length is $5 \\times \\sqrt{2} = 5 \\times 1.414 = 7.07$ cm. \\(\\boxed{7.07}\\)",
+    "knowledge_point": "Geometric Inequalities and Optimization Problems",
+    "id": 20
+}

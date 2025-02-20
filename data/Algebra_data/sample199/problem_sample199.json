@@ -1,0 +1,8 @@
+{
+    "problem": "Three team members are planning to equally distribute a $140$-page report for proofreading. However, due to the expertise required, Member 1 takes twice as many pages as Member 2, and Member 3 takes five pages less than Member 1. How many pages does Member 3 proofread?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Let the number of pages that Member 2 takes be $x$. Then, Member 1 takes $2x$ pages, and Member 3 takes $2x - 5$ pages. Then we have $140 = (x + 2x + (2x - 5))$. Then we get $x = 29$. Therefore, Member 3 proofreads $2 * 29 - 5 = \\boxed{53}$ pages.",
+    "knowledge_point": "Systems of Linear Equations",
+    "id": 199
+}

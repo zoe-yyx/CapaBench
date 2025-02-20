@@ -1,0 +1,8 @@
+{
+    "problem": "Right triangle $\\triangle ABC$ has $AC$ as its hypotenuse and lengths $AB = 7$ and $BC = 24$. Find the radius of the circle circumscribing $\\triangle ABC$.",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "The hypotenuse $AC$ can be found using Pythagorean theorem: $AC = \\sqrt{AB^2 + BC^2} = \\sqrt{7^2 + 24^2} = \\sqrt{625} = 25$. The radius $R$ of the circumscribed circle around a right triangle is half the length of the hypotenuse, so $R = \\frac{AC}{2} = \\boxed{\\frac{25}{2}}$ units.",
+    "knowledge_point": "Properties of Right Triangles",
+    "id": 127
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "Emily and her brother Mark receive a total of $200 as a gift. Emily decides to save $50 and Mark decides to save twice as much as Emily. How much does Mark save?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Let $m$ represent the amount Mark saves. Since Emily saves $50, Mark saves twice that amount, so $m = 2 \\times 50 = 100$. Thus, Mark saves $\\boxed{100}$ dollars.",
+    "knowledge_point": "Systems of Linear Equations",
+    "id": 98
+}

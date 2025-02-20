@@ -1,0 +1,8 @@
+{
+    "problem": "The parabola described by the equation $y = ax^2 + bx + c$ passes through three distinct points $(1, 8)$, $(2, 13)$, and $(3, 20)$. Determine the value of $a+b+c$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "By substituting the points into the equation, we obtain three equations: \n1. $a + b + c = 8$\n2. $4a + 2b + c = 13$\n3. $9a + 3b + c = 20$\nSolving these three equations simultaneously, we find that $a = 1$, $b = 2$, and $c = 5$. Therefore, $a+b+c = 1+2+5 = \\boxed{8}$.",
+    "knowledge_point": "Quadratic Equations and Functions",
+    "id": 185
+}

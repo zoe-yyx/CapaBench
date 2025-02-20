@@ -1,0 +1,8 @@
+{
+    "problem": "In a circle, two chords of lengths 8 and 6 intersect such that the product of the segments of one chord is 12. Find the product of the segments of the other chord.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "Using the intersecting chord theorem, which states that the product of the segments of one chord is equal to the product of the segments of the other chord when they intersect, the product of the segments of the other chord is also 12. \\(\\boxed{12}\\)",
+    "knowledge_point": "Circles and Their Properties",
+    "id": 204
+}

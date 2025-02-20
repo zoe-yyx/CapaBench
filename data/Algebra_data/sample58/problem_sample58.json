@@ -1,0 +1,8 @@
+{
+    "problem": "What is the distance between the points $(2, -3)$ and $(-3, 4)$ on the Cartesian coordinate plane?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "To find the distance between the points $(2, -3)$ and $(-3, 4)$, use the distance formula: $\\sqrt{(2 - (-3))^2 + (-3 - 4)^2} = \\sqrt{(5)^2 + (-7)^2} = \\sqrt{25 + 49} = \\sqrt{74} = \\boxed{\\sqrt{74}}$ units.",
+    "knowledge_point": "Algebra in Coordinate Geometry",
+    "id": 58
+}

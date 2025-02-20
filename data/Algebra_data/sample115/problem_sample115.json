@@ -1,0 +1,8 @@
+{
+    "problem": "Evaluate $\\log_{\\sqrt[4]{16}} 256$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "First, express $\\sqrt[4]{16}$ as a power of 2: $\\sqrt[4]{16} = 2$. Next, express 256 as a power of 2: $256 = 2^8$. Now, solve $\\log_{2} 2^8 = 8$. Thus, $\\boxed{8}$ is the answer.",
+    "knowledge_point": "Exponents and Logarithms",
+    "id": 115
+}

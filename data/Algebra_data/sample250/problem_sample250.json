@@ -1,0 +1,8 @@
+{
+    "problem": "In a small village, there are four types of fruits available in a market: apples, bananas, cherries, and dates. If the number of apples is twice the number of bananas, equal to three times the number of cherries, and four more than the number of dates, how many apples are there if the total number of fruits is 132?",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "Let the number of bananas be $b$, the number of cherries be $c$, and the number of dates be $d$. Let the number of apples be $a$. According to the problem, we have the following system of equations:\n\\begin{align*}\na &= 2b \\\\\na &= 3c \\\\\na &= d + 4 \\\\\na + b + c + d &= 132\n\\end{align*}\nFrom the first three equations, substitute the value of $a$ in terms of $b$, $c$, and $d$:\n\\begin{align*}\n2b &= 3c = d + 4\n\\end{align*}\nSolving these equations together with the total sum gives us:\n\\begin{align*}\n3c &= 2b \\\\\nd + 4 &= 2b \\\\\n3c + 2b + (2b - 4) + b &= 132 \\\\\n3c + 5b &= 168 \\\\\nc &= \\frac{2b}{3}, d = 2b - 4\n\\end{align*}\nPlugging $c$ and $d$ back, solve for $b$, then find $c$ and $d$. $a$ can be found directly from any of the first three equations. The final answer is $a = \\boxed{48}$",
+    "knowledge_point": "Systems of Linear Equations",
+    "id": 250
+}

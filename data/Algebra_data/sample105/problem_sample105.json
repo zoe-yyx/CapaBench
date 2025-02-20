@@ -1,0 +1,8 @@
+{
+    "problem": "Calculate and simplify the expression $\\left(\\frac{3-2i}{4}\\right)^2 + (5+6i)(2-i)$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "First, calculate $\\left(\\frac{3-2i}{4}\\right)^2 = \\frac{(3-2i)^2}{16} = \\frac{9 - 12i + 4i^2}{16} = \\frac{9 - 12i -4}{16} = \\frac{5 - 12i}{16}$. For the second part, $(5+6i)(2-i) = 10 - 5i + 12i - 6i^2 = 10 + 7i + 6 = 16 + 7i$. Adding these results, $\\frac{5 - 12i}{16} + (16 + 7i) = \\frac{5 - 12i}{16} + \\frac{256 + 112i}{16} = \\frac{261 + 100i}{16} = \\boxed{\\frac{261}{16} + \\frac{25i}{4}}$.",
+    "knowledge_point": "Complex Numbers",
+    "id": 105
+}

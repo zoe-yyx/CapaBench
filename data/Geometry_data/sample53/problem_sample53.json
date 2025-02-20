@@ -1,0 +1,8 @@
+{
+    "problem": "A circle is divided into two sectors with angles $150^\\circ$ and $210^\\circ$. If the radius of the circle is 7 cm, find the length of the arc corresponding to the $150^\\circ$ sector.",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "The length of the arc of a sector is given by the formula $L = \\theta \\cdot r$, where $\\theta$ is the angle in radians and $r$ is the radius. First convert $150^\\circ$ to radians: $150^\\circ = 150 \\cdot \\frac{\\pi}{180} = \\frac{5\\pi}{6}$ radians. Then the length of the arc is $\\frac{5\\pi}{6} \\cdot 7 = \\frac{35\\pi}{6}$ cm. Thus, the length of the arc is $\\boxed{\\frac{35\\pi}{6}}$ cm.",
+    "knowledge_point": "Circles and Their Properties",
+    "id": 53
+}

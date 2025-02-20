@@ -1,0 +1,8 @@
+{
+    "problem": "Let $A(-2, -3)$ and $B(4, 5)$ define a line segment. Construct a square $ABCD$ such that $C$ and $D$ are in the fourth quadrant. What is the abscissa of the midpoint of $C$ and $D$?",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "To find $C$ and $D$, rotate line segment $AB$ by 90 degrees clockwise about $B$ to find $D$, and then translate it along the vector $\\overrightarrow{AB}$. By performing these operations, the coordinates of $C$ and $D$ are found to be $C(12, -1)$ and $D(6, -9)$. Thus, $C = (12, -1)$ and $D = (6, -9)$. Therefore the answer is $(12 + 6) / 2 = \\boxed{9}$",
+    "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+    "id": 212
+}

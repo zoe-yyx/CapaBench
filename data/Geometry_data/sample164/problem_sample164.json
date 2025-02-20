@@ -1,0 +1,8 @@
+{
+    "problem": "Determine the area, in square units, of a rhombus with vertices at (0,0), (5,0), (4,3), and (9,3).",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "The area of a rhombus can be calculated using the formula for the area of a parallelogram, $A = \\text{base} \\times \\text{height}$. Here, the base is the distance between (0,0) and (5,0), which is 5 units. The height is the distance between any point on the base to the opposite side, from (5,0) to (4,3), which is 3 units (since the y-coordinate difference represents the height of the parallelogram formed). Therefore, the area is $5 \\times 3 = 15$ square units. \\(\\boxed{15}\\)",
+    "knowledge_point": "Geometric Constructions and Coordinate Geometry",
+    "id": 164
+}

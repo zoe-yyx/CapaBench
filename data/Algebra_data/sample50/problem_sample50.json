@@ -1,0 +1,8 @@
+{
+    "problem": "If $30 + 4m - 2n = 50$ and $m - 2n = 5$, what is the value of $m$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Substituting $m - 2n = 5$ into the first equation gives $30 + 4(5) - 2n = 50$. This simplifies to $50 - 2n = 50$. Subtracting $50$ from both sides results in $-2n = 0$, so $n = 0$. Plugging $n = 0$ back into $m - 2n = 5$ gives $m = 5$. Thus, the value of $m$ is $\\boxed{5}$.",
+    "knowledge_point": "Systems of Linear Equations",
+    "id": 50
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "In a football team, the number of defenders is twice the number of goalkeepers and the number of midfielders is 5 less than three times the number of goalkeepers. If the total number of defenders, goalkeepers, and midfielders is 25, how many midfielders are there in the team?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Let the number of goalkeepers be $g$, the number of defenders be $d$, and the number of midfielders be $m$. From the problem, we have the following system of equations:\n\n\\begin{align*}\nd &= 2g, \\\\\nm &= 3g - 5, \\\\\nd + g + m &= 25.\n\\end{align*}\n\nSubstituting the expressions for $d$ and $m$ in terms of $g$ into the third equation, we get $2g + g + (3g - 5) = 28$ or $6g - 5 = 25$. Solving for $g$, we find $g = 5$. Thus, there are $m = 3g - 5 = \\boxed{10}$ midfielders in the team.",
+    "knowledge_point": "Systems of Linear Equations",
+    "id": 100
+}

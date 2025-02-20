@@ -1,0 +1,8 @@
+{
+    "problem": "A right triangle has legs measuring $7$ units and $24$ units. What is the measure of the hypotenuse?",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "Using the Pythagorean theorem, we find the hypotenuse $h$ as follows: $h^2 = 7^2 + 24^2 = 49 + 576 = 625$. Therefore, $h = \\sqrt{625} = \\boxed{25}$ units.",
+    "knowledge_point": "Properties of Right Triangles",
+    "id": 79
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "Calculate the product and simplify $(2+i)(3-2i)$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "$(2+i)(3-2i) = 2(3) + 2(-2i) + i(3) + i(-2i) = 6 - 4i + 3i - 2i^2 = 6 - i + 2 = \\boxed{8 - i}$.",
+    "knowledge_point": "Complex Numbers",
+    "id": 103
+}

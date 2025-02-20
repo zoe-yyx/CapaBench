@@ -1,0 +1,8 @@
+{
+    "problem": "Determine the smallest positive integer value of $x$ such that the expression $\\frac{x+5}{x^2-5x+6}$ is defined and non-zero.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "First, we need the denominator to be non-zero. Factoring the quadratic gives $x^2-5x+6=(x-2)(x-3)$. Thus, the denominator is zero when $x=2$ or $x=3$. Additionally, $x$ must be such that the numerator $x+5 \\neq 0$, which simplifies to $x \\neq -5$. Combining these restrictions, the smallest positive integer value for $x$ where the expression is defined and non-zero is $x=\\boxed{1}$.",
+    "knowledge_point": "Rational Functions and Expressions",
+    "id": 140
+}

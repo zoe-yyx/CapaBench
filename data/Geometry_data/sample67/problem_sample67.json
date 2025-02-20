@@ -1,0 +1,8 @@
+{
+    "problem": "In a right triangle, one leg measures 5 units and the hypotenuse measures 13 units. What is the length of the other leg?",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "Let the length of the other leg be x units. By the Pythagorean theorem, 5^2 + x^2 = 13^2. Solving for x, we find x^2 = 169 - 25 = 144. Thus, x = \\sqrt{144} = \\boxed{12} units.",
+    "knowledge_point": "Geometric Inequalities and Optimization Problems",
+    "id": 67
+}

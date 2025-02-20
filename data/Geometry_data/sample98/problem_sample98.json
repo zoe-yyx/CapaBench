@@ -1,0 +1,8 @@
+{
+    "problem": "Point (2,-5) is rotated 180 degrees around the origin. What is the ordinate of the new point?",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "Rotating the point (2, -5) 180 degrees around the origin, its coordinates change to $\\boxed{(-2, 5)}$.",
+    "knowledge_point": "Transformative Geometry and Symmetry",
+    "id": 98
+}

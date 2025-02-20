@@ -1,0 +1,8 @@
+{
+    "problem": "A garden is being designed such that its length is 14 feet more than twice its width, and the area is 240 square feet. What are the larger dimension of the garden?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Let the width of the garden be w feet. Then the length would be 2w + 14 feet. The area of the garden is given by the product of its length and width, which equals 240 square feet. Thus, we have the equation: w(2w + 14) = 240. Expanding and rearranging gives: 2w^2 + 14w - 240 = 0. Dividing through by 2 simplifies this to: w^2 + 7w - 120 = 0. Factoring this quadratic equation yields: (w - 8)(w + 15) = 0. Since width cannot be negative, w = 8 feet. Substituting back, the length is 2(8) + 14 = 30 feet. Therefore, the dimensions of the garden are 8 feet by \\boxed{30} feet.",
+    "knowledge_point": "Quadratic Equations and Functions",
+    "id": 133
+}

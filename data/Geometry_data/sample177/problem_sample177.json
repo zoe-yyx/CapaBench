@@ -1,0 +1,8 @@
+{
+    "problem": "In a right triangle, one leg measures 8 cm and the hypotenuse measures 17 cm. What is the length of the other leg?",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "Let the length of the unknown leg be $x$. By the Pythagorean theorem, $8^2 + x^2 = 17^2$. Solving for $x$ gives $x^2 = 225$, hence $x = 15$ cm. \\(\\boxed{15}\\)",
+    "knowledge_point": "Properties of Right Triangles",
+    "id": 177
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "A rhombus has a perimeter of 40 units and one of its diagonals measuring 12 units. What is the length of the other diagonal?",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "Let the sides of the rhombus be $s$, so $s=10$. Using the formula for the rhombus diagonals, where $d_1$ and $d_2$ are the diagonals: $4s^2 = d_1^2 + d_2^2$. Here $d_1 = 12$, so $400 = 144 + d_2^2$. Solving for $d_2$, we get $d_2 = \\sqrt{400 - 144} = \\sqrt{256} = 16$. Thus, the length of the other diagonal is $\\boxed{16}$ units.",
+    "knowledge_point": "Quadrilateral Features and Classifications",
+    "id": 131
+}

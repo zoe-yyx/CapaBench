@@ -1,0 +1,8 @@
+{
+    "problem": "What is the perimeter of a square whose area is $64$ square meters?",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "The side length of the square can be found by taking the square root of the area, $s = \\sqrt{64} = 8$ meters. The perimeter of a square is $4$ times the side length, so the perimeter is $4 \\times 8 = \\boxed{32}$ meters.",
+    "knowledge_point": "Quadrilateral Features and Classifications",
+    "id": 85
+}

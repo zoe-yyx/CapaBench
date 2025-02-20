@@ -1,0 +1,8 @@
+{
+    "problem": "Calculate the largest area of a triangle possible given one side is fixed at 5 units and the sum of the other two sides is fixed at 10 units. Give the answer in decimal and round to 2 decimal places",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "The area of a triangle is maximized when it is isosceles. Given one side is 5 units, and the sum of the other two sides is 10, the other two sides must each be 5 units to maximize the area. This forms an equilateral triangle with all sides 5. The area A of an equilateral triangle with side length s is given by A = (s^2 * sqrt(3))/4. Substituting s = 5, the area is (25 * sqrt(3))/4 = \\boxed{10.83} square units.",
+    "knowledge_point": "Geometric Inequalities and Optimization Problems",
+    "id": 119
+}

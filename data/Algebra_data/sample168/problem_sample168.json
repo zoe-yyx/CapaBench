@@ -1,0 +1,8 @@
+{
+    "problem": "Given the function $f(x) = \\frac{5x + 3}{2}$, determine the value of $\\left[f^{-1}(2)\\right]^{-1}$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "First, solve for $f^{-1}(x)$ by setting $y = f(x) = \\frac{5x+3}{2}$, then $x = f^{-1}(y)$. Rearrange to find $x$: $$2y = 5x + 3,\\quad 5x = 2y - 3,\\quad x = \\frac{2y - 3}{5}.$$ Thus, $f^{-1}(x) = \\frac{2x - 3}{5}$. Evaluating $f^{-1}(2)$ gives $f^{-1}(2) = \\frac{2 \\times 2 - 3}{5} = \\frac{1}{5}$. The value of $\\left[f^{-1}(2)\\right]^{-1}$ is the reciprocal of $\\frac{1}{5}$, which is $\\boxed{5}$.",
+    "knowledge_point": "Function Composition and Inverses",
+    "id": 168
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "Triangle $GHI$ is similar to triangle $JKL$, with the length of $GH$ being 8 cm and $JK$ being 12 cm. If the height from $J$ to $KL$ is 16 cm, what is the height from $G$ to $HI$? Give the answer in decimal and round to 2 decimal places",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "Since the triangles are similar, the ratio of corresponding heights is equal to the ratio of corresponding bases. Therefore, the height from $G$ to $HI$ is $\\frac{8}{12} \\times 16 = \\boxed{10.67} \\text{ cm}$.",
+    "knowledge_point": "Similar Triangles and Proportions",
+    "id": 138
+}

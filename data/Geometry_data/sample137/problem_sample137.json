@@ -1,0 +1,8 @@
+{
+    "problem": "In the figure, triangle $PQR$ is similar to triangle $STU$ with a scale factor of 3:5. If the perimeter of triangle $STU$ is 50 cm, what is the perimeter of triangle $PQR$?",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "The perimeter of triangle $PQR$ is to triangle $STU$ as 3 is to 5. Hence, the perimeter of $PQR = \\frac{3}{5} \\times 50 = \\boxed{30} \\text{ cm}.$",
+    "knowledge_point": "Similar Triangles and Proportions",
+    "id": 137
+}

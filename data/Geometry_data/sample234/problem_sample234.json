@@ -1,0 +1,8 @@
+{
+    "problem": "In trapezoid $ABCD$, $AB \\parallel CD$, if $AB = 3$, $CD = 7$, and $AD = 4$, find the length of the midsegment connecting the midpoints of $AD$ and $BC$.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "The midsegment of a trapezoid is parallel to the bases and its length is the average of the lengths of the bases. Thus, the length of the midsegment $MN = \\frac{AB + CD}{2} = \\frac{3 + 7}{2} = 5$. \\(\\boxed{5}\\)",
+    "knowledge_point": "Quadrilateral Features and Classifications",
+    "id": 234
+}

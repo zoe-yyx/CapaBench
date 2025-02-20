@@ -1,0 +1,8 @@
+{
+    "problem": "Given a trapezoid with bases 10 units and 6 units, and one non-parallel side 4 units, find the maximum area of the trapezoid.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "When the height of the trapezoid is exactly 4, the area is the largest, which is $0.5 * (6 + 10) * 4 = \\boxed{32}$",
+    "knowledge_point": "Geometric Inequalities and Optimization Problems",
+    "id": 218
+}

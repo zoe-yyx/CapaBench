@@ -1,0 +1,8 @@
+{
+    "problem": "A cookie tin has 30 calories and represents 1.5% of a person's daily caloric requirement. What is the total daily caloric requirement?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "If 30 calories is 1.5%, then it can be represented as $1.5\\% = \\frac{1.5}{100} = \\frac{3}{200}$ of a person's daily requirement. Therefore, a person's daily caloric requirement is: $$30 \\cdot \\frac{200}{3} = \\boxed{2000}$$ calories.",
+    "knowledge_point": "Systems of Linear Equations",
+    "id": 49
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "If the quadratic equation $3x^2 + px + 9 = 0$ has one of its roots equal to $2$, what is the value of $p$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Since $2$ is a root of the equation, substituting $x = 2$ in $3x^2 + px + 9 = 0$ gives $3(2)^2 + 2p + 9 = 0$. Simplifying, we have $12 + 2p + 9 = 0$ which reduces to $21 + 2p = 0$. Solving for $p$, we find $2p = -21$, so $p = -\\frac{21}{2}$. Thus, $p = \\boxed{-\\frac{21}{2}}$.",
+    "knowledge_point": "Quadratic Equations and Functions",
+    "id": 131
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "A circle with center at $O$ has a radius of 7 units. If point $A, B$ lies on the circle and $AB$ passes through point $O$, what is the length of segment $AB$?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "Since point $A, B$ lies on the circle and $AB$ passes through point $O$, segment $AB$ is a diameter of the circle. Therefore, the length of $AB$ is equal to twice the radius, which is $7 * 2 = \\boxed{14}$ units.",
+    "knowledge_point": "Circles and Their Properties",
+    "id": 4
+}

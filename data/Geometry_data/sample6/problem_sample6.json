@@ -1,0 +1,8 @@
+{
+    "problem": "Compute $\\cos 90^\\circ$.",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "Rotating the point $(1,0)$ about the origin by $90^\\circ$ counterclockwise gives us the point $(0,1)$. Therefore, the cosine of $90^\\circ$, which is the x-coordinate, is $\\cos 90^\\circ = \\boxed{0}$.",
+    "knowledge_point": "Fundamentals of Trigonometry",
+    "id": 6
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "In a certain sequence, the first term is 45, and each subsequent term increases by 45. If the sum of the first 5 terms represents the total time a group spends playing games in a day, how much total time do they spend?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "This is an arithmetic sequence where the first term is 45, and the common difference is also 45. We need to calculate the sum of the first 5 terms. The sum of the first n terms in an arithmetic sequence is given by the formula $S_n = \\frac{n}{2}(2a + (n-1)d)$, where $a = 45$, $d = 45$, and $n = 5$. Thus, $S_5 = \\frac{5}{2}(2 \\times 45 + 4 \\times 45) = \\frac{5}{2} \\times 270 = \\boxed{675}$ minutes.",
+    "knowledge_point": "Sequences and Series",
+    "id": 42
+}

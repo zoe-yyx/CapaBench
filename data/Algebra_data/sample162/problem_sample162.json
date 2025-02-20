@@ -1,0 +1,8 @@
+{
+    "problem": "Simplify $\\root 4 \\of {x \\root 4 \\of {x \\root 4 \\of {x \\root 4 \\of {x}}}}$. Express your answer in simplest radical form in terms of $x$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We have \\begin{align*} \\root 4 \\of {x \\root 4 \\of {x \\root 4 \\of {x \\root 4 \\of {x}}}} &= (x(x(x(x)^{\\frac{1}{4}})^{\\frac{1}{4}})^{\\frac{1}{4}})^{\\frac{1}{4}} \\\\ &= (x(x(x^{\\frac{5}{4}})^{\\frac{1}{4}})^{\\frac{1}{4}})^{\\frac{1}{4}} \\\\ &= (x(x^{\\frac{21}{16}})^{\\frac{1}{4}})^{\\frac{1}{4}} \\\\ &= (x^{\\frac{85}{64}})^{\\frac{1}{4}} = \\boxed{x^{\\frac{85}{256}}}. \\end{align*}",
+    "knowledge_point": "Exponents and Logarithms",
+    "id": 162
+}

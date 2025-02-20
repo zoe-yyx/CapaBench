@@ -1,0 +1,8 @@
+{
+    "problem": "A projectile is launched from the ground with an initial velocity of $v$ feet per second at an angle of $45^\\circ$ with the horizontal. The height $h$ of the projectile in feet after $t$ seconds is given by the equation $h = -16t^2 + vt + 0$. Find the maximum height reached by the projectile.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "The maximum height can be found by determining the vertex of the parabolic equation given. We complete the square for $h = -16t^2 + vt$. Factor out -16 from the first two terms: $h = -16(t^2 - \\frac{v}{16}t)$. To complete the square, add and subtract $(\\frac{v}{32})^2$ inside the parenthesis. Thus, $h = -16(t^2 - \\frac{v}{16}t + (\\frac{v}{32})^2 - (\\frac{v}{32})^2) = -16((t - \\frac{v}{32})^2 - (\\frac{v}{32})^2)$. Simplifying, we get $h = -16(t - \\frac{v}{32})^2 + \\frac{v^2}{64}$. The maximum height, $\\frac{v^2}{64}$, is reached when $t = \\frac{v}{32}$. Thus, the maximum height of the projectile is $\\boxed{\\frac{v^2}{64}}$ feet.",
+    "knowledge_point": "Quadratic Equations and Functions",
+    "id": 232
+}

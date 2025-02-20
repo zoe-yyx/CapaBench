@@ -1,0 +1,8 @@
+{
+    "problem": "Consider the inequality $|x - 5| \\geq 9$. What is the larger endpoint value in the solution set?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "The inequality $|x - 5| \\geq 9$ splits into two cases: $x - 5 \\geq 9 \\Rightarrow x \\geq 14$ and $x - 5 \\leq -9 \\Rightarrow x \\leq -4$. Therefore, the solution is \\boxed{14}.",
+    "knowledge_point": "Inequalities and Absolute Values",
+    "id": 24
+}

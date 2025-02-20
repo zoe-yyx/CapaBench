@@ -1,0 +1,8 @@
+{
+    "problem": "How many faces does a pentagonal pyramid have?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "A pentagonal pyramid has one pentagonal base and five triangular faces. So, the total number of faces is $1 + 5 = \\boxed{6}$.",
+    "knowledge_point": "Three-Dimensional Geometry",
+    "id": 41
+}

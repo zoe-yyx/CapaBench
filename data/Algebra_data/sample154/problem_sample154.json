@@ -1,0 +1,8 @@
+{
+    "problem": "If $z = 1 + i$, compute $z^4$ and express it in standard form.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "First, calculate $z^2 = (1 + i)^2 = 1 + 2i - 1 = 2i. Then, $z^4 = (z^2)^2 = (2i)^2 = -4. Hence, z^4 = \\boxed{-4}$.",
+    "knowledge_point": "Complex Numbers",
+    "id": 154
+}

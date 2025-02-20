@@ -1,0 +1,8 @@
+{
+    "problem": "Two circles of radius 5 are externally tangent to each other and to a line. A third circle is tangent to both the line and the two circles. Find the radius of the third circle.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "The radius of the third circle can be found using the Descartes Circle Theorem, which gives a radius of $\\boxed{5 - \\frac{5\\sqrt{2}}{2}}$.",
+    "knowledge_point": "Circles and Their Properties",
+    "id": 205
+}

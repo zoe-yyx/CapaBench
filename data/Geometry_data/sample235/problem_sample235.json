@@ -1,0 +1,8 @@
+{
+    "problem": "Quadrilateral $ABCD$ has $AB = 4$, $BC = 5$, $CD = 6$, $DA = 7$, and diagonal $AC = 8$. Find the area of $ABCD$.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "First area of ABC is $\\sqrt{9 * (9 - 7) * (9 - 6) * (9 - 5)} = 6\\sqrt{6}$ and area of ACD is $\\sqrt{8.5 * 4.5 * 3.5 * 0.5} = \\frac{3\\sqrt{119}}{4}$. Thus the answer is $\\boxed{6\\sqrt{6} + \\frac{3\\sqrt{119}}{4}}$.",
+    "knowledge_point": "Quadrilateral Features and Classifications",
+    "id": 235
+}

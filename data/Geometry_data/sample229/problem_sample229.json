@@ -1,0 +1,8 @@
+{
+    "problem": "In right triangle $MNO$, $\\angle MNO = 90^\\circ$, and $P$ lies on $\\overline{NO}$ such that $MP$ is a median. If $MO = 48$ and $MN = 20$, determine the length of $MP$.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "Since $MP$ is a median, $P$ is the midpoint of $NO$. Using the Pythagorean theorem, $NO = \\sqrt{MN^2 - MO^2} = 4\\sqrt{119}$. As $P$ is the midpoint, $MP = 1/2 \\times NO = \\boxed{2\\sqrt{119}}$.",
+    "knowledge_point": "Properties of Right Triangles",
+    "id": 229
+}

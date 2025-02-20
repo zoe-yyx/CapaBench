@@ -1,0 +1,8 @@
+{
+    "problem": "A circle with radius 1 can be rotated by any angle around its center. What is the circumference of the rotated circle?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "A circle rotated about its center by any angle will always look the same because every point on the circle maintains a constant distance from the center, thus preserving the shape and size. Therefore the answer is $\\boxed{2\\pi}$",
+    "knowledge_point": "Transformative Geometry and Symmetry",
+    "id": 50
+}

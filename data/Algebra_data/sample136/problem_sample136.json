@@ -1,0 +1,8 @@
+{
+    "problem": "Find the sum of x-values for the vertical asymptotes of the function $y=\\frac{5}{x^2 - 7x + 10}$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "First, factorize the denominator: $x^2 - 7x + 10 = (x-2)(x-5)$. Vertical asymptotes occur where the denominator equals zero. Setting $(x-2)(x-5) = 0$, we find $x = 2$ and $x = 5$. Therefore, there are vertical asymptotes at $x = 2$ and $x = 5$, hence the function has 2 vertical asymptotes and the sum of all x-values is $2 + 5 = \\boxed{7}$.",
+    "knowledge_point": "Rational Functions and Expressions",
+    "id": 136
+}

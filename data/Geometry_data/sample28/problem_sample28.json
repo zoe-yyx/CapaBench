@@ -1,0 +1,8 @@
+{
+    "problem": "The lengths of the two right-angled sides of a right triangle are 8 and 15 respectively. Determine the length of the hypotenuse",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "To determine the length of the hypotenuse, we apply the Pythagorean theorem. Since $8^2 + 15^2 = 17^2$, then, the answer is \\boxed{17}.",
+    "knowledge_point": "Properties of Right Triangles",
+    "id": 28
+}

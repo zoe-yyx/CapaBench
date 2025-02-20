@@ -1,0 +1,8 @@
+{
+    "problem": "Given the functions $h(x) = 2x + 3$ and $j(x) = x^3 - 1$, find the value of $h(j(-2))$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "First, calculate $j(-2)$ by substituting $-2$ into the function $j$: $j(-2) = (-2)^3 - 1 = -8 - 1 = -9$. Next, substitute $-9$ into the function $h$: $h(-9) = 2(-9) + 3 = -18 + 3 = -15$. Thus, $h(j(-2)) = \\boxed{-15}$.",
+    "knowledge_point": "Function Composition and Inverses",
+    "id": 67
+}

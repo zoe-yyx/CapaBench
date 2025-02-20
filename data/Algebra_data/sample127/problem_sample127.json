@@ -1,0 +1,8 @@
+{
+    "problem": "Given two polynomials $f(x) = x^4 - 5x^3 + 6x - 2$ and $g(x) = 2x^3 + 3x^2 - x + 5$, find the leading coefficient of their product.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The degree of $f(x)$ is 4 and the leading coefficient is 1. The degree of $g(x)$ is 3 and the leading coefficient is 2. The product $f(x) \\cdot g(x)$ will have a degree of $4+3=7$, and the leading coefficient will be $1 \\cdot 2 = 2$. Therefore, the leading coefficient is $\\boxed{2}$.",
+    "knowledge_point": "Polynomials and Polynomial Operations",
+    "id": 127
+}

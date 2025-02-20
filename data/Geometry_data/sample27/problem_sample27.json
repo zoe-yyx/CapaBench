@@ -1,0 +1,8 @@
+{
+    "problem": "In $\\triangle DEF$, $DE = EF$ and $m\\angle DEF = 80^\\circ$. Calculate the measure of $m\\angle DFE$.",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "Since $\\triangle DEF$ is isosceles with $DE = EF$, the base angles $\\angle DFE$ and $\\angle EFD$ are equal. Using the triangle angle sum property, $m\\angle DFE + m\\angle EFD + m\\angle DEF = 180^\\circ$. Substituting the known values gives $2m\\angle DFE + 80^\\circ = 180^\\circ$ or $2m\\angle DFE = 100^\\circ$, so $m\\angle DFE = \\boxed{50^\\circ}$.",
+    "knowledge_point": "Properties of Right Triangles",
+    "id": 27
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "If a car consumes $\\frac{1}{6}$ gallons of gasoline per mile, how many gallons will it consume over a distance of 18 miles?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "The car will consume $\\frac{1}{6} \\times 18 = 3$ gallons of gasoline over 18 miles. So, the answer is $\\boxed{3}$ gallons.",
+    "knowledge_point": "Rational Functions and Expressions",
+    "id": 36
+}

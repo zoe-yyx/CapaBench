@@ -1,0 +1,8 @@
+{
+    "problem": "A store sold 15 notebooks and 10 pens for a total of $170. The next day, they sold 25 notebooks and 30 pens for a total of $410. If the prices of the notebook and pen remain constant, what is the price of one notebook?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Let $n$ be the price of one notebook and $p$ be the price of one pen. We have the equations: \\begin{align*}\n15n + 10p &= 170, \\\\\n25n + 30p &= 410.\n\\end{align*} Multiplying the first equation by 3 and the second by 1, we get: \\begin{align*}\n45n + 30p &= 510, \\\\\n25n + 30p &= 410.\n\\end{align*} Subtracting these gives $20n = 100$, so $n = 5$. Therefore, one notebook costs $\\boxed{5}$ dollars.",
+    "knowledge_point": "Systems of Linear Equations",
+    "id": 99
+}

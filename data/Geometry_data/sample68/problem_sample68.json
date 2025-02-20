@@ -1,0 +1,8 @@
+{
+    "problem": "A rectangle has a length of 15 units and a width of w units. The diagonal is an integer number of units. What are the minimum possible integer value of w?",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "The diagonal d can be expressed by the equation d = \\sqrt{15^2 + w^2}. Since d is an integer, 15^2 + w^2 must be a perfect square. Testing values, we find possible values for w to be \\boxed{8} since these make 15^2 + w^2 equal to 289 and 306, which are perfect squares.",
+    "knowledge_point": "Geometric Inequalities and Optimization Problems",
+    "id": 68
+}

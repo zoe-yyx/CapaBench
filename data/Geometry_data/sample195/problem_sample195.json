@@ -1,0 +1,8 @@
+{
+    "problem": "A cuboid has dimensions of 4 cm, 5 cm, and 6 cm. If the longest side is doubled in length, what is the new volume of the cuboid?",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "The original volume of the cuboid is $V = 4 \\times 5 \\times 6 = 120$ cubic cm. Doubling the longest side gives the new dimensions as 4 cm, 5 cm, and 12 cm. The new volume is $V_{new} = 4 \\times 5 \\times 12 = 240$ cubic cm. \\(\\boxed{240}\\)",
+    "knowledge_point": "Three-Dimensional Geometry",
+    "id": 195
+}

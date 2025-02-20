@@ -1,0 +1,8 @@
+{
+    "problem": "Simplify the expression and rationalize the denominator: $\\frac{8}{\\sqrt{2}} \\cdot \\frac{\\sqrt{4}}{12} \\cdot \\frac{18}{\\sqrt{9}}$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "First, simplify each term individually: $\\frac{8}{\\sqrt{2}} = 8 \\cdot \\frac{\\sqrt{2}}{2} = 4\\sqrt{2}$, $\\frac{\\sqrt{4}}{12} = \\frac{2}{12} = \\frac{1}{6}$, $\\frac{18}{\\sqrt{9}} = 18 \\cdot \\frac{\\sqrt{9}}{9} = 6$. Now multiply the simplified terms: $4\\sqrt{2} \\cdot \\frac{1}{6} \\cdot 6 = \\boxed{4\\sqrt{2}}$.",
+    "knowledge_point": "Polynomials and Polynomial Operations",
+    "id": 79
+}

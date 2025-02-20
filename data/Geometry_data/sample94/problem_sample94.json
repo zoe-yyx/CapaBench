@@ -1,0 +1,8 @@
+{
+    "problem": "Calculate the volume of a rectangular prism with length 5 cm, width 3 cm, and height 7 cm.",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "The volume $V$ of a rectangular prism is given by $V = l \\times w \\times h$ where $l$, $w$, and $h$ are the length, width, and height respectively. Plugging in the given values, we have $V = 5 \\times 3 \\times 7 = \\boxed{105}$ cubic cm.",
+    "knowledge_point": "Three-Dimensional Geometry",
+    "id": 94
+}

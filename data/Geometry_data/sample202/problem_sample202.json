@@ -1,0 +1,8 @@
+{
+    "problem": "Three circles of radius 4 are mutually tangent to each other and inscribed in a larger circle. Find the radius of the larger circle.",
+    "level": "Level 5",
+    "type": "Geometry",
+    "solution": "The centers of the smaller circles form an equilateral triangle with side length 8. The circumradius of this triangle plus the radius of the small circle is the radius of the larger circle. Therefore the answer is $\\boxed{\\frac{8\\sqrt{3}}{3} + 4}$.",
+    "knowledge_point": "Circles and Their Properties",
+    "id": 202
+}

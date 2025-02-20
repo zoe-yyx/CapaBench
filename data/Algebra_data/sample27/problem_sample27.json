@@ -1,0 +1,8 @@
+{
+    "problem": "Simplify the expression $(5x - 3) + (2x + 7) - (4x - 1)$. What is the simplified expression?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "First, distribute the negative sign through the last parenthesis: $(5x - 3) + (2x + 7) - (4x - 1) = 5x - 3 + 2x + 7 - 4x + 1. Next, combine like terms: (5x + 2x - 4x) + (-3 + 7 + 1) = 3x + 5. So, the simplified expression is $\\boxed{3x + 5}$.",
+    "knowledge_point": "Polynomials and Polynomial Operations",
+    "id": 27
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "Evaluate $(i)^4$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Since $(i)^2 = -1$, then $(i)^4 = (i)^2 * (i)^2 = (-1)*(-1) = \\boxed{1}.$",
+    "knowledge_point": "Complex Numbers",
+    "id": 55
+}

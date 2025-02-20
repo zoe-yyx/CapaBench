@@ -1,0 +1,8 @@
+{
+    "problem": "Determine the range of values for $x$ such that $2|x - 3| - |x + 2| > 0$. Give the answer in term of intervals.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "To solve $2|x - 3| - |x + 2| > 0$, we consider the absolute values separately. Split into cases based on $x$: \n1. When $x > 3$, $|x - 3| = x - 3$ and $|x + 2| = x + 2$. Thus, the inequality becomes $2(x - 3) - (x + 2) > 0$ simplifying to $x > 8$.\n2. When $-2 \\leq x \\leq 3$, $|x - 3| = 3 - x$ and $|x + 2| = x + 2$. The inequality simplifies to $2(3 - x) - (x + 2) > 0$, which further simplifies to $x < \\frac{4}{3}$. Considering $x$ is also between $-2$ and $3$, the valid range here is $-2 \\leq x < \\frac{4}{3}$.\n3. When $x < -2$, $|x - 3| = 3 - x$ and $|x + 2| = -(x + 2)$. The inequality becomes $2(3 - x) - (-(x + 2)) > 0$, simplifying to $x < 8$, so $x < -2$. \nCombining valid ranges, we get $x \\in (-\\infty, \\frac{4}{3}) \\cup (8, \\infty)$, so the solution is $\\boxed{(-\\infty, \\frac{4}{3}) \\cup (8, \\infty)}$.",
+    "knowledge_point": "Inequalities and Absolute Values",
+    "id": 171
+}
