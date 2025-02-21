@@ -2,7 +2,7 @@ import argparse
 import os
 import json
 from util import set_random_seed, extract_purchase_strategy, extract_thought, extract_action, extract_reflection, find_first_bracket_content_with_braces
-from llm_agent import LLMAgent, OpenAIAgent, APIAgent, DouBaoAgent
+from llm_agent import LLMAgent, APIAgent
 from tqdm import tqdm
 from check_qed import qed, has_error, has_admitted
 from sim_coq import run_coq_commands

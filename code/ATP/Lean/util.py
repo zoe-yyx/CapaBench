@@ -72,25 +72,6 @@ def trim_string_to_100_lines(string):
         return string  # 如果行数不超过 100，直接返回原字符串
 
 
-# def extract_purchase_strategy(text, model):
-#     try:
-#         if model == 'baichuan':
-#             data = json.loads(text)
-#         else:
-#             data = text
-#         if "solution strategy" in data:
-#             return data["solution strategy"]
-        
-        
-#     except json.JSONDecodeError:
-#         pattern = r"solution strategy:\s*(.*)"
-#         match = re.search(pattern, text, re.IGNORECASE)
-#         if match:
-#             return match.group(1)
-#     except:
-#         return text
-#     return str(text)
-
 def extract_purchase_strategy(text, model):
     pattern = r'```(.*?)```'
 
@@ -105,32 +86,6 @@ def extract_purchase_strategy(text, model):
 
 
 
-
-# def extract_thought(text, model):
-#     try:
-#         # data = json.loads(text)
-#         if model == 'baichuan':
-#             return text
-#             # data = json.loads(text)
-#         else:
-#             data = text
-#         if text:
-#             if "thought" in data:
-#                 return data["thought"]
-#         else:
-#             return text
-#     except json.JSONDecodeError:
-#         pattern = r"thought:\s*(.*)"
-#         match = re.search(pattern, text, re.IGNORECASE)
-#         if match:
-#             return match.group(1)
-#     except:
-#         pattern = r"thought:\s*(.*)"
-#         match = re.search(pattern, text, re.IGNORECASE)
-#         if match:
-#             return match.group(1)
-#     return str(text)
-
 def extract_thought(text, model):
     pattern = r'```(.*?)```'
 
@@ -144,26 +99,6 @@ def extract_thought(text, model):
         return "".join(matches) if "".join(matches) != "" else text
 
 
-# def extract_action(text, model):
-#     try:
-#         # data = json.loads(text)
-#         if model == 'baichuan':
-#             data = json.loads(text)
-#         else:
-#             data = text
-#         if text:
-#             if ("action" in data) and ("action_params" in data):
-#                 return str(data['action']) + '[' + str(data['action_params']) + ']'
-#         else:
-#             return text
-#     except json.JSONDecodeError:
-#         pattern = r"action:\s*(.*)"
-#         match = re.search(pattern, text, re.IGNORECASE)
-#         if match:
-#             return match.group(1)
-#     except:
-#         return text
-#     return str(text)
 
 def extract_action(text, model):
     text = trim_string_to_100_lines(text)

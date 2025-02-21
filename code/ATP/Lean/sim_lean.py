@@ -52,20 +52,11 @@ def run_lean_commands(filename):
         my_result["StdOut"] = delete_trace_info(e.stdout)
         my_result["StdError"] = delete_trace_info(e.stderr)
         my_result["ReturnCode"] = delete_trace_info(e.returncode)
-        # my_result["StdOut"] = e.stdout
-        # print(type(e.stdout))
-        # my_result["StdError"] = e.stderr
-        # my_result["ReturnCode"] = e.returncode
         return my_result
 
     my_result["StdOut"] = delete_trace_info(result.stdout)
     my_result["StdError"] = delete_trace_info(result.stderr)
     my_result["ReturnCode"] = delete_trace_info(result.returncode)
-    # my_result["StdOut"] = result.stdout
-    # my_result["StdError"] = result.stderr
-    # my_result["ReturnCode"] = result.returncode
-
-    print(type(result.stdout))
 
     # 检查返回码
     if result.returncode == 0:
@@ -74,23 +65,3 @@ def run_lean_commands(filename):
         print("构建失败，返回码：", result.returncode)
     return my_result
 
-# print(run_lean_commands('tmp_raf.lean'))
-
-# if __name__ == '__main__':
-#     main("./new.lean")
-
-
-# # 示例用法
-# input_string = """
-# some code here
-# tmp intermediate data
-# unknown identifier 'trace'
-# more code
-# tmp another data
-# unknown identifier 'trace_state'
-# """
-
-# cleaned_string = delete_trace_info(input_string)
-# print(cleaned_string)
-
-# run_lean_commands('./tmp_praf.lean')

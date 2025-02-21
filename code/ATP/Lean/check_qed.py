@@ -1,10 +1,5 @@
 import re
 
-# def has_sorry(action, theorem):
-#     if "sorry" in action:
-#         return True
-#     return False
-
 def has_sorry(action, theorem):
     # 定位theorem在action中的位置
     index = action.find(theorem)

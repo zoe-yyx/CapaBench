@@ -2,7 +2,7 @@ import argparse
 import os
 import json
 from util import set_random_seed, extract_purchase_strategy, extract_thought, extract_action, extract_reflection, find_first_bracket_content_with_braces
-from llm_agent import LLMAgent, OpenAIAgent, BaichuanAgent, APIAgent, DouBaoAgent
+from llm_agent import LLMAgent, APIAgent
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from transformers.generation.utils import GenerationConfig
 from transformers import BitsAndBytesConfig
