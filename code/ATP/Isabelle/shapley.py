@@ -102,20 +102,14 @@ def find_accuracy_lines(directory, contributions):
     for root, dirs, files in os.walk(directory):  
         for file in files:  
             file_path = os.path.join(root, file)  
-
-            if "old_version" in file_path:
-                continue
-            
               
             try:  
                 with open(file_path, 'r', encoding='utf-8') as f:  
                     for line_num, line in enumerate(f, start=1):  
                         if pattern.match(line):  
-                            print(f'文件名: {file_path}')  
-                            print(f'行号: {line_num}, 内容: {line.strip()}') 
+                            # print(f'文件名: {file}')  
+                            # print(f'行号: {line_num}, 内容: {line.strip()}') 
                             prefix = get_prefix(file)
-                            if prefix == 'default':
-                                continue
                             accuracy = get_accuracy(line.strip()) 
                             # print(prefix)
                             # print(accuracy)
@@ -146,21 +140,16 @@ if __name__ == '__main__':
     default_features = ['Pd', 'Rd', 'Ad', 'Fd']
     target_features = ['Pt', 'Rt', 'At', 'Ft']
 
-    # llm_list = ['claude_3.5_sonnet', 'GLM4-air', 'gpt-4o-mini', 'Llama3-70B-instruct', 'Qwen2.5-32b-instruct']
-
-    llm_list = ['Claude-3.5-Sonnet', 'gpt-4-turbo-2024-04-09', 'qwen2.5-32B-Instruct', 'gpt-4o-mini', 'doubao-pro-4k', 'GLM-4-air', 'llama3-70B-instruct', 'Mistral-8X7B-instruct-v0.1', 'Mistral-7B-instruct-v0.2']
-
-
+    llm_list = ['claude_3.5_sonnet', 'gpt-4o-mini', 'llama3-70b-instruct', 'Mixtral-8x7B-Instruct-v0.1', 'Qwen2.5-32b-instruct']
     total_latex = ""
     pt_dic = {}
     rt_dic = {}
     at_dic = {}
     ft_dic = {}
-    accuracy_dic = {}
     for llm in llm_list:
         print(llm)
         contributions = {
-            ('Pd', 'Rd', 'Ad', 'Fd'): 0.06428571428571428,
+            ('Pd', 'Rd', 'Ad', 'Fd'): 0.2,
             ('Pt', 'Rt', 'At', 'Ft'): 0,
             ('Pt', 'Rd', 'Ad', 'Fd'): 0,
             ('Pd', 'Rt', 'Ad', 'Fd'): 0,
@@ -177,8 +166,7 @@ if __name__ == '__main__':
             ('Pt', 'Rt', 'Ad', 'Ft'): 0,
             ('Pt', 'Rt', 'At', 'Fd'): 0
         }
-        # directory_path = f'./log/new_geometry/{llm}/multi'
-        directory_path = f'/home/hadoop-aipnlp/dolphinfs_hdd_hadoop-aipnlp/qisiyuan02/Coq/log/coq/{llm}/no'
+        directory_path = f'./log/isabelle/{llm}/no'
         find_accuracy_lines(directory_path, contributions)
         for k in contributions:
             print(f"{k}: {contributions[k]}")
@@ -189,26 +177,14 @@ if __name__ == '__main__':
         rt_dic[llm] = round(shapley_value['Rt'], 4)
         at_dic[llm] = round(shapley_value['At'], 4)
         ft_dic[llm] = round(shapley_value['Ft'], 4)
-        accuracy_dic[llm] = f"{round(contributions[('Pt', 'Rt', 'At', 'Ft')], 4) * 100}\\%"
         
     
     get_textbf_and_underline(pt_dic)
     get_textbf_and_underline(rt_dic)
     get_textbf_and_underline(at_dic)
     get_textbf_and_underline(ft_dic)
-    get_textbf_and_underline(accuracy_dic)
     for llm in llm_list:
-        if llm == 'claude_3.5_sonnet':
-            llm_claude = 'claude\\_3.5\\_sonnet'
-        
-            latex_string = fr"\texttt{{{llm_claude}}} & {pt_dic[llm]} & {rt_dic[llm]} & {at_dic[llm]} & {ft_dic[llm]} & {accuracy_dic[llm]}\\"
-        elif llm == 'Mistral-7B_instruct-v0.2':
-            llm_claude = 'Mistral-7B\\_instruct-v0.2'
-        
-            latex_string = fr"\texttt{{{llm_claude}}} & {pt_dic[llm]} & {rt_dic[llm]} & {at_dic[llm]} & {ft_dic[llm]} & {accuracy_dic[llm]}\\"
-
-        else:
-            latex_string = fr"\texttt{{{llm}}} & {pt_dic[llm]} & {rt_dic[llm]} & {at_dic[llm]} & {ft_dic[llm]} & {accuracy_dic[llm]}\\"
+        latex_string = fr"\texttt{{{llm}}} & {pt_dic[llm]} & {rt_dic[llm]} & {at_dic[llm]} & {ft_dic[llm]}\\"
         total_latex += latex_string
         total_latex += '\n'
     print(total_latex)

@@ -1,0 +1,668 @@
+[
+    {
+        "filename": "1.lean",
+        "theorem": "chickens_and_rabbits",
+        "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ntheorem chickens_and_rabbits (C R : ℤ) (h1 : C + R = 35) (h2 : 2 * C + 4 * R = 94) : C = 23 := by\n  ",
+        "solution": "  linarith\n"
+    },
+    {
+        "filename": "2.lean",
+        "theorem": "teachers_and_children",
+        "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\nset_option linter.unusedVariables false\n\ntheorem teachers_and_children (MT FT MC FC : ℤ)\n  (h1 : 0 < MT) (h2 : 0 < FT) (h3 : 0 < MC) (h4 : 0 < FC)\n  (h5 : MT + FT + MC + FC = 16)\n  (h6 : MC + FC > MT + FT)\n  (h7 : FT > FC)\n  (h8 : FC > MC)\n  (h9 : MC > MT) : MT = 1 := by\n  ",
+        "solution": "  linarith\n"
+    },
+    {
+        "filename": "3.lean",
+        "theorem": "sum_of_sqr1",
+        "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ntheorem sum_of_sqr1 (x y : ℤ) : x * x + y * y ≥ x * y := by\n  ",
+        "solution": "  nlinarith\n"
+    },
+    {
+        "filename": "4.lean",
+        "theorem": "sum_of_sqr2",
+        "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\n\ntheorem sum_of_sqr2 (x y : ℤ) : x * x + y * y ≥ 2 * x * y := by\n  ",
+        "solution": "  have h : (x - y) * (x - y) ≥ 0 := by nlinarith\n  -- 展开 (x - y)^2\n  linarith\n"
+    },
+    {
+        "filename": "5.lean",
+        "theorem": "quad_ex1",
+        "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ntheorem sum_of_sqr1 (x y : ℤ) : x * x + y * y ≥ x * y := by\n  sorry\n\ntheorem quad_ex1 (x y : ℤ) : x * x + 2 * x * y + y * y + x + y + 1 ≥ 0 := by\n  ",
+        "solution": "  have h := sum_of_sqr1 (x + y) (-1)\n  nlinarith\n"
+    },
+    {
+        "filename": "6.lean",
+        "theorem": "sum_of_sqr_lt",
+        "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\nset_option linter.unusedVariables false\n\ntheorem sum_of_sqr_lt (x y : ℤ) (h : x < y) : x * x + x * y + y * y > 0 := by\n  ",
+        "solution": "  have h1 : (x + y) * (x + y) ≥ 0 := by nlinarith\n  nlinarith\n"
+    },
+    {
+        "filename": "7.lean",
+        "theorem": "One_plus_one",
+        "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef plus_one (x : ℤ) : ℤ := x + 1\n\ntheorem One_plus_one : plus_one 1 = 2 := by\n  ",
+        "solution": "  unfold plus_one\n  linarith\n"
+    },
+    {
+        "filename": "8.lean",
+        "theorem": "One_plus_one_plus_one",
+        "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef plus_one (x : ℤ) : ℤ := x + 1\n\ntheorem One_plus_one_plus_one : plus_one (plus_one 1) = 3 := by\n  ",
+        "solution": "  unfold plus_one\n  linarith\n"
+    },
+    {
+        "filename": "9.lean",
+        "theorem": "square_5",
+        "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef square (x : ℤ) : ℤ := x * x\n\ntheorem square_5 : square 5 = 25 := by\n  ",
+        "solution": "  unfold square\n  linarith\n"
+    },
+    {
+        "filename": "10.lean",
+        "theorem": "smul_ex1",
+        "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef smul (x y : ℤ) : ℤ := x * y + x + y\n\ntheorem smul_ex1 : smul 1 1 = 3 := by\n  ",
+        "solution": "  unfold smul\n  linarith\n"
+    },
+    {
+        "filename": "11.lean",
+        "theorem": "smul_ex2",
+        "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef smul (x y : ℤ) : ℤ := x * y + x + y\n\ntheorem smul_ex2 : smul 2 3 = 11 := by\n  ",
+        "solution": "  unfold smul\n  linarith\n"
+    },
+    {
+        "filename": "12.lean",
+        "theorem": "nonneg_square",
+        "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef square (x : ℤ) : ℤ := x * x\ndef nonneg (x : ℤ) : Prop := x ≥ 0\n\ntheorem nonneg_square (x : ℤ) : nonneg (square x) := by\n  ",
+        "solution": "  unfold nonneg square\n  nlinarith\n"
+    },
+    {
+        "filename": "13.lean",
+        "theorem": "shift_left1_square",
+        "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef square (x : ℤ) : ℤ := x * x\n\ndef shift_left1 (f : ℤ → ℤ) (x : ℤ) : ℤ :=\n  f (x + 1)\n\ntheorem shift_left1_square (x : ℤ) : shift_left1 square x = (x + 1) * (x + 1) := by\n  ",
+        "solution": "  unfold shift_left1 square\n  linarith\n"
+    },
+    {
+        "filename": "14.lean",
+        "theorem": "shift_left1_plus_one",
+        "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef plus_one (x : ℤ) : ℤ := x + 1\n\ndef shift_left1 (f : ℤ → ℤ) (x : ℤ) : ℤ :=\n  f (x + 1)\n\ntheorem shift_left1_plus_one (x : ℤ) : shift_left1 plus_one x = x + 2 := by\n  ",
+        "solution": "  unfold shift_left1 plus_one\n  linarith\n"
+    },
+    {
+        "filename": "15.lean",
+        "theorem": "shift_up1_square",
+        "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef square (x : ℤ) : ℤ := x * x\n\ndef shift_up1 (f : ℤ → ℤ) (x : ℤ) : ℤ :=\n  f x + 1\n\ntheorem shift_up1_square (x : ℤ) : shift_up1 square x = x * x + 1 := by\n  ",
+        "solution": "  unfold shift_up1 square\n  linarith\n"
+    },
+    {
+        "filename": "16.lean",
+        "theorem": "shift_up1_plus_one",
+        "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef plus_one (x : ℤ) : ℤ := x + 1\n\ndef shift_up1 (f : ℤ → ℤ) (x : ℤ) : ℤ :=\n  f x + 1\n\ntheorem shift_up1_plus_one (x : ℤ) : shift_up1 plus_one x = x + 2 := by\n  ",
+        "solution": "  unfold shift_up1 plus_one\n  linarith\n"
+    },
+    {
+        "filename": "17.lean",
+        "theorem": "shift_up1_shift_left1_comm",
+        "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef shift_left1 (f : ℤ → ℤ) (x : ℤ) : ℤ :=\n  f (x + 1)\n\ndef shift_up1 (f : ℤ → ℤ) (x : ℤ) : ℤ :=\n  f x + 1\n\ntheorem shift_up1_shift_left1_comm (f : ℤ → ℤ) :\n  shift_up1 (shift_left1 f) = shift_left1 (shift_up1 f) := by\n  ",
+        "solution": "  unfold shift_left1 shift_up1\n  rfl\n"
+    },
+    {
+        "filename": "18.lean",
+        "theorem": "shift_left1_func_plus",
+        "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef func_plus (f g : ℤ → ℤ) : ℤ → ℤ :=\n  fun x => f x + g x\n\ndef shift_left1 (f : ℤ → ℤ) (x : ℤ) : ℤ :=\n  f (x + 1)\n\ntheorem shift_left1_func_plus (f g : ℤ → ℤ) :\n  shift_left1 (func_plus f g) = func_plus (shift_left1 f) (shift_left1 g) := by\n  ",
+        "solution": "  unfold shift_left1 func_plus\n  rfl\n"
+    },
+    {
+        "filename": "19.lean",
+        "theorem": "plus_one_mono",
+        "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef plus_one (x : ℤ) : ℤ := x + 1\n\ndef mono (f : ℤ → ℤ) : Prop :=\n  ∀ n m, n ≤ m → f n ≤ f m\n\ntheorem plus_one_mono : mono plus_one := by\n  ",
+        "solution": "  unfold mono plus_one\n  intros\n  linarith\n"
+    },
+    {
+        "filename": "20.lean",
+        "theorem": "mono_compose",
+        "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef mono (f : ℤ → ℤ) : Prop :=\n  ∀ n m, n ≤ m → f n ≤ f m\n\ndef Zcomp (f g : ℤ → ℤ) : ℤ → ℤ :=\n  fun x => f (g x)\n\ntheorem mono_compose (f g : ℤ → ℤ) :\n  mono f → mono g → mono (Zcomp f g) := by\n  ",
+        "solution": "  unfold mono Zcomp\n  intros hf hg n m hnm\n  have hgnm := hg n m hnm\n  have hfg := hf (g n) (g m) hgnm\n  linarith\n"
+    },
+    {
+        "filename": "21.lean",
+        "theorem": "plus_assoc",
+        "problem": "import Mathlib.Tactic.Ring\nset_option linter.unusedTactic false\n\ndef assoc (f : ℤ → ℤ → ℤ) : Prop :=\n  ∀ x y z, f x (f y z) = f (f x y) z\n\ntheorem plus_assoc : assoc (fun x y => x + y) := by\n  ",
+        "solution": "  unfold assoc\n  intros\n  ring\n"
+    },
+    {
+        "filename": "22.lean",
+        "theorem": "mult_assoc",
+        "problem": "import Mathlib.Tactic.Ring\nset_option linter.unusedTactic false\n\ndef assoc (f : ℤ → ℤ → ℤ) : Prop :=\n  ∀ x y z, f x (f y z) = f (f x y) z\n\ntheorem mult_assoc : assoc (fun x y => x * y) := by\n  ",
+        "solution": "  unfold assoc\n  intros\n  ring\n"
+    },
+    {
+        "filename": "23.lean",
+        "theorem": "mono_pu",
+        "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef mono (f : ℤ → ℤ) : Prop :=\n  ∀ n m, n ≤ m → f n ≤ f m\n\ndef shift_up1 (f : ℤ → ℤ) (x : ℤ) : ℤ :=\n  f x + 1\n\ndef preserved_by_shifting_up (P : (ℤ → ℤ) → Prop) : Prop :=\n  ∀ f, P f → P (shift_up1 f)\n\ntheorem mono_pu : preserved_by_shifting_up mono := by\n  ",
+        "solution": "  unfold preserved_by_shifting_up mono shift_up1\n  intros f h n m hnm\n  have hf := h n m hnm\n  linarith\n"
+    },
+    {
+        "filename": "24.lean",
+        "theorem": "mono_pl",
+        "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\nset_option linter.unusedVariables false\n\ndef mono (f : ℤ → ℤ) : Prop :=\n  ∀ n m, n ≤ m → f n ≤ f m\n\ndef shift_left1 (f : ℤ → ℤ) (x : ℤ) : ℤ :=\n  f (x + 1)\n\ndef preserved_by_shifting_left (P : (ℤ → ℤ) → Prop) : Prop :=\n  ∀ f, P f → P (shift_left1 f)\n\ntheorem mono_pl : preserved_by_shifting_left mono := by\n  ",
+        "solution": "  unfold preserved_by_shifting_left mono shift_left1\n  intros f h n m hnm\n  apply h\n  linarith\n"
+    },
+    {
+        "filename": "25.lean",
+        "theorem": "shift_up1_eq",
+        "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef shift_up1 (f : ℤ → ℤ) (x : ℤ) : ℤ :=\n  f x + 1\n\ndef func_plus (f g : ℤ → ℤ) : ℤ → ℤ :=\n  fun x => f x + g x\n\ntheorem shift_up1_eq (f : ℤ → ℤ) :\n  shift_up1 f = func_plus f (fun _ => 1) := by\n  ",
+        "solution": "  unfold shift_up1\n  unfold func_plus\n  rfl\n"
+    },
+    {
+        "filename": "26.lean",
+        "theorem": "const_mono",
+        "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef mono (f : ℤ → ℤ) : Prop :=\n  ∀ n m, n ≤ m → f n ≤ f m\n\ntheorem const_mono (a : ℤ) : mono (fun _ => a) := by\n  ",
+        "solution": "  unfold mono\n  intros\n  linarith\n"
+    },
+    {
+        "filename": "27.lean",
+        "theorem": "mono_func_plus",
+        "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef mono (f : ℤ → ℤ) : Prop :=\n  ∀ n m, n ≤ m → f n ≤ f m\n\ndef func_plus (f g : ℤ → ℤ) : ℤ → ℤ :=\n  fun x => f x + g x\n\ntheorem mono_func_plus (f g : ℤ → ℤ) (hf : mono f) (hg : mono g) : mono (func_plus f g) := by\n  ",
+        "solution": "  unfold mono func_plus\n  intros n m hnm\n  have hfnm := hf n m hnm\n  have hgnm := hg n m hnm\n  linarith\n"
+    },
+    {
+        "filename": "28.lean",
+        "theorem": "fixpoint_self_comp",
+        "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef Zcomp (f g : ℤ → ℤ) : ℤ → ℤ :=\n  fun x => f (g x)\n\ndef is_fixpoint (f : ℤ → ℤ) (x : ℤ) : Prop :=\n  f x = x\n\ntheorem fixpoint_self_comp (f : ℤ → ℤ) (x : ℤ) (h : is_fixpoint f x) :\n  is_fixpoint (Zcomp f f) x := by\n  ",
+        "solution": "  unfold is_fixpoint Zcomp\n  rw [h, h]\n"
+    },
+    {
+        "filename": "29.lean",
+        "theorem": "fixpoint_self_comp23",
+        "problem": "def Zcomp (f g : ℤ → ℤ) : ℤ → ℤ :=\n  fun x => f (g x)\n\ndef is_fixpoint (f : ℤ → ℤ) (x : ℤ) : Prop :=\n  f x = x\n\ntheorem fixpoint_self_comp23 (f : ℤ → ℤ) (x : ℤ) :\n  is_fixpoint (Zcomp f f) x →\n  is_fixpoint (Zcomp f (Zcomp f f)) x →\n  is_fixpoint f x := by\n  ",
+        "solution": "  unfold is_fixpoint Zcomp\n  intros h1 h2\n  rw [h1] at h2\n  rw [h2]\n"
+    },
+    {
+        "filename": "30.lean",
+        "theorem": "leafHeight",
+        "problem": "set_option linter.unusedVariables false\n\ninductive Tree : Type\n| leaf : Tree\n| node (l : Tree) (v : Int) (r : Tree) : Tree\n\nopen Tree\n\ndef myMax (a b : Int) : Int :=\n  if a ≥ b then a else b\n\ndef treeHeight : Tree → Int\n| leaf => 0\n| node l v r => myMax (treeHeight l) (treeHeight r) + 1\n\ntheorem leafHeight : treeHeight leaf = 0 := by\n  ",
+        "solution": "  rfl\n"
+    },
+    {
+        "filename": "31.lean",
+        "theorem": "treeExample2aHeight",
+        "problem": "set_option linter.unusedVariables false\n\n-- 定义 Tree 数据类型\ninductive Tree : Type\n| leaf : Tree\n| node (l : Tree) (v : Int) (r : Tree) : Tree\n\nopen Tree\n\n-- 定义自定义的最大值函数\ndef myMax (a b : Int) : Int :=\n  if a ≥ b then a else b\n\n-- 定义 treeExample2a\ndef treeExample2a : Tree :=\n  node (node leaf 8 leaf) 100 (node leaf 9 leaf)\n\n-- 定义 treeHeight 函数\ndef treeHeight : Tree → Int\n| leaf => 0\n| node l v r => myMax (treeHeight l) (treeHeight r) + 1\n\n-- 定义一个例子\ntheorem treeExample2aHeight : treeHeight treeExample2a = 2 := by\n  ",
+        "solution": "  rfl\n"
+    },
+    {
+        "filename": "32.lean",
+        "theorem": "treeExample3bSize",
+        "problem": "set_option linter.unusedVariables false\n\n-- 定义 Tree 数据类型\ninductive Tree : Type\n| leaf : Tree\n| node (l : Tree) (v : Int) (r : Tree) : Tree\n\nopen Tree\n\n-- 定义 tree_example2b\ndef treeExample2b : Tree :=\n  node (node leaf 9 leaf) 100 (node leaf 8 leaf)\n\n-- 定义 tree_example3b\ndef treeExample3b : Tree :=\n  node treeExample2b 5 (node leaf 3 leaf)\n\n-- 定义 tree_size 函数\ndef treeSize : Tree → Int\n| leaf => 0\n| node l v r => treeSize l + treeSize r + 1\n\n-- 定义一个例子\ntheorem treeExample3bSize : treeSize treeExample3b = 5 := by\n  ",
+        "solution": "  rfl\n"
+    },
+    {
+        "filename": "33.lean",
+        "theorem": "leafTreeReverse",
+        "problem": "set_option linter.unusedVariables false\n\n-- 定义 Tree 数据类型\ninductive Tree : Type\n| leaf : Tree\n| node (l : Tree) (v : Int) (r : Tree) : Tree\n\nopen Tree\n\n-- 定义 tree_reverse 函数\ndef treeReverse : Tree → Tree\n| leaf => leaf\n| node l v r => node (treeReverse r) v (treeReverse l)\n\n-- 定义一个例子\ntheorem leafTreeReverse : treeReverse leaf = leaf := by\n  ",
+        "solution": "  rfl\n"
+    },
+    {
+        "filename": "34.lean",
+        "theorem": "treeExample0TreeReverse",
+        "problem": "set_option linter.unusedVariables false\n\n-- 定义 Tree 数据类型\ninductive Tree : Type\n| leaf : Tree\n| node (l : Tree) (v : Int) (r : Tree) : Tree\n\nopen Tree\n\n-- 定义 tree_example0\ndef treeExample0 : Tree :=\n  node leaf 1 leaf\n\n-- 定义 tree_reverse 函数\ndef treeReverse : Tree → Tree\n| leaf => leaf\n| node l v r => node (treeReverse r) v (treeReverse l)\n\n-- 定义一个例子\ntheorem treeExample0TreeReverse : treeReverse treeExample0 = treeExample0 := by\n  ",
+        "solution": "  rfl\n"
+    },
+    {
+        "filename": "35.lean",
+        "theorem": "treeExample3TreeReverse",
+        "problem": "set_option linter.unusedVariables false\n\n-- 定义 Tree 数据类型\ninductive Tree : Type\n| leaf : Tree\n| node (l : Tree) (v : Int) (r : Tree) : Tree\n\nopen Tree\n\n-- 定义 tree_example2a\ndef treeExample2a : Tree :=\n  node (node leaf 8 leaf) 100 (node leaf 9 leaf)\n\n-- 定义 tree_example2b\ndef treeExample2b : Tree :=\n  node (node leaf 9 leaf) 100 (node leaf 8 leaf)\n\n-- 定义 tree_example3a\ndef treeExample3a : Tree :=\n  node (node leaf 3 leaf) 5 treeExample2a\n\n-- 定义 tree_example3b\ndef treeExample3b : Tree :=\n  node treeExample2b 5 (node leaf 3 leaf)\n\n-- 定义 tree_reverse 函数\ndef treeReverse : Tree → Tree\n| leaf => leaf\n| node l v r => node (treeReverse r) v (treeReverse l)\n\n-- 定义一个例子\ntheorem treeExample3TreeReverse : treeReverse treeExample3a = treeExample3b := by\n  ",
+        "solution": "  rfl\n"
+    },
+    {
+        "filename": "36.lean",
+        "theorem": "nodeInjLeft",
+        "problem": "inductive Tree : Type\n| leaf : Tree\n| node (l : Tree) (v : Int) (r : Tree) : Tree\n\nopen Tree\n\n-- 定义一个定理，用于证明节点的左子树在相等的节点中相等\ntheorem nodeInjLeft (l1 r1 l2 r2 : Tree) (v1 v2 : Int) :\n  node l1 v1 r1 = node l2 v2 r2 → l1 = l2 := by\n  ",
+        "solution": "  intros h\n  injection h with h_l h_v h_r\n"
+    },
+    {
+        "filename": "37.lean",
+        "theorem": "nodeInjRight",
+        "problem": "inductive Tree : Type\n| leaf : Tree\n| node (l : Tree) (v : Int) (r : Tree) : Tree\n\nopen Tree\n\n-- 定义一个定理，用于证明节点的右子树在相等的节点中相等\ntheorem nodeInjRight (l1 r1 l2 r2 : Tree) (v1 v2 : Int) :\n  node l1 v1 r1 = node l2 v2 r2 → r1 = r2 := by\n  ",
+        "solution": "  intros h\n  injection h with _ _ h_r\n"
+    },
+    {
+        "filename": "38.lean",
+        "theorem": "nodeInjValue",
+        "problem": "inductive Tree : Type\n| leaf : Tree\n| node (l : Tree) (v : Int) (r : Tree) : Tree\n\nopen Tree\n\n-- 定义一个定理，用于证明节点的值在相等的节点中相等\ntheorem nodeInjValue (l1 r1 l2 r2 : Tree) (v1 v2 : Int) :\n  node l1 v1 r1 = node l2 v2 r2 → v1 = v2 := by\n  ",
+        "solution": "  intros h\n  injection h with _ h_v _\n"
+    },
+    {
+        "filename": "39.lean",
+        "theorem": "leafNodeConflict",
+        "problem": "inductive Tree : Type\n| leaf : Tree\n| node (l : Tree) (v : Int) (r : Tree) : Tree\n\nopen Tree\n\n-- 定义一个定理，用于证明叶子节点和非叶子节点不可能相等\ntheorem leafNodeConflict (l : Tree) (v : Int) (r : Tree) :\n  leaf = node l v r → 1 = 2 := by\n  ",
+        "solution": "  intros h\n  contradiction\n"
+    },
+    {
+        "filename": "40.lean",
+        "theorem": "reverseResultLeaf",
+        "problem": "inductive Tree : Type\n| leaf : Tree\n| node (l : Tree) (v : Int) (r : Tree) : Tree\n\nopen Tree\n\n-- 定义 treeReverse 函数\ndef treeReverse : Tree → Tree\n| leaf => leaf\n| node l v r => node (treeReverse r) v (treeReverse l)\n\n-- 定义一个定理，用于证明如果翻转后的树是 leaf，那原树也是 leaf\ntheorem reverseResultLeaf (t : Tree) :\n  treeReverse t = leaf → t = leaf := by\n  ",
+        "solution": "  intros h\n  cases t\n  case leaf => rfl\n  case node l v r => contradiction\n"
+    },
+    {
+        "filename": "41.lean",
+        "theorem": "reverseSize",
+        "problem": "set_option linter.unusedVariables false\n\ninductive Tree : Type\n| leaf : Tree\n| node (l : Tree) (v : Int) (r : Tree) : Tree\n\nopen Tree\n\n-- 定义 treeReverse 函数\ndef treeReverse : Tree → Tree\n| leaf => leaf\n| node l v r => node (treeReverse r) v (treeReverse l)\n\n-- 定义 treeSize 函数\ndef treeSize : Tree → Int\n| leaf => 0\n| node l v r => treeSize l + treeSize r + 1\n\n-- 定义一个定理，用于证明翻转后的树和原树的大小相同\ntheorem reverseSize (t : Tree) : treeSize (treeReverse t) = treeSize t := by\n  ",
+        "solution": "  induction t\n  case leaf =>\n    rfl\n  case node l v r ih_l ih_r =>\n    simp [treeReverse, treeSize]\n    rw [ih_r, ih_l]\n    apply Int.add_comm\n"
+    },
+    {
+        "filename": "42.lean",
+        "theorem": "reverseHeight",
+        "problem": "set_option linter.unusedVariables false\n\ninductive Tree : Type\n| leaf : Tree\n| node (l : Tree) (v : Int) (r : Tree) : Tree\n\nopen Tree\n\n-- 定义 treeReverse 函数\ndef treeReverse : Tree → Tree\n| leaf => leaf\n| node l v r => node (treeReverse r) v (treeReverse l)\n\n-- 定义自定义的最大值函数\ndef myMax (a b : Int) : Int :=\n  if a ≥ b then a else b\n\n-- 定义 myMax 的交换律\ntheorem myMax_comm (a b : Int) : myMax a b = myMax b a := by\n  sorry\n\n-- 定义 treeHeight 函数\ndef treeHeight : Tree → Int\n| leaf => 0\n| node l v r => myMax (treeHeight l) (treeHeight r) + 1\n\n-- 定义一个定理，用于证明翻转后的树和原树的高度相同\ntheorem reverseHeight (t : Tree) : treeHeight (treeReverse t) = treeHeight t := by\n  ",
+        "solution": "  induction t\n  case leaf =>\n    rfl\n  case node l v r ih_l ih_r =>\n    simp [treeReverse, treeHeight]\n    rw [ih_r, ih_l]\n    apply myMax_comm\n"
+    },
+    {
+        "filename": "43.lean",
+        "theorem": "treeReverse_inj",
+        "problem": "inductive Tree : Type\n| leaf : Tree\n| node (l : Tree) (v : Int) (r : Tree) : Tree\n\nopen Tree\n\n-- 定义 treeReverse 函数\ndef treeReverse : Tree → Tree\n| leaf => leaf\n| node l v r => node (treeReverse r) v (treeReverse l)\n\n-- 定义一个定理，证明 treeReverse 是单射的\ntheorem treeReverse_inj (t1 t2 : Tree) : treeReverse t1 = treeReverse t2 → t1 = t2 := by\n  ",
+        "solution": "  induction t1 generalizing t2\n  case leaf =>\n    intros h\n    cases t2\n    case leaf => rfl\n    case node => contradiction\n  case node l1 v1 r1 ih_l1 ih_r1 =>\n    intros h\n    cases t2\n    case leaf => contradiction\n    case node l2 v2 r2 =>\n      -- 手动展开 treeReverse\n      unfold treeReverse at h\n      -- 使用 injection 提取等式\n      injection h with h1 h_v h_r\n      -- 使用归纳假设并重写等式\n      have eq_l := ih_l1 l2 h_r\n      have eq_r := ih_r1 r2 h1\n      rw [eq_l, eq_r, h_v]\n"
+    },
+    {
+        "filename": "44.lean",
+        "theorem": "logicEx1",
+        "problem": "def convex (f : Int → Int) : Prop :=\n  ∀ x : Int, f (x - 1) + f (x + 1) ≥ 2 * f x\n\ndef mono (f : Int → Int) : Prop :=\n  ∀ n m : Int, n ≤ m → f n ≤ f m\n\ntheorem logicEx1 (T : (Int → Int) → (Int → Int)) :\n  (∀ f, mono f → mono (T f)) →\n  (∀ f, convex f → convex (T f)) →\n  (∀ f, mono f ∧ convex f → mono (T f) ∧ convex (T f)) := by\n  ",
+        "solution": "  intros hMono hConvex f h\n  cases h with\n  | intro h_mono h_convex =>\n    constructor\n    -- 证明 mono (T f)\n    apply hMono\n    exact h_mono\n    -- 证明 convex (T f)\n    apply hConvex\n    exact h_convex\n"
+    },
+    {
+        "filename": "45.lean",
+        "theorem": "logicEx2",
+        "problem": "theorem logicEx2 (P1 Q1 P2 Q2 : Prop) :\n  P1 ∧ Q1 →\n  (P1 → P2) →\n  (Q1 → Q2) →\n  P2 ∧ Q2 := by\n  ",
+        "solution": "  intros h1 h2 h3\n  cases h1 with\n  | intro hP1 hQ1 =>\n    constructor\n    -- 证明 P2\n    exact h2 hP1\n    -- 证明 Q2\n    exact h3 hQ1\n"
+    },
+    {
+        "filename": "46.lean",
+        "theorem": "logicEx3",
+        "problem": "theorem logicEx3 {A : Type} (P Q : A → Prop) :\n  (∀ a : A, P a → Q a) →\n  (∀ a : A, ¬ Q a → ¬ P a) := by\n  ",
+        "solution": "  intros h a hQ hP\n  -- 这里使用了假设 h 来得到矛盾\n  have hQ' := h a hP\n  contradiction\n"
+    },
+    {
+        "filename": "47.lean",
+        "theorem": "logicEx4",
+        "problem": "open Classical\n\ntheorem logicEx4 {A : Type} (P Q : A → Prop) :\n  (∀ a : A, ¬ Q a → ¬ P a) →\n  (∀ a : A, P a → Q a) := by\n  ",
+        "solution": "  intros h a hP\n  -- 使用排中律对 Q a 进行分类讨论\n  cases Classical.em (Q a) with\n  | inl hQ => exact hQ\n  | inr hNQ =>\n    have hNP := h a hNQ\n    contradiction\n"
+    },
+    {
+        "filename": "48.lean",
+        "theorem": "andIntro",
+        "problem": "theorem andIntro (A B : Prop) : A → B → A ∧ B := by\n  ",
+        "solution": "  intros hA hB\n  constructor\n  -- 证明 A\n  exact hA\n  -- 证明 B\n  exact hB\n"
+    },
+    {
+        "filename": "49.lean",
+        "theorem": "proj1",
+        "problem": "theorem proj1 (P Q : Prop) : P ∧ Q → P := by\n  ",
+        "solution": "  intros h\n  cases h with\n  | intro hP hQ =>\n    exact hP\n"
+    },
+    {
+        "filename": "50.lean",
+        "theorem": "proj2",
+        "problem": "theorem proj2 (P Q : Prop) : P ∧ Q → Q := by\n  ",
+        "solution": "  intros h\n  cases h with\n  | intro hP hQ =>\n    exact hQ\n"
+    },
+    {
+        "filename": "51.lean",
+        "theorem": "andComm",
+        "problem": "theorem andComm (P Q : Prop) : P ∧ Q → Q ∧ P := by\n  ",
+        "solution": "  intros h\n  cases h with\n  | intro hP hQ =>\n    constructor\n    -- 证明 Q\n    exact hQ\n    -- 证明 P\n    exact hP\n"
+    },
+    {
+        "filename": "52.lean",
+        "theorem": "orExample",
+        "problem": "theorem orExample (P Q R : Prop) : (P → R) → (Q → R) → (P ∨ Q → R) := by\n  ",
+        "solution": "  intros hP hQ hPQ\n  cases hPQ with\n  | inl hP_case =>\n    exact hP hP_case\n  | inr hQ_case =>\n    exact hQ hQ_case\n"
+    },
+    {
+        "filename": "53.lean",
+        "theorem": "orIntrol",
+        "problem": "theorem orIntrol (A B : Prop) : A → A ∨ B := by\n  ",
+        "solution": "  intros hA\n  left\n  exact hA\n"
+    },
+    {
+        "filename": "54.lean",
+        "theorem": "orIntror",
+        "problem": "theorem orIntror (A B : Prop) : B → A ∨ B := by\n  ",
+        "solution": "  intros hB\n  right\n  exact hB\n"
+    },
+    {
+        "filename": "55.lean",
+        "theorem": "iffRefl",
+        "problem": "theorem iffRefl (P : Prop) : P ↔ P := by\n  ",
+        "solution": "  constructor\n  -- 从左到右证明\n  intros hP\n  exact hP\n  -- 从右到左证明\n  intros hP\n  exact hP\n"
+    },
+    {
+        "filename": "56.lean",
+        "theorem": "andDup",
+        "problem": "theorem andDup (P : Prop) : P ∧ P ↔ P := by\n  ",
+        "solution": "  constructor\n  -- 证明 P ∧ P → P\n  intros h\n  cases h with\n  | intro hP _ => exact hP\n  -- 证明 P → P ∧ P\n  intros hP\n  constructor\n  exact hP\n  exact hP\n"
+    },
+    {
+        "filename": "57.lean",
+        "theorem": "iffImply",
+        "problem": "theorem iffImply (P Q : Prop) : (P ↔ Q) → (P → Q) := by\n  ",
+        "solution": "  intros h hP\n  -- 使用 h 的左边推理\n  exact h.mp hP\n"
+    },
+    {
+        "filename": "58.lean",
+        "theorem": "fourIsEven",
+        "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ntheorem fourIsEven : ∃ n, 4 = n + n := by\n  ",
+        "solution": "  exists 2\n"
+    },
+    {
+        "filename": "59.lean",
+        "theorem": "dist_exists_and",
+        "problem": "theorem dist_exists_and {X : Type} (P Q : X → Prop) :\n    (∃ x, P x ∧ Q x) → (∃ x, P x) ∧ (∃ x, Q x) := by\n  ",
+        "solution": "  intro h\n  match h with\n  | ⟨x, hpq⟩ =>\n    match hpq with\n    | ⟨hp, hq⟩ =>\n      constructor\n      · exact ⟨x, hp⟩\n      · exact ⟨x, hq⟩\n"
+    },
+    {
+        "filename": "60.lean",
+        "theorem": "forallEx1",
+        "problem": "theorem forallEx1 (X : Type) (P Q R : X → Prop) :\n  (∀ x : X, P x → Q x → R x) →\n  (∀ x : X, P x ∧ Q x → R x) := by\n  ",
+        "solution": "  intros h x hPQ\n  match hPQ with\n  | ⟨hP, hQ⟩ =>\n    have hR := h x hP hQ\n    exact hR\n"
+    },
+    {
+        "filename": "61.lean",
+        "theorem": "forallEx2",
+        "problem": "theorem forallEx2 (X : Type) (P Q R : X → Prop) :\n  (∀ x : X, P x ∧ Q x → R x) →\n  (∀ x : X, P x → Q x → R x) := by\n  ",
+        "solution": "  intros h x hP hQ\n  specialize h x ⟨hP, hQ⟩\n  exact h\n"
+    },
+    {
+        "filename": "62.lean",
+        "theorem": "forallAnd",
+        "problem": "theorem forallAnd (A : Type) (P Q : A → Prop) :\n  (∀ a : A, P a ∧ Q a) ↔ (∀ a : A, P a) ∧ (∀ a : A, Q a) := by\n  ",
+        "solution": "  apply Iff.intro\n  -- 从左到右证明\n  · intros h\n    constructor\n    -- 证明 ∀ a, P a\n    · intros a\n      specialize h a\n      exact h.1\n    -- 证明 ∀ a, Q a\n    · intros a\n      specialize h a\n      exact h.2\n  -- 从右到左证明\n  · intros h a\n    have hP := h.1 a\n    have hQ := h.2 a\n    exact ⟨hP, hQ⟩\n"
+    },
+    {
+        "filename": "63.lean",
+        "theorem": "notEx1",
+        "problem": "open Classical\n\ntheorem notEx1 (n m : Int) : n < m ∨ ¬ n < m := by\n  ",
+        "solution": "  apply em\n"
+    },
+    {
+        "filename": "64.lean",
+        "theorem": "notEx2",
+        "problem": "theorem notEx2 (P Q : Prop) : P → ¬ P → Q := by\n  ",
+        "solution": "  intros hP hNP\n  contradiction\n"
+    },
+    {
+        "filename": "65.lean",
+        "theorem": "notAndIff",
+        "problem": "theorem notAndIff (P Q : Prop) : ¬ (P ∧ Q) ↔ ¬ P ∨ ¬ Q := by\n  ",
+        "solution": "  apply Iff.intro\n  -- 从左到右\n  · intro h\n    by_cases hP : P\n    -- 如果 P 成立，Q 必须不成立\n    · right\n      intro hQ\n      exact h ⟨hP, hQ⟩\n    -- 如果 P 不成立\n    · left\n      exact hP\n  -- 从右到左\n  · intro h\n    intro hPQ\n    cases h with\n    | inl hNP => exact hNP hPQ.1\n    | inr hNQ => exact hNQ hPQ.2\n"
+    },
+    {
+        "filename": "66.lean",
+        "theorem": "notOrIff",
+        "problem": "theorem notOrIff (P Q : Prop) : ¬ (P ∨ Q) ↔ ¬ P ∧ ¬ Q := by\n  ",
+        "solution": "  apply Iff.intro\n  -- 从左到右\n  · intro h\n    constructor\n    -- 证明 ¬ P\n    · intro hP\n      exact h (Or.inl hP)\n    -- 证明 ¬ Q\n    · intro hQ\n      exact h (Or.inr hQ)\n  -- 从右到左\n  · intro h\n    intro hPQ\n    cases hPQ with\n    | inl hP => exact h.1 hP\n    | inr hQ => exact h.2 hQ\n"
+    },
+    {
+        "filename": "67.lean",
+        "theorem": "not_imply_iff",
+        "problem": "open Classical\n\ntheorem not_imply_iff (P Q : Prop) : ¬ (P → Q) ↔ P ∧ ¬ Q := by\n  ",
+        "solution": "  apply Iff.intro\n  -- 正向证明：¬ (P → Q) → P ∧ ¬ Q\n  · intro h\n    -- 证明 P\n    have p : P := by\n      by_cases hp : P\n      · exact hp\n      · exfalso\n        apply h\n        intro _\n        exact False.elim (hp ‹P›)\n    -- 证明 ¬ Q\n    have nq : ¬ Q := by\n      intro q\n      apply h\n      intro _\n      exact q\n    -- 得到 P ∧ ¬ Q\n    exact ⟨p, nq⟩\n  -- 反向证明：P ∧ ¬ Q → ¬ (P → Q)\n  · intro ⟨p, nq⟩ h\n    -- 假设存在 P → Q，则推出矛盾\n    exact nq (h p)\n"
+    },
+    {
+        "filename": "68.lean",
+        "theorem": "not_imply_iff",
+        "problem": "open Classical\n\ntheorem not_imply_iff (P Q : Prop) : ¬ (P → Q) ↔ P ∧ ¬ Q := by\n  ",
+        "solution": "  apply Iff.intro\n  -- 正向证明：¬ (P → Q) → P ∧ ¬ Q\n  · intro h\n    -- 证明 P\n    have p : P := by\n      by_cases hp : P\n      · exact hp\n      · exfalso\n        apply h\n        intro _\n        exact False.elim (hp ‹P›)\n    -- 证明 ¬ Q\n    have nq : ¬ Q := by\n      intro q\n      apply h\n      intro _\n      exact q\n    -- 得到 P ∧ ¬ Q\n    exact ⟨p, nq⟩\n  -- 反向证明：P ∧ ¬ Q → ¬ (P → Q)\n  · intro ⟨p, nq⟩ h\n    -- 假设存在 P → Q，则推出矛盾\n    exact nq (h p)\n"
+    },
+    {
+        "filename": "69.lean",
+        "theorem": "notExists",
+        "problem": "open Classical\n\ntheorem notExists {X : Type} (P : X → Prop) :\n  ¬ (∃ x : X, P x) → ∀ x : X, ¬ P x := by\n  ",
+        "solution": "  intros h x\n  -- 使用经典逻辑的排中律对 P x 进行分类讨论\n  cases Classical.em (P x) with\n  | inl hPx =>\n    -- 如果 P x 成立，构造存在性并引发矛盾\n    have ex := Exists.intro x hPx\n    contradiction\n  | inr hNPx =>\n    -- 如果 P x 不成立，直接返回 hNPx\n    exact hNPx\n"
+    },
+    {
+        "filename": "70.lean",
+        "theorem": "forallIff",
+        "problem": "theorem forallIff {X : Type} (P Q : X → Prop) :\n  (∀ x : X, P x ↔ Q x) →\n  ((∀ x : X, P x) ↔ (∀ x : X, Q x)) := by\n  ",
+        "solution": "  intro h\n  apply Iff.intro\n  -- 从左到右证明\n  · intro hp\n    intro x\n    specialize h x\n    apply h.1\n    exact hp x\n  -- 从右到左证明\n  · intro hq\n    intro x\n    specialize h x\n    apply h.2\n    exact hq x\n"
+    },
+    {
+        "filename": "71.lean",
+        "theorem": "not_forall",
+        "problem": "open Classical\n\ntheorem forall_iff {X : Type} {P Q : X → Prop} :\n  (∀ x, P x ↔ Q x) → ((∀ x, P x) ↔ (∀ x, Q x)) :=\nfun h => ⟨fun hp x => (h x).1 (hp x), fun hq x => (h x).2 (hq x)⟩\n\ntheorem not_exists {X : Type} {P : X → Prop} :\n  ¬ (∃ x, P x) → ∀ x, ¬ P x :=\nfun h x hp => h ⟨x, hp⟩\n\ntheorem not_forall {X : Type} {P : X → Prop} :\n  ¬ (∀ x, P x) → ∃ x, ¬ P x := by\n  ",
+        "solution": "  intro h\n  -- 假设不存在 x 使得 ¬ P x 成立\n  by_contra hne\n  -- 这意味着 ∀ x, P x 成立\n  have hfa : ∀ x, P x := by\n    intro x\n    -- 使用双重否定消去法\n    have hp : ¬¬ P x := by\n      intro hnp\n      -- 由于假设不存在 x 使得 ¬ P x，因此矛盾\n      apply hne\n      exact ⟨x, hnp⟩\n    -- 由于经典逻辑，¬¬ P x 推出 P x\n    exact of_not_not hp\n  -- 这与最初的假设矛盾，因此存在 x 使得 ¬ P x 成立\n  exact h hfa\n"
+    },
+    {
+        "filename": "72.lean",
+        "theorem": "not_forall_imply",
+        "problem": "theorem not_imply_iff (P Q : Prop) : ¬ (P → Q) ↔ P ∧ ¬ Q := by\n  constructor\n  · intro h\n    have p : P := by\n      byContradiction np\n      apply h\n      intro hp\n      contradiction\n    have nq : ¬ Q := by\n      intro q\n      apply h\n      intro _\n      exact q\n    exact ⟨p, nq⟩\n  · rintro ⟨p, nq⟩ hpq\n    apply nq\n    exact hpq p\n\ntheorem forall_iff {X : Type} {P Q : X → Prop} (h : ∀ x : X, P x ↔ Q x) :\n    (∀ x : X, P x) ↔ (∀ x : X, Q x) := by\n  constructor\n  · intro hp x\n    apply (h x).mp\n    exact hp x\n  · intro hq x\n    apply (h x).mpr\n    exact hq x\n\ntheorem not_exists {X : Type} {P : X → Prop} :\n    ¬ ∃ x : X, P x → ∀ x : X, ¬ P x := by\n  intro h x px\n  apply h\n  use x\n  exact px\n\ntheorem not_forall {X : Type} {P : X → Prop} :\n    ¬ ∀ x : X, P x → ∃ x : X, ¬ P x := by\n  intro h\n  byContradiction nh\n  apply h\n  intro x\n  byContradiction npx\n  apply nh\n  use x\n  exact npx\n\ntheorem not_forall_imply {X : Type} {P Q : X → Prop} :\n    ¬ ∀ x : X, P x → Q x → ∃ x : X, P x ∧ ¬ Q x := by\n  ",
+        "solution": "  intro h\n  have ⟨x, hx⟩ : ∃ x : X, ¬ (P x → Q x) := not_forall h\n  have h2 : P x ∧ ¬ Q x := (not_imply_iff (P x) (Q x)).mp hx\n  exact ⟨x, h2⟩\n"
+    },
+    {
+        "filename": "73.lean",
+        "theorem": "logicEx5",
+        "problem": "theorem logicEx5 {A : Type} (P Q : A → Prop) :\n  (∀ a : A, P a → Q a) →\n  (∀ a : A, P a) →\n  (∀ a : A, Q a) := by\n  ",
+        "solution": "  intros h1 h2 a\n  apply h1\n  apply h2\n"
+    },
+    {
+        "filename": "74.lean",
+        "theorem": "logicEx6",
+        "problem": "theorem logicEx6 {A : Type} (P Q : A → Prop) (a0 : A) :\n  P a0 →\n  (∀ a : A, P a → Q a) →\n  Q a0 := by\n  ",
+        "solution": "  intros hP hImp\n  apply hImp\n  apply hP\n"
+    },
+    {
+        "filename": "75.lean",
+        "theorem": "logicEx7",
+        "problem": "theorem logicEx7 {A : Type} (P Q : A → Prop) (a0 : A) :\n  (∀ a : A, P a → Q a → False) →\n  Q a0 →\n  ¬ P a0 := by\n  ",
+        "solution": "  intros hContradiction hQ hP\n  apply hContradiction a0\n  · exact hP\n  · exact hQ\n"
+    },
+    {
+        "filename": "76.lean",
+        "theorem": "logicEx8",
+        "problem": "open Classical\n\ntheorem logicEx8 {A B : Type} (P Q : A → B → Prop) :\n  (∀ (a : A) (b : B), P a b → Q a b) →\n  (∀ (a : A) (b : B), ¬ P a b ∨ Q a b) := by\n  ",
+        "solution": "  intros hImp a b\n  -- 使用经典逻辑进行分类讨论\n  cases em (P a b) with\n  | inl hP =>\n    -- 如果 P a b 成立\n    right\n    apply hImp\n    exact hP\n  | inr hNP =>\n    -- 如果 ¬ P a b 成立\n    left\n    exact hNP\n"
+    },
+    {
+        "filename": "77.lean",
+        "theorem": "logicEx9",
+        "problem": "theorem logicEx9 {A B : Type} (P Q : A → B → Prop) :\n  (∀ (a : A) (b : B), ¬ P a b ∨ Q a b) →\n  (∀ (a : A) (b : B), P a b → Q a b) := by\n  ",
+        "solution": "  intros h a b hP\n  specialize h a b\n  cases h with\n  | inl hNP =>\n    -- 如果是 ¬ P a b，产生矛盾\n    contradiction\n  | inr hQ =>\n    -- 如果是 Q a b，直接返回\n    exact hQ\n"
+    },
+    {
+        "filename": "78.lean",
+        "theorem": "andAssoc1",
+        "problem": "theorem andAssoc1 (P Q R : Prop) :\n  P ∧ (Q ∧ R) → (P ∧ Q) ∧ R := by\n  ",
+        "solution": "  intro h\n  cases h with\n  | intro hp hqr =>\n    cases hqr with\n    | intro hq hr =>\n      -- 分割成两个部分进行证明\n      constructor\n      -- 证明 (P ∧ Q)\n      · constructor\n        exact hp\n        exact hq\n      -- 证明 R\n      · exact hr\n"
+    },
+    {
+        "filename": "79.lean",
+        "theorem": "andAssoc2",
+        "problem": "theorem andAssoc2 (P Q R : Prop) :\n  (P ∧ Q) ∧ R → P ∧ (Q ∧ R) := by\n  ",
+        "solution": "  intro h\n  cases h with\n  | intro hpq hr =>\n    cases hpq with\n    | intro hp hq =>\n      -- 分割成两个部分进行证明\n      constructor\n      -- 证明 P\n      · exact hp\n      -- 证明 (Q ∧ R)\n      · constructor\n        exact hq\n        exact hr\n"
+    },
+    {
+        "filename": "80.lean",
+        "theorem": "orComm",
+        "problem": "theorem orComm (P Q : Prop) :\n  P ∨ Q → Q ∨ P := by\n  ",
+        "solution": "  intro h\n  cases h with\n  | inl hp =>\n    -- 如果是 P 成立\n    right\n    exact hp\n  | inr hq =>\n    -- 如果是 Q 成立\n    left\n    exact hq\n"
+    },
+    {
+        "filename": "81.lean",
+        "theorem": "orAssoc1",
+        "problem": "theorem orAssoc1 (P Q R : Prop) :\n  P ∨ (Q ∨ R) → (P ∨ Q) ∨ R := by\n  ",
+        "solution": "  intro h\n  cases h with\n  | inl hp =>\n    -- 如果 P 成立\n    left\n    left\n    exact hp\n  | inr hqr =>\n    -- 如果 Q ∨ R 成立\n    cases hqr with\n    | inl hq =>\n      -- 如果 Q 成立\n      left\n      right\n      exact hq\n    | inr hr =>\n      -- 如果 R 成立\n      right\n      exact hr\n"
+    },
+    {
+        "filename": "82.lean",
+        "theorem": "orAssoc2",
+        "problem": "theorem orAssoc2 (P Q R : Prop) :\n  (P ∨ Q) ∨ R → P ∨ (Q ∨ R) := by\n  ",
+        "solution": "  intro h\n  cases h with\n  | inl hPQ =>\n    -- 如果 (P ∨ Q) 成立\n    cases hPQ with\n    | inl hp =>\n      -- 如果 P 成立\n      left\n      exact hp\n    | inr hq =>\n      -- 如果 Q 成立\n      right\n      left\n      exact hq\n  | inr hr =>\n    -- 如果 R 成立\n    right\n    right\n    exact hr\n"
+    },
+    {
+        "filename": "83.lean",
+        "theorem": "orDup",
+        "problem": "theorem orDup (P : Prop) : P ∨ P ↔ P := by\n  ",
+        "solution": "  -- 使用 `split` 进行双向推理\n  apply Iff.intro\n  -- 证明 P ∨ P → P\n  · intro h\n    cases h with\n    | inl hp => exact hp\n    | inr hp => exact hp\n  -- 证明 P → P ∨ P\n  · intro hp\n    left\n    exact hp\n"
+    },
+    {
+        "filename": "84.lean",
+        "theorem": "modusPonens",
+        "problem": "theorem modusPonens (P Q : Prop) :\n  P ∧ (P → Q) → Q := by\n  ",
+        "solution": "  intro h\n  -- 分解 h 为 P 和 P → Q\n  cases h with\n  | intro hp hpq =>\n    -- 使用 hpq 和 hp 证明 Q\n    apply hpq\n    exact hp\n"
+    },
+    {
+        "filename": "85.lean",
+        "theorem": "andOrDistrL",
+        "problem": "theorem andOrDistrL (P Q R : Prop) :\n  P ∧ (Q ∨ R) ↔ (P ∧ Q) ∨ (P ∧ R) := by\n  ",
+        "solution": "  -- 使用 `split` 分开两个方向的证明\n  apply Iff.intro\n  -- 从 P ∧ (Q ∨ R) → (P ∧ Q) ∨ (P ∧ R)\n  · intro h\n    cases h with\n    | intro hp hqr =>\n      cases hqr with\n      | inl hq =>\n        left\n        constructor\n        exact hp\n        exact hq\n      | inr hr =>\n        right\n        constructor\n        exact hp\n        exact hr\n  -- 从 (P ∧ Q) ∨ (P ∧ R) → P ∧ (Q ∨ R)\n  · intro h\n    cases h with\n    | inl hPQ =>\n      cases hPQ with\n      | intro hp hq =>\n        constructor\n        exact hp\n        left\n        exact hq\n    | inr hPR =>\n      cases hPR with\n      | intro hp hr =>\n        constructor\n        exact hp\n        right\n        exact hr\n"
+    },
+    {
+        "filename": "86.lean",
+        "theorem": "orAndDistrL",
+        "problem": "theorem orAndDistrL (P Q R : Prop) :\n  P ∨ (Q ∧ R) ↔ (P ∨ Q) ∧ (P ∨ R) := by\n  ",
+        "solution": "  -- 使用 `split` 分开两个方向的证明\n  apply Iff.intro\n  -- 从 P ∨ (Q ∧ R) → (P ∨ Q) ∧ (P ∨ R)\n  · intro h\n    cases h with\n    | inl hp =>\n      -- 如果 P 成立\n      constructor\n      · left\n        exact hp\n      · left\n        exact hp\n    | inr hQR =>\n      -- 如果 Q ∧ R 成立\n      cases hQR with\n      | intro hq hr =>\n        constructor\n        · right\n          exact hq\n        · right\n          exact hr\n  -- 从 (P ∨ Q) ∧ (P ∨ R) → P ∨ (Q ∧ R)\n  · intro h\n    cases h with\n    | intro hPQ hPR =>\n      cases hPQ with\n      | inl hp =>\n        -- 如果 P 成立\n        left\n        exact hp\n      | inr hq =>\n        -- 如果 Q 成立\n        cases hPR with\n        | inl hp' =>\n          -- 如果 P 再次成立\n          left\n          exact hp'\n        | inr hr =>\n          -- 如果 R 成立，返回 Q ∧ R\n          right\n          constructor\n          exact hq\n          exact hr\n"
+    },
+    {
+        "filename": "87.lean",
+        "theorem": "andOrAbsorb",
+        "problem": "theorem andOrAbsorb (P Q : Prop) :\n  P ∧ (P ∨ Q) ↔ P := by\n  ",
+        "solution": "  -- 使用 `split` 分开两个方向的证明\n  apply Iff.intro\n  -- 从 P ∧ (P ∨ Q) → P\n  · intro h\n    exact h.left\n  -- 从 P → P ∧ (P ∨ Q)\n  · intro hp\n    constructor\n    -- 证明 P\n    exact hp\n    -- 证明 P ∨ Q，选择左边的 P\n    left\n    exact hp\n"
+    },
+    {
+        "filename": "88.lean",
+        "theorem": "orAndAbsorb",
+        "problem": "theorem orAndAbsorb (P Q : Prop) :\n  P ∨ (P ∧ Q) ↔ P := by\n  ",
+        "solution": "  -- 使用 `split` 分开两个方向的证明\n  apply Iff.intro\n  -- 从 P ∨ (P ∧ Q) → P\n  · intro h\n    cases h with\n    | inl hp => exact hp\n    | inr hPQ => exact hPQ.left\n  -- 从 P → P ∨ (P ∧ Q)\n  · intro hp\n    left\n    exact hp\n"
+    },
+    {
+        "filename": "89.lean",
+        "theorem": "andCongr",
+        "problem": "theorem andCongr (P1 Q1 P2 Q2 : Prop) :\n  (P1 ↔ P2) →\n  (Q1 ↔ Q2) →\n  (P1 ∧ Q1 ↔ P2 ∧ Q2) := by\n  ",
+        "solution": "  intros hPQ hQR\n  -- 处理 P1 ∧ Q1 → P2 ∧ Q2\n  apply Iff.intro\n  · intro h\n    cases h with\n    | intro hp1 hq1 =>\n      constructor\n      -- 使用 hPQ 来证明 P2\n      apply hPQ.mp\n      exact hp1\n      -- 使用 hQR 来证明 Q2\n      apply hQR.mp\n      exact hq1\n  -- 处理 P2 ∧ Q2 → P1 ∧ Q1\n  · intro h\n    cases h with\n    | intro hp2 hq2 =>\n      constructor\n      -- 使用 hPQ 来证明 P1\n      apply hPQ.mpr\n      exact hp2\n      -- 使用 hQR 来证明 Q1\n      apply hQR.mpr\n      exact hq2\n"
+    },
+    {
+        "filename": "90.lean",
+        "theorem": "orCongr",
+        "problem": "theorem orCongr (P1 Q1 P2 Q2 : Prop) :\n  (P1 ↔ P2) →\n  (Q1 ↔ Q2) →\n  (P1 ∨ Q1 ↔ P2 ∨ Q2) := by\n  ",
+        "solution": "  intros hPQ hQR\n  -- 处理两个方向的推理\n  apply Iff.intro\n  -- 从 P1 ∨ Q1 → P2 ∨ Q2\n  · intro h\n    cases h with\n    | inl hp1 =>\n      left\n      apply hPQ.mp\n      exact hp1\n    | inr hq1 =>\n      right\n      apply hQR.mp\n      exact hq1\n  -- 从 P2 ∨ Q2 → P1 ∨ Q1\n  · intro h\n    cases h with\n    | inl hp2 =>\n      left\n      apply hPQ.mpr\n      exact hp2\n    | inr hq2 =>\n      right\n      apply hQR.mpr\n      exact hq2\n"
+    },
+    {
+        "filename": "91.lean",
+        "theorem": "implyCongr",
+        "problem": "theorem implyCongr (P1 Q1 P2 Q2 : Prop) :\n  (P1 ↔ P2) →\n  (Q1 ↔ Q2) →\n  ((P1 → Q1) ↔ (P2 → Q2)) := by\n  ",
+        "solution": "  intros hPQ hQR\n  -- 使用 `split` 分开两个方向的推理\n  apply Iff.intro\n  -- 从 (P1 → Q1) → (P2 → Q2)\n  · intro h hP2\n    apply hQR.mp\n    apply h\n    apply hPQ.mpr\n    exact hP2\n  -- 从 (P2 → Q2) → (P1 → Q1)\n  · intro h hP1\n    apply hQR.mpr\n    apply h\n    apply hPQ.mp\n    exact hP1\n"
+    },
+    {
+        "filename": "92.lean",
+        "theorem": "andImply",
+        "problem": "theorem andImply (P Q R : Prop) :\n  (P ∧ Q → R) ↔ (P → Q → R) := by\n  ",
+        "solution": "  -- 使用 `split` 分开两个方向的推理\n  apply Iff.intro\n  -- 从 (P ∧ Q → R) → (P → Q → R)\n  · intro h hp hq\n    apply h\n    constructor\n    exact hp\n    exact hq\n  -- 从 (P → Q → R) → (P ∧ Q → R)\n  · intro h hPQ\n    cases hPQ with\n    | intro hp hq =>\n      apply h\n      exact hp\n      exact hq\n"
+    },
+    {
+        "filename": "93.lean",
+        "theorem": "orImply",
+        "problem": "theorem orImply (P Q R : Prop) :\n  (P ∨ Q → R) ↔ (P → R) ∧ (Q → R) := by\n  ",
+        "solution": "  -- 使用 `split` 分开两个方向的推理\n  apply Iff.intro\n  -- 从 (P ∨ Q → R) → (P → R) ∧ (Q → R)\n  · intro h\n    constructor\n    -- 证明 P → R\n    · intro hp\n      apply h\n      left\n      exact hp\n    -- 证明 Q → R\n    · intro hq\n      apply h\n      right\n      exact hq\n  -- 从 (P → R) ∧ (Q → R) → (P ∨ Q → R)\n  · intro h\n    intro hpq\n    cases h with\n    | intro hp hr =>\n      cases hpq with\n      | inl hp' => apply hp; exact hp'\n      | inr hq' => apply hr; exact hq'\n"
+    },
+    {
+        "filename": "94.lean",
+        "theorem": "six_is_not_prime",
+        "problem": "import Mathlib\nset_option linter.unusedTactic false\n\ntheorem six_is_not_prime : ∃ n : ℤ, 2 ≤ n ∧ n < 6 ∧ ∃ q : ℤ, n * q = 6 := by\n  ",
+        "solution": "  use 2  -- 选择 n = 2\n  constructor\n  · -- 证明 2 ≤ 2\n    linarith\n  constructor\n  · -- 证明 2 < 6\n    linarith\n  · -- 证明存在 q，使得 2 * q = 6\n    use 3  -- 选择 q = 3\n    norm_num  -- 计算 2 * 3 = 6\n"
+    },
+    {
+        "filename": "95.lean",
+        "theorem": "exists_exists",
+        "problem": "theorem exists_exists {X Y : Type} {P : X → Y → Prop} :\n    (∃ x y, P x y) ↔ (∃ y x, P x y) := by\n  ",
+        "solution": "  constructor\n  · -- 方向： (∃ x y, P x y) → (∃ y x, P x y)\n    intro h\n    cases h with\n    | intro x hx =>\n      cases hx with\n      | intro y Pxy =>\n        -- 构造存在的 y 和 x\n        exists y, x\n  · -- 方向： (∃ y x, P x y) → (∃ x y, P x y)\n    intro h\n    cases h with\n    | intro y hy =>\n      cases hy with\n      | intro x Pxy =>\n        -- 构造存在的 x 和 y\n        exists x, y\n"
+    },
+    {
+        "filename": "96.lean",
+        "theorem": "forall_forall",
+        "problem": "theorem forall_forall {X Y : Type} {P : X → Y → Prop} :\n    (∀ x y, P x y) → (∀ y x, P x y) := by\n  ",
+        "solution": "  intro h\n  intro y x\n  exact h x y\n"
+    },
+    {
+        "filename": "97.lean",
+        "theorem": "add_zero_right",
+        "problem": "-- 定义加法函数\ndef add (n m : Nat) : Nat :=\n  match n with\n  | Nat.zero => m\n  | Nat.succ n' => Nat.succ (add n' m)\n\n-- 证明加法右边加零等于自身\ntheorem add_zero_right (n : Nat) : add n Nat.zero = n := by\n  ",
+        "solution": "  induction n\n  case zero =>\n    -- 基础情况：n = zero\n    rfl\n  case succ n' ih =>\n    -- 归纳步骤：n = succ n'\n    simp [add]\n    rw [ih]\n"
+    },
+    {
+        "filename": "98.lean",
+        "theorem": "addSuccR",
+        "problem": "open Nat\n\n-- 定义加法函数\ndef add : Nat → Nat → Nat\n\n  | zero, m => m\n  | succ n', m => succ (add n' m)\n\n-- 证明 add n (succ m) = succ (add n m)\ntheorem addSuccR (n m : Nat) : add n (succ m) = succ (add n m) := by\n  ",
+        "solution": "  -- 引入 n 和 m\n  induction n with\n  | zero =>\n    -- 处理 n = 0 的情况\n    rfl\n  | succ n' ih =>\n    -- 处理 n = succ n' 的情况，使用归纳假设 ih\n    simp [add]\n    rw [ih]\n"
+    },
+    {
+        "filename": "99.lean",
+        "theorem": "addComm",
+        "problem": "open Nat\n\n-- 定义加法函数\ndef add : Nat → Nat → Nat\n  | zero, m => m\n  | succ n', m => succ (add n' m)\n\n-- 证明 add n 0 = n\ntheorem addZeroR (n : Nat) : add n zero = n := by\n  -- 由于此引理被承认，因此我们用 sorry\n  sorry\n\n-- 证明 add n (succ m) = succ (add n m)\ntheorem addSuccR (n m : Nat) : add n (succ m) = succ (add n m) := by\n  -- 由于此引理被承认，因此我们用 sorry\n  sorry\n\n-- 证明加法的交换律：add n m = add m n\ntheorem addComm (n m : Nat) : add n m = add m n := by\n  ",
+        "solution": "  -- 对 n 使用归纳法\n  induction n with\n  | zero =>\n    -- n = 0 的情况\n    simp [add]\n    rw [addZeroR]\n  | succ n' ih =>\n    -- n = succ n' 的情况，使用归纳假设 ih\n    simp [add]\n    rw [addSuccR]\n    rw [ih]\n"
+    },
+    {
+        "filename": "100.lean",
+        "theorem": "addAssoc",
+        "problem": "open Nat\n\n-- 定义加法函数\ndef add : Nat → Nat → Nat\n  | zero, m => m\n  | succ n', m => succ (add n' m)\n\n-- 证明加法的结合律：add n (add m p) = add (add n m) p\ntheorem addAssoc (n m p : Nat) : add n (add m p) = add (add n m) p := by\n  ",
+        "solution": "  -- 对 n 使用归纳法\n  induction n with\n  | zero =>\n    -- n = 0 的情况\n    simp [add]\n  | succ n' ih =>\n    -- n = succ n' 的情况，使用归纳假设 ih\n    simp [add]\n    rw [ih]\n"
+    },
+    {
+        "filename": "101.lean",
+        "theorem": "add_cancel_left",
+        "problem": "-- 使用 Lean 内置的自然数类型和加法\ntheorem add_cancel_left (n m p : Nat) : p + n = p + m ↔ n = m := by\n  ",
+        "solution": "  induction p with\n  | zero =>\n    -- 基础情况：p = 0\n    constructor\n    · -- 方向：p + n = p + m → n = m\n      intro h\n      rw [Nat.zero_add] at h\n      rw [Nat.zero_add] at h\n      exact h\n    · -- 方向：n = m → p + n = p + m\n      intro h\n      rw [h]\n  | succ p' ih =>\n    -- 归纳步骤：p = succ p'\n    constructor\n    · -- 方向：p + n = p + m → n = m\n      intro h\n      -- 展开加法定义\n      rw [Nat.succ_add] at h\n      rw [Nat.succ_add] at h\n      -- 现在 h 是：succ (p' + n) = succ (p' + m)\n      have h' : p' + n = p' + m := Nat.succ.inj h\n      -- 应用归纳假设\n      exact ih.mp h'\n    · -- 方向：n = m → p + n = p + m\n      intro h\n      rw [h]\n"
+    },
+    {
+        "filename": "102.lean",
+        "theorem": "addCancelR",
+        "problem": "open Nat\n\n-- 定义加法函数\ndef add : Nat → Nat → Nat\n  | zero, m => m\n  | succ n', m => succ (add n' m)\n\n-- 证明加法的交换律：add n m = add m n\ntheorem addComm (n m : Nat) : add n m = add m n := by\n  -- 由于该定理被承认，因此我们用 sorry\n  sorry\n\n-- 证明加法的左消去律：add p n = add p m ↔ n = m\ntheorem addCancelL (n m p : Nat) : add p n = add p m ↔ n = m := by\n  -- 由于该定理被承认，因此我们用 sorry\n  sorry\n\n-- 证明加法的右消去律：add n p = add m p ↔ n = m\ntheorem addCancelR (n m p : Nat) : add n p = add m p ↔ n = m := by\n  ",
+        "solution": "  -- 使用加法交换律和左消去律进行推导\n  rw [addComm n p, addComm m p]\n  exact addCancelL n m p\n"
+    },
+    {
+        "filename": "103.lean",
+        "theorem": "mulZeroR",
+        "problem": "open Nat\n\n-- 定义加法函数\ndef add : Nat → Nat → Nat\n  | zero, m => m\n  | succ n', m => succ (add n' m)\n\n-- 定义乘法函数\ndef mul : Nat → Nat → Nat\n  | zero, _ => zero\n  | succ p, m => add m (mul p m)\n\n-- 证明 mul n 0 = 0\ntheorem mulZeroR (n : Nat) : mul n zero = zero := by\n  ",
+        "solution": "  -- 使用 n 的归纳法\n  induction n with\n  | zero =>\n    -- n = 0 的情况\n    rfl\n  | succ n' ih =>\n    -- n = succ n' 的情况\n    simp [mul]\n    exact ih\n"
+    },
+    {
+        "filename": "104.lean",
+        "theorem": "mulSuccR",
+        "problem": "open Nat\n\n-- 定义加法函数\ndef add : Nat → Nat → Nat\n  | zero, m => m\n  | succ n', m => succ (add n' m)\n\n-- 定义乘法函数\ndef mul : Nat → Nat → Nat\n  | zero, _ => zero\n  | succ p, m => add m (mul p m)\n\n-- 证明 add n (succ m) = succ (add n m)，此处使用 sorry\ntheorem addSuccR (n m : Nat) : add n (succ m) = succ (add n m) := by\n  sorry\n\n-- 证明加法结合律，使用 sorry\ntheorem addAssoc (n m p : Nat) : add n (add m p) = add (add n m) p := by\n  sorry\n\n-- 证明 mul n (succ m) = add (mul n m) n\ntheorem mulSuccR (n m : Nat) : mul n (succ m) = add (mul n m) n := by\n  ",
+        "solution": "  -- 使用 n 的归纳法\n  induction n with\n  | zero =>\n    -- 当 n = 0 时，直接证明\n    rfl\n  | succ n' ih =>\n    -- n = succ n' 的情况\n    simp [mul]\n    rw [ih, addSuccR]\n    rw [← addAssoc]\n    rfl\n"
+    },
+    {
+        "filename": "105.lean",
+        "theorem": "mulComm",
+        "problem": "open Nat\n\n-- 定义加法函数\ndef add : Nat → Nat → Nat\n  | zero, m => m\n  | succ n', m => succ (add n' m)\n\n-- 定义乘法函数\ndef mul : Nat → Nat → Nat\n  | zero, _ => zero\n  | succ p, m => add m (mul p m)\n\n-- 证明加法交换律：add n m = add m n，使用 sorry 代替证明\ntheorem addComm (n m : Nat) : add n m = add m n := by\n  sorry\n\n-- 证明 mul n 0 = 0，使用 sorry 代替证明\ntheorem mulZeroR (n : Nat) : mul n zero = zero := by\n  sorry\n\n-- 证明 mul n (succ m) = add (mul n m) n，使用 sorry 代替证明\ntheorem mulSuccR (n m : Nat) : mul n (succ m) = add (mul n m) n := by\n  sorry\n\n-- 证明乘法交换律：mul n m = mul m n\ntheorem mulComm (n m : Nat) : mul n m = mul m n := by\n  ",
+        "solution": "  -- 对 n 进行归纳\n  induction n with\n  | zero =>\n    -- 基础情况：n = 0\n    simp [mul]\n    rw [mulZeroR]\n  | succ n' ih =>\n    -- 归纳情况：n = succ n'\n    simp [mul]\n    rw [mulSuccR, ih, addComm]\n"
+    },
+    {
+        "filename": "106.lean",
+        "theorem": "mulAddDistrR",
+        "problem": "open Nat\n\n-- 定义加法函数\ndef add : Nat → Nat → Nat\n  | zero, m => m\n  | succ n', m => succ (add n' m)\n\n-- 定义乘法函数\ndef mul : Nat → Nat → Nat\n  | zero, _ => zero\n  | succ p, m => add m (mul p m)\n\n-- 证明加法结合律：add n (add m p) = add (add n m) p，使用 sorry 代替证明\ntheorem addAssoc (n m p : Nat) : add n (add m p) = add (add n m) p := by\n  sorry\n\n-- 证明乘法对加法的右分配律：mul (add n m) p = add (mul n p) (mul m p)\ntheorem mulAddDistrR (n m p : Nat) : mul (add n m) p = add (mul n p) (mul m p) := by\n  ",
+        "solution": "  -- 对 n 进行归纳\n  induction n with\n  | zero =>\n    -- 基础情况：n = 0\n    simp [mul, add]\n  | succ n' ih =>\n    -- 归纳情况：n = succ n'\n    simp [mul, add]\n    rw [← addAssoc, ih]\n"
+    },
+    {
+        "filename": "107.lean",
+        "theorem": "mul_add_distr_l",
+        "problem": "open Nat\n\ndef add : Nat → Nat → Nat\n| zero, m => m\n| succ n', m => succ (add n' m)\n\ndef mul : Nat → Nat → Nat\n| zero, _ => zero\n| succ n', m => add m (mul n' m)\n\ntheorem mul_comm (n m : Nat) : mul n m = mul m n := sorry\n\ntheorem mul_add_distr_r (n m p : Nat) : mul (add n m) p = add (mul n p) (mul m p) := sorry\n\ntheorem mul_add_distr_l (n m p : Nat) : mul n (add m p) = add (mul n m) (mul n p) := by\n  ",
+        "solution": "  rw [mul_comm n (add m p)]\n  rw [mul_comm n m]\n  rw [mul_comm n p]\n  exact mul_add_distr_r _ _ _\n"
+    },
+    {
+        "filename": "108.lean",
+        "theorem": "mul_assoc",
+        "problem": "open Nat\n\ndef add : Nat → Nat → Nat\n| zero, m => m\n| succ n', m => succ (add n' m)\n\ndef mul : Nat → Nat → Nat\n| zero, _ => zero\n| succ n', m => add m (mul n' m)\n\ntheorem mul_add_distr_r (n m p : Nat) : mul (add n m) p = add (mul n p) (mul m p) := sorry\n\ntheorem mul_assoc (n m p : Nat) : mul n (mul m p) = mul (mul n m) p := by\n  ",
+        "solution": "  induction n with\n  | zero =>\n    simp [mul]\n  | succ n ih =>\n    simp [mul]\n    rw [ih, mul_add_distr_r]\n"
+    },
+    {
+        "filename": "109.lean",
+        "theorem": "mul_one_left",
+        "problem": "\nopen Nat\n\ndef add : Nat → Nat → Nat\n  | zero, m => m\n  | succ n', m => succ (add n' m)\n\ndef mul : Nat → Nat → Nat\n  | zero, _ => zero\n  | succ n', m => add m (mul n' m)\n\ntheorem add_zero_right (n : Nat) : add n zero = n := by\n  sorry\n\ntheorem mul_zero_left (n : Nat) : mul zero n = zero := by\n  sorry\n\ntheorem mul_one_left (n : Nat) : mul (succ zero) n = n := by\n  ",
+        "solution": "  unfold mul  -- 展开 mul 的定义\n  rw [mul_zero_left n]  -- 应用引理，将 mul zero n 替换为 zero\n  rw [add_zero_right n]  -- 应用引理，将 add n zero 简化为 n\n"
+    },
+    {
+        "filename": "110.lean",
+        "theorem": "mul_one_right",
+        "problem": "open Nat\n\ndef add : Nat → Nat → Nat\n  | zero, m      => m\n  | succ n', m   => succ (add n' m)\n\ndef mul : Nat → Nat → Nat\n  | zero, _      => zero\n  | succ n', m   => add m (mul n' m)\n\ntheorem mul_comm (n m : Nat) : mul n m = mul m n := sorry\n\ntheorem mul_one_left (n : Nat) : mul (succ zero) n = n := sorry\n\ntheorem mul_one_right (n : Nat) : mul n (succ zero) = n := by\n  ",
+        "solution": "  rw [mul_comm n (succ zero)]\n  rw [mul_one_left n]\n"
+    },
+    {
+        "filename": "111.lean",
+        "theorem": "iterate_S",
+        "problem": "-- Define Function.iterate since it's not in the standard library\ndef Function.iterate {α : Type} (f : α → α) : Nat → α → α\n| 0,     x => x\n| n + 1, x => f (Function.iterate f n x)\n\ntheorem iterate_S {A : Type} (n : Nat) (f : A → A) (x : A) :\n  Function.iterate f n (f x) = Function.iterate f (n + 1) x := by\n  ",
+        "solution": "  induction n with\n  | zero =>\n    -- Base case: n = 0\n    simp [Function.iterate]\n  | succ n ih =>\n    -- Inductive step\n    simp [Function.iterate]\n    -- Apply congruence to function application\n    trace_state\n    apply congrArg f ih\n"
+    }
+]
