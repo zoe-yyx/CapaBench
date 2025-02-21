@@ -213,21 +213,6 @@ if __name__ == '__main__':
         total_latex += '\n'
     print(total_latex)
 
-    # print(pt_dic)
-
-    # llm_name =  = "some text"  
-    # latex_string = fr"\texttt{{{content}}} & {content} & & & \\"
-    
-
-    # shapley_value = calculate_shapley_values(contributions, default_features, target_features)
-
-    """
-    \texttt{claude_3.5_sonnet} & 0.0165 & 0.1815 & 0.3965 & -0.0025\\
-    \texttt{gpt-4o-mini} & \textbf{0.12} & 0.144 & 0.223 & 0.014\\
-    \texttt{llama3-70b-instruct} & 0.051 & 0.073 & 0.256 & 0.003\\
-    \texttt{Mixtral-8x7B-Instruct-v0.1} & 0.023 & -0.004 & 0.142 & -0.001\\
-    \texttt{Qwen2.5-32b-instruct} & 0.0585 & 0.1805 & 0.3405 & 0.0045\\
-    """
-    
+   
 
 

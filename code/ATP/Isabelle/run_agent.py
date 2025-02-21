@@ -1,38 +1,11 @@
 import argparse
-from typing import Optional
-from typing import List, Optional
-from llama import Dialog, Llama
-
-import gym
-# from rich import print
-from rich.markup import escape
-
 import os
-import copy
 import json
-import queue
-import random
-
 from util import set_random_seed, extract_purchase_strategy, extract_thought, extract_action, extract_reflection, find_first_bracket_content_with_braces
-from llm_agent import LLMAgent, OpenAIAgent, APIAgent, DouBaoAgent
-from transformers import AutoTokenizer, AutoModelForCausalLM
-from transformers.generation.utils import GenerationConfig
-from transformers import BitsAndBytesConfig
-import torch
-import pandas as pd
+from llm_agent import LLMAgent, APIAgent
 from tqdm import tqdm
 from check_qed import qed, has_sorry
-import re
-
-
-
-from transformers import AutoTokenizer, AutoModel
-import torch
-
-from sftp_interact import *
-
-from check_updated import check_file_update
-
+from sim_isabelle import run_isabelle_commands
 
 def main(
     modes: list,
@@ -65,17 +38,9 @@ def main(
 
     # Initialize default and test agents
     default_agent = LLMAgent(default_model, default_tokenizer, temperature, top_p, max_gen_len)
+    api_url = ip
+    test_agent= APIAgent(api_url, temperature, top_p, max_gen_len)
     
-
-    if ip != None:    
-        api_url = ip
-        test_agent= APIAgent(api_url, temperature, top_p, max_gen_len)
-    elif test_model_name == 'doubao-pro-4k':
-        test_agent = DouBaoAgent(temperature, top_p, max_gen_len)
-        print('测试豆包！！！！！！！！！')
-    else:
-        test_agent= OpenAIAgent(test_model_name, temperature, top_p, max_gen_len)  # Testing agent
-
     # Create filename based on test_model_name and mode
     user_session_logs_directory = f"user_session_logs/isabelle/no/{test_model_name}"
     if not os.path.exists(user_session_logs_directory):
@@ -110,12 +75,6 @@ def main(
             raise
             if exc.errno != errno.EEXIST:
                 raise
-
-
-
- 
-
-    
 
     with open('./isabelle_data.json', 'r') as file:
         data = json.load(file)
@@ -220,9 +179,6 @@ def main(
                         print("None")  # 这里打印的是去除空白字符后，可能已经修改过的action
                 else:
                     # # 如果不存在，则直接写入action
-                    # file.write(action)
-                    # print('FILE CONTENT!!!!!!!!!!!!!!!!!!')
-                    # print(action)  # 这里打印的是去除空白字符后，可能已经修改过的action
                     if action != None and action != "":
                         # 如果存在，则去除“lean”再写入文件
                         file.write(action)  # 从第5个字符开始写入，因为“lean”有4个字符
@@ -234,58 +190,20 @@ def main(
                         print('FILE CONTENT!!!!!!!!!!!!!!!!!!')
                         print("None")  # 这里打印的是去除空白字符后，可能已经修改过的action
 
-            sftp_upload('jumper.sankuai.com', 'qisiyuan02', '********', tmp_isabelle_file, tmp_isabelle_file)
-
-            check_file_update('jumper.sankuai.com', 22, 'qisiyuan02', '********', f'tmp_{tmp_mode}_isabelle.json', 2)
-
-            
-            try:  
-                with open(f'tmp_{tmp_mode}_isabelle.json', 'r') as f:  
-                    results = json.load(f)  
-            except (FileNotFoundError, json.JSONDecodeError) as e:  
-                # 初始化一个空字典  
-                results = {}  
-                
-                # 尝试打开文件并读取第2, 3, 4行  
-                try:  
-                    with open(f'tmp_{tmp_mode}_isabelle.json', 'r') as f:  
-                        lines = f.readlines()  
-                        
-                        # 确保有足够的行  
-                        if len(lines) >= 4:  
-                            results['StdOut'] = lines[1].strip()  # 第2行  
-                            results['StdError'] = lines[2].strip()  # 第3行  
-                            results['ReturnCode'] = lines[3].strip()  # 第4行  
-                        else:  
-                            # 如果不足4行，用空字符串填充  
-                            results['StdOut'] = lines[1].strip() if len(lines) > 1 else ''  
-                            results['StdError'] = lines[2].strip() if len(lines) > 2 else ''  
-                            results['ReturnCode'] = lines[3].strip() if len(lines) > 3 else ''  
-                except Exception as file_error:  
-                    # 如果在读取文件行时发生任何错误，使用全空字符串  
-                    print(f"Error reading file lines: {file_error}")  
-                    results = {'StdOut': '', 'StdError': '', 'ReturnCode': ''}  
+            results = run_isabelle_commands(tmp_mode)
 
             # 这里results是一包含StdOut, StdError, ReturnCode三个key的字典
 
             for k, v in results.items():
                 print(f"{k}: {v}")
-                # print("Stdout: No more goals." in result) 
-                # print(f"Stderr: {proposition} <" in result)
-
-
-            
-
             
             #### TODO: 实现isabelle交互;增添参数控制评测开始位置;改进细节
             try:
                 if has_sorry(action, theorem):
                     if 'reflection' in modes:
                         reflection = test_agent.llm_reflection(", ".join(f"{k}: {v}" for k, v in results.items()), action, current_thought, full_question, theorem)
-                        # reflection = extract_reflection(reflection, test_model_name)
                     else:
                         reflection = default_agent.llm_reflection(", ".join(f"{k}: {v}" for k, v in results.items()), action, current_thought, full_question, theorem)
-                        # reflection = extract_reflection(reflection, 'llama')
                     print("REFLECTING!!!!!!!!!!!!!!!!!!!!")
                     print(reflection)  
                 elif qed(results, action, full_question, theorem):
@@ -302,10 +220,8 @@ def main(
                 else:
                     if 'reflection' in modes:
                         reflection = test_agent.llm_reflection(", ".join(f"{k}: {v}" for k, v in results.items()), action, current_thought, full_question, theorem)
-                        # reflection = extract_reflection(reflection, test_model_name)
                     else:
                         reflection = default_agent.llm_reflection(", ".join(f"{k}: {v}" for k, v in results.items()), action, current_thought, full_question, theorem)
-                        # reflection = extract_reflection(reflection, 'llama')
                     print("REFLECTING!!!!!!!!!!!!!!!!!!!!")
                     print(reflection)  
             except:
@@ -327,16 +243,7 @@ def main(
             # 使用 json.dumps 将字典转换为 JSON 字符串并写入文件
             f.write(json.dumps(new_data) + '\n')
         
-
-            
-                
-        
-
-
     print(f"Data has been saved to {filename}")
-
-
-
 
 
 if __name__ == "__main__":
