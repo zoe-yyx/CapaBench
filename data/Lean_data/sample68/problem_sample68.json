@@ -1,6 +1,6 @@
 {
     "problem": "open Classical\n\ntheorem not_imply_iff (P Q : Prop) : ¬ (P → Q) ↔ P ∧ ¬ Q := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  apply Iff.intro\n  -- 正向证明：¬ (P → Q) → P ∧ ¬ Q\n  · intro h\n    -- 证明 P\n    have p : P := by\n      by_cases hp : P\n      · exact hp\n      · exfalso\n        apply h\n        intro _\n        exact False.elim (hp ‹P›)\n    -- 证明 ¬ Q\n    have nq : ¬ Q := by\n      intro q\n      apply h\n      intro _\n      exact q\n    -- 得到 P ∧ ¬ Q\n    exact ⟨p, nq⟩\n  -- 反向证明：P ∧ ¬ Q → ¬ (P → Q)\n  · intro ⟨p, nq⟩ h\n    -- 假设存在 P → Q，则推出矛盾\n    exact nq (h p)\n",
+    "proposition": "not_imply_iff",
+    "id": "68.lean"
 }

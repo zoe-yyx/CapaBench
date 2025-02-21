@@ -1,6 +1,6 @@
 {
     "problem": "theorem forallEx2 (X : Type) (P Q R : X → Prop) :\n  (∀ x : X, P x ∧ Q x → R x) →\n  (∀ x : X, P x → Q x → R x) := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  intros h x hP hQ\n  specialize h x ⟨hP, hQ⟩\n  exact h\n",
+    "proposition": "forallEx2",
+    "id": "61.lean"
 }

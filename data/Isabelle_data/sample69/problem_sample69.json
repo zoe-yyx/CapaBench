@@ -1,6 +1,6 @@
 {
     "problem": "theory SumOfSqr1\n  imports Main\nbegin\n\nlemma sum_of_sqr1:\n  fixes x y :: int\n  shows \"x * x + y * y \\<ge> x * y\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof -\n  have \"x * x + y * y - x * y \\<ge> 0\"\n    by arith\n  thus ?thesis by simp\nqed\n\nend",
+    "proposition": "sum_of_sqr1",
+    "id": 69
 }

@@ -1,6 +1,6 @@
 {
     "problem": "theory ChickensAndRabbits\n  imports Main\nbegin\n\nlemma chickens_and_rabbits:\n  fixes C R :: int\n  assumes \"C + R = 35\"\n    and \"2 * C + 4 * R = 94\"\n  shows \"C = 23\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof -\n  from assms have \"C = 23\"\n    by arith\n  thus ?thesis.\nqed\n\nend",
+    "proposition": "chickens_and_rabbits",
+    "id": 72
 }

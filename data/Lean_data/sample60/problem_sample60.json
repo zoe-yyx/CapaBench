@@ -1,6 +1,6 @@
 {
     "problem": "theorem forallEx1 (X : Type) (P Q R : X → Prop) :\n  (∀ x : X, P x → Q x → R x) →\n  (∀ x : X, P x ∧ Q x → R x) := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  intros h x hPQ\n  match hPQ with\n  | ⟨hP, hQ⟩ =>\n    have hR := h x hP hQ\n    exact hR\n",
+    "proposition": "forallEx1",
+    "id": "60.lean"
 }

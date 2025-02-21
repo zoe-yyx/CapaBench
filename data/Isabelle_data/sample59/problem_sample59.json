@@ -1,6 +1,6 @@
 {
     "problem": "theory ReverseSize\n  imports Main\nbegin\n\ndatatype tree = Leaf | Node tree int tree\n\nfun tree_reverse :: \"tree \\<Rightarrow> tree\" where\n  \"tree_reverse Leaf = Leaf\"\n| \"tree_reverse (Node l v r) = Node (tree_reverse r) v (tree_reverse l)\"\n\nfun tree_size :: \"tree \\<Rightarrow> int\" where\n  \"tree_size Leaf = 0\"\n| \"tree_size (Node l v r) = tree_size l + tree_size r + 1\"\n\nlemma reverse_size: \"tree_size (tree_reverse t) = tree_size t\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof (induct t arbitrary: l v r)\n  case Leaf\n  then show ?case by simp\nnext\n  case (Node l v r)\n  (* Induction hypotheses:\n     Node.IH: \n       1. tree_size (tree_reverse l) = tree_size l\n       2. tree_size (tree_reverse r) = tree_size r\n  *)\n  from Node have IHl: \"tree_size (tree_reverse l) = tree_size l\"\n    using Node.IH(1) by simp\n  from Node have IHr: \"tree_size (tree_reverse r) = tree_size r\"\n    using Node.IH(2) by simp\n  have \"tree_size (tree_reverse (Node l v r)) = tree_size (Node (tree_reverse r) v (tree_reverse l))\"\n    by simp\n  also have \"... = tree_size (tree_reverse r) + tree_size (tree_reverse l) + 1\"\n    by simp\n  also have \"... = tree_size r + tree_size l + 1\"\n    using IHl IHr by simp\n  also have \"... = tree_size l + tree_size r + 1\"\n    by (simp add: add.commute)\n  also have \"... = tree_size (Node l v r)\"\n    by simp\n  finally show ?case .\nqed\n\nend",
+    "proposition": "reverse_size",
+    "id": 59
 }

@@ -1,6 +1,6 @@
 {
     "problem": "theory OrAssoc2\n  imports Main\nbegin\n\ntheorem or_assoc2:\n  assumes \"((P \\<or> Q) \\<or> R)\"\n  shows \"P \\<or> (Q \\<or> R)\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof -\n  from assms show ?thesis\n  proof\n    assume \"P \\<or> Q\"\n    then show \"P \\<or> (Q \\<or> R)\"\n    proof\n      assume \"P\"\n      then show \"P \\<or> (Q \\<or> R)\" by (rule disjI1)\n    next\n      assume \"Q\"\n      then have \"Q \\<or> R\" by (rule disjI1)\n      then show \"P \\<or> (Q \\<or> R)\" by (rule disjI2)\n    qed\n  next\n    assume \"R\"\n    then have \"Q \\<or> R\" by (rule disjI2)\n    then show \"P \\<or> (Q \\<or> R)\" by (rule disjI2)\n  qed\nqed\n\nend",
+    "proposition": "or_assoc2",
+    "id": 76
 }

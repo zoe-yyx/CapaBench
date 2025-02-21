@@ -1,6 +1,6 @@
 {
     "problem": "theory OrImply\n  imports Main\nbegin\n\ntheorem or_imply: \"(P \\<or> Q \\<longrightarrow> R) \\<longleftrightarrow> (P \\<longrightarrow> R) \\<and> (Q \\<longrightarrow> R)\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof\n  assume pq_implies_r: \"P \\<or> Q \\<longrightarrow> R\"\n  show \"(P \\<longrightarrow> R) \\<and> (Q \\<longrightarrow> R)\"\n  proof\n    show \"P \\<longrightarrow> R\"\n    proof\n      assume P\n      then have \"P \\<or> Q\" ..\n      from pq_implies_r show R by (rule mp)\n    qed\n    show \"Q \\<longrightarrow> R\"\n    proof\n      assume Q\n      then have \"P \\<or> Q\" ..\n      from pq_implies_r show R by (rule mp)\n    qed\n  qed\nnext\n  assume conj_pr_qr: \"(P \\<longrightarrow> R) \\<and> (Q \\<longrightarrow> R)\"\n  show \"P \\<or> Q \\<longrightarrow> R\"\n  proof\n    assume \"P \\<or> Q\"\n    from conj_pr_qr have pr: \"P \\<longrightarrow> R\" and qr: \"Q \\<longrightarrow> R\" by simp\n    from `P \\<or> Q` show R\n    proof\n      assume P\n      from pr show R by (rule mp)\n    next\n      assume Q\n      from qr show R by (rule mp)\n    qed\n  qed\nqed\n\nend",
+    "proposition": "or_imply",
+    "id": 44
 }

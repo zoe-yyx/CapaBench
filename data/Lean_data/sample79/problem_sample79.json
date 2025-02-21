@@ -1,6 +1,6 @@
 {
     "problem": "theorem andAssoc2 (P Q R : Prop) :\n  (P ∧ Q) ∧ R → P ∧ (Q ∧ R) := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  intro h\n  cases h with\n  | intro hpq hr =>\n    cases hpq with\n    | intro hp hq =>\n      -- 分割成两个部分进行证明\n      constructor\n      -- 证明 P\n      · exact hp\n      -- 证明 (Q ∧ R)\n      · constructor\n        exact hq\n        exact hr\n",
+    "proposition": "andAssoc2",
+    "id": "79.lean"
 }

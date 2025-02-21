@@ -1,6 +1,6 @@
 {
     "problem": "theory NotEx2\n  imports Main\nbegin\n\nlemma not_ex2: \"\\<forall>P Q. P \\<longrightarrow> (\\<not> P) \\<longrightarrow> Q\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof -\n  {\n    fix P Q\n    assume a1: \"P\"\n    assume a2: \"\\<not> P\"\n    have \"False\" using a1 a2 by auto\n    then have \"Q\" by blast\n  }\n  thus ?thesis by blast\nqed\n\nend",
+    "proposition": "not_ex2",
+    "id": 101
 }

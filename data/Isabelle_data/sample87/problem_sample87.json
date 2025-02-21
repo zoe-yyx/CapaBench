@@ -1,6 +1,6 @@
 {
     "problem": "theory AddComm\n  imports Main\nbegin\n\ndatatype mynat = MyZero (\"0\") | MySuc mynat\n\nfun myadd :: \"mynat \\<Rightarrow> mynat \\<Rightarrow> mynat\" where\n  \"myadd MyZero m = m\" |\n  \"myadd (MySuc n) m = MySuc (myadd n m)\"\n\nlemma myadd_0_r: \"myadd n MyZero = n\"\nproof (induction n)\n  case MyZero\n  then show ?case by simp\nnext\n  case (MySuc n)\n  then show ?case by simp\nqed\n\nlemma myadd_succ_r: \"myadd n (MySuc m) = MySuc (myadd n m)\"\nproof (induction n)\n  case MyZero\n  then show ?case by simp\nnext\n  case (MySuc n)\n  then show ?case by simp\nqed\n\ntheorem add_comm: \"myadd n m = myadd m n\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof (induction n)\n  case MyZero\n  then show ?case\n    using myadd_0_r by simp\nnext\n  case (MySuc n)\n  then have \"myadd n m = myadd m n\" by simp\n  then have \"MySuc (myadd n m) = MySuc (myadd m n)\" by simp\n  then show ?case\n    using myadd_succ_r by simp\nqed\n\nend",
+    "proposition": "add_comm",
+    "id": 87
 }

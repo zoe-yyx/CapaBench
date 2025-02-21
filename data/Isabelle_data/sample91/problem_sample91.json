@@ -1,6 +1,6 @@
 {
     "problem": "theory ForallForall\n  imports Main\nbegin\n\ntheorem forall_forall:\n  fixes P :: \"'a \\<Rightarrow> 'b \\<Rightarrow> bool\"\n  assumes \"\\<forall>x y. P x y\"\n  shows \"\\<forall>y x. P x y\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof -\n  from assms show \"\\<forall>y x. P x y\" \n    by (simp add: assms)\nqed\n\nend",
+    "proposition": "forall_forall",
+    "id": 91
 }

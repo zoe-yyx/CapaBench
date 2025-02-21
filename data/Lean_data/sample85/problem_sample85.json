@@ -1,6 +1,6 @@
 {
     "problem": "theorem andOrDistrL (P Q R : Prop) :\n  P ∧ (Q ∨ R) ↔ (P ∧ Q) ∨ (P ∧ R) := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  -- 使用 `split` 分开两个方向的证明\n  apply Iff.intro\n  -- 从 P ∧ (Q ∨ R) → (P ∧ Q) ∨ (P ∧ R)\n  · intro h\n    cases h with\n    | intro hp hqr =>\n      cases hqr with\n      | inl hq =>\n        left\n        constructor\n        exact hp\n        exact hq\n      | inr hr =>\n        right\n        constructor\n        exact hp\n        exact hr\n  -- 从 (P ∧ Q) ∨ (P ∧ R) → P ∧ (Q ∨ R)\n  · intro h\n    cases h with\n    | inl hPQ =>\n      cases hPQ with\n      | intro hp hq =>\n        constructor\n        exact hp\n        left\n        exact hq\n    | inr hPR =>\n      cases hPR with\n      | intro hp hr =>\n        constructor\n        exact hp\n        right\n        exact hr\n",
+    "proposition": "andOrDistrL",
+    "id": "85.lean"
 }

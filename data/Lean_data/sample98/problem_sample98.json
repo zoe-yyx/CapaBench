@@ -1,6 +1,6 @@
 {
     "problem": "open Nat\n\n-- 定义加法函数\ndef add : Nat → Nat → Nat\n\n  | zero, m => m\n  | succ n', m => succ (add n' m)\n\n-- 证明 add n (succ m) = succ (add n m)\ntheorem addSuccR (n m : Nat) : add n (succ m) = succ (add n m) := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  -- 引入 n 和 m\n  induction n with\n  | zero =>\n    -- 处理 n = 0 的情况\n    rfl\n  | succ n' ih =>\n    -- 处理 n = succ n' 的情况，使用归纳假设 ih\n    simp [add]\n    rw [ih]\n",
+    "proposition": "addSuccR",
+    "id": "98.lean"
 }

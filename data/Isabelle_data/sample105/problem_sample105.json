@@ -1,6 +1,6 @@
 {
     "problem": "theory AddSuccR\n  imports Main\nbegin\n\ndatatype mynat = MyZero (\"0\") | MySuc mynat\n\nfun myadd :: \"mynat \\<Rightarrow> mynat \\<Rightarrow> mynat\" where\n  \"myadd MyZero m = m\" |\n  \"myadd (MySuc n) m = MySuc (myadd n m)\"\n\nlemma add_succ_r: \"myadd n (MySuc m) = MySuc (myadd n m)\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof (induction n)\n  case MyZero\n  then show ?case by simp\nnext\n  case (MySuc n)\n  then show ?case by simp\nqed\n\nend",
+    "proposition": "add_succ_r",
+    "id": 105
 }

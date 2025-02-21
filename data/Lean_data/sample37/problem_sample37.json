@@ -1,6 +1,6 @@
 {
     "problem": "inductive Tree : Type\n| leaf : Tree\n| node (l : Tree) (v : Int) (r : Tree) : Tree\n\nopen Tree\n\n-- 定义一个定理，用于证明节点的右子树在相等的节点中相等\ntheorem nodeInjRight (l1 r1 l2 r2 : Tree) (v1 v2 : Int) :\n  node l1 v1 r1 = node l2 v2 r2 → r1 = r2 := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  intros h\n  injection h with _ _ h_r\n",
+    "proposition": "nodeInjRight",
+    "id": "37.lean"
 }

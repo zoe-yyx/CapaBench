@@ -1,6 +1,6 @@
 {
     "problem": "theorem proj1 (P Q : Prop) : P ∧ Q → P := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  intros h\n  cases h with\n  | intro hP hQ =>\n    exact hP\n",
+    "proposition": "proj1",
+    "id": "49.lean"
 }

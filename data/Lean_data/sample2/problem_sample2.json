@@ -1,6 +1,6 @@
 {
     "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\nset_option linter.unusedVariables false\n\ntheorem teachers_and_children (MT FT MC FC : ℤ)\n  (h1 : 0 < MT) (h2 : 0 < FT) (h3 : 0 < MC) (h4 : 0 < FC)\n  (h5 : MT + FT + MC + FC = 16)\n  (h6 : MC + FC > MT + FT)\n  (h7 : FT > FC)\n  (h8 : FC > MC)\n  (h9 : MC > MT) : MT = 1 := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  linarith\n",
+    "proposition": "teachers_and_children",
+    "id": "2.lean"
 }

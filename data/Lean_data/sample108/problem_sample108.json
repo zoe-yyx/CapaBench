@@ -1,6 +1,6 @@
 {
     "problem": "open Nat\n\ndef add : Nat → Nat → Nat\n| zero, m => m\n| succ n', m => succ (add n' m)\n\ndef mul : Nat → Nat → Nat\n| zero, _ => zero\n| succ n', m => add m (mul n' m)\n\ntheorem mul_add_distr_r (n m p : Nat) : mul (add n m) p = add (mul n p) (mul m p) := sorry\n\ntheorem mul_assoc (n m p : Nat) : mul n (mul m p) = mul (mul n m) p := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  induction n with\n  | zero =>\n    simp [mul]\n  | succ n ih =>\n    simp [mul]\n    rw [ih, mul_add_distr_r]\n",
+    "proposition": "mul_assoc",
+    "id": "108.lean"
 }

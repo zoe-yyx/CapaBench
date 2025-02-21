@@ -1,6 +1,6 @@
 {
     "problem": "theory DistExistsAnd\n  imports Main\nbegin\n\ntheorem dist_exists_and:\n  assumes \"\\<exists>x. P x \\<and> Q x\"\n  shows \"(\\<exists>x. P x) \\<and> (\\<exists>x. Q x)\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof -\n  from assms obtain x where \"P x \\<and> Q x\" by auto\n  then have \"P x\" and \"Q x\" by auto+\n  then show ?thesis by auto\nqed\n\nend",
+    "proposition": "dist_exists_and",
+    "id": 47
 }

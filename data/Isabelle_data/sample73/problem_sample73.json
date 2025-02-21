@@ -1,6 +1,6 @@
 {
     "problem": "theory NotExists\n  imports Main\nbegin\n\ntheorem not_exists: \"(\\<not> (\\<exists>x. P x)) \\<Longrightarrow> (\\<forall>x. \\<not> P x)\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof\n  assume H: \"\\<not> (\\<exists>x. P x)\"\n  fix x\n  show \"\\<not> P x\"\n  proof\n    assume \"P x\"\n    hence \"\\<exists>x. P x\" by auto\n    thus False using H by auto\n  qed\nqed\n\nend",
+    "proposition": "not_exists",
+    "id": 73
 }

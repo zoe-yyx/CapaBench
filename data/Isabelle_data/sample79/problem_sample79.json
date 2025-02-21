@@ -1,6 +1,6 @@
 {
     "problem": "theory ShiftUp1ShiftLeft1Comm\n  imports Main\nbegin\n\ndefinition shift_left1 :: \"(int \\<Rightarrow> int) \\<Rightarrow> int \\<Rightarrow> int\" where\n\"shift_left1 f x = f (x + 1)\"\n\ndefinition shift_up1 :: \"(int \\<Rightarrow> int) \\<Rightarrow> int \\<Rightarrow> int\" where\n\"shift_up1 f x = f x + 1\"\n\nlemma shift_up1_shift_left1_comm: \"shift_up1 (shift_left1 f) = shift_left1 (shift_up1 f)\"\n\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  unfolding shift_left1_def shift_up1_def\n  by auto\n\nend",
+    "proposition": "shift_up1_shift_left1_comm",
+    "id": 79
 }

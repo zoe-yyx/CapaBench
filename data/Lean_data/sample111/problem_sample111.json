@@ -1,6 +1,6 @@
 {
     "problem": "-- Define Function.iterate since it's not in the standard library\ndef Function.iterate {α : Type} (f : α → α) : Nat → α → α\n| 0,     x => x\n| n + 1, x => f (Function.iterate f n x)\n\ntheorem iterate_S {A : Type} (n : Nat) (f : A → A) (x : A) :\n  Function.iterate f n (f x) = Function.iterate f (n + 1) x := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  induction n with\n  | zero =>\n    -- Base case: n = 0\n    simp [Function.iterate]\n  | succ n ih =>\n    -- Inductive step\n    simp [Function.iterate]\n    -- Apply congruence to function application\n    trace_state\n    apply congrArg f ih\n",
+    "proposition": "iterate_S",
+    "id": "111.lean"
 }

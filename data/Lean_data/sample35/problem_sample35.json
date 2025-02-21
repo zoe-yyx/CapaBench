@@ -1,6 +1,6 @@
 {
     "problem": "set_option linter.unusedVariables false\n\n-- 定义 Tree 数据类型\ninductive Tree : Type\n| leaf : Tree\n| node (l : Tree) (v : Int) (r : Tree) : Tree\n\nopen Tree\n\n-- 定义 tree_example2a\ndef treeExample2a : Tree :=\n  node (node leaf 8 leaf) 100 (node leaf 9 leaf)\n\n-- 定义 tree_example2b\ndef treeExample2b : Tree :=\n  node (node leaf 9 leaf) 100 (node leaf 8 leaf)\n\n-- 定义 tree_example3a\ndef treeExample3a : Tree :=\n  node (node leaf 3 leaf) 5 treeExample2a\n\n-- 定义 tree_example3b\ndef treeExample3b : Tree :=\n  node treeExample2b 5 (node leaf 3 leaf)\n\n-- 定义 tree_reverse 函数\ndef treeReverse : Tree → Tree\n| leaf => leaf\n| node l v r => node (treeReverse r) v (treeReverse l)\n\n-- 定义一个例子\ntheorem treeExample3TreeReverse : treeReverse treeExample3a = treeExample3b := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  rfl\n",
+    "proposition": "treeExample3TreeReverse",
+    "id": "35.lean"
 }

@@ -1,6 +1,6 @@
 {
     "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef plus_one (x : ℤ) : ℤ := x + 1\n\ntheorem One_plus_one_plus_one : plus_one (plus_one 1) = 3 := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  unfold plus_one\n  linarith\n",
+    "proposition": "One_plus_one_plus_one",
+    "id": "8.lean"
 }

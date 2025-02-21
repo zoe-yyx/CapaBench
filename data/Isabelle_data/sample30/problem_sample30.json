@@ -1,6 +1,6 @@
 {
     "problem": "theory LogicEx5\n  imports Main\nbegin\n\n(* 对应 Coq 中的 logic_ex5 事实 *)\ntheorem logic_ex5:\n  assumes \"\\<forall>a. P a \\<longrightarrow> Q a\"\n  assumes \"\\<forall>a. P a\"\n  shows \"\\<forall>a. Q a\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof\n  fix a\n  from assms(1) have \"P a \\<longrightarrow> Q a\" by simp\n  from assms(2) have \"P a\" by simp\n  thus \"Q a\" using `P a \\<longrightarrow> Q a` by blast\nqed\n\nend",
+    "proposition": "logic_ex5",
+    "id": 30
 }

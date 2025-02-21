@@ -1,6 +1,6 @@
 {
     "problem": "open Classical\n\ntheorem logicEx8 {A B : Type} (P Q : A → B → Prop) :\n  (∀ (a : A) (b : B), P a b → Q a b) →\n  (∀ (a : A) (b : B), ¬ P a b ∨ Q a b) := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  intros hImp a b\n  -- 使用经典逻辑进行分类讨论\n  cases em (P a b) with\n  | inl hP =>\n    -- 如果 P a b 成立\n    right\n    apply hImp\n    exact hP\n  | inr hNP =>\n    -- 如果 ¬ P a b 成立\n    left\n    exact hNP\n",
+    "proposition": "logicEx8",
+    "id": "76.lean"
 }

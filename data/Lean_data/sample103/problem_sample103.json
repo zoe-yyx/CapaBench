@@ -1,6 +1,6 @@
 {
     "problem": "open Nat\n\n-- 定义加法函数\ndef add : Nat → Nat → Nat\n  | zero, m => m\n  | succ n', m => succ (add n' m)\n\n-- 定义乘法函数\ndef mul : Nat → Nat → Nat\n  | zero, _ => zero\n  | succ p, m => add m (mul p m)\n\n-- 证明 mul n 0 = 0\ntheorem mulZeroR (n : Nat) : mul n zero = zero := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  -- 使用 n 的归纳法\n  induction n with\n  | zero =>\n    -- n = 0 的情况\n    rfl\n  | succ n' ih =>\n    -- n = succ n' 的情况\n    simp [mul]\n    exact ih\n",
+    "proposition": "mulZeroR",
+    "id": "103.lean"
 }

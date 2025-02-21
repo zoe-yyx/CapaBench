@@ -1,6 +1,6 @@
 {
     "problem": "theory OrIntrol\n  imports Main\nbegin\n\n\nlemma or_introl:\n  fixes A B :: \"bool\"\n  assumes H: \"A\"\n  shows \"A \\<or> B\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof -\n  show \"A \\<or> B\" using H by (rule disjI1)\nqed\n\nend",
+    "proposition": "or_introl",
+    "id": 3
 }

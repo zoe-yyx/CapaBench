@@ -1,6 +1,6 @@
 {
     "problem": "theorem logicEx7 {A : Type} (P Q : A → Prop) (a0 : A) :\n  (∀ a : A, P a → Q a → False) →\n  Q a0 →\n  ¬ P a0 := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  intros hContradiction hQ hP\n  apply hContradiction a0\n  · exact hP\n  · exact hQ\n",
+    "proposition": "logicEx7",
+    "id": "75.lean"
 }

@@ -1,6 +1,6 @@
 {
     "problem": "theory IterS\n  imports Main\nbegin\n\nfun iter :: \"nat \\<Rightarrow> ('a \\<Rightarrow> 'a) \\<Rightarrow> 'a \\<Rightarrow> 'a\" where\n  \"iter 0 f x = x\" |\n  \"iter (Suc n) f x = f (iter n f x)\"\n\ntheorem iter_S: \"iter n f (f x) = iter (Suc n) f x\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof (induction n)\n  case 0\n  then show ?case by simp\nnext\n  case (Suc n)\n  then show ?case by simp\nqed\n\nend",
+    "proposition": "iter_S",
+    "id": 36
 }

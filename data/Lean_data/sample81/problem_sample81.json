@@ -1,6 +1,6 @@
 {
     "problem": "theorem orAssoc1 (P Q R : Prop) :\n  P ∨ (Q ∨ R) → (P ∨ Q) ∨ R := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  intro h\n  cases h with\n  | inl hp =>\n    -- 如果 P 成立\n    left\n    left\n    exact hp\n  | inr hqr =>\n    -- 如果 Q ∨ R 成立\n    cases hqr with\n    | inl hq =>\n      -- 如果 Q 成立\n      left\n      right\n      exact hq\n    | inr hr =>\n      -- 如果 R 成立\n      right\n      exact hr\n",
+    "proposition": "orAssoc1",
+    "id": "81.lean"
 }

@@ -1,6 +1,6 @@
 {
     "problem": "theory AndIntro\n  imports Main\nbegin\n\nlemma and_intro:\n  fixes A B :: \"bool\"\n  assumes HA: \"A\" and HB: \"B\"\n  shows \"A \\<and> B\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof -\n  from HA and HB show \"A \\<and> B\"\n    by (rule conjI)\nqed\n\nend",
+    "proposition": "and_intro",
+    "id": 24
 }

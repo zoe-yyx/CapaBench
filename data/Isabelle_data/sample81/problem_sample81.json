@@ -1,6 +1,6 @@
 {
     "problem": "theory IffRefl\n  imports Main\nbegin\n\ntheorem iff_refl: \"P \\<longleftrightarrow> P\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof (rule iffI)\n  show \"P \\<Longrightarrow> P\" by assumption\n  show \"P \\<Longrightarrow> P\" by assumption\nqed\n\nend",
+    "proposition": "iff_refl",
+    "id": 81
 }

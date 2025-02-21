@@ -1,6 +1,6 @@
 {
     "problem": "theory OrExample\n  imports Main\nbegin\n\nlemma or_example:\n  fixes P Q R :: \"bool\"\n  assumes H1: \"P \\<longrightarrow> R\" and H2: \"Q \\<longrightarrow> R\" and H3: \"P \\<or> Q\"\n  shows \"R\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof -\n  from H3 show \"R\"\n  proof\n    assume \"P\"\n    from H1 and `P` show \"R\" by (rule mp)\n  next\n    assume \"Q\"\n    from H2 and `Q` show \"R\" by (rule mp)\n  qed\nqed\n\nend",
+    "proposition": "or_example",
+    "id": 27
 }

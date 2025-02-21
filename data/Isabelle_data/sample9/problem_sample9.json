@@ -1,6 +1,6 @@
 {
     "problem": "theory ForallIff\n  imports Main\nbegin\n\ntheorem forall_iff:\n  fixes P Q :: \"'a \\<Rightarrow> bool\"\n  assumes \"\\<forall>x. P x \\<longleftrightarrow> Q x\"\n  shows \"(\\<forall>x. P x) \\<longleftrightarrow> (\\<forall>x. Q x)\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof\n  -- \"First, show (\\<forall>x. P x) \\<Longrightarrow> (\\<forall>x. Q x)\"\n  assume \"\\<forall>x. P x\"\n  show \"\\<forall>x. Q x\"\n  proof\n    fix x\n    from assms have \"P x \\<longleftrightarrow> Q x\" by auto\n    with \\<open>\\<forall>x. P x\\<close> show \"Q x\" by auto\n  qed\nnext\n  -- \"Now, show (\\<forall>x. Q x) \\<Longrightarrow> (\\<forall>x. P x)\"\n  assume \"\\<forall>x. Q x\"\n  show \"\\<forall>x. P x\"\n  proof\n    fix x\n    from assms have \"P x \\<longleftrightarrow> Q x\" by auto\n    with \\<open>\\<forall>x. Q x\\<close> show \"P x\" by auto\n  qed\nqed\n\nend",
+    "proposition": "forall_iff",
+    "id": 9
 }

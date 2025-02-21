@@ -1,6 +1,6 @@
 {
     "problem": "open Classical\n\ntheorem logicEx4 {A : Type} (P Q : A → Prop) :\n  (∀ a : A, ¬ Q a → ¬ P a) →\n  (∀ a : A, P a → Q a) := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  intros h a hP\n  -- 使用排中律对 Q a 进行分类讨论\n  cases Classical.em (Q a) with\n  | inl hQ => exact hQ\n  | inr hNQ =>\n    have hNP := h a hNQ\n    contradiction\n",
+    "proposition": "logicEx4",
+    "id": "47.lean"
 }

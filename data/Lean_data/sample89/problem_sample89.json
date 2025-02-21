@@ -1,6 +1,6 @@
 {
     "problem": "theorem andCongr (P1 Q1 P2 Q2 : Prop) :\n  (P1 ↔ P2) →\n  (Q1 ↔ Q2) →\n  (P1 ∧ Q1 ↔ P2 ∧ Q2) := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  intros hPQ hQR\n  -- 处理 P1 ∧ Q1 → P2 ∧ Q2\n  apply Iff.intro\n  · intro h\n    cases h with\n    | intro hp1 hq1 =>\n      constructor\n      -- 使用 hPQ 来证明 P2\n      apply hPQ.mp\n      exact hp1\n      -- 使用 hQR 来证明 Q2\n      apply hQR.mp\n      exact hq1\n  -- 处理 P2 ∧ Q2 → P1 ∧ Q1\n  · intro h\n    cases h with\n    | intro hp2 hq2 =>\n      constructor\n      -- 使用 hPQ 来证明 P1\n      apply hPQ.mpr\n      exact hp2\n      -- 使用 hQR 来证明 Q1\n      apply hQR.mpr\n      exact hq2\n",
+    "proposition": "andCongr",
+    "id": "89.lean"
 }

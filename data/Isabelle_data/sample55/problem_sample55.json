@@ -1,6 +1,6 @@
 {
     "problem": "theory MultAssoc\n  imports Main\nbegin\n\n(* 定义关联性 *)\ndefinition assoc :: \"(int \\<Rightarrow> int \\<Rightarrow> int) \\<Rightarrow> bool\" where\n  \"assoc f \\<equiv> \\<forall> x y z. f x (f y z) = f (f x y) z\"\n\n(* 证明乘法的关联性 *)\nlemma mult_assoc: \"assoc (\\<lambda>x y. x * y)\"\n\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  unfolding assoc_def by auto\n\nend",
+    "proposition": "mult_assoc",
+    "id": 55
 }

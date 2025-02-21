@@ -1,6 +1,6 @@
 {
     "problem": "open Nat\n\ndef add : Nat → Nat → Nat\n  | zero, m      => m\n  | succ n', m   => succ (add n' m)\n\ndef mul : Nat → Nat → Nat\n  | zero, _      => zero\n  | succ n', m   => add m (mul n' m)\n\ntheorem mul_comm (n m : Nat) : mul n m = mul m n := sorry\n\ntheorem mul_one_left (n : Nat) : mul (succ zero) n = n := sorry\n\ntheorem mul_one_right (n : Nat) : mul n (succ zero) = n := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  rw [mul_comm n (succ zero)]\n  rw [mul_one_left n]\n",
+    "proposition": "mul_one_right",
+    "id": "110.lean"
 }

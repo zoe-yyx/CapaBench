@@ -1,6 +1,6 @@
 {
     "problem": "theorem andImply (P Q R : Prop) :\n  (P ∧ Q → R) ↔ (P → Q → R) := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  -- 使用 `split` 分开两个方向的推理\n  apply Iff.intro\n  -- 从 (P ∧ Q → R) → (P → Q → R)\n  · intro h hp hq\n    apply h\n    constructor\n    exact hp\n    exact hq\n  -- 从 (P → Q → R) → (P ∧ Q → R)\n  · intro h hPQ\n    cases hPQ with\n    | intro hp hq =>\n      apply h\n      exact hp\n      exact hq\n",
+    "proposition": "andImply",
+    "id": "92.lean"
 }

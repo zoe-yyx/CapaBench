@@ -1,6 +1,6 @@
 {
     "problem": "theory LogicEx6\n  imports Main\nbegin\n\n(* 对应 Coq 中的 logic_ex6 事实 *)\ntheorem logic_ex6:\n  assumes \"P a0\"\n  assumes \"\\<forall>a. P a \\<longrightarrow> Q a\"\n  shows \"Q a0\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof -\n  from assms(2) have \"P a0 \\<longrightarrow> Q a0\" by simp\n  from assms(1) have \"P a0\" by simp\n  thus \"Q a0\" using `P a0 \\<longrightarrow> Q a0` by blast\nqed\n\nend",
+    "proposition": "logic_ex6",
+    "id": 23
 }

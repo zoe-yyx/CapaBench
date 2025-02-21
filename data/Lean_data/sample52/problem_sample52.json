@@ -1,6 +1,6 @@
 {
     "problem": "theorem orExample (P Q R : Prop) : (P → R) → (Q → R) → (P ∨ Q → R) := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  intros hP hQ hPQ\n  cases hPQ with\n  | inl hP_case =>\n    exact hP hP_case\n  | inr hQ_case =>\n    exact hQ hQ_case\n",
+    "proposition": "orExample",
+    "id": "52.lean"
 }

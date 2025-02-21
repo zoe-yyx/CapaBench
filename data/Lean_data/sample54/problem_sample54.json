@@ -1,6 +1,6 @@
 {
     "problem": "theorem orIntror (A B : Prop) : B → A ∨ B := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  intros hB\n  right\n  exact hB\n",
+    "proposition": "orIntror",
+    "id": "54.lean"
 }

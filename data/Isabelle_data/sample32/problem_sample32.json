@@ -1,6 +1,6 @@
 {
     "problem": "theory ForallAnd\n  imports Main\nbegin\n\ntheorem forall_and: \"(\\<forall>a. P a \\<and> Q a) = ((\\<forall>a. P a) \\<and> (\\<forall>a. Q a))\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof -\n  {\n    assume \"\\<forall>a. P a \\<and> Q a\"\n    then have \"\\<forall>a. P a\" and \"\\<forall>a. Q a\" by auto\n  }\n  moreover {\n    assume \"(\\<forall>a. P a)\" and \"(\\<forall>a. Q a)\"\n    then have \"\\<forall>a. P a \\<and> Q a\" by auto\n  }\n  ultimately show ?thesis by auto\nqed\n\nend",
+    "proposition": "forall_and",
+    "id": 32
 }

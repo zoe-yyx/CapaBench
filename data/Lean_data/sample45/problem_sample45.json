@@ -1,6 +1,6 @@
 {
     "problem": "theorem logicEx2 (P1 Q1 P2 Q2 : Prop) :\n  P1 ∧ Q1 →\n  (P1 → P2) →\n  (Q1 → Q2) →\n  P2 ∧ Q2 := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  intros h1 h2 h3\n  cases h1 with\n  | intro hP1 hQ1 =>\n    constructor\n    -- 证明 P2\n    exact h2 hP1\n    -- 证明 Q2\n    exact h3 hQ1\n",
+    "proposition": "logicEx2",
+    "id": "45.lean"
 }

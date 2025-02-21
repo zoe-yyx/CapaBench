@@ -1,6 +1,6 @@
 {
     "problem": "open Classical\n\ntheorem forall_iff {X : Type} {P Q : X → Prop} :\n  (∀ x, P x ↔ Q x) → ((∀ x, P x) ↔ (∀ x, Q x)) :=\nfun h => ⟨fun hp x => (h x).1 (hp x), fun hq x => (h x).2 (hq x)⟩\n\ntheorem not_exists {X : Type} {P : X → Prop} :\n  ¬ (∃ x, P x) → ∀ x, ¬ P x :=\nfun h x hp => h ⟨x, hp⟩\n\ntheorem not_forall {X : Type} {P : X → Prop} :\n  ¬ (∀ x, P x) → ∃ x, ¬ P x := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  intro h\n  -- 假设不存在 x 使得 ¬ P x 成立\n  by_contra hne\n  -- 这意味着 ∀ x, P x 成立\n  have hfa : ∀ x, P x := by\n    intro x\n    -- 使用双重否定消去法\n    have hp : ¬¬ P x := by\n      intro hnp\n      -- 由于假设不存在 x 使得 ¬ P x，因此矛盾\n      apply hne\n      exact ⟨x, hnp⟩\n    -- 由于经典逻辑，¬¬ P x 推出 P x\n    exact of_not_not hp\n  -- 这与最初的假设矛盾，因此存在 x 使得 ¬ P x 成立\n  exact h hfa\n",
+    "proposition": "not_forall",
+    "id": "71.lean"
 }

@@ -1,6 +1,6 @@
 {
     "problem": "theory AndDup\n  imports Main\nbegin\n\nlemma and_dup: \"P \\<and> P \\<longleftrightarrow> P\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof\n  show \"P \\<and> P \\<Longrightarrow> P\" by (erule conjE)\nnext\n  show \"P \\<Longrightarrow> P \\<and> P\" by (rule conjI)\nqed\n\n\nend",
+    "proposition": "and_dup",
+    "id": 15
 }

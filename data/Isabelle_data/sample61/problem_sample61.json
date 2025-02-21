@@ -1,6 +1,6 @@
 {
     "problem": "theory Mul0R\n  imports Main\nbegin\n\ndatatype mynat = MyZero (\"0\") | MySuc mynat\n\nfun myadd :: \"mynat \\<Rightarrow> mynat \\<Rightarrow> mynat\" where\n  \"myadd MyZero m = m\" |\n  \"myadd (MySuc n) m = MySuc (myadd n m)\"\n\nfun mymul :: \"mynat \\<Rightarrow> mynat \\<Rightarrow> mynat\" where\n  \"mymul MyZero m = MyZero\" |\n  \"mymul (MySuc n) m = myadd m (mymul n m)\"\n\nlemma mul_0_r: \"mymul n MyZero = MyZero\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof (induction n)\n  case MyZero\n  then show ?case by simp\nnext\n  case (MySuc n)\n  then show ?case by simp\nqed\n\nend",
+    "proposition": "mul_0_r",
+    "id": 61
 }

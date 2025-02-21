@@ -1,6 +1,6 @@
 {
     "problem": "theorem andDup (P : Prop) : P ∧ P ↔ P := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  constructor\n  -- 证明 P ∧ P → P\n  intros h\n  cases h with\n  | intro hP _ => exact hP\n  -- 证明 P → P ∧ P\n  intros hP\n  constructor\n  exact hP\n  exact hP\n",
+    "proposition": "andDup",
+    "id": "56.lean"
 }

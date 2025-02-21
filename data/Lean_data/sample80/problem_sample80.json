@@ -1,6 +1,6 @@
 {
     "problem": "theorem orComm (P Q : Prop) :\n  P ∨ Q → Q ∨ P := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  intro h\n  cases h with\n  | inl hp =>\n    -- 如果是 P 成立\n    right\n    exact hp\n  | inr hq =>\n    -- 如果是 Q 成立\n    left\n    exact hq\n",
+    "proposition": "orComm",
+    "id": "80.lean"
 }

@@ -1,6 +1,6 @@
 {
     "problem": "theorem notEx2 (P Q : Prop) : P → ¬ P → Q := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  intros hP hNP\n  contradiction\n",
+    "proposition": "notEx2",
+    "id": "64.lean"
 }

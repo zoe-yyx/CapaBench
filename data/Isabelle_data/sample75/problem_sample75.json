@@ -1,6 +1,6 @@
 {
     "problem": "theory SumOfSqr2\n  imports Main\nbegin\n\nlemma sum_of_sqr2: \"x * x + y * y \\<ge> 2 * x * y\" for x y :: int\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof -\n  have \"(x - y) * (x - y) \\<ge> 0\"\n    by (simp add: algebra_simps)\n  then have \"x * x - 2 * x * y + y * y \\<ge> 0\"\n    by (simp add: power2_eq_square algebra_simps)\n  then show ?thesis\n    by (simp add: algebra_simps)\nqed\n\nend",
+    "proposition": "sum_of_sqr2",
+    "id": 75
 }

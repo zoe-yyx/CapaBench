@@ -1,6 +1,6 @@
 {
     "problem": "theory OrDup\n  imports Main\nbegin\n\nlemma or_dup: \"P \\<or> P \\<longleftrightarrow> P\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof\n  show \"P \\<or> P \\<Longrightarrow> P\" by (erule disjE, assumption+)\nnext\n  show \"P \\<Longrightarrow> P \\<or> P\" by (rule disjI1)\nqed\n\nend",
+    "proposition": "or_dup",
+    "id": 65
 }

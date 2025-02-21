@@ -1,6 +1,6 @@
 {
     "problem": "theorem exists_exists {X Y : Type} {P : X → Y → Prop} :\n    (∃ x y, P x y) ↔ (∃ y x, P x y) := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  constructor\n  · -- 方向： (∃ x y, P x y) → (∃ y x, P x y)\n    intro h\n    cases h with\n    | intro x hx =>\n      cases hx with\n      | intro y Pxy =>\n        -- 构造存在的 y 和 x\n        exists y, x\n  · -- 方向： (∃ y x, P x y) → (∃ x y, P x y)\n    intro h\n    cases h with\n    | intro y hy =>\n      cases hy with\n      | intro x Pxy =>\n        -- 构造存在的 x 和 y\n        exists x, y\n",
+    "proposition": "exists_exists",
+    "id": "95.lean"
 }

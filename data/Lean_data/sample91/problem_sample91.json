@@ -1,6 +1,6 @@
 {
     "problem": "theorem implyCongr (P1 Q1 P2 Q2 : Prop) :\n  (P1 ↔ P2) →\n  (Q1 ↔ Q2) →\n  ((P1 → Q1) ↔ (P2 → Q2)) := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  intros hPQ hQR\n  -- 使用 `split` 分开两个方向的推理\n  apply Iff.intro\n  -- 从 (P1 → Q1) → (P2 → Q2)\n  · intro h hP2\n    apply hQR.mp\n    apply h\n    apply hPQ.mpr\n    exact hP2\n  -- 从 (P2 → Q2) → (P1 → Q1)\n  · intro h hP1\n    apply hQR.mpr\n    apply h\n    apply hPQ.mp\n    exact hP1\n",
+    "proposition": "implyCongr",
+    "id": "91.lean"
 }

@@ -1,6 +1,6 @@
 {
     "problem": "theorem orCongr (P1 Q1 P2 Q2 : Prop) :\n  (P1 ↔ P2) →\n  (Q1 ↔ Q2) →\n  (P1 ∨ Q1 ↔ P2 ∨ Q2) := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  intros hPQ hQR\n  -- 处理两个方向的推理\n  apply Iff.intro\n  -- 从 P1 ∨ Q1 → P2 ∨ Q2\n  · intro h\n    cases h with\n    | inl hp1 =>\n      left\n      apply hPQ.mp\n      exact hp1\n    | inr hq1 =>\n      right\n      apply hQR.mp\n      exact hq1\n  -- 从 P2 ∨ Q2 → P1 ∨ Q1\n  · intro h\n    cases h with\n    | inl hp2 =>\n      left\n      apply hPQ.mpr\n      exact hp2\n    | inr hq2 =>\n      right\n      apply hQR.mpr\n      exact hq2\n",
+    "proposition": "orCongr",
+    "id": "90.lean"
 }

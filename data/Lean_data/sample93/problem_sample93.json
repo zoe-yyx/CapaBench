@@ -1,6 +1,6 @@
 {
     "problem": "theorem orImply (P Q R : Prop) :\n  (P ∨ Q → R) ↔ (P → R) ∧ (Q → R) := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  -- 使用 `split` 分开两个方向的推理\n  apply Iff.intro\n  -- 从 (P ∨ Q → R) → (P → R) ∧ (Q → R)\n  · intro h\n    constructor\n    -- 证明 P → R\n    · intro hp\n      apply h\n      left\n      exact hp\n    -- 证明 Q → R\n    · intro hq\n      apply h\n      right\n      exact hq\n  -- 从 (P → R) ∧ (Q → R) → (P ∨ Q → R)\n  · intro h\n    intro hpq\n    cases h with\n    | intro hp hr =>\n      cases hpq with\n      | inl hp' => apply hp; exact hp'\n      | inr hq' => apply hr; exact hq'\n",
+    "proposition": "orImply",
+    "id": "93.lean"
 }

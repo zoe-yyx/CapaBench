@@ -1,6 +1,6 @@
 {
     "problem": "theory LeafHeight\n  imports Main\nbegin\n\ndatatype tree = Leaf | Node tree int tree\n\nfun tree_height :: \"tree \\<Rightarrow> int\" where\n\"tree_height Leaf = 0\" |\n\"tree_height (Node l v r) = max (tree_height l) (tree_height r) + 1\"\n\nlemma Leaf_height: \"tree_height Leaf = 0\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof -\n  show ?thesis by simp\nqed\n\nend",
+    "proposition": "Leaf_height",
+    "id": 7
 }

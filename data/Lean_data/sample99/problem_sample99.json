@@ -1,6 +1,6 @@
 {
     "problem": "open Nat\n\n-- 定义加法函数\ndef add : Nat → Nat → Nat\n  | zero, m => m\n  | succ n', m => succ (add n' m)\n\n-- 证明 add n 0 = n\ntheorem addZeroR (n : Nat) : add n zero = n := by\n  -- 由于此引理被承认，因此我们用 sorry\n  sorry\n\n-- 证明 add n (succ m) = succ (add n m)\ntheorem addSuccR (n m : Nat) : add n (succ m) = succ (add n m) := by\n  -- 由于此引理被承认，因此我们用 sorry\n  sorry\n\n-- 证明加法的交换律：add n m = add m n\ntheorem addComm (n m : Nat) : add n m = add m n := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  -- 对 n 使用归纳法\n  induction n with\n  | zero =>\n    -- n = 0 的情况\n    simp [add]\n    rw [addZeroR]\n  | succ n' ih =>\n    -- n = succ n' 的情况，使用归纳假设 ih\n    simp [add]\n    rw [addSuccR]\n    rw [ih]\n",
+    "proposition": "addComm",
+    "id": "99.lean"
 }

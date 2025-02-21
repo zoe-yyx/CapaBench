@@ -1,6 +1,6 @@
 {
     "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef square (x : ℤ) : ℤ := x * x\n\ndef shift_left1 (f : ℤ → ℤ) (x : ℤ) : ℤ :=\n  f (x + 1)\n\ntheorem shift_left1_square (x : ℤ) : shift_left1 square x = (x + 1) * (x + 1) := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  unfold shift_left1 square\n  linarith\n",
+    "proposition": "shift_left1_square",
+    "id": "13.lean"
 }

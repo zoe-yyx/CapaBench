@@ -1,6 +1,6 @@
 {
     "problem": "open Classical\n\ntheorem notExists {X : Type} (P : X → Prop) :\n  ¬ (∃ x : X, P x) → ∀ x : X, ¬ P x := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  intros h x\n  -- 使用经典逻辑的排中律对 P x 进行分类讨论\n  cases Classical.em (P x) with\n  | inl hPx =>\n    -- 如果 P x 成立，构造存在性并引发矛盾\n    have ex := Exists.intro x hPx\n    contradiction\n  | inr hNPx =>\n    -- 如果 P x 不成立，直接返回 hNPx\n    exact hNPx\n",
+    "proposition": "notExists",
+    "id": "69.lean"
 }

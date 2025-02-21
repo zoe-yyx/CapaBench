@@ -1,6 +1,6 @@
 {
     "problem": "theorem forallAnd (A : Type) (P Q : A → Prop) :\n  (∀ a : A, P a ∧ Q a) ↔ (∀ a : A, P a) ∧ (∀ a : A, Q a) := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  apply Iff.intro\n  -- 从左到右证明\n  · intros h\n    constructor\n    -- 证明 ∀ a, P a\n    · intros a\n      specialize h a\n      exact h.1\n    -- 证明 ∀ a, Q a\n    · intros a\n      specialize h a\n      exact h.2\n  -- 从右到左证明\n  · intros h a\n    have hP := h.1 a\n    have hQ := h.2 a\n    exact ⟨hP, hQ⟩\n",
+    "proposition": "forallAnd",
+    "id": "62.lean"
 }

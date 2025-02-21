@@ -1,6 +1,6 @@
 {
     "problem": "theory ModusPonens\n  imports Main\nbegin\n\nlemma modus_ponens: \"P \\<longrightarrow> Q \\<Longrightarrow> P \\<Longrightarrow> Q\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof -\n  assume a1: \"P \\<longrightarrow> Q\"\n  assume a2: \"P\"\n  from a1 a2 show \"Q\" by (rule mp)\nqed\n\nend",
+    "proposition": "modus_ponens",
+    "id": 51
 }

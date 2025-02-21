@@ -1,6 +1,6 @@
 {
     "problem": "theorem iffRefl (P : Prop) : P ↔ P := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  constructor\n  -- 从左到右证明\n  intros hP\n  exact hP\n  -- 从右到左证明\n  intros hP\n  exact hP\n",
+    "proposition": "iffRefl",
+    "id": "55.lean"
 }

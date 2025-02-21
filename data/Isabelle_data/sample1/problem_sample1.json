@@ -1,6 +1,6 @@
 {
     "problem": "theory LogicEx1\n  imports Main\nbegin\n\ndefinition convex :: \"(int \\<Rightarrow> int) \\<Rightarrow> bool\" where\n  \"convex f \\<longleftrightarrow> (\\<forall> x. f (x - 1) + f (x + 1) \\<ge> 2 * f x)\"\n\ndefinition mono :: \"(int \\<Rightarrow> int) \\<Rightarrow> bool\" where\n  \"mono f \\<longleftrightarrow> (\\<forall> n m. n \\<le> m \\<longrightarrow> f n \\<le> f m)\"\n\ntheorem logic_ex1:\n  assumes \"\\<forall> f. mono f \\<longrightarrow> mono (T f)\"\n    and \"\\<forall> f. convex f \\<longrightarrow> convex (T f)\"\n    and \"mono f \\<and> convex f\"\n  shows \"mono (T f) \\<and> convex (T f)\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof -\n  from assms(1) have \"mono f \\<longrightarrow> mono (T f)\" by auto\n  from assms(2) have \"convex f \\<longrightarrow> convex (T f)\" by auto\n  from assms(3) have \"mono f\" and \"convex f\" by auto\n  thus \"mono (T f) \\<and> convex (T f)\" using assms by auto\nqed\n\nend",
+    "proposition": "logic_ex1",
+    "id": 1
 }

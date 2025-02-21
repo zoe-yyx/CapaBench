@@ -1,6 +1,6 @@
 {
     "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef smul (x y : ℤ) : ℤ := x * y + x + y\n\ntheorem smul_ex2 : smul 2 3 = 11 := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  unfold smul\n  linarith\n",
+    "proposition": "smul_ex2",
+    "id": "11.lean"
 }

@@ -1,6 +1,6 @@
 {
     "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef mono (f : ℤ → ℤ) : Prop :=\n  ∀ n m, n ≤ m → f n ≤ f m\n\ntheorem const_mono (a : ℤ) : mono (fun _ => a) := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  unfold mono\n  intros\n  linarith\n",
+    "proposition": "const_mono",
+    "id": "26.lean"
 }

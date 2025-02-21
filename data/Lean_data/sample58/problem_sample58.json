@@ -1,6 +1,6 @@
 {
     "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ntheorem fourIsEven : ∃ n, 4 = n + n := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  exists 2\n",
+    "proposition": "fourIsEven",
+    "id": "58.lean"
 }

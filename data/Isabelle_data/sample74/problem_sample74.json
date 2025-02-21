@@ -1,6 +1,6 @@
 {
     "problem": "theory SumOfSqrLt\n  imports Main\nbegin\n\nlemma sum_of_sqr_lt: \"x < y \\<Longrightarrow> x * x + x * y + y * y > 0\"\n  for x y :: int\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof -\n  assume \"x < y\"\n  hence \"(x + y) * (x + y) > 0\"\n    by (metis add_less_mono zero_less_power2)\n  thus \"x * x + x * y + y * y > 0\"\n    using `x < y` by (simp add: power2_eq_square algebra_simps)\nqed\n\nend",
+    "proposition": "sum_of_sqr_lt",
+    "id": 74
 }

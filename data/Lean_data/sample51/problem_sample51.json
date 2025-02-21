@@ -1,6 +1,6 @@
 {
     "problem": "theorem andComm (P Q : Prop) : P ∧ Q → Q ∧ P := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  intros h\n  cases h with\n  | intro hP hQ =>\n    constructor\n    -- 证明 Q\n    exact hQ\n    -- 证明 P\n    exact hP\n",
+    "proposition": "andComm",
+    "id": "51.lean"
 }

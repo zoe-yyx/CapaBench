@@ -1,6 +1,6 @@
 {
     "problem": "theorem logicEx9 {A B : Type} (P Q : A → B → Prop) :\n  (∀ (a : A) (b : B), ¬ P a b ∨ Q a b) →\n  (∀ (a : A) (b : B), P a b → Q a b) := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  intros h a b hP\n  specialize h a b\n  cases h with\n  | inl hNP =>\n    -- 如果是 ¬ P a b，产生矛盾\n    contradiction\n  | inr hQ =>\n    -- 如果是 Q a b，直接返回\n    exact hQ\n",
+    "proposition": "logicEx9",
+    "id": "77.lean"
 }

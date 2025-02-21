@@ -1,6 +1,6 @@
 {
     "problem": "theory ForallEx2\n  imports Main\nbegin\n\nlemma forall_ex2:\n  assumes \"\\<forall>x. P x \\<and> Q x \\<longrightarrow> R x\"\n  shows \"\\<forall>x. P x \\<longrightarrow> Q x \\<longrightarrow> R x\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof (rule allI, rule impI, rule impI)\n  fix x\n  assume \"P x\" and \"Q x\"\n  from assms have \"\\<forall>x. P x \\<and> Q x \\<longrightarrow> R x\" by simp\n  then have \"P x \\<and> Q x \\<longrightarrow> R x\" by simp\n  from `P x` and `Q x` have \"P x \\<and> Q x\" by simp\n  with `P x \\<and> Q x \\<longrightarrow> R x` show \"R x\" by simp\nqed\n\nend",
+    "proposition": "forall_ex2",
+    "id": 54
 }

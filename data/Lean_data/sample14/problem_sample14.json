@@ -1,6 +1,6 @@
 {
     "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef plus_one (x : ℤ) : ℤ := x + 1\n\ndef shift_left1 (f : ℤ → ℤ) (x : ℤ) : ℤ :=\n  f (x + 1)\n\ntheorem shift_left1_plus_one (x : ℤ) : shift_left1 plus_one x = x + 2 := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  unfold shift_left1 plus_one\n  linarith\n",
+    "proposition": "shift_left1_plus_one",
+    "id": "14.lean"
 }

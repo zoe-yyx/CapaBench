@@ -1,6 +1,6 @@
 {
     "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef Zcomp (f g : ℤ → ℤ) : ℤ → ℤ :=\n  fun x => f (g x)\n\ndef is_fixpoint (f : ℤ → ℤ) (x : ℤ) : Prop :=\n  f x = x\n\ntheorem fixpoint_self_comp (f : ℤ → ℤ) (x : ℤ) (h : is_fixpoint f x) :\n  is_fixpoint (Zcomp f f) x := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  unfold is_fixpoint Zcomp\n  rw [h, h]\n",
+    "proposition": "fixpoint_self_comp",
+    "id": "28.lean"
 }

@@ -1,6 +1,6 @@
 {
     "problem": "theory AndImply\n  imports Main\nbegin\n\nlemma and_imply:\n  \"((P \\<and> Q \\<longrightarrow> R) \\<longleftrightarrow> (P \\<longrightarrow> Q \\<longrightarrow> R))\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof\n  {\n    assume H: \"P \\<and> Q \\<longrightarrow> R\"\n    show \"P \\<longrightarrow> Q \\<longrightarrow> R\"\n    proof (rule impI)+\n      assume P: \"P\" and Q: \"Q\"\n      from H have \"P \\<and> Q \\<longrightarrow> R\" by assumption\n      from this have R: \"R\" using P Q by auto\n      thus \"R\" by assumption\n    qed\n  }\n  {\n    assume H: \"P \\<longrightarrow> Q \\<longrightarrow> R\"\n    show \"P \\<and> Q \\<longrightarrow> R\"\n    proof\n      assume conj: \"P \\<and> Q\"\n      from conj have P: \"P\" and Q: \"Q\" by simp_all\n      from H P Q show \"R\" by simp\n    qed\n  }\nqed\n\nend",
+    "proposition": "and_imply",
+    "id": 84
 }

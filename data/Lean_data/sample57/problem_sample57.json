@@ -1,6 +1,6 @@
 {
     "problem": "theorem iffImply (P Q : Prop) : (P ↔ Q) → (P → Q) := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  intros h hP\n  -- 使用 h 的左边推理\n  exact h.mp hP\n",
+    "proposition": "iffImply",
+    "id": "57.lean"
 }

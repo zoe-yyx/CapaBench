@@ -1,6 +1,6 @@
 {
     "problem": "theory LeafNodeConflict\n  imports Main\nbegin\n\ndatatype tree = Leaf | Node tree int tree\n\nlemma Leaf_Node_conflict:\n  assumes \"Leaf = Node l v r\"\n  shows \"1 = 2\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof -\n  have \"Leaf \\<noteq> Node l v r\" by simp\n  with assms have False by contradiction\n  thus \"1 = 2\" by simp\nqed\n\nend",
+    "proposition": "Leaf_Node_conflict",
+    "id": 42
 }

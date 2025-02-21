@@ -1,6 +1,6 @@
 {
     "problem": "theory AndComm\n  imports Main\nbegin\n\n\ntheorem and_comm:\n  fixes P Q :: \"bool\"\n  assumes H: \"P \\<and> Q\"\n  shows \"Q \\<and> P\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof -\n  from H have \"P\" by (rule conjunct1)\n  from H have \"Q\" by (rule conjunct2)\n  show \"Q \\<and> P\" using `Q` `P` by (rule conjI)\nqed\n\nend",
+    "proposition": "and_comm",
+    "id": 98
 }

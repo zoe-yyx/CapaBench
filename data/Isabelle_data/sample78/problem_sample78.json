@@ -1,6 +1,6 @@
 {
     "problem": "theory AndOrAbsorb\n  imports Main\nbegin\n\nlemma and_or_absorb:\n  \"P \\<and> (P \\<or> Q) \\<longleftrightarrow> P\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof\n  assume \"P \\<and> (P \\<or> Q)\"\n  then show \"P\" by simp\nnext\n  assume P: \"P\"\n  then have \"P \\<or> Q\" by simp\n  with P show \"P \\<and> (P \\<or> Q)\" by simp\nqed\n\nend",
+    "proposition": "and_or_absorb",
+    "id": 78
 }

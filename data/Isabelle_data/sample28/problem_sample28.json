@@ -1,6 +1,6 @@
 {
     "problem": "theory TreeExample3TreeReverse\n  imports Main\nbegin\n\ndatatype tree = Leaf | Node tree int tree\n\ndefinition tree_example2a :: tree where\n\"tree_example2a = Node (Node Leaf 8 Leaf) 100 (Node Leaf 9 Leaf)\"\n\ndefinition tree_example2b :: tree where\n\"tree_example2b = Node (Node Leaf 9 Leaf) 100 (Node Leaf 8 Leaf)\"\n\ndefinition tree_example3a :: tree where\n\"tree_example3a = Node (Node Leaf 3 Leaf) 5 tree_example2a\"\n\ndefinition tree_example3b :: tree where\n\"tree_example3b = Node tree_example2b 5 (Node Leaf 3 Leaf)\"\n\nfun tree_reverse :: \"tree \\<Rightarrow> tree\" where\n\"tree_reverse Leaf = Leaf\" |\n\"tree_reverse (Node l v r) = Node (tree_reverse r) v (tree_reverse l)\"\n\nlemma tree_example3_tree_reverse: \"tree_reverse tree_example3a = tree_example3b\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof -\n  show ?thesis\n    unfolding tree_example3a_def tree_example3b_def tree_example2a_def tree_example2b_def\n    by simp\nqed\n\nend",
+    "proposition": "tree_example3_tree_reverse",
+    "id": 28
 }

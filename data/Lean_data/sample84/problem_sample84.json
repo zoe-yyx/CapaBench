@@ -1,6 +1,6 @@
 {
     "problem": "theorem modusPonens (P Q : Prop) :\n  P ∧ (P → Q) → Q := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  intro h\n  -- 分解 h 为 P 和 P → Q\n  cases h with\n  | intro hp hpq =>\n    -- 使用 hpq 和 hp 证明 Q\n    apply hpq\n    exact hp\n",
+    "proposition": "modusPonens",
+    "id": "84.lean"
 }

@@ -1,6 +1,6 @@
 {
     "problem": "theory NotEx1\n  imports Main\nbegin\n\nlemma not_ex1: \"\\<forall>n m::int. n < m \\<or> \\<not> (n < m)\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof -\n  {\n    fix n m :: int\n    have \"n < m \\<or> \\<not> (n < m)\"\n      using classical by auto\n  }\n  thus ?thesis by auto\nqed\n\nend",
+    "proposition": "not_ex1",
+    "id": 108
 }

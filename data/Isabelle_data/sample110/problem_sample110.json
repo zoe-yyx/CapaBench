@@ -1,6 +1,6 @@
 {
     "problem": "theory OnePlusOne\n  imports Main\nbegin\n\ndefinition plus_one :: \"int \\<Rightarrow> int\" where\n\"plus_one x = x + 1\"\n\nlemma One_plus_one: \"plus_one 1 = 2\"\n\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  unfolding plus_one_def\n  by simp\n\nend",
+    "proposition": "One_plus_one",
+    "id": 110
 }

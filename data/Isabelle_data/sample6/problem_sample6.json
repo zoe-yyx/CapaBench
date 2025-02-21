@@ -1,6 +1,6 @@
 {
     "problem": "theory ShiftUp1Square\n  imports Main\nbegin\n\ndefinition square :: \"int \\<Rightarrow> int\" where\n\"square x = x * x\"\n\ndefinition shift_up1 :: \"(int \\<Rightarrow> int) \\<Rightarrow> int \\<Rightarrow> int\" where\n\"shift_up1 f x = f x + 1\"\n\nlemma shift_up1_square: \"shift_up1 square x = x * x + 1\"\n\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  unfolding shift_up1_def square_def\n  by simp\n\nend",
+    "proposition": "shift_up1_square",
+    "id": 6
 }

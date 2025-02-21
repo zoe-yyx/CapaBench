@@ -1,6 +1,6 @@
 {
     "problem": "theorem orAndAbsorb (P Q : Prop) :\n  P ∨ (P ∧ Q) ↔ P := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  -- 使用 `split` 分开两个方向的证明\n  apply Iff.intro\n  -- 从 P ∨ (P ∧ Q) → P\n  · intro h\n    cases h with\n    | inl hp => exact hp\n    | inr hPQ => exact hPQ.left\n  -- 从 P → P ∨ (P ∧ Q)\n  · intro hp\n    left\n    exact hp\n",
+    "proposition": "orAndAbsorb",
+    "id": "88.lean"
 }

@@ -1,6 +1,6 @@
 {
     "problem": "theory AndOrDistrL\n  imports Main\nbegin\n\nlemma and_or_distr_l:\n  \"P \\<and> (Q \\<or> R) \\<longleftrightarrow> (P \\<and> Q) \\<or> (P \\<and> R)\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof\n  assume \"P \\<and> (Q \\<or> R)\"\n  then have P: \"P\" and QR: \"Q \\<or> R\"\n    by auto\n  from QR show \"(P \\<and> Q) \\<or> (P \\<and> R)\"\n  proof\n    assume Q: \"Q\"\n    have \"P \\<and> Q\" by (simp add: P Q)\n    thus ?thesis by simp\n  next\n    assume R: \"R\"\n    have \"P \\<and> R\" by (simp add: P R)\n    thus ?thesis by simp\n  qed\nnext\n  assume \"(P \\<and> Q) \\<or> (P \\<and> R)\"\n  then show \"P \\<and> (Q \\<or> R)\"\n  proof\n    assume \"P \\<and> Q\"\n    then have P: \"P\" and Q: \"Q\"\n      by simp_all\n    from P Q have \"Q \\<or> R\" by simp\n    thus ?thesis by (simp add: P)\n  next\n    assume \"P \\<and> R\"\n    then have P: \"P\" and R: \"R\"\n      by simp_all\n    from P R have \"Q \\<or> R\" by simp\n    thus ?thesis by (simp add: P)\n  qed\nqed\n\nend",
+    "proposition": "and_or_distr_l",
+    "id": 107
 }

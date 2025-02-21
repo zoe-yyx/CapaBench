@@ -1,6 +1,6 @@
 {
     "problem": "theory NotOrIff\n  imports Main\nbegin\n\ntheorem not_or_iff: \n  \"\\<not> (P \\<or> Q) \\<longleftrightarrow> (\\<not> P \\<and> \\<not> Q)\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof\n  -- \"证明 \\<not> (P \\<or> Q) \\<Longrightarrow> \\<not> P \\<and> \\<not> Q\"\n  {\n    assume \"\\<not> (P \\<or> Q)\"\n    hence \"\\<not> P\" \n      by (metis disjI1)\n    moreover\n    hence \"\\<not> Q\" \n      by (metis disjI2)\n    ultimately show \"\\<not> P \\<and> \\<not> Q\" \n      by simp\n  }\n\n  -- \"证明 \\<not> P \\<and> \\<not> Q \\<Longrightarrow> \\<not> (P \\<or> Q)\"\n  {\n    assume \"\\<not> P \\<and> \\<not> Q\"\n    then show \"\\<not> (P \\<or> Q)\"\n      by (metis disjI1 disjI2)\n  }\nqed\n\nend",
+    "proposition": "not_or_iff",
+    "id": 92
 }

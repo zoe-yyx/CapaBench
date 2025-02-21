@@ -1,6 +1,6 @@
 {
     "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ntheorem sum_of_sqr1 (x y : ℤ) : x * x + y * y ≥ x * y := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  nlinarith\n",
+    "proposition": "sum_of_sqr1",
+    "id": "3.lean"
 }

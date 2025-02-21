@@ -1,6 +1,6 @@
 {
     "problem": "open Nat\n\n-- 定义加法函数\ndef add : Nat → Nat → Nat\n  | zero, m => m\n  | succ n', m => succ (add n' m)\n\n-- 定义乘法函数\ndef mul : Nat → Nat → Nat\n  | zero, _ => zero\n  | succ p, m => add m (mul p m)\n\n-- 证明 add n (succ m) = succ (add n m)，此处使用 sorry\ntheorem addSuccR (n m : Nat) : add n (succ m) = succ (add n m) := by\n  sorry\n\n-- 证明加法结合律，使用 sorry\ntheorem addAssoc (n m p : Nat) : add n (add m p) = add (add n m) p := by\n  sorry\n\n-- 证明 mul n (succ m) = add (mul n m) n\ntheorem mulSuccR (n m : Nat) : mul n (succ m) = add (mul n m) n := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  -- 使用 n 的归纳法\n  induction n with\n  | zero =>\n    -- 当 n = 0 时，直接证明\n    rfl\n  | succ n' ih =>\n    -- n = succ n' 的情况\n    simp [mul]\n    rw [ih, addSuccR]\n    rw [← addAssoc]\n    rfl\n",
+    "proposition": "mulSuccR",
+    "id": "104.lean"
 }

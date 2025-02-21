@@ -1,6 +1,6 @@
 {
     "problem": "theory MonoFuncPlus\n  imports Main\nbegin\n\ndefinition mono :: \"(int \\<Rightarrow> int) \\<Rightarrow> bool\" where\n  \"mono f \\<equiv> \\<forall> n m. n \\<le> m \\<longrightarrow> f n \\<le> f m\"\n\ndefinition func_plus :: \"(int \\<Rightarrow> int) \\<Rightarrow> (int \\<Rightarrow> int) \\<Rightarrow> int \\<Rightarrow> int\" where\n  \"func_plus f g \\<equiv> \\<lambda> x. f x + g x\"\n\nlemma mono_func_plus:\n  assumes \"mono f\"\n      and \"mono g\"\n  shows \"mono (func_plus f g)\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof -\n  have \"mono (\\<lambda> x. f x + g x)\"\n  proof (unfold mono_def, intro allI impI)\n    fix n m :: int\n    assume Hnm: \"n \\<le> m\"\n    from assms(1) have Hf_mono: \"f n \\<le> f m\"\n      unfolding mono_def by (simp add: Hnm)\n    from assms(2) have Hg_mono: \"g n \\<le> g m\"\n      unfolding mono_def by (simp add: Hnm)\n    then have \"f n + g n \\<le> f m + g m\"\n      using Hf_mono Hg_mono by (simp add: add_mono)\n    thus \"f n + g n \\<le> f m + g m\" .\n  qed\n  thus ?thesis\n    unfolding func_plus_def by simp\nqed\n\nend",
+    "proposition": "mono_func_plus",
+    "id": 66
 }

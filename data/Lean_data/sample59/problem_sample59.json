@@ -1,6 +1,6 @@
 {
     "problem": "theorem dist_exists_and {X : Type} (P Q : X → Prop) :\n    (∃ x, P x ∧ Q x) → (∃ x, P x) ∧ (∃ x, Q x) := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  intro h\n  match h with\n  | ⟨x, hpq⟩ =>\n    match hpq with\n    | ⟨hp, hq⟩ =>\n      constructor\n      · exact ⟨x, hp⟩\n      · exact ⟨x, hq⟩\n",
+    "proposition": "dist_exists_and",
+    "id": "59.lean"
 }

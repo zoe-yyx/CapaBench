@@ -1,6 +1,6 @@
 {
     "problem": "inductive Tree : Type\n| leaf : Tree\n| node (l : Tree) (v : Int) (r : Tree) : Tree\n\nopen Tree\n\n-- 定义一个定理，用于证明叶子节点和非叶子节点不可能相等\ntheorem leafNodeConflict (l : Tree) (v : Int) (r : Tree) :\n  leaf = node l v r → 1 = 2 := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  intros h\n  contradiction\n",
+    "proposition": "leafNodeConflict",
+    "id": "39.lean"
 }

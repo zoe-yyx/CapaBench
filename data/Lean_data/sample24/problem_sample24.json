@@ -1,6 +1,6 @@
 {
     "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\nset_option linter.unusedVariables false\n\ndef mono (f : ℤ → ℤ) : Prop :=\n  ∀ n m, n ≤ m → f n ≤ f m\n\ndef shift_left1 (f : ℤ → ℤ) (x : ℤ) : ℤ :=\n  f (x + 1)\n\ndef preserved_by_shifting_left (P : (ℤ → ℤ) → Prop) : Prop :=\n  ∀ f, P f → P (shift_left1 f)\n\ntheorem mono_pl : preserved_by_shifting_left mono := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  unfold preserved_by_shifting_left mono shift_left1\n  intros f h n m hnm\n  apply h\n  linarith\n",
+    "proposition": "mono_pl",
+    "id": "24.lean"
 }

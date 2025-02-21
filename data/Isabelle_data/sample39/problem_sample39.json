@@ -1,6 +1,6 @@
 {
     "problem": "theory PlusOneMono\n  imports Main\nbegin\n\ndefinition plus_one :: \"int \\<Rightarrow> int\" where\n\"plus_one x = x + 1\"\n\ndefinition mono :: \"(int \\<Rightarrow> int) \\<Rightarrow> bool\" where\n\"mono f = (\\<forall>n m. n \\<le> m \\<longrightarrow> f n \\<le> f m)\"\n\nlemma plus_one_mono: \"mono plus_one\"\n\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  unfolding mono_def plus_one_def\n  by (simp add: add_mono)  (* Simplify using the additive monotonicity rule *)\n\nend",
+    "proposition": "plus_one_mono",
+    "id": 39
 }

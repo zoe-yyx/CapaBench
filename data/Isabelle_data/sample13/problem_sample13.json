@@ -1,6 +1,6 @@
 {
     "problem": "theory LogicEx3\n  imports Main\nbegin\n\nlemma logic_ex3:\n  fixes P Q :: \"'a \\<Rightarrow> bool\"\n  assumes H: \"\\<forall>a. P a \\<longrightarrow> Q a\"\n  shows \"\\<forall>a. \\<not> Q a \\<longrightarrow> \\<not> P a\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof (intro allI impI)\n  fix a\n  assume \"\\<not> Q a\"\n  have \"P a \\<longrightarrow> Q a\" using H by (rule allE)\n  show \"\\<not> P a\"\n  proof\n    assume \"P a\"\n    from `P a \\<longrightarrow> Q a` and `P a` have \"Q a\" by (rule mp)\n    from `\\<not> Q a` and `Q a` show False by contradiction\n  qed\nqed\n\nend",
+    "proposition": "logic_ex3",
+    "id": 13
 }

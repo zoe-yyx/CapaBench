@@ -1,6 +1,6 @@
 {
     "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\n\ntheorem sum_of_sqr2 (x y : ℤ) : x * x + y * y ≥ 2 * x * y := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  have h : (x - y) * (x - y) ≥ 0 := by nlinarith\n  -- 展开 (x - y)^2\n  linarith\n",
+    "proposition": "sum_of_sqr2",
+    "id": "4.lean"
 }

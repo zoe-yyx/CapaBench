@@ -1,6 +1,6 @@
 {
     "problem": "theory ExistsExists\n  imports Main\nbegin\n\ntheorem exists_exists_equiv: \n  shows \"((\\<exists>x y. P x y) \\<longleftrightarrow> (\\<exists>y x. P x y))\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof -\n  {\n    assume \"\\<exists>x y. P x y\"\n    then obtain x y where \"P x y\" by blast\n    hence \"\\<exists>y x. P x y\" by blast\n  }\n  moreover {\n    assume \"\\<exists>y x. P x y\"\n    then obtain y x where \"P x y\" by blast\n    hence \"\\<exists>x y. P x y\" by blast\n  }\n  ultimately show \"((\\<exists>x y. P x y) \\<longleftrightarrow> (\\<exists>y x. P x y))\" by blast\nqed\n\nend",
+    "proposition": "exists_exists_equiv",
+    "id": 77
 }

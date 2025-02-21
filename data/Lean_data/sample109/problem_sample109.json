@@ -1,6 +1,6 @@
 {
     "problem": "\nopen Nat\n\ndef add : Nat → Nat → Nat\n  | zero, m => m\n  | succ n', m => succ (add n' m)\n\ndef mul : Nat → Nat → Nat\n  | zero, _ => zero\n  | succ n', m => add m (mul n' m)\n\ntheorem add_zero_right (n : Nat) : add n zero = n := by\n  sorry\n\ntheorem mul_zero_left (n : Nat) : mul zero n = zero := by\n  sorry\n\ntheorem mul_one_left (n : Nat) : mul (succ zero) n = n := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  unfold mul  -- 展开 mul 的定义\n  rw [mul_zero_left n]  -- 应用引理，将 mul zero n 替换为 zero\n  rw [add_zero_right n]  -- 应用引理，将 add n zero 简化为 n\n",
+    "proposition": "mul_one_left",
+    "id": "109.lean"
 }

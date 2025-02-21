@@ -1,6 +1,6 @@
 {
     "problem": "-- 使用 Lean 内置的自然数类型和加法\ntheorem add_cancel_left (n m p : Nat) : p + n = p + m ↔ n = m := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  induction p with\n  | zero =>\n    -- 基础情况：p = 0\n    constructor\n    · -- 方向：p + n = p + m → n = m\n      intro h\n      rw [Nat.zero_add] at h\n      rw [Nat.zero_add] at h\n      exact h\n    · -- 方向：n = m → p + n = p + m\n      intro h\n      rw [h]\n  | succ p' ih =>\n    -- 归纳步骤：p = succ p'\n    constructor\n    · -- 方向：p + n = p + m → n = m\n      intro h\n      -- 展开加法定义\n      rw [Nat.succ_add] at h\n      rw [Nat.succ_add] at h\n      -- 现在 h 是：succ (p' + n) = succ (p' + m)\n      have h' : p' + n = p' + m := Nat.succ.inj h\n      -- 应用归纳假设\n      exact ih.mp h'\n    · -- 方向：n = m → p + n = p + m\n      intro h\n      rw [h]\n",
+    "proposition": "add_cancel_left",
+    "id": "101.lean"
 }

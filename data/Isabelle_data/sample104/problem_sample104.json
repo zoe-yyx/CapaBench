@@ -1,6 +1,6 @@
 {
     "problem": "theory ReverseResultLeaf\n  imports Main\nbegin\n\ndatatype tree = Leaf | Node tree int tree\n\nfun tree_reverse :: \"tree \\<Rightarrow> tree\" where\n  \"tree_reverse Leaf = Leaf\"\n| \"tree_reverse (Node l v r) = Node (tree_reverse r) v (tree_reverse l)\"\n\nlemma reverse_result_Leaf:\n  assumes \"tree_reverse t = Leaf\"\n  shows \"t = Leaf\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof (cases t)\n  case Leaf\n  then show ?thesis by simp\nnext\n  case (Node l v r)\n  then have \"tree_reverse t = Node (tree_reverse r) v (tree_reverse l)\"\n    by simp\n  with assms have \"Node (tree_reverse r) v (tree_reverse l) = Leaf\"\n    by simp\n  then have False\n    by simp  \\<comment> \\<open>Let 'simp' automatically use the distinctness of constructors\\<close>\n  then show ?thesis\n    by simp\nqed\n\n\nend",
+    "proposition": "reverse_result_Leaf",
+    "id": 104
 }

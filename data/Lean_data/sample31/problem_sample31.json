@@ -1,6 +1,6 @@
 {
     "problem": "set_option linter.unusedVariables false\n\n-- 定义 Tree 数据类型\ninductive Tree : Type\n| leaf : Tree\n| node (l : Tree) (v : Int) (r : Tree) : Tree\n\nopen Tree\n\n-- 定义自定义的最大值函数\ndef myMax (a b : Int) : Int :=\n  if a ≥ b then a else b\n\n-- 定义 treeExample2a\ndef treeExample2a : Tree :=\n  node (node leaf 8 leaf) 100 (node leaf 9 leaf)\n\n-- 定义 treeHeight 函数\ndef treeHeight : Tree → Int\n| leaf => 0\n| node l v r => myMax (treeHeight l) (treeHeight r) + 1\n\n-- 定义一个例子\ntheorem treeExample2aHeight : treeHeight treeExample2a = 2 := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  rfl\n",
+    "proposition": "treeExample2aHeight",
+    "id": "31.lean"
 }

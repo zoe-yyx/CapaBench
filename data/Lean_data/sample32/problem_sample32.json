@@ -1,6 +1,6 @@
 {
     "problem": "set_option linter.unusedVariables false\n\n-- 定义 Tree 数据类型\ninductive Tree : Type\n| leaf : Tree\n| node (l : Tree) (v : Int) (r : Tree) : Tree\n\nopen Tree\n\n-- 定义 tree_example2b\ndef treeExample2b : Tree :=\n  node (node leaf 9 leaf) 100 (node leaf 8 leaf)\n\n-- 定义 tree_example3b\ndef treeExample3b : Tree :=\n  node treeExample2b 5 (node leaf 3 leaf)\n\n-- 定义 tree_size 函数\ndef treeSize : Tree → Int\n| leaf => 0\n| node l v r => treeSize l + treeSize r + 1\n\n-- 定义一个例子\ntheorem treeExample3bSize : treeSize treeExample3b = 5 := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  rfl\n",
+    "proposition": "treeExample3bSize",
+    "id": "32.lean"
 }

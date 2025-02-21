@@ -1,6 +1,6 @@
 {
     "problem": "theory ShiftUp1Eq\n  imports Main\nbegin\n\n(* 定义 shift_up1 函数 *)\ndefinition shift_up1 :: \"(int \\<Rightarrow> int) \\<Rightarrow> int \\<Rightarrow> int\" where\n  \"shift_up1 f x \\<equiv> f x + 1\"\n\n(* 定义 func_plus 函数 *)\ndefinition func_plus :: \"(int \\<Rightarrow> int) \\<Rightarrow> (int \\<Rightarrow> int) \\<Rightarrow> int \\<Rightarrow> int\" where\n  \"func_plus f g x \\<equiv> f x + g x\"\n\n(* 证明 shift_up1 和 func_plus 的等价性 *)\nlemma shift_up1_eq: \"shift_up1 f = func_plus f (\\<lambda>x. 1)\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof -\n  (* 展开定义 *)\n  show ?thesis\n    unfolding shift_up1_def func_plus_def\n    (* 使用 auto 证明 *)\n    by auto\nqed\n\nend",
+    "proposition": "shift_up1_eq",
+    "id": 93
 }

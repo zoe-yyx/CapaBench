@@ -1,6 +1,6 @@
 {
     "problem": "theorem andIntro (A B : Prop) : A → B → A ∧ B := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  intros hA hB\n  constructor\n  -- 证明 A\n  exact hA\n  -- 证明 B\n  exact hB\n",
+    "proposition": "andIntro",
+    "id": "48.lean"
 }

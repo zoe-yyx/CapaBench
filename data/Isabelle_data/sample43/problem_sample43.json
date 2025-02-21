@@ -1,6 +1,6 @@
 {
     "problem": "theory NodeInjValue\n  imports Main\nbegin\n\ndatatype tree = Leaf | Node tree int tree\n\nlemma Node_inj_value: \n  assumes \"Node l1 v1 r1 = Node l2 v2 r2\"\n  shows \"v1 = v2\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof -\n  from assms have \"l1 = l2 \\<and> v1 = v2 \\<and> r1 = r2\"\n    by (cases \"Node l1 v1 r1\", cases \"Node l2 v2 r2\", auto)\n  thus ?thesis by simp\nqed\n\nend",
+    "proposition": "Node_inj_value",
+    "id": 43
 }

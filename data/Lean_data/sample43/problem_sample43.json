@@ -1,6 +1,6 @@
 {
     "problem": "inductive Tree : Type\n| leaf : Tree\n| node (l : Tree) (v : Int) (r : Tree) : Tree\n\nopen Tree\n\n-- 定义 treeReverse 函数\ndef treeReverse : Tree → Tree\n| leaf => leaf\n| node l v r => node (treeReverse r) v (treeReverse l)\n\n-- 定义一个定理，证明 treeReverse 是单射的\ntheorem treeReverse_inj (t1 t2 : Tree) : treeReverse t1 = treeReverse t2 → t1 = t2 := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  induction t1 generalizing t2\n  case leaf =>\n    intros h\n    cases t2\n    case leaf => rfl\n    case node => contradiction\n  case node l1 v1 r1 ih_l1 ih_r1 =>\n    intros h\n    cases t2\n    case leaf => contradiction\n    case node l2 v2 r2 =>\n      -- 手动展开 treeReverse\n      unfold treeReverse at h\n      -- 使用 injection 提取等式\n      injection h with h1 h_v h_r\n      -- 使用归纳假设并重写等式\n      have eq_l := ih_l1 l2 h_r\n      have eq_r := ih_r1 r2 h1\n      rw [eq_l, eq_r, h_v]\n",
+    "proposition": "treeReverse_inj",
+    "id": "43.lean"
 }

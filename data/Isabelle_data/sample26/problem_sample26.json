@@ -1,6 +1,6 @@
 {
     "problem": "theory LogicEx4\n  imports Main\nbegin\n\nlemma logic_ex4:\n  fixes P Q :: \"'a \\<Rightarrow> bool\"\n  assumes H: \"\\<forall>a. \\<not> Q a \\<longrightarrow> \\<not> P a\"\n  shows \"\\<forall>a. P a \\<longrightarrow> Q a\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof (intro allI impI)\n  fix a\n  assume \"P a\"\n  have \"\\<not> Q a \\<longrightarrow> \\<not> P a\" using H by (rule allE)\n  show \"Q a\"\n  proof (rule ccontr)\n    assume \"\\<not> Q a\"\n    from `\\<not> Q a \\<longrightarrow> \\<not> P a` and `\\<not> Q a` have \"\\<not> P a\" by (rule mp)\n    from `P a` and `\\<not> P a` show False by contradiction\n  qed\nqed\n\nend",
+    "proposition": "logic_ex4",
+    "id": 26
 }

@@ -1,6 +1,6 @@
 {
     "problem": "open Nat\n\n-- 定义加法函数\ndef add : Nat → Nat → Nat\n  | zero, m => m\n  | succ n', m => succ (add n' m)\n\n-- 证明加法的结合律：add n (add m p) = add (add n m) p\ntheorem addAssoc (n m p : Nat) : add n (add m p) = add (add n m) p := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  -- 对 n 使用归纳法\n  induction n with\n  | zero =>\n    -- n = 0 的情况\n    simp [add]\n  | succ n' ih =>\n    -- n = succ n' 的情况，使用归纳假设 ih\n    simp [add]\n    rw [ih]\n",
+    "proposition": "addAssoc",
+    "id": "100.lean"
 }

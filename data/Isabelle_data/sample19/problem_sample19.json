@@ -1,6 +1,6 @@
 {
     "problem": "theory FixpointSelfComp\n  imports Main\nbegin\n\ndefinition Zcomp :: \"(int \\<Rightarrow> int) \\<Rightarrow> (int \\<Rightarrow> int) \\<Rightarrow> int \\<Rightarrow> int\" where\n\"Zcomp f g x = f (g x)\"\n\ndefinition is_fixpoint :: \"(int \\<Rightarrow> int) \\<Rightarrow> int \\<Rightarrow> bool\" where\n\"is_fixpoint f x = (f x = x)\"\n\ntheorem fixpoint_self_comp: \n  assumes \"is_fixpoint f x\"\n  shows \"is_fixpoint (Zcomp f f) x\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof -\n  (* 显式展开 is_fixpoint 的定义 *)\n  have \"f x = x\" using assms unfolding is_fixpoint_def by simp\n  (* 接下来展开 Zcomp 的定义 *)\n  have \"Zcomp f f x = f (f x)\" unfolding Zcomp_def by simp\n  (* 利用 f x = x 的假设 *)\n  also have \"... = f x\" using \\<open>f x = x\\<close> by simp\n  also have \"... = x\" using \\<open>f x = x\\<close> by simp\n  finally show ?thesis unfolding is_fixpoint_def by simp\nqed\n\n\nend",
+    "proposition": "fixpoint_self_comp",
+    "id": 19
 }

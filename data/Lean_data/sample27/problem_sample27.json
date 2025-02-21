@@ -1,6 +1,6 @@
 {
     "problem": "import Mathlib.Tactic.Linarith\nset_option linter.unusedTactic false\n\ndef mono (f : ℤ → ℤ) : Prop :=\n  ∀ n m, n ≤ m → f n ≤ f m\n\ndef func_plus (f g : ℤ → ℤ) : ℤ → ℤ :=\n  fun x => f x + g x\n\ntheorem mono_func_plus (f g : ℤ → ℤ) (hf : mono f) (hg : mono g) : mono (func_plus f g) := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  unfold mono func_plus\n  intros n m hnm\n  have hfnm := hf n m hnm\n  have hgnm := hg n m hnm\n  linarith\n",
+    "proposition": "mono_func_plus",
+    "id": "27.lean"
 }

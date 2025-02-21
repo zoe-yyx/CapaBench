@@ -1,6 +1,6 @@
 {
     "problem": "theory IffImply\n  imports Main\nbegin\n  \nlemma iff_imply: \"(P \\<longleftrightarrow> Q) \\<Longrightarrow> (P \\<longrightarrow> Q)\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof -\n  assume H: \"P \\<longleftrightarrow> Q\"\n  show \"P \\<longrightarrow> Q\"\n  proof\n    assume \"P\"\n    from H have \"P \\<Longrightarrow> Q\" by (rule iffD1)\n    then show \"Q\" using \\<open>P\\<close> by (rule mp)\n  qed\nqed\n\nend",
+    "proposition": "iff_imply",
+    "id": 67
 }

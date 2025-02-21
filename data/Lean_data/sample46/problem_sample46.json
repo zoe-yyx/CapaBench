@@ -1,6 +1,6 @@
 {
     "problem": "theorem logicEx3 {A : Type} (P Q : A → Prop) :\n  (∀ a : A, P a → Q a) →\n  (∀ a : A, ¬ Q a → ¬ P a) := by\n  ",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  intros h a hQ hP\n  -- 这里使用了假设 h 来得到矛盾\n  have hQ' := h a hP\n  contradiction\n",
+    "proposition": "logicEx3",
+    "id": "46.lean"
 }

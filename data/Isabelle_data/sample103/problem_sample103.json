@@ -1,6 +1,6 @@
 {
     "problem": "theory AddCancelL\nimports Main\nbegin\n\ndatatype mynat = MyZero (\"0\") | MySuc mynat\n\nfun myadd :: \"mynat \\<Rightarrow> mynat \\<Rightarrow> mynat\" where\n  \"myadd MyZero m = m\" |\n  \"myadd (MySuc n) m = MySuc (myadd n m)\"\n\ntheorem add_cancel_l: \"myadd p n = myadd p m \\<longleftrightarrow> n = m\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof\n  show \"myadd p n = myadd p m \\<Longrightarrow> n = m\"\n  proof (induction p)\n    case MyZero\n    then show ?case by simp\n  next\n    case (MySuc p)\n    then have \"myadd p n = myadd p m\" by simp\n    with MySuc.IH show ?case by simp\n  qed\nnext\n  show \"n = m \\<Longrightarrow> myadd p n = myadd p m\"\n    by simp\nqed\n\nend",
+    "proposition": "add_cancel_l",
+    "id": 103
 }

@@ -1,6 +1,6 @@
 {
     "problem": "theory MonoPl\n  imports Main\nbegin\n\n(* 定义单调性 *)\ndefinition mono :: \"(int \\<Rightarrow> int) \\<Rightarrow> bool\" where\n  \"mono f \\<equiv> \\<forall>n m. n \\<le> m \\<longrightarrow> f n \\<le> f m\"\n\n(* 定义 shift_left1 函数 *)\ndefinition shift_left1 :: \"(int \\<Rightarrow> int) \\<Rightarrow> int \\<Rightarrow> int\" where\n  \"shift_left1 f x \\<equiv> f (x + 1)\"\n\n(* 定义命题在 shift_left1 下保持 *)\ndefinition preserved_by_shifting_left :: \"((int \\<Rightarrow> int) \\<Rightarrow> bool) \\<Rightarrow> bool\" where\n  \"preserved_by_shifting_left P \\<equiv> \\<forall>f. P f \\<longrightarrow> P (shift_left1 f)\"\n\n(* 证明单调性在 shift_left1 下保持 *)\nlemma mono_pl: \"preserved_by_shifting_left mono\"\n\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "  unfolding preserved_by_shifting_left_def mono_def shift_left1_def\n  by auto\n  \nend",
+    "proposition": "mono_pl",
+    "id": 109
 }

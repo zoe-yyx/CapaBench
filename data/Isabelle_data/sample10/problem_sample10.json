@@ -1,6 +1,6 @@
 {
     "problem": "theory DoubleNegationIff\n  imports Main\nbegin\n\ntheorem double_negation_iff: \"\\<not>\\<not>P \\<longleftrightarrow> P\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof\n  show \"\\<not>\\<not>P \\<longrightarrow> P\"\n  proof (rule classical)\n    assume \"\\<not>\\<not>P\"\n    show \"P\"\n    proof (rule classical)\n      assume \"\\<not>P\"\n      thus False using \\<open>\\<not>\\<not>P\\<close> by contradiction\n    qed\n  qed\nnext\n  show \"P \\<longrightarrow> \\<not>\\<not>P\"\n  proof\n    assume \"P\"\n    show \"\\<not>\\<not>P\"\n    proof\n      assume \"\\<not>P\"\n      thus False using \\<open>P\\<close> by contradiction\n    qed\n  qed\nqed\n\nend",
+    "proposition": "double_negation_iff",
+    "id": 10
 }

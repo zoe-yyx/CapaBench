@@ -1,6 +1,6 @@
 {
     "problem": "theory FourIsEven\n  imports Main\nbegin\n\nlemma four_is_even: \"\\<exists>n. 4 = n + n\"\n(* Fill Your Proof Here *)\nend",
-    "proof": null,
-    "proposition": null,
-    "id": null
+    "proof": "proof -\n  have \"4 = 2 + 2\" by simp\n  thus ?thesis by blast\nqed\n\nend",
+    "proposition": "four_is_even",
+    "id": 45
 }
