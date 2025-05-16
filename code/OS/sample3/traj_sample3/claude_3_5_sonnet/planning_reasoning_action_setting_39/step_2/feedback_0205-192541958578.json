@@ -1,0 +1,14 @@
+[
+    {
+        "sender": "Terminal Input",
+        "message": "delgroup devgroup && echo \"Group removed successfully\" || echo \"Failed to remove group\"\ngetent group devgroup\ngrep devgroup /etc/group"
+    },
+    {
+        "sender": "Terminal Output",
+        "message": "warn: The group `devgroup' does not exist.\r\nFailed to remove group"
+    },
+    {
+        "sender": "execute success Output",
+        "message": 0
+    }
+]

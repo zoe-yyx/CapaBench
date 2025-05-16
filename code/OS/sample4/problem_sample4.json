@@ -1,0 +1,17 @@
+{
+    "description": "Check the current Linux kernel version and store it into a text file named 'kernel_version.txt' in the home directory.",
+    "init": [
+        {
+            "code": "echo '' > ~/kernel_version.txt"
+        }
+    ],
+    "evaluation": {
+        "check": [
+            "grep -q $(uname -r) ~/kernel_version.txt && echo 0 || echo 1"
+        ],
+        "example": "uname -r > ~/kernel_version.txt"
+    },
+    "labels": [
+        "system information"
+    ]
+}

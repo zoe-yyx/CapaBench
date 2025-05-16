@@ -1,0 +1,25 @@
+{
+    "description": "Change the priority of the process with PID stored in /tmp/pidfile to a nice value of 10.",
+    "create": {
+        "local": "default",
+        "init": [
+            {
+                "code": "sleep 300 & echo $! > /tmp/pidfile"
+            }
+        ]
+    },
+    "evaluation": {
+        "check": [
+            {
+                "code": "nice=$(ps -o ni= -p $(cat /tmp/pidfile)) && [ \"$nice\" -eq 10 ] && echo 0 || echo 1"
+            }
+        ],
+        "example": {
+            "code": "renice 10 -p $(cat /tmp/pidfile)"
+        }
+    },
+    "labels": [
+        "process",
+        "priority"
+    ]
+}

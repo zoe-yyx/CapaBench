@@ -1,0 +1,34 @@
+nohup: ignoring input
+[W socket.cpp:426] [c10d] The server socket has failed to bind to [::]:5012 (errno: 98 - Address already in use).
+[W socket.cpp:426] [c10d] The server socket has failed to bind to ?UNKNOWN? (errno: 98 - Address already in use).
+[E socket.cpp:462] [c10d] The server socket has failed to listen on any local network address.
+Traceback (most recent call last):
+  File "/home/hadoop-aipnlp/dolphinfs_hdd_hadoop-aipnlp/yangyingxuan/zhaohaoran05/config/envs/webshop/bin/torchrun", line 33, in <module>
+    sys.exit(load_entry_point('torch==1.11.0', 'console_scripts', 'torchrun')())
+  File "/home/sankuai/conda/envs/webshop/lib/python3.8/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 346, in wrapper
+    return f(*args, **kwargs)
+  File "/home/sankuai/conda/envs/webshop/lib/python3.8/site-packages/torch/distributed/run.py", line 794, in main
+    run(args)
+  File "/home/sankuai/conda/envs/webshop/lib/python3.8/site-packages/torch/distributed/run.py", line 785, in run
+    elastic_launch(
+  File "/home/sankuai/conda/envs/webshop/lib/python3.8/site-packages/torch/distributed/launcher/api.py", line 134, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/home/sankuai/conda/envs/webshop/lib/python3.8/site-packages/torch/distributed/launcher/api.py", line 241, in launch_agent
+    result = agent.run()
+  File "/home/sankuai/conda/envs/webshop/lib/python3.8/site-packages/torch/distributed/elastic/metrics/api.py", line 129, in wrapper
+    result = f(*args, **kwargs)
+  File "/home/sankuai/conda/envs/webshop/lib/python3.8/site-packages/torch/distributed/elastic/agent/server/api.py", line 723, in run
+    result = self._invoke_run(role)
+  File "/home/sankuai/conda/envs/webshop/lib/python3.8/site-packages/torch/distributed/elastic/agent/server/api.py", line 858, in _invoke_run
+    self._initialize_workers(self._worker_group)
+  File "/home/sankuai/conda/envs/webshop/lib/python3.8/site-packages/torch/distributed/elastic/metrics/api.py", line 129, in wrapper
+    result = f(*args, **kwargs)
+  File "/home/sankuai/conda/envs/webshop/lib/python3.8/site-packages/torch/distributed/elastic/agent/server/api.py", line 692, in _initialize_workers
+    self._rendezvous(worker_group)
+  File "/home/sankuai/conda/envs/webshop/lib/python3.8/site-packages/torch/distributed/elastic/metrics/api.py", line 129, in wrapper
+    result = f(*args, **kwargs)
+  File "/home/sankuai/conda/envs/webshop/lib/python3.8/site-packages/torch/distributed/elastic/agent/server/api.py", line 546, in _rendezvous
+    store, group_rank, group_world_size = spec.rdzv_handler.next_rendezvous()
+  File "/home/sankuai/conda/envs/webshop/lib/python3.8/site-packages/torch/distributed/elastic/rendezvous/static_tcp_rendezvous.py", line 55, in next_rendezvous
+    self._store = TCPStore(  # type: ignore[call-arg]
+RuntimeError: The server socket has failed to listen on any local network address. The server socket has failed to bind to [::]:5012 (errno: 98 - Address already in use). The server socket has failed to bind to ?UNKNOWN? (errno: 98 - Address already in use).

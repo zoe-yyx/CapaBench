@@ -1,0 +1,10 @@
+[
+    {
+        "sender": "Feedback",
+        "message": "None"
+    },
+    {
+        "sender": "Action",
+        "message": "Alice: PICK left_door_handle\nBob: PICK right_door_handle\nChad: WAIT"
+    }
+]

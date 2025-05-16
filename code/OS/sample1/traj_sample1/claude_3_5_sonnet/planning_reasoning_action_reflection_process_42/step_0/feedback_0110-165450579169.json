@@ -1,0 +1,14 @@
+[
+    {
+        "sender": "Terminal Input",
+        "message": "cat /tmp/pidfile"
+    },
+    {
+        "sender": "Terminal Output",
+        "message": "43"
+    },
+    {
+        "sender": "execute success Output",
+        "message": 1
+    }
+]

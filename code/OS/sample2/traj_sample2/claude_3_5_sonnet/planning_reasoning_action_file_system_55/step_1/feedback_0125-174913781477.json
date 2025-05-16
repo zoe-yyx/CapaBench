@@ -1,0 +1,14 @@
+[
+    {
+        "sender": "Terminal Input",
+        "message": "# List .doc files in the documents directory\nls -l documents/*.doc\n\n# Create zip archive with .doc files\nzip archive_document.zip documents/*.doc\n\n# Verify contents of the created zip file\nunzip -l archive_document.zip"
+    },
+    {
+        "sender": "Terminal Output",
+        "message": "-rw-r--r-- 1 root root 17 Jan 25 09:48 documents/report.doc\r\n-rw-r--r-- 1 root root 25 Jan 25 09:48 documents/summary.doc\r\n  adding: documents/report.doc (stored 0%)\r\n  adding: documents/summary.doc (stored 0%)\r\nArchive:  archive_document.zip\r\n  Length      Date    Time    Name\r\n---------  ---------- -----   ----\r\n       17  2025-01-25 09:48   documents/report.doc\r\n       25  2025-01-25 09:48   documents/summary.doc\r\n---------                     -------\r\n       42                     2 files"
+    },
+    {
+        "sender": "execute success Output",
+        "message": 1
+    }
+]

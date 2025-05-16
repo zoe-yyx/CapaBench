@@ -1,0 +1,14 @@
+[
+    {
+        "sender": "Terminal Input",
+        "message": "sudo su -\ngroupdel devgroup"
+    },
+    {
+        "sender": "Terminal Output",
+        "message": "-bash: sudo: command not found"
+    },
+    {
+        "sender": "execute success Output",
+        "message": 1
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "sender": "Terminal Input",
+        "message": "# Check for the group's existence using getent\ngetent group devgroup\n\n# Search for the group in /etc/group using grep\ngrep devgroup /etc/group\n\n# Add a comment to summarize the results\necho \"# If no output is shown above, it confirms that 'devgroup' no longer exists on the system.\""
+    },
+    {
+        "sender": "Terminal Output",
+        "message": "# If no output is shown above, it confirms that 'devgroup' no longer exists on the system."
+    },
+    {
+        "sender": "execute success Output",
+        "message": 1
+    }
+]
